@@ -1,3 +1,4 @@
+// Known case
 {
   "request_id": "AI-12345",
   "model_version": "plant_v1.0",
@@ -21,4 +22,17 @@
     "image_count": 3
   },
   "warnings": []
+}
+
+// Unknown case
+
+{
+  "identification": {
+    "status": "UNKNOWN",
+    "plant_id": null,
+    "confidence": 0.21
+  },
+  "warnings": [
+    "Input does not sufficiently match known plant classes"
+  ]
 }
