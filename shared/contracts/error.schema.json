@@ -1,0 +1,5 @@
+{
+  "error_code": "AI_SERVICE_UNAVAILABLE",
+  "message": "AI service is temporarily unavailable.",
+  "request_id": "REQ-12345"
+}
