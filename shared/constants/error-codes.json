@@ -1,0 +1,22 @@
+{
+  "ai_service": [
+    "IMAGE_INVALID",
+    "IMAGE_TOO_LARGE",
+    "IMAGE_QUALITY_LOW",
+    "MODEL_UNAVAILABLE",
+    "LOW_CONFIDENCE",
+    "UNSUPPORTED_INPUT"
+  ],
+  "knowledge_service": [
+    "KNOWLEDGE_NOT_FOUND",
+    "RETRIEVAL_FAILED",
+    "LLM_UNAVAILABLE",
+    "LANGUAGE_UNSUPPORTED",
+    "STT_FAILED",
+    "TTS_FAILED",
+    "INVALID_REQUEST"
+  ],
+  "public_backend": [
+    "AI_SERVICE_UNAVAILABLE"
+  ]
+}

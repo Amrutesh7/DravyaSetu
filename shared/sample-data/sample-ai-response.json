@@ -1,38 +1,24 @@
-// Known case
 {
-  "request_id": "AI-12345",
-  "model_version": "plant_v1.0",
-  "image_quality": {
-    "acceptable": true,
-    "issues": []
+  "known_case": {
+    "request_id": "AI-12345",
+    "model_version": "plant_v1.0",
+    "image_quality": {"acceptable": true, "issues": []},
+    "identification": {"status": "KNOWN", "plant_id": "PLANT_001", "confidence": 0.947},
+    "alternatives": [],
+    "similar_species": [],
+    "explanation": {"method": "GRAD_CAM", "heatmap_url": "..."},
+    "multi_image": {"used": true, "image_count": 3},
+    "warnings": []
   },
-  "identification": {
-    "status": "KNOWN",
-    "plant_id": "PLANT_001",
-    "confidence": 0.947
-  },
-  "alternatives": [],
-  "similar_species": [],
-  "explanation": {
-    "method": "GRAD_CAM",
-    "heatmap_url": "..."
-  },
-  "multi_image": {
-    "used": true,
-    "image_count": 3
-  },
-  "warnings": []
-}
-
-// Unknown case
-
-{
-  "identification": {
-    "status": "UNKNOWN",
-    "plant_id": null,
-    "confidence": 0.21
-  },
-  "warnings": [
-    "Input does not sufficiently match known plant classes"
-  ]
+  "unknown_case": {
+    "request_id": "AI-12346",
+    "model_version": "plant_v1.0",
+    "image_quality": {"acceptable": true, "issues": []},
+    "identification": {"status": "UNKNOWN", "plant_id": null, "confidence": 0.21},
+    "alternatives": [],
+    "similar_species": [],
+    "explanation": {"method": "GRAD_CAM", "heatmap_url": null},
+    "multi_image": {"used": false, "image_count": 1},
+    "warnings": ["Input does not sufficiently match known plant classes"]
+  }
 }

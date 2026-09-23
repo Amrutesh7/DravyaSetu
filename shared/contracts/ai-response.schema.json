@@ -1,0 +1,181 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Amrutesh7/DravyaSetu/blob/main/shared/contracts/ai-response.schema.json",
+  "title": "DravyaSetu AI Response",
+  "description": "Canonical internal response returned by Person 1 AI Service to Person 2 Spring Boot.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "model_version",
+    "image_quality",
+    "identification",
+    "alternatives",
+    "similar_species",
+    "explanation",
+    "multi_image",
+    "warnings"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "model_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "image_quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "acceptable",
+        "issues"
+      ],
+      "properties": {
+        "acceptable": {
+          "type": "boolean"
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "identification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "plant_id",
+        "confidence"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "KNOWN",
+            "UNKNOWN"
+          ]
+        },
+        "plant_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "plant_id",
+          "common_name",
+          "scientific_name",
+          "confidence"
+        ],
+        "properties": {
+          "plant_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "common_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scientific_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "similar_species": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "plant_id",
+          "name",
+          "similarity"
+        ],
+        "properties": {
+          "plant_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "similarity": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "explanation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method",
+        "heatmap_url"
+      ],
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": [
+            "GRAD_CAM"
+          ]
+        },
+        "heatmap_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "multi_image": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "used",
+        "image_count"
+      ],
+      "properties": {
+        "used": {
+          "type": "boolean"
+        },
+        "image_count": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
