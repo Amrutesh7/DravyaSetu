@@ -1,0 +1,24 @@
+{
+  "request_id": "AI-12345",
+  "model_version": "plant_v1.0",
+  "image_quality": {
+    "acceptable": true,
+    "issues": []
+  },
+  "identification": {
+    "status": "KNOWN",
+    "plant_id": "PLANT_001",
+    "confidence": 0.947
+  },
+  "alternatives": [],
+  "similar_species": [],
+  "explanation": {
+    "method": "GRAD_CAM",
+    "heatmap_url": "..."
+  },
+  "multi_image": {
+    "used": true,
+    "image_count": 3
+  },
+  "warnings": []
+}
