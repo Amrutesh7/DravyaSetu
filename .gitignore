@@ -2,7 +2,11 @@
 .idea/
 
 # Maven build output
+target/
 **/target/
 
 # Compiled Java files
 *.class
+
+# Local environment files
+.env
