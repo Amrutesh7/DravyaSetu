@@ -1,20 +1,8 @@
 {
   "languages": [
-    {
-      "code": "en",
-      "name": "English"
-    },
-    {
-      "code": "hi",
-      "name": "Hindi"
-    },
-    {
-      "code": "kn",
-      "name": "Kannada"
-    },
-    {
-      "code": "ta",
-      "name": "Tamil"
-    }
+    {"code":"en","name":"English"},
+    {"code":"hi","name":"Hindi"},
+    {"code":"kn","name":"Kannada"},
+    {"code":"ta","name":"Tamil"}
   ]
 }
