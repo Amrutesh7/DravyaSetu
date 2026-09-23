@@ -2,5 +2,15 @@ spring:
   application:
     name: dravya-setu-backend
 
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/dravya_setu}
+    username: ${DB_USERNAME:dravya_app}
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+
 server:
   port: 8080
