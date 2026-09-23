@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Amrutesh7/DravyaSetu/blob/main/shared/contracts/voice.schema.json",
+  "title": "DravyaSetu Voice Contract",
+  "description": "Shared voice response metadata contract. Exact audio encoding and transport are defined by the voice API implementation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "language",
+    "voice_output"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "language": {
+      "type": "string",
+      "minLength": 1
+    },
+    "voice_output": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": true
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
