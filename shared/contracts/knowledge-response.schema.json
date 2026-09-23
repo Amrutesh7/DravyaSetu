@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Amrutesh7/DravyaSetu/blob/main/shared/contracts/knowledge-response.schema.json",
+  "title": "DravyaSetu Knowledge Response",
+  "description": "Canonical response returned by Person 3 Knowledge Service to Person 2 Spring Boot.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "answer",
+    "language",
+    "sources",
+    "warnings"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "answer": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "voice_output": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": true
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
