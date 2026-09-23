@@ -1,0 +1,315 @@
+{
+  "version": "1.0",
+  "source": "Ayurvedic Medicinal Plants Directory.pdf",
+  "description": "Authoritative shared plant identity mapping for the currently selected DravyaSetu plant classes. Plant identifiers are stable shared IDs used across AI, backend, knowledge and frontend services.",
+  "classes": {
+    "PLANT_001": {
+      "plant_identifier": "Aloevera",
+      "common_name": "Aloe Vera",
+      "ayurvedic_regional_names": [
+        "Kumari",
+        "Ghritakumari"
+      ],
+      "scientific_name": "Aloe vera (L.) Burm.f."
+    },
+    "PLANT_002": {
+      "plant_identifier": "Amla",
+      "common_name": "Indian Gooseberry",
+      "ayurvedic_regional_names": [
+        "Amalaki",
+        "Nelli"
+      ],
+      "scientific_name": "Phyllanthus emblica L."
+    },
+    "PLANT_003": {
+      "plant_identifier": "Amruta_Balli",
+      "common_name": "Heart-leaved Moonseed",
+      "ayurvedic_regional_names": [
+        "Guduchi",
+        "Amrita",
+        "Amrutaballi"
+      ],
+      "scientific_name": "Tinospora cordifolia (Willd.) Miers"
+    },
+    "PLANT_004": {
+      "plant_identifier": "Arali",
+      "common_name": "Sacred Fig / Peepal Tree",
+      "ayurvedic_regional_names": [
+        "Ashwatha",
+        "Arali Mara"
+      ],
+      "scientific_name": "Ficus religiosa L."
+    },
+    "PLANT_005": {
+      "plant_identifier": "Ashoka",
+      "common_name": "Ashoka Tree",
+      "ayurvedic_regional_names": [
+        "Asoka",
+        "Ashokamara"
+      ],
+      "scientific_name": "Saraca asoca (Roxb.) Willd."
+    },
+    "PLANT_006": {
+      "plant_identifier": "Ashwagandha",
+      "common_name": "Indian Ginseng / Winter Cherry",
+      "ayurvedic_regional_names": [
+        "Ashwagandha",
+        "Asgandh"
+      ],
+      "scientific_name": "Withania somnifera (L.) Dunal"
+    },
+    "PLANT_007": {
+      "plant_identifier": "Betel",
+      "common_name": "Betel Leaf",
+      "ayurvedic_regional_names": [
+        "Tambula",
+        "Vlledale"
+      ],
+      "scientific_name": "Piper betle L."
+    },
+    "PLANT_008": {
+      "plant_identifier": "Betel_Nut",
+      "common_name": "Areca Nut / Betel Nut Palm",
+      "ayurvedic_regional_names": [
+        "Puga",
+        "Adike"
+      ],
+      "scientific_name": "Areca catechu L."
+    },
+    "PLANT_009": {
+      "plant_identifier": "Brahmi",
+      "common_name": "Water Hyssop",
+      "ayurvedic_regional_names": [
+        "Brahmi",
+        "Saraswati Plant"
+      ],
+      "scientific_name": "Bacopa monnieri (L.) Wettst."
+    },
+    "PLANT_010": {
+      "plant_identifier": "Castor",
+      "common_name": "Castor Bean Plant",
+      "ayurvedic_regional_names": [
+        "Eranda",
+        "Haralu"
+      ],
+      "scientific_name": "Ricinus communis L."
+    },
+    "PLANT_011": {
+      "plant_identifier": "Curry_Leaf",
+      "common_name": "Curry Leaf",
+      "ayurvedic_regional_names": [
+        "Kaidarya",
+        "Karivepaku",
+        "Kadi Patta"
+      ],
+      "scientific_name": "Murraya koenigii (L.) Spreng."
+    },
+    "PLANT_012": {
+      "plant_identifier": "Doddapatre",
+      "common_name": "Indian Borage / Mexican Mint",
+      "ayurvedic_regional_names": [
+        "Karpooravalli",
+        "Doddapatre"
+      ],
+      "scientific_name": "Plectranthus amboinicus (Lour.) Spreng."
+    },
+    "PLANT_013": {
+      "plant_identifier": "Ekka",
+      "common_name": "Crown Flower / Giant Milkweed",
+      "ayurvedic_regional_names": [
+        "Arka",
+        "Ekka Gida"
+      ],
+      "scientific_name": "Calotropis gigantea (L.) Dryand. / Calotropis procera"
+    },
+    "PLANT_014": {
+      "plant_identifier": "Ganike",
+      "common_name": "Black Nightshade / Makoi",
+      "ayurvedic_regional_names": [
+        "Kakamachi",
+        "Ganike Gida"
+      ],
+      "scientific_name": "Solanum nigrum L."
+    },
+    "PLANT_015": {
+      "plant_identifier": "Henna",
+      "common_name": "Henna",
+      "ayurvedic_regional_names": [
+        "Madayantika",
+        "Mehendi",
+        "Goranti"
+      ],
+      "scientific_name": "Lawsonia inermis L."
+    },
+    "PLANT_016": {
+      "plant_identifier": "Hibiscus",
+      "common_name": "Shoe Flower / China Rose",
+      "ayurvedic_regional_names": [
+        "Japa Pushpa",
+        "Dasavala"
+      ],
+      "scientific_name": "Hibiscus rosa-sinensis L."
+    },
+    "PLANT_017": {
+      "plant_identifier": "Honge",
+      "common_name": "Indian Beech Tree",
+      "ayurvedic_regional_names": [
+        "Karanja",
+        "Honge Mara"
+      ],
+      "scientific_name": "Millettia pinnata (L.) Panigrahi"
+    },
+    "PLANT_018": {
+      "plant_identifier": "Insulin",
+      "common_name": "Insulin Plant",
+      "ayurvedic_regional_names": [
+        "Fiery Costus",
+        "Spiral Flag"
+      ],
+      "scientific_name": "Chamaecostus cuspidatus (Nees & Mart.) C.D.Specht & D.W.Stevens"
+    },
+    "PLANT_019": {
+      "plant_identifier": "Jasmine",
+      "common_name": "Jasmine",
+      "ayurvedic_regional_names": [
+        "Jati",
+        "Mallige"
+      ],
+      "scientific_name": "Jasminum officinale L. / Jasminum sambac"
+    },
+    "PLANT_020": {
+      "plant_identifier": "Lemon",
+      "common_name": "Lemon",
+      "ayurvedic_regional_names": [
+        "Nimbuka",
+        "Limbe"
+      ],
+      "scientific_name": "Citrus limon (L.) Osbeck"
+    },
+    "PLANT_021": {
+      "plant_identifier": "Lemon_grass",
+      "common_name": "Lemongrass",
+      "ayurvedic_regional_names": [
+        "Bhutrina",
+        "Majjige Pullu"
+      ],
+      "scientific_name": "Cymbopogon citratus (DC.) Stapf"
+    },
+    "PLANT_022": {
+      "plant_identifier": "Mango",
+      "common_name": "Mango Tree",
+      "ayurvedic_regional_names": [
+        "Amra",
+        "Mavina Mara"
+      ],
+      "scientific_name": "Mangifera indica L."
+    },
+    "PLANT_023": {
+      "plant_identifier": "Mint",
+      "common_name": "Mint / Spearmint",
+      "ayurvedic_regional_names": [
+        "Pudina"
+      ],
+      "scientific_name": "Mentha spicata L. / Mentha piperita"
+    },
+    "PLANT_024": {
+      "plant_identifier": "Nagadali",
+      "common_name": "Common Rue / Herb-of-Grace",
+      "ayurvedic_regional_names": [
+        "Nagadali",
+        "Sadapaha"
+      ],
+      "scientific_name": "Ruta graveolens L."
+    },
+    "PLANT_025": {
+      "plant_identifier": "Neem",
+      "common_name": "Neem Tree / Indian Lilac",
+      "ayurvedic_regional_names": [
+        "Nimba",
+        "Bevinamara"
+      ],
+      "scientific_name": "Azadirachta indica A.Juss."
+    },
+    "PLANT_026": {
+      "plant_identifier": "Nithyapushpa",
+      "common_name": "Madagascar Periwinkle",
+      "ayurvedic_regional_names": [
+        "Sadabahar",
+        "Nithyapushpa"
+      ],
+      "scientific_name": "Catharanthus roseus (L.) G.Don"
+    },
+    "PLANT_027": {
+      "plant_identifier": "Nooni",
+      "common_name": "Noni / Great Morinda / Indian Mulberry",
+      "ayurvedic_regional_names": [
+        "Achuka",
+        "Noni"
+      ],
+      "scientific_name": "Morinda citrifolia L."
+    },
+    "PLANT_028": {
+      "plant_identifier": "Pappaya",
+      "common_name": "Papaya Tree",
+      "ayurvedic_regional_names": [
+        "Erandakarkati",
+        "Pappayi"
+      ],
+      "scientific_name": "Carica papaya L."
+    },
+    "PLANT_029": {
+      "plant_identifier": "Pepper",
+      "common_name": "Black Pepper",
+      "ayurvedic_regional_names": [
+        "Maricha",
+        "Menasu"
+      ],
+      "scientific_name": "Piper nigrum L."
+    },
+    "PLANT_030": {
+      "plant_identifier": "Pomegranate",
+      "common_name": "Pomegranate",
+      "ayurvedic_regional_names": [
+        "Dadima",
+        "Dalimbe"
+      ],
+      "scientific_name": "Punica granatum L."
+    },
+    "PLANT_031": {
+      "plant_identifier": "Raktachandini",
+      "common_name": "Red Sandalwood / Red Sanders",
+      "ayurvedic_regional_names": [
+        "Rakta Chandana",
+        "Agaru"
+      ],
+      "scientific_name": "Pterocarpus santalinus L.f."
+    },
+    "PLANT_032": {
+      "plant_identifier": "Rose",
+      "common_name": "Rose",
+      "ayurvedic_regional_names": [
+        "Shatapatri",
+        "Gulabi"
+      ],
+      "scientific_name": "Rosa indica L. / Rosa damascena"
+    },
+    "PLANT_033": {
+      "plant_identifier": "Tulasi",
+      "common_name": "Holy Basil",
+      "ayurvedic_regional_names": [
+        "Tulasi",
+        "Surasa"
+      ],
+      "scientific_name": "Ocimum sanctum L."
+    },
+    "PLANT_034": {
+      "plant_identifier": "Wood_sorel",
+      "common_name": "Indian Sorrel / Creeping Wood Sorrel",
+      "ayurvedic_regional_names": [
+        "Changeri",
+        "Huli Soppu"
+      ],
+      "scientific_name": "Oxalis corniculata L."
+    }
+  }
+}

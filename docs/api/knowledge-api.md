@@ -23,6 +23,8 @@ Person 2 sends the Knowledge Service:
 - conversation/session context when available
 - voice/audio information for voice requests when applicable
 
+When `plant_id` is present, it MUST use the shared mapping in `shared/constants/plant-classes.json`.
+
 ## Chat response contract
 The response MUST conform to `shared/contracts/knowledge-response.schema.json`.
 

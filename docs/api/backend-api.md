@@ -26,6 +26,13 @@ At minimum it carries `request_id`, `status`, `plant_id`, `confidence`, `model_v
 
 Person 2 must not invent or recalculate confidence values returned by Person 1.
 
+## Plant identity
+`shared/constants/plant-classes.json` is the authoritative shared mapping of supported plant IDs.
+
+The same `plant_id` must identify the same plant in PostgreSQL, AI results, knowledge content, and frontend data.
+
+The canonical identity shape is defined in `shared/contracts/plant.schema.json`.
+
 ## Plant Library
 The Plant Library is a public Spring Boot feature and is separate from image identification.
 

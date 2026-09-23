@@ -40,6 +40,8 @@ Canonical top-level fields:
 
 Identification status is `KNOWN` or `UNKNOWN`. `plant_id` is null when status is `UNKNOWN`. Confidence values are represented from 0 to 1.
 
+For a known identification, `plant_id` MUST refer to an entry in `shared/constants/plant-classes.json`.
+
 Person 1 owns unknown-aware detection, confidence analysis, image-quality screening, multi-image evidence fusion, Grad-CAM generation, and visual similarity logic. Person 2 consumes the result and does not recalculate the AI result.
 
 ## Error behavior
@@ -56,3 +58,4 @@ An AI service outage is translated by Person 2 into the public backend error `AI
 4. `UNKNOWN` is a valid AI result, not a transport failure.
 5. `LOW_CONFIDENCE` is an AI-domain condition and is not the same as a service outage.
 6. `model_version` must be returned for reproducibility.
+7. Plant IDs must use the shared plant identity mapping; Person 1 must not create a separate plant numbering system.
