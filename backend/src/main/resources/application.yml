@@ -22,5 +22,11 @@ app:
     secret: ${JWT_SECRET}
     expiration-ms: 3600000
 
+  ai:
+    base-url: ${AI_BASE_URL:http://localhost:8001}
+    identify-path: ${AI_IDENTIFY_PATH:/identify}
+    connect-timeout-ms: ${AI_CONNECT_TIMEOUT_MS:5000}
+    read-timeout-ms: ${AI_READ_TIMEOUT_MS:30000}
+
 server:
   port: 8080
