@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pillow
+numpy
+torch
+torchvision
+pydantic
+pydantic-settings
+opencv-python
+scikit-learn
+faiss-cpu
+grad-cam

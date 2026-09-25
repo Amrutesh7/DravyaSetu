@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# AI datasets
+ai-service/data/
+ai-service/artifacts/models/*
+ai-service/artifacts/embeddings/*
+ai-service/artifacts/indexes/*
+
+# Keep directory structure
+!ai-service/artifacts/models/.gitkeep
+!ai-service/artifacts/embeddings/.gitkeep
+!ai-service/artifacts/indexes/.gitkeep
+
+# Local notebooks/checkpoints
+*.ipynb_checkpoints/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Dataset archives
+*.zip
+*.tar
+*.tar.gz
+
+# Local outputs
+outputs/
+runs/
+logs/
