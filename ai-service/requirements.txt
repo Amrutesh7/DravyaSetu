@@ -1,13 +1,39 @@
-fastapi
-uvicorn[standard]
-python-multipart
-pillow
-numpy
-torch
-torchvision
-pydantic
-pydantic-settings
-opencv-python
-scikit-learn
-faiss-cpu
-grad-cam
+# ============================================================
+# DravyaSetu AI Service
+# Python 3.11.x
+# ============================================================
+
+# Deep Learning
+torch==2.5.1
+torchvision==0.20.1
+
+# Numerical / Image Processing
+numpy==1.26.4
+opencv-python==4.10.0.84
+Pillow==11.1.0
+
+# Machine Learning
+scikit-learn==1.6.1
+
+# API
+fastapi==0.115.6
+uvicorn==0.34.0
+pydantic==2.10.6
+python-multipart==0.0.20
+
+# Explainability
+grad-cam==1.5.5
+
+# Similarity Search
+faiss-cpu==1.9.0.post1
+
+# HTTP / Data
+requests==2.32.3
+pandas==2.2.3
+
+# Configuration
+python-dotenv==1.0.1
+
+# Validation / Testing
+pytest==8.3.4
+httpx==0.28.1
