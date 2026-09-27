@@ -10,12 +10,9 @@ from app.inference.confidence import classify_confidence
 from app.inference.unknown_detector import get_identification_status
 from app.schemas.response import AIResponse
 
-
 router = APIRouter(
-    prefix="/ai",
     tags=["AI"]
 )
-
 
 # Temporary predictor.
 # Later this will load the trained DravyaSetu model.

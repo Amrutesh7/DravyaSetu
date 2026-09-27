@@ -32,3 +32,4 @@ ai-service/artifacts/indexes/*
 outputs/
 runs/
 logs/
+check_gbif_availability.py
