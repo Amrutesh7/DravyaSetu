@@ -1,6 +1,9 @@
 package com.dravya.setu.identification;
 
 import jakarta.persistence.*;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 
@@ -18,6 +21,12 @@ public class Identification {
     @Column(name = "plant_id")
     private Long plantId;
 
+    @Column(name = "request_id", length = 255)
+    private String requestId;
+
+    @Column(name = "response_payload", columnDefinition = "TEXT")
+    private String responsePayload;
+
     @Column(nullable = false, length = 50)
     private String status;
 
@@ -27,8 +36,18 @@ public class Identification {
     @Column(name = "model_version", length = 100)
     private String modelVersion;
 
-    @Column(name = "created_at", nullable = false)
+    @CreationTimestamp
+    @Column(name = "created_at", nullable = false, updatable = false)
     private OffsetDateTime createdAt;
+
+    @Version
+    @Column(name = "version", nullable = false)
+    private Long version;
+
+    @UpdateTimestamp
+    @Column(name = "updated_at", nullable = false)
+    private OffsetDateTime updatedAt;
+
 
     public Identification() {
     }
@@ -43,6 +62,14 @@ public class Identification {
 
     public Long getPlantId() {
         return plantId;
+    }
+
+    public String getRequestId(){
+        return requestId;
+    }
+
+    public String getResponsePayload() {
+        return responsePayload;
     }
 
     public String getStatus() {
@@ -61,12 +88,28 @@ public class Identification {
         return createdAt;
     }
 
+    public Long getVersion(){
+        return version;
+    }
+
+    public OffsetDateTime getUpdatedAt(){
+        return updatedAt;
+    }
+
     public void setUserId(Long userId) {
         this.userId = userId;
     }
 
     public void setPlantId(Long plantId) {
         this.plantId = plantId;
+    }
+
+    public void setRequestId(String requestId){
+        this.requestId = requestId;
+    }
+
+    public void setResponsePayload(String responsePayload) {
+        this.responsePayload = responsePayload;
     }
 
     public void setStatus(String status) {
@@ -83,6 +126,14 @@ public class Identification {
 
     public void setCreatedAt(OffsetDateTime createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public void setVersion(Long version) {
+        this.version = version;
+    }
+
+    public void setUpdatedAt(OffsetDateTime updatedAt) {
+        this.updatedAt = updatedAt;
     }
 
     @PrePersist

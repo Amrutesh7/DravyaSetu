@@ -9,7 +9,7 @@ import jakarta.persistence.PrePersist;
 import jakarta.persistence.PreUpdate;
 import jakarta.persistence.Table;
 
-import java.time.Instant;
+import java.time.OffsetDateTime;
 
 @Entity
 @Table(name = "plants")
@@ -21,6 +21,16 @@ public class Plant {
 
     @Column(name = "plant_code", nullable = false, unique = true, length = 100)
     private String plantCode;
+
+    @Column(name = "plant_identifier", nullable = false, length = 255)
+    private String plantIdentifier;
+
+    @Column(
+            name = "ayurvedic_regional_names",
+            nullable = false,
+            columnDefinition = "text[]"
+    )
+    private String[] ayurvedicRegionalNames = new String[0];
 
     @Column(name = "common_name", nullable = false, length = 255)
     private String commonName;
@@ -44,25 +54,25 @@ public class Plant {
     private String traditionalUses;
 
     @Column(name = "created_at", nullable = false, updatable = false)
-    private Instant createdAt;
+    private OffsetDateTime createdAt;
 
     @Column(name = "updated_at", nullable = false)
-    private Instant updatedAt;
+    private OffsetDateTime updatedAt;
 
-    protected Plant() {
+    public Plant() {
         // Required by JPA
     }
 
     @PrePersist
     protected void onCreate() {
-        Instant now = Instant.now();
+        OffsetDateTime now = OffsetDateTime.now();
         createdAt = now;
         updatedAt = now;
     }
 
     @PreUpdate
     protected void onUpdate() {
-        updatedAt = Instant.now();
+        updatedAt = OffsetDateTime.now();
     }
 
     public Long getId() {
@@ -71,6 +81,14 @@ public class Plant {
 
     public String getPlantCode() {
         return plantCode;
+    }
+
+    public String getPlantIdentifier() {
+        return plantIdentifier;
+    }
+
+    public String[] getAyurvedicRegionalNames() {
+        return ayurvedicRegionalNames;
     }
 
     public void setPlantCode(String plantCode) {
@@ -95,6 +113,15 @@ public class Plant {
 
     public String getFamily() {
         return family;
+    }
+
+    public void setPlantIdentifier(String plantIdentifier) {
+        this.plantIdentifier = plantIdentifier;
+    }
+
+    public void setAyurvedicRegionalNames(
+            String[] ayurvedicRegionalNames) {
+        this.ayurvedicRegionalNames = ayurvedicRegionalNames;
     }
 
     public void setFamily(String family) {
@@ -133,11 +160,11 @@ public class Plant {
         this.traditionalUses = traditionalUses;
     }
 
-    public Instant getCreatedAt() {
+    public OffsetDateTime getCreatedAt() {
         return createdAt;
     }
 
-    public Instant getUpdatedAt() {
+    public OffsetDateTime getUpdatedAt() {
         return updatedAt;
     }
 }

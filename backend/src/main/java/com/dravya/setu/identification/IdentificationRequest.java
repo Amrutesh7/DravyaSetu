@@ -1,23 +1,25 @@
 package com.dravya.setu.identification;
 
+import org.springframework.web.multipart.MultipartFile;
+
 public class IdentificationRequest {
 
-    private String imageUrl;
+    private MultipartFile image;
     private String plantPart;
 
     public IdentificationRequest() {
     }
 
-    public String getImageUrl() {
-        return imageUrl;
+    public MultipartFile getImage() {
+        return image;
     }
 
     public String getPlantPart() {
         return plantPart;
     }
 
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+    public void setImage(MultipartFile image) {
+        this.image = image;
     }
 
     public void setPlantPart(String plantPart) {

@@ -1,0 +1,1 @@
+CREATE INDEX idx_identifications_created_at ON identifications(created_at DESC);

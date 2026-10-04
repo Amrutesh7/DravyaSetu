@@ -1,6 +1,9 @@
 package com.dravya.setu.identification;
 
 import jakarta.persistence.*;
+import jakarta.persistence.Version;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.OffsetDateTime;
 
@@ -24,8 +27,17 @@ public class IdentificationImage {
     @Column(name = "sequence_number", nullable = false)
     private Integer sequenceNumber;
 
-    @Column(name = "created_at", nullable = false)
+    @CreationTimestamp
+    @Column(name = "created_at", nullable = false, updatable = false)
     private OffsetDateTime createdAt;
+
+    @Version
+    @Column(name = "version", nullable = false)
+    private Long version;
+
+    @UpdateTimestamp
+    @Column(name = "updated_at", nullable = false)
+    private OffsetDateTime updatedAt;
 
     public IdentificationImage() {
     }
@@ -54,6 +66,14 @@ public class IdentificationImage {
         return createdAt;
     }
 
+    public Long getVersion() {
+        return version;
+    }
+
+    public OffsetDateTime getUpdatedAt() {
+        return updatedAt;
+    }
+
     public void setIdentificationId(Long identificationId) {
         this.identificationId = identificationId;
     }
@@ -68,6 +88,14 @@ public class IdentificationImage {
 
     public void setSequenceNumber(Integer sequenceNumber) {
         this.sequenceNumber = sequenceNumber;
+    }
+
+    public void setVersion(Long version) {
+        this.version = version;
+    }
+
+    public void setUpdatedAt(OffsetDateTime updatedAt) {
+        this.updatedAt = updatedAt;
     }
 
     @PrePersist

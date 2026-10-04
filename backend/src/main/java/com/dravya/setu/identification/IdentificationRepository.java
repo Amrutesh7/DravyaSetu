@@ -8,4 +8,6 @@ public interface IdentificationRepository
         extends JpaRepository<Identification, Long> {
 
     Optional<Identification> findByIdAndUserId(Long id, Long userId);
+
+    Optional<Identification> findByUserIdAndRequestId(Long userId, String requestId);
 }

@@ -17,6 +17,11 @@ spring:
     locations: classpath:db/migration
     validate-migration-naming: true
 
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 12MB
+
 app:
   jwt:
     secret: ${JWT_SECRET}
@@ -28,5 +33,21 @@ app:
     connect-timeout-ms: ${AI_CONNECT_TIMEOUT_MS:5000}
     read-timeout-ms: ${AI_READ_TIMEOUT_MS:30000}
 
+  knowledge:
+    base-url: ${KNOWLEDGE_BASE_URL:http://localhost:8002}
+    ask-path: ${KNOWLEDGE_ASK_PATH:/ask}
+    connect-timeout-ms: ${KNOWLEDGE_CONNECT_TIMEOUT_MS:5000}
+    read-timeout-ms: ${KNOWLEDGE_READ_TIMEOUT_MS:30000}
+
+  storage:
+    r2:
+      account-id: ${R2_ACCOUNT_ID:local}
+      access-key: ${R2_ACCESS_KEY}
+      secret-key: ${R2_SECRET_KEY}
+      bucket: ${R2_BUCKET:dravya-setu}
+      public-url: ${R2_PUBLIC_URL:http://localhost:9000}
+      region: ${R2_REGION:auto}
+
 server:
-  port: 8080
+  servlet:
+    context-path: /api/v1

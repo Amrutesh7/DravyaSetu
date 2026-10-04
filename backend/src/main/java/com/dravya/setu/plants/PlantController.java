@@ -1,6 +1,8 @@
 package com.dravya.setu.plants;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
@@ -9,19 +11,23 @@ import java.util.List;
 public class PlantController {
 
     private final PlantService plantService;
+    private final PlantRepository plantRepository;
 
-    public PlantController(PlantService plantService) {
+    public PlantController(PlantService plantService, PlantRepository plantRepository) {
         this.plantService = plantService;
+        this.plantRepository = plantRepository;
     }
 
-    @GetMapping
-    public List<Plant> getAllPlants() {
-        return plantService.getAllPlants();
-    }
 
     @GetMapping("/{id}")
     public Plant getPlantById(@PathVariable Long id) {
         return plantService.getPlantById(id);
+    }
+
+    @GetMapping("/code/{plantCode}")
+    public Plant getPlantByCode(@PathVariable String plantCode) {
+        return plantRepository.findByPlantCode(plantCode)
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Plant not found with code: " + plantCode));
     }
 
     @GetMapping

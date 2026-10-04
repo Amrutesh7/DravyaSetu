@@ -1,0 +1,3 @@
+CREATE INDEX idx_identifications_user_id ON identifications(user_id);
+CREATE INDEX idx_identifications_plant_id ON identifications(plant_id);
+CREATE INDEX idx_identification_images_identification_id ON identification_images(identification_id);

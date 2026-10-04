@@ -1,0 +1,53 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: dravya_setu
+      POSTGRES_USER: dravya_app
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-changeme}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dravya_app -d dravya_setu"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      DB_URL: jdbc:postgresql://postgres:5432/dravya_setu
+      DB_USERNAME: dravya_app
+      DB_PASSWORD: ${DB_PASSWORD:-changeme}
+      JWT_SECRET: ${JWT_SECRET:-dev-secret-min-32-chars-long-enough}
+      AI_BASE_URL: ${AI_BASE_URL:-http://host.docker.internal:8001}
+      KNOWLEDGE_BASE_URL: ${KNOWLEDGE_BASE_URL:-http://host.docker.internal:8002}
+      R2_ACCOUNT_ID: ${R2_ACCOUNT_ID:-local}
+      R2_ACCESS_KEY: ${R2_ACCESS_KEY:-local-access-key}
+      R2_SECRET_KEY: ${R2_SECRET_KEY:-local-secret-key}
+      R2_BUCKET: ${R2_BUCKET:-dravya-setu}
+      R2_PUBLIC_URL: ${R2_PUBLIC_URL:-http://localhost:9000}
+      R2_REGION: ${R2_REGION:-auto}
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  postgres-test:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: dravya_setu_test
+      POSTGRES_USER: dravya_app
+      POSTGRES_PASSWORD: test
+    ports:
+      - "5433:5432"
+    profiles:
+      - test
+
+volumes:
+  postgres_data:

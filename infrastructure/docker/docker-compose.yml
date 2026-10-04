@@ -1,0 +1,58 @@
+services:
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ../nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - backend
+    networks:
+      - dravyasetu-network
+
+  backend:
+    build:
+      context: ../../backend
+      dockerfile: Dockerfile
+    environment:
+      - DB_URL=jdbc:postgresql://postgres:5432/dravya_setu
+      - DB_USERNAME=dravya_app
+      - DB_PASSWORD=${DB_PASSWORD}
+      - JWT_SECRET=${JWT_SECRET}
+      - AI_BASE_URL=${AI_BASE_URL}
+      - KNOWLEDGE_BASE_URL=${KNOWLEDGE_BASE_URL}
+      - R2_ACCOUNT_ID=${R2_ACCOUNT_ID:-local}
+      - R2_ACCESS_KEY=${R2_ACCESS_KEY:-local-access-key}
+      - R2_SECRET_KEY=${R2_SECRET_KEY:-local-secret-key}
+      - R2_BUCKET=${R2_BUCKET:-dravya-setu}
+      - R2_PUBLIC_URL=${R2_PUBLIC_URL:-http://localhost:9000}
+      - R2_REGION=${R2_REGION:-auto}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - dravyasetu-network
+
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: dravya_setu
+      POSTGRES_USER: dravya_app
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dravya_app -d dravya_setu"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - dravyasetu-network
+
+volumes:
+  postgres_data:
+
+networks:
+  dravyasetu-network:
+    driver: bridge

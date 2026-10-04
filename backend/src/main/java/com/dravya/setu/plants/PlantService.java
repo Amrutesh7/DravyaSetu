@@ -11,7 +11,8 @@ public class PlantService {
 
     private final PlantRepository plantRepository;
 
-    public PlantService(PlantRepository plantRepository) {
+    public PlantService(PlantRepository plantRepository)
+    {
         this.plantRepository = plantRepository;
     }
 
@@ -31,13 +32,11 @@ public class PlantService {
                 );
     }
 
+    @Transactional(readOnly = true)
     public List<Plant> searchPlants(String search) {
-
         if (search == null || search.isBlank()) {
             return plantRepository.findAll();
         }
-
-        return plantRepository
-                .findByCommonNameContainingIgnoreCase(search.trim());
+        return plantRepository.searchByTerm(search.trim());
     }
 }

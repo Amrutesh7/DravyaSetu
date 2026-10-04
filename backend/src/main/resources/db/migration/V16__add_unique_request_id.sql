@@ -1,0 +1,1 @@
+ALTER TABLE identifications ADD CONSTRAINT uq_identifications_user_request UNIQUE (user_id, request_id);
