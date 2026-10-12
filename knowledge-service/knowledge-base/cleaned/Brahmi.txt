@@ -1,0 +1,626 @@
+* For correspondence: F. A. Tamboli (Email: drfatamboli@gmail.com)
+
+ISSN: 2348-4330
+Journal of Postharvest Technology
+2022, 10(4): 59-74
+www.jpht.in
+
+R E V I E W A R T I C L E
+
+Brahmi (Bacopa monnieri): an ayurvedic
+herb in the management of various diseases
+
+Firoj A. Tamboli1*, Vinod D. Rangari2, Shreyash D. Tarlekar3, Rajendra D. Jadhav4,
+Kamal M. Alaskar4, Vaibhava V. Desai4, Rajesh U. Kanthe4
+
+1 Department of Pharmacognosy, Bharati Vidyapeeth College of Pharmacy, Near Chitranagari, Kolhapur -416013
+Maharashtra, India.
+2 S.L.T. Institute of Pharmaceutical Sciences, Guru Ghasidas Vishwavidyalaya (Central University), Koni, Bilaspur-495 009
+(CG) India.
+3 Department of Pharmaceutical Quality Assurance, Bharati Vidyapeeth College of Pharmacy, Near Chitranagari,Kolhapur -
+416013 Maharashtra, India.
+4 Bharati Vidyapeeth (Deemed to be University)'s Institute of Management, Kolhapur- 416003, Maharashtra, India.
+
+Received: 08.03.2022
+Accepted: 12.04.2022
+
+ A B S T R A C T
+
+Bacopa monnieri (Scrophulariaceae) is an annual herb, widely distributed throughout the Indian subcontinent. It is known as Brahmi. The whole plant
+is extensively used in almost all traditional systems of medicine in India. It is a tiny, slender, succulent herb. The creeping stems that grow leaves and
+flowers have nodes that generate roots, and their length ranges from 10 to 30 cmsoft and 1-2 mm thick. The flowers are a light blue or pinkish-white
+colour. Triterpenoids, saponins, and bacosides havebeen identified to be this plant's major chemical therapeutic components through various studies.
+It has been found that the main element causing therapeutic benefits is bacoside A. It is used as an anti-inflammatory, endocrine, gastrointestinal,
+antimicrobial, smooth muscle relaxant effects, analgesic, anticancer, antidiabetic, antifungal, cardiovascular, anti-Ischemic, anti-emetic, anti-
+epilepticand antioxidant but it is best known as a memory enhancer. This review focuses on the phytochemical constituents present in B. monnieri,
+its multifarious pharmacological activities, and clinical studies.
+
+Keywords: Bacopa monnieri, bacosides, bacogenins, bacopasaponins, multifarious pharmacological activities
+
+Citation: Tamboli, F.A., Rangari, V.D., Tarlekar, S.D., Jadhav, R.D., Alaskar, K.M., Desai, V., and Kanthe, R.U. 2022. Brahmi (Bacopa
+monnieri): an ayurvedic herb in the management of various disease. Journal of Postharvest Technology, 10(4): 59-74.
+
+INTRODUCTION
+Bacopa monnieri (Linn.) Pennell. Syn. Herpestis monnieri L. family Scrophulariaceae, named Brahmi in Hindi is an annual or
+perennial herb that grows in marshy areas of India and climbs to an altitude of 1,320 meters (Kritikar and Basu, 1987). It is
+glabrous and somewhat succulent. Most ancient Indian physicians and Ayurvedic practitioners utilized herbs for treating
+dermatitis, anemia, and diabetes. It is also used as a safe cardiac tonic(Chopra et al., 1956; Asvikar et al., 1992). The entire
+plant has a strong reputation in Indian medicine for being a nervine tonic and a treatment for epilepsy and mania (Wealth of
+India 1998; Jain, 1991).
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+60
+
+B. monnieri has stems 10 to 30 cm. soft and 1-2 mm thick. Sessile, obovate-oblong or spatulate, entire obscure, bottom
+surface spotted, leaves measure between 0.6 and 2.5 cm long and 3 to 8 mm wide. Flowers are axillary and solitary, blue or
+white with purple veins, up to 5 mm long ovoid, glabrous capsules, and seeds up to 0.85 mm long, oblong, striate, and pale. It
+tastes slightly bitter and has no strong aroma.
+
+ Figure 1:Bacopa monnieri (Tamboli et al., 2018) Figure 2: Morphological features of Brahmi
+
+PHYTOCHEMISTRY
+For its phytochemical components and numerous pharmacological research, B. monnieri has been widely used. A triterpenoid
+saponin, bacoside A (mp 250oC), and bacoside B (mp 203oC) were identified from B. monnieri (Chatterji et al., 1963).
+Bacoside A was obtained in the free state and bacoside B was found in the form of mixed crystals with bacoside A
+(Chatterji et al.,1965). On acid hydrolysis bacoside A gives two sugars i.e. D-glucopyranose, L-arabinopyranose, and a
+disaccharide which on hydrolysis gives glucose, and arabinose. The bacoside B on acid hydrolysis gives A1, A2, A3, and A4
+bacogenins, glucose, arabinose (Basu et al.,1967). He further reported bacoside B as dextrorotatory and bacoside A as
+levorotatory compounds. The former has twice the hemolytic activity of the latter, which appears to be related to the former's
+different carbohydrate chain structure. Then the structure of bacogenin A1 (mp 242oC) and bacogenin A2 were confirmed. It
+was discovered that bacogenin A2 was an isomer of bacogenin A1, with the two being distinct either in their structure at the C-
+20 position or in the position of the noncyclic methyl group side chain. (Kulshrestha et al.,1947; Kulshrestha et al.,1974;
+Kulshrestha et al.,1975). The structure of bacogenin A3 was also confirmed from this plant (Chandel et al.,1975).
+The structure of bacogenin A4 as ebeline lactone was reported (Kulshreshtha et al., 1973). Then the new minor triterpenoid
+saponin bacoside A1[6] have isolated from the plant (Jain and Kulshreshtha, 1993). The bacoside A2 from B. monnieri and
+elucidated it as 3 β- [-O-α-L-arabino furanosyl (1à6)-O-[α-L-arabinopyranasy-1(1à5)]-O-α-D-gucofuranosy-1) oxy]
+pseudojujubogenin was reported (Rastogiand Kulshreshtha,1993). Similarly, in another study a new triterpenoid saponin
+bacoside A3 was isolated (Rastogi et al.,1994). Then in another study jujobogenin and pseudojujubogenin the degradative
+products of bacoside A by Smith-de Mayo degradation reaction were reported (Ken-Ichi et al., 1974; Ken-Ichi et al.,1978).
+Then three novel triterpenoid saponins were discovered that are dammarane class, bacopasaponins B, bacopasaponins C
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+61
+
+(Garai et al., 1996). The two new dammarane-type jujubogeninbisdesmosides. Bacopasaponins E and F and defined them as
+3-O-[ β-D-glucopyranosy (1à3)-{α-L-arabinofururanosyl (1à2)} α-L arabinopyranasy 1) jujobogenin and 3-O-[β-D-
+glucopyranosyl (1à3) { α-L-arabinofururanosyl (1à2) } β-D- glucopuranosyl]-20-O-L-arabinopyranosyl] jujubogenin
+respectively (Mahato et al., 2000). Another study reports the isolation and characterization of bacopaside I and II.
+(Chakravorty et al., 2001). The phytochemical investigation of aerial parts of B. monnieri has led to the discovery of a novel
+triterpene, lup-20, as well as the sterols 13,14,sfeco-stigma-9 (11)-14, and 15-dien-3 (2a) Becosine is the name for the -en-3-
+ol-2-oic acid (BaharAhmed and Rahaman A, 2000). A new neutral saponin, monnierin, and was shown to be a triterpenoid
+saponin which on acid hydrolysis affords glucose and arabinose (Dutta and Basu 1963, Dutta and Basu 1967, Dutta and Basu
+1968). Then the compound was isolated as nicotine and 3-formyl -4hydroxy-24-pyran from the plant ( Schulle et al, 1972).
+Some other constituents have been reported such as betulic acid, D-mannitol, sigmastanol, β-sitosterol, and sigmasterol along
+with another major constituent of the plant. A chemically pure saponin named as (hersaponin) (mp. 223-2340C) was isolated in
+addition to D-mannitol and potassium salts. Aspartic acid, Glutamic acid, Serine, and A-alanine have also been reported
+(Sastry et al., 1959). Two alkaloids viz. herpenstine and brahmine were reported from this plant (Brown and Martin, 1960). The
+structures of various constituents of B. monnieri have been given in Table 2. In the nitro blue tetrazolium (NBT) experiment,
+the hydroalcoholic extract of B. monnieri released from polymorphonuclear (PMN) cells revealed that the main dammarane
+triterpene saponin bacoside A3 was in charge of this effect in herbs. The ability of B. monnieri node, internode, and leaf
+explants to produce new organs was investigated (Tiwari et al.,1998).
+ISOLATION
+Isolation of Bacosides and other fractions from the B. monnieri
+Following is the general process for isolating bacosides and other fractions from B. monnieri extracts:
+1.
+Extract powdered drug B. monnieri Exhaustively with ethanol,
+2.
+Concentrate ethanolic extract by dissolving it in 60% ethanol,
+3.
+Use a separating funnel and benzene to extract the above solution to produce,
+a.
+Ethanol Extract (X), b) Benzene Extract (Y)
+4.
+A thick slimy substance precipitates out of the ethanolic extract (X) during concentration, separating it from the
+supernatant. (Z)
+5.
+To separate the brown resinous ingredient, dissolve the slimy mass in alcohol and fractionally precipitate it with ether
+and petroleum ether several times.
+6.
+Concentrate the mixture of ethanol, ether, and petroleum ether; macerate the leftover material with acetone, and filter
+it.
+7.
+Divide the insoluble powder in acetone between butanol and water.
+8.
+A precipitate settles down while the butanol soluble fraction is being concentrated. Filter it, then mark it as FI.
+9.
+Concentrate the filter once more, and then use acetone and ether to precipitate it into a powder.
+10. Dry out the mother liquor after concentration. It provides a brown powder FIII.
+11. When a solid settle down, keep the acetone-soluble fraction in the cold for a few days. Filter it and acetone-wash it
+FIV.
+12. Macerate the hygroscopic, resinous substance with ethyl acetate after almost completely drying the filtrate. Benzene
+solution Y should get the solvent washings.
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+62
+
+Bacoside A is produced in the F1, F2, and FIII fractions by the aforementioned isolation process, whereas Bacoside B is
+produced in the FIV fraction.
+The paper chromatographic study of the solvent system with FI, FII, FIII, and FIV. For the first three fractions of bacoside A,
+ethyl acetate-pyridine-water (4:1:1) and treatment with the developing reagent trichloroacetic acid (25%) in chloroform result in
+Rf values of 0.43 and 0.09, respectively (Chatterji et al., 1963).
+ASSAY / ANALYTICAL STUDIES
+UV spectroscopy for the quantitative identification of all bacosides as bacoside A
+Make a 1 mg/mL solution of bacoside A in methanol. Prepare additional dilutions of this stock solution with concentrations of
+25, 50, 100, 200, 800, and 1000 mg/mL. Add 1ml of 4 N aqueous sulphuric acid to 1ml of each of the aforementioned
+solutions, and reflux for 4 hours on a water bath. Under reduced pressure, the methanol is extracted after cooling and dilution
+with 4 mL of distilled water. Chloroform (4x5ml) is used to extract the aqueous solutions. The combined chloroform extract is
+then washed with a 0.1% ammonia solution before being rinsed with distilled water. Remove the chloroform at reduced
+pressure after drying the chloroform solution on anhydrous sodium sulphate. Make a solution of the residue in 10 ml of AR-
+grade methanol. Draw a calibration curve (n=5) based on the solutions' absorbance at 278 nm following hydrolysis, with the
+range of 5 to 50 g/ml representing bacoside A.
+Test Solution: To create a solution with a concentration of roughly 300 g/ml, dissolve a known amount of the sample
+(bacosides) in methanol. 1 ml of the test solution should be hydrolyzed before proceeding as directed under the calibration
+curve. Calculate the sample's bacoside A content using the calibration curve and the absorbance at 278 nm. Table 2 shows
+the average proportion of the different B. monnieri as elements as determined by the aforementioned procedure (Indian Herbal
+Pharmacopoeia 1998).
+Table 1: Bacosides and other constituents isolated from B. monnieri
+Compound
+m.p. (OC)
+% Yield (Dry weight basis)
+Bacoside A
+250-51(dec.*)
+1.54
+Bacoside B
+230 (dec.*)
+0.65
+Betulic acid
+315
+0.11
+D- Mannitol
+166
+0.02
+Stigmasterol
+170
+0.013
+B-Sitosterol
+137
+0.014
+Stigmastanol
+147
+0.005
+
+*decomposition
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+63
+
+Table 2: Phytoconstituents of Bacopa monnieri
+
+Phytoconstituents
+Structures
+Bacoside A
+
+Bacoside B
+
+Bacogenin A1
+
+Bacogenin A2
+
+Bacogenin A3
+
+Bacogenin A4
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+64
+
+Bacoside A1
+
+Bacoside A2
+
+Bacoside A3
+
+Jujobogenin
+
+Pseudojujubogenin
+
+Bacopasaponins A
+
+Bacopasaponins B
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+65
+
+Bacopasaponins C
+
+Bacosterol
+
+PHARMACOLOGY
+The herb B. monnieri possesses a variety of pharmacological activities. The plant has a particularly good reputation in Indian
+medicine as a laxative, carminative, digestive, anti-inflammatory, anti-convulsant, cardiotonic, bronchodilator, diuretic,
+febrifuge, and nervine tonic. It helps with vitiated disorders of the Kapha and Vata, as well as with epilepsy, dementia, tumors,
+ulcers, dyspepsia, constipation, asthma, bronchitis, skin ailments, leprosy, leukoderma, syphilis, dysmenorrhea, sterility, fever,
+and general weakness (Asvikar et al., 1992, Dandiya 1992, Indian Medicinal Plants, 1994, Jain et al., 1991, Nadkarni, 1982).
+Nervine Tonic: The herb has been utilized as a nervine tonic for memory enhancement since the dawn of time. Even though it
+has gotten a lot of attention in Indian works on religion, culture, and medicine. The first time the CNS effects of Brahmi are
+mentioned directly is in the Charak Samhita, which was composed in the first century AD. Brahmi is a remedy for mental
+diseases, which include symptoms like anxiety, difficulty concentrating, intellectual weakness, and others, according to
+Charak. Sushrut Samhita, another reliable treatise, describes brahmi as a useful medication in cases of mental and memory
+loss ( Singh and Dhawan, 1977, Vaidya Ashok, 1997).
+The effectiveness of B. monnieri and chlorpromazine on rats ability to learn a "basic motor learning test" has been compared
+and evaluated. When both medications are given to animals who are still learning, their performance is improved. At a dose of
+10 mg/kg, chlorpromazine seemed to depressive effect on motor efficiency as seen by the comparatively long time some
+animals took to complete the T-path, while Brahmi had no such negative effects. Bhardwaj and colleagues found that Brahmi,
+one of the components of CIHP (III), was successful in enhancing mental capacity. When CIHP (III) is administered to albino
+rats, avoidance learning during endurance performance significantly improves. BR-16 A (Mentat8). According to reports, a
+natural psychotropic medication has a positive impact on people with mental retardation, cerebral deficits, and behavioral
+disorders (Kulkarni and Verma, 1993).
+Depressant Activity: In their research of the crude total extract of B. monnieri, found that the degree of neurological deficit in
+rats varied dose-dependently and was depicted by abnormalities in sitting posture and gait, a loss of muscle tone, an inability
+to maintain balance, and the absence of a righting reflex. It also produced a slight to considerable respiratory depression. On
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+66
+
+the nerve-muscle preparation of the frog's gastrocnemius muscle, the effect of the crude whole extract at concentrations
+ranging from 1:00,000 to 1:1000 was investigated. Each concentration was tested in six to ten experiments, with the frog's
+other gastrocnemius muscle acting as the control in each experiment. The crude extract had no impact at concentrations of
+1:100,000 to 1:20,000. While it generated total neuromuscular block at concentrations of 1:5,000 to 1:1,000 and partial
+neuromuscular block at 1:10,000, the muscle was still sensitive to direct stimulation. Rats and guinea pigs were found to be
+anesthetized by the pure saponin glycoside compound (Malhotra and Das, 1959). According to research done the entire
+extract and its components have an inhibitory effect on the rat brain's homogenate's ability to take in oxygen
+(Dhalla et al.,1963).
+Anxiolytic Activity: When rats were treated with the plant showed signs of reduced anxiety. The extract significantly
+decreased the activity of experimental animals without significantly changing the brain's neurochemistry, and the substance
+significantly enhanced the barbiturate hypnotic effect (Singh et al., 1979). A dose-dependent anxiolytic effect similar to
+lorazepam has been established by extract of B. monnieri that contains 25.5% bacoside A. The results are consistent with the
+plant's clinical use for the improvement of cognitive functioning in the Indian medical system (Bhattacharya and Ghosal,1998).
+In Estrogen-deficiency: For the treatment of estrogen-deficiency-related cognitive impairment, a multi-component herbal
+preparation comprising 15–25% B. monnieri extract is employed. Menopausal women who showed signs of an estrogen
+insufficiency disease were successfully treated with the herbal combination (Grose, 2001).
+Bronchodilatory Activity: An ethanolic extract of the herb had bronchodilatory and circulatory effects on rats under
+anesthesia. The extract countered carbachol's bronchoconstrictor effects. When compared to isoprenaline, the plant extract's
+bronchodilatory impact was manifested by a decrease in expiratory pressure that was more similar to a salbutamol-induced
+effect. The bronchodilatory effect of the plant extract is probably jointly mediated by independent and adrenoceptor-dependent
+mechanisms. Consequently, providing support for its traditional use in the treatment of asthma (Dar and Channa, 1977).
+Anti-inflammatory Activity: The drug's anti-inflammatory efficacy is mediated via interfering with prostaglandin synthesis
+and/or action, as well as maybe by stabilizing lysosomal membranes. It has similar anti-inflammatory properties to
+indomethacin (Khanna, 1995).
+Antistress Activity: The effect of four MedhyaRasayana drugs viz. Brahmi (B. monnieri) Shankhapushpi (Convolvulus
+pluricaulis) Yasti (Glycyrrhiza glabra) and Guduchi (Tinospora cardifolia) have been studied. In normal and stressed rats, the
+brain's levels of acetylcholine, catecholamines, 5-hydroxytryptamine, and histamine were examined. These medications
+significantly increased acetylcholine levels in the cortex while significantly lowering acetylcholine levels in the homogenate of
+the entire brain. Additionally, observed to be higher were the catecholamine and 5-hydroxy tryptamine concentrations. Rats
+under stress had more noticeable changes. The aforementioned alterations suggested that these medications, in addition to
+working as tranquilizers, may also be improving mental performance (Singh et al., 1979).
+Anticancer Activity: There have been claims that plant extract possesses anti-cancer qualities. Sarcoma 180 cell culture was
+used to evaluate various doses of the ethanolic extract of B. monnieri. We evaluated the DNA incorporation of 3, 4-thymidine
+and the viability of cell growth. With increasing B. monnieri extract concentration, Sarcoma 180 cell proliferation was severely
+suppressed. A DNA replication stage has been proposed as the drug's site of action for its anticancer effect (Elangovan et al.,
+1995). The rasayanas that produced Madhur vipaka (B. monnieri and other crude drugs) improved the carbon clearance in
+rats, indicating stimulation of the reticuloendothelial system (Dahanukar and Thatte, 1977).
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+67
+
+Anticonvulsant Activity: The anticonvulsant profile of several extracts of Centella asiatica and B. monnieri in rats has been
+assessed. At 34 and 64, B. monnieri extracts (500 mg/kg) exhibited mild to moderate anticonvulsant action, whereas 1000
+mg/kg showed low activity. At 1 and 6 hours, there was noticeably more activity, but not at 24 hours. B. monnieri demonstrated
+a quicker beginning of the action, and time/dose response was comparable to the impact of phenytoin, a common medicine
+(Sudha et al., 2002).
+Analgesic Activity: Bacosine has been found to have analgesic properties. It has a little analgesic effect, but it has no impact
+on catalepsy brought on by haloperidol, barbiturate narcosis, spontaneous motor activity, or conditioned avoidance reaction.
+According to reports, the analgesic action is opioidergic in nature (Vohora and Khanna, 1977).
+MAO Inhibitor: The rat liver and brain stem MAO enzymes were both activated by the aqueous extract of B. monnieri
+reaching a maximum at 20 mcg/ml of the reaction mixture at lower concentrations. The action decreases as the dry
+concentration rises, and it becomes an inhibitor at 30-35 mcg/ml RM. MAO's greatest inhibition in this investigation came from
+the brain stem (Ramakrishnan, 1987). A cosmetic lotion containing B. monnieri extract 3% has been reported to be
+advantageously used in cases of stress, whether physical-chemical, or psychological, which affects skin metabolism and skin
+function and appearance (Linter, 1999). The superoxide inhibiting effect of bacoside. In the nitroblue tetrazolium (NBT)
+experiment, the hydroalcoholic extract of B. monnieri has released from polymorphonuclear (PNM) cells. It was discovered
+that the main dammarane triterpene saponin bacoside A3 is what produces these effects in herbs (Pawar et al., 2001).
+Anti-Diabetic Activity: A metabolic condition known as diabetes mellitus affects the metabolism of carbohydrates, fats, and
+proteins. This disease affects 1% of the population, on average. Diabetes mellitus is a serious issue (Sabina et al., 2014). In
+their study of an ethanolic extract of B. monnieri, revealed that the triterpene bacosine seems to be what causes the increased
+glycogen content in diabetic rats (Ghosh et al., 2011). Additionally, the extract resulted in an increase in peripheral glucose
+consumption in the diaphragm of diabetic rats in vitro. Consequently, alloxan-induced diabetic rats revealed insulin-like action
+(Sabina et al., 2014).
+Anti-Microbial: Researchers examined the anti-microbial properties of ethanolic, diethyl acetate, ethyl acetate, and aqueous
+extracts of B. monnieri aerial parts (Sampathkumar et al., 2008). While diethyl ether extract indicated antibacterial activity
+against gram-positive organisms, ethyl acetate extract showed antibacterial action against gram-negative species. In the test,
+bacteria including Proteus vulgaris and Staphylococcus aureus were used. The ethanolic extract showed anti-fungal action
+against Candida albicans and Aspergillus niger. B. monnieri extracts in ethyl acetate and methanol were shown to have
+antibacterial activity by the disc diffusion method against 7-gram-negative and 11-gram-positive bacteria (Khan et al., 2010).
+Two phytochemicals from Bacopa monnieri's aerial parts, betulinic acid and orexin, have been discovered to have antifungal
+effects on Alternaria alternata and Fusarium fusiformis (Sampathkumar et al., 2008).
+Cardiovascular: The effects of intravenous B. monnieri extract administered to rats under anaesthesia on arterial blood
+pressure and heart rate. Without altering heart rate, the extract reduced systolic and diastolic pressures. Blood pressure was
+shown to decrease as a result of processes affecting vascular smooth muscle Ca2+ homeostasis and the endothelium's
+release of nitric oxide (Kamkaew et al., 2011).
+Antifungal Activity: The IC50 values for Fusarium oxysporum (31.25 g/ml), Sclerotium rolfsii (6.25 g/ml), Alternaria sp (28.75
+g/ml), and Rhizoctonia solani (18.75 g/ml) show that extract of bacopa successfully inhibited the development of the selected
+fungus (Jain et al., 2017).
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+68
+
+Anti-emetic Properties: Research on B. monnieri's anti-emetic effects was done. Chemotherapy-induced emesis in Suncus
+murinus was used to examine the anti-emetic effects of B. monnieri's methanolic and butanoic fractions. The animal was
+administered an injection of cisplatin (30 mg/kg) to cause emesis. For anti-emetic screening, different concentrations of
+butanoic extract (5-20 mg/kg) and methanolic extract (10-40 mg/kg) were assessed. The results showed that methanolic
+extract inhibited the vomiting reaction by 71% and butanoic extract by 59.4%. It promotes methanolic extract as a reliable
+source of medication to treat nausea caused by chemotherapy (Ullah et al., 2017).
+Anti-Rheumatic Activity: Along with significantly increased paw edema and specific signs of arthritis, arthritic index,
+neutrophil infiltration, higher anti-collagen IgM and IgG serum levels, and inflammatory mediators including cyclooxygenase,
+lipoxygenase, and myeloperoxidase were also observed. IgM and IgG anti-collagen levels in serum were diminished (Viji et al.,
+2010).
+Antiparkinsonian activity: Bacopa monnieri has shown its activity as a potential anti-Parkinsonian treatment by reducing
+alpha-synuclein aggregation in Caenorhabditis worms’ models of Parkinson's disease, which prevents the dopaminergic
+neurodegeneration, and restores the lipid content in nematodes (Jadiya et al., 2012).
+Anti-Ulcerative activity: Bacopa monnierijuice was administered orally twice daily for five days at doses of 100 and 300
+mg/Kg, along with 250 mg/Kg of sucralfate. Except for ethanol-induced ulcers, the juice exhibited antiulcer efficacy in models
+of stomach ulcers. The outcome is associated to aspects that protect the mucosa, such as elevated mucin secretion, reduced
+mucosal cell exfoliation, and mucosal glycoprotein (Mohanty et al., 2010).
+Anti-Ischemic Activity: The 48 rats were split into four groups at random: the sham group, the Bacopa monnieri control
+group, the ischemia-reperfusion control group, and the Bacopa monnieri-treated group. Significant myocardial necrosis,
+apoptosis, heart rate lowering, a decline in antioxidant status, and an increase in lipid peroxidation were all effects of post-
+ischemic reperfusion injury (Mathur et al., 2010).
+Antioxidant Activity: Four B. monnieri (whole plant) extracts' antioxidant potential was examined using DPPH radical
+scavenging. The methanol and aqueous sequential extracts had the highest antioxidant activity, with IC.50 values of 46.00
+g/ml and 43.10 g/ml, respectively (Kar et al., 2002).
+Endocrine effects: When administered orally to mice, bacopa extract (200 mg/kg) increased the thyroid hormone T4 by 41%.
+T4 was not converted to T3 by the extract, indicating that it may instead directly stimulate T4 production and/or release at the
+glandular level (Shahid and Subhan, 2014).
+Hepatoprotective Activity: Methanolic extract pre-treatment against CCl4 has revealed a protective effect. In addition to
+congesting the central vein and enlarging the sinusoids, it has preserved the liver structure in rats. The screening of
+hepatoprotective herbal medicines has frequently utilized chemically induced hepatotoxicity in animals (Shahid and Subhan,
+2014).
+Anti-Alzheimer Activity: The memory facilitating effect of B. monnieri extract and its active constituents was reported due to
+an effect on central cholinergic modulation of memory functions (Bhattacharya, 2001).
+Mast-Cell Stabilizing Activity: Bacopa monnier iextracts in successive levels of petroleum ether, chloroform, methanol, and
+water were examined (in vitro) for their ability to stabilize mast cells. The well-known mast cell stabilizer disodium
+cromoglycate and the methanolic fraction were equivalent in terms of the robust activity of the fraction (Samiulla, 2001).
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+69
+
+Hair growth promoting activity: The Emblica officinalis, Bacopa monnierii, and Cyperus rotundus alcoholic extract or whole
+drug formulation provided the best results when compared to the other formulations, as shown by an increase in follicular size
+and a lengthening of the anagen phase (Dass, 2015, Jain, 2016, Jain, 2012).
+CLINICAL STUDIES
+Anti - Alzheimer’s activity of Bacopa monnieri in Human Clinical Trail
+Prabhakar et al. conducted a randomized double-blind parallel phase 2b research to compare the effectiveness of Bacopa
+monnieri and the industry-standard medication Donepezil. In the trial, which included 48 patients, 300 mg of Bacopa monnieri
+extract and 10 mg of dopenzal were administered. The Postgraduate Institute (PGI) memory scale and the Alzheimer's
+Disease Assessment Scale (ADAS-cog) were used to analyze the results. Bacopa monnieri is a powerful anti-Alzheimer
+agent, and studies comparing it to dopenzil have not revealed any significant differences (Prabhakar et al., 2020).
+Effect on Cognitive Function: Animal studies have shown that B. monnieri extracts have a positive impact on cognitive
+function. The long-term effects of B. monnieri extract on cognitive performance in healthy human volunteers have been
+studied. The individuals were divided into two treatment groups at random: B. monnieri (300mg) or placebo in this double-
+blind, placebo-controlled, independent group trial. Neuropsychological testing of the patients at baseline, 5, and 12 weeks after
+pharmaceutical administration has showed significantly accelerated visual information processing speed as measured by IT
+task learning rate and memory consolidation, with the greatest advantages becoming apparent after 12 weeks. These findings
+suggest that B. monnieri may improve higher order cognitive abilities like learning and memory, which are very dependent on
+environmental input (Stough et al., 2001).
+Effect on Schizophrenia: Effect on Smriti Sagarovasa, a herbomineral preparation containing Brahmi (B. monnieri), Acorus
+calamus and Celastrus paniculatas in the dosage of 250 mg tablet given 3 times a day with honey has been reported. Eleven
+patients out of 30 (36.67%) showed significant improvement and an approximately similar number (33.33%) showed,
+moderate improvement after 3 months of treatment (Tripathi and Singh, 1994).
+Anti-epileptic Activity: For 6 weeks, 31 adult epilepsy patients between the ages of 23 and 42 were administered Mentat
+tablet formulation b.i.d. in addition to the other epileptic medications. Ayurvedic components identified in Mentat pills, including
+B. monnieri, Centella asiatica, Whitania somnifera, Evolvulus alsinosides, and Nordostachys jatamanasi, significantly reduced
+seizure frequency and functioned as an effective adjuvant to frequently prescribed anti-epileptic medications. No negative
+effects were noticed (Maharana and Maharana, 1994)
+Anabolic Activity: A preparation containing extracts of B. monnieri along with some other crude drugs like Whitania
+somnifera, Emblica officinalis, Asparagus lacemosus, Tinospora cardifola, Tribulus terrestris, Picorrhiza kuroa, cyperus
+scariosus, Terminalia chebula, Piper longum, and Myristica fragrans when administered to patients with complaints to lethargy,
+fatigue and exhaustion showed overall improvement. The serum proteins and hemoglobin levels have also shown a significant
+increase suggesting the anabolic activity of the formulation (Jayaram et al., 1993).
+Anti-diabetic Activity: In diabetic patients, clinical trials of the Rasayana medicines, Centella asiatica, Asparagus racemosus,
+and B. monnieri were conducted 78. Serum IgA levels were found to be considerably lower in diabetics, higher, and
+comparable to IgM levels. Serum IgA levels in diabetic patients were reduced by all medications. However, A. racemosus was
+the only species with statistically significant results (Arora et al., 2002)
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+70
+
+CONCLUSION
+Since traditional medicines are less hazardous, it is clear that the needs of the great majority of people with health issues are
+not being adequately met by currently available treatments. Bacopa is one of the indigenous plants used in Ayurveda and
+herbal remedies. Through preclinical, clinical testing and evaluation in various disease states, the therapeutic efficacy of
+Bacopa monnieri has been established and is widely used in Indian medicine.
+REFERENCES
+Arora, D., Kumar, M.. Dubey, S.D. and Singh, U. 2002. Immunomodulating effects of Rasayana drugs in Diabetes – A
+Clinical Study. Ancient Sciences of Life, 22(2): 42-48.
+Asvikar, L.V., Kakkar, K.K., Chakre O.S. 1992. Second supplement to glossary of Indian Medicinal Plants with active principles
+(Part-I), CSIR, New Delhi. 39-45.
+Asvikar, L.V.,Kakkar, K.Z., and Chakre O.J. 1992. Second Supplement to Glossary of Indian Medicinal Plants with active
+principle Part I. CSIR. New Delhi,112.
+Bahar, Ahmed., Rahaman A. 2000. Bacosterol a New 13,14- seco-steroid and bacoside, a new triterpene from Bacopa
+Monnieri. Indian Journal of Chemistry, 3B (8): 620-625.
+Basu, N., Rastogi R.P. and Dhar M.L. 1967. Chemical examination of Bacopa Monnieriwettst; Part-III: The constitution of
+Bacoside B. Indian Journal of Chemistry, 5: 84-85.
+Basu, U.P., Dutta T. 1967. The structure of Monnierin. Tetrahedran Letters, 31: 2937-2941.
+Bhardwaj, S.K., Srivastava KK. 1995. Effect of a composite Indian herbal preparation CIHP (III) on avoidance learning during
+endurance performance of rats. Indian Journal of Experimental Biology, 33: 580-584.
+Bhattacharya, S.K., Ghosal S. 1998. Anxiolytic activity of a standardized extract of B. monnieri, An experimental study.
+Phytomedicine, 5(2): 77-82.
+Bhattacharya, S.K., Kumar, A. and Ghosal S. 2001. effect of Bacopa monnieri in animal models of Alzheimer’s disease and
+perturbed Central cholinergic markers on cognition in rats. Emergency Drugs -1 (Molecular Aspects of Asian
+medicines), 21-32.
+Brown, L. and Martin, S.M. 1960. Chemical Constituents of Bacopa Monnieri, Journal of the Chemical Society, 2783-2784.
+Chakravorty, A.K., Sarkar, T., Masuda, K., Shiogima, K., Nakane, T. and Kawahara, N. 2001. Bacoposide I and II two
+pseudojujubogenin glycosides from Bacopa Monnieri, Phytochemistry, 58 (4): 553-556.
+Chandel, R.S., Kulshreshtha D.K.1977. Rastogi RP. Bacogenin A3: a new sapogenin from, Bacopa Monnieri, Phytochemistry,
+16; 141-143.
+Chatterji, N., Rastogi, R.P. and Dhar M.L.1963. Chemical examination of Bacopa monnieri wettest Part-I: Isolation of chemical
+constituents. Indian Journal of the Chemistry1: 212-215.
+Chatterji, N., Rastogi, R.P., and Dhar M.L. 1965. Chemical examination of Bacopa Monnieri wettest; Part-III: The constitution
+of Bacoside A. Indian Journal of the Chemistry, 3: 24-29.
+Chopra, R.N., Nayer S.L. and Chopra I.C. 1956. Glossary of Indian Medicinal Plants. 32.
+Dahanukar, S.A. and Thatte U.M. 1977. Current Status of Ayurveda in Phytomedicine. Phytomedicine, 14 (3): 7-13.
+Dandiya, PC. 1990. The Pharmacological basis of herbal drugs acting CNS. The Eastern Pharmacist, 112.
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+71
+
+Dar, A., and Channa S. 1977. Bronchodilatory and Cardiovascular effects of an ethanol extract of Bacopa monnieriin
+anesthetized rats. Phytomedicine, (4): 319-323.
+Dhalla, N.S., Sastry M.S. and Malhotra, C.L.1961. Some in vitro effects of Herpestis monnieri, on the respiration of the rat
+brain. Indian Journal of Medical Research, 49 (5); 781-787.
+
+Dutta, T. and Basu, U.P.1963. Terpenoids: Part II- Isolation of a new triterpene saponin, monnierin from Bacopa
+Monnieriwettst. Indian Journal of the Chemistry , 1: 408-409.
+Dutta T., and Basu U.P. 1968. Terpenoids: Part IV- Structure of Tetrasaccharide of Monnierinwettst. Indian Journal of the
+Chemistry , 6: 471-473.
+Elangovan, V.,Govindaswamy, S., Rammoorthy, N.and Balsubramaniam, K. 1995. In vitro studies on the anticancer activity of
+Bacopa Monnieri. Fitotherpia, 66(3): 211-215.
+Garai, S., Mahato, S.B., Bhutani, K. and Yamasaki K. 1996. Dammarane type triterpenoid saponin from Bacopa monnieri,
+Phytochemistry, 42: 515-820.
+Grose Tricia (USA). 2001.PCI Int. Appl. No. 2001054697, P.P. Herbal supplement for cognitive related impairment due to
+estrogen loss, Application WO 2000- US 2474.
+Indian Herbal Pharmacopoeia. 1998. Joint Publication of RRL. Jammu and Indian Drug Manufacturers Association. Mumbai,
+Vol-I: 30-37.
+Vaidyaratnamam P S Varier’s. 1994. Indian Medicinal Plants. Arya Vaidya Sala, Orient Longman Ltd, Chennai, Kottakal. 225.
+Jadiya, P., Khan, A., Sammi, S.R., Kaur, S., Mir, S.S.And Nazir, A.2012. Anti-Parkinsonian effects of Bacopa monnieri:
+insights from transgenic and pharmacological Caenorhabditis elegans models of Parkinson’s disease. Biochemical
+Biophysical Research Communications, 413 (4): 605-610.
+Jain, P. and Kulshreshtha, D.K. Bacoside A1: A new minor saponin from Bacopa Monnieri, Phytochemistry, 33 (2): 449-451.
+Jain Paras., Sharma., Hanuman Prasad., Basri. Fauziya., Kumari, Priya. and Singh Pallavi. 2017. Phytochemical analysis of
+Bacopa monnieri (L.) Wettst and their anti-fungal activities, Experiment Findings,16(2): 310-318.
+Jain, P.K. 2016. Alternative herbal drugs used for treating hair disease, Asian Journal of Pharmaceutical and Clinical
+Research , 9(1):75-7.
+Jain, P.K. Joshi, H.and Dass D.J. 2012. Drug that causes hair loss and promotes hair growth - A review. International Journal
+of Research in Pharmaceutical and Biomedical Sciences, 3(4):1476-82.
+Jain, P.K., and Dass, D.J. 2015. Evaluating hair growth potential of some traditional herbs. Asian Journal of Pharmaceutical
+and Clinical Research, 8(6):150-2.
+
+Jain, S.K. 1991. Dictionary of Indian folk medicine & Ethnobotany I, 31-32.
+Jain, S.K. 1991. Defillips Robert A. Medicinal Plants of India, 2, 556.
+Jayaram, S.,Walwaikar, D.D. and Rajyadhyaksha, S.S. 1993. Evaluation of efficacy of a preparation containing a combination
+of Indian medicinal plants in patients of generalized weakness, Indian Drugs, 30 (10): 498-500.
+Kamkaew, N., Scholfield, C.N., Ingkaninan, K., Maneesai, P., Parkington, H.C. Tare, M. and Chootip, K. 2011.
+Bacopamonnieriand its constituents is hypotensive in anesthetized rats and vasodilator in various artery types.
+ Journal of Ethnopharmacology, 137: 790-795. DOI: 10.1016/j.jep.2011.06.045
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+72
+
+Kar, A., Panda, S and Bharti, S. 2002. Relative efficacy of three medicinal plant extracts in the alteration of thyroid hormone
+concentrations in male mice. Journal of Ethnopharmacology, 81: 281-285.
+Ken-Ichi Kawai. and Shaji Shibati.1978. Pseudojujubogenin, a new sapogenin from Bacopa Monnieri, Phytochemistry, 17:
+287-289.
+Ken-Ichi Kawai.,Tushiyuki Akiyama, Yukio Oaihara. and Shoji Shibati. 1974. A new sapogenin in the saponins of Zizyphus
+jujuba, Hovenia dulcis and Bacopa Monnieri, Phytochemistry, 13: 2829-2832.
+Khanna, H.K. 1995. Studies on anti-inflammatory effects of Brahmi rasayan in rodents. Indian Journal of Pharmacology, 27:
+49.
+
+Kritikar, K.R. and Basu B.D. 1987. Indian Medicinal Plants III, 1801-1803.
+Kulkarni, S.K. and Verma, A. 1993. BR-16A (Mentat,) A Herbal preparation, improves learning and memory performance in
+mice. Indian Drugs, 30 (3): 97-107.
+Kulshreshtha, D.K. and Rastogi R.P. 1975. Absolute Structures of Novel geninsBacogenins A1 and A2 from Bacosides,
+Isolated from Bacopa Monnieri, Indian Journal of the Chemistry, 13: 309-312.
+Kulshreshtha, D.K. and Rastogi R.P. 1974. Bacogenin A2 is a new sapogenin from Bacosides, Phytochemistry, 12:887.
+Kulshreshtha, D.K. and Rastogi, R.P. 1973. Identification of Ebelin lactone from bacoside A & the nature of its genuine
+sapogenin, Phytochemistry, 12: 2074.
+Kulshreshtha, D.K. and Rastogi R.P.1974. Bacogenin A2: a new sapogenin from Bacosides, Phytochemistry, 13: 1205-1206.
+Linter Kark. 1999. Cosmetic or dermopharmaceutical composition containing a plant extract obtained from B. monnieri. PCT
+Int. Appl wo. 9940897 A-1, 19 Aug, 1999. Application WO 1999, FR 245.
+Maharana, D. and Maharana, S. 1994. A clinical trial of mentat in patients with various types of epilepsy, Probe, 33(2): 160-
+162.
+Mahato, S., Garai, S.andChakraverty, A.K. 2000. Bacopasaponins E and F: Two jujubogeninbisdesmoside from Bacopa
+Monnieri, Phytochemistry, 53 (61): 711-714.
+Malhotra, C.L. and Das P.K. 1959. Pharmacological studies of Herpestismonnieri, Linn (Brahmi) Ind. J. Med. Res, 47 (3):
+294-305.
+Mathur, A., Verma, S.K., Purohit, R., Singh, S.K., Mathur, D., Prasad, G., Dua V.K. 2010. Pharmacological investigation of
+Bacopa monnierion the basis of antioxidant, antimicrobial and anti-inflammatory properties. Journal of Chemical and
+Pharmaceutical Research, 2(6):191-198.
+
+Mohanty, I.R., Maheshwari, U., Joseph, D. and Deshmukh, Y. 2010. Bacopa monniera protects rat heart against ischaemia–
+reperfusion injury: role of key apoptotic regulatory proteins and enzymes. Journal of Pharmacy and pharmacology,
+62(9): 1175-1184.
+Nadkarni, K.M. 1982. Indian Materia Medica, Vol. 1, 625.
+Pawar, R., Gopalkrishnan, C.and Bhutani, K.K.2001. Dammarane triterpene saponin from Bacopa monnierias the superoxide
+inhibitor in polymorphonuclear cells. Planta Medica, 67(8): 752-754.
+Prabhakar, Sudesh, Vishnu, Venugopalan, Modi, Mehul Mohanty, Manju Sharma, AnchalMedhi, Bikas Mittal, et al 2020.
+Efficacy of Bacopa monnieri(Brahmi) and Donepezil in Alzheimer's disease and Mild Cognitive Impairment: A
+Randomized Double-Blind Parallel Phase 2b Study. Annals of Indian Academy of Neurology, 23: 767-773.
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+73
+
+Ramakrishnan, K. 1987. Effect of Brahmi (Bacopa monnieri) aqueous extract on the enzyme MAO from rat brain stem and
+liver, Indian Drugs, 24(10): 494.
+Rastogi, S., Pal, R.and Kulshreshtha, D.K. 1994. Bacoside A3- a triterpenoid saponin from Bacopa Monnieri, Phytochemistry,
+36: 133-137.
+Rastogi, S.,Kulshreshtha, D.K., 1993. Bacoside A2- A triterpenoid saponin from Bacopa Monnieri, Indian J. Chem, Section B.
+38 B (3); 353-356.
+Sabina, E.P., Baskaran, U.L., Martin, S.J. Swaminathan, M., Bhattacharya, Y. and Tandon, S., 2014. Assessment of
+antidiabetic activity of the traditional Indian ayurvedic formulation Brahmi gritham in streptozotocin-induced diabetic
+rats. International Journal of Pharmacy and Pharmaceutical Sciences, 6: 347–351.
+Samiulla, D.S., Prashanth, D.and Amit, A. 2001. Mast cell stabilizing activity of Bacopamonnieri. Fitoterapia, 72(3): 284-285.
+Sampathkumar, P.,Dheeba., B.,Vidhyasagar, Z.V., Arulprakash, T. and Vinothkannan, R. 2008. Potential Antimicrobial Activity
+of Various Extracts of Вacopa monnieri (Linn.). Int J Pharmacol Research, 4: 230-232. DOI: 10.3923/ijp.2008.230.232
+Sastry, M.S., Dhalla, N.S. and Malhotra, C.L. 1959. Chemical investigation of Herpestis monnieri Linn (Brahmi), Indian
+Journal of the Chemistry, 21: 303-304.
+Schulle, K.E., Rucker, G. and E.L. Kersch., M. 1972. Nicotin and 3-formyl-4-Hydroxy 24-pyran Aus Herpestis monnieri,
+Phytochemistry, 11: 2649-2651.
+Shahid, M., Subhan, F. 2014. Protective effect of Bacopa monniera methanol extract against carbon tetrachloride induced
+hepatotoxicity and nephrotoxicity. Pharmacology online, 2(2):9-19.
+Singh, H.K. ,Dhawan, B.N. 1977. Neuropyschopharmacological effects of the Ayurvedic nootropie Bacopa monnieri, Linn
+(Brahmi). Indian Journal of Pharmacology, 29: 5359-5365.
+
+Singh, R.H and Lallan Singh.2017. Studies on antianxiety effects of the Medhyarasayana drug, Brahmi, Journal of Research in
+Ayurveda and Siddha, 41(1):138--148
+Singh, R.H., Sinha, B.N., Sarkar, F.H.and Udupa K.N. 1979. Comparative biochemical studies on the effect of four
+Medhyarasayana drugs described by Charaka on some central neurotransmitters in normal and stressed rats. Indian
+Medicine Yoga and Homeopathy14 (3): 7-13.
+Stough, C., Lioyd, J., Clerk, J., Downey, LA., Hutchison, CW., Rodgers, T. and Nathan, PJ. 2001. The chronic effects of an
+extract of Bacopa monnieri (Brahmi) on cognitive function in healthy human subjects. Psychopharmacology, 156 (4):
+481-484.
+Sudha, S., Kumaresan, S., Amit, A. David, J. and Venkatraman BV. 2002. Anticonvulsant activity of different extracts of
+Centella asiatica and Bacopa monnieri in animals. Natural Remedies, 2 (1): 33-41.
+Tamboli, F., Rangari, V., Killedar, S., Jadhav, S., Ghatage, T.and Kore, V. 2018. Comparative phytochemical evaluation of
+natural and micropropagated plants of Bacopa monnieri (L.), Marmara Pharmaceutical Journal, 22(1):66-73.
+The Wealth of India. Raw material. 1998; CSIR New Delhi, Vol.1-A-13, 1443.
+Tiwari, V., Singh, B.D., Tiwari, K.N. 1998. shoot regeneration and somatic embryogenesis from different explants of Bacopa
+Monnieri, Plant cell Report, 17(6-7): 538-543.
+Tripathi, J.S., Singh, R.H. 1994. Clinical evaluation of Smrtisagarosa in cases of residual schizophrenia, Research in
+Ayurvedic and Siddha, 15 (1-2): 8-16.
+Ullah, I., Subhan, F., Lu Z., Chan S., W. and Rudd JA. 2017. Action of Bacopa monnieri to antagonize cisplatin-induced
+emesis in Suncus murinus (house musk shrew). Journal of Pharmacological Sciences, 133(4) 232–239.
+
+Tamboli et al. (Nutritional benefits of Bacopa monnieri)
+J. Postharvest Technol., 2022, 10(4): 59-74
+
+74
+
+Vaidya Ashok D.B. 1977. The status and scope of Indian medicinal plants acting on central nervous system. Indian Journal of
+Pharmacology, 29: 340-343.
+
+Viji, V., Kavitha, S.K.and Helen, A. 2010. Bacopamonniera (L.) wettst inhibits type ii collagen-induced arthritis in rats.
+Phytotherapy Research, 24(9): 1377-1383.
+Vohora, S.B., Khanna, T., Athor, M.and Ahmed, B. 1977. Analgesic activity of bacosine, a new triterpene isolated from
+Bacopa monnieri. Fitotherpia, 64 (4): 361-365.
+
+© The Author(s)
+This is an
+ Open Access article licensed under a Creative Commons license:
+Attribution 4.0 International (CC-BY).

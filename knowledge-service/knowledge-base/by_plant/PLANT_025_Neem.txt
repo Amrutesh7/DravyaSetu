@@ -1,0 +1,641 @@
+PLANT_ID: PLANT_025
+PLANT_IDENTIFIER: Neem
+
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Nimba (Lf.) -----
+56. Nimba (Lf.)
+NIMBA (Leaf)
+Nimba (Leaf) consists of dried leaf of Azadirachta indica A. Juss Syn. Melia
+azadirachta Linn. (Fam. Meliaceae); a moderate sized to fairly large evergreen tree, attaining a
+height of 12-15 m with stout trunk and spreading branches, occurring throughout the country
+up to an elevation of 900 m.
+SYNONYMS
+Sanskrit
+:
+AriÀ¶a, Picumarda
+Assamese
+:
+Mahanim
+Bengali
+:
+Nim, Nimgach
+English
+:
+Margosa Tree
+Gujrati
+:
+Limba, Limbado, Limado, Kohumba
+Hindi
+:
+Nim, Nimba
+Kannada
+:
+Nimba, Bevu, Oilevevu, Kahibevu, Bevinama
+Kashmiri
+:
+--
+Malayalam
+:
+Veppu, Aryaveppu, Nimbam, Veppa
+Marathi
+:
+Balantanimba, Limba, Bakayan, Nim, Kadunimb
+Oriya
+:
+Nimba
+Punjabi
+:
+Nimba, Bakan, Nim
+Tamil
+:
+Vemmu, Veppu, Arulundi, Veppan
+Telugu
+:
+Vemu, Vepa
+Urdu
+:
+Neem
+DESCRIPTION
+a) Macroscopic
+187
+
+Leaves - Compound, alternate, rachis 15-25 cm long, 0.1 cm thick; leaflets with
+oblique base, opposite, exstipulate, lanceolate, acute, serrate, 7-8.5 cm long and 1.0-1.7 cm
+wide, slightly yellowish-green; odour, indistinct; taste, bitter
+
+b) Microscopic
+Leaf-
+Midrib -leaflet through midrib shows a biconvex outline; epidermis on either side covered
+externally with thick cuticle; below epidermis 4-5 layered collenchyma present; stele
+composed of one crescent-shaped vascular bundle towards lower and two to three smaller
+bundle towards upper surface; rest of tissues composed of thin-walled, parenchymatous
+cells having secretory cells and rosette crystals of calcium oxalate; phloem surrounded by
+non-lignified fibre strand; crystals also present in phloem region.
+Lamina - shows dorsiventral structure; epidermis on either surface, composed of thin
+walled, tangentially elongated cells, covered externally with thick cuticle; anomocytic
+stomata present on lower surface only; palisade single layered; spongy parenchyma
+composed of 5-6 layered, thin-walled cells, traversed by a number of veins; rosette crystals
+of calcium oxalate present in a few cells; palisade ratio 3.0-4.5; stomatal index 13.0-14.5 on
+lower surface and 8.0-11.5 on upper surface.
+Powder - Green; shows vessels, fibres, rosette crystals of calcium oxalate, fragments of
+spongy and palisade parenchyma.
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 10 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 1 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 13 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 19 per cent, Appendix 2.2.7.
+
+188
+
+CONSTITUENTS - Triterpenoids and Sterols.
+
+PROPERTIES AND ACTION
+Rasa
+:
+Tikta
+Gu¸a
+:
+R£kÀa, Laghu
+V¢rya
+:
+á¢ta
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+V¡tal¡, Pittan¡¿aka, Gr¡h¢
+IMPORTANT FORMULATIONS - K¡s¢s¡di Gh¤ta, J¡ty¡di Gh¤ta, Ërogyavardhin¢ Gu¶ik¡,
+Nimbapatr¡di upan¡ha, Paµcagu¸a Taila
+THERAPEUTIC USES - Jvara, Ëma¿otha, Vra¸a, KuÀ¶ha, Prameha, Netraroga, K¤miroga,
+ViÀaroga
+DOSE - 1-3 g of the drug in powder form. 10-20 ml of the drug for decoction.
+
+189
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Nimba (St.Bk) -----
+57. Nimba (St.Bk)
+NIMBA (Stem Bark)
+Nimba (stem bark) consists of stem bark of Azadirachta indica A. Juss. Syn. Melia
+azadirachta Linn. (Fam. Meliaceae); a moderate sized to fairly large, evergreen tree, attaining
+a height of 12-15 m with stout trunk and spreading branches, occurring throughout the country
+upto an elevation of 900 m.
+SYNONYMS
+Sanskrit
+:
+AriÀ¶a, Picumarda
+Assamese
+:
+Mahanim
+Bengali
+:
+Nim, Nimgacha
+English
+:
+Margosa Trees
+Gujrati
+:
+Kadvo Limbdo
+Hindi
+:
+Nim, Nimb
+Kannada
+:
+Bevu, Kahibevu, Nimba, Oilevevu
+Kashmiri
+:
+--
+Malayalam
+:
+Veppu, Aruveppu
+Marathi
+:
+Balantanimba, Kadunimb, Limba
+Oriya
+:
+Nimba
+Punjabi
+:
+Nim, Nimba, Bakam
+Tamil
+:
+Veppai, Vembu
+Telugu
+:
+Vemu, Vepa
+Urdu
+:
+Neem
+DESCRIPTION
+a) Macroscopic
+190
+
+Bark varies much in thickness according to age and parts of tree from where it is
+taken; extemal surface rough, fissured and rusty-grey; laminated inner surface yellowish and
+foliaceous, fracture, fibrous; odour, characteristic; taste,bitter
+
+b) Microscopic
+Stem Bark -Shows outer exfoliating pieces hard, woody, considerably thick in older
+barks; almost entirely dead elements of secondary phloem, alternating with discontinuous
+tangential bands of compressed cork tissue, former composed of several layers of stone
+cells occurring in regularly arranged groups together with collapsed phloem elements filled
+with brown contents; in between the successive zones of cork tissue 3-5 layers of fibre
+groups with intervening thin-walled and often collapsed phloem elements present; each
+zone of cork tissue consists of several layers of regular, thin-walled cells occasionally with
+a few compressed rows of thick-walled cells towards outer surface; within exfoliating
+portion a number of layers of newly formed cork composed of thin walled, rectangular cells
+and one or two layers of cork cambium, below which a wide zone of secondary phloem
+present; secondary cortex absent in most cases; secondary phloem commonly composed of
+well-developed fibre bundles traversed by 2-4 seriate phloem rays and transversely
+separated by bands of parenchymatous tissue of phloem; phloem elements of outer bark
+mostly collapsed; a few fairly large secretory cavities also occur in phloem; most of phloem
+parenchyma contain starch grains and prismatic crystals of calcium oxalate; starch grains,
+simple, round with central hilum,measuring 2.75-5 µ structure of bark varies considerably
+according to gradual formation of secondary cork bands.
+Powder - Reddish-brown; shows numerous prismatic crystals of calcium oxalate, phloem
+fibres with narrow lumen and pointed ends; cork cells, stone cells mostly in groups,
+lignified rectangular to polygonal, having wide lumen and distinct striations, simple starch
+grains, measuring 2.75-5 µ in diameter.
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 7 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 1.5 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 6 per cent, Appendix 2.2.6.
+191
+
+Water-soluble extractive
+Not less than 5 per cent, Appendix 2.2.7.
+
+T.L.C.
+T.L.C. of alcoholic extract of the drug on Silica gel 'G' plate using Chloroform :
+Ethylacetate; Formic acid (5:4: 1) shows under U.V. (366nm) three fluorescent zones at Rf.
+0.72 (blue), 0.86 (blue), and 0.90 (green). On spraying with 5% Methanolic
+Phosphomolybdic acid reagent and heating the plate for about ten minutes at 105°C four
+spots appear at Rf. 0.20, 0.45, 0.63 and 0.90 (all blue).
+
+ CONSTITUENTS - Bitter principles Nimbin and Nimbiol
+
+PROPERTIES AND ACTION
+Rasa
+:
+Tikta
+Gu¸a
+:
+Laghu, R£kÀa
+V¢rya
+:
+á¢ta
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+Kaphahara, Pittahara, ViÀaghna, Ka¸·£ghna, Vra¸a¿odhanakara,
+H¤dayavid¡ha¿¡ntikara
+IMPORTANT FORMULATIONS - Nimb¡di Kv¡tha C£r¸a, Nimb¡di C£r¸a, Paµcanimba
+C£r¸a, Pa´catikta Guggulu Gh¤ta, Pathy¡di Kv¡tha (âa·a´ga) C£r¸a, Sudar¿ana C£r¸a
+THERAPEUTIC USES - Vra¸a, KuÀ¶ha, Prameha, Ka¸·£, K¤miroga, Jvara, D¡ha, Rakta Pitta
+DOSE - 2-4 g of the drug in powder form, Decoction should be used externally.
+
+192
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Nimba (Rt.Bk) -----
+55. Nimba (Rt.Bk)
+NIMBA (Root Bark)
+Nimba consists of dried root bark of Azadirachta indica A. Juss. syn. Melia
+azadirachta Linn. (Fam. Meliaceae), a medium to large evergreen tree attaining a height of 15
+to 20 m or more under favourable conditions and found throughout the plains of India upto an
+altitude of 900 m.
+SYNONYMS
+Sanskrit
+:
+PicumardaÅ, AriÀ¶aÅ, PicumandaÅ, PrabhadraÅ
+Assamese
+:
+--
+Bengali
+:
+Nim, Nimgaachh
+English
+:
+Margosa Tree, Neem Tree, Indian Lilac
+Gujrati
+:
+Leemado
+Hindi
+:
+Neem
+Kannada
+:
+Turakbevu, Huchchabevu, Chikkabevu
+Kashmiri
+:
+--
+Malayalam
+:
+Veppu, Aryaveppu, Aaruveppu
+Marathi
+:
+Kadunimba, Nimb
+Oriya
+:
+Neemo, Nimba
+Punjabi
+:
+Nimb, Nim
+Tamil
+:
+Vempu, Veppu
+Telugu
+:
+Vemu, Vepa
+Urdu
+:
+Neem
+DESCRIPTION
+a) Macroscopic
+Root bark available in quilled or curved pieces of varying sizes with a thickness of
+0.25 to 0.50 cm; outer surface irregular, rough, scaly, fissured, reddish-brown or greyish-
+18
+
+brown; inner surface, yellowish-brown with parallel striations; fracture, splintery and
+fibrous; odour like that of saw dust; taste, bitter.
+
+b) Microscopic
+Root bark shows cork, cortex and phloem; cork generally 6 or 7 layers of polygonal
+and thin walled cells with reddish-brown contents; outer cortex of tangentially elongated
+large rectangular cells with tangentially elongated sclereids, singly or in groups in isolated
+patches; sclereids vary in size and wall thickness, distinctly striated, pitted and often
+associated with cells containing crystal; inner cortex of polygonal parenchymatous cells
+with bundles of sclerenchymatous fibres, thick walled with irregular lumen; secondary
+phloem composed of alternating tangential bands of bast fibres and parenchymatous tissues
+intercepted by uni to biseriate phloem rays; abundant starch grains present in
+parenchymatous cells of cortex and phloem; starch grains simple, or more usually,
+compound with 2 or 3 components, hilum cleft or radiate, individual grain 5 to 20 µ;
+abundant prismatic crystals of calcium oxalate in cortex, of 10 to 15 µ, also associated with
+phloem fibres; idioblasts with reddish-brown contents seen in cortex; cells with fat droplets
+seen in inner cortex and phloem.
+Powder - Reddish-brown; shows cork cells; numerous prismatic crystals of calcium oxalate
+both isolated, and in association with phloem fibres; individual fibres with narrow lumen
+and elongated tapering ends; pitted macrosclereids with wide lumen and distinct striations;
+simple, and compound starch grains with 2 or 3 components, of 5 to 20 µ in size;
+parenchymatous cells large and occasionally filled with brown contents.
+IDENTITY, PURITY AND STRENGTH
+
+Alcohol-soluble extractive
+Not less than 6 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 7 per cent, Appendix 2.2.7.
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 15 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 3 per cent, Appendix 2.2.4.
+
+T.L.C.
+T.L.C. of the alcoholic extract on precoated silica gel 'G' plate (0.2 mm thick) using
+hexane : ethyl acetate (1:1) shows spots at Rf 0.08, 0.12, 0.19 (all violet), 0.25 (mustard
+18
+
+yellow), 0.33, 0.39, 0.46 (all light violet) and 0.82 (purple) on spraying with 1% Vanillin-
+Sulphuric acid reagent followed by heating the plate at 105oC for about ten minutes.
+
+ CONSTITUENTS - Tetranortriterpenoids, margocin, nimbidiol, nimbolicin, azadirinin.
+
+PROPERTIES AND ACTION
+Rasa
+:
+Tikta
+Gu¸a
+:
+Laghu
+V¢rya
+:
+á¢ta
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+Pittahara, Kaphahara, á¢tagr¡h¢, Rucya , D¢pana, ViÀaghna, Ka¸·£ghna,
+Ah¤dya, Vra¸a¿odhana
+IMPORTANT FORMULATIONS - Am¤taÀ¶aka, AÀ¶¡´gada¿¡´ga Lauha
+THERAPEUTIC USES - Chardi, KuÀ¶ha, Raktapitta, Prameha, H¤ll¡sa, DuÀ¶a Vra¸a, T¤À¸¡,
+Jvara, D¡ha, K¡sa, áv¡sa, áotha, Kaphavik¡ra, K¤miroga, Aruci, Graha¸¢, Yak¤tvik¡ra,
+H¤dayavid¡ha, Vamana
+DOSE - 3 - 6 g
+
+18
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Nimba (Fl) -----
+56. Nimba (Fl)
+NIMBA (Flower)
+Nimba consists of dried flower and flower bud of Azadirachta indica A. Juss. syn.
+Melia azadirachta Linn. (Fam. Meliaceae), a medium to large size evergreen tree attaining a
+height of 15 to 20 m or more under favourable conditions and found through-hout the plains of
+India upto an altitude of 900 m.
+SYNONYMS
+Sanskrit
+:
+AriÀ¶aÅ, PicumandaÅ, PicumardaÅ, PrabhadraÅ
+Assamese
+:
+--
+Bengali
+:
+Nim, Nimgaachh
+English
+:
+Indian Lilac, Margosa Tree, Neem tree
+Gujrati
+:
+Leemado
+Hindi
+:
+Neem
+Kannada
+:
+Chikkabevu, Huchchabevu, Turakbevu
+Kashmiri
+:
+--
+Malayalam
+:
+Aaruveppu, Aryaveppu, Veppu
+Marathi
+:
+Nimb, Kadunimb
+Oriya
+:
+Neemo, Nimba
+Punjabi
+:
+Nim, Nimba
+Tamil
+:
+Vempu, Veppu
+Telugu
+:
+Vemu, Vepa
+Urdu
+:
+Neem
+DESCRIPTION
+18
+
+a) Macroscopic
+Dried flowers are brown to deep brown; individual flower 5 to 6 mm long and 6 to
+11 mm wide, pentamerous, bisexual, regular and hypogynous; calyx 5, short, united at base;
+corolla 5, free, spathulate, spreading, 4.5 to 5.5 mm long 2 mm wide; stamens 10,
+monoadelphous, staminal tube inserted at base of corolla; gynoecium tricarpellary,
+syncarpous, superior, trilocular, two ovules in each locule, style 1, stigma 3-lobed; taste,
+mildly bitter: odour, indistinct.
+
+b) Microscopic
+Calyx - Sepal shows thin walled polygonal papillose epidermis; elongated thin
+walled unicellular conical trichomes of varying lengths; rosette crystals in cells of
+epidermis.
+Petals - Petal shows epidermis of rectangular cells papillose at margins, non-glandular
+unicellular trichomes, over 150 µ long, tubular and hyaline; glandular trichomes of about 20
+µ, numerous rosette crystals in epidermal cells.
+Androecium - Epidermis of staminal tube composed of thick walled rectangular
+parenchymatous cells and the endothecium of the anther walls.
+Gynoecium - Stigma sticky, parenchymatous epidermal cells, elongated into extensive
+papillae, style thin walled, rectangular, ovary superior, trilocular.
+Pollen Grain - Porous, 4-colporate, spherical 105 to161µ in dia., with a smooth exine.
+Powder - Yellowish-brown, fragments of parenchymatous papillose epidermal cells,
+trichomes, numerous vessels, rosette calcium oxalate crystals, and yellowish-brown pollen
+grains.
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 14 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 5 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 5 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 12 per cent, Appendix 2.2.7.
+18
+
+ASSAY
+
+T.L.C.
+T.L.C. of the alcoholic extract on precoated silica gel 'G' plate (0.2 mm thick) using
+chloroform : acetone (20:1) shows spots at Rf 0.12 (violet), 0.17 (light pink), 0.33 (violet),
+0.51 (purple), 0.64 (dark purple), 0.80 (light purple), 0.85 (light purple), 0.92 (purple) on
+spraying with 1% Vanillin-Sulphuric acid reagent followed by heating the plate at 105oC for
+about ten minutes.
+
+ CONSTITUENTS - 15-Acetoxy-7-deacetoxydihydroazadirone (neeflone),nonacosane
+(saturated hydrocarbon)
+
+PROPERTIES AND ACTION
+Rasa
+:
+Tikta
+Gu¸a
+:
+Laghu
+V¢rya
+:
+á¢ta
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+Pittahara, Kaphahara, V¡takara, KuÀ¶haghna, K¤mighna, CakÀuÀya,
+ViÀaghna, Gr¡h¢
+IMPORTANT FORMULATIONS - KuÀ¶hak¡l¡mla Rasa, KuÀ¶ha áailendra Rasa, K¤m
+¢vin¡¿ana Rasa
+THERAPEUTIC USES - KuÀ¶ha, Aruci, Prameha, K¤mi, Kaphapittaja Vik¡ra, D¡ha, Jvara,
+ViÀamajvara, Netraroga, Raktavik¡ra, Phira´ga, áotha, árama, T¤À¸¡, K¡sa, Vra¸a, Chardi,
+Ka¸·£, H¤ll¡sa, H¤dayavid¡ha
+DOSE - 2 - 4 g pu¿pa c£r¸a.
+ 10 - 20 ml pu¿pa svarasa.
+18
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Nimba (Fr) -----
+57. Nimba (Fr)
+NIMBA (Fruit)
+Nimba consists of whole dried fruit including seeds of Azadirachta indica A. Juss. syn.
+Melia azadirachta Linn. (Fam. Meliaceae), a medium to large size evergreen tree attaining a
+height of 15 to 20 m or more under favourable conditions and found through-hout the plains of
+India upto an altitude of 900 m.
+SYNONYMS
+Sanskrit
+:
+AriÀ¶aÅ, PicumandaÅ, PicumardaÅ, PrabhadraÅ
+Assamese
+:
+--
+Bengali
+:
+Nim, Nimgaachh
+English
+:
+Indian Lilac, Neem tree, Margosa tree
+Gujrati
+:
+Leemado
+Hindi
+:
+Neem
+Kannada
+:
+Chikkabevu, Huchchabevu, Turakbevu
+Kashmiri
+:
+--
+Malayalam
+:
+Aaruveppu, Aryaveppu, Veppu
+Marathi
+:
+Kadunimb, Nimb
+Oriya
+:
+Neemo
+Punjabi
+:
+Nim, Nimb
+Tamil
+:
+Vempu, Vembu
+Telugu
+:
+Vemu, Vepa
+Urdu
+:
+Neem
+DESCRIPTION
+a) Macroscopic
+Fruit - Glabrous, dark reddish-brown, ovoid to ellipsoid drupes. 0.5 to 2 cm long,
+over one cm wide; indehiscent, deeply wrinkled, enclosing a single seed in a brownish
+leathery pulp; odour strong; taste, bitter.
+18
+
+Seed- Brownish, dorsally convex; upto 1.5 cm long and 0.6 cm wide; seed coat thin,
+brownish, shell-like, cracks to touch, inside of cracked pieces golden yellow; seed kernel,
+light brown, oily; odour, strong; taste, bitter.
+
+b) Microscopic
+Fruit - Pericarp well differentiated into epicarp, mesocarp and endocarp; epidermis
+more than one layered; squarish to rectangular cells containing yellowish-brown contents
+and oil droplets; mesocarp, many layered of loosely packed cells with large elongated
+sclereids scattered in outer layers; endocarp of two distinct layers, outer of closely packed
+lignified stone cells, inner fibrous, loosely packed, lignified.
+Seed - Seed kernel shows a thin brown testa, of isodiametric stone cells overlying
+integument of loosely packed parenchymatous cells; cotyledon consisting of parenchy-
+matous cells containing abundant oil droplets.
+Powder - Dark brown; shows abundant brachysclereids, columnar sclereids and pitted stone
+cells with wide lumen and distinct wall striations; groups of lignified fibres, thin-walled,
+arranged in network of loose strands; parenchymatous cells of cotyledon containing
+aleurone grains and oil globules; fragments of testa showing distinctly striated isodiametric
+stone cells; a few scattered rosette crystals of calcium oxalate.
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 8 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 2 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 16 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 19 per cent, Appendix 2.2.7.
+ASSAY
+ T.L.C.
+18
+
+T.L.C. of the alcoholic extract on precoated silica gel 'G' plate (0.2 mm thick) using
+chloroform : acetone (18.5:1.5) shows spots at Rf 0.11 (greyish violet), 0.16 (yellow), 0.19
+(green), 0.24 (violet), 0.29 (grey), 0.33 (mustard yellow), 0.42 (pink), 0.49 (greyish black),
+0.57 (violet) and 0.76 (light purple) on spraying with 1% Vanillin-Sulphuric acid reagent
+and heating the plate at 105oC for about ten minutes.
+
+ CONSTITUENTS - Fixed oil containing diterpenoids and triterpenoids (limonoids);nimbin,
+gedunin, azadirachtin, nimbidinin, salanin.
+
+PROPERTIES AND ACTION
+Rasa
+:
+Tikta
+Gu¸a
+:
+T¢kÀ¸a, Laghu, Snigdha
+V¢rya
+:
+UÀ¸a
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+V¡tahara, Kaphahara, Bhedan¢ya, H¤dayad¡hahara, ViÀaghna, Ras¡yana,
+P¡cana
+IMPORTANT FORMULATIONS - Ar¿oghniva¶¢ (Seed), Pal¡¿ab¢j¡di C£r¸a (Seed)
+THERAPEUTIC USES - K¤mi, KuÀ¶ha, Prameha, Gulma, Ar¿a, P¡litya, Netraruj¡, Raktapitta,
+KÀata KÀaya, áiroroga, Jvara, Aruci, D¡ha, Chardi, H¤ll¡sa, Vra¸a, áotha, ViÀavik¡ra,
+Vibandha, Kh¡litya, Ga¸·am¡l¡
+DOSE - 1 - 2 g c£r¸a.
+ 5 - 10 drops of oil.
+
+19

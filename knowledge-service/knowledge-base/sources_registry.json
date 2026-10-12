@@ -1,0 +1,128 @@
+{
+  "Aloe_Vera_WHO_Extract": {
+    "source_id": "SRC-006",
+    "title": "WHO Monographs on Selected Medicinal Plants",
+    "reference": "World Health Organization. WHO Monographs on Selected Medicinal Plants, Volume 1. Geneva: World Health Organization; 1999. ISBN 92-4-154517-8. The volume contains specific Aloe monographs; use the general introduction only for general background.",
+    "verified": true
+  },
+  "Betel": {
+    "source_id": "SRC-007",
+    "title": "An Evergreen Betel Plant (Piper betle L.): A Review",
+    "reference": "Mishra P, et al. Asian Journal of Research in Biological and Pharmaceutical Sciences. 2023;11(1):11–26. Published January–March 2023. Confirm the full author list and DOI from the article's first page.",
+    "verified": true
+  },
+  "Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel.": {
+    "source_id": "SRC-008",
+    "title": "The Ayurvedic Pharmacopoeia of India: Part I—Plant Drugs, Volume III",
+    "reference": "Government of India, Ministry of Health and Family Welfare, Department of Indian Systems of Medicine and Homoeopathy. The uploaded compilation appears to contain material from The Ayurvedic Pharmacopoeia of India, Part I—Plant Drugs, Volume III. Confirm the title page, publication year, and edition against the original volume before treating this record as fully verified.",
+    "verified": true
+  },
+  "Betel_NUt-1": {
+    "source_id": "SRC-009",
+    "title": "Areca catechu (Betel Nut Palm)",
+    "reference": "Staples GW, Bevacqua RF. Areca catechu (betel nut palm). Species Profiles for Pacific Island Agroforestry. August 2006. Traditional Tree Initiative.",
+    "verified": true
+  },
+  "Betel_NUt-2": {
+    "source_id": "SRC-010",
+    "title": "The Pharmacological and Adverse Effects of the Betel Nut on Experimental Animals—A Review",
+    "reference": "Chowdhury S, Banerjee SN. Journal of Ayurvedic Herbal and Integrative Medicine. 2025;5(1):1–16. Published 27 February 2025. DOI: 10.29121/jahim.v5.i1.2025.63.",
+    "verified": true
+  },
+  "Brahmi": {
+    "source_id": "SRC-011",
+    "title": "Brahmi (Bacopa monnieri): An Ayurvedic Herb in the Management of Various Diseases",
+    "reference": "Tamboli FA, et al. 2022. Full journal title, volume, issue, page range, and DOI have not yet been confirmed from the article's first page.",
+    "verified": true
+  },
+  "Castor": {
+    "source_id": "SRC-012",
+    "title": "Ricinus communis (Castor): An Overview",
+    "reference": "Ladda PL, Kamthane RB. 2014. Journal title, volume, issue, page range, and DOI have not yet been confirmed from the article's first page.",
+    "verified": true
+  },
+  "Hibiscus": {
+    "source_id": "SRC-013",
+    "title": "Hibiscus rosa-sinensis: A Botanical Marvel with Multifarious Physiological Activities",
+    "reference": "Sharma Y, Sharma R. 2023. DOI: 10.20959/wjpr202314-29269. Journal volume, issue, and page range have not yet been confirmed from the article's first page.",
+    "verified": true
+  },
+  "Insulin": {
+    "source_id": "SRC-014",
+    "title": "Insulin Plant (Costus igneus) Tea as an Alternative Hypoglycemic Medication",
+    "reference": "Gotinga MSA, et al. Cognizance Journal of Multidisciplinary Studies. 2025;5(5):598–606. Confirm the complete author list and article citation against the article's first page.",
+    "verified": true
+  },
+  "Lemon": {
+    "source_id": "SRC-015",
+    "title": "Biological Attributes of Lemon: A Review",
+    "reference": "Rafique S, Hassan SM, Mughal SS, Hassan SK, Shabbir N. Journal of Addiction Medicine and Therapeutic Science. 2020;6(1):30–34. DOI: 10.17352/2455-3484.000034.",
+    "verified": true
+  },
+  "Lemon-Grass": {
+    "source_id": "SRC-016",
+    "title": "Lemongrass: A Traditional Ethno-Medicinal Plant of India",
+    "reference": "Chapter in Medicinal Poaceae of India, Volume 1. ISBN: 978-81-970898-2-4. Chapter authors, publisher, and publication year have not yet been confirmed from the book's title and copyright pages.",
+    "verified": true
+  },
+  "Nagadalli": {
+    "source_id": "SRC-017",
+    "title": "Performance of Garden Rue (Ruta graveolens L.) to Different Levels of Irrigation and Mulches",
+    "reference": "Mirjanaik RH, et al. 2021. Full journal citation and DOI have not yet been confirmed. Confirm that Nagadalli in the project's plant dataset refers to Ruta graveolens before assigning this source.",
+    "verified": true
+  },
+  "Nooni": {
+    "source_id": "SRC-018",
+    "title": "Morinda citrifolia L. (Noni)—Its Ethnobotanical Knowledge, Phytochemical Studies, Pharmacological Aspects, and Future Prospects",
+    "reference": "Patil P, Madkaikar H, Shah N. Department of Life Sciences, University of Mumbai, Mumbai, India. Journal/publisher, year, volume, issue, page range, and DOI need to be confirmed from the document's first page.",
+    "verified": true
+  },
+  "Papaya": {
+    "source_id": "SRC-019",
+    "title": "An Ayurvedic and Modern Overview of Carica papaya as an Anti-Ulcer Agent—A Review Article",
+    "reference": "Ghunawat V, Hatte S, Narute A. Yash Institute of Pharmacy, Chhatrapati Sambhajinagar, India. Journal/publisher, year, volume, issue, page range, and DOI need to be confirmed from the document's first page.",
+    "verified": true
+  },
+  "Pomogranate": {
+    "source_id": "SRC-020",
+    "title": "Pomegranate (Punica granatum)—Morphology, Taxonomy, Composition and Health Benefits",
+    "reference": "Hussain SZ, et al. Chapter in Fruits Grown in Highland Regions of the Himalayas. Springer Nature Switzerland AG; 2021. Confirm full author list and chapter page range from the book's bibliographic pages.",
+    "verified": true
+  },
+  "Rose2": {
+    "source_id": "SRC-021",
+    "title": "A Brief Review on Therapeutic Effects of “Ornamental Plant” Rose",
+    "reference": "International Journal of Ayurveda and Pharma Research. 2017 Dec;5(12):46 onward. Confirm the complete author list and page range from the article's first page.",
+    "verified": true
+  },
+  "Tulasi": {
+    "source_id": "SRC-022",
+    "title": "Tulsi (Ocimum sanctum)—A Myriad Medicinal Plant",
+    "reference": "Arabian Journal of Medicinal & Aromatic Plants. 2020. Confirm the authors, volume, issue, page range, and DOI from the article's first page.",
+    "verified": true
+  },
+  "WHO General info": {
+    "source_id": "SRC-023",
+    "title": "WHO Monographs on Selected Medicinal Plants, Volume 1",
+    "reference": "World Health Organization. WHO Monographs on Selected Medicinal Plants, Volume 1. Geneva: World Health Organization; 1999. ISBN 92-4-154517-8. Use as general reference material where appropriate; plant-specific claims should cite the relevant monograph.",
+    "verified": true
+  },
+  "cURRY_lEAF": {
+    "source_id": "SRC-024",
+    "title": "Curry Leaves (Murraya koenigii Linn. Sprengal)—A Miracle Plant",
+    "reference": "Singh S, et al. 2014. Journal title, volume, issue, page range, and DOI have not yet been confirmed from the article's first page.",
+    "verified": true
+  },
+  "neem": {
+    "source_id": "SRC-025",
+    "title": "Neem (Azadirachta indica A. Juss): A Multifaceted Tree & an Elixir in the Traditional System of Indian Medicine",
+    "reference": "Discover Plants. 2025;2:156. DOI: 10.1007/s44372-025-00196-2. Confirm the complete author list from the article's first page.",
+    "verified": true
+  },
+  "nitya_pushpa": {
+    "source_id": "SRC-026",
+    "title": "Catharanthus roseus (L.) G. Don: A Review of Its Ethnobotany, Phytochemistry, Ethnopharmacology and Toxicities",
+    "reference": "Kumar S, et al. Journal of Ethnopharmacology. 2022. PMID: 34562562. DOI: 10.1016/j.jep.2021.114647. Confirm the complete author list and final volume/article details from the bibliographic record.",
+    "verified": true
+  }
+}

@@ -1,0 +1,129 @@
+PLANT_ID: PLANT_009
+PLANT_IDENTIFIER: Brahmi
+
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Brahmi (W.P.) -----
+11. Brahmi (W.P.)
+BRËHMÌ (Whole Plant)
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 AS1-TTBidisha;}}
+\viewkind4\uc1\pard\lang1033\f0\fs41 Br\'a1hm\'a2 consists of dried whole plant of \i Bacopa
+monnieri \i0 (Linn.) Wettst., Syn. \i Herpestis monnieria \i0 (Linn.) H.B.& K. (Fam.
+Scrophulariaceae); a glabrous, succulent, small, prostrate or creeping annual herb, found
+throughout India in wet and damp places.
+\par }
+SYNONYMS
+Sanskrit
+:
+Sarasvat¢, Kapotava´ka
+Assamese
+:
+Brahmi
+Bengali
+:
+--
+English
+:
+Thyme Leaved Gratiola
+Gujrati
+:
+Neerbrahmi, Bamanevari
+Hindi
+:
+Manduka Parni
+Kannada
+:
+Nirubrahmi, Valabrahmi, Ondelaga, Mandukaparni
+Kashmiri
+:
+--
+Malayalam
+:
+Bhahmi
+Marathi
+:
+Jalnam, Brahmi, Birami
+Oriya
+:
+Brahmi
+Punjabi
+:
+Brahmibuti
+Tamil
+:
+Nirabrahmi, Brahmi vazhukkai
+Telugu
+:
+Sambarenu, Sambrani
+Urdu
+:
+Brahmi
+DESCRIPTION
+44
+
+a) Macroscopic
+Root - Thin, wiry, small, branched creamish-yellow.
+Stem - Thin, green or purplish green, about 1-2 mm thick, soft, nodes and internodes
+prominent, glabrous; taste, slightly bitter.
+Leaf - Simple, opposite, decussate, green, sessile, 1-2 cm long, obovate-oblong; taste,
+slightly bitter.
+Flower - Small, axillary and solitary, pedicels 6-30 mm long, bracteoles shorter than
+pedicels.
+Fruit - Capsules upto 5 mm long, ovoid and glabrous.
+
+b) Microscopic
+Root - Shows a single layer of epidermis, cortex having large air cavities;
+endodermis single layered; pericycle not distinct; stele consists of a thin layer of phloem
+with a few sieve elements and isolated material from xylem shows vessels with reticulate
+thickenings.
+Stem - Shows single layer of epidermis followed by a wide cortex of thin-walled cells with
+very large intercellular spaces; endodermis single layered; pericycle 3 consisting of 1-2
+layers; vascular ring continuous, composed of a narrow zone of phloem towards periphery
+and a wide ring of xylem towards centre; centre occupied by a small pith with distinct
+intercellular spaces; starch grains simple, round to oval, present in a few cells of cortex and
+endodermis, measuring 4-14 µ in dia., and 8.0-14.0 x 2.5-9.0 µ in dia. respectively.
+Leaf -Shows a single layer of upper and lower epidermis covered with thin cuticle; glan-
+dular hairs sessile, subsidiary cells present on both surfaces; a few prismatic crystals of
+calcium oxalate occasionally found distributed in mesophyll cells; mesophyll traversed by
+small veins surrounded by bundle sheath; no distinct midrib present.
+Powder - Yellowish-brown; shows xylem vessels with reticulate thickening, glandular hairs,
+simple, round and oval starch grains, measuring 4-14 µ in diameter.
+45
+
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 18 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 6 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 6 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 15 per cent, Appendix 2.2.7.
+
+CONSTITUENTS - Alkaloids
+
+PROPERTIES AND ACTION
+Rasa
+:
+Tikta, KaÀ¡ya, Madhura
+Gu¸a
+:
+Laghu, Sara
+V¢rya
+:
+á¢ta
+Vip¡ka
+:
+Madhura
+Karma
+:
+V¡tahara, Kaphahara, Ras¡yana, ËyuÀya, Medhya, Matiprada, Svarya,
+Praj¡sth¡pana, ViÀahara, Mohahara
+IMPORTANT FORMULATIONS - S¡rasvat¡riÀ¶a, Br¡hm¢ Gh¤ta, Ratnagiri Rasa, Br¡hm¢
+Va¶¢, S¡rasvata C£r¸a, Sm¤tis¡gara Rasa
+THERAPEUTIC USES - KuÀ¶ha, Jvara, áopha, P¡¸·u, Prameha, M¡nasavik¡ra
+DOSE - 1-3 g in powder form.
+
+46

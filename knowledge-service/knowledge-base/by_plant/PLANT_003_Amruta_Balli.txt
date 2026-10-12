@@ -1,0 +1,140 @@
+PLANT_ID: PLANT_003
+PLANT_IDENTIFIER: Amruta_Balli
+
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Guduchi (St) -----
+27. Guduchi (St)
+GUÚÍCÌ (Stem)
+Gu·£c¢ consists of dried, matured pieces of stem of Tinospora cordifolia (Willd.)
+Miers. (Fam, Menispermaceae), a perennial climber found throughout Tropical India, drug
+collected during summer preferably in the month of May, drug is used in fresh form also.
+SYNONYMS
+Sanskrit
+:
+Am¤tavall¢, Am¤t¡, Madhupar¸¢, Gu·£cik¡, Chinnodbhav¡
+Assamese
+:
+Siddhilata, Amarlata
+Bengali
+:
+Gulancha
+English
+:
+--
+Gujrati
+:
+Galac, Garo
+Hindi
+:
+Giloe, Gurcha
+Kannada
+:
+Amrutaballi
+Kashmiri
+:
+Amrita, Gilo
+Malayalam
+:
+Chittamrutu
+Marathi
+:
+Gulvel
+Oriya
+:
+Guluchi
+Punjabi
+:
+Gilo
+Tamil
+:
+Seendal, Seendil kodi
+Telugu
+:
+Thippateega
+Urdu
+:
+Gilo
+DESCRIPTION
+a) Macroscopic
+Drug occurs in pieces of varying thickness ranging from 0.6-5 cm in diameter,
+young stems green with smooth surfaces and swelling at nodes, older ones show a light
+brown surface marked with warty protuberances due to circular lenticels, transversely
+smoothened surface shows a radial structure with conspicuous medullary rays traversing
+porous tissues, taste bitter.
+
+70
+
+b) Microscopic
+Transverse section of stem shows outer-most layer of cork, differentiating into
+outer zone of thick-walled brownish and compressed cells, inner zone of thin walled
+colourless, tangentially arranged 3-4 rows of cells, cork broken at some places due to
+opening of lenticels, followed by 5 or more rows of secondary cortex of which the cells
+of outer rows smaller than the inner one, just within the opening of lenticels, groups of
+sclereids consisting of 2-10 cells found in secondary cortex region, outer zone of cortex
+consists of 3--5 rows of irregularly arranged, tangentially elongated chlorenchymatous
+cells, cortical cells situated towards inner side, polygonal in shape and filled with plenty
+of starch grains, simple, ovoid, or irregularly ovoid-elliptical, occasionally compound of
+2-4 components, several secretory cells, found scattered in the cortex, pericyclic fibres
+lignified with wide lumen and pointed ends, associated with a large number of crystal
+fibres containing a single prism in each chamber, vascular zone composed of 10-12 or
+more wedge-shaped strips of xylem, externally surrounded by semi-circular strips of
+phloem, alternating, with wide medullary rays, phloem consists of sieve tube, companion
+cells and phloem parenchyma of polygonal or tangentially elongated cells, some of them
+contain cryste1s of calcium oxalate, cambium composed of one to two layers of
+tangentially elongated cells in each vascular bundle, xylem consists of vessels, tracheids,
+parenchyma and fibres, in primary xylem, vessels comparatively narrow devoid of
+tyloses, secondary xylem elements thick-walled, lignified, vessels cylindrical in shape
+bearing bordered pits on their walls some large vessels possess several tyloses and often
+contain transverse septa, meduallry rays 15-20 or more cells wide containing rounded,
+hemispherical, oblong, ovoid, with faintly marked concentric striations and central hilum
+appearing like a point, starch grains of 5.5-11.20 µ in diameter and 6-11.28 µ in length,
+pith composed of large, thin-walled cells mostly containing starch grains.
+IDENTITY, PURITY AND STRENGTH
+
+dried drug -Foreign matter
+
+Total ash
+Not more than 2 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 16 per cent, Appendix 2.2.4.
+Acid-insoluble ash
+Not more than 3 per cent, Appendix 2.2.6.
+Alcohol-soluble extractive
+Not less than 3 per cent, Appendix 2.2.7.
+Water-soluble extractive
+Not less than 11 per cent, Appendix
+For fresh drug
+
+Foreign matter
+ Nil Appendix 2.2.2.
+Moisture content
+ 75 per cent, Appendix 2.2.9.
+
+71
+
+CONSTITUENTS - Terpenoids and alkaloids.
+
+PROPERTIES AND ACTION
+Rasa
+:
+Tikta, KaÀ¡ya
+Gu¸a
+:
+Laghu
+V¢rya
+:
+UÀ¸a
+Vip¡ka
+:
+Madhura
+Karma
+:
+TridoÀa¿¡maka, SaÆgr¡h¢, Balya, D¢pana, Ras¡yana, Rakta¿odhaka,
+Jvaraghna
+IMPORTANT FORMULATIONS - Am¤t¡riÀ¶a, Am¤tottara Kv¡tha C£r¸a, Gu·£c¢ Taila,
+Gu·£cy¡di C£r¸a, Gu·£c¢ Sattva, Chinnodbhav¡di Kv¡tha C£r¸a
+THERAPEUTIC USES - KuÀ¶ha, V¡tarakta, Jvara, K¡mal¡, P¡¸·u, Prameha
+DOSE - 3-6 g of the drug in powder form
+20-30 g of the drug for decoction
+
+72

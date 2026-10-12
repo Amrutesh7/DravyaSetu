@@ -1,0 +1,940 @@
+ Corresponding author: Ravindra B. Malabadi
+Copyright © 2024 Author(s) retain the copyright of this article. This article is published under the terms of the Creative Commons Attribution Liscense 4.0.
+Tinospora cordifolia (Amruthballi): Medicinal plant with Anticancer activity
+Ravindra B. Malabadi 1, 4, *, Sadiya MR 2, Kiran P. Kolkar 3, Raju K. Chalannavar 1 and Himansu Baijnath 5
+1 Department of Applied Botany, Mangalore University, Mangalagangotri-574199, Mangalore, Karnataka State, India.
+2 Department of Biochemistry, JSS Medical College, Mysore- 570015, Karnataka State, India.
+3 Department of Botany, Karnatak Science College, Dharwad-580003, Karnataka State, India.
+4 Miller Blvd, NW, Edmonton, Alberta, Canada.
+5 Ward Herbarium, School of Life Sciences, University of KwaZulu-Natal, Westville Campus, Private Bag X54001, Durban
+4000, South Africa.
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+Publication history: Received on 17 January 2024; revised on 28 February 2024; accepted on 01 March 2024
+Article DOI: https://doi.org/10.30574/msabp.2024.11.2.0017
+Abstract
+This review paper highlights the therapeutic properties of Tinospora cordifolia (Amruthballi), Giloy’ or ‘Guduchi’
+particularly anticancer activity. Nine species of Tinospora are naturalized in the different states of India. Tinospora
+cordifolia is one such plant and has shown to exhibit anti-carcinogenic properties. Tinospora cordifolia herbal
+supplements have recently gained prominence due to their promising immunomodulatory, and anticancer properties.
+Berberine (BBR) is a natural active principle with potential antitumor activity. Significant anti-carcinogenic properties
+were exhibited by Tinospora cordifolia-derived phytocompounds including palmative, berberine, new clerodane
+furanoditerene glycoside, arabinogalactan, phenolic compounds and epoxy cleodane diterpene. Cancer is an extreme
+metabolic disorder that has seen significant advancement in treatment plans and preventative remedies. It is also called
+neoplastic disease, characterized by the uncontrolled proliferation followed by the constant multiplication of human
+cells. This leads to the development of tumors of harmful malignant cells with the capacity to be metastatic. These plant
+derived natural resources have proved to be non-toxic and are potential modes of cancer management and therapy.
+Tinospora cordifolia extracts demonstrated the potent analogs possess multiple effects on numerous molecular targets
+of malignant cells. These analogs can be developed as non-toxic and therapeutically effective drug products to combat
+various malignancies.
+Keywords: Amruthballi; Antitumor activity; Ayurveda; Berberine; Cancer; Giloy; Guduchi; Malignant cells; Tinospora
+cordifolia
+1. Introduction
+Tinospora cordifolia (Thunb.) and other species belongs to the family Menispermaceae is one of the important medicinal
+plant of pharmaceutic interest [1-46, 47-172]. Tinospora cordifolia is also known as Amruthballi (Kannada), ‘Giloy’ or
+‘Guduchi’ is a genetically diverse plant found in the Indian subcontinent particularly in Western Ghats region of
+Karnataka, Kerala, and Tamilnadu [1-46, 47-175]. The use of this medicinal plant has been described in detailed manner
+in Vedic and Ayurvedic scriptures. Tinospora cordifolia is also found growing in North Indian hilly regions (Uttarakhand,
+Bihar, UP, Punjab, Sikkim, Meghalaya, Manipur, Assam, and Arunachal Pradesh) and also found in Myanmar, Australia,
+Sri Lanka, and China [1-46, 47-175]. Amruthballi (Tinospora cordifolia) is found growing abundantly in Dharwad,
+Mysore, Belagavi, Mangalore, Karwar districts of Karnataka state, India [1-46, 47-175]. Total 34 species of Tinospora
+genus are found in Africa, Australia, Asia, Madagascar and Pacific regions of the World [1-43, 47-172]. Nine species of
+Tinospora are naturalized in the different states of India [1-46, 47-172]: 1) Tinospora cordifolia, 2) Tinospora baenzigeri,
+3) Tinospora glabra, 4) Tinospora crispa, 5) Tinospora formanii, 6) Tinospora maqsoodiana, 7) Tinospora sinensis 8)
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+2
+Tinospora smilacina, 9) Tinospora subcordata are naturalized in the different states of India [1-46, 47-175]. In traditional
+medicine, different parts of Tinospora are used in the treatment of cancer, syphilis, ulcers, bronchitis, jaundice, urinary
+disease, piles, skin and liver diseases [1-46, 47-172]. Amruthballi or Guduchi, or Giloy, or Tinospora cordifolia, belongs
+to the menispermaceae family of universal drugs used to treat various diseases in traditional Indian literature. It has
+received attention in recent decades because of its utilization in folklore medicine for treating several disorders [1-46,
+47-175]. Lately, the findings of active phytoconstituents present in herbal plants and their pharmacological function in
+disease treatment and control have stimulated interest in plants around the world.
+Tinospora cordifolia herbal supplements have recently gained prominence due to their promising immunomodulatory
+and antiviral effects against SARS-CoV-2 [43-149, 170]. During the outbreak of Covid-19, different extracts of Tinospora
+cordifolia was used as a herbal medicine for controlling fever, cough, immunity modulator and throat infections [1-46,
+47-172]. The first clinical evidence of HIF-1 reduction in COVID-19 patients receiving AV herbal extract treatment was
+documented [149, 170]. This study concluded that the use of oral medication of Vasa ghan, Guduchi ghan, and Vasa
+Guduchi ghan are effective treatment for mild COVID-19 patients [149, 170]. All three treatment arms prevented the
+disease’s progression to its more severe stages[1-46, 47-172]. Immunomodulatory activity of Guduchi, anti-
+inflammatory, anti-hypoxic, and anti-thrombotic effects were observed for Adhatoda at preclinical levels and clinical
+study [149, 170]. This is also the first report of in-depth analysis of clinical outcomes of Ayurvedic interventions on
+COVID-19 mild cases, assessed through multiple parameters analyzed at different time points [1-46, 47-172]. Taken
+together, the results of viral clearance and other systemic beneficial outcomes of host response established the potential
+of AV, TC, and AV+TC to be safe and efficacious interventions for COVID-19 at doses tested [1-46, 47-172]. One of the
+study showed the pharmacological effects of the aqueous extracts of Tinospora cordifolia (willd.) Hook. f. and Thomson
+in the form of Giloy Ghanvati (GG) tablets against SARS-CoV-2 spike-protein induced disease phenotype in a humanized
+Zebra fish model [149, 170]. Treatment with Giloy Ghanvati (GG) tablets reversed the pro-inflammatory cell infiltration
+in the swim bladder and also rescued the tubule damage and necrosis seen in the kidney[149, 170]. Covid-19 spike-
+protein induced in fish demonstrated behavioral fever indicative of higher body temperature. This was reversed upon
+treatment with the test formulation [149, 170]. Taken together, the morphological, cytological, and behavioral changes
+observed with induction of SARS-CoV-2 spike-protein were rescued to near normal levels with GG treatment [149, 170].
+Tinospora cordifolia has helped to save the life of people and recovered from covid-19 [149, 170]. Guduchi is
+ethnobotanically used for jaundice, diabetes, urinary problems, stomach aches, prolonged diarrhea, skin ailments, and
+dysentery. The treatment with Amruthballi or Guduchi extracts was accredited to phytochemical constituents, which
+include glycosides, alkaloids, steroids, and diterpenoid lactones [1-149, 170]. Tinospora cordifolia (TC) a potential
+medicinal herb, has been ethnobotanically used as an eco-friendly supplement to manage various diseases, including
+cerebral fever [1-46, 47-175]. Earlier studies have shown that TC exhibits diverse beneficial effects, including
+hepatoprotective and neuroprotective effects. Another study in 2024 revealed promising insights on the protective
+effects of TC against Hepatic encephalopathy [1-46, 47-175]. The findings clearly demonstrated that the significant
+inhibition of MAPK/NF-κB signaling and glial cell activation could be responsible for the observed beneficial effects of
+TC in TAA-induced Hepatic encephalopathy rats [1-46, 47-175].
+
+Figure 1 The wild growth of Tinospora cordifolia
+Herbal medicine in the form of Ayurveda, is a well-documented and widely accepted traditional medical system in India.
+The use of traditional and complementary medicine is often seen in chronic illness and a general improvement of
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+3
+wellness. India with its rich plant biodiversity and enormous knowledge of Ayurvedic, Himeopathic, Siddha, Unani
+system of medicines, provide a strong base for the utilization of plants in general healthcare and common complaints of
+the people. In a traditional Indian Ayurvedic system of medicine, plants and plant-based constituents have been
+extensively used for the treatment and management of different types of viral and other diseases including
+cancer. Ayurveda is a holistic approach to health and wellness that emphasizes balance between body, mind, and spirit.
+It is one of the oldest and the most respected Indian herbal medicinal traditions in the world [105-142]. Ayurveda
+means ‘Science of life’. It provides a complete system to have a long and healthy life. India has the exclusive distinction
+of its own recognized traditional medicine; Ayurveda, Yoga, Unani, Siddha, and Homoeopathy (AYUSH). Many safe
+traditional formulations of AYUSH, which are well known immunity modulators, have been used for centuries to control
+the viral disease, cancer, respiratory disorders, and in allergic conditions. Indian Tinospora species possess various
+pharmacological attributes such as anticancer, antitumor, antioxidant, hepatopotective, radioprotective,
+neuroprotective, antidiabetic, anthelmintic, antmicrobial, analgesic, antifertility, antiarthritic, antistress, anti-
+inflammatory, immunomodulatory, wound healing, and antiulcer activities [1-46, 47-175]. These biological activities of
+Indian Tinospora species can be attributed to the presence of a wide range of phytoconstituents including alkaloids
+(tinoscorsides A-B, palmatine, tembetarine, jatrorrhizine, magnoflorine, berberine, isocolumbin), clerodane furano
+diterpene glucosides (amritosides A-D, tinoscorside C, borapetoside B and F, and cordifolide C), flavonoids (diosmetin,
+genkwanin, genkwanin 7-glucoside, and rutin), lignans (Secoisolariciresinol, syringaresinol, makisterone C), and sterols
+(campesterol, b-sitosterol, stigmasterol) [1- 43, 44-175].
+
+Figure 2 Heart shaped leaves of Tinospora cordifolia
+
+Figure 3 The stem of Tinospora cordifolia
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+4
+2. Indian Tinospora species
+Following are the nine species of Tinospora that are naturalized in the different states of India.
+1) Tinospora cordifolia is a large deciduous dioecious (male and female plants are separate) climber, grows on wide
+range of hedges and trees. Its stem is green, and contains succulent bark [43] (Figure, 1, 2, 3). The pendulous fleshy
+roots hang from branches, and its roots have pale shining or glabrous bark. On dryness, stem shrinks and bark separates
+from the wood. Leaves are membranous, round, cordate or heart shaped, contain 2.5–7.0 cm long petiole. The flowers
+bloom in the summer season. Inflorescence is of raceme type. Male flowers are small, yellow or green in colour, and
+occur in clusters in the axils of small subulate bracts [43]. Female flowers are solitary, sepals green, margins not reflexed,
+staminode short; ovary has 1–3 carpels, widely separated on the short fleshy gynophores, and dorsally convexed [43].
+T. cordifolia stem is used in the stimulation of gastric activity, bile secretions, enrichment of blood composition and to
+treat skin diseases, spleen enlargement, vaginal and urethral discharges [1-46, 47-175]. Stem decoction is used for
+washing of eyes and syphilitic sores, acts as an antidote to treat snakebites and scorpion stings, and in the treatment of
+cancer, pyorrhoea, malaria, chronic diarrhea, asthma, dysentery, urinary, skin diseases and respiratory complaints [1-
+46, 47-172]. The aqueous extract of roots is used as an emetic and analgesic agent, and also useful in the treatment
+visceral pain [43]. The crushed leaves are mixed with honey and used to cure cancer, ulcers, gout and bacterial skin
+infections [43]. Decoction of leaves is useful in malaria and enhancement of women’s fertility [1-46, 47-172]. Dried fruit
+powder is mixed with ghee or honey and used as a tonic as well as in the treatment of jaundice and rheumatic complaints
+[1-46, 47-175]. The combination of ripened fruit juice and honey is recommended daily (for 3–5 days) for treatment of
+cold in children. Whole plant extract is useful in diarrhoea, stomach complaints, and anemia. The stem is a rich source
+of copper, calcium, phosphorus, iron, zinc, manganese hence, used in the treatment of metabolic disorders of humans
+[1-46, 47-175].
+2) Tinospora baenzigeri is a woody climber, grows up to 15 m high, and stem with scattered pustular-lenticels. Leaves
+are broadly ovate to orbicular, apex usually long-acuminate, base shallowly to deeply cordate [43]. Male inflorescence
+appears from the older, leafless stems, pseudo-racemose, long (7–20 cm), flowers in 1–3 flowered clusters [43]. Fruits
+are drupes, yellow and orange, radiating from sub-globose carpophore, pericarp very thin and endocarp thinly bony
+[43]. In a traditional medicine, it is useful in curing of headache, cold, fever, diarrhoea, ulcer, indigestion, and rheumatoid
+arthritis [1-46, 47-175].
+3) Tinospora glabra is a climber, seriate stem, with thin papery bark. Leaves oblong-ovate or narrowly to broadly
+ovate, base cordate to truncate, and apex acuminate [43]. Male inflorescence is axillary, pseudo-racemose type, 10–20
+cm, flower solitary, and female inflorescence is similar to male [43]. Fruit is drupe red, radiating from un-branched,
+short to columnar carpophore, endocarp thinly bony, and keeled at apex [43].
+ 4) Tinospora crispa is an herbaceous vine, with brownish and fleshy stem [43]. The leaves are large (6–12 cm long and
+7–12 cm wide), both surfaces glabrous and heart shaped. Flowers are 2–3, small, and yellowish or green in colour [43].
+Male inflorescence is slender, longer (5–10 cm), flowers six, green, sepals in two whorls (outer three ovate and inner
+three obovate) The female inflorescence is long (2–6 cm), and one flower per node [43]. Fruits are drupe and long (7–8
+mm). As per Vietnamese and Indian traditional medicine system, it is useful in malaria, cough, poor digestion, colitis,
+and diabetes and also used in the treatment of jaundice, rheumatism, bone fractures, scabies, and hypertension [43]. It
+is taken in the management of thirst, hunger resistance and heat clearing, and used in curing of diabetes [1-46, 47-175].
+5) Tinospora formanii is a woody dioecious vine, with thick stem (4 cm), clear concentric rings, brown, smooth papery
+bark, and peeling off into scales [43]. Leaves are alternate, large (6–14 x 4– 8 cm), ovate to elliptic-lanceolate, coriaceous,
+glabrous, acuminate at apex, and cordate at base [43]. Male inflorescences and flowers unknown but, female
+inflorescence is a compound elongated pseudoraceme type long (5–18 cm) [43]. Fruits are drupes, globose, across (2–
+3 cm), red on maturity; pericarp thin [43]. Seeds are oblong, subellipsoid and dorsally convex [43].
+6) Tinospora maqsoodiana is similar to T. cordifolia but different in its young stems, papillose-glandular [43]. The leaf
+shape is triangular-ovate, broad and long, ovate deltoid, elliptic, basal lobes slightly lobed, lamina base cordate to
+cuneate, endocarp with papillose surface [43].
+ 7) Tinospora sinensis is a large fleshy deciduous climber with shiny stem and papery bark. Its young parts are covered
+with densely matted woolly hairs [43]. The leaves are broadly ovate to sub-orbicular, membranous, beneath with
+glandular patches at basal nerve axils [43]. Flowers are greenish yellow. Inflorescence is of raceme type, panicles 3–12
+cm long, and slender [43]. Female flowers are tri-carpellary, 2-lobed stigma, gynophore 1 mm long [43]. Fruit is drupe,
+globose (1–3, 10–13 mm across), red, scarlet or orange red [43] and flowering occurs in December–February [43]. Leaf
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+5
+and stem juice are used in the treatment of chronic rheumatism, ulcerated wounds and piles [43]. Aqueous extract of
+whole plant is useful in debility, dyspepsia, fever, inflammation, syphilis, ulcers, bronchitis, jaundice, urinary disease,
+skin disease and liver disease [1-46, 47-172]. The juice or powder of T. sinensis stem is useful in the treatment of diabetes
+and gastritis. T. sinensis possesses adaptogenic and anti-inflammatory , and anti-diabetic activities [1-46, 47-175].
+8) Tinospora smilacina Benth is a semi-deciduous herb, with woody climber stem (7 cm diameter) [43]. Leaves are
+alternate, size 4–5- 12 x 4–11 cm, long petioles (2.5–9 cm), five veins, including the midrib, radiate from the base of the
+leaf blade [43]. Inflorescence, slender, male flower sepals arrange in two whorls of three. Female flowers also arrange
+in two whorls of three, outer sepals about 2 mm long, inner sepals petaloid. Fruit is drupe, globular to ellipsoid (6–10 x
+6–9 mm) in shape[43]. As per Australian traditional medicine, whole plant is used in the treatment of pain, wounds,
+swelling, rheumatism, severe colds, infections and snake bites [1-46, 47-172].
+9) Tinospora subcordata is a small woody climber, glabrous, stem with lenticels [43]. Leaves with petioles, and long
+(2.5–8 cm) [1-46, 47-175]. Pseudo-racemose, long, flowers arrange on slender pedicels, sepals white, outer 3 ovate [43].
+The female inflorescence is peudo-racemose, flowers arrange on pedicels, sepals and petals similar to male but slightly
+smaller and petals thin. Fruit are drupe, red, endocarp bony, and elliptic in outline [1-46, 47-175-208].
+The alkaloids, glycosides, diterpenoid lactones, flavonoids, steroids and sesquiterpenoids have been isolated and
+identified from 4 species (T. baenzigeri, T. cordifolia, T. crispa and T. sinensis) [43] of Indian Tinospora while other 5
+species have not been investigated for the presence of phytochemicals [43-208]. No compound is reported from 5 Indian
+Tinospora species (T. formanii, T. glabra, T. maqsoodiana, T. smilacina and T. subcordata) [43].
+Different parts of Indian Tinospora species are used in the treatment of fever, urinary diseases, asthma, gout, diabetes,
+diarrhoea, and skin infections [1-46, 47-175-208]. The presence of various bioactive compounds provides the plant for
+its antidiabetic, antioxidant, anticancer, antimicrobial, antifertility, hepatoprotective, radioprotective, antiarthritic
+antioxidant, hypolipidemic, and anti-inflammatory activities [1-46,47-175]. The clerodane furano diterpene glycosides
+showed promising anticancer and isoquinoline alkaloids exhibited antidiabetic activities in different models [1-46, 47-
+175]. T. cordifolia stem has been used by Indian people in the treatment of diabetes [1-46, 47-175]. Antidiabetic efficacy
+and safety of T. cordifolia stem capsules (dry powder) in diabetic patients has proven in clinical trial as well as in Indian
+people [1-46, 47-175-208]. This attribute of T. cordifolia may be exploited by commercialization of these plants for the
+identification of potential compounds for the treatment of diabetes [1-46, 47-175]. T. cordifolia capsules (300
+mg/kg/day) showed a significant decrease in mean systolic blood pressure on fixed workload exercise when compared
+to placebo and also improved the physical performance [1-46, 47-175]. Capsules significantly changed the neutrophil,
+and eosinophil counts (P < 0.05) and were found effective in relieving the clinical symptoms in cases of allergic rhinitis,
+cold and fever [1-46, 47-175]. Although, some studies have done to reveal the antidiabetic activities of T. cordifolia, its
+true potential is yet to be acknowledged [1-46, 47-175]. But there is still a need to conduct further scientific-based study
+to explore the chemical characterizations and pharmacological evaluations of 5 Indian Tinospora species (T. formanii,
+T. glabra, T. maqsoodiana, T. smilacina, and T. subcordata) [1-46, 47-175-208]. Some Tinospora formulations are used
+in preclinical and clinical preparations with hepatoprotective, antioxidant, pancreatic islet superoxide dismutase,
+antiatherogenic,
+antiarthritis,
+immunomodulatory,
+antihyperglycemic,
+antihyperlipidemic,
+antidepressant,
+antiamoebic, and antistress properties [1-46, 47-175-208]. More scientific studies are to be conducted on therapeutic
+and toxicological properties of Tinospora that will help in the development of new therapeutic products in the future
+[1-46, 47-175]. Clerodane diterpenes are a large group of plant-derived secondary products of pharamceutical interest
+found in thousands of plant species from many plant families including Tinospora species [1-46, 47-175-208].
+3. Tinospora cordifolia: Botany
+Tinospora cordifolia is a medicinal plant whose status in the field of natural medicine and Ayurveda is of the highest
+order (Figure, 1, 2, 3). Vernacularly speaking, Tinospora cordifolia is known “Guduchi” whose origin is rooted to Sanskrit;
+and is known as “Amruthaballi” in Kannada and is an important drug of the Indian System of Medicine (ISM) [1-46, 47-
+175-208]. T. cordifolia is an esteemed medicinal plant whose uses and application with reference to human benefits
+have been praised to indescribable heights in various Ayurvedic and Vedic scriptures and the practices [1-46, 47-175-
+208]. Tinospora cordifolia, a climber plant of great medicinal property which is widely and popularly used in the
+Ayurvedic and local forms of medicine is studied in the phytochemical and different components that exhibit the
+properties that have been celebrated and upheld in the age old traditions and medicinal practices [1-46, 47-175]. The
+plant is known as Guduchi or Amrita in Sanskrit which points to the nature of this plant in the rejuvenating and the
+retainment of youth and life span of the consumer [1-46, 47-175-208].
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+6
+The climbing plant is seen to bear lots of spreading slender branches which grab on to the nearby objects for support
+(Figure, 1, 2, 3). The flowers that are seen are observed are small and unisexual. Female and male flowers are seen in
+different plants. On the flowering season, the plants bear no leaves and the flowers bear yellowing green color and the
+flowers are positioned at the apex and terminal racemes. The differentiations in the sexes are seen in the form that the
+male flowers are usually clustered and the female flowers are solitary in positioning. The seeds are curved and pea sized
+and are transverse dehiscent in nature. The roots which are present in this plant are seen in both underground and
+aerial form [1-46, 47-175].
+It grows at high altitude and bears flowers that are greenish to yellow. It is a large deciduous, extensively spreading
+climbing shrub with several coiled branches with a different type of morphology [1-46, 47-175]. The stem of the plant
+is filiform, fleshy and climbing in nature. The bark is white to gray. Powder of the stem is creamish brown or dark brown,
+characteristic odour, bitter taste and it is used in cancer treatment, dyspepsia, fever, and urinary diseases. The starch
+obtained from the stem known as “Guduchi-satva.” It is highly nutritive and digestive [1-46, 47-175-208]. Its fruits are
+single-seeded, fruits during the winter and flowers grow during the summer. The chemical constituents of T. cordifolia
+belong to different classes such as alkaloids, glycosides, steroids, phenolics, aliphatic compounds, polysaccharides,
+leaves are rich in protein (11.2%), calcium and phosphorus. The stem contains clerodane furono diterpene glucoside
+(amritoside A, B, C, and D) and the structure has been established by different spectroscopic studies[1-46, 47-175-208].
+4. Tinospora cordifolia: Phytochemistry
+T. cordifolia is a medicinal plant having various type of compounds [1-46, 47-175-208]. The different bioactive
+compounds, including alkaloids, steroids, glycosides, and sesquiterpenoids, etc. Amruthballi contains phenolics,
+polysaccharides, diterpenoid lactones, aliphatic compounds, and alkaloids [1-46, 47-175]. The main compound of this
+plant is berberine and furanolactone. Furthermore other compounds like tinosporone, tinosporic acid, cordifolisides A
+to E, giloin gilenin, crude giloininand, arabinogalactan polysaccharide, picrotene, bergenin, gilosterol, tinosporol,
+tinosporidine, sitosterol, cordifol, heptacosanol, octacosonal, tinosporide, columbin, chasmanthin, palmarin,
+palmatosides C and F, amritosides, cordioside, tinosponone, ecdysterone, makisterone A, hydroxyecdysone,
+magnoflorine, tembetarine, syringine, glucan polysaccharide, syringine apiosylglycoside, isocolumbin, palmatine,
+tetrahydropalmaitine, jatrorrhizine are few of the compounds that have been isolated from Tinospora cordifolia [1-46,
+47-175-208]. The presence of three compounds like cycloeuphordenol, Cyclohexyl–11–heneicosanone and 2–Hydroxy–
+4–methoxy– benzaldehyde has been isolated from the plant and has been seen to be present in various other plants.
+The presence of proteins and miscellaneous compounds has been attributed to the medicinal properties of the plant [1-
+46, 47-175-208]. The plant contains a high amount of fiber totaling to an total estimate of 15.9%, and the protein content
+to about 4.5–11.2%, and the total carbohydrate estimate to about 61.7. Further, a low fat amount estimating to about
+3.2% and the mineral content totaling to about 0.845% of potassium, 0.006% chromium, 0.28% of Iron and 0.131% of
+calcium. All these compounds are involved directly or indirectly in the pathways or regulatory, metabolic and cellular
+nature [1-46, 47-175-208].
+5. Tinospora cordifolia: Pharmacy
+According to Auyverda, the Tinospora cordifolia herbal preparations were used for the management of several diseases
+and discomfort including pyrexia, dyspepsia, syphilis, gonorrhea, diseases of the urinary tract, gout, viral hepatitis,
+anemia, general weakness, urinary tract infections, dermatological diseases, loss of appetite, and asthma [1-46, 47-208].
+It is considered as an essential herbal plant of Indian system of medicine (ISM) and has been used in the treatment of
+fever, urinary problem, dysentery, skin diseases leprosy, diabetes, and many more diseases [1-46, 47-175]. The plant is
+known for anticancer, antioxidant, antiinflammatory, anti–tuberculosis; wound healing, immunomodulatory,
+immunoprotective, hepatoprotective, anti–osteoporotic, antitumour, antimalaria, cardio protective nature and many
+more properties that make as the best medicinal plant [1-46, 47-175-208]. The presence of biologically active
+phytocompounds like berberine, an alkoloidic compound and the bitter compounds like tinosporin, tinosporic acid,
+tinosporal, and a complex mixture of fatty acids. The essential oils that are responsible for the expression of the
+antibacterial or the general antimicrobial activity of the plant extract [1-46, 47-175]. The most admirable character of
+the plant extract is the effect it bears in the cognitive field [1-46, 47-175]. Its ability to affect the learning and memory
+cortex of the human intelligence is an admirable trait and this trait has attracted the interest of various scientific and
+industrial bodies [1-46, 47-175]. The plant has been titled to many properties that have been used from time
+immemorial. Few of them include curative properties against jaundice, fever, gout, urinary and upper respiratory
+infections and preventive measures against skin infections, chronic diarrhoea, bleeding piles, dysentery, itching and
+erysipelas [1-46, 47-175]. Tinospora cordifolia is also known for its potent aphrodisiac nature and its rejuvenating
+nature. The plant extract influences the secretion of bile liquids and is known to enrich the blood constituents. The
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+7
+plants show antidiabetic properties due to the presence of tannins, alkaloids, flavonoids, glycosides, saponins and
+steroids. The plant has seen to have effect on both the sexual arousal and the sexual performance of the biological
+systems, and these drugs have stimulatory effect on the co-pulatory behavior and thereby entitled to aphrodisiac
+activity [1-46, 47-175]. The plant is known for the artistic antifungal activity, antioxidant activity, antimicrobial activity,
+antibacterial activity, hypolipidaemic effect, hepatic disorder, anticancer, anti HIV potential, antiosteoporotic effects,
+antitoxic effects, wound healing, anticomplementary activity, immunomodulating activity, systemic infection and
+Parkinson s disease of T. cordifolia [1-46, 47-175-208].
+Antimicrobial activity of the T. cordifolia with different solvents on different micro-organism, showed good antifungal
+and antibacterial activity. The antidiabetic activities is due to alkaloids (Magnoflorine, Palmetine, Jatrorrhizine), tannins,
+cardiac glycosides, flavonoids, saponins, etc [1-46, 47-175-208]. In Ayurveda, it acts as Medhya Rasayana or brain tonic
+by increasing mind power like memory and recollection. The dose of root extract 5.0 g/kg body weight showed the
+highest hypolipidaemic effect. The ability of T. cordifolia root extract to reduce the level of serum or tissue lipids in
+diabetics animals have been reported. Protective effects of Tinospora cordifolia water extract (TCE) on hepatic and
+gastrointestinal toxicity has been reported. One of the study demonstrated that the root extract of T. cordifolia affects
+the immune system of HIV positive patient [1-46, 47-175]. The stem extract of Tinospora cordifolia reduces the ability
+of eosinophil count, stimulation of B lymphocytes, macrophages, level of hemoglobin, and polymorphonuclear
+leucocytes. Incision, excision, and dead space of the wound models were employed to investigate the wound healing
+potential of the plant increased tensile strength extract of T. cordifolia may be attributed to the promotion of collagen
+synthesis. The extract of T. cordifolia did not reverse dexamethasone suppressed wound healing [1-46, 47-175]. Another
+study reported that T. cordifolia affect the proliferation, differentiation, and mineralization of bone-like matrix on
+osteoblast model systems in-vitro. Hence finds potential application as an antiosteoporotic agent [1-46, 47-175]. T.
+cordifolia extracts have been reported to induce a significant increase in the thickness of joint cartilage, induce the
+osteogenic differentiation in mouse mesenchymal stem cells and to relieve osteoporosis in osteoporotic animal models.
+Further 20-OH-β-Ecd isolated from T. cordifolia has been reported for its anti-osteoporotic effects, thus highlighting the
+role of Tinospora cordifolia in the treatment of osteoporosis and osteoarthritis [1-46, 47-175-208].
+The root of Giloya (T. cordifolia) is used as potent emetic and for bowel obstruction. The starch of this plant serves a
+beneficial household remedy for chronic fever, relieves burning sensation, increases energy and appetite [1-46, 47-175].
+Giloya is useful in the treatment of helminthiasis, heart diseases, leprosy, rheumatoid arthritis, support the immune
+system, the body's resistance to infections, supports standard white blood cell structure, function, and levels. It also
+helps in digestive ailments such as hyperacidity, colitis, worm infestations, loss of appetite, abdominal pain, excessive
+thirst, and vomiting, and even liver disorders like hepatitis [1-46, 47-175]. This pharmacological activities of the plant
+is due to its chemical constituents like diterpenoid lactones, glycosides, steroids, sesquiterpenoid, phenolics, aliphatic
+compounds, essential oils, a mixture of fatty acids, and polysaccharides and is present in a different part of the plant
+body, including root, stem, and whole part [1-46, 47-175-208].
+6. Tinospora cordifolia: Anticancer activity
+Cancer is a growing economic burden worldwide [177-208]. Cancer is a disorder that rigorously affects the human
+population worldwide. Cancer is a disease of dysregulated and uncontrolled cell division and cell proliferation.
+Successful malignization requires mutations in multiple genes. Current therapeutic modalities in cancer, including
+surgery, chemotherapy, and radiotherapy have shown to be associated with significant morbidity [177-208]. The cancer
+treatment options include surgical interventions, chemotherapy and/or radiotherapy either alone or in combination,
+stem cell therapy, gene therapy, immunotherapy, targeted therapy, ablation therapy, nanoparticles, natural
+antioxidants, radionics, chemodynamic therapy, sonodynamic therapy, and ferroptosis-based therapy and vaccination
+[1, 175-177-208]. However, they present several limitations including side effects or ineffectiveness. Even though these
+conventional treatment modalities have shown promise, the unwanted short and long terms side effects are vast[1, 175-
+177-208]. There is a steady demand for new remedies to both treat and prevent this life-threatening sickness due to
+toxicities, drug resistance and therapeutic failures in current conventional therapies [1-46, 47-175-208]. Researchers
+around the world are drawing their attention towards compounds of natural origin. Thus, there is much interest shown
+in the advent of alternative therapeutics including medicinal plants [1-46, 47-175-208]. Although several studies have
+explored the therapeutic benefits of natural plant-based products, there is a relative deficit in the number of systematic
+reviews available, especially with respect to plants present in remote areas such as the Tinospora genus [1, 175-177-
+208]. Among the Tinospora genus, only Tinospora cordifolia, has shown to exhibit anti-carcinogenic properties genus [1,
+175-177-206]. Tinospora cordifolia has been shown to contain several phytocomponents with significant anti-
+carcinogenic properties as elicited by the included in vitro and in vivo studies genus [1, 175-177-208]. Despite
+promising results in laboratory settings, the future scope of Tinospora cordifolia application in cancer therapy depends
+primarily on the success of translating the in vitro and in vivo results on to the clinical trials [1, 175-177-206]. Thus,
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+8
+large-scale multicenter prospective studies are required to elicit the potential application of Tinospora cordifolia in
+cancer therapy [1, 175-177-208]. Tinospora cordifolia is one such plant and has shown to exhibit anti-carcinogenic
+properties [1, 175-177-208]. Significant anti-carcinogenic properties were exhibited by Tinospora cordifolia-derived
+phytocompounds including palmative, berberine, new clerodane furanoditerene glycoside, arabinogalactan, phenolic
+compounds and epoxy cleodane diterpene [1, 175-177-208]. No significant side effects have been elicited with its use.
+Based on the data from the included studies, Tinospora cordifolia could be a natural therapeutic agent for cancer,
+provided its anti-carcinogenic properties can be elicited consistently at a large scale in clinical trials [1, 175-177-208].
+The oral cavity is one of the most common sites to be affected with cancer. Globally, oral squamous cell carcinoma
+(OSCC) accounts for 10.4% of all malignancies and is the eighth most common neoplasm of all cancers [1-46, 47-175-
+208]. Aqueous extract of Tinospora cordifolia was found to induce apoptosis inducer in AW13516 cells in a
+concentration-dependent manner and was potent even at a low concentration of 5 lg/ml[1]. The apoptosis induction
+was confirmed with the caspase activity assay. Treatment of the cells with the extract for 24 h exhibited a significant
+decrease in the expression of EMT genes in a dose-dependent manner without an effect on the metastatic genes[1].
+Aqueous extract of Tinospora cordifolia extracts induces apoptosis-mediated cell death in the oral cancer cell line
+AW13516 while attenuating its potential for epithelial mesenchymal transition[1]. The MTT assay revealed induction
+of cell death by Tinospora cordifolia extract in a concentration-dependent manner [1]. T. cordifolia extract induced
+apoptosis in AW13516 cells in a concentration dependent manner [1]. Even at a low concentration of 5 lg/ml, apoptosis
+was induced, a 24 h treatment with Giloy induced a significant reduction in the expression of EMT genes in a dose-
+dependent manner, although no effect was noted on the metastatic genes [1]. Further studies could be carried out to
+explore the in-vivo anticancer effects of T. cordifolia and berberine on oral cancer [1, 175-177-208]. The extract could
+also be explored for the cancer-preventive activity and management of potentially malignant disorders [1]. The extract
+exhibited anticancer by effects by induction of apoptosis depicted by Annexin V stain and confirmed by Caspase activity
+assays[1]. The apoptosis induction was via alteration of mitochondrial membrane potential in a concentration-
+dependent manner[1]. One of the study reported the anticancer activity of T. cordifolia palmatine extract in animal
+models, alkaloid using response surface methodology (RSM) [1]. The extract indicates the anticancer potential in 7,12-
+dimethylbenz( a)anthracene DMBA induced skin cancer model in mice[1]. Furthermore, another study prepared the
+extract of 200, 400, 600 mg/kg dry weight in a dose depend upon manners. 50% methanolic extract of cordifolia to C57
+BI mice for 30 days at a dose of 750 mg/kg body weight the tumor size reduced life span[1]. Mishra et al., showed the
+anti-brain cancer potential, 50% ethanolic extract of T. cordifolia (TCE) using C6 glioma cells significantly induced
+differentiation in C6 glioma cells, and reduced cell proliferation [1, 175-177-208].
+The methanolic, aqueous, and ethanolic T. cordifolia extracts of stems caused programmed cell death inhibiting
+apoptosis[1, 175-177-206]. The in vitro cytotoxic effect of DMSO and ethanolic extract from T. cordifolia stems against
+murine monocyte/-macrophages (J-774-A-1), human melanoma (A-375) and human breast cancer (MCF-7) cell lines
+was determined by the colori metric MTT assay and TBE method [1, 175-177-208].
+Berberine (BBR) is a natural active principle with potential antitumor activity. The compound targets multiple cell
+signaling pathways, including proliferation, differentiation, and epithelial–mesenchymal transition [176]. The
+expression levels of a panel of 44 selected genes in human colon adenocarcinoma (HCA-7) cell line were quantified by
+real-time polymerase chain reaction (PCR). Berberine (BBR) treatment resulted in a time- and dose-dependent down
+regulation of 33 genes differently involved in cell cycle, differentiation, and epithelial–mesenchymal transition[176-
+208]. The trend was confirmed across the two types of treatment, the two time points, and the different absolute dosage
+of Berberine (BBR). These findings suggest that the presence of BBR in T. cordifolia extract significantly contributes to
+its antiproliferative activity [176-208]. One of the study demonstrated that extract of T. cordifolia is able to inhibit the
+expression of several genes involved in colon cancer development and progression[176-208]. The effects of T. cordifolia
+treatment were well resembled by pure Berberine (BBR). This evidence suggested that the main effects of T. cordifolia
+were mediated by Berberine (BBR) [176]. The ability to strongly reduce expression of genes involved in proliferation,
+differentiation, cell motility, and EMT suggests further research efforts to explore the use of these substances as
+chemotherapeutic agent in colorectal cancer [1, 175-177-208].
+7. Conclusion
+Amruthballi or Giloy or Guduchi, or Tinospora cordifolia, belongs to the Menispermaceae family of universal drugs used
+to treat various diseases in traditional Indian literature. It has received attention in recent decades because of its
+utilization in folklore medicine for treating several disorders. Tinospora cordifolia has been shown to contain several
+phytocomponents with significant anti-carcinogenic properties as elicited by the included in vitro and in vivo studies.
+Despite promising results in laboratory settings, the future scope of Tinospora cordifolia application in cancer therapy
+depends primarily on the success of translating the in vitro and in vivo results on to the clinical trials. Thus, large-scale
+multicenter prospective studies are required to elicit the potential application of Tinospora cordifolia in cancer therapy.
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+9
+Total 34 species of Tinospora genus are found in Africa, Australia, Asia, Madagascar and Pacific regions of the World.
+Nine species of Tinospora are naturalized in the different states of India. In traditional medicine, different parts of
+Tinospora are used in the treatment of syphilis, ulcers, bronchitis, jaundice, urinary disease, piles, skin and liver diseases.
+Indian Tinospora species possess various pharmacological attributes such as antioxidant, hepatopotective,
+radioprotective, neuroprotective, antidiabetic, anthelmintic, antmicrobial, analgesic, anti-fertility, antiarthritic,
+antitumor, antistress, anti-inflammatory, immunomodulatory, wound healing, and antiulcer activities. These biological
+activities of Indian Tinospora species can be attributed to the presence of a wide range of phytoconstituents including
+alkaloids (tinoscorsides A-B, palmatine, tembetarine, jatrorrhizine, magnoflorine, berberine, isocolumbin), clerodane
+furano diterpene glucosides (amritosides A-D, tinoscorside C, borapetoside B and F, and cordifolide C), flavonoids
+(diosmetin, genkwanin, genkwanin 7-glucoside, and rutin), lignans (Secoisolariciresinol, syringaresinol, makisterone
+C), and sterols (campesterol, b-sitosterol, stigmasterol).
+The Menispermaceae family plant Tinospora cordifolia (Amruthballi, Giloy, Guduchi) has components that may be used
+to investigate nutraceuticals using a range of bioactive principles. The most crucial portions for medical use are the
+leaves, stem, and roots, even if practically every other part is utilized in traditional medicine. Tinospora cordifolia
+extracts from the bark, stem, and root have the potential to be chemopreventive and anti-tumor agents against various
+malignant cells. More scientific studies are to be conducted on therapeutic and toxicological properties of Tinospora that
+will help in the development of new therapeutic drug products in the future.
+Compliance with ethical standards
+Acknowledgments
+We would like to thank and acknowledge, Karen Viviana Castaño Coronado MBA (International Agriculture
+Management), Chief Communication Officer (CCO) and CO-Founder of LAIHA (Latin American Industrial Hemp
+Association), and CEO- CANNACONS, Bogota, D.C., Capital District, Colombia for thoughtful discussions, critical
+comments, supporting, promoting, encouraging and appreciating this research work. We also thank all the members of
+LAIHA for supporting and encouraging this research work.
+Disclosure of conflict of interest
+No conflict of interest to be disclosed.
+References
+[1]
+Patil S, Ashi H, Hosmani J, Almalki AY, Alhazmi YA, Mushtaq S, Parveen S, et al., Tinospora cordifolia (Thunb.)
+Miers (Giloy) inhibits oral cancer cells in a dose-dependent manner by inducing apoptosis and attenuating
+epithelial-mesenchymal transition. Saudi Journal of Biological Sciences. 2021; 28: 4553–4559.
+[2]
+Chintalwar G, Jain A, Sipahimalani A, Banerji A, Sumariwalla P, Ramakrishnan R, Sainis K, An immunologically
+active arabinogalactan from Tinospora cordifolia. Phytochemistry. 1999; 52: 1089–1093.
+[3]
+Ghosh S, Saha S. Tinospora cordifolia: One plant, many roles. Anc. Sci. Life. 2012; 31: 151.
+[4]
+Gupta SS, Verma SC, Garg VP, Rai M. Anti-diabetic effects of Tinospora cardifolia. I. Effect on fasting blood sugar
+level, glucose tolerance and adrenaline induced hyperglycaemia. Indian J. Med. Res. 1967; 55, 733–745.
+[5]
+Upadhyay A, Kumar K, Kumar A, Mishra H. Tinospora cordifolia (Willd.) Hook. f. and Thoms. (Guduchi) - validation
+of the Ayurvedic pharmacology through experimental and clinical studies. Int. J. Ayurveda Res. 2010; 1, 112.
+https://doi.org/10.4103/0974-7788.64405.
+[6]
+Leyon P, Kuttan G. Inhibitory effect of a polysaccharide from Tinospora cordifolia on experimental metastasis. J.
+Ethnopharmacol. 2004; 90, 233–237.
+[7]
+Kumar P, Kamle M, Mahato DK, Bora H, Sharma ., Rasane P, Bajpai VK. Tinospora cordifolia (Giloy):
+Phytochemistry, Ethnopharmacology, Clinical Application and Conservation Strategies. Curr. Pharm. Biotechnol.
+2020; 21, 1165–1175.
+[8]
+Sharma P, Dwivedee BP, Bisht D, Dash AK, Kumar D. The chemical constituents and diverse pharmacological
+importance of Tinospora cordifolia. Heliyon. 2019; 5: e02437.
+[9]
+Ali H, Dixit S. Extraction optimization of Tinospora cordifolia and assessment of the anticancer activity of its
+alkaloid palmatine. Sci. World J. 2013; 28: 1–10.
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+10
+[10] Verma R, Chaudhary HS, Agrawal RC. Evaluation of antcarcinogenic and antmutagenic effect of Tinospora
+cordifolia in experimental animals, J. Chem. Pharm. Res. 2011;3 : 877–881.
+[11] Mishra R, Kaur G. Aqueous ethanolic extract of Tinospora cordifolia as a potential candidate for differentiation
+based therapy of glioblastomas, PLoS One. 2013; 8: e78764.
+[12] Kalikaer MV, Thawani VR, aradpande UK, Santakke SD, Singh RP, Khiyani RK. Immunomodulatory effect of
+Tinospora cordifolia extracts in HIV positive patients, Indian J. Pharmacol. 40 (2008) 107–110.
+[13] Akhtar S.Use of Tinospora cordifolia in HIV infection, Indian J. Pharmacol. 2010; 42: 57–63.
+[14] Nagaraja PK, K.F. Kammar KF, Devi S. Modulation of morphology and some gluconeogenic enzymes activity by
+Tinospora cordifolia (Willd.) in diabetic rat kidney, Biomed. Res. 2007; 18: 179–183.
+[15] Meena AK, Singh A, Panda P, Mishra S,Rao MM. Tinospora cordifolia: Its bioactivities & evaluation of
+physicochemical properties. IJPPR . 2010; 2 : 50–55.
+[16] Kapil A, Sharma S. Immunopotentiating compounds from Tinospora cordifolia, J. Ethnopharmacol. 1997; 58: 89–
+95.
+[17] Birla H, Rai SN, Singh SS, Zahra W, Rawat A, Tiwari N, Singh RK, A. Pathak A, Singh SP. Tinospora cordifolia
+suppresses neuroinflammation in Parkinsonian mouse model, NeuroMolecular Med. 2019; 21: 42–53.
+[18] Baghel P. Plant of versatile vroperties of Tinospora cordifolia (Guduchi), IJAIR. 2017; 5 : 751–753.
+[19] Stanely PPM, Menon VP, Gunasekharam G. Hypolipidaemic action of Tinospora cordifolia roots in alloxan-induced
+diabetic rats, J. Ethnopharmacol. 1999; 64 53–57.
+[20] Sharma B, Dabur R, Protective effects of Tinospora cordifolia on hepatic and gastrointestinal toxicity induced by
+chronic and moderate alcoholism, Alcohol. 2016; 51: 1–10.
+[21] Abiramasundari G, Gowda CMM, Pampapathi G, Praveen S, Shivamurugan S, Vijaykumar M, Devi A, Sreepriya M.
+Ethnomedicine based evaluation of osteoprotective properties of Tinospora cordifolia on in vitro and in vivo
+model systems. Biomed. Pharmacother. 2017; 87; 341–354.
+[22] Verma R, Chaudhary HS, Agrawal RC. Evaluation of antcarcinogenic and antmutagenic effect of Tinospora
+cordifolia in experimental animals, J. Chem. Pharm. Res. 2011; 3: 877–881.
+[23] Mishra R, Kaur G. Aqueous ethanolic extract of Tinospora cordifolia as a potentialcandidate for differentiation
+based therapy of glioblastomas, PLoS One. 2013; 8 :e78764.
+[24] Kalikaer MV, Thawani VR, Varadpande UK, Santakke SD, Singh RP, Khiyani RK. Immunomodulatory effect of
+Tinospora cordifolia extracts in HIV positive patients, Indian J. Pharmacol. 2008; 40: 107–110.
+[25] Akhtar S. Use of Tinospora cordifolia in HIV infection, Indian J. Pharmacol. 2010; 42: 57–63
+[26] Shanbhag T, Shenoy S, Rao MC. Wound healing profile of Tinospora cordifolia. Indian Drugs. 2005; 42 : 217–221.
+[27] Abiramasundari G, Sumalatha KR, Sreepriya M. Effects of Tinospora cordifolia (Menispermaceae) on the
+proliferation, osteogenic differentiation and mineralization of osteoblast model systems in-vitro, J.
+Ethnopharmacol. 2012; 141: 474–480.
+[28] Antul K, Amandeep P, Gurwinder S. Anuj C. Review on pharmacological profileof medicinal vine: Tinospora
+cordifolia. CJAST. 2019; 35: 1–11.
+[29] Spandana U, Ali SL, Nirmala T, Santhi M, S. Babu S. A review on Tinospora cordifolia, Int. J. Curr. Pharm. Res. 2013;
+4 : 61–68.
+[30] Kumar V, Singh S, Singh A, Dixit AK, Srivastava B, Sidhu GK, Singh R, Meena AK, Singh RP, Subhose V, Prakash O.
+Phytochemical, antioxidant, antimicrobial, and protein binding qualities of hydro-ethanolic extract of Tinospora
+cordifolia. JBAPN. 2018; 8: 192–200.
+[31] Kumar DV, Geethanjali B, Avinash KO. et al., Tinospora cordifolia: the antimicrobial property of the leaves of
+amruthaballi. J Bacteriol Mycol Open Access. 2017;5(5):363‒371. DOI: 10.15406/jbmoa.2017.05.00147.
+[32] Nagaprashanthi CH, Rafi Khan P, Gopi Chand K, et al. In vitro Antimicrobial Activity of Tinospora cordifolia and its
+phytochemical screening. Internation Journal of PharmTech Research. 2012;4(3):1004– 1008.
+[33] Spandana U, Shaik Liakhat A, Nirmala T, et al. A review on Tinospora cordifolia. IJCPRR. 2013;4(2):61–68.
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+11
+[34] Somasekhara Achar KG, Parashurama TR, Shivanna MB. A New Flat Stem Disease of Tinospora cordifolia caused
+by Phytoplasma. Sch Acad J Biosci. 2015;3(11):957–959.
+[35] Veeramuthu D, Savarimuthu I, Kedike B. Antimicrobial activity of Tinospora cordifolia: An ethanomedicinal plant.
+Asian Journal of Traditional medicines. 2012;7(2):59–65.
+[36] Bonvicini F, Mandrone M, Antognoni F, et al. Ethanolic extracts of Tinospora cordifolia and Alstonia scholaris show
+antimicrobial activity towards clinical isolates of methicillin–resistant and carbapenemase– producing bacteria.
+Nat Prod Res. 2010;28(18):1438–1445.
+[37] Jitendra M, Madan MS, Amla B. Tinospora cordifolia: A multipurpose medicinal plant– A review. Journal of
+Medicinal Plants Studies. 2014;2(2):32–47.
+[38] Saha S, Ghosh S. Tinospora cordifolia: One plant, many roles. Ancient Science of Life. 2012;31(4):151–157.
+[39] Bala M, Pratap K, Verma PK, et al. Validation of ethnomedicinal potential of Tinospora cordifolia for anticancer
+and immunomodulatory activities and quantification of bioactive molecules by HPTLC. J Ethanopharmacol.
+2015;175(4):131–137.
+[40] Narayanan AS, Raja SS, Ponmurugan K, et al. Antibacterial activity of selected medicinal plants against multiple
+antibiotic resistant uropathogens: a study from Kolli Hills, Tamil Nadu, India. Benef Microbes. 2011;2(3):235–
+243.
+[41] Gaur LB, Singh SP, Gaur SC. et al. A Basic Information, Cultivation and Medicinal Use of Tinospora cordifolia. Pop
+Kheti. 2014;2(3):188–192.
+[42] Shanthi V, Nelson R. Antibacterial activity of T. cordifollia (Willd) Hook. F. Thoms on urinary tract pathogens.
+IJJCMAS. 2013;2(6):190–194.
+[43] Singh B, Nathawat S, Sharma RA. Ethnopharmacological and phytochemical attributes of Indian Tinospora
+species: A comprehensive review. Arabian Journal of Chemistry. 2021; 14, 103381.
+[44] Abood WN, Fahmi I, Abdulla MA, Ismail S. Immunomodulatory effect of an isolated fraction from Tinospora crispa
+on intracellular expression of INF-c, IL-6 and IL-8. BMC Complement. Alter. Med. 2014; 14: 205.
+[45] Adnan AZ, Armin F, Sudji IR, Novida MD, Roesma DI, Ha A, Fauzana A. In vitro anti-inflammatory activity test of
+tinocrisposide and freeze-dried aqueous extract of Tinospora crispa stems on human red blood cell by increasing
+membrane stability experiment. Asian J. Pharm. Clin. Res. 2019; 12: 125–129.
+[46] Adnan AZ, Taher M, Afriani T, Roesma DI, Putra AE, 2016. Cytotoxic activity assay of tinocrisposide from
+Tinospora crispa on human cancer cells. Der Pharmacia Lett. 2016; 8: 102–106.
+[47] Agarwal A, Malini S, Bairy LK, Rao M. Effect of Tinospora cordifolia on learning and memory in normal and
+memory deficit rats. Indian J. Pharmacol. 2002; 34: 339–349.
+[48] Agarwal S, Ramamurthy PH, Fernandes B, Rath A, Sidhu P. Assessment of antimicrobial activity of different
+concentrations of Tinospora cordifolia against Streptococcus mutans: An in vitro study. Dent. Res. J. (Isfahan).
+2019; 16: 24–28.
+[49] Agrawal SS, Naqvi S, Gupta SK, Srivastava S. Prevention and management of diabetic retinopathy in STZ diabetic
+rats by Tinospora cordifolia and its molecular mechanisms. Food Chem. Toxicol. 2012; 50: 3126–3132.
+[50] Aher V, Wahi A. Biotechnological approach to evaluate the immunomodulatory activity of ethanolic extract of
+Tinospora cordifolia stem (Mango Plant Climber). Iran J. Pharm. Res. 2012; 11: 863–872.
+[51] Ahmad F, Ali M, Alam P. New phytoconstituents from the stem bark of Tinospora cordifolia Miers. Nat. Prod. Res.
+2010; 24: 926– 934.
+[52] Ahmad R, Srivastava AN, Khan MA. 2015. Evaluation of in vitro anticancer activity of stem of Tinospora cordifolia
+against human breast cancer and Vero cell lines. J. Med. Plants Res. 2015; 3: 33–37.
+[53] Ahmad W, Jantan I, Bukhari SNA. 2016. Tinospora crispa (L.) Hook. f. & Thomson: A review of its ethnobotanical,
+phytochemical, and pharmacological aspects. Front. Pharmacol. 2016; 7: 59.
+[54] Ahmad W, Jantan I, Kumolosasi E, Haque MA, Bukhari SN. A. Immunomodulatory effects of Tinospora crispa
+extract and its major compounds on the immune functions of RAW 264.7 macrophages. Int. Immunopharmacol.
+2018; 60, 141–151.
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+12
+[55] Ahmed SM, Verma V, Qazi PH, Ganaie MM, Bakshi SK, Qazi GN. 2006. Molecular phylogeny in Indian Tinospora
+species by DNA based molecular markers. Plant Syst. Evol. 2006; 256: 75–87.
+[56] Al Noman MA, Hossain T, Ahsan M, Jamshidi S, Hasan CM, Rahman KM. Crispenes F and G, cis-clerodane
+furanoditerpenoids from Tinospora crispa, inhibit STAT3 dimerization. J. Nat. Prod. 2018; 81: 236–242.
+[57] Ali H, Dixit S. Extraction optimization of Tinospora cordifolia and assessment of the anticancer activity of its
+alkaloid palmatine. Sci. World J. 2013; 376216.
+[58] Alrumaihi F, Allemailem KS, Almatroudi A, Alsahli MA, Khan A, Khan MA. Tinospora cordifolia aqueous extract
+alleviates cyclophosphamide- induced immune suppression, toxicity and systemic candidiasis in
+immunosuppressed mice: In vivo study in comparison to antifungal drug fluconazole. Curr. Pharm. Biotechnol.
+2019; 20: 1055–1063.
+[59] Alsuhaibani S, Khan MA, Immune-stimulatory and therapeutic activity of Tinospora cordifolia: Double-edged
+sword against salmonellosis. J. Immunol. Res. 2017: 1787803.
+[60] Antonisamy P, Dhanasekaran M, Ignacimuthu S, Duraipandiyan V, Balthazar JD, Agastian P, Kim J.-H.
+Gastroprotective effect of epoxy clerodane diterpene isolated from Tinospora cordifolia Miers (Guduchi) on
+indomethacin-induced gastric ulcer in rats. Phytomed. 2014; 21: 966–969.
+[61] Chandan NG, Dev T, Bhargavi S. Evaluation of antiulcer activity of Tinospora cordifolia in albino rats. Int. J. Pharm.
+Biosci. 2013; 4: 78–85.
+[62] Chavalittumrong P, Attawish A, Chuthaputti A, Chuntapet P. 1997. Toxicological study of crude extract of
+Tinospora crispa Mier ex Hook F. & Thoms. Thai J. Pharm. Sci. 1997; 21: 199–210.
+[63] Cherku PD, Reddy PK, Bittlingu K, Priya K, Dasari S. Inhibitory activity of leaf extract of Tinospora cordifolia and
+magnoflorine on aldose reductase for control of diabetes. Int. J. Green Pharm. 2019; 13: 186–192.
+[64] Chi S, She G, Han D, Wang W, Liu Z, Liu B. Genus Tinospora: Ethnopharmacology, phytochemistry, and
+pharmacology. Evid. Based Complement. Alter. Med. 2016: 9232593.
+[65] Chintalwar GJ, Gupta S, Roja G, Bapat VA. Protoberberine alkaloids from callus and cell suspension cultures of
+Tinospora cordifolia. Pharm. Biol. 2003; 41: 81–86.
+[66] Choudhary MI, Ismail M, Ali, Shaari K, Lajis NH. 2010a. Alkaloidal constituents of Tinospora crispa. Nat. Prod.
+Commun. 2010; 5: 1747–1750.
+[67] Choudhary MI, Ismail M, Shaari K, Abbaskhan A, Sattar SA, Lajis NH. cis-Clerodane-type furanoditerpenoids from
+Tinospora crispa. J. Nat. Prod. 2010; 73: 541–547.
+[68] Choudhary N, Siddiqui MB, Azmat S, Khatoon S, 2013. Tinospora cordifolia: Ethnobotany, phytopharmacology and
+phytochemistry aspects. Int. J. Pharm. Sci. Res. 2013; 4: 891–899.
+[69] Chung SY. Studies on the constituents of the dry stem of Tinospora crispa (Lour.) Merr. Masters Dissertation.
+China Medical University, Taichung, Taiwan. 2011.
+[70] Deepika LP, Priyambada JS, Sowmya. Analgesic, anti-inflammatory activity of Tinospora cordifolia (Guduchi) and
+Valeriana wallichi (Tagara) in albino rats. J. Pharm. Biol. Sci. 2016; 11, 18 – 22.
+[71] Denis G, Gerard Y, Sahpaz S, Laporte R, Viget N, Ajana F. Malarial prophylaxis with medicinal plants: Toxic
+hepatitis due to Tinospora crispa. Therapie. 2007; 62: 271–272.
+[72] Dhama K, Sachan S, Khandia R, Munjal A, Iqbal HMN, Latheef SK, Karthik K, Samad HA, Tiwari R, Dadar M.
+Medicinal and beneficial health applications of Tinospora cordifolia (Guduchi): A miraculous herb countering
+various diseases/disorders and its immunomodulatory effects. Recent Patents Endocrine Metabolic Immune
+Drug Discovery. 2017; 10: 96–111.
+[73] Dhanush KB, Rao S, Satyanarayan L, Byregowda SM. 2013. Hepatoprotective effects of Tinospora cordifolia
+extyract in streptozotocin induced damage in diabetic rats. Indian J. Vet. Pathol. 2013; 37: 153–158.
+[74] Fatima Rose M, Noorulla KM, Asma M, Kalaichelvi R, Vadivel K, Thangabalan B, Sinha BN. Anti-implantation
+activity of the methanolic root extract of Tinospora cordifolia (Willd.) in female rats. Pharmacologyonline. 2010;
+1: 872–876..
+[75] Dweck AC, Cavin JP. Andawali (Tinospora crispa): A review. Pers Care Mag. 2006; 7: 33–39.
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+13
+[76] Fukuda N, Yonemitsu M, Kimura T. Studies on the constituents of the stems of Tinospora tuberculata Beumee. I.
+Ntrans- and N-cis-feruloyl tyramine, and a new phenolic glucoside, tinotuberide. Chem. Pharm. Bull. 1983; 31:
+156–161.
+[77] Fukuda N, Yonemitsu M, Kimura T. 1986. Studies on the constituents of the stems of Tinospora tuberculata
+Beumee, III: new diterpenoids, borapetoside B and borapetol B. Chem. Pharm. Bull. 1986; 34: 2868–2872.
+[78] Fukuda N, Yonemitsu M, Kimura T, Hachiyama S, Miyahara K, Kawasaki T, Studies on the constituents of the stems
+of Tinospora tuberculata Beumee. II. New diterpenoids, borapetoside A and borapetol A. Chem. Pharm. Bull. 1985;
+33: 4438–4444.
+[79] Gandhi S, Devi MM, Pal P, Tripathi RP, Khushu S. Metabolic regulatory variations in rats due to acute cold stress
+& Tinospora cordifolia intervention: High resolution 1H NMR approach. Metabolomics. 2012; 8: 444–453.
+[80] Gangan VD, Pradhan P, Sipahimalani AT, Banerji, A. Cordifolisides A, B, C: Norditerpene furan glycosides from
+Tinospora cordifolia. Phytochem. 1994; 37: 781–786.
+[81] Gangan VD, Pradhan P, Sipahimalani AT, Banerji A. Norditerpene furan glycosides from Tinospora cordifolia.
+Phytochem. 1995; 39: 1139–1142.
+[82] Geeta S, Kamath MS, Nagendra K, Shenoy RP. A clinical analysis of evaluating the usefulness and efficacy of the
+ayurvedic drug Tinospora cordifolia in humans. Adv. Sci. Lett. 2017; 23, 2007–2008.
+[83] Ghatpande NS, Misar AV, Waghole RJ, Jadhav SH, Kulkarni PP. Tinospora cordifolia protects against inflammation
+associated anemia by modulating inflammatory cytokines and hepcidin expression in male Wistar rats. Scientific
+Rep. 2019; 9, 10969.
+[84] Ghosh S, Vandana K., Thimmasetty J, Miskin N, Bhat KG, Sharma N. Tinospora cordifolia in the treatment of chronic
+and aggressive periodontitis patients with and without dental fluorosis: A clinical, microbiological, and
+biochemical study. Int. J. Oral Health Sci. 2017; 7: 16–23.
+[85] Goel B, Pathak N, Nim DK, Singh SK, Dixit RK, Chaurasia R. 2014. Clinical evaluation of analgesic activity of guduchi
+(Tinospora cordifolia) using animal model. J. Clin. Diagnostic Res. 2014; 8: HC01 - HC04.
+[86] Goel HC, Prasad J, Singh S, Sagar RK, Agrawala PK, Bala M, Sinha AK, Dogra R. Radioprotective potential of an
+herbal extract of Tinospora cordifolia. J. Radiat. Res. 2004; 45: 61–68.
+[87] Girish M, Kamdod, MA. Effect of topical Tinospora cordifolia on excisional wound in albino rats. Int. J. Pharm. Biol.
+Sci. 2012; 2: 25–29.
+[88] Girish M, Priyadarshini K. The influence of Tinospora cordifolia on wound healing in albino rats. Int. J. Pharm. Biol.
+Sci. 2012; 3: 379–384.
+[89] Hegde S, Jayaraj M. A review of the medicinal properties, phytochemical and biological active compounds of
+Tinospora sinensis (Lour.) Merr. J. Biol. Active Prod. Nat. 2016; 6: 84–94.
+[90] Harwoko H, Warsinah W. Phytochemical analysis and evaluation of purified extract of Tinospora crispa stem for
+in vivo antihyperuricemic effect. J. Rep. Pharm. Sci. 2020; 9, 46–51.
+[91] Hashilkar NK, Patil PA, Bagi JG, Patil SY, Angadi NB. Influence of Tinospora cordifolia on wound healing in wistar
+rats. Int. J. Basic Clin. Pharmacol. 2016; 5, 923–928.
+[92] Gupta RS, Sharma A. Antifertility effect of Tinospora cordifolia (Willd.) stem extract in male rats. Indian J. Exp.
+Biol. 2003; 41: 885–889.
+[93] Hanthanong S, Choodej S, Aree T, Pudhom, K. Two new rearranged clerodane diterpenes from Thai Tinospora
+baenzigeri. J. Nat. Med. 2021; 75, 201–206.
+[94] Hanthanong S, Choodej S, Teerawatananond T, Pudhom K. Rearranged clerodane diterpenoids from the stems of
+Tinospora baenzigeri. J. Nat. Prod. 2019; 82, 1405–1411.
+[95] Kattupalli S, Vesta V, Vangara S, Spandana U. The multiactivity herbaceous vine - Tinospora cordifolia. Asian J.
+Pharm. Clin. Res. 2019; 12, 23–26.
+[96] Kalabharathi H, Vaibhavi P, Naidu S, Pushpa VH, Shruthi SL. Anti depressant activity of fresh leaves of Tinospora
+cordifolia miers (Amruthaballi) in albino mice. Int. J. Pharm. Sci. Res. 2014; 5: 5420–5424.
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+14
+[97] Kavitha BT, Shruthi, SD, Rai SP, Ramachandra YL. Phytochemical analysis and hepatoprotective properties of
+Tinospora cordifolia against carbon tetrachloride-induced hepatic damage in rats. J. Basic Clin. Pharm. 2011; 2:
+139–142.
+[98] Jayaprakash R, Ramesh V, Sridhar MP, Sasikala C. Antioxidant activity of ethanolic extract of Tinospora cordifolia
+on N-nitrosodiethylamine (diethylnitrosamine) induced liver cancer in male Wister albino rats. J. Pharm.
+Bioallied Sci. 2015; 7: 40.
+[99] Jeyachandran R, Francis Xavier T, Anand SP. Antibacterial activity of stem extracts of Tinospora cordifolia (Willd)
+Hook. f & Thomson. Ancient Sci. Life. 2003; 23: 40–43.
+[100] Vijendren S, Jothi S, Rajandran K, Muruganandham V. Assessment of in-vitro wound healing activity of the
+Tinospora crispa extracts. Int. J. Pharmacol. Pharm. Technol. 2017; 1: 1–5.
+[101] Vimala G, Shoba GF. A review on antiulcer activity of few Indian medicinal plants. Int. J. Microbiol. 2014, 519590.
+[102] Upadhyay AK, Kumar K, Kumar A, Mishra HS. Tinospora cordifolia (Willd.) Hook.f. and Thomas. (Guduchi)-
+validation of the ayurvedic pharmacology through experimental and clinical studies. Int. J. Ayurveda Res. 2010;
+1: 112–121.
+[103] Upadhyay PR, Sharma V, Anita KV. Assessment of the multi-faceted immunomodulatory potential of the aqueous
+extract of Tinospora cordifolia. Res. J. Chem. Sci. 2011; 1: 71–79.
+[104] Singh J, Bagla A, Pahal V. Hepatoprotective activity of herbal extracts in carbon tetrachloride intoxicated albino
+rats by measuring anti-oxidant enzymes. Int. J. PharmTech. Res. 2010; 2, 2112– 2115.
+[105] Singh J, Sinha K, Sharma A, Mishra NP, Khanuja SP. Traditional uses of Tinospora cordifolia (Guduchi). J. Med.
+Aromat Plant Sci. 2003; 25: 748–751.
+[106] Singh, L., Tyagi, S., Rizvi, M.A., Goel, H.C., 2007. Effect of Tinospora cordifolia on gamma ray-induced perturbations
+in macrophages and splenocytes. J. Radiat. Res. 48, 305–315.
+[107] Singh N, Kumar A, Gupta P, Chand K, Samant M, Maurya R, Dube A. Evaluation of antileishmanial potential of
+Tinospora sinensis against experimental visceral leishmaniasis. Parasitol. Res. 2008; 102: 561–565.
+[108] Singh RK. Tinospora cordifolia as an adjuvant drug in the treatment of hyper-reactive malarious splenomegaly–
+case reports. J. Vector Borne Dis. 2005; 42: 36–38.
+[109] Singh AK, Preethi BO, Singh HN, Gangwar AK, Niyogi D, Devi KS. Comparative evaluation of the wound healing
+potential of Tinospora cordifolia and its combination with local insulin therapy in diabetic rabbits. J. Pharmacog.
+Phytochem. 2017; 6: 1812–1817.
+[110] Singh B, Sharma RA. Indian Morinda species: A review. Phytotherapy Res. 2020; 34: 924–1007.
+[111] Singh D, Chaudhuri PK. Chemistry and pharmacology of Tinospora cordifolia. Nat. Prod. Commun. 2017; 12: 299–
+308.
+[112] Singh G, Saxena, RK. Evaluation of antimicrobial activity of Tinospora cordifolia and Hymenocallis littoralis
+medicinal plants by using different solvents extract. Int. Res. J. Eng. Technol. 2016; 3: 928.
+[113] Shrestha M, Jagdhane CD, Dudhamal T. Guduchi fibres (Tinospora cordifolia Linn.) as a skin suturing material - A
+controlled clinical trial. Ayurline: IJ-RIM. 2017; 1: 71–76.
+[114] Sinha K, Mishra N, Singh J , Khanuja SPS. Tinospora cordifolia (Guduchi), a reservoir plant for therapeutic
+applications: A review. Indian J. Trad. Knowledge. 2004; 3: 257–270.
+[115] Sivakumar V, Rajan M. Antioxidant effect of Tinospora cordifolia extract in alloxan-induced diabetic rats. Indian J.
+Pharm. Sci. 2010; 72: 795–798.
+[116] Sheema Dharmapal SP, Bindu TK, Udayan PS, Elyas KK. In vitro conservation of Tinospora formanii Udayan and
+Pradeep-A rare endemic plant from Western Ghats. IOSR J. Biotechnol. Biochem. 2017; 3: 65–69.
+[117] Shrestha M, Jagdhane CD, Dudhamal T. 2017. Guduchi fibres (Tinospora cordifolia Linn.) as a skin suturing
+material - A controlled clinical trial. Ayurline: IJ-RIM. 2017; 1: 71–76.
+[118] Patgiri B, Umretia B, Vaishnav P, Prajapati P, Shukla V, Ravishankar B. Anti-inflammatory activity of Guduchi
+Ghana (aqueous extract of Tinospora cordifolia Miers.). Int. Quarterly J. Res. Ayur. 2014; 35: 108–110.
+[119] Prakash R, Sandhya E, Ramya N, Dhivya R, Priyadarshini M, Sakthi Priya B, Neuroprotective activity of ethanolic
+extract of Tinospora cordifolia on LPS induced neuroinflammation. Transl. Biomed. 2017; 8: 135.
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+15
+[120] Prajwala B, Priyanka S, Raghu N. et al., In vitro anti-bacterial activity of Tinospora cordifolia leaf extract and its
+phytochemical screening. J. Biomed. Sci. 2018; 5: 10– 17.
+[121] Parthipan M, Rajendran A, Sarvalingam A. 2016. Occurrence of an Australian species Tinospora smilacina Benth.
+(Menispermaceae) in India. Res. Rev. J. Bot. 2016; 5: 16–18.
+[122] Parveen A, Huang Y, Fantoukh O, Alhusban M, Raman V, Wang Y-H, Wang W, Ali Z, Khan IA. 2021. Rearranged
+clerodane diterpenoid from Tinospora crispa. Nat. Prod. Res. 20121; 35: 369–376.
+[123] Patil YR. An open label clinical study to evaluate effect of juice of Tinospora cordifolia Linn. on growth of children.
+Int. J. Res. Ayur. Pharm. 2012; 3: 77–79.
+[124] Pham TN, Nguyen TV. Evaluation of antibacterial activity of fractions from stem extract of Tinospora crispa (L.)
+Hook. f. & Thomson. IOP Conf Ser: Materials Sci. Eng. 2020; 991, 012058.
+[125] Phienwej H, Swasdichira I-S, Amnuoypol S, Pavasant P, Sumrejkanchanakij P, 2015. Tinospora crispa extract
+inhibits MMP-13 and migration of head and neck squamous cell carcinoma cell lines. Asian Pac. J. Trop. Biomed.
+2015; 5: 738–743
+[126] Panchabhai TS, Ambarkhane SV, Joshi AS, Samant BD, Rege NN. Protective effect of Tinospora cordifolia,
+Phyllanthus emblica and their combination against antitubercular drug induced hepatic damage: An
+experimental study. Phytotherapy Res. 2008; 22: 646–650.
+[127] Pandey M, Chikara SK, Vyas M, Sharma R, Thakur GS, Bisen PS. 2012. Tinospora cordifolia: A climbing shrub in
+health care management. Int. J. Pharm. Biol. Sci. 3, 612–628.
+[128] Wesley JJ, Christina AJM , Chidambaranathan N, Raja L , Ravikumar K, Effect of alcoholic extract of Tinospora
+cordifolia on acute and subacute inflammation. Pharmacologyonline. 2008; 3: 683–687.
+[129] Tuntiwachwuttikul P, Boonrasri N, Bremner JB, Taylor WC, Rearranged clerodane diterpenes from Tinospora
+baenzigeri. Phytochem. 1999; 52: 1335–1340.
+[130] Tuntiwachwuttikul P, Taylor WC. New rearranged clerodane diterpenes from Tinospora baenzigeri. Chem.
+Pharm. Bull. 2001; 49: 854–857.
+[131] Sharma R. In vivo delivery of Tinospora cordifolia root extract preventing radiation-induced dystrophies in mice
+ovaries. Evidence- Based Complement. Alter. Med. 2015, 346427.
+[132] Sharma U, Bala M, Kumar N, Singh B, Munshi RK, Bhalerao S. Immunomodulatory active compounds from
+Tinospora cordifolia. J. Ethnopharmacol. 2012; 141, 918–926.
+[133] Sharma V, Pandey D. Beneficial effects of Tinospora cordifolia on blood profiles in male mice exposed to lead.
+Toxicol. Int. 2010; 17: 8–11.
+[134] Sharma V, Pandey D. Protective role of Tinospora cordifolia against lead-induced hepatotoxicity. Toxicol. Int.
+2010;17: 12–17.
+[135] Sinchaikul S, Chen ST, Sookkheo B. Tumor cell selective antiproliferative effect of the extract from Tinospora
+crispa (borapet). Bull. Health Sci. Technol. 2007; 7: 75–84.
+[136] Siddalingappa CM, Rajesh T, Kudagi BL, Krishnakanth K, Sujith TR. Evaluation of analgesic and anti-inflammatory
+activities of Tinospora cordifolia in rodents. Int. J. Basic Med. Sci. 2011; 2, 306–311.
+[137] Roy K, Shah R, Iyer U. Tinospora cordifolia stem supplementation in diabetic dyslipidemia: An open labelled
+randomized controlled trial. Funct. Foods Health Dis. 2015; 5: 265–274.
+[138] Sannegowda KM, Venkatesha SH, Moudgil KD. Tinospora cordifolia inhibits autoimmune arthritis by regulating
+key immune mediators of inflammation and bone damage. Int. J. Immunopathol. Pharm. 2015; 28, 521–531.
+[139] Sarma DNK, Koul S, Khosa RL.Alkaloids from Tinospora cordifolia Miers. J. Pharm. Sci. Res. 2009; 1: 26–27.
+[140] Sangsuwan C, Udompanthurak S, Vannasaeng S, Thamlikitkul V. Randomized controlled trial of Tinospora crispa
+for additional therapy in patients with type 2 diabetes mellitus. J. Med. Assoc. Thai. 2004; 87: 543–546.
+[141] Sengupta M, Sharma GD, Chakraborty B. Effect of aqueous extract of Tinospora cordifolia on functions of
+peritoneal macrophages isolated from CCl4 intoxicated male albino mice. BMC Complement. Alter. Med. 2011;
+11: 102.
+[142] Shanthi V, Nelson R.Antibacterial activity of Tinospora cordifolia (Willd) Hook.F.Thoms on urinary tract
+pathogens. Int. J. Curr. Microbiol. Appl. Sci. 2013; 2, 190–194.
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+16
+[143] Sharma, Gupta A, Batra SSA. Tinospora cordifolia (Willd) Hook.F.Thomson- a plant with immense economic
+potential. J. Chem. Pharm. Res. 2010; 2: 327–333.
+[144] Sharma A, Kaur G. Tinospora cordifolia as a potential neuroregenerative candidate against glutamate induced
+excitotoxicity: an in vitro perspective. BMC Complement. Alter. Med. 2018.; 18: 268.
+[145] Anjum V, Bagale U, Kadi A, Potoroko I, Sonawane SH, Anjum A. Unveiling Various Facades of Tinospora cordifolia
+Stem
+in
+Food:
+Medicinal
+and
+Nutraceutical
+Aspects.
+Molecules.
+2023:
+28,
+7073.
+https://
+doi.org/10.3390/molecules2820707.
+[146] Chauhan P, Kumar RR, Mendiratta SK, Talukder S, Gangwar M, Sakunde DT, Meshram SK. In-vitro functional
+efficacy of extracts from Phyllanthus emblica, Eucalyptus globulus, Tinospora cordifolia as pancreatic lipase
+inhibitor and source of anti-oxidant in goat meat nuggets. Food Chem. 2021; 348: 129087.
+[147] Jain A, Dasgupta N, Ranjan S, Singh V, Singh H, Purohit SD, Mishra NC, Yadav NP, Haque S, Mishra BN. et al. Whey
+protein based electrosprayed nanospheres for encapsulation and controlled release of bioactive compounds
+from Tinospora cordifolia extract. Innov. Food Sci. Emerg. Technol. 2021; 69:102671.
+[148] Kalem IK, Bhat ZF, Kumar S, Wang L, Mudiyanselage RJ, Bhat HF. Tinospora cordifolia: A novel bioactive ingredient
+for edible films for improved lipid oxidative and microbial stability of meat products. J. Food Process. Preserv.
+2018; 42, e13774.
+[149] Balkrishna A, Khandrika L and Varshney A. Giloy Ghanvati (Tinospora cordifolia (Willd.) Hook. f. and Thomson)
+Reversed SARS-CoV-2 Viral Spike-Protein Induced Disease Phenotype in the Xenotransplant Model of Humanized
+Zebrafish. Front. Pharmacol. 2021; 12:635510. doi: 10.3389/fphar.2021.635510
+[150] Singh D, Chaudhuri PK. Chemistry and pharmacology of Tinospora cordifolia. Nat. Prod. Commun. 2017; 12: 299–
+308.
+[151] Sharma A, Bajaj P, Bhandari A, Kaur G. From ayurvedic folk medicine to preclinical neurotherapeutic role of a
+miraculous herb, Tinospora cordifolia. Neurochem. Int. 2020; 141: 104891.
+[152] Dhama K, Sachan S, Khandia R et al., Medicinal and beneficial health applications of Tinospora cordifolia
+(Guduchi): A miraculous herb countering various diseases/disorders and its immunomodulatory effects. Recent
+Pat. Endocr. Metab. Immune Drug Discov. 2017; 10, 96–111.
+[153] Chi S, She G, Han D, Wang W, Liu Z, Liu B. Genus Tinospora: Ethnopharmacology, phytochemistry, and
+pharmacology. Evid.-Based Complement. Altern. Med. 2016; 2016, 9232593.
+[154] Patil S, Ashi H, Hosmani, J et al., Tinospora cordifolia (Thunb.) Miers (Giloy) inhibits oral cancer cells in a dose-
+dependent manner by inducing apoptosis and attenuating epithelial-mesenchymal transition. Saudi J. Biol. Sci.
+2021; 28;4553–4559.
+[155] Sharma B, Dutt V, Kaur N, Mittal A, Dabur R. Tinospora cordifolia protects from skeletal muscle atrophy by
+alleviating oxidative stress and inflammation induced by sciatic denervation. J. Ethnopharmacol. 2020; 254:
+112720.
+[156] Kumar, P.; Kaur, S.; Goswami, M.; Singh, S.; Sharma, A.; Mehta, N. Antioxidant and antimicrobial efficacy of giloy
+(Tinospora cordifolia) stem powder in spent hen meat patties under aerobic packaging at refrigeration
+temperature (4 ± 1 ◦C). J. Food Process. Preserv. 2021; 45, e15772.
+[157] Sunanda SN, Desai NK, Ainapure SS. Antiallergic properties of Tinospora cordifolia in animal models. Indian J.
+Pharmacol. 1986; 18: 250–252.
+[158] Birla H, Rai SN, Singh SS, Zahra W, Rawat A, Tiwari N, Singh RK, Pathak A, Singh SP. Tinospora cordifolia
+suppresses neuroinflammation in parkinsonian mouse model. Neuromol. Med. 2019; 21: 42–53.
+[159] Bala M, Pratap K, Verma PK, Singh B, Padwad Y. Validation of ethnomedicinal potential of Tinospora cordifolia for
+anticancer and immunomodulatory activities and quantification of bioactive molecules by HPTLC. J.
+Ethnopharmacol. 2015; 175: 131–137.
+[160] Mittal J, Pal U, Sharma L, Verma AK, Ghosh M, Sharma MM. Unveiling the cytotoxicity of phytosynthesised silver
+nanoparticles using Tinospora cordifolia leaves against human lung adenocarcinoma A549 cell line. IET
+Nanobiotechnol. 2020; 14, 230–238.
+[161] George M, Joseph L, Mathew M, Minu Mathew C, Josepha L. A research on screening of learning and memory
+enhancing activity of whole plant extract of Tinospora cordifolia (Willd). Pharma Innov. J. 2016; 5: 104–107.
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+17
+[162] Shwetha RJ, Tahareen S, Myrene RD. Antioxidant and anti-inflammatory activity of Tinospora cordifolia using in
+vitro models. J. Chem. Biol. Phy. Sci. 2016; 6:497–512.
+[163] Jayaprakash R, Ramesh V, Sridhar MP, Sasikala C. Antioxidant activity of ethanolic extract of Tinospora cordifolia
+on N-nitrosodiethylamine (diethylnitrosamine) induced liver cancer in male Wister albino rats. J. Pharm.
+Bioallied Sci. 2015; 7: S40–S45.
+[164] Mehra R, Naved T, Arora M, Madan S. Standardization and evaluation of formulation parameters of Tinospora
+cordifolia tablet. J. Adv. Pharm. Educ. Res. 2013; 3: 440–449.
+[165] Heena S, Priyanka R, Ashish KS. Fifty years of research on Tinospora cordifolia: From botanical plant to functional
+ingredient in foods. Trends Food Sci. Technol. 2021; 118: 189–206.
+[166] Javir G, Joshi K. Evaluation of the combinatorial effect of Tinospora cordifolia and Zingiber officinale on human
+breast cancer cells. 3 Biotech. 2019; 9: 428.
+[167] Sharma H, Singh AK, Deshwal GK, Rao PS, Kumar MD. Functional Tinospora cordifolia (giloy) based pasteurized
+goat milk beverage: Impact of milk protein-polyphenol interaction on bioactive compounds, anti-oxidant activity
+and microstructure. Food Biosci. 2021; 42: 101101.
+[168] Sarala M, Velu V, Anandharamakrishnan C, Singh RP. Spray drying of Tinospora cordifolia leaf and stem extract
+and evaluation of antioxidant activity. J. Food Sci. Technol. 2012; 49: 119–122.
+[169] Sood S, Shilpa. Assessment of storage stability of Tinospora cordifolia (Giloy) based squash. Int. J. Innov. Res. Dev.
+2015; 4: 306–315.
+[170] Verma M, Rawat N, Rani R. et al. Adhatoda vasica and Tinospora cordifolia extracts ameliorate clinical and
+molecular markers in mild COVID-19 patients: a randomized open-label three-armed study. Eur J Med Res. 2023;
+28: 556 https://doi.org/10.1186/s40001-023-01507-7.
+[171] Balkrishna A, Haldar S and Varshney A. OECD-407 Driven 28-day-repeated-dose non-clinical safety evaluation of
+Tinospora cordifolia (Giloy) stem aqueous extract in Sprague-Dawley rats under GLP compliance. Front.
+Pharmacol. 2023; 14:1095083. doi: 10.3389/fphar.2023.1095083.
+[172] Ahsan R, Mishra A et al., Therapeutic Application, Phytoactives and Pharmacology of Tinospora cordifolia: An
+Evocative Review. Chin J Integr Med. 2023; 29(6):549-555.
+[173] Ali SA, Datusalia AK. Protective effects of Tinospora cordifolia miers extract against hepatic and neurobehavioral
+deficits in thioacetamide-induced hepatic encephalopathy in rats via modulating hyperammonemia and glial cell
+activation. J Ethnopharmacol. 2024 6;323:117700. doi: 10.1016/j.jep.2023.117700. Epub 2024.
+[174] Mahajan S, Chakraborty A, Bisht M.. et al. Genome sequencing and functional analysis of a multipurpose medicinal
+herb Tinospora cordifolia (Giloy). Sci Rep. 2024; 14,: 2799. https://doi.org/10.1038/s41598-024-53176-z.
+[175] Pawar AR, Chougule AT, Kamble JR, Salokhe P, Chougule NB. Tinospora cordifolia – As An Anticancer Agent:
+Recent And Advance Study, Int. J. of Pharm. Sci. 2024; 2: 1: 707-716. https://doi.org/10.5281/zenodo.10578070.
+[176] Palmieri A, Scapoli L, Iapichino A, Mercolini L, Mandrone M, Poli F, Giannì AB, Baserga C, Mart M. Berberine and
+Tinospora cordifolia exert a potential anticancer effect on colon cancer cells by acting on specific pathways.
+International Journal of Immunopathology and Pharmacology. 2019; 33: 1–10.
+[177] Deepa B, Babaji HV, Hosmani JV, Alamir AWH, Mushtaq S, A. Thirumal Raj A, Patil S. Effect of Tinospora cordifolia-
+Derived Phytocomponents on Cancer: A Systematic Review. Appl. Sci. 2019; 9: 5147; doi:10.3390/app9235147.
+[178] Sharma N, Kumar A, Sharma PR, Qayum A, Singh SK, Dutt P, Paul S, Gupta V, Verma MK, Satti NK. et al. A new
+clerodane furano diterpene glycoside from Tinospora cordifolia triggers autophagy and apoptosis in HCT-116
+colon cancer cells. J. Ethnopharmacol. 2018; 211: 295–310.
+[179] Bala M, Pratap K, Verma PK, et al., Validation of ethnomedicinal potential of Tinospora cordifolia for anticancer
+and immunomodulatory activities and quantification of bioactive molecules by HPTLC. Journal of
+Ethnopharmacology. 2015; 175: 131–137.
+[180] Rashmi KC, Raj MH, Paul M, Girish KS, Salimath BP, Aparna HS. A new pyrrole based small molecule from
+Tinospora cordifolia induces apoptosis in MDA-MB-231 breast cancer cells via ROS mediated mitochondrial
+damage and restoration of p53 activity. Chem. Biol. Interact. 2019; 299:120–130.
+[181] Priya MS, Venkateswaran KV, Vijayanand T. Determination of apoptosis by flow cytometric analysis in MCF-7
+cells treated with Tinospora cordifolia. Ind. Vet. J. 2017; 94: 73–75.
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+18
+[182] Mishra R, Kaur G. Aqueous ethanolic extract of Tinospora cordifolia as a potential candidate for dierentiation
+based therapy of glioblastomas. PLoS ONE. 2013; 8:1–13.
+[183] Jagetia GC, Rao SK. Evaluation of the antineoplastic activity of guduchi (Tinospora cordifolia) in Ehrlich ascites
+carcinoma bearing mice. Biol. Pharm. Bull. 2006;29: 460–466.
+[184] Mathew S, Kuttan G. Immunomodulatory and antitumour activities of Tinospora cordifolia. Fitoterapia 1999; 70:
+35–43.
+[185] Thippeswamy G, Salimath BP. Induction of caspase-3 activated DNase mediated apoptosis by hexane fraction of
+Tinospora cordifolia in EAT cells. Environ. Toxicol. Pharmacol. 2007; 23: 212–220.
+[186] Singh N, Singh SM, Shrivastava P. Effect of Tinospora cordifolia on the antitumor activity of tumor-associated
+macrophages-derived dendritic cells. Immunopharmacol. Immunotoxicol. 2005; 27: 1–14.
+[187] Ahamad R, Shrivastava AN, Khan MA. Evaluation of in vitro anticancer activity of stem of Tinospora cordiflia
+against human breast cancer Vero cell lines. J. Med. Plants Stud. 2015; 3: 33–37.
+[188] Dhanasekaran M, Baskar AA, Ignacimuthu S, Agastian P, Duraipandiyan V. Chemopreventive potential of Epoxy
+clerodane diterpene from Tinospora cordifolia against diethylnitrosamine-induced hepatocellular carcinoma.
+Investig. New Drugs. 2009; 27: 347–355.
+[189] Bakrania AK, Nakka S, Variya BC, Shah PV, Patel SS. Antitumor potential of herbomineral formulation against
+breast cancer: Involvement of inflammation and oxidative stress. Indian J. Exp. Biol. 2017; 55: 680–687.
+[190] Ali H, Dixit S. Extraction optimization of Tinospora cordifolia and assessment of the anticancer activity of its
+alkaloid palmatine. Sci. World J. 2013; 1–10.
+[191] Mohan V, Koul A. Anticancer potential of Tinospora cordifolia and arabinogalactan against benzo(a) pyrene
+induced pulmonary tumorigenesis: A study in relevance to various biomarkers. J. Herbmed. Pharmacol. 2018; 7:
+225–235.
+[192] Bansal P, Malik MA, Das SN, Kaur J. Tinospora cordifolia Induces Cell Cycle Arrest in Human Oral Squamous Cell
+Carcinoma Cells. Gulf J. Oncol. 2017; 1: 10–14.
+[193] Shaikh R, Pund M, Dawane A, Iliyas S. Evaluation of anticancer, antioxidant, and possible anti-inflammatory
+properties of selected medicinal plants used in indian traditional medication. J. Tradit. Complement. Med. 2014;
+4: 253–257.
+[194] Ansari JA, Rastogi N, Ahmad MK, Mahdi AA, Khan AR, Thakur R, Srivastava VK, Mishra DP, Fatima N, Khan HJ. et
+al. ROS mediated pro-apoptotic e_ects of Tinospora cordifolia on breast cancer cells. Front. Biosci. 2017; 9: 89–
+100.
+[195] Rao SK, Rao PS. Alteration in the Radiosensitivity of HeLa Cells by Dichloromethane Extract of Guduchi (Tinospora
+cordifolia). Integr. Cancer Ther. 2010; 9: 378–384.
+[196] Mishra R, Kaur G. Aqueous Ethanolic Extract of Tinospora cordifolia as a Potential Candidate for Differentiation
+Based Therapy of Glioblastomas. PLoS One. 2013; 8,. https://doi.org/10.1371/journal.pone.0078764 e78764.
+[197] Chidambara Murthy CKN, Jayaprakasha GK, Patil BS. The natural alkaloid berberine targets multiple pathways to
+induce cell death in cultured human colon cancer cells. Eur. J. Pharmacol. 2012; 688: 14–21.
+https://doi.org/10.1016/j. ejphar.2012.05.004.
+[198] Kalita S, Sarma A, Hazarika A et al., A Review on Medicinal Plants Having Anticancer Properties of Northeast India
+and Associated Endophytic Microbes and their Future in Medicinal Science. Pure Appl Microbiol.
+2022;16(3):1608-1621. doi: 10.22207/JPAM.16.3.57.
+[199] Morris CC, Ramyashree CS, Kruthika P, Pap-puswamy M, Chaudhary A, Meyyazhagan A, Anand A V,
+Balasubramanian B. A review on anti-cancer plants of India. Plant Science To-day (Early Access).
+https://doi.org/10.14719/ pst.2372.
+[200] Khanna G, Mishra AK. Analytical Studies of Anticancer Medicinal Plant of North East India. International Journal
+of Biotechnology and Biomedical Sciences. 2019; 5:1: 24-29.
+[201] Khan T, Ali M, Khan A. Anticancer Plants: A Review of the Active Phytochemicals, Applications in Animal Models,
+and Regulatory Aspects. Biomolecules.. 2020; 10, 47; doi:10.3390/biom10010047.
+[202] Umadevi M, Sampath Kumar KP, Debjit B and Duraivel S. Traditionally used anticancer herbs in India. Journal of
+Medicinal Plants Studies. 2013; 1(3): 56-74.
+
+Magna Scientia Advanced Biology and Pharmacy, 2024, 11(02), 001–019
+19
+[203] Manivel G, Kandasamy CS, Hariprasad R, Baskar K, Jegadeesh S, Venkatanarayanan R. Review on anticancer
+activity of medicinal plants. International Journal of Advance and Ideas and Innovations in Technology. 2017;
+3(3): 1024-28.
+[204] Mazumder K, Aktar A, Roy P, Biswas B, Hossain ME, Sarkar KK, Bachar SC, Ahmed F, Monjur-Al-Hossain ASM,
+Fukase K. A Review on Mechanistic Insight of Plant Derived Anticancer Bioactive Phytocompounds and Their
+Structure Activity Relationship. Molecules. 2022; 27: 3036. https://doi.org/10.3390/ molecules27093036.
+[205] Sharma AN, Dewangan HK, Upadhyay PK. Comprehensive Review on Herbal Medicine: Emphasis on Current
+Therapy and Role of Phytoconstituents for Cancer Treatment. Chem Biodivers. 2024. e202301468. doi:
+10.1002/cbdv.202301468.
+[206] Mondal S, Bandyopadhyay S, Ghosh MK, et al., Natural products: Promising resources for cancer drug discovery.
+Anticancer Agents in Medicinal Chemistry. 2012; 12(1): 49–75.
+[207] Malabadi RB, Sadiya MR, Prathima TC, Kolkar KP, Mammadova SS, Chalannavar RK. Cannabis sativa: Cervical
+cancer treatment- Role of phytocannabinoids-A story of concern. World Journal of Biology Pharmacy and Health
+Sciences. 2024; 17(02): 253–296.
+[208] Malabadi RB, Sadiya MR, Kolkar KP, Mammadova SS, Chalannavar RK, Baijnath H. Role of Plant derived-medicine
+for controlling Cancer. International Journal of Science and Research Archive. 2024; (01):2502–2539.

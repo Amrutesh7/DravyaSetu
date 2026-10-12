@@ -1,0 +1,1731 @@
+Vol.:(0123456789)
+ Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+Discover Plants
+Review
+Neem (Azadirachta indica A. Juss): a multifaceted tree & an elixir
+in the traditional system of Indian medicine
+Sudipto Debnath1   · Manosi Das1 · Susmita Mondal1 · Biresh K. Sarkar1 · Gajji Babu1
+Received: 9 August 2024 / Accepted: 31 March 2025
+© The Author(s) 2025 
+ 
+OPEN
+Abstract
+Neem, called ‘Arista’ in Sanskrit, meaning ‘reliever of sickness’, often referred to as ‘the bitter gem’, is one of the most cel-
+ebrated plants in the Indian Traditional Healthcare system for its diverse medicinal properties. Scientifically, Azadirachta
+indica, is classified in the Mahogany (Meliaceae) family. Neem stands out as a beacon of promise for the twenty-first
+century. Each part of the Neem tree, i.e., its flowers, leaves, fruits, seed, seed oil, Neem cake, and gum, has therapeutic
+properties. Researchers have identified nearly 300 distinct phytochemicals within the Neem tree, having diverse phar-
+macological effects like antimicrobial, antiviral, antifungal, anti-inflammatory, anti-plasmodial, antiseptic, antipyretic,
+anti-diabetic, and anti-ulcer activities thereby justifying the symbolic term ‘elixir’ written in the title of this review. Neem
+is mentioned in ancient Ayurvedic treatises like Charaka Samhita, Susruta Samhita, Ashtanga Hridaya (a book authored
+by Vaghbata) and in nighantus (medical lexicon) written over the ages. In Ayurveda, plenty of formulations contain Neem
+as an ingredient. This review sheds light on Azadirachta indica A. Juss (Neem plant) from the standpoint of the traditional
+system of Indian medicine vis-à-vis its taxonomical position, macroscopic and organoleptic characteristics, bio-activities,
+use as bio-pesticide and bio-fertilizer, active phytoconstituents, and pharmacological studies. Additionally, it presents
+a compilation of folklore recipes and Ayurvedic, Homeopathic, Siddha and Unani formulations (ASU & H) that contain
+Neem as an ingredient.
+Keywords  Azadirachta indica (Neem) · Ayurveda · Bio-actives · Phytochemicals · Pharmacology · Ayurvedic ·
+Homeopathic · Siddha and Unani formulations
+Abbreviations
+Enm.
+Endosperm
+Fl.
+Flower
+Fr.
+Fruit
+Lf.
+Leaf
+Sd.
+Seed
+St. Bk.
+Stem bark
+Rt. Bk.
+Root bark
+Supplementary Information  The online version contains supplementary material available at https://​doi.​org/​10.​1007/​s44372-​025-​
+00196-2.
+ *  Sudipto Debnath, debnath1304@gmail.com | 1Central Ayurveda Research Institute, CCRAS, Ministry of Ayush, 4‑CN Block, Bidhannagar,
+Sector‑V, Kolkata 700091, India.
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+Fl. Bd.
+Flower bud
+WP
+Whole plant
+1  Introduction
+Medicinal plants are one of the nature’s invaluable gifts and have been used from the remote past to treat various human
+diseases across the globe. In rural areas of underdeveloped and developing countries, approximately 80% of people rely
+on plant-based extracts, i.e., traditional medicine, which serves as the primary source of healthcare needs [1]. One of the
+key issues with modern drugs is their side effects, which has significantly contributed to a growing interest in traditional
+medicine like Ayurveda, and a surge in the use of herbal products in recent years has also been observed [2]. Plants also
+provide essential nutrients, including macronutrients (carbohydrates, proteins, and fats), micronutrients (minerals and
+vitamins) and secondary metabolites (alkaloids, phenolics, tannins, flavonoids, etc.), all of which have beneficial effects
+on human health [3].
+ The Neem (Azadirachta indica) is one of the most celebrated, multifaceted and versatile medicinal plants known for
+its numerous health benefits. Tons of benefits and therapeutic properties associated with the Neem plant have been
+documented in hymns (shloka) and texts from time immemorial [4 ]. The shloka (Sanskrit verse) (see footnote) depicting
+the health benefits of the Neem (A. indica) plant is just an indicative one. 1﻿ The mention of A. indica (Sanskrit: Nimba or
+﻿Picumaradah, commonly called Neem or Indian lilac) can be found in ancient Ayurvedic texts comprising Charaka Sam-
+hita, Susruta Samhita (written during 1500 B.C.–400 A.D. by Acharya Charaka and Acharya Susruta respectively), book
+(Ashtanga Hridaya) authored by Vaghbata (~ 500 AD) as well as in nighantus (medical lexicon) written across the ages.
+Trans-Disciplinary University, Bengaluru’s bibliographic database highlights that ‘Nimba’ is extensively documented in
+Ayurvedic scriptures, with 448 mentions across 20 foundational texts dated between 1500 BC and 1900 AD [5 ]. In Sanskrit,
+the Neem tree is called ‘Arista’, meaning ‘reliever of sickness’, or ‘sarba-rogaribarini’, which means it has the potency to
+alleviate diseases [6 ]. Its depiction is found not only in Nighantus (Dhanvantari Nighantu [7 ], Bhavprakash Nighantu [8 ],
+﻿Priya Nighantu, Kaidev Nighantu [9 ], Dravyaguna Nighantu [10 ]) but also in Vedic texts (Atharva Veda) [11 ], epics and
+Ayurvedic Pharmacopoeia of India (API) [12 ]. For example, the Ramayana, dating back to the Tretayuga around 3000 BC,
+lists Nimba as one of the significant trees in Nandavana. The neem tree, as it is commonly known, is celebrated in various
+classical works, including the Brhat Samhita and Padma Purana. Astrologically, Neem is recommended as a protective
+measure for those born under the star Purvabhadra. Ayurveda attributes over 50 different Sanskrit names to the Neem
+tree, reflecting its diverse morphological and therapeutic characteristics [5 ]. It is called ‘Kakaphala’ because crows con-
+sume its fruits. Neem is recognised for inducing vomiting, yet it is also an antiemetic, earning the name ‘Chardighna’. It’s
+called ‘Hingu Niryasa’ due to the gum it secretes, resembling asafetida. Its anti-inflammatory abilities are captured in the
+name ‘Puyari’, with ‘puya’ meaning pus and ‘ari’ meaning enemy. ‘Krimighna’ underscores its effectiveness against worms
+and infections, while ‘Picumarda’ relates to its skin-healing powers [13 ]. The Charaka Samhita details Neem’s applications
+for skin conditions, diabetes, and more. Interestingly, Charaka’s emphasis on Neem’s dermatological and metabolic
+benefits differs from that of other scholars, such as Susruta, who prioritises its anti-inflammatory effects. Susruta also
+endorses Neem as the optimal choice for oral hygiene, particularly for brushing teeth, and as a treatment for nadivrana,
+a type of ulcerative vascular disease [14 ]. The Neem tree is well known for providing an extensive range of non-timber
+products, including its leaves, bark, flowers, fruit, seeds, gum, oil, and Neem cake. The economic and ecological benefits
+are significant because the tree does not need to be felled to harvest these valuable resources. Apart from the traditional
+medicine system, in the modern era, Neem is celebrated for its diverse medicinal properties, such as anti-allergenic,
+anti-inflammatory, antifeedant, and anti-fungal, and acts as an antiseptic, scabicide, heart tonic, diuretic, insecticide,
+larvicide, nematicide, and spermicide etc. [15 , 16 ]. These attributes have made Neem a highly sought-after plant in vari-
+ous applications [17 ]. Besides, Neem oil is used as a holistic pesticide and has widespread applications in crop protection
+[18 ]. In addition, in recent years, the incorporation of Neem or Neem derived products into skincare and cosmetics has
+ 1   शताायुुर्ववज्रदेेहााय सर्वव सम्पत्करााय च ।﻿
+  सर्वा�रि�ष्ट-वि�नााशाय नि�म्बकंं दल-भक्षणम्् ॥﻿
+  śatāyurvajradēhāya sarva sampatkarāya ca ।
+  sarvāriṣṭa-vināśāya nimbakaṁ dalabhakṣaṇam ॥
+  For longevity of 100 years, for a body as strong as a diamond, for all prosperity and wealth, for the eradication of all calamities, eat the tender
+leaves of Neem.
+
+Vol.:(0123456789)
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+
+Review
+surged due to a rising demand for natural and sustainable ingredients. Beyond its cultural significance, Neem’s versatility
+has positioned it at the forefront of the beauty industry. Its role spans dermatology and beauty rituals, providing a com-
+prehensive understanding of Neem’s diverse contributions to skincare and cosmetics [19 , 20 ]. Neem (methanolic leaf
+extract) has also been utilized in the in vivo production of stem cells [21 ].
+2  Taxonomical position of Neem plant
+The scientific name of the Neem tree is Azadirachta indica. The term “Azadirachta” originates from the Persian word
+“azaddhirakt,” which means “Noble tree.” Neem plant comes under the Mahogany family. The detailed taxonomy of the
+Neem plant is listed in the following table (Table 1).
+3  Macroscopic and organoleptic characteristics of Neem
+The macroscopic and organoleptic properties of various Neem parts are listed below. Table 2 documents the macroscopic
+and organoleptic characteristics of Neem.
+4  Neem tree at a glance
+The evergreen species Neem tree can grow to medium or large sizes up to 15 to 20 m or even taller when conditions are
+favourable. It grows across the flatlands of the Indian subcontinent up to an elevation of 900 m [12, 27]. It is also found
+in Southeast Asian countries, the African continent, the Caribbean islands, and Central and South American countries
+[28]. Neem trees can survive well in dry conditions and are cultivated to combat soil erosion and promote conservation.
+For the proper growth of the Neem tree, pH is required to be between 4 and 10. It enhances the soil’s nutrient content
+and water retention capacity, can neutralise acidic soils, and is beneficial in reviving deteriorated lands [29, 30].
+In Ayurveda, the Neem tree is utilised for skin care and enhances the skin’s beauty [31]. The Neem tree is one of the
+most multifaceted, versatile and potent plants grown in tropical regions. It offers the most significant number of ben-
+eficial non-timber products, which includes leaves, bark, flowers, fruit, seeds, gum, oil, and Neem cake, more than any
+other tree species, which is beneficial as well as economical from the angle is that the whole tree need not be cut for
+acquiring those products. It is recognised for a wide array of medicinal properties, i.e., anti-allergenic, anti-inflammatory,
+antifeedant, and anti-fungal, and acts as an antiseptic, scabicide, heart tonic, diuretic, insecticide, larvicide, nematicide,
+and spermicide. These properties have led to widespread use, establishing Neem as a valuable ecological asset [32, 33].
+Figures 1 and 2 document photographs of various parts of the Neem and the various applications, activities and uses
+of Neem, respectively.
+Table 1   Taxonomical
+classification of A. indica [22]
+Domain:
+Eukaryotae
+Kingdom:
+Plantae
+Phylum:
+Spermatophyta
+Sub-phylum:
+Angiosspermae
+Class:
+Dicotyledonae
+Order:
+Rutales
+Suborder:
+Rutinae
+Family:
+Meliaceae
+(Mahogany
+family)
+Subfamily:
+Melioideae
+Tribe:
+Melieae
+Genus:
+Azadirachta
+Species:
+Indica
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+Table 2   Macroscopic and organoleptic characteristics of Neem tree [23–26]
+Parts
+Stem bark (St. Bk.)
+Leaf (Lf.)
+Flower (Fl.)
+Fruit (Fr.)
+Seed (Sd.)
+Seed oil
+Organoleptic properties
+ Colour Rusty grey (external); yellowish
+(internal)
+Yellowish green
+Pale yellow, white
+Green (initially); Yellowish brown,
+chocolate (mature)
+Brown (external); creamish
+(internal)
+Yellow to brown
+ Odour
+Characteristic
+Indistinct
+Honey scented
+Characteristic
+Aromatic/garlic (when crushed)
+Garlic
+ Taste
+Bitter
+Bitter
+Bitter
+Sweet to semi-sweet pulp
+Bitter
+Bitter
+ Size
+Little bit curved to flat, but it var-
+ies as per the age of the tree
+Length: 7–8.5 cm; Width:
+1–1.7 cm
+Length: 5–6 cm;
+Width: 8–11 cm
+Length: 0.5–2 cm; Width: 0.5–
+1.2 cm; Thickness: 0.6–0.9 cm
+Length: 10–15 mm; Width:
+3–5 mm; Thickness: 3–4 mm
+–
+ Shape
+Rough surface (external); folia-
+ceous (internal)
+Lanceolate, serrate, acute
+Drooping panicles Smooth surface; oval to nearly
+round-shaped
+Irregular
+–
+
+Vol.:(0123456789)
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+
+Review
+Fig. 1   Various parts of Neem
+tree: a Whole plant, b Leaf, c
+Flower, d Gum, e Twig, f Root,
+g Seed, h fruit and i Stem bark
+Fig. 2   Various applications, activities and uses of Neem
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+ Apart from the above information, known out of research, our ancient texts also mention the therapeutic effects of
+the Neem tree. The shloka (Sanskrit verse) cited in the footnote describes the therapeutic effects of the Neem tree and
+its various parts in detail [34 ], an English translation of the shloka is given for easy understanding. 2﻿﻿
+India is a diverse country with nearly 1600 languages spoken. The 8th schedule of the Indian Constitution has given
+the official language status to only (22) languages. The following table (Table 3) documents the synonyms of A. indica
+in those official languages.
+Table 3   Synonyms of A. indica
+in different languages [12]
+Sl. No
+Language
+Synonyms
+Sl. No
+Language
+Synonyms
+Scientific Name: A. indica
+ 01
+Assamese:
+Mahanim
+12
+Oriya:
+Neemo, Nimba
+ 02
+Bengali:
+Nim, Nimgaachh
+13
+Punjabi:
+Nimb, Nim
+ 03
+Gujarati:
+Leemado
+14
+Sanskrit:
+Picumaradah, Aristah,
+Picumandah, Prab-
+hadrah
+ 04
+Hindi:
+Neem
+15
+Sindhi:
+Neem
+ 05
+Kannada:
+Turakbevu, Huchchabevu, Chikkabevu
+16
+Tamil:
+Vempu, Veppu
+ 06
+Kashmiri:
+Neem
+17
+Telugu:
+Vemu, Vepa
+ 07
+Konkani:
+Kadulimb
+18
+Urdu:
+Neem
+ 08
+Malayalam:
+Veppu, Aryaveppu, Aaruveppu
+19
+Bodo:
+Nim
+ 09
+Manipuri:
+Neem
+20
+Santali:
+Nim
+ 10
+Marathi:
+Kadunimba, Nimb
+21
+Maithili:
+Neem
+ 11
+Nepali:
+Neem
+22
+Dogri:
+Neem
+ 2   नि�म्बस्तिक्तःः कटुःः� पााकेे लघुःः� शीतोऽग्निवाातकृृत्् ।﻿
+  ग्रााह्यहृद्योो जयेेत्् पि�त्तकफमेेहज्वरकृृमीन्् ।﻿
+  कुुष्ठकासारुचि�श्वाासहृल्लाासश्वयथुुव्रणान्् ।﻿
+  ग्रााहि� प्रवााळंं नि�म्बस्य रक्तपि�
+त्तकफकृृमीन्् ।﻿
+  कुुष्ठघ्नंं वाातजननंं नेेव्ररोगाान्् वि�नााशयेेत्् ।﻿
+  तद्वत्् पत्रणि� नि�म्बस्य व्रणघ्नानि� वि�शेेषतः ।॥﻿
+  शलाका नि�म्बपत्रस्य कासश्वाासवि�नााशि�नीी ।﻿
+  कृृमि�घ्नाा तुु ववरि�ष्ठाा स्यात्् कुुष्ठज्वरवि�नााशि�नीी ॥﻿
+  चक्षुुष्यंं नि�म्बपुुष्पंं च कृृमि�पि�त्तवि�षप्रणुुत्् ।﻿
+  वाातळंं कटुुपााकंं स्यात्् सर्वा�रोोचकनााशनम्् ।﻿
+  फलंं ति�क्तंं
+ रसेे पााकेे कटुुकंं भेेदनंं लघुु ।﻿
+  अरूक्षमुुष्णंं कुुष्ठघ्नंं गुुल्माार्शःः�कृृमि�मेे
+हनुुत्् ।﻿
+  नि�म्बस्य पक्वंं मधुुरंं सति�क्तंं
+.
+  स्निि°ग्धंं फलंं शोणि�तपि�त्तरोगेे ।﻿
+  कफेे प्रशस्तंं नयनाामयघ्नंं.
+  क्षतक्षयघ्नंं गुुरु पि�च्छि³लंं च ॥﻿
+  नि�म्बबीीजस्य मज्जाा च कृृमि�कुु
+ष्ठवि�शोोधनःः ।﻿
+  नाात्युुष्णंं नि�म्बजंं ति�क्तंं
+ कृृमि�कुु
+ष्ठकफप्रणुुत्् ॥﻿
+  अभ्य‌ङ्गाान्नााववनाात्् क्षीरभोोजि�नःः पलि�ताापहम्् । (कैै.नि�.).
+  English translation of the above hymn: Neem is bitter, light in property, cold in potency, pungent post digestion, increases digestion and causes
+vitiation of vata dosha, is water absorbent, cordial to the heart, cures pitta and kapha dosha, diabetes, fever, worm infestation, skin disorders,
+cough, taste lessness, dyspnoea, nausea, oedema and wounds. Tender neem leaves are water absorbent and cause vitiation of vata dosha and
+kapha dosha, hemorrhagic disorders, worm infestation, skin disorders and eye disorders, whereas dry Neem leaves alleviate wounds. Neem flowers
+are pungent post digestion, beneficial to the eyes, cause vitiation of vata, kapha and pitta dosha, poisoning, and all types of taste disorders. Neem
+fruit is bitter in taste, hot in potency, light in property, pungent post digestion, piercing in nature, cures skin disorders, abdominal tumours, piles,
+worm-related ailments, and diabetes. Neem ripe fruits are sweet and bitter, unctuous, heavy, and slimy in quality, and cure hemorrhagic disorders,
+vitiation of kapha dosha, eye disorders, wounds, and weakness.
+
+Vol.:(0123456789)
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+
+Review
+5  Folklore about Neem
+In the Indian context and as per Hindu mythology, the Neem tree is symbolised by the Goddess Durga, the wife of Lord
+Shiva, commonly known as Devi Parvati. In some regions of India, the Neem tree is considered a divine entity. Neemari
+Devi, whose other name is Goddess Sitala Devi in the north, as well as Goddess Marimman in the south, are both known
+to heal skin ailments like smallpox. In Odisha, the famous Jagannatha deities are made up of Neem wood. In traditional
+healing practices, Neem leaves and twigs are utilised in tantra and mantra therapies to protect against evil spirits. The
+Neem tree is believed to transmit the healing potential from the physician/exorcist to the victim. In Ayurveda, Bhoot
+Vidya (Psychiatry) refers to the practice of exorcising evil entities, which falls under the category of Mantra therapy,
+which includes Mani (Gem), Mantra (Spells), and Ousadham (Medicine). Specifically, Neem leaves are employed in mantra
+therapy to treat venomous bites from snakes and scorpions. This is done by reciting holy mantras and performing tantric
+ceremonies, where traditional healers use Neem twigs with leaves on the affected person. Apart from this, Neem flowers
+and leaves are used in Indian cooking. [35, 36].
+6  Recipes with Neem
+Although Neem is bitter, considering its numerous health benefits, in Indian tradition, it is used in recipes, mainly leaves
+and flowers. Neem Aloo Vaja (Neem Potato Fry), Neem Baigan Sabji (Neem Brinjal Curry), Neem juice, Neem tea, Neem
+chutney (Neem Sauce), Vepampoo Rasam (Neem Flower Broth), Neem Flower cutlet, Neem Narkel Bhaja (Neem Coconut
+Fry), Neem Leaf Pakoda (Neem Leaf Fritter), Neem Sukto (Bitter mixed vegetable stew), Neem Bori (Dried lentil nuggets
+made with Neem), Neem Papad (Neem crispbread) (Fig. 3) are a few preparations made from Neem.
+7  Neem as an organic pesticide
+In the 1990s, the agricultural sector faced pest and disease control challenges due to new legislation like the Food Qual-
+ity Protection Act and Worker Protection Standard, which restricted traditional chemical pesticides. This led to a shift
+towards integrated pest management (IPM) and using natural motifs. Neem-based insecticides, notably those containing
+azadirachtin, emerged as a solution. Azadirachtin is effective against over 300 insect species, including significant pests
+Fig. 3   Various recipes pre-
+pared with Neem
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+such as aphids, whiteflies, psyllids, leafminers, etc., while being safe for beneficial insects and having a low environmental
+impact. Despite initial manufacturing and regulatory hurdles, azadirachtin-based pesticides have become a key com-
+ponent in crop protection since their introduction in the US in 1993. However, they still represent a small fraction of the
+total insecticide market [37]. Neem oil has also been used as a biopesticide in crop protection for a long time, making
+pests somewhat resistant to Neem oil. Recent advances in nanotechnology can solve this problem. Nanoencapsulation of
+Neem oil could lead to more stable formulations for managing crop-damaging insects, particularly those vital for human
+nutrition. Furthermore, nanotechnology can help prevent insect resistance, often resulting from the widespread and
+untargeted application of Neem oil [38]. Neem cake (Fig. 4) is also noted for its efficacy in controlling insects and pests.
+Its bitter component has been documented to serve as an antifeedant, attractant, repellent, insecticide, nematicide,
+disruptor of growth, and antimicrobial agent [18]. Besides, Neem-coated urea can help to manage a variety of pests,
+including caterpillars, beetles, leafhoppers, borers, and mites. The properties of Neem-coated urea include antifeedant
+effects and pest growth regulation [39].
+8  Neem as an organic fertilizer
+The Neem tree is hailed as one of the most promising trees for fostering sustainable food production in the twenty-first
+century, according to the WHO/UNEP [20]. Neem products are now used as an indispensable agent in organic farming
+[40]. Neem cake, a by-product of the industrial extraction of Neem oil, contains a substantial nitrogen content ranging
+from 2 to 5% (refer to Table 4), which presents challenges for its utilization as an affordable fertilizer. Additionally, Neem
+cake is abundant in sulphur compounds and limonoids [41]. Table 4 documents the major nutrient elements present in
+Neem cake.
+The US Environmental Protection Agency certified Neem-based products’ effectiveness and environmental safety in
+2012 [44]. Furthermore, under the European Parliament’s 2019/1009 Regulation, Neem cake is recognized for its potential
+to enhance the cultivation of high-quality fruits and vegetables in an environmentally sustainable manner while main-
+taining the natural balance of the soil through its bio-stimulant properties [45]. In this regard, Neem cake’s function as a
+bio-stimulant is linked to its role in sustainable nematode management, either by mitigating the impact of nematodes
+Fig. 4   Neem cake
+Table 4   Major nutrient
+elements present in Neem
+cake [42, 43]
+Major nutrient elements (symbol)
+Content
+Nitrogen (N)
+2–5%
+Phosphorous (P)
+0.5–1%
+Potassium (K)
+1–2%
+Calcium (Ca)
+0.5–3%
+Zinc (Zn)
+15–60%
+Copper (Cu)
+4–20%
+Sulphur (S)
+0.2–3%
+Magnesium (Mg)
+0.3–1%
+Iron (Fe)
+500–1200 ppm
+Manganese (Mn)
+20–60 ppm
+
+Vol.:(0123456789)
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+
+Review
+on plant growth or by boosting plant resistance by providing essential nutrients for healthy plant development [46]. The
+versatile nature of Neem cake, serving as both a fertilizer and a soil conditioner with nematicidal and insecticidal proper-
+ties, could significantly reduce the reliance on mineral fertilizers and pesticides. This, in turn, may lead to less mechanical
+soil disruption, lower environmental pollution, and a decreased dependence on fossil fuels [47, 48].
+Neem cake enhances the organic content of the soil by lowering alkaline levels and generating organic acids as it
+decomposes. Since Neem is entirely natural, it harmonizes with soil microbes, enriches the rhizosphere microflora, and
+contributes to a more robust soil structure, better water retention, and improved aeration, supporting healthier root
+growth. Additionally, Neem cake shields plant roots from nematodes, soil grubs, and white ants. Neem contributes to
+soil fertility by containing a substance that prevents soil bacteria from converting nitrogenous compounds into nitrogen
+gas. As a nitrification inhibitor, Neem extends nitrogen availability for both short-term and long-term crops. When used
+alongside nitrogenous fertilizers, Neem can decelerate the transformation of nitrogenous compounds into ammonia,
+nitrates, and nitrites, enhancing overall soil efficiency. Neem cake is typically applied by incorporating it into the soil
+around and on the roots of plants [49–51]. Table 5 classifies the quantity of Neem cake required for different crops.
+Lately, not only Neem cake but also Neem and its derivatives have been utilized to produce a urea-coating agent that
+enhances and sustains the efficiency of nitrogenous fertilizers in the soil. Due to its high solubility in water, urea’s effec-
+tiveness is often diminished through nitrification and denitrification processes. By coating urea with Neem, these losses
+can be minimized, allowing for a gradual release of the fertilizer and extending its availability to plants over a longer
+period. Neem-coated urea is environmentally benign, as it reduces urea solubility and helps prevent groundwater con-
+tamination. The coating also decreases ammonia loss through volatilization, thereby mitigating atmospheric pollution.
+Table 5   Dosage of Neem cake
+for different crops [42]
+*  g: gram; kg: kilogram; Ha: Hectare; sq. m.: square meter
+Name of the crop(s)
+Quantity of
+Neem cake
+­required*
+Field crops
+ Rice
+500 kg/Ha
+ Wheat
+600 kg/Ha
+ Sugarcane
+1500 kg/Ha
+ Soyabean
+1000 kg/Ha
+ Tobacco
+750 kg/Ha
+ Potato
+1000 kg/Ha
+Vegetables/horticultural crops/trees
+ Vegetables
+1000 kg/Ha
+ Banana
+300 g/plant
+ Coconut
+3 kg/tree
+ Fruit trees
+1 kg/tree
+ Lawn
+100 g/sq. m
+Flowering plants
+ Rose
+50 g/plant
+ Hibiscus
+100 g/plant
+ Crotons
+100 g/plant
+ Cut flowers
+100 g/plant
+Potted plants
+ Small plant
+50 g/pot
+ Large plant
+10 g/plant
+Plantation crops
+ Coffee
+1500 kg/Ha
+ Tea
+1500 kg/Ha
+ Rubber
+2 kg/tree
+ Oil palm
+3 kg/tree
+ Cardamom
+250 g/plant
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+This eco-friendly practice benefits the environment and holds economic potential for farmers. The urea coating with
+Neem is typically applied in liquid or powdered form [52].
+9  Use of Neem in cosmetics, topical products and dermatological care
+Neem (A. indica) is widely used in cosmetics, topical products, and dermatological care due to its antimicrobial, anti-
+inflammatory, and skin-soothing properties [20]. Neem is a widely used ingredient in natural and Ayurvedic cosmetics,
+known for its versatile benefits in skin care and hair care. In facial creams and lotions, Neem oil and extracts are included
+for their antibacterial, antifungal, and antimicrobial properties, which help soothe irritated skin. In anti-ageing prod-
+ucts, Neem’s antioxidants, such as carotenoids, protect the skin from free radical damage, helping to prevent signs of
+ageing. It is also a common ingredient in facial cleansers and toners, where its antibacterial qualities help reduce acne
+and blemishes [53–55]. For hair care, Neem is incorporated into shampoos and conditioners to treat dandruff and scalp
+infections and encourage healthy hair growth [56, 57]. In topical products, Neem oil is applied directly to the skin to treat
+conditions like eczema, psoriasis, and acne due to its anti-inflammatory and antiseptic effects. It is also found in oint-
+ments and creams for managing fungal infections, wounds, and ulcers, as it supports healing and prevents secondary
+infections. Lip balms often include Neem extract to repair dry and cracked lips [19, 58]. Neem is also recognized for its
+dermatological benefits. It effectively treats acne by reducing sebum production and eliminating acne-causing bacteria,
+preventing future breakouts. Its moisturizing, anti-inflammatory, and antifungal properties make it valuable in managing
+chronic skin conditions such as eczema and psoriasis, as it soothes itching, reduces inflammation, and keeps the skin
+hydrated [59, 60]. Neem also aids in faster wound healing by promoting collagen production and lowering the risk of
+infection [61]. Its antifungal qualities are beneficial for treating infections like athlete’s foot, ringworm, and candidiasis.
+Additionally, Neem’s anti-inflammatory properties help reduce redness, swelling, and irritation from allergic reactions,
+dermatitis, or skin injuries [62, 63]. Neem is often combined with other natural ingredients like turmeric, sandalwood,
+and aloe vera in traditional and modern skincare formulations [64].
+10  Use of Neem in ASU&H formulations
+ASU&H formulations refer to preparations used in Ayurveda, Siddha, Unani, and Homeopathy, prepared using plants,
+minerals, metals, and products derived from animals and marine sources. Due to its extensive medicinal applications, the
+Neem tree is known as ’the village pharmacy’ in India. Various parts of the tree, such as the bark, leaves, flowers, fruits,
+seeds, and oil, are utilized for diverse therapeutic purposes. Neem is a key component in many polyherbal formulations
+in the traditional system of Indian medicine and is also widely used by practitioners of Ayurveda, Siddha, Unani, and
+Homeopathy. Below, we have documented various ASU&H formulations containing Neem as an ingredient, along with
+their therapeutic effects.
+In Sanskrit, the Neem tree is called ‘Arista’, meaning ‘reliever of sickness’, and hence, in our Indian tradition, very often,
+it is called ‘sarba roganibarini’, meaning the one who or which can treat all kinds of ailments [65, 66]. This is not an exag-
+geration as it is a panacea also in Ayurveda. In Ayurveda, Siddha, Unani and Homeopathy, i.e., in the ASU&H system,
+hundreds of formulations use Neem as an ingredient. Table 6 documents some important formulations where Neem
+and its components are used.
+11  Responsible phytochemicals for bio‑activities of Neem
+The Neem tree is often called a “reservoir” of plenty of phytochemicals, with over 300 extracted and identified
+[74]. The isolated phytocompounds can be categorised primarily into two groups, i.e., isoprenoids, which include
+diterpenoids, triterpenoids, and limonoids, and non-isoprenoids, which contain proteins, polysaccharides, tannins,
+flavonoids, glycol-flavonoids, dihydrochalcone, coumarin, various aliphatic compounds, and phenolic acids [75,
+76]. Every component of the Neem tree, including its leaves, fruits, seeds, oil, roots, bark, and twigs, is a treasure of
+phytochemicals known for their antimicrobial, antiviral, antifungal, anti-inflammatory, anti-plasmodial, antiseptic,
+antipyretic, anti-diabetic, and anti-ulcer activities [32]. Nimbin was the first compound to be explored. Other signifi-
+cant phytochemicals obtained from Neem include nimbolide, azadirachtin, azadiradione, gedunin, and azadirone.
+
+Vol.:(0123456789)
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+
+Review
+Table 6   List of some ASU&H formulations containing Neem
+Sl. No
+Formulation(s) Name
+Therapeutic uses
+Ayurvedic formulation(s)
+ Neem leaf (Lf.) as ingredient
+  01
+Panca Guna Taila [67]
+Rheumatoid arthritis, Ear ache, chronic wounds
+  02
+Manikya Rasa [67]
+Skin diseases, skin inflammation, dermatitis, anaemia, jaundice
+  03
+Arogyavardhini Gutika [67]
+Skin diseases, hepatic disorder, chronic fever, improved digestion and food
+absorption
+  04
+Jatyadi Ghrita [68]
+Skin ulcer, piles, anal fistula
+  05
+Jatyadi Taila [68]
+Skin inflammation and redness, sinus, abscess, acts as antiseptic and fungi-
+cidal oil
+  06
+Atasyadi Lepa [69]
+Piles, fissures
+  07
+Krmikantaka Rasa [69]
+Anthelmintic activity, abdominal discomfort
+  08
+Silajatvadi Vati [69]
+Diabetes, boosts energy levels and immunity, and urinary tract-related
+issues
+ Neem Seed (Sd.) as ingredient
+  01
+Arosoghni Vati [67]
+Piles, anal fissures, haemorrhoids
+  02
+Guggulvadi Vati [69]
+Joint pain (Arthritis, gout), detoxification
+  03
+Madhumehari Churna [69]
+Diabetes, Glycosurea, Albuminurea
+  04
+Maharudraguduchi Taila [69]
+Joint and muscle pain, skin diseases
+ Neem Seed oil (Sd. Oil) as an ingredient
+  01
+Manahsiladi Taila [69]
+Skin disorders (prevents scar in the skin)
+ Neem Endosperm (Enm.) as an ingredient
+  01
+Muktadi Mahanjana [68]
+Eye diseases
+  02
+Arsoghni Vati [69]
+Piles, haemorrhoids
+  03
+Jvaramatangakesari Rasa [69]
+Fever, body aches, weakness, fatigue
+ Neem Panchang (Stem bark, flower, leaf, root and fruit) as ingredients
+  01
+Pancanimba Churna [67]
+Major and minor skin diseases, hyperacidity
+ Neem Stem Bark (St. Bk.) as an ingredient
+  01
+Nimbadi Kvatha Churna [67]
+Skin diseases, detoxification, gout, arthritis
+  02
+Pathayadi Kvatha (Sadanga) Churna [67]
+Arthritis, joint pain
+  03
+Brhanmaricadya Taila [67]
+Skin diseases including psoriasis, eczema etc
+  04
+Madhyama Narayana Taila [67]
+Arthritis, cervical spondylosis, gout
+  05
+Aragvadhadi Kvatha Churna [68]
+Diabetes, skin diseases
+  06
+Trayantyadi Kvatha Churna [68]
+Skin diseases, hepatic disorders
+  07
+Nimbadi Kvatha Churna [68]
+Fever related illness
+  08
+Punarnavastaka Kvatha Churna [68]
+Oedema, Renal and hepatic disorders
+  09
+Brhanmanjisthadi Kvatha Churna [68]
+Skin disorder, blood purification
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+Table 6   (continued)
+Sl. No
+Formulation(s) Name
+Therapeutic uses
+  10
+Vasaguducyadi Kvatha Churna [68]
+Jaundice, anaemia
+  11
+Tiktaka Ghrita [68]
+Skin inflammation, anaemia, thyroid dysfunction, hepatic disorder
+  12
+Pancatikta Ghrita [68]
+Psoriasis, weak bone, bone degeneration
+  13
+Pancatiktaguggulu Ghrita [68]
+Skin diseases, joint disorders, detoxification
+  14
+Patoladi Ghrita [68]
+ENT and eye disorders (cataracts, night blindness etc.)
+  15
+Nimbadi Churna [68]
+Blood purification and detoxification, digestive disorders
+  16
+Sudarsana Churna [68]
+Chronic fever
+  17
+Maha Visagarbha Taila [68]
+Arthritis, joint and muscular pains, hemiplegia
+  18
+Vajraka Taila [68]
+Rheumatoid arthritis, non-healing wounds secreting pus
+  19
+Siva Gutika (Laghu) [68]
+Skin diseases, anaemia, piles, diabetes
+  20
+Kalameghasava [69]
+Liver disorders, including cirrhosis, splenomegaly, constipation
+  21
+Candanadyarka [69]
+Gastritis, urinary infections, skin disorders
+  22
+Amrtastaka Kvatha Churna [69]
+Digestive and respiratory health, immune boosting property
+  23
+Navakarsika Kvatha Churna [69]
+Skin diseases, gout
+  24
+Phalatrikadi Kvatha Churna [69]
+Digestion-related problems, constipation
+  25
+Laghu Manjisthadi Kvatha Churna [69]
+Skin disorders, blood purification, digestive health
+  26
+Haridradi Kvatha Churna [69]
+Hepatoprotective, skin and digestive disorders
+  27
+Varadi Guggulu [69]
+Obesity, Boosts metabolism and digestive health
+  28
+Sodasanga Churna [69]
+Indigestion, boosts digestive health, detoxification
+  29
+Jvarasamhara Rasa [69]
+Chronic fever
+  30
+Astadasanga Lauha [69]
+Anaemia, improves digestion
+  31
+Yakrdari Lauha [69]
+Liver disorders, splenomegaly
+Siddha Formulation(s)
+ 01
+Visnucakkara Mattirai [70] (Neem Fruit is used)
+Diabetes and metabolic disorders
+ 02
+Cinthil Ney [70] (Cinthil oil) (Neem Stem Bark is used)
+Skin-related disorders, skin inflammation and moisturization of the skin
+ 03
+Cirakac Curaman [70] (Neem Stem Bark is used)
+Skin-related disorders, minor wounds and skin inflammation
+ 04
+Mandurati Adaikkudinir [70] (Neem Stem Bark is used)
+Anaemia, blood purification, and overall nourishment of the body
+ 05
+Tampiraccenturam [70] (Neem Flower and Flower bud are used) Respiratory problems and skin inflammation
+Unani formulation(s)
+ 01
+Majoon Musaffi-e-Khoon [71] (Neem Root is used)
+Purification and detoxification of blood
+ 02
+Habb-e-Surkhbada [72] (Neem Leaf is used)
+For treatment of erysipelas (a bacterial skin infection) and skin inflammation
+ 03
+Habb-e-Siyah Chashm [72] (Tender Neem Leaf is used)
+For treating conjunctivitis, itchy and dry eyes
+ 04
+Marham-e-Jadwar [72] (Tender Neem Leaf is used)
+For treating ulcers, lymphadenitis etc
+ 05
+Araq-e-Juzam [72] (Neem Whole Plant is used)
+Purification of blood and detoxification in general, leprosy, leucoderma,
+scabies etc
+ 06
+Habb-e-Neeb [72] (Neem Seed is used)
+For treating respiratory problems, acne, pimples etc
+
+Vol.:(0123456789)
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+
+Review
+Table 6   (continued)
+Sl. No
+Formulation(s) Name
+Therapeutic uses
+ 07
+Araq-e-Musaffi-Ekhoon Qawl [72] (Neem Leaf is used)
+For treatment of chronic skin diseases like psoriasis, dermatitis, purification
+of blood etc
+ 08
+Habb-e-Bawasir [72] (Neem Stem Bark is used)
+For treating skin disorders, piles, detoxification of blood etc
+Homeopathy formulation(s)
+ 01
+Azadirachta Indica Mother Tincture Q [73] (Neem Bark is used)
+For treating skin diseases, maintaining hair and scalp health, oral health,
+digestive health and boosting immunity
+#  In the above-mentioned ASU&H formulations, Neem plant or its parts are one of the ingredients, but the formulation may contain many other ingredients in the form of other plants,
+minerals, metals, and products derived from animals and marine sources. So, medication must be administered under the supervision of a qualified Ayurvedic/Siddha/Unani/Homeopathic
+practitioner due to the presence of potentially toxic minerals and herbs, which require proper processing and dosage
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+Azadirachtin comprises seven isomeric chemical entities, known as azadirachtin A-G, with azadirachtin E being
+the major. The most biologically potent triterpenoid, Nimbin, is found in Neem seed oil and is recognised for its
+antipyretic, antiseptic, anti-inflammatory, fungicidal, and antihistamine effects [77, 78]. Neem Leaf Glycoprotein
+(NLGP), derived from Neem leaves, is a purified protein known to decelerate tumour cell proliferation. Rather than
+directly killing cancerous cells, this protein alters immune cell behaviour within the cancerous environment and
+the bloodstream, effectively hindering cancer progression [79]. Table 7 lists some essential phytochemicals in the
+Neem plant and their bio-activities.
+12  Safety and toxicities associated with Neem
+Evaluating the toxicities of natural compounds is critical before their use in health management. Various animal model
+studies and clinical trials have confirmed that Neem is safe at specific doses. However, Neem and its components have
+also demonstrated toxic or adverse effects. Regular use of neem extracts or compounds has been reported to pose safety
+concerns, potentially leading to toxicity and, in severe cases, even lethality [100]. Several studies have reported that Neem
+oil poisoning in children can lead to symptoms such as vomiting, hepatic toxicity, metabolic acidosis, and encephalopathy
+[15, 101]. Another study using a rat model found that administering Neem leaf sap produced an antianxiety effect at low
+doses, but this effect was not observed at higher doses [102]. A critical study involving rats revealed that azadirachtin
+did not exhibit toxicity even at a dose of 5 g/kg body weight [103]. Furthermore, a study conducted on rabbits to assess
+the toxicological impact indicated a steady increase in body weight in both the test and control animals, with no signs
+of toxicity observed in either group throughout Neem extract administration [104]. A study determined the LD50 for
+Neem leaf and stem bark extracts to be 31.62 mg/kg and 489.90 mg/kg body weight, respectively [105]. For aqueous
+extracts of A. indica leaves and seeds, the LD50 values were found to be 6.2 mL/kg and 9.4 mL/kg, respectively [106]. An
+acute oral toxicity test in mice established an LD50 value of approximately 13 g/kg body weight [107]. NIM-76, a volatile
+neem oil fraction, exhibits antifertility effects when applied before coitus in rats, rabbits, and rhesus monkeys [108–110].
+Nimbidin has been shown to cause subacute toxicity in adult rats following daily doses of 25, 50, or 100 mg/kg for 6 weeks.
+Its hypo-glycaemic effect has also been observed in fasting rabbits and exhibits spermicidal activity as well. Nimbolide
+and nimbic acid are toxic to mice when administered intravenously or intraperitoneally but are less harmful to rats and
+hamsters. Higher doses of these compounds can result in death due to multiorgan failure, and a sudden drop in arterial
+blood pressure is observed [111]. Nimbolide has demonstrated cytotoxic effects on NIE-115 neuroblastoma (mouse),
+143B TK-osteosarcoma (human), and Sf9 (insect) cultured cell lines, with IC30 values of 27 and 112 μm, respectively
+[112, 113]. Nimbidin, deacetyl nimbin, and azadirachtin are considered nontoxic. Studies on Margosan O, a neem seed
+extract, reveal no apparent toxicity in mammals but indicate some toxicity in rats and mice. Acute dermal toxicity has
+been reported at 2 mg/kg in albino rabbits, though it causes minimal eye irritation [114–116].
+13  Pharmacological studies carried out on Neem
+Over 300 phytocompounds have been extracted and identified from various parts of Neem, which have plenty of thera-
+peutic benefits [74, 117]. The role of these phytocompounds is well established, as evidenced by multiple research
+papers. In Ayurveda, the role of a single phyto-compound is not considered; instead, the synergistic effect of numerous
+phytochemicals present in herbal extract is considered. So, below is a list (Table 8) of pharmacological studies on herbal
+extracts of various parts of Neem.
+14  Therapeutic effects of Neem
+Since ancient times, humans have widely utilized different parts of the Neem, including bark, flowers, leaves, seeds, and
+twigs, to treat various ailments. The following table (Table 9) documents the therapeutic effects of the Neem and its
+various parts.
+The main intention of the inclusion of Table 9 was to provide a summary of the therapeutic effects of Neem and its
+various parts. There are two options: either to consume the Neem as a vati (tablet), churna, etc. or to apply it topically in
+
+Vol.:(0123456789)
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+
+Review
+Table 7   Bio-activity of phytocompounds extracted from Neem plant
+Plant part
+Bio-activity
+Responsible phytochemicals
+Leaf [80]
+Anti-oxidant
+Anti-inflammatory
+Anti-hyperglycaemic
+Bark [81]
+Anti-oxidant
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+Table 7   (continued)
+Plant part
+Bio-activity
+Responsible phytochemicals
+Anti-inflammatory
+Anti-tumour
+Haemolytic
+Antimicrobial
+Immunomodulator
+
+Vol.:(0123456789)
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+
+Review
+Table 7   (continued)
+Plant part
+Bio-activity
+Responsible phytochemicals
+Seed [82]
+Hypoglycaemic
+Anti-arthritic
+Anti-gastric
+Anti-fungal
+Anti-bacterial
+Diuretic
+Antipyretic
+Spermicidal
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+Table 7   (continued)
+Plant part
+Bio-activity
+Responsible phytochemicals
+Antioxidant
+Anti-malarial
+Anti-inflammatory
+Fruit [83]
+Anti-ulcer
+Flower [84]
+Anti-arthritic
+*  The list is not exclusive; only important compounds in terms of their therapeutic properties are listed in this Table. Plenty of compounds are present in the
+Neem, and plenty of compounds have been extracted from different parts of the neem tree, though only a few have undergone biological activity stud-
+ies [85, 86]. Nimbidin, a bitter compound extracted from the seed kernel oil of Neem, is known for diverse biological activities. Neem oil contains several
+tetra-nor triterpenes, such as nimbin, nimbidin, nimbolide, and nimbidic acid, which have been identified [87]. Both nimbidin and sodium nimbidate exhibit
+significant dose-dependent anti-inflammatory effects, reducing carrageenan-induced acute paw edema in rats and formalin-induced arthritis. Nimbidin has
+also been confirmed to possess antipyretic properties [88, 89]. When administered orally, it significantly lowers blood glucose levels in fasting rabbits [82].
+Furthermore, nimbidin shows a marked antiulcer effect, preventing gastric lesions induced by acetylsalicylic acid, indomethacin, stress, or serotonin, as well
+as duodenal ulcers caused by histamine or cysteamine [90]. It suppresses basal and stimulated gastric acid secretion and may function as an ­H2 receptor
+blocker, contributing to its antiulcer potential. Nimbin and Nimbidin have also demonstrated spermicidal effects in rats and humans [91, 92]. Nimbidin pos-
+sesses antifungal properties, inhibiting the growth of Tinea rubrum, and can completely suppress Mycobacterium tuberculosis in vitro, exhibiting bacteri-
+cidal effects [93, 94]. Azadirachtin, a highly oxygenated C-secomeliacin from neem seeds, is known for its antifeedant properties and has shown antimalarial
+activity. Sodium nimbidinate has been reported to have diuretic effects in dogs. At the same time, nimbolide inhibits the growth of Plasmodium falciparum
+and displays antibacterial activity against Staphylococcus aureus and S. coagulase [95–98]. Gedunin, extracted from neem seed oil, exhibits antifungal and
+antimalarial properties, inhibiting malarial parasite development [96]. Mahmoodin, a deoxy gedunin, from neem seed oil, demonstrates moderate antibac-
+terial activity against various human pathogens [91]. Additionally, condensed tannins from neem bark contain gallic acid, (+)-gallocatechin, (−)-epicatechin,
+(+)-catechin, and epigallocatechin. Gallic acid, (−)-epicatechin, and catechin, in particular, are responsible for inhibiting chemiluminescence generation by
+activated polymorphonuclear neutrophils (PMN), suggesting their role in suppressing the oxidative burst associated with inflammation [99]
+
+Vol.:(0123456789)
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+
+Review
+Table 8   Examples of a few pharmacological studies carried out on Neem
+Pharmacological activity
+Extract type
+Organism(s)
+References
+Anti-oxidant
+Aqueous, methanolic and ethanolic extract of Root and Bark DPPH scavenging assay
+[118]
+Aqueous leaf extracts
+Phospho-molybdenum assay
+[119]
+Neem crude oil extracted from the seeds
+DPPH scavenging assay
+[120]
+Ethanolic extract of flowers and seed oil
+DPPH scavenging assay
+[121]
+Anti-nociceptive
+Methanolic Extract of Leaves
+Heat-induced-mechanical and chemical-induced Nociception models
+in mice
+[122]
+Ethanolic Extract of Fruit
+Adult zebrafish (Danio rerio) model
+[123]
+Anti-inflammatory
+Methanolic Extract of Leaves
+Human leukaemia cancer cell lines
+[124]
+Polysaccharides extracted from seeds
+Wistar rats (Models of acute inflammation)
+[125]
+Neem seed oil
+Albino rats (Models of carrageenan-induced hind paw edema)
+[126]
+Anti-hypertensive
+Methanolic Extract of Leaves
+Wistar rats
+[127]
+Anti-hyperglycaemic
+Neem leaves powder
+Albino rats
+[128]
+Aqueous extract of leaves and twigs
+alloxan-induced diabetic rats
+[129]
+Anti-tumour
+Ethanolic Extract of Leaves
+Breast Cancer Cells of BALB/c Mice
+[130]
+Ethanolic Extract of Leaves
+OSCC human cell lines
+[131]
+Supercritical ­CO2 extract from Neem leaves
+Human colorectal cancer cell lines (HCT116 and HT29)
+[132]
+Haemolytic
+Mexico Neem leaf tea
+A clinical study on a 35-year-old Hispanic man having deficiency of
+G6PD (glucose-6-phosphate dehydrogenase)
+[133]
+Anti-microbial
+Aqueous extracts of leaf, bark and seeds
+Human pathogenic bacteria (S. aureus, E. feacalis, P. mirabilis and P.
+aeuroginosa) and fungi (A. fumigatus and C. albicans)
+[134]
+Methanolic extract of Neem plant
+In vitro dentin disinfection model (S. mutans, E. faecalis, S. aureus and C.
+albicans)
+[135]
+Anti-fungal
+NIM-76 (a volatile fraction of Neem oil)
+E. coli and P. aeruginosa
+[136]
+Anti-viral
+poliovirus (vaccine strain) in vero cell line
+Immunomodulator
+Rats (In vivo)
+[137]
+Methanolic extract from leaves
+Mice (Mus musculus) (In vivo)
+[138]
+Anti-arthritic
+Nimbolide (isolated from the Neem leaf and flower)
+Freund’s adjuvant induced arthritis in rats (in vivo)
+[84]
+Nimbolide (isolated from Neem seed oil)
+[84]
+Nimbidin (isolated from Neem seed oil)
+Rats (in vivo)
+[139]
+Hepatoprotective activity
+Alcoholic extracts of Neem leaf
+Rat (in vivo) (paracetamol-induced liver damage)
+[140]
+Aqueous extracts of Neem leaf
+[109]
+Ethanolic extract of Neem leaf
+Sprague Dawley adult male rats (in vivo) (paracetamol-induced liver
+damage)
+[141]
+Anxiolytic and antidepressant-like
+activities (neuropharmacological
+activity)
+Aqueous extract of Neem flower
+Male Wistar rats (in vivo)
+[142]
+Acetone extract from Neem leaf
+Rats (in vivo)
+[102]
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+Table 8   (continued)
+Pharmacological activity
+Extract type
+Organism(s)
+References
+Antipyretic
+Chloroform extract from leaves
+albino rats (in vivo)
+[143]
+Neem leaf extract
+albino rats (Brewer’s yeast-induced pyrexia model) (in vivo)
+[144]
+Spermicidal
+Aqueous extract of Neem leaf (fresh and old)
+Human sperm (in vitro)
+[145]
+Extract from Neem seed
+[146]
+Anti-malarial
+Methanolic extract of Neem leaf and stem bark
+Albino Mice Infected with Plasmodium berghei (in vivo)
+[105]
+Ethanolic Extract of Neem Leaf
+[147]
+Ethanolic Extract of Neem Leaf
+C57BL mice infected with Plasmodium berghei (in vivo)
+[148]
+Anti-ulcer
+Aqueous extract of Neem leaves
+Wistar rats (Pyloric Ligation-Induced ulcer model, Aspirin-Induced Gas-
+tric ulcer model, Cold Restraint Stress-Induced ulcer model)
+[149]
+Ethanolic extract of Neem stem bark
+Albino rats
+[150]
+
+Vol.:(0123456789)
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+
+Review
+the form of lotion, cream, balm, etc. The qualified practitioner prescribes the medicine with the proper dosage depend-
+ing on the indications. In the traditional system of Indian medicines, the Neem plant holds an important position for its
+versatility. Table 10 showcases some of its therapeutic effects as per the Indian system of traditional medicine.
+15  Patent information on various neem formulations
+In this part of our study, we utilized freely accessible databases, like Patent Scope-WIPO, Espacenet and Google Pat-
+ents, to conduct a patent search. We employed the search with the keyword ‘Azadirachta indica’ in the search button.
+Following is the list of some patents:
+IN202011023472:
+The preparation process of an herbal face mask using Azadirachta indica and Saraca asoca leaf is described [162]
+CN109805037A:
+Hexane extract of Neem seed acts as a bacteria-killing agent [163]
+KR1020200102018:
+Neem leaf extract (hot water/ethanol/acetone) is helpful for acne alleviation and amelioration of whitening and
+wrinkling [164]
+MX2013004928A:
+Neem leaf extract is used for skin rejuvenation and treatment of fungi and bacteria [165]
+IN2177/CHE/2010:
+Neem leaf is used to prepare biogenic nanoparticles used for biomedical applications [166]
+WO2020020539A1:
+Aqueous Neem extract is used as an anti-dandruff shampoo [167]
+IN202311006650:
+A gel formulation containing the stem bark of Neem and has the potential of wound healing [168]
+CN108434032A:
+Neem leaf extract is used as a skin care product for removing acne [169]
+IN617/KOL/2007:
+Aqueous extract of bark and root for diabetes treatment [170]
+CN108158972A:
+Neem leaf extract is used to inhibit acne inflammation [171]
+WO/2020/047405:
+Describes preparation method of supercritical ­CO2 neem leaf extract to treat oral and colon cancer in patients [172]
+NZ578363A:
+Formulation contains aqueous extract of Neem bark for topical wound healing [173]
+16  Neem‑based clinical studies
+Numerous clinical trial-based studies have confirmed that herbal products and derivatives from natural sources play
+a crucial role in preventing and treating diseases. However, there have been only a few studies on active compounds
+like nimbidin to assess their efficacy in health management. One significant study involved human subjects to evalu-
+ate Neem bark extract’s antisecretory and antiulcer effects. The administration of lyophilised extract powder at 30 mg
+twice daily for 10 days resulted in a substantial reduction (77%) in gastric acid secretion. Further, administering
+the bark extract at 30–60 mg twice daily for 10 weeks almost completely healed duodenal ulcers. In one case, each
+Table 9   Various parts of the Neem tree and their therapeutic effects
+Plant part
+Therapeutic effects
+Whole plant [77]
+All parts of the Neem tree, i.e., stem and root bark, flowers, leaves, fruits, and seeds, have been traditionally used to
+treat inflammation, infections, fever, skin diseases and dental disorders
+Bark [151]
+Analgesic, stomach and intestinal ulcers, skin diseases, fever, etc
+Leaf [152]
+Skin diseases, eye problems, bloody nose, diseases of the heart and blood, skin ulcers, diabetes, gum disease, useful
+for birth control and to cause abortions, etc
+Flower [153]
+Bile suppression, elimination of intestinal worms, etc
+Fruit [154]
+Piles, urinary tract disorders, mouth ulcers, bloody noses, hair problems, and to kill lice, pimples, cholera, phlegm,
+piles, etc
+Seed (seed oil) [155]
+Intestinal worms, skin diseases etc
+Twig [156]
+Cough, asthma, as a toothbrush to clean teeth etc
+Gum [157]
+The older trees excrete sap, which is used to treat skin diseases and provide oral health care
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+oesophagal and gastric ulcer healed completely with 30 mg twice daily for 6 weeks [174]. A double-blind clinical trial
+assessed the efficacy of a drug made from an aqueous extract of Neem leaves in 50 cases of uncomplicated psoriasis
+alongside the conventional coal tar regimen. The results indicated that patients who received the drug in addition to
+Table 10   Therapeutic effects/pharmacological activities of Neem in ASU&H (Ayurveda, Siddha, Unani and Homeopathy) system
+Ayurveda
+Neem, a widely used plant in Ayurvedic medicine, serves various purposes in treating skin disorders and diabetes. Here are
+some common home remedies using Neem [158]:
+Skin Disease: 10 ml of Neem leaf juice with honey (twice daily) and bathing with water boiled with Neem leaves
+Wounds/Ulcers: Applying Neem leaf paste on affected areas alleviates wounds and ulcers
+Intestinal Issues: Drinking a decoction from a handful of Neem leaves (20 ml) on an empty stomach for three (03) days helps
+with intestinal wounds
+Loss of appetite: Decoction made from a handful of leaves (20 mL) should be taken on an empty stomach for three (03) days
+Dandruff/Ringworm: Applying a decoction of Neem leaves to the scalp and affected areas 1 h before bathing can heal dan-
+druff and ringworm
+Diabetes: Consuming 5 gm of dried Neem leaves/fruit powder with lukewarm water on an empty stomach (twice daily) is
+beneficial for some instances of non-insulin-dependent diabetes mellitus in its primary stages
+Siddha
+In Siddha medicine, Neem purifies the blood, alleviates inflammation, and aids in healing. It treats various skin ailments such
+as infections, eczema, psoriasis, scabies, and ringworm. Neem is often combined with other herbs like turmeric and sesame
+oil in formulations, mainly in paste or ointment form, prescribed by Siddha doctors, aiming to reduce inflammation, relieve
+itching, and facilitate skin recovery. Neem oil, derived from Neem leaves, is widely applied in Siddha medicine for its pur-
+ported anti-inflammatory and antiseptic properties. It can be used topically or added to bath water to soothe skin irritation
+[159]
+Unani
+Neem also holds a prominent position in the Unani medicine system because of its many pharmacological activities (AFAAL).
+Following is a documentation of pharmacological activities mentioned in several classical Unani texts [160]
+• Dafe humma (Antipyretic)
+• Dafe tafffun (Antiseptic)
+• Habise ishaal (Antidiarrheal)
+• Munzij (Concoctive)
+• Nafe amrazz jild (Skin Diseases)
+• Musakkine atash (Thirst quenching)
+• Muqavvi basar (Eye tonic)
+• Mudire Haiz (Emmanagogue)
+• Mane nazool (Anti hydrotic)
+• Nafe zeequnnafas (Beneficial in asthma)
+• Nafe wajaul mufasil (Anti rheumatic)
+• Nafe falij and laqwa (Beneficial in paralysis and hemiplegia)
+• Dafe yarqaan (Beneficial in Jaundice)
+• Hazim (Digestive)
+• Kasire riyah (Anti flatulent)
+• Musakkine alam (Analgesic)
+• Mundamile Qurooh (Cicatrizant)
+• Muqavvi snan wa lissa (Teeth and gum tonic)
+• Musakkine suaal (Antitussive)
+• Musakkine Suda (Headache Reliever)
+• Nafe ziabetus (Anti Diabetic)
+• Nafe istisqa (Useful in Dropsy)
+• Nafe darde gosh (Useful in ear ache)
+• Nafe jarooh wa qurooh (Beneficial in burns and wounds)
+Homeopathy
+In homoeopathy medicine, Neem is believed to have various potential benefits. Following are some key benefits associated
+with Neem [73, 161]:
+Skin Conditions: It treats acne, eczema, psoriasis, and other inflammatory skin issues thanks to its antibacterial, antifungal,
+and anti-inflammatory properties
+Hair and Scalp Health: Helps manage dandruff, itchy scalp, and hair loss by promoting scalp health and addressing related
+conditions
+Oral Health: Addresses gum diseases, tooth decay, and bad breath with its antimicrobial properties, supporting oral hygiene
+Digestive Health: Aids in digestion, alleviating issues like indigestion, bloating, constipation, and regulating bowel move-
+ments
+Immune Support: Boosts the immune system during illness or periods of weakened immunity, believed to have immune-
+enhancing properties
+
+Vol.:(0123456789)
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+
+Review
+coal tar therapy showed a faster and better response compared to the placebo group [175]. In another clinical study
+lasting 6 weeks, the effectiveness of a Neem extract dental gel was compared to chlorhexidine gluconate (0.2% w/v)
+mouthwash as a positive control. The study found that the dental gel containing Neem extract significantly reduced
+plaque index and bacterial count compared to the control group [176]. Additionally, a study demonstrated that nim-
+bidin significantly promoted ulcer healing in acetic acid-induced chronic gastric lesions in albino rats and dogs [177].
+17  Synergy in the life cycle of Neem, plants, animals, and humans
+The Neem tree (A. indica) is an extraordinary plant that engages with both the plant and animal kingdoms, as well as
+humans, in distinct ways throughout its life cycle. Below, we have discussed the interconnectedness between Neem,
+plants, animals, and humans throughout its life cycle.
+The Neem tree begins its life in the plant kingdom right from the germination of seeds. It adapts to different soil
+types and can flourish even in dry environments. Neem contributes significantly to the plant ecosystem, with its deep
+roots preventing soil erosion and enhancing soil fertility by fixing nitrogen. In agroforestry, its leaves and seeds are
+natural pesticides and fertilizers, encouraging healthy plant growth without chemicals. Neem-based products, like
+Neem oil and Neem cake, possess pest-repellent qualities, making them valuable in organic farming for safeguarding
+crops from harmful pests, benefiting the overall plant ecosystem and promoting the sustainability of the environ-
+ment as well [27, 178].
+Neem trees provide shelter for birds, insects, and animals, serving as a habitat for many species, especially pol-
+linators. Various animals feed on different parts of the tree; for instance, birds eat Neem fruits, and livestock may
+consume its leaves, though its bitterness makes it less favoured by grazing animals. Neem’s natural compounds,
+such as azadirachtin, repel insects, safeguarding both crops and animals from pests without the use of synthetic
+pesticides. Insects like locusts avoid Neem-treated areas, minimizing harm to plant and animal habitats. Although
+Neem has insect-repellent qualities, its leaves and flowers still attract bees, butterflies, and beetles, with bees search-
+ing for nectar. Ants are attracted to the sap and insects found on Neem trees, forming mutualistic relationships by
+protecting the tree from herbivorous insects. As a result, Neem trees play a key role in supporting diverse wildlife
+and maintaining the ecological balance within their habitats. [38, 179].
+Neem holds a prominent position in traditional medicine, widely used in the formulations of ASU&H drugs, with
+humans using its leaves, roots, seeds, fruits, flowers, and bark for medicinal, agricultural, and cosmetic purposes,
+fostering its widespread cultivation. Neem’s leaves, bark, seeds, and oil are used to treat various conditions, from skin
+disorders and digestive problems to infections, with its medicinal use spanning from time immemorial. In addition to
+its healing properties, Neem is a natural pesticide commonly applied in organic farming to safeguard crops. Farmers
+rely on Neem oil and cakes to defend against various agricultural pests. Neem is also widely utilized in personal care
+items like soaps, toothpaste, and shampoos, valued for its antibacterial and anti-inflammatory benefits in hygiene and
+skincare. People use Neem wood to build furniture, kitchen accessories, etc., because of the strength and durability
+of Neem heartwood. Moreover, Neem has deep cultural and spiritual significance. For their protective and purifying
+qualities, Neem trees are planted near homes and temples in India and many South Asian regions [19, 82, 180–183].
+When Neem trees die, their decomposition enriches the soil, providing a fertile environment for the next genera-
+tion of plants and helping the decomposers (fungi, bacteria, etc.) to sustain in the animal kingdom. Their fallen leaves
+serve as natural fertilizer and mulch, further contributing to the life cycle of the plant kingdom.
+Thus, the Neem tree completes its life cycle, right from its germination to death, by aiding, nourishing, interacting,
+enriching, and benefiting both the plant and animal kingdoms, as well as humans, at various stages.
+18  Future perspectives
+Future research on Neem (Azadirachta indica) in traditional systems of medicine offers immense potential for advanc-
+ing therapeutic applications and enhancing evidence-based practices. Continued isolation and characterization of
+bioactive compounds, particularly limonoids, flavonoids, and glycoproteins, are essential to uncover new pharma-
+cological applications. Standardization of ASU&H formulations, including extraction methods, dosage forms, and
+formulation protocols, is crucial to ensure efficacy and safety. Rigorous clinical trials are required to validate traditional
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+claims and establish the long-term safety and effectiveness of Neem-based treatments for dermatological, metabolic,
+and microbial conditions. Integrating traditional formulations with modern pharmacological agents can pave the
+way for innovative cosmeceuticals and nutraceuticals. In agriculture, sustainable cultivation techniques, including
+Neem’s role as a bio-pesticide and soil conditioner, can contribute to environmental conservation. At the same time,
+advancements like nano-encapsulation may enhance the bioavailability and effectiveness of Neem products. Com-
+parative studies exploring Neem’s Siddha and Unani medicine applications for skin diseases and blood purification
+present valuable opportunities. Genomic studies can further identify genes responsible for bioactive compound
+synthesis, fostering genetic advancements for enhanced medicinal yields. Documenting and preserving indigenous
+knowledge, including folklore and ethnobotanical practices, can safeguard traditional wisdom and serve as a foun-
+dation for future scientific pursuits. Thus, we anticipate that this review will serve as a comprehensive resource for
+researchers, facilitating the integration of traditional knowledge with modern scientific advancements and paving
+the way for future studies to unlock Neem’s full therapeutic potential, thereby ensuring its continued relevance and
+application in traditional systems of medicine.
+19  Conclusion
+The popularity of natural products and their derivatives in disease prevention and treatment is rising globally, largely
+due to the low risk of side effects. Neem and its components hold therapeutic significance and have been traditionally
+utilized for centuries. The review delves deeply into Neem’s diverse therapeutic uses and cultural importance, emphasiz-
+ing its historical and traditional role, particularly in the Indian subcontinent. Neem’s significance is well-established across
+various traditional medicine systems, including Ayurveda, Siddha, Unani, and Homeopathy (ASU&H). Since ancient times,
+humans have utilised different parts of the Neem tree to treat various ailments. Recognized for its extensive medicinal
+utility, Neem treats various health issues, such as skin ailments, diabetes, and digestive disorders, utilizing different plant
+parts—leaves, bark, seeds, flowers, and oil. Modern science has discovered appropriate responsible molecules behind
+the numerous bio-activities of Neem and its different parts. The pharmacological effectiveness of Neem stems from
+its rich phytochemistry, which includes compounds like Nimbin, azadirachtin, nimbolide, stigmasterol, β-sitosterol, to
+name a few. These compounds contribute to Neem’s antibacterial, anti-inflammatory, antifungal, antidiabetic, anti-ulcer,
+and immunomodulatory activities, making them effective for numerous health conditions. Clinical studies have verified
+Neem’s crucial role in preventing various diseases. Beyond medicinal applications, Neem is also valued in organic farming
+and pest control, where Neem oil and Neem cake provide eco-friendly solutions. Recent advancements like nanoencapsu-
+lation are discussed, which could boost Neem’s efficacy in agriculture by counteracting pest resistance. Culturally, Neem
+is revered in India, with associations to deities and applications in rituals, protective practices, and traditional cuisine. The
+review further highlights Neem’s use in dermatology and cosmetics, where its skin-beneficial properties lend themselves
+to anti-ageing and antimicrobial applications. Overall, the review underscores Neem’s role as a traditional therapeutic
+and sustainable resource, affirming its relevance for health and ecological management. This review article is anticipated
+to build a strong foundation for understanding the phytochemicals present, pharmacological activities, and medicinal
+applications of various components of the Neem tree, highlighting its role and applications in the ASU&H system.
+20  Methods followed in this review
+Relevant references concerning Neem (Azadirachta indica A. Juss) described in various ancient texts (Samhitas and
+nighantus, etc.) were reviewed. The author retrieved valuable publications from online databases like Web of Science,
+Science Direct, PubMed, Scopus, etc. Google search was also used. Online materials were also considered. All the refer-
+ences were collected and reviewed thoroughly.
+Acknowledgements  The authors express their gratitude and appreciation to the Director General & Deputy Director General, CCRAS, New
+Delhi, for providing the facilities at the Central Ayurveda Research Institute, Kolkata, to undertake this project. Last but not least, the authors
+want to show their gratitude to all the supporting staff who directly and indirectly assisted in successfully executing this review article.
+Author contributions  Conceptualization, writing original draft and supervision: SD; review and editing: SD, MD, SM, BKS and GB; all authors
+contributed to the article and approved the submitted version.
+
+Vol.:(0123456789)
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+
+Review
+Funding  Financial support from CCRAS HQ is gratefully acknowledged.
+Data availability  No datasets were generated or analysed during the current study.
+Declarations 
+Ethics approval and consent to participate  Not applicable.
+Consent for publication  Not applicable.
+Clinical trial number  Not applicable.
+Competing interests  The authors declare no competing interests.
+Open Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which
+permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to
+the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You
+do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party
+material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If
+material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds
+the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://​creat​iveco​
+mmons.​org/​licen​ses/​by-​nc-​nd/4.​0/.
+References
+ 1. FAO. Medicinal plants for forest conservation and health care. In: Non-wood forest products 11. Rome: FAO—Food and Agriculture
+Organization of the United Nations; 1997.
+ 2. Debas HT, Laxminarayan R, Straus SE. Comple mentary and alternative medicine, chap 69. In: Jamison DT, Breman JG, Measham AR et al
+(eds) Disease control priorities in developing coun tries, 2nd edn. The International Bank for Reconstruction and Development, The World
+Bank, Washington DC. Available from https://​www.​ncbi. nlm.nih.gov/books/NBK11796/. Co-published by Oxford University Press, New
+York, 2006.
+ 3. Mamta S, Jyoti S, Rajeev N, Dharmendra S. Abhishek G (2013) Phytochemistry of medicinal plants. J Pharma cogn Phytochem.
+2013;1(6):168–82.
+ 4. e-Nighantu (Collection of Āyurvedic Lexicons), Central Council for Research in Ayurvedic Sciences (CCRAS), New Delhi. http://​niimh.​nic.​
+in/​ebooks/​e-​Nigha​ntu/
+ 5. INMEDPLAN. Indian medicinal plants database. Bengaluru: The University of Transdisciplinary Health Sciences and Technology (TDU);
+2018.
+ 6. Sharma PV. Cakradatta, Chaukambha sanskrit series, Varanasi, India; 2007.
+ 7. Acharya Priyavrat Sharma, Guruprasad Sharma. Dhanvantari Nighantu Guduchyadi Prathamovarga. Reprint ed. Varanasi: Choukhamba
+Orientalia; 21, 1982.
+ 8. Chunekar KC, Pandey GS. Commentary on Bhavprakash Nighantu of Shri Bhav Mishra. Guduchyadi Varga. Reprint ed. Varanasi:
+Chaukhamba Bharti Academy; 2004. p. 34.
+ 9. Acharya PV Sharma, Guruprasad Sharma, Kaidev Nighantu. 1st ed. Varanasi: Choukhamba Orientalia; 1979. p. 163.
+ 10. JN Sastry, Illustrated Dravyaguna Vijnana, Part II.
+ 11. https://​neemf​ounda​tion.​org/​about-​neem/
+ 12. Anonymous. The Ayurvedic Pharmacopoeia of India, Part I, Vol II, 1st ed., (Pharmacopoeia Commission for Indian Medicine & Homoe-
+opathy, Government of India, Ministry of AYUSH. Ghaziabad, India); 2016. p. 126–7.
+ 13. Trikamji VY, editor. Charaksamhita of agnivesha. 4th ed. New Delhi: Munshiram, Manoharlal Publishers Pvt. Ltd.; 1992.
+ 14. Sharma PV (ed). Susruta. Susruta Samhita. Pub lished by Chaukhambha Visvabharati, Varanasi; 2004.
+ 15. Mohammad AA. Therapeutics role of Azadirachta indica (Neem) and their active constituents in diseases prevention and treatment. Evid
+Based Complement Alternat Med. 2016;2016:7382506. https://​doi.​org/​10.​1155/​2016/​73825​06.
+ 16. Ahmad S, Maqbool A, Srivastava A, Gogoi S. Biological detail and therapeutic effect of Azadirachta indica (neem tree) products—a review.
+J Evid Based Med Healthc. 2019;6(22):1607–12. https://​doi.​org/​10.​18410/​jebmh/​2019/​324.
+ 17. The Neem Genome. Eds. Malali Gowda, Ambardar Sheetal, Chittaranjan Kole. London: Springer Nature; 2019. https://​doi.​org/​10.​1007/​
+978-3-​030-​16122-4. ISBN 978-3-030-16121-7
+ 18. Chaudhary S, Kanwar RK, Sehgal A, Cahill DM, Barrow CJ, Sehgal R, Kanwar JR. Progress on Azadirachta indica based biopesticides in
+replacing synthetic toxic pesticides. Front Plant Sci. 2017;8:610. https://​doi.​org/​10.​3389/​fpls.​2017.​00610.
+ 19. Baby AR, Freire TB, Marques GDA, Rijo P, Lima FV, Carvalho JCMD, Rojas J, Magalhães WV, Velasco MVR, Morocho-Jácome AL. Azadirachta
+indica (Neem) as a potential natural active for dermocosmetic and topical products: a narrative review. Cosmetics. 2022;9(3):58. https://​
+doi.​org/​10.​3390/​cosme​tics9​030058.
+ 20. Patil AM, Bais SK, Rajgire AD. Uses of Neem in cosmetics and skincare. Int Adv Res Sci Commun Technol. 2023;3(3):99–106. https://​doi.​
+org/​10.​48175/​568.
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+ 21. González-Garza MT, Codinach M, Alcaraz C, Moreno-Cuevas J, Carranza-Rosales P, Cruz-Vega DE. Effect of Azadirachta indica leaf methanol
+extracts on stem cell reproduction. Fitoterapia. 2007;78(3):235–7. https://​doi.​org/​10.​1016/j.​fitote.​2006.​11.​016.
+ 22. Maji S, Modak S. Neem: treasure of natural phytochemicals. Chem Sci Rev Lett. 2021;10(39):396–401. https://​doi.​org/​10.​37273/​chesci.​
+cs205​205351.
+ 23. Anonymous. Quality standards of Indian medicinal plants, vol. 8. New Delhi: Indian Council of Medical Research; 2010. p. 78–84.
+ 24. Anonymous. Quality standards of Indian medicinal plants, vol. 11. New Delhi: Indian Council of Medical Research; 2013. p. 68–80.
+ 25. Shah BN, Seth AK. Textbook of pharmacognosy and phytochemistry. 1st ed. New Delhi: Elsevier, a division of Reed Elsevier India Private
+Limited; 2010. p. 489–90.
+ 26. Moin MS, Siddiqui JI, Alam MA, Khatoon F, Khan S, Minhajuddin A. Ethnomedicinal potential of widely used plant Azadirachta indica A.
+Juss.: a comprehensive review. J Phytopharmacol. 2021;10(6):456–67. https://​doi.​org/​10.​31254/​phyto.​2021.​10606.
+ 27. National Research Council (US) Panel on Neem. Neem: a tree for solving global problems. Washington (DC): National Academies Press
+(US); 3; 1992. 3, The Tree. https://​www.​ncbi.​nlm.​nih.​gov/​books/​NBK23​4651/
+ 28. Kumar VS, Navaratnam V. Neem (Azadirachta indica): prehistory to contemporary medicinal uses to humankind. Asian Pac J Trop Biomed.
+2013;3(7):505–14. https://​doi.​org/​10.​1016/​S2221-​1691(13)​60105-7.
+ 29. https://​www.​rlbcau.​ac.​in/​pdf/​Neem%​20Com​pendi​um%​20Fin​al.​pdf.
+ 30. Ogbuewu IP, Odoemenam VU, Obikaonu HO, Opara MN, Emenalom OO, Uchegbu MC, Okoli IC, Esonu BO, Iloeje MU. The Growing impor-
+tance of Neem (Azadirachta indica A. Juss) in agriculture, industry, medicine and environment: a review. Res J Med Plant. 2011;5(3):230–45.
+https://​doi.​org/​10.​3923/​rjmp.​2011.​230.​245.
+ 31. Sumit K, Vivek S, Sujata S, Ashish B. Herbal cosmetics: used for skin and hair. Inventi Rapid: Cosmeceuticals. 2012;4:1–7.
+ 32. Nisa UH, Ashraf S, Sajjad F. Neem tree: a sacred gift of nature. Noor Publishing; 2022. (ISBN: 978-620-3-85934-8).
+ 33. National Research Council. Neem: a tree for solving global problems. Washington, DC: The National Academies Press; 1992. https://​doi.​
+org/​10.​17226/​1924.
+ 34. Venugopalan Nair SN, Shilpa N, Vargheese T, Tabassum IF. Neem: traditional knowledge from Ayurveda. In: Gowda M, Sheetal A, Kole C,
+editors. The Neem Genome. Compendium of Plant Genomes. Cham: Springer; 2019. https://​doi.​org/​10.​1007/​978-3-​030-​16122-4_1.
+ 35. https://​www.​tales​bytre​es.​com/a-​brief-​guide-​to-​the-​sacred-​trees-​of-​india/
+ 36. https://​blog.​grow-​trees.​com/​trees-​in-​indian-​mytho​logy-​and-​spiri​tuali​ty/
+ 37. Walter JF. Commercial experience with Neem products. In: Hall FR, Menn JJ, editors. Biopesticides: use and delivery. Methods in biotech-
+nology, vol. 5. Humana Press; 1999. https://​doi.​org/​10.​1385/0-​89603-​515-8:​155.
+ 38. Campos EV, de Oliveira JL, Pascoli M, de Lima R, Fraceto LF. Neem oil and crop protection: from now to the future. Front Plant Sci.
+2016;7:1494. https://​doi.​org/​10.​3389/​fpls.​2016.​01494.
+ 39. Gupta AK. Use of neem and neem-based products in organic farming. Indian Farm. 2022;72(1):39–41.
+ 40. https://​agrit​ech.​tnau.​ac.​in/​org_​farm/​orgfa​rm_​green_​manure_​neem.​html
+ 41. Hirose E, Neves PMOJ, Zequi JAC, Martins LH, Peralta CH, Monio A Jr. Effect of biofertilizers and Neem oil on the entomopathogenic fungi
+Beauveria bassiana (Bals.) Vuill. and Metarhizium anisopliae (Metsch.) Sorok. Braz Arch Biol Technol. 2001;44(4):419–23. https://​doi.​org/​
+10.​1590/​S1516-​89132​00100​04000​13.
+ 42. Neempedia. The Neem encyclopaedia. https://​neemp​edia.​com/​neem-​organ​ic-​compl​exity
+ 43. Latini A, Giagnacovo G, Campiotti CA, Bibbiani C, Mariani SA. Narrative review of the facts and perspectives on agricultural fertilization
+in europe, with a focus on Italy. Horticulturae. 2021;7(6):158. https://​doi.​org/​10.​3390/​horti​cultu​rae70​60158.
+ 44. https://​www3.​epa.​gov/​pesti​cides/​chem_​search/​reg_​actio​ns/​regis​trati​on/​decis​ion_​PC-​025006_​07-​May-​12.​pdf
+ 45. European Union Regulation 2019/1009 (EU) of the European Parliament and of the Council of 5 June 2019 Laying Down Rules on the
+Making Available on the Market of EU Fertilising Products and Amending Regulation /EC) No 1069/2009 and (EC) No 1107/2009 and
+Repealing Regulation (EC) No 2003/2003. OJ L 170; 2019. p. 1–114. http://​data.​europa.​eu/​eli/​reg/​2019/​1009/​oj
+ 46. D’Addabbo T, Laquale S, Perniola M, Candido V. Biostimulants for Plant growth promotion and sustainable management of phytoparasitic
+nematodes in vegetable crops. Agronomy. 2019;9:616. https://​doi.​org/​10.​3390/​agron​omy91​00616.
+ 47. Akhtar A. Nematicidal potential of the neem tree Azadirachta indica (A. Juss). Int Pest Manag Rev. 2000;5:57–66.
+ 48. Mariani S, Nicoletti M. Larvicidal activities of a neem cake fractions on Aedes albopictus. Pharmacologyonline. 2013;3:137–40.
+ 49. Murali G, Gupta A, Arunachalam V, Magu SP. Impact of Azadirachtin, an insecticidal allelochemical from neem on soil microflora, enzyme
+and respiratory activities. Bioresour Technol. 2007;98(16):3154–8. https://​doi.​org/​10.​1016/j.​biort​ech.​2006.​10.​010.
+ 50. Saxena RC, Justo HD, Epino PB. Evaluation and Utilization of neem cake against the rice brown Planthopper, Nilaparvata lugens (Hom-
+optera: Delphacidae). J Econ Entomol. 1984;77:502–7. https://​doi.​org/​10.​1093/​jee/​77.2.​502.
+ 51. Sahrawat KL, Parmar BS. Alcohol extract of Neem (Azadirachta indica L.) seed as nitrification inhibitor. J Indian Soc Soil Sci.
+1975;23(1):131–4.
+ 52. Meena BP, Biswas AK, Shirale AO, Ramesh K, Jha P, Lakaria BL. Ecofriendly Neem coated urea a boon for farmers. Indian Farm. 2018;67(6).
+https://​epubs.​icar.​org.​in/​index.​php/​IndFa​rm/​artic​le/​view/​84272
+ 53. https://​www.​medic​alnew​stoday.​com/​artic​les/​327179
+ 54. Selvadurai S, Selvapriya S, Parthiban S, Gopal TK, Anbazhagan S. An overview of herbal cosmetics. Int J Pharm Pharm Sci.
+2020;18(2):109–31.
+ 55. Petruk G, Del Giudice R, Rigano MM, Monti DM. Antioxidants from plants protect against skin photoaging. Oxid Med Cell Longev. 2018.
+https://​doi.​org/​10.​1155/​2018/​14549​36.
+ 56. Gubitosa J, Rizzi V, Fini P, Cosma P. Hair care cosmetics: from traditional shampoo to solid clay and herbal shampoo, a review. Cosmetics.
+2019;6(1):13. https://​doi.​org/​10.​3390/​cosme​tics6​010013.
+ 57. Kumari I, Sarkar I, Sanyashi I, Das S, Das R. Formulation and evaluation of herbal shampoo using neem, amla and reetha extract. J Phar-
+macogn Phytochem. 2022;11(4):179–84.
+ 58. National Research Council (US) Panel on Neem. Neem: a tree for solving global problems. Washington (DC): National Academies Press
+(US); 1992. 7, Medicinals. https://​www.​ncbi.​nlm.​nih.​gov/​books/​NBK23​4637/
+
+Vol.:(0123456789)
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+
+Review
+ 59. Yogesh HR, Gajjar T, Patel N, Kumawat R. Clinical study to assess efficacy and safety of purifying Neem face wash in prevention and
+reduction of acne in healthy adults. J Cosmet Dermatol. 2022;21(7):2849–58. https://​doi.​org/​10.​1111/​jocd.​14486.
+ 60. Gopinath H, Karthikeyan K. Neem in dermatology: shedding light on the traditional panacea. Indian J Dermatol. 2021;66(6):706. https://​
+doi.​org/​10.​4103/​ijd.​ijd_​562_​21.
+ 61. Chundran NK, Husen IR, Rubianti I. Althea effect of Neem leaves extract (Azadirachta indica) on wound healing. Althea Med J.
+2015;2(1):199–203.
+ 62. https://​www.​matti​ndia.​com/​under​stand​ing-​fungal-​infec​tions-​and-​skin-​aller​gies-​from-​an-​ayurv​edic-​persp​ectiv​e/#:​~:​text=​Neem%​
+20(Azadi​rachta%​20ind​ica)​,fungal%​20inf​ectio​ns%​20and%​20all​ergic%​20rea​ctions
+ 63. Bhowmik D, Chiranjib, Yadav J, Tripathi KK, Kumar KPS. Herbal remedies of Azadirachta indica and its medicinal application. J Chem
+Pharm Res. 2010;2(1):62–72.
+ 64. Sathyaseelan S, Rao BH, Anushmati S. Cosmeceuticals: A transit state from synthetic to natural. Indian J Pharmacol. 2024;56(1):42–51.
+https://​doi.​org/​10.​4103/​ijp.​ijp_​244_​21.
+ 65. https://​natur​eneem.​com/​en/​wonde​rs-​of-​neem
+ 66. https://​indic​manda​la.​com/​medic​inal-​prope​rties-​of-​neem/
+ 67. Anonymous The Ayurvedic formulary of India, Part II, English ed. Ghaziabad: Pharmacopoeia Commission for Indian Medicine &
+Homoeopathy, Government of India, Ministry of AYUSH; 2000.
+ 68. Anonymous. The Ayurvedic Formulary of India, Part I, 2nd revised ed. Ghaziabad: Pharmacopoeia Commission for Indian Medicine
+& Homoeopathy, Government of India, Ministry of AYUSH; 2003.
+ 69. Anonymous. The Ayurvedic Formulary of India, Part III, Bilingual ed. Ghaziabad: Pharmacopoeia Commission for Indian Medicine &
+Homoeopathy, Government of India, Ministry of AYUSH; 2011.
+ 70. Anonymous. Siddha pharmacopoeia of India, Part I vol I, 1st edition.
+ 71. The Unani Pharmacopoeia of India Part II Vol I (Formulation), 1st ed. Government of India, Ministry of Health and Family Welfare
+Department of Ayurveda, Yoga & Naturopathy, Unani, Siddha and Homeopathy (Ayush) New Delhi; 2009.
+ 72. National Formulary of Unani Medicine Part I, 1st ed. Central Council for Research in Unani Medicine Govt. of India, Ministry of Health
+and Family Welfare (Dept. of Ayush); 2006.
+ 73. https://​www.​allen​homoe​opathy.​com/​azadi​rachta-​indica-q
+ 74. Brahmachari G. Neem—an omnipotent plant: a retrospection. ChemBioChem. 2004;5(4):408–21. https://​doi.​org/​10.​1002/​cbic.​20030​
+0749.
+ 75. Siddiqui BS, Afshan F, Gulzar T, Hanif M. Tetracyclic triterpenoids from the leaves of Azadirachta indica. Phytochemistry.
+2004;65(16):2363–7.
+ 76. Singh UP, Maurya S, Singh DP. Phenolic acids in neem (Azadirachta indica) a major pre-existing secondary metabolites. J herb pharma-
+cothe. 2005;5(1):35–43.
+ 77. Gupta SC, Prasad S, Tyagi AK, Kunnumakkara AB, Aggarwal BB. Neem (Azadirachta indica): an Indian traditional panacea with modern
+molecular basis. Phytomedicine. 2017;34:14–20. https://​doi.​org/​10.​1016/j.​phymed.​2017.​07.​001.
+ 78. Dash SP, Dixit S, Sahoo S. Phytochemical and biochemical characterizations from leaf extracts from Azadirachta indica: an important
+medicinal plant. Biochem Anal Biochem. 2017;6(323):2161–1009. https://​doi.​org/​10.​4172/​2161-​1009.​10003​23.
+ 79. Singh A, Chatterjee A, Rakshit S, Shanmugam G, Mohanty LM, Sarkar K. Neem Leaf Glycoprotein in immunoregulation of cancer. Hum
+Immunol. 2022;83(11):768–77. https://​doi.​org/​10.​1016/j.​humimm.​2022.​08.​012.
+ 80. Yadav DK, Bharitkar YP, Chatterjee K, Ghosh M, Mondal NB, Swarnakar S. Importance of Neem leaf: an insight into its role in combating
+diseases. Indian J Exp Biol. 2016;54(11):708–18.
+ 81. Nwali ON, Idoko A, Okolie JE, Ezeh E, Ugwudike PO, Rita ON, Ezenwali MO, Odo IA, Ani PN, Okolie SO. Comparative analysis of the phy-
+tochemical compositions of leaf, stem-bark and root of Azadirachta indica (neem). Univers J Pharm Res. 2018;3(5):46–50.
+ 82. Biswas K, Chattopadhyay I, Banerjee RK, Bandyopadhyay U. Biological activities and medicinal properties of neem (Azadirachta indica).
+Curr Sci. 2002;82(11):1336–45.
+ 83. Dharmani P, Palit G. Exploring Indian medicinal plants for antiulcer activity. Indian J Pharmacol. 2006;38(2):95–9. https://​doi.​org/​10.​4103/​
+0253-​7613.​24613.
+ 84. Cui X, Wang R, Bian P, Wu Q, Seshadri VDD, Liu L. Evaluation of antiarthritic activity of nimbolide against Freund’s adjuvant induced
+arthritis in rats. Artif Cells Nanomed Biotechnol. 2019;47(1):3391–8. https://​doi.​org/​10.​1080/​21691​401.​2019.​16492​69.
+ 85. Kumar R, Mehta S, Pathak SR. Bioactive constituents of neem. In: Tewari A, Tiwari S, editors. Synthesis of medicinal agents from plants.
+Elsevier; 2018. p. 75–103. https://​doi.​org/​10.​1016/​B978-0-​08-​102071-​5.​00004-0. (ISBN 9780081020715).
+ 86. Alba SL, García-González C, Ortega MAC, Bautista JRA, Alpírez GM, Núñez DGLM. Extraction methods and applications of bioactive
+compounds from Neem (Azadirachta indica): a mini-review. Mini-Rev Org Chem. 2023;20(7): e070722206707. https://​doi.​org/​10.​2174/​
+15701​93X19​66622​07071​25726.
+ 87. Ojha VK. Evaluation of pharmacological activities of some compounds and extracts of Azadiracta indica. Res J Chem Environ Sci.
+2016;4(1):1–6.
+ 88. El-Hawary SS, El-Tantawy ME, Rabeh MA, Badr WK. Chemical composition and biological activities of essential oils of Azadirachta indica
+A. Juss. Int J Appl Res Nat Prod. 2013;6(4):33–42.
+ 89. Mohammad AH, Al-Toubi WAS, Weli AM, Al-Riyami QA, Al-Sabahi JN. Identification and characterization of chemical compounds in dif-
+ferent crude extracts from leaves of Omani neem. J Taibah Univ Sci. 2013;7:181–8. https://​doi.​org/​10.​1016/j.​jtusci.​2013.​05.​003.
+ 90. Nicoletti M, Maccioni O, Coccioletti T, Mariani S, Vitali F. Neem tree (Azadirachta indica A. Juss) as source of bioinsectides. In: Perveen F,
+editor. Agricultural and biological sciences, insecticides—advances in integrated pest management. InTech; 2012. p. 780–2. https://​doi.​
+org/​10.​5772/​28786. (ISBN 978-953-307-780-2).
+ 91. Chopra RN, Nayer SL, Chopra IC. Glossary of Indian medicinal plants. New Delhi: CSIR; 1956.
+ 92. Kirtikar KR, Basu BD. In: Blatter E, Cains JF, Mhaskar KS, editors. Medicinal plants. Vivek Vihar, New Delhi; 1975. p. 536.
+ 93. Thakur RS, Singh SB, Goswami A. Azadirachta indica A. Juss—a review. Curr Res Med Aromatic Plants. 1981;3:135–40.
+ 94. Koul O, Isman MB, Ketkar CM. Properties and uses of neem, Azadirachta indica. Can J Bot. 1990;68:1–11. https://​doi.​org/​10.​1139/​b90-​001.
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+ 95. Chatterjee A, Pakrashi S, editors. The treatise on Indian medicinal plants, vol 3; 1994. p. 76.
+ 96. Chopra RN, Chopra IC, Handa KL, Kapur LD, editors. Indigenous drugs of India. Kolkata: U.N. Dhur and Sons; 1958. p. 51–595.
+ 97. Singh RP, Chari MS, Raheja AK, Kraus W. Neem and environment. New Delhi: Oxford & IBH Publishing; 1996. p. 1- 1198 I- II.
+ 98. Schmutterer H, editor. The neem tree: source of unique natural products for integrated pest management medicine industry and other
+purposes. Weinheim: VCH; 1995. p. 1–696.
+ 99. De Jussieu A. Memoires du Museum National D’histoire Naturelle Paris; 1830. 19, 220.
+ 100. Khan M, Wassilew SW. In: Schmutterer H, Asher KRS, editors. Natural pesticides from the neem tree and other tropical plants. Eschborn:
+GTZ; 1987, pp. 645–650.
+ 101. Sundaravalli N, Bhaskar Raju B, Krishnamoorthy KA. Neem oil poisoning. Indian J Pediatr. 1982;49(3):357–9.
+ 102. Jaiswal AK, Bhattacharya SK, Acharya SB. Anxiolytic activity of Azadirachta indica leaf extract in rats. Ind J Exp Biol. 1994;32(7):489–91.
+ 103. Raizada RB, Srivastava MK, Kaushal RA, Singh RP. Azadirachtin, a neem biopesticide: subchronic toxicity assessment in rats. Food Chem
+Toxicol. 2001;39(5):477–83.
+ 104. Boadu KO, Tulashie SK, Anang MA, Kpan JD. Toxicological analysis of the effect of neem tree extract in an organism. Eur J Exp Biol.
+2011;1:160–71.
+ 105. Akin-Osanaiya BC, Nok AJ, Ibrahim S, Mario IH, Onyike E, Amlabu E, Haruna E. Antimalarial effect of neem leaf and neem stem bark
+extracts on Plasmodium berghei infected in the pathology and treatment of malaria. Int J Res Biochem Biophy. 2013;3(1):7–14.
+ 106. Bakr SA. Evaluation of acute toxicity of water extract of Azadirachta indica leaves and seeds in rats. Pak J of Biol Sci. 2013;16(14):697–700.
+ 107. Okpanyi SN, Ezeukwu GC. Anti-inflamatory and antipyretic activities of Azadirachta indica. Planta Med. 1996;41(1):34–9.
+ 108. Arivazhagan S, Balasenthil S, Nagini S. Garlic and neem leaf extracts enhance hepatic glutathione and glutathione dependent enzymes
+during N-methyl-N-nitro-N-nitrosoguanidine (MNNG)-induced gastric carcinogenesis is rats. Phytother Res. 2000;14:291–3. https://​doi.​
+org/​10.​1002/​1099-​1573(200006)​14:4%​3c291::​AID-​PTR570%​3e3.0.​CO;2-Y.
+ 109. Bhanwra S, Singh J, Khosla P. Effect of Azadirachta indica (Neem) leaf aqueous extract on paracetamol-induced liver damage in rats.
+Indian J Physiol Pharmacol. 2000;44:64–8.
+ 110. Rao AD, Devi KN, Thyagaraju KJ. Isolation of antioxidant principle from Azadirachta seed kernels: determination of its role on plant
+lipoxygenases. J Enzyme Inhib Med Chem. 1998;14:85–6.
+ 111. Chopra IC, Gupta KC, Nair BN. Biological activities and medicinal properties of neem (Azadirachta indica). Indian J Med Res. 1952;40:511–5.
+ 112. Dhar R, Zhang K, Talwar GP, Garg S, Kumar NJ. Inhibition of the growth and development of asexual and sexual stages of drug-sensitive
+and resistant strains of the human malaria parasite Plasmodium falciparum by neem (Azadirachta indica) fractions. Ethnopharmacology.
+1998;61:31–9. https://​doi.​org/​10.​1016/​s0378-​8741(98)​00012-9.
+ 113. SaiRam M, Ilavazhagan G, Sharma SK. Anti-microbial activity of a new vaginal contraceptive NIM-76 from neem oil (Azadirachta indica).
+J Ethnopharmacol. 2000;71:377–82. https://​doi.​org/​10.​1016/​s0378-​8741(99)​00211-1.
+ 114. Baswa M, Rath CC, Dash SK, Mishra RK. Antibacterial activity of Karanj (Pongamia pinnata) and Neem (Azadirachta indica) seed oil: a
+preliminary report. Microbios. 2001;105:183–9.
+ 115. Almas K. The antimicrobial effects of extracts of Azadirachta indica (Neem) and Salvadora persica (Arak) chewing sticks. Indian J Dent
+Res. 1999;10:23–6.
+ 116. Gogati SS, Marathe AD. Anti-viral effect of neem leaf (Azadirachta indica) extracts on Chikungunya and Measles viruses. J Res Educ Indian
+Me. 1989;1989(8):1–5.
+ 117. Rahmani AH, Almatroudi A, Alrumaihi F, Khan AA. Pharmacological and therapeutic potential of Neem (Azadirachta indica). Pharmacog
+Rev. 2018;12(24):250–5. https://​doi.​org/​10.​4103/​phrev.​phrev_8_​18.
+ 118. Nahak G, Sahu RK. Antioxidant activity in bark and roots of Neem (Azadirachta indica) and Mahaneem (Melia azedarach). C J Pharm Sci.
+2010;4:28–34.
+ 119. Fong LO, Berenguer RC, de la Vega AJ, Wawoe DN, Puente ZE. Antioxidant potential of an aqueous leaf extract of Neem (Azadirachta
+indica A. Cuss). Rev Cubana Plant Med. 2014;19(2):205–7.
+ 120. Okoh SO, Oyewole AO, Ishola RO, Odusote AD, Okoh OO, Igwe CC, Elemo GN. Antioxidant and free radical scavenging capacity of crude
+and refined oil extracted from Azadirachta indica A. Juss. Int J Biol. 2015. https://​doi.​org/​10.​5539/​ijb.​v7n2p​78.
+ 121. Nahak G, Sahu RK. Evaluation of antioxidant activity of flower and seed oil of Azadirachta indica A. juss. J Appl Nat Sci. 2011;3(1):78–81.
+ 122. Mali AS, Thorat MB, Ghadge DM, Nikam KA, Sawant SD, Shaikh F, Vhatkar NM, Shinde S, Dhongade KD, Tamboli MA. Antinociceptive and
+antioxidant activities of methanolic extract of leaves of Azadirachta indica in vivo. PeerJ Preprints. 2019;7: e278472v2. https://​doi.​org/​
+10.​7287/​peerj.​prepr​ints.​27847​v2.
+ 123. Batista FLA, Lima LMG, Abrante IA, et al. Antinociceptive activity of ethanolic extract of Azadirachta indica A. Juss (Neem, Meliaceae) fruit
+through opioid, glutamatergic and acid-sensitive ion pathways in adult zebrafish (Danio rerio). Biomed Pharmacother. 2018;108:408–16.
+https://​doi.​org/​10.​1016/j.​biopha.​2018.​08.​160.
+ 124. Schumacher M, Cerella C, Reuter S, Dicato M, Diederich M. Anti-inflammatory, pro-apoptotic, and anti-proliferative effects of a methanolic
+neem (Azadirachta indica) leaf extract are mediated via modulation of the nuclear factor-κB pathway. Genes Nutr. 2011;6(2):149–60.
+https://​doi.​org/​10.​1007/​s12263-​010-​0194-6.
+ 125. Pereira LP, da Silva KES, da Silva RO, Assreuy AMS, Pereira MG. Anti-inflammatory polysaccharides of Azadirachta indica seed tegument.
+Rev Bras Farmacogn. 2012;22(3):617–22. https://​doi.​org/​10.​1590/​S0102-​695X2​01200​50000​31.
+ 126. Naik MR, Bhattacharya A, Behera R, Agrawal D, Dehury S, Kumar S. Study of anti-inflammatory effect of neem seed oil (Azadirachta indica)
+on infected albino rats. J Health Res Rev. 2014;1:66–9. https://​doi.​org/​10.​4103/​2394-​2010.​153880.
+ 127. Ogunpolu BS, Omobowale TO, Ugbor FO, Adejumobi OA, Oyagbemi AA, Falayi OO, Adedapo AA, Yakubu MA. Anti-hypertensive effect of
+methanol leaf extract of Azadirachta indica was mediated through suppression of renal caspase 3 expressions on Nω-Nitro-l-Arginine
+Methyl Ester (L-NAME) induced hypertension. Supplement: Experimental Biology 2020 Meeting Abstracts. 2020;34(S1):1–1. https://​doi.​
+org/​10.​1096/​fasebj.​2020.​34.​s1.​02427
+ 128. Moaty AAA, El-Kholie EA, Adarous RA. the anti-diabetic effect of neem leaves (Azadirachta indica) in alloxan-induced diabetic rats. JHE.
+2022;32(2):19–31.
+
+Vol.:(0123456789)
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+
+Review
+ 129. Pingali U, Ali MA, Gundagani S, Nutalapati C. Evaluation of the effect of an aqueous extract of Azadirachta indica (Neem) leaves and
+twigs on glycemic control, endothelial dysfunction and systemic inflammation in subjects with type 2 diabetes mellitus—a randomized,
+double-blind, placebo-controlled clinical study. Diabetes Metab Syndr Obes. 2020;13:4401–12. https://​doi.​org/​10.​2147/​DMSO.​S2743​78.
+ 130. Othman F, Motalleb G, Lam Tsuey Peng S, Rahmat A, Basri R, Pei PC. Effect of neem leaf extract (Azadirachta indica) on c-Myc oncogene
+expression in 4t1 breast cancer cells of BALB/c mice. Cell J. 2012;14(1):53–60.
+ 131. Morris J, Gonzales CB, De La Chapa JJ, Cabang AB, Fountzilas C, Patel M, Orozco S, Wargovich MJ. The highly pure neem leaf extract,
+SCNE, inhibits tumorigenesis in oral squamous cell carcinoma via disruption of pro-tumor inflammatory cytokines and cell signaling.
+Front Oncol. 2019;9:890. https://​doi.​org/​10.​3389/​fonc.​2019.​00890.
+ 132. Qiu Z, Andrijauskaite K, Morris J, Wargovich MJ. Disruption of epigenetic silencing in human colon cancer cells lines utilizing a novel
+supercritical ­CO2 extract of neem leaf (Azadirachta indica). Anticancer Res. 2019;39(10):5473–81. https://​doi.​org/​10.​21873/​antic​anres.​
+13740.
+ 133. Page C, Hawes EM. Haemolytic anaemia after ingestion of Neem (Azadirachta indica) tea. BMJ Case Rep. 2013. https://​doi.​org/​10.​
+1136/​bcr-​2013-​200890.
+ 134. Reddy RRY, Kumari KC, Lokanatha O, Mamatha S, Reddy DC. Antimicrobial activity of Azadirachta indica (neem) leaf, bark and seed
+extracts. Int J Res Phytochem Pharmacol. 2013;3(1):1–4.
+ 135. Mistry KS, Sanghvi Z, Parmar G, Shah S, Pushpalatha K. Antibacterial efficacy of Azadirachta indica, Mimusops elengi and 2% CHX on
+multispecies dentinal biofilm. J Conserv Dent. 2015;18(6):461–6. https://​doi.​org/​10.​4103/​0972-​0707.​168810.
+ 136. SaiRam M, Ilavazhagan G, Sharma SK, Dhanraj SA, Suresh B, Parida MM, Jana AM, Devendra K, Selvamurthy W. Anti-microbial activity
+of a new vaginal contraceptive NIM-76 from neem oil (Azadirachta indica). J Ethnopharmacol. 2000;71(3):377–82. https://​doi.​org/​
+10.​1016/​S0378-​8741(99)​00211-1.
+ 137. SaiRam M, Sharma SK, Ilavazhagan G, Kumar D, Selvamurthy W. Immunomodulatory effects of NIM-76, a volatile fraction from Neem
+oil. J Ethnopharmacol. 1997;55(2):133–9. https://​doi.​org/​10.​1016/​s0378-​8741(96)​01487-0.
+ 138. Supriyanto S, Widjanarko SB, Rifa’i M, Yunianta Y. Immunomodulatory activity of methanol leaf extract of neem. J Trop Life Sci.
+2021;11(3):309–16. https://​doi.​org/​10.​11594/​jtls.​11.​03.​07.
+ 139. Pillai NR, Santhakumari G. Anti-arthritic and anti-inflammatory actions of nimbidin. Planta Med. 1981;43(9):59–63. https://​doi.​org/​
+10.​1055/s-​2007-​971474.
+ 140. Chattopadhyay RR. Possible mechanism of hepatoprotective activity of Azadirachta indica leaf extract: part II. J Ethnopharmacol.
+2003;89(2–3):217–9. https://​doi.​org/​10.​1016/j.​jep.​2003.​08.​006.
+ 141. Althaiban MA. Evaluation of hepatoprotective activity of neem extract in rifampin induced acute hepatic failure in rats. Int J Pharm
+Res Allied Sci. 2019;8(3):29–36.
+ 142. Hawiset T, Sriraksa N, Kamsrijai U, Wanchai K, Inkaew P. Anxiolytic and antidepressant-like activities of aqueous extract of Azadirachta
+indica A. Juss. flower in the stressed rats. Heliyon. 2022;8(2): e08881. https://​doi.​org/​10.​1016/j.​heliy​on.​2022.​e08881.
+ 143. Alyas S, Zahra N, Khadam A, Sultana R, Zahid B, et al. Study of Anti-inflammatory, antipyretic and analgesic effects if Azadirachta
+indica leaves extract in albino rats. Biol Clin Sci Res J. 2023. https://​doi.​org/​10.​54112/​bcsrj.​v2023​i1.​257.
+ 144. Santra S, Naik MR, Behera R, Agrawal D, Kumar S, Patnaik S. Antipyretic effect of Azadirachta indica leaf extract (neem leaf extract)
+on albino rats. Res J Pharm Biol Chem Sci. 2014;5(6):669–73.
+ 145. Khillare B, Shrivastav TG. Spermicidal activity of Azadirachta indica (neem) leaf extract. Contraception. 2003;68(3):225–9. https://​
+doi.​org/​10.​1016/​s0010-​7824(03)​00165-3.
+ 146. Garg S, Doncel G, Chabra S, Upadhyay SN, Talwar GP. Synergistic spermicidal activity of neem seed extract, reetha saponins and
+quinine hydrochloride. Contraception. 1994;50(2):185–90. https://​doi.​org/​10.​1016/​0010-​7824(94)​90054-x.
+ 147. Afolabi OJ, Simon-Oke IA, Oladokun OI. Antiplasmodial activity of ethanolic extract of neem leaf (Azadirachta indica) in albino mice
+infected with Plasmodium berghei. Int Arch Clin Pharmacol. 2021;7:024. https://​doi.​org/​10.​23937/​2572-​3987.​15100​24.
+ 148. Rahmah Z, Nirmala KC, Nashichuddin A, Riskiyana R, Milliana A, Indriana N, Astari LF, Ayudianti P, Kholil M. Effect of neem leaf
+extract (Azadirachta indica) in reducing the degree of parasitemia and apoptosis in C57BL mice with cerebral malaria. Vet World.
+2024;17(7):1497–503. https://​doi.​org/​10.​14202/​vetwo​rld.​2024.​1497-​1503.
+ 149. Bhajoni PS, Meshram GG, Lahkar M. Evaluation of the antiulcer activity of the leaves of Azadirachta indica: an experimental study.
+Integr Med Int. 2016;3(1–2):10–6. https://​doi.​org/​10.​1159/​00044​2750.
+ 150. Raji Y, Ogunwande IA, Osadebe CA, John G. Effects of Azadirachta indica extract on gastric ulceration and acid secretion in rats. J
+Ethnopharmacol. 2004;90(1):167–70. https://​doi.​org/​10.​1016/j.​jep.​2003.​09.​020.
+ 151. Bandyopadhyay U, Biswas K, Chatterjee R, Bandyopadhyay D, Chattopadhyay I, Ganguly CK, Chakraborty T, Bhattacharya K, Baner-
+jee RK. Gastroprotective effect of Neem (Azadirachta indica) bark extract: possible involvement of H+-K+-ATPase inhibition and
+scavenging of hydroxyl radical. Life Sci. 2002;71(24):2845–65. https://​doi.​org/​10.​1016/​S0024-​3205(02)​02143-4.
+ 152. Subapriya R, Nagini S. Medicinal properties of neem leaves: a review. Curr Med Chem Anticancer Agents. 2005;5(2):149–56. https://​
+doi.​org/​10.​2174/​15680​11053​174828.
+ 153. Shah AS, Gunjal MA, Juvekar AR. Immunomostimulatory activity of aqueous extract of Azadirachta indica flowers on specific and
+nonspecific immune response. J Nat Remedies. 2009;9(1):35–42.
+ 154. Wang J, Li J, Cao J, Jiang W. Antifungal activities of neem (Azadirachta indica) seed kernel extracts on postharvest diseases in fruits.
+Afr J Microbiol Res. 2010;4(11):1100–4.
+ 155. Aneesa N, Gayathri. Beneficial effects of neem oil-an updated review. J Pharm Sci Res. 2016;8(8):756–8.
+ 156. Singh A, Purohit B. Tooth brushing, oil pulling and tissue regeneration: a review of holistic approaches to oral health. J Ayurveda
+Integr Med. 2011;2(2):64–8.
+ 157. Mukherjee S, Srivastava HC. The structure of neem gum. J Am Chem Soc. 1955;77(2):422–3.
+ 158. http://​ccras.​nic.​in/​conte​nt/​some-​impor​tant-​medic​inal-​uses-​nimb-​neem-​azadi​rachta-​indic​a#:​~:​text=​Neem%​20is%​20a%​20Maj​or%​
+20her​b,anti%​20Hel​minth​ic%​20Pro​perti​es%​20in%​20Ayu​rveda.​&​text=​Juice%​20%​2D%​2010%​2D20ml
+ 159. https://​amcsrc.​edu.​in/​neem-​herbal-​remedy-​for-​skin-​disea​ses/
+
+Vol:.(1234567890)
+Review
+
+Discover Plants (2025) 2:156
+| https://doi.org/10.1007/s44372-025-00196-2
+ 160. Quraishi HA, Islam N, Iqbal A, Bhat SA, Ahmed J, Ashraf SS, Khan QA. Therapeutical and medicinal properties of Neem (Azadirachta
+indica) in context of Unani system of medicine: a review study. J Drug Deliv Ther. 2018;8(6-s):394–9. https://​doi.​org/​10.​22270/​jddt.​
+v8i6-s.​2141.
+ 161. Azadirachta indica. In: Homoeopathic Drug Provings, Central Council for Research in Homoeopathy, 61–65, Institutional Area, Opp. ‘D’
+Block, Janakpuri, New Delhi, First Edition; 2005.
+ 162. Agrawal S. A process of preparing a herbal face mask and a herbal ask thereof. IN202011023472; 2020.
+ 163. Beibei L, Lin W, Lixu P, Xin C, Pan P, Niqing F. A method for the preparation and application of azadirachta and fungicides. CN109805037A;
+2019.
+ 164. Hye LJ, Yeon AJ, Jeong KH, Jung HS, In KD. Azadirachta indica leaf extract and pickering emulsion composition prepared using same.
+KR1020200102018; 2020.
+ 165. Gutierrez Miceli FA, Gutiérrez Oliva VF. Topic cosmetic composition based on extracts of neem leaves (Azadirachta indica Juss.) for Pro-
+moting the skin rejuvenation and treating fungi and bacteria infections. MX2013004928A; 2013.
+ 166. Rajendran V, Pavithra S, Sasipriya K. Preparation of nanoparticles from (Azadirachta indica) leaves for biomedical applications. IN2177/
+CHE/2010; 2012.
+ 167. Barchha N, Desai DH, Gangopadhyay M, Rajagopalan S, Serai PS, Serrao G. An antidandruff composition. WO2020020539A1; 2019.
+ 168. Roy S, Deora AS. Azadirachta indica bark extract-based gel formulation for wound healing. IN202311006650; 2023.
+ 169. Ishima; Zhilong, L. An anti-acne skin care product and its preparation method. CN108434032A; 2018.
+ 170. Sengupta S, Mukherjee A. A process for the characterization of the bioactive component present in bark and root of Azadirachta indica
+(neem) used in herbal remedies for the treatment of diabetic. IN617/KOL/2007; 2008.
+ 171. Yuefeng D, Wenshu K, Guangwen H, Shaowei Y. Composition and cosmetic containing the composition to suppress acne inflammation.
+CN108158972A; 2018.
+ 172. Soman GS, Wargovich M. Compositions of Azadirachta indica and methods of treating cancer. WO2020047405; 2019.
+ 173. Saxena, M. Herbal formulation for wound healing containing Azadirachta indica. NZ578363A; 2012.
+ 174. Bandyopadhyay U, Biswas K, Sengupta A, Moitra P, Dutta P, Sarkar D, Debnath P, Ganguly CK, Banerjee RK. Clinical studies on the effect
+of Neem (Azadirachta indica) bark extract on gastric secretion and gastroduodenal ulcer. Life Sci. 2004;75(24):2867–78. https://​doi.​org/​
+10.​1016/j.​lfs.​2004.​04.​050.
+ 175. Pandey SS, Jha AK, Kaur V. Aqueous extract of neem leaves in treatment of Psoriasis vulgaris. IJDVL. 1994;60(2):63–7.
+ 176. Pai MR, Acharya LD, Udupa N. Evaluation of antiplaque activity of Azadirachta indica leaf extract gel—a 6-week clinical study. J Ethnop-
+harmacol. 2004;90(1):99–103.
+ 177. Pillai NR, Santhakumari G. Effects of nimbidin on acute and chronic gastro-duodenal ulcer models in experimental animals. Planta Med.
+1984;50(2):143–6.
+ 178. Perveen K. Neem’s promise: the way to a sustainable future and eco-friendly biopesticides. Int J Sci Res Arch. 2024;11(02):1073–82.
+https://​doi.​org/​10.​30574/​ijsra.​2024.​11.2.​0532.
+ 179. https://​www.​garuda.​hu/​en/​Neem-​An-​Everg​reen-​Tree-​With-​Count​less-​Benef​its
+ 180. https://​twn.​my/​title/​pir-​ch.​htm
+ 181. Atawodi SE, Atawodi JC. Azadirachta indica (neem): a plant of multiple biological and pharmacological activities. Phytochem Rev.
+2009;8:601–20. https://​doi.​org/​10.​1007/​s11101-​009-​9144-6.
+ 182. Islas JF, Acosta E, Buentello Z, Delgado-Gallegos JL, Moreno-Treviño MG, Escalante B, Moreno-Cuevas JE. An overview of Neem
+(Azadirachta indica) and its potential impact on health. J Funct Foods. 2020;74: 104171. https://​doi.​org/​10.​1016/j.​jff.​2020.​104171.
+ 183. Sujarwo W, Keim AP, Caneva G, Toniolo C, Nicoletti M. Ethnobotanical uses of neem (Azadirachta indica A. Juss.; Meliaceae) leaves in
+Bali (Indonesia) and the Indian subcontinent in relation with historical background and phytochemical properties. J Ethnopharmacol.
+2016;189:186–93. https://​doi.​org/​10.​1016/j.​jep.​2016.​05.​014.
+Publisher’s Note  Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.

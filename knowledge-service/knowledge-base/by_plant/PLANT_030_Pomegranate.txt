@@ -1,0 +1,484 @@
+PLANT_ID: PLANT_030
+PLANT_IDENTIFIER: Pomegranate
+
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Dadima (Sd.) -----
+14. Dadima (Sd.)
+DËÚIMA (Seed)
+D¡·ima consists of dried seed of Punica granatum Linn. (Fam. Punicaceae); a large
+deciduous shrub or a small tree, found growing wild in the warm valley, outer hills of
+Himalayas between 900- 1800 m and cultivated in many parts of the country.
+SYNONYMS
+Sanskrit
+:
+D¡·im¡cchada, LohitapuÀpa, Dantab¢ja
+Assamese
+:
+Kulekhara
+Bengali
+:
+Ddima
+English
+:
+Pomegranate
+Gujrati
+:
+Dadama
+Hindi
+:
+Anar
+Kannada
+:
+Dalimba
+Kashmiri
+:
+--
+Malayalam
+:
+Matalam
+Marathi
+:
+Dadimba
+Oriya
+:
+--
+Punjabi
+:
+Anar
+Tamil
+:
+Madalai, Maadalai. Madalam
+Telugu
+:
+Danimma
+Urdu
+:
+Anar, Rumman
+DESCRIPTION
+a) MacroscopicSeeds brown, angular, wedge-shaped, 0.5-0.6 cm long, 0.1-0.2 cm wide;
+taste, sweetish-sour.
+
+53
+
+b) Microscopic
+Seed - Shows testa consisting of thin-walled, parenchymatous cells followed by
+stony tegmen consisting of lignified, round, oval, triangular and rectangular, thick-walled
+stone cells having narrow and wide lumen; beneath this, reddish-brown pigmented layer
+present; endosperm absent; cotyledons coiled, consisting of oval to polygonal, thin walled,
+parenchymatous cells, containing a few oil globules; starch grains present in testa, round to
+oval, simple, measuring 3-17 µ in diameter.
+Powder - Reddish-brown; shows stone cells, oil globules, and a few simple round to oval
+starch grains measuring 3-17 µ in diameter.
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 4 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 0.5 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 20 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 35 per cent, Appendix 2.2.7.
+
+T.L.C.
+T.L.C. of alcoholic extract of the drug on Silica gel 'G' plate using
+Chloroform:Ethylacetate : Formic acid (5:4:1) v/v three spots at Rf. 0.62, 0.87 (both grey) and
+0.97 (pink) are seen in visible light. Under U.V. (366 nm) four fluorescent zones are visible at
+Rf. 0.12 (sky blue), 0.45 (sky blue), 0.62 (blue) & 0.87 (blue). On exposure to Iodine vapour
+three spots appear at Rf. 0.62, 0.87 & 0.97 (all yellow). On spraying with 5% Methanolic-
+Sulphuric acid reagent and heating the plate for about ten minutes at 110˚ C three spots appear
+at Rf. 0.62, 0.87 (both violet) & 0.97 (greyish blue).
+
+54
+
+CONSTITUENTS - Sugars, Vitamin C, Sitosterol, Ursolic acid, Protein, Fat and Mineral
+matters, Nicotinic acid, Pectin, Riboflavin, Thiamine, Delphinidin diglycoside, Aspartic, Citric,
+Ellagic, Gallic and Malic acids, Glutamine, Isoquercetin, Estrone and Punicic acid.
+
+PROPERTIES AND ACTION
+Rasa
+:
+Madhura (KaÀ¡y¡nurasa) / for Madhura Amla fruit: Madhura, Amla
+Gu¸a
+:
+Laghu, Snigdha, / for Madhura Amla fruit: Laghu
+V¢rya
+:
+UÀ¸a, / --
+Vip¡ka
+:
+Madhura, / --
+Karma
+:
+V¡tahara, Pittahara, Kaphahara, Tarpa¸a, áukrala, H¤dya, Ka¸¶hya,
+Mukhagandhahara, Gr¡h¢, Medhya, Balya
+IMPORTANT FORMULATIONS - D¡·im¡À¶aka C£r¸a, D¡·ima Gh¤ta, D¡dhika Gh¤ta,
+Bh¡Àkara Lava¸a, áukra M¡t¤ka Va¶¢
+THERAPEUTIC USES - T¤À¸¡, D¡ha, Jvara
+DOSE - 5 to 10 g of the drug in powder form.
+
+55
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Dadima (Fr.Fruit.) -----
+9. Dadima (Fr.Fruit.)
+DËÚIMA (Fresh Fruit)
+D¡·ima consists of fresh fruit of Punica granatum Linn. (Fam. Punicaceae), a large
+deciduous shrub or a small tree; found growing wild in the valley and outer hills of
+Himalayas, between 900 and 1800 m and cultivated in many parts of the country.
+SYNONYMS
+Sanskrit
+:
+Dantab¢ja, L°hitapuÀpa
+Assamese
+:
+Dalim
+Bengali
+:
+Dadima, Dalimgach, Dalim
+English
+:
+Pomenagrate
+Gujrati
+:
+Dadam, Dadam phala
+Hindi
+:
+Anar, Anar-ke-per
+Kannada
+:
+Dalimba, Dalimbe haonu
+Kashmiri
+:
+--
+Malayalam
+:
+Mathalam
+Marathi
+:
+Dalimba
+Oriya
+:
+Dalimba
+Punjabi
+:
+Anar
+Tamil
+:
+Madulam Pazham
+Telugu
+:
+Dadimbakaya, Dadimma
+Urdu
+:
+Anar
+DESCRIPTION
+a) Macroscopic
+Fruit a balausta, globose, 4 to 8 cm diam; depressed, bluntly 5 to 8 angled and tipped
+with persistent calyx alongwith withered stamens; coriaceous, smooth; yellowish brown or
+red; odour, not distinct; carpel four to five, with papery, thin-walled, fused in 2 whorls,
+seeds numerous, compressed with a whitish-pink or bright red, transparent, fleshy testa;
+3
+
+taste, sour to sweet; seed appears hard, angular, white to buff with an astringent taste.
+
+b) Microscopic
+-
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Nil
+
+Total Ash
+Nil
+
+Acid-insoluble ash
+Nil
+
+Alcohol-soluble extractive
+Nil
+
+Water-soluble extractive
+Nil
+
+PROPERTIES AND ACTION
+Rasa
+:
+Amla, Madhura, KaÀ¡ya
+Gu¸a
+:
+Laghu, Snigdha
+V¢rya
+:
+UÀ¸a
+Vip¡ka
+:
+Madhura
+Karma
+:
+V¡tahara, Pittahara, Kaphahara, D¢pana, P¡cana, Rucya, Gr¡h¢,
+Mukhagandhahara, H¤dya, Medhya, áramahara, áukrala, Tarpaka, Varcovibandhan¢ya, Balya,
+Medhya
+IMPORTANT FORMULATIONS - D¡dhika Gh¤ta, D¡·im¡À¶aka C£r¸a, Bh¡skaralava¸a
+C£r¸a, B¤hat Ch¡gal¡dya Gh¤ta
+THERAPEUTIC USES - D¡ha, Jvara, T¤À¸¡, K¡sa, Ëmav¡ta, At¢s¡ra, Raktapitta, Arocaka
+DOSE - 15-30 ml
+
+3
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Dadima (Ft. Rind.) -----
+10. Dadima (Ft. Rind.)
+DËÚIMA (Fruit Rind)
+D¡·ima consists of dried fruit rind (pericarp) of Punica granatum Linn. (Fam.
+Punicaceae), a large deciduous shrub or a small tree, found wild in the warm valleys of the
+outer hills of Himalayas between 900 to 1800 m and also cultivated in many parts of the
+country.
+SYNONYMS
+Sanskrit
+:
+L°hi¶apuÀpa, Dan¶ab¢ja
+Assamese
+:
+Dalim
+Bengali
+:
+Dadima, Dalim, Dalimgach
+English
+:
+Pomenagrate
+Gujrati
+:
+Dadam, Dadam phala
+Hindi
+:
+Anar, Anar-ke-per
+Kannada
+:
+Dalimba, Dalimbe haonu
+Kashmiri
+:
+--
+Malayalam
+:
+Mathalam
+Marathi
+:
+Dalimba
+Oriya
+:
+Dalimba
+Punjabi
+:
+Anar
+Tamil
+:
+Madulam Pazham
+Telugu
+:
+Dadimbakaya, Dadimma
+Urdu
+:
+Anar
+DESCRIPTION
+a) Macroscopic
+Drug occurs in 0.1 to 0.5 cm thick, more or less concave, salver- shaped pieces,
+some pieces showing residual carpel walls and some having persistent toothed calyx tube
+alongwith withered stamens, styles and a few seeds; coriaceous, tough and nearly smooth;
+brown to reddish-brown externally and brownish-yellow internally; bearing impressions left
+3
+
+by seeds; fracture, short; odour not distinct; taste, astringent.
+
+b) Microscopic
+Epicarp single layered covered with thick cuticle; mesocarp consists of a wide zone
+of oval to polygonal thin walled parenchymatous cells; a few fibro-vascular bundles,
+tanniniferous vessels, secretory canals, oil globules, single and a number of groups of round
+or oval to elongated stone cells, simple and compound starch grains having 2 or 3
+components with concentric striations and central hilum, and rosette crystals of calcium
+oxalate present in mesocarp.
+Powder - Yellowish-brown; shows single or groups of stone cells; oval to polygonal,
+parenchymatous cells in surface view; vessels with scalariform thickening, tanniniferous
+vessels and a few rosette crystals of calcium oxalate and rounded to oval starch grains,
+measuring 3 to 5 µ in dia.
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 4 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 0.4 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 9 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 20 per cent, Appendix 2.2.7.
+
+T.L.C.
+T.L.C of alcoholic extract on Silica gel 'G' plate using Chloroform: Ethylacetate :
+Formic acid (5:4:1) shows in visible light one spot at Rf. 0.74 (bluish grey). Under U.V.
+(366 nm) one fluorescent zone is visible at Rf. 0.74 (dark blue). On exposure to Iodine
+vapour two spots appear at 0.74 (dirty yellow) and 0.95 (yellow). On spraying with 10%
+aqueous Ferric chloride reagent one spot appears at Rf. 0.74.(blue). On spraying with 5%
+3
+
+Mathanolic-Sulphuric Acid and heating the plate for ten minutes at 110°C two spots appear
+at Rf. 0.74 (brownish grey) and 0.95 (violet)
+
+CONSTITUENTS - Tannic acid, Sugar and Gum
+
+PROPERTIES AND ACTION
+Rasa
+:
+KaÀ¡ya, Amla
+Gu¸a
+:
+Laghu, Snigdha
+V¢rya
+:
+AnuÀ¸a
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+V¡ta Kaphahara, Vra¸aropaka, Gr¡h¢
+IMPORTANT FORMULATIONS - Khadir¡di Gu¶ik¡, M¤tasaµj¢van¢ Sur¡, Kaly¡¸aka Gh¤ta,
+Maric¡di Gu¶ik¡, N¢lik¡dya Taila
+THERAPEUTIC USES - D¡ha, Jvara, Ka¸¶ha Roga, Mukha daurgandhya, Aruci, Amlapitta, At
+¢s¡ra, Prav¡hik¡, Raktapitta, Raktavik¡ra, K¡sa
+DOSE - Powder 3-6 g
+
+3
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Dadima (Lf.) -----
+11. Dadima (Lf.)
+DËÚIMA (Leaf)
+D¡·ima Dadima consists of dried leaf of Punica granatum Linn. (Fam. Punicaceae), a
+small deciduous shrub or small tree, found wild in the warm valleys of the outer hills of
+Himalayas between 900 to 1800 m and also cultivated in many parts of the country.
+SYNONYMS
+Sanskrit
+:
+L°hitapuÀpa, Dan¶ab¢ja
+Assamese
+:
+Dalim
+Bengali
+:
+Dadima, Dalim, Dalimgach
+English
+:
+Pomenagrate
+Gujrati
+:
+Dadam, Dadam phala
+Hindi
+:
+Anar, Anar-ke-per
+Kannada
+:
+Dalimba, Dalimbe haonu
+Kashmiri
+:
+--
+Malayalam
+:
+Mathalam
+Marathi
+:
+Dalimba
+Oriya
+:
+Dalimba
+Punjabi
+:
+Anar
+Tamil
+:
+Madulam Pazham
+Telugu
+:
+Dadimbakaya, Dadimma
+Urdu
+:
+Anar
+DESCRIPTION
+a) Macroscopic
+Leaves 2 to 8 cm long, 0.7 to 2.0 cm broad, oblong, lanceolate, acute, entire,
+glabrous, greyish-green to yellowish-green.
+
+4
+
+b) Microscopic
+Leaf-
+Petiole - shows single layered epidermis covered by thin cuticle, epidermis followed by 2 or
+3 layered collenchymatous hyodermis; single, bicollateral, crescent-shaped, vascular bundle
+situated in centre; rest of the tissues between vascular bundle and hypodermis consists of 3
+layers or more, oval to polygonal, thin-walled, parenchymatous cells, some having rosette
+and a few prismatic crystals of calcium oxalate.
+Midrib -shows single layered epidermis covered by a thin cuticle, epidermis followed by 2
+or 3 layers of round to angular collenchymatous cells; beneath collenchyma 3 or 4 layers of
+parenchyma present, some containing a few rosette and prismatic crystals of calcium
+oxalate, simple and compound starch grains, consisting of 2 or 3 components, round to oval
+shaped, measuring 5.5 to 8.5 µ in dia.; vascular bundle situated centrally, similar to that of
+petiole.
+Lamina -shows epidermis on both surfaces, single layered; palisade single layered; spongy
+parenchyma 3 or 4 layered; idioblast containing very large solitary crystal of calcium
+oxalate; a few small solitary calcium oxalate crystals also present in spongy parenchyma;
+palisade ratio 4 to 6; stomatal index 12 to 25; anomocytic stomata, present only on lower
+surface.
+Powder - Greyish-green; shows spiral vessels, palisade and spongy parenchyma cells,
+rosette and prismatic crystals of calcium oxalate; fragments of upper and lower epidermis
+with beaded straight walled and sinuous walled respectively in surface view, simple, round
+to oval, starch grain measuring 5.5 to 8.5 µ in dia., and co5mpound starch grains having 2
+or 3 components.
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 10.5 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 2 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 12 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 25 per cent, Appendix 2.2.7.
+
+T.L.C.
+T.L.C. of alcoholic extract of the drug on Silica gel 'G' plate using Benzene:
+Ethylacetate (9: 1) v/v shows in visible light four spots at Rf. 0.06 (light green), 0.48 (light
+4
+
+green), 0.68 (light green) and 0.79 (green). Under U.V. (366 nm) four fluorescent zones
+visible at Rf. 0.06, 0.14, 0.54 and 0.94 (all blue). On exposure to Iodine vapour nine spots
+appear at Rf. 0.02, 0.09, 0.38, 0.62, 0.66, 0.76, 0.87, 0.91 and 0.97 (all yellow). On spraying
+with 5% Methanolic-Phosphomolybdic acid reagent and heating the plate at 105°C for ten
+minutes nine spots appear at Rf. 0.06, 0.10, 0.33, 0.41, 0.54, 0.62, 0.79, 0.89 and 0.97 (all
+grey).
+
+ CONSTITUENTS - Tannins and β-Sitosterol
+
+PROPERTIES AND ACTION
+Rasa
+:
+KaÀ¡ya, Tikta
+Gu¸a
+:
+Laghu
+V¢rya
+:
+á¢ta
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+Kaphahara, D¢pana, Rucya
+IMPORTANT FORMULATIONS - -
+THERAPEUTIC USES - Aruci, Agnim¡ndya, At¢s¡ra, Prav¡hik¡, K¤mi, Raktapitta, K¡sa,
+Jvara, Mukhap¡ka
+DOSE - Patra Svarasa : 5-10 mlPatra Kalka : 5-10 g
+
+4

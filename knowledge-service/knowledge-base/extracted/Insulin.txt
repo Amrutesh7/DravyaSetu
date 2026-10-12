@@ -1,0 +1,876 @@
+
+
+===== PAGE 1 =====
+
+ cognizancejournal.com 
+Marie Sofia A. Gotinga et al, Cognizance Journal of Multidisciplinary Studies, Vol.5, Issue.5, May 2025, pg. 598-606 
+(An Open Accessible, Multidisciplinary, Fully Refereed and Peer Reviewed Journal) 
+ISSN: 0976-7797 
+Impact Factor: 5.183 
+Index Copernicus Value (ICV) = 77.57 
+ 
+©2025, Cognizance Journal, ZAIN Publications, Fridhemsgatan 62, 112 46, Stockholm, Sweden, All Rights Reserved                         598 
+Insulin Plant (Costus igneus) Tea as an 
+Alternative Hypoglycemic Medication 
+ 
+ 
+ 
+Marie Sofia A. Gotinga1; Khinzly Harry M. Mascardo2; Lyuris Rosal E. Malaza3; 
+Rica Eve Y. Tamara4; Herlaw G. Lito5; Kent Lloyd M. Destajo6 
+ 
+123456Basic Education Department, St. Paul University Surigao, Philippines 
+1 mariesofia.gotinga@spus.edu.ph; 2 khinzlymascardo9@gmail.com; 3 lyurisrosalmalaza@gmail.com; 
+4 rrcaeytmraa@gmail.com; 5 herlawlito1@gmail.com; 6 kentlloyd.destajo@spus.edu.ph 
+ 
+1ORCID: 0009-0006-5780-4431 
+2ORCID: 0009-0007-4606-0251 
+3ORCID: 0009-0009-7780-7447 
+4ORCID: 0009-0003-7931-1740 
+5ORCID: 0009-0004-6926-5944 
+6ORCID: 0009-0009-7616-6203 
+ 
+DOI: 10.47760/cognizance.2025.v05i05.038 
+ 
+ 
+Abstract: The research investigates the potential of Costus igneus, commonly known as the insulin plant, 
+as an alternative hypoglycemic medication. The study employs a developmental research design to 
+evaluate the acceptability and effectiveness of Costus igneus tea in managing hyperglycemia. The 
+methodology includes five phases: gathering of Costus igneus leaves, preparation of Costus igneus leaves, 
+packaging of dried Costus igneus leaves, production of Costus igneus tea, and sensory evaluation. To 
+assess the acceptability of Costus igneus tea as a convenient alternative for commercial hypoglycemic 
+medication, the researchers specifically conducted a 9-point Hedonic Rating Scale and Descriptive Rating 
+Test with fifteen (15) evaluators consisting of TLE teachers, science teachers, and parents. The findings 
+indicate that the visual presentation and sensory attributes of the tea significantly influence consumer 
+acceptability, suggesting that the appearance of the product plays a crucial role in its marketability. The 
+results demonstrate that Costus igneus tea is not only a viable alternative for individuals with 
+hyperglycemia but also possesses favorable sensory qualities that enhance its appeal. The study highlights 
+the importance of traditional herbal remedies in contemporary health practices and encourages further 
+exploration of Costus igneus as a natural hypoglycemic agent. Overall, this research contributes to the 
+growing body of evidence supporting the use of herbal teas in diabetes management, emphasizing the 
+need for more accessible and natural treatment options. 
+ 
+Keywords: Alternative medicine, Costus igneus, herbal tea, hypoglycemic medication, sensory evaluation 
+ 
+I. INTRODUCTION 
+Diabetes has continuously increased over time and has affected many people across the world. According to 
+the IDF Diabetes Atlas (2021), among adults aged 20 to 79 years of age, 10.5% have diabetes. Between the 
+years 2000 and 2019, there has been a 3% increase in age-specific diabetic-related deaths (World Health 
+Organization: Diabetes, 2023). Due to the cost of treatment, people end up not receiving the proper treatment for 
+their condition (Jimeno et al., 2021). Therefore, it is essential to determine a safe, efficient, and cost-effective 
+alternative to conventional medication. 
+
+
+===== PAGE 2 =====
+
+ cognizancejournal.com 
+Marie Sofia A. Gotinga et al, Cognizance Journal of Multidisciplinary Studies, Vol.5, Issue.5, May 2025, pg. 598-606 
+(An Open Accessible, Multidisciplinary, Fully Refereed and Peer Reviewed Journal) 
+ISSN: 0976-7797 
+Impact Factor: 5.183 
+Index Copernicus Value (ICV) = 77.57 
+ 
+©2025, Cognizance Journal, ZAIN Publications, Fridhemsgatan 62, 112 46, Stockholm, Sweden, All Rights Reserved                         599 
+In this context, Rahman et al. (2022) stated that plant-based medications are believed to be at the top of the 
+list as a preventive measure for diseases and their related complications. Plant-based medication, also known as 
+herbal medicine, is not a new treatment since, from generation to generation, the knowledge about herbal 
+medicine has been practiced worldwide. Over time, various herbal medicines have been used, developed, and 
+discovered despite their risks (Tolentino et al., 2019). As stated by Pang et al. (2019), herbal medicine is a good 
+complementary and alternative treatment for type 2 diabetes mellitus (T2DM) because of its holistic quality that 
+is capable of treating T2DM in various ways such as through anti-inflammatory, anti-oxidation, blood lipid 
+regulation, and anti-glucose properties. Additionally, tea contains bioactive properties such as flavonoids and 
+alkaloids, which have effects that lower blood glucose levels.   
+According to Zhang et al. (2022), multiple studies have shown that herbal tea has effectively improved 
+glucose metabolism disorders in individuals with type 2 diabetes mellitus (T2 DM). One traditional plant that 
+has recently garnered global acceptance is the insulin plant. The herbaceous plant named Costus igneus (insulin 
+plant), belonging to the family Costaceae and native to Central and South America, is commonly referred to as 
+the "insulin plant" because of its properties that aid in building up the insulin in the human body by 
+strengthening β-cells of the pancreas in the body (Godi, 2019 and Vijay et al., 2023). Diabetic people have 
+consumed the leaves of this plant because it is believed to lower blood glucose levels, which has been confirmed 
+by diabetic people in the past to truly decrease an individual's blood glucose levels (Vijay et al., 2023). 
+Thus, in this study, the researchers will create a Costus igneus tea and test its overall characteristics: 
+appearance, aroma, taste, and texture, if they are recommendable as a convenient way of consumption. 
+Moreover, it is recommended as an alternative hypoglycemic medication. However, it is merely intended to be 
+an alternative form of ready-made hypoglycemic medication and not a replacement for it. The results of this 
+study not only focus on those individuals who suffer from hyperglycemia but also on everyone, especially those 
+who wish to avoid this condition or any other complications caused by hyperglycemia. 
+ 
+II. METHODOLOGY 
+The study used a development research design through a quantitative approach. The developmental research 
+design facilitated the systematic creation and refinement of the herbal tea. The quantitative research allowed for 
+the objective measurement and statistical analysis of the tea’s characteristics using numerical data. The study 
+was conducted in four (4) phases: (1) Preparation of Costus igneus (insulin plant) leaves, (2) Costus igneus tea 
+production, (3) Basic Nutritional Facts Analysis, and (4) Sensory evaluation. The study aimed to provide the 
+characteristics of the resulting product in terms of appearance, aroma, taste, and texture of Costus igneus tea as 
+an alternative hypoglycemic medication. 
+In this study, the researchers used an adapted questionnaire from Romano et al. (2024) divided into two (2) 
+parts. Part I was the Hedonic Rating Scale, in which a numerical rating from 1 to 9 will determine the rate of 
+acceptability of the product, in which 1 indicates “Dislike Extremely” and 9 indicates “Like Extremely”. 
+Additionally, the researchers also used the Descriptive Rating Test (Part II) with a 4-point scale with 1 
+indicating “Highly Not Recommendable” and 4 as “Highly Recommendable”; this was used to provide a detailed 
+description of the product’s sensory evaluation. 
+This study used quota and purposive sampling to select evaluators, including food experts, TLE teachers, and 
+science teachers of St. Paul University Surigao. This sampling method ensured an accurate group of evaluators 
+was selected to participate in this study in order to gather relevant responses about the product. Before 
+participating, they were provided with relevant information about the evaluation process and gave their consent 
+to assess the product.  
+ 
+III. RESULTS AND DISCUSSION 
+This chapter presents the results and discusses the data obtained from the responses of fifteen (15) 
+respondents. The data were carefully analyzed, presented, discussed, and interpreted according to the perimeter 
+of this research to answer the problem sought for this study. 
+Parameters 
+Units 
+Value 
+Methods 
+Moisture 
+% 
+4.70 
+Vacuum Oven Drying 
+Protein 
+% 
+12.0 
+Kjeldahl 
+
+
+===== PAGE 3 =====
+
+ cognizancejournal.com 
+Marie Sofia A. Gotinga et al, Cognizance Journal of Multidisciplinary Studies, Vol.5, Issue.5, May 2025, pg. 598-606 
+(An Open Accessible, Multidisciplinary, Fully Refereed and Peer Reviewed Journal) 
+ISSN: 0976-7797 
+Impact Factor: 5.183 
+Index Copernicus Value (ICV) = 77.57 
+ 
+©2025, Cognizance Journal, ZAIN Publications, Fridhemsgatan 62, 112 46, Stockholm, Sweden, All Rights Reserved                         600 
+ 
+Table 1. Basic Nutritional Facts Analysis 
+The nutritional facts analysis of Costus igneus (insulin plant) tea are listed in Table 1. The parameters are 
+described from largest to smallest, along with certain essential information about the product's nutritional value 
+and how it will affect the health of the consumer and market demands. Based on the results, it can be observed 
+that Costus igneus tea has a high carbohydrate content of 70.4%, making it a potential energy source for those 
+relying on carbohydrates for daily fuel. Despite this, it contains bioactive compounds like corosolic acid and 
+flavonoids that enhance insulin sensitivity, implying hypoglycemic benefits. This suggests that the tea could 
+support energy needs while aiding in blood sugar regulation, which is particularly relevant in the Philippines, 
+where carbohydrate-rich diets are standard. Clemente-Suárez et al. (2022) state that foods high in carbohydrates 
+are an important part of a healthy diet since they provide the body with glucose to support bodily functions and 
+physical activity. This finding was also supported by Mohanta et al. (2022), who stated that herbal materials 
+offer a rich source of structurally diverse and bioactive polysaccharides. 
+The protein content of Costus igneus (insulin plant) tea is considerably high at 12.0%, determined using the 
+Kjeldahl method. This suggests that the tea is a good plant-based protein source, supporting muscle maintenance 
+and overall health. Its high protein value implies potential benefits for individuals shifting to a plant-based diet, 
+offering an alternative to animal protein sources. In their article, Ma et al. (2022) stated that consumers are 
+moving towards a more plant-based diet. However, some consumers avoid common plant proteins such as soy 
+and gluten due to their potential allergenicity. Therefore, alternative protein sources are being explored as 
+functional ingredients in foods. This implies that this product could be a novel potential source of protein. The 
+fiber content with a value of 24.5% was determined by an Ankom method. This presents the dietary benefits 
+accruable to the formulation. As fiber is essential in the human gut, this product impacts the body's glucose level, 
+improves gut health, and prevents chronic disease. In line with these findings, Xiet et al. (2020) explained that 
+soluble dietary fiber is prompted as an important part of reducing blood glucose, ameliorating insulin resistance 
+and controlling body weight. 
+Additionally, the ash content of Costus igneus (insulin plant) tea is 10.2%, indicating a rich mineral profile. 
+This reflects the presence of essential minerals that contribute to overall health and well-being. Its high mineral 
+content implies potential benefits for maintaining electrolyte balance and supporting various bodily functions. 
+As noted in the findings of Mayer et al. (202), micronutrient malnutrition is widespread and is linked with diets 
+low in fruit and vegetables. This signifies that a need for a convenient and healthy drinkable product that can be 
+available everywhere may aid this common problem. In this context, Ceccanti et al. (2021) added that minerals 
+in the human diet are essential for metabolism and human health. 
+The moisture content of Costus igneus tea is 4.70%, determined using the vacuum oven method. This method 
+involves applying high temperatures under reduced pressure to remove moisture effectively. The low moisture 
+content implies better shelf stability and reduced risk of microbial growth, enhancing the product's storage life. 
+Considering this, Zhang et al. (2022) justified that heat treatment is one of the most important methods to 
+improve foodstuffs' physicochemical properties and nutritional profile, resulting from changes in protein 
+structure and protein denaturation. Furthermore, the total sugar content of Costus igneus (insulin plant) tea is the 
+lowest among its components at 0.0848%, measured using the Munson-Walker Method. This low sugar level 
+suggests that the tea is suitable for individuals monitoring their sugar intake, such as those with diabetes. It also 
+implies that the tea can provide energy without significantly impacting blood glucose levels. 
+Low sugar is desirable because a high intake of sugars is associated with numerous diseases (WHO, 2022); 
+the organization also reported that excessive sugar intake, particularly in the form of sugar-sweetened beverages 
+(SSBs), contributes to various health risks, including obesity, dental caries, and chronic diseases. This result 
+makes the product appealing to diabetic and calorie-conscious individuals pursuing low-sugar snacks. 
+ 
+ 
+Fiber 
+% 
+24.5 
+Ankom 
+Fat 
+% 
+2.78 
+Mojonnier Extraction 
+Ash 
+% 
+10.2 
+Ignition – Gravimetric 
+Carbohydrates 
+% 
+70.4 
+By Computation 
+Total Sugar 
+% 
+.0848 
+Munson-Walker Method 
+
+
+===== PAGE 4 =====
+
+ cognizancejournal.com 
+Marie Sofia A. Gotinga et al, Cognizance Journal of Multidisciplinary Studies, Vol.5, Issue.5, May 2025, pg. 598-606 
+(An Open Accessible, Multidisciplinary, Fully Refereed and Peer Reviewed Journal) 
+ISSN: 0976-7797 
+Impact Factor: 5.183 
+Index Copernicus Value (ICV) = 77.57 
+ 
+©2025, Cognizance Journal, ZAIN Publications, Fridhemsgatan 62, 112 46, Stockholm, Sweden, All Rights Reserved                         601 
+ 
+Variable 
+M 
+SD 
+I 
+Appearance 
+8.13 
+0.83 
+LE 
+Aroma 
+7.67 
+0.90 
+LVM 
+Taste  
+7.47 
+0.83 
+LVM 
+Texture 
+7.60 
+1.35 
+LVM 
+Average 
+7.72 
+0.79 
+LVM 
+Table 2. General Acceptability of Costus igneus Tea through Hedonic Rating Scale 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 2 presents the general acceptability of Costus igneus (insulin plant) tea through a hedonic rating scale. 
+Based on the findings, Appearance got the highest score with a mean of 8.13 and a standard deviation of 0.83, 
+which can be interpreted as “Like Table 2 presents the general acceptability of Costus igneus (insulin plant) tea 
+through a hedonic rating scale. Based on the findings, Appearance got the highest score with a mean of 8.13 and 
+a standard deviation of 0.83, which can be interpreted as “Like Extremely” (LE). This means that since the visual 
+presentation of the tea was highly preferred by consumers, it indicated that the product's appearance contributed 
+greatly to its acceptability. These findings support the results of Wang et al. (2024) that the findings established 
+a quantitative evaluation model for the appearance of needle-shaped green teas based on image features. In 
+addition, Song et al. (2021) further stated that fixing is the first and key step for forming green tea's specific 
+appearance and fragrance. With traditional methods, only trained experts with years of experience can produce 
+good green tea products, which is backward in the industrial age 
+Aroma's average score was 7.67 (SD = 0.90), which corresponds to "Like Very Much" (LVM). This suggests 
+that while the aroma was generally well-received, the pemphis scent may have affected its acceptance compared 
+to other sensory attributes, as emphasized by the evaluators. Given its unique aroma and refreshing taste, green 
+tea is keenly appreciated by consumers (Xie et al., 2023). The researchers also noted that aroma is important in 
+evaluating tea quality. It has a vital influence on consumers' choices. 
+Taste received a mean score of 7.47 and a standard deviation of 0.83, interpreted as "Like Very Much" (LVM), 
+indicating a positive flavor acceptance. The standard deviation of 0.83 suggests moderate variability in 
+respondents' ratings, meaning that while most consumers liked the taste, there were differences in individual 
+preferences. This indicates potential for improvement to achieve a more consistent and higher level of 
+acceptability. 
+Evaluators also highlighted that there is a slight bitterness in the tea. This finding is supported by Ye et al. 
+(2022) that bitterness and astringency of tea are evoked by secondary metabolites present in tea leaves. The buds 
+and tender leaves of tea plants are superior raw materials for producing beverages with unique flavors and health 
+benefits. Feng et al. (2024) further explained that tea's popularity and flavor are influenced by factors like 
+cultivation, processing methods, and shaping techniques, which also impact tea flavor. 
+Furthermore, texture was rated a mean of 7.60 (SD = 1.35), interpreted as "Like Very Much" (LVM), which 
+demonstrated that the mouthfeel was pleasant, but refinement was needed that could be improved. As per the 
+evaluator, the tea product is dry, showing processed dry powder. However, drying is part of the process. This 
+was also highlighted by Sheng et al. (2023), who stated that drying is an important process in black tea 
+processing; meanwhile, the moisture content is an important factor in determining the drying quality. However, 
+there is a lack of effective real-time detection methods for the moisture content of black tea during drying. 
+ 
+ 
+Scale 
+Interval 
+Interpretation 
+9 
+8.12 - 9.00  
+Like Extremely (LE) 
+8 
+7.23 - 8.11 
+Like Very Much (LVM) 
+7 
+6.34 - 7.22 
+Like Moderately (LM) 
+6 
+5.45 - 6.33 
+Like Slightly (LS) 
+5 
+4.56 - 5.44 
+Neither Like nor Dislike (NLD) 
+4 
+3.67 - 4.55 
+Dislike Slightly (DS) 
+3 
+2.78 - 3.66 
+Dislike Moderately (DM) 
+2 
+1.89 - 2.77 
+Dislike Very Much (DVM) 
+1 
+1.00 - 1.88 
+Dislike Extremely (DE) 
+
+
+===== PAGE 5 =====
+
+ cognizancejournal.com 
+Marie Sofia A. Gotinga et al, Cognizance Journal of Multidisciplinary Studies, Vol.5, Issue.5, May 2025, pg. 598-606 
+(An Open Accessible, Multidisciplinary, Fully Refereed and Peer Reviewed Journal) 
+ISSN: 0976-7797 
+Impact Factor: 5.183 
+Index Copernicus Value (ICV) = 77.57 
+ 
+©2025, Cognizance Journal, ZAIN Publications, Fridhemsgatan 62, 112 46, Stockholm, Sweden, All Rights Reserved                         602 
+ 
+Variable 
+M 
+SD 
+I 
+Appearance 
+3.73 
+0.46 
+SA 
+Aroma 
+3.53 
+0.52 
+SA 
+Taste  
+3.20 
+0.68 
+A 
+Texture 
+3.27 
+0.80 
+SA 
+Average 
+3.43 
+0.47 
+SA 
+Table 3. General Acceptability of Costus igneus Tea through Hedonic Rating Scale 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 3 shows the general acceptability of insulin plant tea using a descriptive rating test. Appearance 
+received the highest rating with a mean score of 3.73 and a standard deviation of 0.46, classified as "Strongly 
+Acceptable" (SA). This suggests that the tea's visual appeal significantly contributed to its positive perception, 
+indicating that the product is visually well-received and likely recommendable based on appearance alone. Song 
+et al. (2021) noted that appearance and flavor are crucial indicators of the tea's quality. Hence, having an 
+appearance as the most favored among all variables indicates that the product has a good advantage if pursued to 
+be sold in the market. However, Li et al. (2022) suggested that the dark color of some green teas can be 
+improved through technological experiments in the future. 
+The next highest mean score was for aroma (3.53, SD = 0.52), also considered "Strongly Acceptable," 
+indicating that the tea was favorably received in terms of odor, albeit with less visual impact than previous 
+results. Given the positive reception of its aroma, the product is recommended as it appeals to consumers' 
+sensory preferences. The findings are consistent with Romano et al. (2024) that aroma, scoring 3.50, is 
+designated as Highly Recommended (HR) and contributes a mild yet pleasant scent, aligning with the subtle 
+nature of herbs. As Song et al. (2024) conducted, different scented teas provide various choices for consumers in 
+appearance, aroma, flavor, and others.  
+The mean for taste was 3.20 with a standard deviation of 0.68, rated as "Acceptable" (A), indicating that the 
+flavor of the tea met basic expectations but could be improved to enhance its appeal. Although there is room for 
+enhancement, the product is still recommendable based on its overall acceptability. Based on the study 
+conducted by Wang, Yue, & Tong (2021) showed that 22 chemical components had an important contribution 
+to the taste characteristics of yellow tea, and the chemical components that had an important influence on each 
+taste component were obtained.  
+Texture received a mean score of 3.27 with a standard deviation of 0.80, indicating that the tea's mouthfeel 
+was generally well-received and classified as "Strongly Acceptable." The relatively high acceptance suggests 
+that the texture contributed positively to the overall sensory experience. Based on this result, the product is 
+recommendable in terms of texture. The findings agree with that of Ambid et al. (2024) that texture is the least 
+favored characteristic of the developed product. However, it still falls within the recommended category. The 
+global average acceptability was 3.43 (SD = 0.47), classifying the tea as "Strongly Acceptable," revealing the 
+characteristics of tea in terms of smell and taste consumed, but with room for improvement of the sensory 
+profile of the product in order to enhance consumer acceptance. 
+ 
+IV. CONCLUSIONS 
+In conclusion, Costus igneus (insulin plant) is accepted and recommended as an alternative tea for 
+hypoglycaemic medication. Among all attributes, appearance was the most accepted and recommended, texture 
+was the least accepted, and taste was the least recommended. 
+ 
+ 
+Scale 
+Parameters 
+Verbal Interpretation 
+4 
+3.25-4.00 
+Strongly Agree (SA) 
+3 
+2.50-3.24 
+Agree (A) 
+2 
+1.75-2.49 
+Disagree (D) 
+1 
+1.00-1.74 
+Strongly Disagree (SD) 
+
+
+===== PAGE 6 =====
+
+ cognizancejournal.com 
+Marie Sofia A. Gotinga et al, Cognizance Journal of Multidisciplinary Studies, Vol.5, Issue.5, May 2025, pg. 598-606 
+(An Open Accessible, Multidisciplinary, Fully Refereed and Peer Reviewed Journal) 
+ISSN: 0976-7797 
+Impact Factor: 5.183 
+Index Copernicus Value (ICV) = 77.57 
+ 
+©2025, Cognizance Journal, ZAIN Publications, Fridhemsgatan 62, 112 46, Stockholm, Sweden, All Rights Reserved                         603 
+ACKNOWLEDGEMENT 
+The researchers are profoundly thankful to their parents for their unwavering love, endless support, and 
+constant encouragement. The belief their parents have shown in them has served as a guiding light, helping them 
+find strength through every challenge and joy in every success. The researchers acknowledge that they are who 
+they are today because of the love and sacrifices of their parents.  
+ 
+REFERENCES 
+1. 
+Adebayo, P. O., Omobuwa, B. K., & Adebayo, H. A. (2021). Hypoglycemic and antioxidant activities of costus 
+speciosus leaf extract in alloxan-induced diabetic rats. Journal of Ethnopharmacology, 263, 113222. 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3931203/ 
+2. 
+Alqathama, A., Alluhiabi, G., Baghdadi, H., Aljahani, L., Khan, O., Jabal, S., Makkawi, S., & Alhomoud, F. (2020). 
+Herbal medicine from the perspective of type II diabetic patients and physicians: What is the relationship? BMC 
+Complementary Medicine and Therapies, 20(1). https://doi.org/10.1186/s12906-020-2854-4 
+3. 
+The Old Farmers Almanac. (n.d.). Drying your own herbs for tea. Retrieved December 3, 2024, from 
+https://www.almanac.com/drying-your-own-herbs-tea 
+4. 
+Ambid, C. J. P., Ocampo, J. L. A., Requillo, D. B., Butao, K. J. D., Destajo, K. L. M., & Dumadag, E. J. D. L. (2024). 
+Portunus pelagicus (blue manna crab) shells as polvoron. Cognizance Journal of Multidisciplinary Studies, 4(5), 134–
+141. https://doi.org/10.47760/cognizance.2024.v04i05.012 
+5. 
+American 
+Diabetes 
+Association. 
+(2022, 
+January 
+15). 
+Hypoglycemia 
+(low 
+blood 
+sugar). 
+https://www.diabetes.org/diabetes/medication-management/blood-glucose-testing-and-control/hypoglycemia 
+6. 
+Arivu, I., Muthulingam, M., & Selvakumar, G. (2023). Detailed study on Costus igneus plant for its medicinal 
+importance 
+- 
+A 
+review. 
+International 
+Journal 
+of 
+Zoology and Applied 
+Biosciences, 
+8(1), 
+34–39. 
+https://doi.org/10.55126/ijzab.2023.v08.i01.005 
+7. 
+Athilli, L., Siddiqui, A. F., Hussain, F., & Parvez, E. A. H. (2021). Pharmacognostic study and pharmacological 
+potentials of costus igneus plant–review. International Journal of Pharmacognaosy, 8(12), 476-486. 
+https://doi.org/10.13040/ijpsr.0975-8232.ijp.8(12).476-86 
+8. 
+Brimson, J. M., Prasanth, M. I., Malar, D. S., Sharika, R., Sivamaruthi, B. S., Kesika, P., Chaiyasut, C., Tencomnao, T., 
+& Prasansuklab, A. (2021). Role of herbal teas in regulating cellular homeostasis and autophagy and their implications 
+in regulating overall health. Nutrients, 13(7), 2162. https://doi.org/10.3390/nu13072162 
+9. 
+Brutsaert, 
+E. 
+F. 
+(2024, 
+March 
+18). 
+Diabetes 
+mellitus 
+(DM). 
+MSD 
+Manual 
+Consumer 
+Version. 
+https://www.msdmanuals.com/home/hormonal-and-metabolic-disorders/diabetes-mellitus-dm-and-disorders-of-blood-
+sugar-metabolism/diabetes-mellitus-dm 
+10. 
+Chandrasekara, A., Herath, A., Abeynayake, R., De Camargo, A. C., & Shahidi, F. (2021). Synergies of herbal teas on 
+improved plasma antioxidant capacity and postprandial hypoglycemic response in healthy adults. Journal of Food 
+Bioactives, 13. https://doi.org/10.31665/jfb.2020.13262 
+11. 
+Capillas, R. C. & Herrero, A. N. (2021 March 3) Sensory analysis and consumer research in new product development. 
+Foods, 10 (3), 582. https://doi.org/10.3390/foods10030582. 
+12. 
+Chen, H., & Lu, Y. (2021). An overview of hypoglycemic modern drugs. In Chen, H., & Zhang, M. (Eds.), Structure 
+and Health Effects of Natural Products on Diabetes Mellitus. (pp. 17-32). Springer https://doi.org/10.1007/978-981-
+15-8791-7_2 
+13. 
+Ceccanti, C., Brizzi, A., Landi, M., Incrocci, L., Pardossi, A., & Guidi, L. (2020). Evaluation of major minerals and 
+trace elements in wild and domesticated edible herbs traditionally used in the Mediterranean area. Biological Trace 
+Element Research. https://doi.org/10.1007/s12011-020-02467-3 
+14. 
+Clemente-Suárez, V. J., Mielgo-Ayuso, J., Martín-Rodríguez, A., Ramos-Campo, D. J., Redondo-Flórez, L., & 
+Tornero-Aguilera, J. F. (2022). The burden of carbohydrates in health and disease. Nutrients, 14(18), 3809. 
+https://doi.org/10.3390/nu14183809 
+15. 
+Davis, H. A., Spanakis, E. K., Cryer, P. E., & Davis, S. N. (2021, June 29). Hypoglycemia during therapy of diabetes. 
+Endotext. https://www.ncbi.nlm.nih.gov/books/NBK279100/ 
+16. 
+Ekanem, I., Antia, B., Essien, E., & Thomas, P. (2023). In vitro antioxidant activity and hypoglycemic efficacy of the 
+leaf, stem, and rhizome extracts of costus igneus nak (Costaceae) in alloxan induced diabetic rats. World Journal of 
+Applied Science & Technology, 15(1), 98–103. https://doi.org/10.4314/wojast.v15i1.98 
+17. 
+Feng, J., Tian, W., Wang, J., Ye, S., Pan, G., Yu, B., & Hao, Z. (2024). The shaping of milk-flavored white tea: more 
+than 
+a 
+change 
+in 
+appearance. 
+Journal 
+of 
+Integrative 
+Agriculture, 
+23(11), 
+3912-3922. 
+https://doi.org/10.1016/j.jia.2024.09.010 
+18. 
+Harler, & Ronald, C. (2025, March 13). Tea plant. Encyclopedia Britannica. https://www.britannica.com/plant/tea-
+plant 
+
+
+===== PAGE 7 =====
+
+ cognizancejournal.com 
+Marie Sofia A. Gotinga et al, Cognizance Journal of Multidisciplinary Studies, Vol.5, Issue.5, May 2025, pg. 598-606 
+(An Open Accessible, Multidisciplinary, Fully Refereed and Peer Reviewed Journal) 
+ISSN: 0976-7797 
+Impact Factor: 5.183 
+Index Copernicus Value (ICV) = 77.57 
+ 
+©2025, Cognizance Journal, ZAIN Publications, Fridhemsgatan 62, 112 46, Stockholm, Sweden, All Rights Reserved                         604 
+19. 
+Heller, S., Peyrot, M., Oates, S. K., & Taylor, A. D. (2020). Hypoglycemia in patient with type 2 diabetes treated with 
+insulin: it can happen. BMJ Open Diabetes Research and Care, 8(1), e001194. https://doi.org/10.1136/bmjdrc-2020-
+001194 
+20. 
+How 
+insulin 
+and 
+glucagon 
+regulate 
+blood 
+sugar. 
+(2023, 
+February 
+15). 
+Medical 
+News 
+Today. 
+https://www.medicalnewstoday.com/articles/316427#summary 
+21. 
+How to grind tea leaves (the 6 methods). (n.d.). BaristaJoy. Retrieved February 12, 2024, from 
+https://baristajoy.com/grind-tea-leaves/ 
+22. 
+How to steep loose leaf tea to get the perfect cup of tea. (2022, January 23). Justea. https://justea.com/blogs/tea-
+101/how-to-brew-tea 
+23. 
+International Diabetes Federation. (2024, February 7). Diabetes facets and figures. https://idf.org/about-
+diabetes/diabetes-facts-figures/ 
+24. 
+Jimeno, C., Sy, R. A., De La Pena, P., Cipriano, C., Tan, R., Panelo, A., & Ng, J. (2021). Direct medical costs of type 
+2 diabetes mellitus in the Philippines: findings from two hospital databases and physician surveys. BMJ Open, 11(10), 
+e049737. https://doi.org/10.1136/bmjopen-2021-049737 
+25. 
+JusTea, justly made tea. (n.d.) Justea. Retrieved Dcember 15, 2024, from https://justea.com/ 
+26. 
+Kai, K., MA, Greis, M., Lu, J., Nolden, A. A., McClements, D. J., & Kinchla, A. J. (2022). Functional performance of 
+plant proteins. Foods, 11(4), 594. https://doi.org/10.3390/foods11040594 
+27. 
+Kumar, S., Mittal, A., Babu, D., & Mittal, A. (2020). Herbal medicines for diabetes management and its secondary 
+complications. Current Diabetes Reviews, 17(4), 437–456. https://doi.org/10.2174/1573399816666201103143225 
+28. 
+Li, Y., Ran, W., He, C., Zhou, J., Chen, Y., Yu, Z., & Ni, D. (2022). Effects of different tea tree varieties on the color, 
+aroma, 
+and 
+taste 
+of 
+Chinese 
+Enshi 
+green 
+tea. 
+Food 
+Chemistry 
+X, 
+14, 
+100289. 
+https://doi.org/10.1016/j.fochx.2022.100289 
+29. 
+Mau, S., Saleem, S., Kimothi, V., Joshi, V. V., & Singh, S. (2019). An exhaustive review on herbs used in the 
+management of diabetes mellititus type 2. Journal of Applied Pharmaceutical Sciences and Research, 5–11. 
+https://doi.org/10.31069/japsr.v2i2.2 
+30. 
+McGrowder, D. A., Miller, F. G., Nwokocha, C., Wilson-Clarke, C. F., Anderson, M., Anderson-Jackson, L., Williams, 
+L., & Alexander-Lindo, R. (2021). Medical herbs and the treatment of diabetes mellitus: Mechanisms of action. In A. 
+Hussain & S. Behl (Eds.), Treating endocrine and metabolic disorders with herbal medicines (pp. 48-73). IGI Global 
+Scientific Publishing. https://doi.org/10.4018/978-1-7998-4808-0.ch003 
+31. 
+Ma, K. K., Greis, M., Lu, J., Nolden, A. A., McClements, D. J., & Kinchla, A. J. (2022). Functional performance of 
+plant proteins. Foods (Basel, Switzerland), 11(4), 594. https://doi.org/10.3390/foods11040594 
+32. 
+Mathew, F., & Varghese, B. (2019). On medicinal exploration of Costus igneus: The insulin plant C review. 
+International Journal of Pharmaceutical Sciences Review and Research. https://www.semanticscholar.org/paper/on-
+Medicinal-Exploration-of-Costus-igneus-%3A-The-C-Mathew-
+Varghese/a80280d2dc12c4c1b6d48737d0a8980bad136117 
+33. 
+Mayer, A. B., Trenchard, L., & Rayns, F. (2021a). Historical changes in the mineral content of fruit and vegetables in 
+the UK from 1940 to 2019: a concern for human nutrition and agriculture. International Journal of Food Sciences and 
+Nutrition, 73(3), 315–326. https://doi.org/10.1080/09637486.2021.1981831 
+34. 
+Medline 
+Plus. 
+ 
+(n.d.). 
+Carbohydrates. 
+Retrieved 
+November 
+04 
+2024, 
+from 
+https://medlineplus.gov/carbohydrates.html#:~:text=Glucose%2C%20or%20blood%20sugar%2C%20is,and%20muscl
+es%20for%20later%20use. 
+35. 
+Mohanta, B., Sen, D. J., Mahanti, B., & Nayak, A. K. (2022). Antioxidant potential of herbal polysaccharides: An 
+overview on recent researches. Sensors International, 3, 100158. https://doi.org/10.1016/j.sintl.2022.100158 
+36. 
+Pan, S., Nie, Q., Tai, H., Song, X., Tong, Y., Zhang, L., Wu, X., Lin, Z., Zhang, Y., Ye, D., Zhang, Y., Wang, X., Zhu, 
+P., Chu, Z., Yu, Z., & Liang, C. (2022). Tea and tea drinking: China’s outstanding contributions to the mankind. 
+Chinese Medicine, 17(1). https://doi.org/10.1186/s13020-022-00571-1 
+37. 
+Pang, G., Li, F., Yan, Y., Zhang, Y., Kong, L., Zhu, P., Wang, K., Zhang, F., Liu, B., & Lu, C. (2019). Herbal 
+medicine in the treatment of patients with type 2 diabetes mellitus. Chinese Medical Journal/Chinese Medical Journal, 
+132(1), 78–85. https://doi.org/10.1097/cm9.0000000000000006 
+38. 
+Prisdiany, Y., Puspitasari, I. M., Putriana, N. A., & Syamsunarno, M. R. a. A. (2021). Potensi tanaman herbal 
+antidiabetes untuk minuman obat: Sebuah literatur review. Jurnal Farmasi Klinik Indonesia, 10(2), 144. 
+https://doi.org/10.15416/ijcp.2021.10.2.144 
+39. 
+Patel, A.R., Piyush V., Chandni, V. Mori, & Parmar V.K. (2023). Effect of fertility levels with micronutrient 
+fortification and bio enhancer on growth and yield of onion (Allium cepa L.). biological forum. An International 
+Journal, 
+15(12), 
+34-44. 
+https://www.researchgate.net/publication/379669157_Effect_of_Fertility_Levels_with_Micronutrient_Fortification_an
+d_Bio_Enhancer_on_Growth_and_Yield_of_Onion_Allium_cepa_L 
+40. 
+Rahman, M. M., Islam, M. R., Shohag, S., Hossain, M. E., Rahaman, M. S., Islam, F., Ahmed, M., Mitra, S., 
+Khandaker, M. U., Idris, A. M., Chidambaram, K., Emran, T. B., & Cavalu, S. (2022). The multifunctional role of 
+herbal products in the management of diabetes and obesity: A comprehensive review. Molecules Annual, 27(5), 1713. 
+https://doi.org/10.3390/molecules27051713 
+
+
+===== PAGE 8 =====
+
+ cognizancejournal.com 
+Marie Sofia A. Gotinga et al, Cognizance Journal of Multidisciplinary Studies, Vol.5, Issue.5, May 2025, pg. 598-606 
+(An Open Accessible, Multidisciplinary, Fully Refereed and Peer Reviewed Journal) 
+ISSN: 0976-7797 
+Impact Factor: 5.183 
+Index Copernicus Value (ICV) = 77.57 
+ 
+©2025, Cognizance Journal, ZAIN Publications, Fridhemsgatan 62, 112 46, Stockholm, Sweden, All Rights Reserved                         605 
+41. 
+Red Blossom Tea Company. How to brew tea. (n.d.). https://redblossomtea.com/pages/brewing-guide 
+42. 
+Romano, D. E. U., Putot, F. L. E., Pael, S. L. M., Cordova, J. N. A., Bucog, P. S. B., & Destajo, K. L. M. (2024). 
+Euphorbia hirta (asthma plant) gummies as alternative supplements: An experimental research. Cognizance Journal of 
+Multidisciplinary Studies, 4(5), 67–74. https://doi.org/10.47760/cognizance.2024.v04i05.006 
+43. 
+Sarkar, R. D., & Roy, G. S. (2023). Micro-qualification by estimation of leaf constants of the ethnobotanical plant 
+Costus igneus N.E. Br by optical microscopical analysis. World Journal of Biology Pharmacy and Health Sciences, 
+13(3), 120–170. https://doi.org/10.30574/wjbphs.2023.13.3.0130 
+44. 
+Sheng, X., Zan, J., Jiang, Y., Shen, S., Li, L., & Yuan, H. (2023). Data fusion strategy for rapid prediction of moisture 
+content during drying of black tea based on micro-NIR spectroscopy and machine vision. Optik, 276, 170645. 
+https://doi.org/10.1016/j.ijleo.2023.170645 
+45. 
+Sivasubramaniam, 
+& 
+Sinnathurai. 
+(2025, 
+April 
+2). 
+Tea. 
+Encyclopedia 
+Britannica. 
+https://www.britannica.com/topic/tea-beverage 
+46. 
+Song, F., Wu, J., Liu, B., Jiang, J., Li, Z., Song, C., Li, J., & Jin, G. (2021b). Intelligent green tea fixation with sensor 
+fusion technology. Journal of Food Engineering, 317, 110846. https://doi.org/10.1016/j.jfoodeng.2021.110846 
+47. 
+Sen, D. B., Balaraman, R., Sen, A. K., Zanwar, A., Greeshma, K. P., & Maheshwari, R. (2023). Anti-diabetic activity 
+of herbal remedies. Journal of Natural Remedies, 373–381. https://doi.org/10.18311/jnr/2023/32182. 
+48. 
+Shinde, S., Surwade, S., Sharma, R., & Shinde, S. (2022). Costus ignus: insulin plant and it’s preparations as remedial 
+approach for diabetes mellitus. International Journal of Pharmaceutical Sciences and Research, 13(4). 
+https://doi.org/10.13040/ijpsr.0975-8232.13(4).1551-58 
+49. 
+Selvakumarasamy, S., Rengaraju, B., Arumugam, S. A., & Ramalakshmi, K. (2021). Costus pictus–transition from a 
+medicinal plant to functional food: A review. Future Foods, 4, 100068. https://doi.org/10.1016/j.fufo.2021.100068 
+50. 
+Singh, 
+S. 
+(2019). 
+ERBA 
+TII-antioxidant 
+rich 
+and 
+anti-diabetic 
+herbal 
+tea. 
+Academic. 
+https://www.academia.edu/71550789/ERBA_TII_antioxidant_rich_and_anti_diabetic_herbal_tea 
+51. 
+Encyclopedia 
+Britannica 
+(n.d.). 
+Tea 
+tree 
+Britannica. 
+Retrieved 
+September 
+20, 
+2024, 
+from 
+https://www.britannica.com/plant/tea-tree 
+52. 
+Tea making process. (n.d.). Twinings North America. Retrieved April 05, 2024, from https://twinings.ca/pages/tea-
+making-process 
+53. 
+Tolentino, R., Van, C., Tomas, J., Travezonda, B., & Magnaye. (2019). Herbal medicine utilization among 
+Batangueños. 
+Asian 
+Pacific 
+Journal 
+of 
+Education, 
+Arts 
+and 
+Sciences, 
+6(1), 
+9–22. 
+https://research.lpubatangas.edu.ph/wp-content/uploads/2019/07/APJEAS-2019.6.1.02.pdf 
+54. 
+Vijay, K. V., Kakasaheb, L.G., & Vaibhav, J. (2023). Medical research report of the insulin plant and other herbal 
+plants. International Research Journal of Modernization in Engineering Technology and Science, 7874, 2582–5208. 
+Retrieved 
+April 
+10, 
+2025, 
+from 
+https://www.irjmets.com/uploadedfiles/paper//issue_5_may_2023/40293/final/fin_irjmets1685379796.pdf 
+55. 
+Wagh, H. M., Sonwane, N., Suryawanshi, A., & Mairal, P. B. (2022). The review on insulin plant: a plant of ayurvedic 
+used 
+(Costus 
+igneus 
+plant). 
+International 
+Journal 
+for 
+Multidisciplinary 
+Research, 
+4(6). 
+https://doi.org/10.36948/ijfmr.2022.v04i06.1019 
+56. 
+Wangiyana, I. G. A. S., Sawaludin, Nizar, W. Y., & Wangiyana, W. (2019). Tannin concentrations of gyrinops tea 
+with different leaf processing methods and addition of herbal medicine ingredients. Proceeding of the 2nd international 
+conference on bioscience, biotechnology, and biometrics 2019. https://doi.org/10.1063/1.5141326 
+57. 
+Wang, X., Liu, Y., Gong, N., Wang, J., Han, Z., & Wu, Z. (2024). Design of a tea strip-lining degree discrimination 
+system based on appearance characteristics and near-infrared spectroscopy. Journal of Food Composition and Analysis, 
+106779. https://doi.org/10.1016/j.jfca.2024.106779 
+58. 
+World 
+Health 
+Organization. 
+(2020). 
+Guideline: 
+Sugars 
+intake 
+for 
+adults 
+and 
+children. 
+https://www.who.int/publications/i/item/9789241549028 
+59. 
+World Health Organization. (2024). Diabetes. https://www.who.int/news-room/fact-sheets/detail/diabetes 
+60. 
+Xie, Y., Gou, L., Peng, M., Zheng, J., & Chen, L. (2021). Effects of soluble fiber supplementation on glycemic control 
+in adults with type 2 diabetes mellitus: A systematic review and meta-analysis of randomized controlled trials. Clinical 
+nutrition (Edinburgh, Scotland), 40(4), 1800–1810. https://doi.org/10.1016/j.clnu.2020.10.032 
+61. 
+Xie, J., Wang, L., Deng, Y., Yuan, H., Zhu, J., Jiang, Y., & Yang, Y. (2023). Characterization of the key odorants in 
+floral aroma green tea based on GC-E-Nose, GC-IMS, GC-MS and aroma recombination and investigation of the 
+dynamic 
+changes 
+and 
+aroma 
+formation 
+during 
+processing. 
+Food 
+Chemistry, 
+427, 
+136641. 
+https://doi.org/10.1016/j.foodchem.2023.136641 
+62. 
+Xu, X., Zhao, C., Li, B., Tang, G., Shang, A., Gan, R., Feng, Y., & Li, H. (2021). Effects and mechanisms of tea on 
+obesity. 
+Critical 
+Reviews 
+in 
+Food 
+Science 
+and 
+Nutrition, 
+63(19), 
+3716–3733. 
+https://doi.org/10.1080/10408398.2021.1992748 
+63. 
+Ye, J., Ye, Y., Yin, J., Jin, J., Liang, Y., Liu, R., Tang, P., & Xu, Y. (2022). Bitterness and astringency of tea leaves 
+and products: Formation mechanism and reducing strategies. Trends in Food Science & Technology, 123, 130–143. 
+https://doi.org/10.1016/j.tifs.2022.02.031 
+64. 
+Zhang, B., Yue, R., Huang, X., Wang, Y., Jiang, Y., & Chin, J. (2019). Effect of herbal tea on glycemic control in 
+patients with type 2 diabetes. Medicine, 98(50), e18346. https://doi.org/10.1097/md.0000000000018346 
+
+
+===== PAGE 9 =====
+
+ cognizancejournal.com 
+Marie Sofia A. Gotinga et al, Cognizance Journal of Multidisciplinary Studies, Vol.5, Issue.5, May 2025, pg. 598-606 
+(An Open Accessible, Multidisciplinary, Fully Refereed and Peer Reviewed Journal) 
+ISSN: 0976-7797 
+Impact Factor: 5.183 
+Index Copernicus Value (ICV) = 77.57 
+ 
+©2025, Cognizance Journal, ZAIN Publications, Fridhemsgatan 62, 112 46, Stockholm, Sweden, All Rights Reserved                         606 
+65. 
+Zhang, J., Wang, J., Li, M., Guo, S., & Lv, Y. (2022). Effects of heat treatment on protein molecular structure and in 
+vitro digestion in whole soybeans with different moisture content. Food Research International, 155, 111115. 
+https://doi.org/10.1016/j.foodres.2022.111115 
+66. 
+Zhang, Q., Zhao, Y., Zhang, M., Zhang, Y., Ji, H., & Shen, L. (2021). Recent advances in research on vine tea, a 
+potential and functional herbal tea with dihydromyricetin and myricetin as major bioactive compounds. Journal of 
+Pharmaceutical Analysis, 11(5), 555–563. https://doi.org/10.1016/j.jpha.2020.10.002 
+67. 
+Zhang, X., Zhang, L., Zhang, B., Liu, K., Sun, J., Li, Q., & Zhao, L. (2022). Herbal tea, a novel adjuvant therapy for 
+treating type 2 diabetes mellitus: A review. Frontiers in Pharmacology, 13. https://doi.org/10.3389/fphar.2022.982387
+ 

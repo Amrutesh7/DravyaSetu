@@ -1,0 +1,1053 @@
+
+
+===== PAGE 1 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   105 
+ 
+Tulsi (Ocimum sanctum) – a myriad medicinal plant, secrets behind the 
+innumerable benefits 
+ 
+Paramesh Hanumanthaiah1, Hazaratali Panari2, Abreham Chebte1, Abeba Haile1 and Girum 
+Tefera Belachew1 
+1Department of Biotechnology, College of Natural and Computational Sciences, Debre Berhan University, Post Box 
+445, North Shoa, Amhara, Ethiopia 
+2Institute of Medicine and Health Sciences, Debre Berhan University, Post Box 445, North Shoa, Amhara, Ethiopia 
+ 
+Abstract:  Tulsi (Ocimum sanctum) is an omnipresent, multipurpose plant and regarded as holy plant 
+in Hindu religion finds place in front of every Hindu household. This herb is a member of Lamiaceae 
+family, well known for its spiritual, religious and medicinal importance in India. Scientific 
+investigations of traditional belief of medicinal properties of Tulsi have got impetus mostly in the 
+later part of the 20th century. Characteristically, the plant imparts a pungent, bitter, hot, light and dry 
+effect indicating the presence of curative value. It is extensively famous and has been used since 
+centuries in Ayurvedic and Greek medicines owing to its beneficially diverse properties. The 
+scientific fact behind these benefits owe to the presence of phytochemicals in leaves like flavonoids, 
+phenol, terpenoids, alkaloids, eugenol and others which impart ability to overcome the infection by 
+the target cells. The ability can be antimicrobial, pharmacological, any therapeutic, nutritional value 
+or even leveraging of certain levels of phytochemicals thus bringing about the cellular protection. 
+This review is an attempt to present brief information available on the religious values, studies on 
+physiological aspects, antimicrobial properties, pharmacological application, therapeutic uses, 
+phytochemical analysis, animal nutrition supplement and biotechnological studies comprising 
+molecular marker usage, genome sequencing, bioinformatics and nanotechnological studies in Tulsi. 
+ 
+Keywords: Tulsi, Ocimum sanctum, antimicrobial, therapeutic, molecular studies 
+ 
+Introduction 
+Religious values of Tulsi 
+Tulsi, Ocimum basilicum or the holy basil holds a prominent place in Indian Hindu culture and 
+traditions. It is used on almost all religious occasions and is often presented to the gods in the form 
+of garlands (Desi wisdom online, 2018). Tulsi is one of the oldest aromatic herbs of the family 
+Lamiacaceae. It is popularly known as “holy basil or sacred basil” and is present in almost every 
+household in Indian sub-continent due to its medicinal, nutritional and spiritual properties. It is also  
+Corresponding author: hparamesh@gmail.com 
+
+
+===== PAGE 2 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   106 
+ 
+known as “the incomparable one, mother of natural medicine and the queen of herbs” (Ashok et al, 
+2018). Several species of basil, especially "tulsi" (Ocimum sanctum L.), are regarded as the most 
+sacred plants in the Hindu religion and therefore Basil is found in almost every Hindu house 
+throughout India. The leaves are used for different ceremonies such as births, weddings, sacred 
+rituals, as well as in funerals (Majupuria and Joshi, 1997; Pandey, 1989; Simoons, 1998). 
+ 
+Physiological studies in Tulsi 
+ 
+The ecological dominance of Sri Tulsi over Krishna Tulsi is indicated by the differences observed 
+in photosynthetic efficiency by Batra and his co-workers (2016). The study was on comparison of 
+the overall adaptiveness of two Ocimum sanctum (holy basil) morphotypes, viz., Sri Tulsi and 
+Krishna Tulsi. In this synecological assessments, comparative ecophysiological studies are been 
+done by measurement of photosystem II (PSII) chlorophyll a fluorescence, pigment composition, 
+and proline content. Results state that Sri Tulsi possess 30 % higher effective quantum yield of PSII 
+(∆F/Fm’stat) and maximum apparent electron transport rate (ETRmax) than Krishna Tulsi. The 
+authors also reported the presence of two fold higher chlorophyll and carotenoid content in Sri 
+Tulsi than Krishna Tulsi.  
+ 
+Another study conducted from May, 2017 to October, 2017 for the choice of season for collection 
+and extraction of two photosynthetic pigments, (Total Chlorophyll and total Carotenoids content) 
+for pharmaceutical product preparation from Ocimum sanctum (Tulsi) (Subham et al, 2018). The 
+study from different seasons indicates that the autumn season (October) would be the best with 
+highest photosynthetic pigments contents and lower levels during rainy season (July). Thus, 
+providing the suitable information for the utilization of this very useful medicinal plant fresh leaves 
+for pharmaceutical and food industry to extract these pigments for herbal product preparations. 
+These two photosynthetic pigments act as antioxidant and have the ability to fight against several 
+types of cancer (Subham et al, 2018) and are also prescribed in case of skin and eye problems 
+(Subham et al, 2018). 
+ 
+Antimicrobial studies in Tulsi 
+ 
+Antimicrobial activity pertains to the capacity of a substance to diminish or inhibit the growth of 
+microorganisms. Different substances have different degree of antimicrobial activity. Several 
+
+
+===== PAGE 3 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   107 
+ 
+medicinal properties have been attributed to the Tulsi plant not only in Ayurveda and Siddha but 
+also in Greek, Roman and Unani systems of medicine (Babita, 2014). In Ayurveda, Tulsi used as 
+antiasthmatic and antikaphic drugs (Babita, 2014). It is also used in treatment of fever, bronchitis, 
+arthritis, convulsions etc. (Babita, 2014). The reports provided can provide more evidence for using 
+tulsi leaves as water purifier. A study focused on evaluation of antimicrobial activity of Ocimum 
+sanctum leaf extract in normal tap water and local river water with different concentration (100 to 
+600 mg l-1) of Tulsi leaf extract in tap and river water (Babita, 2014). 600 mg l-1 concentration of 
+plant extract treated water showed effective antimicrobial activity at 15 to 16 hrs than the other 
+concentration of extract. The 500 mg l-1 of extract treated water showed 95 to 98% antibacterial 
+activity in 14 to 16 hrs. The minimum bacterial concentration (MBC) was observed in 500 and 600 
+mg l-1extract. The concentration of the bacterial cells inhibited gradually for an hour was studied by 
+spread plate method. 
+ 
+Another study focused on to compare the antimicrobial activity of methanolic leaf extracts of tulsi 
+and neem (Vipul et al, 2018). Here the leaf extracts of Tulsi (Ocimum sanctum) and neem 
+(Azadirachta indica) were used to compare their antimicrobial activity toward Gram-positive 
+(Staphylococcus aureus) and Gram-negative (Escherichia coli) bacteria. Phytochemical extracts 
+have been made by the use of methanol as solvent and dried leaf powder by the cold maceration 
+extraction process. The phytochemical extracts of neem and tulsi were allowed to diffuse into the 
+medium, and after incubation of 24 h at 37°C, the zones of inhibition were observed. Statistical 
+analysis showed that tulsi was more effective toward S. aureus while neem was more effective 
+toward E. coli. Minimum inhibitory concentration (MIC) of tulsi for both the microorganisms was 
+0.4 g/ml and the MIC of neem for both the microorganisms was 0.2 g/ml. When both the tulsi and 
+neem extract were mixed with each other for every concentration at equal volume, they have 
+revealed better effects in comparison to individual neem or tulsi extract and also the MIC got 
+reduced to 0.2 g/ml for both the bacteria. Leaf extracts of both the A. indica and O. sanctum have 
+shown antimicrobial activity against E. coli and S. aureus. A. indica has higher antimicrobial 
+activity against S. aureus, whereas the O. sanctum was found to be more effective against E. coli 
+(indicated by the zone of inhibition).  
+ 
+In the view of endemic avian influenza H9N2 infection in poultry, its zoonotic potential and 
+emergence of antiviral resistance, two herbal plants, (Ocimum sanctum and Acacia arabica) which 
+are easily available throughout various geographical locations in India were taken up to study their 
+
+
+===== PAGE 4 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   108 
+ 
+antiviral activity against H9 N2 virus (Ghoke et al, 2018). Evaluation of antiviral efficacy of three 
+different extracts (crude extract, terpenoid and polyphenol) each from leaves of O. sanctum and A. 
+arabica against H9N2 virus was done using in ovo model. Three experimental protocols viz. 
+virucidal (dose-dependent), therapeutic (time-dependent) and prophylactic (dose-dependent) 
+activity in specific pathogen free embryonated chicken eggs and the reduction in antiviral efficacy 
+determined with Haemagglutination (HA) and real time quantitative reverse transcription 
+polymerase chain reaction (RT-qPCR) assays. Significant virucidal activity was found in all the 
+extracts (crude extract, terpenoid and polyphenol) of O. sanctum and A. arabica, however, crude 
+extractocimum and terpenoidocimum showed highly significant to significant (p < 0.001–0.01) 
+decrease in virus genome copy numbers with lowest dose tested. Similarly, therapeutic effect was 
+observed in all three extracts of O. sanctum in comparison to the virus control, nevertheless, crude 
+extractocimum and terpenoidocimum maintained this effect for longer period of time (up to 72 h 
+post-incubation). None of the leaves extracts of A. arabica had therapeutic effect at 24 and 48 h 
+post-incubation, except the crude extractacacia and polyphenolacacia showed delayed therapeutic 
+effect (72 h post-inoculation). Prophylactic potential is reported in polyphenolacacia with highly 
+significant antiviral activity compared to virus control (p < 0.001).The crude extract and terpenoid 
+isolated from the leaves of O. sanctum and polyphenol from A.arabica has shown promising 
+antiviral properties against H9N2 virus. However the necessity of future investigations was stressed 
+to formulate combinations of these compounds for achieving the broader antiviral activity against 
+H9N2 viruses and evaluate them in chickens. 
+ 
+Staphylococcus aureus is among the pathogens capable of developing a broad spectrum of 
+infections in human beings. Besides hospital, the bacterium is present in the community and has a 
+high resistance to antibiotics, which is also increasing on an ongoing basis. Resistance to β-lactam 
+antibiotic family is one of the concerns about the bacterium that has encountered the treatment of 
+such infections with difficulty. Due to the increased resistance and importance of this bacterium, 
+new strategies are needed to control this pathogen and much research is planned in this regard. 
+Several studies have been carried out and are being designed using various herbs to find active 
+ingredients to deal with this bacterium. The study of the antibacterial activity of different medicinal 
+plants and the effects of their active ingredients on methicillin-resistant and methicillin-sensitive S. 
+aureus (MRSA, MSSA) has been done to clarify the pathway to further studies in this regard 
+(Askarinia et al, 2019). 
+ 
+
+
+===== PAGE 5 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   109 
+ 
+The antibacterial activity of methanol extract of herbal plants against the multidrug resistant (MDR) 
+Gram negative bacteria isolated from clinical samples (Bishnu et al, 2018). Gram negative bacteria 
+isolated from various clinical samples were processed for antibiotic susceptibility test by modified 
+Kirby-Bauer disc diffusion method and MDR bacteria were selected. Methanol extracts of six 
+different medicinal plants Acorus calamus (bojho), Ocimum sanctum (tulsi), Azadirachta indica 
+(neem), Cinnamomum tamala (tejpatta), Aloe vera and Zanthoxylum alatum (timur), were tested for 
+antibacterial activity against the selected MDR bacteria by agar well diffusion method. From 
+clinical samples, 8 different MDR Gram negative bacteria isolated were Escherichia coli, 
+Klebsiella pneumoniae, Klebsiella oxytoca, Citrobacter spp., Proteus mirabilis, Proteus vulgaris, 
+Acinetobacter spp. and Pseudomonas spp. with E. coli dominated the number. Out of six medicinal 
+plants extracts, Z. alatum, C. tamala and Ocimum sanctum were found to be effective with zones of 
+inhibition ranging from 9-13 mm. The medicinal plants with antibacterial activity can be an 
+alternative source of medicine against MDR Gram negative bacteria. Several herbal plants extracts 
+exhibit antibacterial activity against MDR Gram negative bacteria. Antibacterial activity of plant 
+extracts can vary with type of plant and extraction methods. Thus, it proves that for optimal benefit 
+of plant extract, an appropriate extraction method and use of purified product is essential. 
+ 
+Pharmacological application studies of Tulsi 
+ 
+A summarization work of botanical, pharmacological, phytochemical, ethno medicinal and 
+toxicological information for helping researchers and clinicians of remedial effects is done by Bano 
+and his colleagues (2017). The active biological compound mediating the therapeutic properties is 
+mentioned as Eugenol (1-hydroxy-2-methoxy-4-allylbenzene). The data collected from various 
+search sources like journals, Online published articles, internet sites, Scopus, Pubmed and Google 
+Scholar indicates the uses of several parts of tulsi in Ayurveda and its recommendation in curing 
+wide range of ailments listing dysentery, diarrhea, bronchitis, malaria, dermatological issues, eye 
+ailments, rheumatoid arthritis and many more. Scientific proof for presence of several medicinal 
+properties (anticancer, anti-diabetic, anti-fertility, antifungal, antimicrobial, cardio protective, 
+analgesic, antiallergic, immunomodulatory, antioxidant, antispasmodic and adaptogenic, anti-
+inflammatory, antipyretic, antiviral, antiulcer, hepatoprotective, anti-arthritis and CNS depressant 
+activities) are been discussed in detail. 
+ 
+
+
+===== PAGE 6 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   110 
+ 
+Ocimum gratissimum, common name tulsi, is considered as a sacred plant and worshiped in India. 
+It is a valuable medicinal plant which has numbers of pharmacological properties. Antitumor and 
+anti-cancer effects have been reported in in vitro experiments (Sheelu et al, 2017). It is also 
+recommended for treatment of diseases like bronchitis, bronchial asthma, diarrhea, dysentery 
+chronic fever etc. Tulsi contains eugenol (1-hydroxy-2-methoxy-4-allylbenzene) which can be used 
+for therapeutic purposes. Preclinical studies has revealed that certain compounds present in Tulsi 
+like rosmarinic acid, apigenin, myretenal, luteolin, ß-sitosterol and carnosic acid, have antioxidant 
+properties. Contents of secondary metabolites can be increased with the help of different tissue 
+culture and transformation techniques. Availability of data on genome and transcriptome sequences 
+can reveal the sites of gene for important secondary metabolite pathways. 
+ 
+Therapeutic uses of tulsi 
+A detailed review is presented by Pattanayak and team (2010) from the reported pharmacological 
+studies to endorse the therapeutic values of O. sanctum L. The results presented in the review study 
+will support best use of this plant for effective human and animal disease therapy, an importance 
+source of bioactive substances and additionally supporting for ethno-botanical study. Traditional 
+medical practitioners have widely used the medicinal plants in day to day practice for curing 
+various diseases using different parts (leaves, stem, flower, root, seeds and even whole plant) of 
+Ocimum sanctum Linn. These parts use has been recommended for curing of dysentery, diarrhea, 
+bronchitis, arthritis, insect bites, malaria, skin disease, eye diseases and so on. Also reported on 
+possession of antidiabetic, cardioprotective, antimicrobial, antispasmodic, anti-fertility, antifungal, 
+anticancer, adaptogenic and analgesic actions. The main constituent Eugenol (1-hydroxy-2-
+methoxy-4-allylbenzene) was largely influencing the therapeutic value of O. sanctum L. Thus, 
+leveraging the levels of eugenol or increase in raw material through genetic, molecular and in vitro 
+culture tools may help to utilize this herb more efficiently in pharmaceutical industry. 
+ 
+Most of the traditional medicines used are originated from organic matter, minerals and medicinal 
+plants. 2500 species of plants from 21,000 plants listed by World Health Organization (WHO) for 
+medicinal purpose are in India, of which 150 species are largely used in commercial scale. This 
+information makes India with largest medicinal herbs, thus is referred to as botanical garden of the 
+world. Maurya and Srivastava (2011) have reviewed these aspects focusing on the plants and herbal 
+drug preparations utilization for treatment of different chronic diseases across the world. They have 
+indicated the rising numbers in the use of Ayurvedic medicines in day to day life among adults and 
+
+
+===== PAGE 7 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   111 
+ 
+children in different parts of the world. The traditional uses of various medicinal plants like Tulsi, 
+Arjuna, Ashwagandha and Neem and also the latest discovery and improvement in medicinal and 
+aromatic plants for augmentation of health care of mankind are reported. Discussions on the use of 
+herbal medicines with Antiulcer, Antipyretic, Anti-cancerous and Antidiabetic activity due to the 
+presence of chief sources of therapeutic agents for curing human diseases from the various 
+chemical compounds in medicinal plants are adding additional information. 
+ 
+Ocimum tenuiflorum is very well known as Krishna Tulsi, most sacred herb in India posses various 
+healing medicinal properties for human life. This has evidenced with use of many parts of this 
+plants such as stems, leaves, flowers in treatment of several disorders namely cough, cold, fever, 
+swelling, vomiting, skin diseases etc. An updated review with scientific proof of medicinal 
+properties against several disorders is highlighted by Palal Ravi and coworkers (2012). The specific 
+chemical constituents listed in Ocimum tenuiflorum are methyl cinnamate, eugenol, thymol and 
+camphor. Similarly the review has described on antimicrobial, anti-cancer, antifungal, 
+antispasmodic, antiviral, analgesic, immuno-stimulatory and anti-inflammatory properties of tulsi. 
+ 
+Irrespective of the serotypes existing dengue fever is the most prevailing arthropod-borne viral 
+diseases of the world population. Dengue vaccine development has difficulties due to antibody-
+dependent enhancement effect. Antiviral preparation based on plant source has greater potential in 
+combating dengue disease. Investigations on antiviral effects of standardized methanolic extracts of 
+Andrographis paniculata, Citrus limon, Cymbopogon citratus, Momordica charantia, Ocimum 
+sanctum and Pelargonium citrosum on dengue virus serotype 1 (DENV-1) revealed that O. sanctum 
+contained 88.6% of total flavonoids content, the highest among all the six plants tested  (Tang Leon  
+et al, 2012). The maximum non-toxic dose (MNTD) determined of methanolic extract against Vero 
+E6 cells in vitro was in decreasing order of M. charantia > C. limon > P. citrosum, O. sanctum > 
+A. paniculata > C. citratus. Antiviral assay based on cytopathic effects (CPE) exhibited slight 
+inhibition with methanolic extracts of O. sanctum and C. citratus, although a significant inhibition 
+was not observed in MTT assay. A higher antiviral inhibitory effect was shown by A. paniculata 
+followed by M. charantia of the six medicinal plants tested by degree of inhibition on CPE. 
+ 
+Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) such as omeprazoleare prescribed for healing 
+inflammation, fever and pain due to most prevailing gastrointestinal disorder - Peptic Ulcer Disease 
+(PUD) encompassing gastric and duodenal ulcer. Yet, NSAIDs cause gastric damage as a major 
+
+
+===== PAGE 8 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   112 
+ 
+adverse reaction. To overcome this impairment a study at Navodaya Medical College and Research 
+Centre for two years on the gastro protective effect aqueous extract of O. sanctum was compared 
+with omeprazole in model of indomethacin-induced ulceration. Separate group of rats administered 
+with O. sanctum (200 mg/kg or 400 mg/kg) or omeprazole (10 mg/kg) resulted O. sanctum with 
+significant (p < 0.05) protective effect against indomethacin-induced gastric ulcer when compared 
+to control. The reason quoted for this gastro protective effect of O. sanctum was comparable with 
+that of omeprazole due to its 5-lipoxygenase inhibitory effect, mucoprotective activity and its 
+antisecretory effect (Mrutyunjay and Sameer, 2014). 
+The safe, efficient and inexpensive use of tulsi plant with ease of accessibility has recognized and 
+attributed this plant as equivalent to “matchless one” herb for medicinal and therapeutic use. The 
+chemical constituent in it cures many diseases and relies on antiageing, immunomodulatory 
+including antimicrobial and anticancer properties. Thus, tulsi is named as  
+Queen of Herbs of India and is one of the holiest and sacred herbs. Traditionally Ayurvedic and 
+Unani systems have vital role and fame for tulsi. A review by Thakur and his group (2017) provides 
+links from several aspects of scientific works on tulsi uses. Its use in Ayurvedic medicine through 
+the extracts are commonly used for headaches, cold, soreness, stomach disorders, heart sickness, 
+malaria and range of poisoning is explained well with evidences. 
+ 
+Of late study on Tulsi herb (Upadhyay et al. 2015) reports that the sequencing of draft genome 
+reveals that herb has 374 million bases and the exploration of medicinal properties due to main 
+enzymes coding for the synthesis of secondary metabolites has been already done. Of the 14 
+metabolites mapped, 8 have anti-cancer properties and the remaining 6 have antifungal, antioxidant, 
+anti-inflammatory, antiseptic and cardio protective properties. 
+ 
+Tulsi, also known as holy basil, is indigenous to the Indian continent and highly revered for its 
+medicinal uses within the Ayurvedic and Siddha medical systems. Many in vitro, animal and 
+human studies attest to tulsi having multiple therapeutic actions including adaptogenic, 
+antimicrobial, anti-inflammatory, cardioprotective and immunomodulatory effects. Till date there 
+are no systematic reviews of human research on tulsi’s clinical efficacy and safety. A 
+comprehensive literature review of human studies has been reported on a clinical outcome after 
+ingestion of tulsi (Bano et al, 2017). The results are outcomes of studies published in books, thesis, 
+conference proceedings, and electronic databases including Cochrane Library, Google Scholar, 
+Embase, Medline, PubMed, ScienceDirect, and IndianMedical databases. Twenty four studies are 
+
+
+===== PAGE 9 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   113 
+ 
+been identified that reported therapeutic effects on metabolic disorders, cardiovascular disease, 
+immunity, and neurocognition. All studies reported favourable clinical outcomes with no studies 
+reporting any significant adverse events. The reviewed studies reinforce traditional uses and suggest 
+tulsi is an effective treatment for life style related chronic diseases including diabetes, metabolic 
+syndrome, and psychological stress. Further studies are required to explore mechanisms of action, 
+clarify the dosage and dose form, and determine the populations most likely to benefit from tulsi’s 
+therapeutic effects. 
+ 
+The health benefits of holy basil and ways of integrating it into day to day life to feel less anxious 
+and more social is shown by studies (Brian and Ana, 2017). Holy basil has been shown to have 
+antidepressant and antianxiety properties similar to antidepressant drugs. It can be used directly 
+raw, cook with it, supplement with any form or can use as tea and also offered as essential oil. 
+ 
+Healing benefits of tulsi is remembered with rapid home medicines by using leaves and flowers for 
+colds, coughs, infections and fever. The practice of placing a potted tulsi plant in front yard in 
+Indian households very well confirms the germicidal actions of the plant (Desi wisdom, 2018). 
+ 
+The rich medicinal importance of tulsi (Ocimum sanctum) is evidenced with the use of leaves and 
+flowers having good nutritional sources of fatty acid, β-carotene, calcium, vitamin C, and volatile 
+substances which maintain our body healthy. Hindus use the wood or seeds of tulsi to make 
+garland, which are strings of beads used to help in meditation, focusing of mind, chanting a 
+devotional practice which connects the body, mind and spirit. The review by Ashok Kumar and 
+coauthors (2018) has focused on the beneficial effects such as medicinal, nutritional and spiritual 
+properties of tulsi. 
+ 
+Among the important medicinal plants, the plants of genus Ocimum from family Lamiaceae are of 
+high potential. Two types of tulsi varieties are reported as purple/black (Krishna Tulsi) and green 
+(Rama Tulsi) share similar chemical constituents. Plants are rich sources of medicine and large 
+drugs in use are derived from plants. The healing uses are economical, safe and effective due to 
+their ease of availability. Sanskrit word tulsi means “matchless one”. Numerous medicinal 
+properties are reported about Tulsi plant not only in Ayurveda and Siddha but also in Greek, 
+Roman and Unani systems of medicine (Siyanna, 2018). Abundant medicinal and health benefits of 
+tulsi are been confirmed by scientists. Outcomes of research determine the tulsi plant extract can 
+
+
+===== PAGE 10 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   114 
+ 
+treat at least 20 conditions. Thus, Holy Basil (Ocimum sanctum) has plentiful uses in medicine. 
+(Case Adams, 2019) 
+ 
+Tulsi Leaf and anti-Cancer benefits 
+ 
+Exhibition of anticancer activity was found in extracts of tulsi leaf extracts tried on tumor cell 
+cultures. The exhibition of anticancer activity of tulsi leaf extracts upon use on tumor cell cultures 
+is reported by Sridevi and coworkers (2016). This cancer-preventive benefit is in fact recognized as 
+eugenol, a potential flavonoid including methanolic extract from tulsi leaf extract. Advantages of 
+tulsi leaf and cancer are reported by using mice instead of humans that the tulsi also benefits against 
+radiation poisoning. This findings support that additionally presence of flavonoids in tulsi is been 
+able to protect normal tissue cells from harmful effects of radiation including anticancer properties 
+(Singh et al, 2016). Even though authors emphasize the need of larger trials on humans for 
+promising results to examine the efficiency of benefits of tulsi in individuals. There is an evidence 
+to compare the regular consumption of tulsi tea and yoga practice permitting the practitioner with 
+an overall sense of calmness by Christabel Lobo (2019). 
+ 
+Phytochemical analysis of tulsi  
+ 
+Plant extracts continues the numerous searches for more effective drugs of plant origin which are 
+less toxic and available for low socio-economic population in the treatment of diseases caused by 
+pathogenic bacteria (Verma et al, 2019). The qualitative analysis using hydroalcoholic extract by 
+GC-MS for determination of phytochemical screening and probable chemical constituents of 
+extracts from the leaf sample of Ocimum sanctum exhibited the identification of 10 phytochemical 
+constituents predominantly eugenol (43.88%) and caryophyllene (26.53%) and other compounds 
+like tannins, saponin, flavonoids, steroid, terpenoids and cardiac glycerides (Devendran and 
+Balasubramanian, 2011). Study also reported the absence of phlobatannin. The major components 
+present in leaves of Ocimum sanctum were Eugenol, Caryophyllene, Cyclopentane, 
+Cyclopropylidene (1.02%), Cyclohexane, 1,2,4-triethenyl (15.31%), octadecane, 1,1-dimethoxy 
+(2.04%) and Benzene methanamine, N,N,a,4-tetramethyl-(2.04%). These phytochemical 
+constituents contribute to the medicinal activity of the hydroalcoholic extract of Ocimum sanctum. 
+The presence of eugenol and caryophyllene in the leaves is considered mainly responsible for 
+various antimicrobial properties. Eugenol in its major presence is responsible for its repellent, 
+
+
+===== PAGE 11 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   115 
+ 
+antioxidative property and also supposed to be responsible for inhibition of lipid peroxidation. Thus 
+contributing for achieving good health by preventing heart diseases chances as well as most of the 
+other biochemical diseases since oxidative stress is the symbol of such diseases. 
+ 
+The quantitative analysis of dried powder of tulsi using soxhlet apparatus individually with 
+methanol, ethanol and distilled water separation presents several secondary metabolites such as 
+carbohydrate, tannin, flavonoids, saponins, glycoside, terpenoid, fatty acids and phenol.  High 
+amount of phenols were documented from 1.6 – 7.6 %, alkaloid and flavonoids were 0.91 to 1.28 % 
+and 1.56 to 2.24 %. GC-MS analysis of methanolic extract identified compounds namely Eugenol, 
+Benzene, 1, 2-dimethoxy- 4-(2- propenyl), α - Farnesene and Cyclohexane, 1, 2, 4-triethenyl as 
+chief constituents (Borah and Biswas, 2018). Presence of these phyto-chemicals are known to 
+possess antiseptic, analgesic, anti-inflammatory, antimicrobial, antistress, immunomodulatory, 
+hypoglycemic, hypotensive and antioxidant properties. Henceforth, it is more advantageous to 
+practice tulsi as an herbal medicine compared to any chemically synthesized drug. 
+ 
+The first report from under-explored camphor tulsi of genus Ocimum was on any gene of 
+MVA/isoprenoid pathway to provide deep insight into OkHMGR for regulation of biosynthesis of 
+non-plastidal isoprenoids (Shilpi et al. 2018). This study suggests that OkHMGR might be a 
+potential tool for attempting metabolic engineering for enhancing medicinally important terpenoidal 
+metabolites in plants. In essential oil from tulsi, the presence of terpenoids is unique feature of 
+Ocimum kilimandscharicum unlike other Ocimum species are renowned for phenylpropanoids as 
+major constituents. The cloning of 1.7-KbORF encoding ~60-kDa protein responsible for key 
+enzyme of MVA/terpenoid metabolic pathway viz 3-hydroxy-3-methylglutaryl Co-A reductase 
+(OkHMGR) was done from O. kilimandscharicum (Shilpi et al. 2018). The kinetic characteristics 
+of this protein revealed the availability of HMG-CoA as a regulator point of MVA-pathway. The 
+tissue-specific functions of this gene in flower and leaf tissue with accumulation of terpenoidal 
+essential oil was interpreted by Transcript profiling of the OkHMGR. The differential regulation of 
+OkHMGR in response to exposure methyl jasmonate, salicylic-acid, and stress conditions such-as 
+salt and temperature stress demonstrated its pivotal role in managing signaling and stress-responses. 
+The transient over-expression study of OkHMGR in both homologous and heterologous plants such 
+as O. sanctum, O. basilicum, O. gratissimum, Withania somnifera and Artemisia annua revealed 
+that the additional OkHMGR in-planta could afford endogenous flow of isoprenoid units towards 
+synthesis of terpenoids.  
+
+
+===== PAGE 12 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   116 
+ 
+ 
+A study on crude extracts of Ocimum tenuiflorum L. leaves for phytochemical screening assay with 
+methanol fractions performed did notshow any steroid and terpenoid (Leila et al, 2018). Even 
+ethanol and butanol fractions also did not exhibit steroid in the screening test. The HPLC 
+identification results of active crude extracts and active fractions displayed the possiblebioactive 
+compounds which may control diabetes. The presence of polyphenolic active constituents such as 
+3,4-dimethoxycinnamic acid, caffeic acid, diosmetin, luteolin, kaempferol, rosmarinic acid, 
+apigenin and genistein in these extracts controlled the blood glucose levels in diabetic rats. This 
+study suggests that furthermore detailed isolation of the active components could pave the way for 
+the development of new agents for the treatment of diabetes and its complications. 
+ 
+A demonstration study on the phytochemical analysis of methanol and aqueous extracts of O. 
+sanctum, A. indica and P. emblica for developing antibacterial compound as phytomedicine to act 
+against microbes (Verma et al, 2019). The study concentrated on the presence of phytoconstituents 
+like tannin, saponins, flavonoids, glycosides, reducing sugar, steroids and alkaloids. The intention 
+of the study was to develop plant based antibacterials with enormous therapeutic potentials and 
+lesser side effects that are often associated with synthetic antibacterials. 
+ 
+Animal nutrition supplement studies in Tulsi 
+ 
+A study conducted at Bangaldesh on determination of efficacy of tulsi and ginger as growth 
+promoter in broilers concludes that using herbal extract is profitable and suitable for human 
+consumption (Wasim et al. 2018). The gain in net body weight of thirty day old chicks after 
+consecutively 5 weeks after 7th day of experiment with tulsi and ginger solution, with tulsi solution 
+@ 1ml/litre and with ginger solution @ 1 ml/litre was 1393±11.07, 1533±11.98 and 1588±12.10 
+gm respectively. The results were in spite of not practicing vaccination and antibiotics schedule in 
+ration. The net profit per broiler recorded was 18.82, 36.13 and 42.53 Tk respectively confirming 
+the use of herbal extract for economic, profitable and safe production of broiler for human 
+consumption. 
+ 
+Biotechnological studies in Tulsi 
+ 
+Molecular marker studies in Tulsi 
+
+
+===== PAGE 13 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   117 
+ 
+ 
+Molecular marker studies provides more detailed molecular level of information on the 
+characterization, genetic diversity, genetic relatedness among the genotypes working with the use 
+of  molecular marker aided tools available in the Ocimum species. Although efforts are been made 
+in this area of work, there is a lack of information on the molecular characterization of Ocimum 
+species. Few of the studies reported predominantly are been presented below. 
+ 
+Molecular characterization of 17 Ocimum genotypes belonging to 5 different species (O. basilicum, 
+O. americanum, O. sanctum, O. gratissimum and O. polystachyon) was attempted through Random 
+Amplified Polymorphic DNA (RAPD) and Inter Simple Sequence Repeats (ISSR) markers (Hardik 
+et al. 2015). The investigation results presented suitable guidelines for collection, conservation and 
+characterization of Ocimum genetic resources with the observation of maximum number of unique 
+alleles in Ocimum sanctum. Highly polymorphic loci (98.17 %) with 234 of 238 loci was achieved 
+through ISSR primers compared to RAPD primers (96.47 % polymorphic) with 490 of 506 loci (20 
+RAPD primers) using PCR amplification. The average PIC value for RAPD ranged was 0.937 in 
+contrast to ISSR was 0.923. The average of Jaccard’s similarity coefficient based on RAPD and 
+ISSR analysis was 0.58 and 0.52, respectively. Clustering pattern of dendrogram generated using 
+the pooled RAPD and ISSR data showed all Ocimum genotypes in their respective species groups 
+at a cutoff value of 0.49 and 0.42, respectively. Many unique species specific alleles were amplified 
+by RAPD and ISSR markers.  
+ 
+A greater variability is displayed in the genus Ocimum, (family Lamiaceae). Owing to the 
+prevalence of cross pollination, interspecific hybridization and polyploidy has complicated its 
+taxonomy and made difficulty in studying systematics. A study on investigation of morphological 
+and biochemical variability among 18 ecotypes collected from different parts of the Assam state, 
+India has found considerable diversity using all approaches (Ranju et al. 2016). Wide variability 
+was reported with quantitative morphological parameters and was not correlating often with their 
+geographical distances including biochemical parameters. The range of Euclidean distance was 6.06 
+between the closest accessions and 59.00 between the most distant accessions. The accessions were 
+divided through phylogenetic analysis into two major clusters (approximately 76% identity) and a 
+minor cluster (with three accessions) sharing only approx. 65% identity with the other two. Greater 
+diversity was observed in qualitative characters also which divided ecotypes into two to five 
+groups. Wide polymorphism was exhibited among biochemical characters with distance range from 
+
+
+===== PAGE 14 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   118 
+ 
+1.690 to 58.574. The accessions divided into two major clusters through phylogenetic mapping 
+involving approx. 80% similarity. This study stresses the requirement of further correlation of 
+distance based on both morphological and biochemical characters. 
+ 
+Essential oils from different Ocimum species show significant variations in content and 
+composition based on their distinct morphological characters and harvesting seasons. A comparison 
+study on various germplasms of Ocimum basilicum grown in India for essential oil content and 
+composition was tried to detect the superior germplasm rich in desirable chemical components, 
+such as methyl chavicol and eugenol (Parmeshwar et al, 2017). The idea was to utilize these 
+chemical components for commercial cultivation in western plains of India. Chemical 
+characterization of hydro distillation extracted essential oils was done on Gas Chromatograph–mass 
+spectrophotometer (GC–MS). Leaf colour and panicle type varied from green to purple green and 
+bunchy, individual and intermediate type. Oil percent was maximum in DOB-1 (0.70%), followed 
+by DOB-5 (0.61%) at stage II. Higher essential oil yield was found in leaves harvested at stage II 
+than stage I. Methyl chavicol content increased at full flowering (stage II), whereas Eugenol and 
+methyl eugenol content increased at onset of flowering (stage I). Only DOB-4 was rich in methyl 
+cinnamate otherwise majority of the germplasm were reported to be rich in methyl chavicol. 
+Positive correlations are observed in the intensity of purple colour of leaf with lines rich in methyl 
+chavicol. Relationship between maximum methyl cinnamate (DOB-4) content, average minimum 
+plant height and leaf size were positive. The authors alert that it is important for crop improvement 
+programme to understand these key factors in field and information on superior lines DOB-1 and 
+DOB-5. 
+ 
+Determination of diversity of nine Ocimum genotypes naturally grown in the Dakshin Dinajpur 
+district of West Bengal, India has been attempted to know the level of variation in Ocimum genus 
+based on morphological, chemical and randomly amplified polymorphic DNA (RAPD) (Tanmay et 
+al, 2017). Of the nine Ocimum genotypes tested six (O. americanum, O. africanum, O. basilicum, 
+O. gratissimum, O. kilimandscharicum and O. tenuiflorum) were different species while rest are 
+varieties. Evaluation of 18 qualitative and 17 quantitative morphological traits and chemical 
+compositions are reported. Morphological traits exhibited significant variations except in two 
+species (O. africanum and O. basilicum) and morphological data cluster displayed two different 
+groups (basilicum group and sanctum). No much variation was reported by chemical analysis 
+between morphologically similar species viz. O. africanum and O. basilicum, whereas differences 
+
+
+===== PAGE 15 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   119 
+ 
+were indicated clearly between them through RAPD analysis. Thus, the study confirms that the 
+delineation of taxonomic confirmation approach is best possible when combined analysis of 
+morphological traits, chemical and molecular markers is done. Also O. africanum is been reported 
+first time from West Bengal, India. 
+ 
+Genome sequencing studies in Tulsi 
+ 
+Whole genome sequencing of two different varieties of the sacred Indian plant - Holy basil plant 
+tulsi was reported in 2015 by two separate groups of genomic scientists – one from the CSIR-
+Central Institute of Medicinal & Aromatic Plants (CSIR-CIMAP), Lucknow and another from the 
+National Centre for Biological Sciences (NCBS), Bangalore. In the same year (June 2015) CSIR-
+CIMAP scientists published the whole genome sequence of Ocimum sanctum, which is worshipped 
+by Hindus as ‘Vishnupriya’, while in September 2015 - NCBS scientists produced the first draft 
+genome of O. tenuiflorum or the ‘Krishna’ subtype. Both the genomes kept open the immense 
+medical, metabolic and therapeutic potential of the much revered herb described in ancient Indian 
+Ayurvedic text Charaka Samhita as the “Queen of herbs”.  
+ 
+Ocimum varieties are widely used in traditional Greek, Roman, Siddha and Unani systems of 
+medicine. Tulsi is known for their therapeutic roles due to its richness in phenylpropanoids, 
+terpenoids and their derivatives. The whole genome sequence information is not only useful for 
+identifying genes involved in production of therapeutic molecules, but also helps in several 
+applications like facilitation of identifying genes which are not identified yet in synthesis of 
+important secondary metabolites in this plant and utilization of genomic data for production of 
+secondary metabolites through synthetic biology approaches. By comparing the genomic data the 
+scientists revealed that the maximum evolutionary closeness of O. sanctum to Salvia miltiorrhiza, a 
+traditional medicinal plant used in Chinese medicine system (Subhra, 2015).  
+ 
+Domesticated tulsi subtypes contain very high concentration of medicinally important metabolites. 
+This was the first time, a draft genome covering 374 million bases (61 per cent coverage) of the 
+tulsi herb has been sequenced and the main enzymes responsible for the synthesis of secondary 
+metabolites which have medicinal properties have been unravelled by a team of nearly 30 scientists 
+at the Bengaluru-based National Centre for Biological Sciences (NCBS) and the Centre for Cellular 
+and Molecular Platforms, Bengaluru. Tulsi is well known for its myriad medicinal properties like 
+
+
+===== PAGE 16 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   120 
+ 
+antibacterial, antifungal, antipyretic, antioxidant, antiseptic and anticancer. Of the nearly 40 
+secondary metabolites that have medicinal value, the genes and enzymes responsible for the 
+production of 14 metabolites have been mapped on the genome. Not much information on the 
+pathway is available for the remaining metabolites. Of the 14 metabolites that have been mapped, 
+eight have anti-cancer properties and the remaining six have antifungal, antioxidant, anti-
+inflammatory, antiseptic, and cardio protective properties. 
+ 
+It is known that tulsi contains many anticancer and other medicinally important properties. As 
+evidence to this, only two domesticated subtypes - Rama (green leaves) and Krishna (purple leaves) 
+out of the five tulsi subtypes investigated exhibited very high concentration of these medicinally 
+important metabolites. Of these two domesticated subtypes, the Rama subtype contains “high 
+abundance” of medicinally important metabolites. The concentration of eugenol (anti-infective) and 
+ursolic acid (anticancer) in both leaf and stem was more in Rama than Krishna subtype (Upadhyay 
+et al, 2015). Of the various parts of the plant, the young leaves were found to have the highest 
+concentration of the metabolites; roots and stems contain only minimal amount. The reason for the 
+abundant presence of the metabolites in leaves could be that they are the source of energy 
+production and they are most vulnerable to consumption by animals and exposure to pathogens 
+(Prasad, 2015). 
+ 
+The draft genome of Ocimum tenuiflurum L (subtype Krishna Tulsi) is reported by Atul K 
+Upadhyay and coworkers (2015). Information on whole genome sequencing was generated using 
+paired-end and mate-pair sequence libraries withIllumina Hiseq 1000 with an assembled genome 
+size of 374 Mb covering of 61 % (612 Mb estimated genome size) of genome. Transcriptomes 
+(RNA-Seq) study of Krishna and Rama Tulsi (subtypes of O. tenuiflorum) with relative expression 
+of genes in both the varieties has been reported. A detailed study of pathways for production of 
+medicinally-important specialized metabolites in comparison with parallel pathways in Arabidopsis 
+thaliana and other plants is also been done. Relatively high expression levels of anthocyanin 
+biosynthesis-related genes in leaf samples of Krishna Tulsi are presented supporting the purple 
+colouration of Krishna Tulsi leaves. Validation study by q-RT-PCR from different tissues of five 
+different species confirmed the expression of six important genes identified from genome data. This 
+study displayed the high extent of urosolic acid-producing genes in young leaves of the Rama 
+subtype. These results confirm that these are potential drugs in curing several ailments including 
+cancer using mass spectrometry due to the presence of  eugenol and ursolic acid. The study group 
+
+
+===== PAGE 17 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   121 
+ 
+has also indicated that the whole genome sequence information availability of O. tenuiflorum and 
+its analysis with small changes in amino acid at functional sites of genes underlying metabolite 
+synthesis pathways can impart special medicinal properties to this herb. 
+ 
+Bioinformatics studies in Tulsi 
+ 
+Holy basil or tulsi- Ocimum tenuiflorum, is a globally recognized medicinal plant with assembly of 
+medicinal properties. Although, there is a gap in revealing the complex interplay among its 
+constituent proteins at subcellular level with comprehensive study. In order to bridge this gap, 
+TulsiPIN, a genome scale interologous protein-protein interaction (PPI) network is developed using 
+49 template plants (Vikram Singhet al, 2019). The reported network consists of 13; 660 nodes and 
+327; 409 binary interactions. A high confidence PPI network consisting of 7; 719 nodes having 95; 
+532 interactions was inferred using domain-domain interaction information along with interolog 
+based statistics, and its reliability was further assessed using functional homogeneity and protein 
+colocalization. 1; 625 vital proteins are predicted by statistically evaluating this high confidence 
+TulsiPIN with two ensembles of corresponding random networks, each consisting of 10,000 
+realizations of Erdos-Rényi and Barabási-Albert models. Topological features of TulsiPIN 
+including small-world, scale-free and modular architecture are inspected and found to resemble 
+with other plant PPI networks. Finally, numerous regulatory proteins like transcription factors, 
+transcription regulators and protein kinases are profiled in TulsiPIN and a subnetwork of proteins 
+participating in 10 secondary metabolite biosynthetic pathways is studied. The methodology 
+developed and insights imparted would be usefulin understanding regulatory mechanisms in 
+various plant species. 
+ 
+Nanotechnological studies in Tulsi 
+ 
+The field of nanotechnology is the most active area of research in modern materials science. 
+Though there are many chemical as well as physical methods, green synthesis of nanomaterials is 
+the most emerging method of synthesis. Researchers have developed a new kind of antibiotic cotton 
+by coating the fabric with nanoparticles loaded with leaf extracts of India basil 'tulsi' (Ocimum 
+sanctum). Cotton fabrics coated with tulsi-loaded sodium alginate chitosan nanoparticles stifle the 
+growth of disease-causing bacteria and fungi. Such fabrics could be used to make scrubs to check 
+the spread of infectious diseases. A methanol-based extract proved most effective in inhibiting the 
+
+
+===== PAGE 18 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   122 
+ 
+growth of four bacteria Bacillus subtilis, Staphylococcus aureus, Escherichia coli, Pseudomonas 
+aeruginosa and two fungi Aspergillus niger and Penicillium sp. There was a 100% inhibition of all 
+test microorganisms except E. coli with leaf extract-loaded nanoparticle-coated cotton fabrics. The 
+retention of antibacterial activity after 20 washes was reported by laundry tests in coated cotton 
+fabrics. The presence of antimicrobial compounds in leaf extracts were cited by researchers as 
+attached to fiber surface by forming bonds. The compounds then permeate and rupture the cell 
+walls of microorganisms, resulting in leakage of cellular metabolites. This stops the reproduction of 
+the microorganisms. The authors of this work are from: PG & Research Department of 
+Microbiology, PSG College of Arts & Science, Coimbatore, Tamil Nadu & Defence 
+Bioengineering and Electromedical Laboratory, Bangalore, Karnataka, India; and Budapest 
+University of Technology and Economics, Hungary. DOI:10.1038/nindia.2012.132 published 
+online 14 September 2012 Nature India EISSN: 1755-3180.  
+ 
+Synthesis of antibacterial silver nanoparticles (AgNPs) using leaf broth of medicinal herb, Ocimum 
+sanctum (Tulsi) has been attempted by Charusheela and team (2013). The characterization of 
+synthesized AgNPs done by UV-Vis spectroscopy, transmission electron microscopy (TEM), and 
+X-ray diffractometry. TEM results confirmed that the mean particle of synthesized NPs was found 
+to be 18 nm. The qualitative assessment of reducing potential of leaf extract has also been carried 
+out which indicated presence of significant amount of reducing entities. FTIR analysis revealed that 
+the AgNPs were stabilized by eugenols, terpenes, and other aromatic compounds present in the 
+extract. Such AgNPs stabilized by Tulsi leaf extract were found to have enhanced antimicrobial 
+activity against well-known pathogenic strains, namely Staphylococcus aureus and E. coli. 
+ 
+Synthesis of SNPs (Silver Nanoparticles) or (Green-Silver) in aqueous medium using leaf extracts 
+of Ocimum sanctum L was studied by Bindhani and Panigrahi (2015). The characterization of 
+synthesized silver nanoparticles (SNPs) was done by the different techniques such as UV-vis 
+Spectrophotometer, XRD, FTIR and TEM. The synthesis of silver nanoparticles were confirmed 
+due to the SPR optical absorption band peak at ~440 nm by UV-vis spectrophotometer, nearly 15-
+45 nm in diameter with spherical in shape by TEM, high crystalline with the Bragg peaks of (111), 
+(200), (220) and (311) plane as the predominant orientation by XRD and FTIR confirmed the 
+presence of methoxy and allyl groups in SNPs. The reduction of Ag metal ions was performed due 
+to the presence of various types of anti-oxidants in the leaves of Ocimum sanctum L. and each 
+having a unique structure and functions. The formations of silver nanoparticles through aqueous 
+
+
+===== PAGE 19 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   123 
+ 
+medium were fairly stable and which can be incubated up to 4 months in refrigerator. At last, the 
+antimicrobial activities of AgNPs were evaluated using different bacteria strain. It was found that, 
+this biosynthesizing of silver nanoparticles may inhibit the all types of bacterial pathogenic 
+organisms competently. This recent research study opens an innovative design to progress our 
+understanding of how SNPs behave can be optimized to improve human antimicrobial activities. 
+ 
+The most effectively studied nanoparticles in the current past are those made from the noble metals 
+such as silver, gold and platinum. Nanoparticles find vast applications in various fields ranging 
+from medical to physical fields. To meet the increasing demands for commercial nanoparticles new 
+eco-friendly “green” methods of synthesis are being discovered. Plant mediated synthesis of 
+nanoparticles offers single step, easy extracellular synthesis of nanoparticles. The leaf extract of 
+Ocimum sanctum was used as a reducing agent for the synthesis of platinum nanoparticles from an 
+aqueous chloroplatinic acid (H2PtCl6·6H2O). A greater conversion of platinum ions to 
+nanoparticles was achieved by employing a Tulsi leaf broth with a reaction temperature of 100°C. 
+The successful formation of platinum nanoparticles has been confirmed by UV-Vis 
+spectrophotometer, Fourier Transform Infrared Spectroscopy (FTIR), X-Ray Diffraction (XRD), 
+Scanning Electron Microscopy (SEM) and Transmission Electron Microscopy (TEM) (Prabhu et al, 
+2017). It is evident from scanning electron microscopy that the reduced platinum particles were 
+found as aggregates with irregular shape. FTIR studies confirmed the presence of platinum 
+nanoparticles which may responsible for reduction of platinum ions to platinum nanoparticles, yet 
+further research is needed in this area to explore the possible biomolecules responsible for the 
+bioreduction process. The XRD pattern revealed the complex crystalline nature of platinum 
+nanoparticle. In this method there is no need to use high pressure, energy, temperature and toxic 
+chemicals in case of chemical and physical method. 
+ 
+Conclusion 
+ 
+With the available information and evidences from the above studies and results it is very much 
+certain that tulsi is truly all time beneficial and medicinal plant for not only common day to day 
+aliments, but also can cure cancer like diseases which are challenge for humankind. Although the 
+information provided here may serve as reconfirmation of the curative ability of the medicinal herb 
+tulsi, further studies on this sacred plant may be required to dissect more pathways underlying the 
+medicinal values using the latest tools and technology available. 
+
+
+===== PAGE 20 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   124 
+ 
+ 
+Acknowledgement 
+ 
+The authors thank gratefully to the Department of Biotechnology, College of Natural and 
+Computational Sciences, Debre Berhan University for the kind support for this work. 
+ 
+References 
+ 
+Ashok Kumar Sah, M Vijaysimha and Md. Mahamood. 2018. The Tulsi, Queen of Green 
+Medicines: Biochemistry and Pathophysiology – A Review. International Journal of 
+Pharmaceutical Sciences Review and Research 50(2): 106-114. ISSN 0976 – 044X. 
+ 
+Askarinia M, Ganji A, Jadidi-Niaragh F, Hasanzadeh S, Bahram Mohammadi B. 2019 A review on 
+medicinal plant extracts and their active ingredients against methicillin-resistant and 
+methicillin-sensitive Staphylococcus aureus. Journal of Herbmed Pharmacology. 8(3):1-12. 
+DOI: 10.15171/jhp.2019.xx. 
+ 
+Babita Labh Kayastha. 2014 Queen of herbs tulsi (Ocimum sanctum) removes impurities from 
+water and plays disinfectant. Journal of Medicinal Plants Studies 2 (2):1-8. ISSN: 2320-3862. 
+ 
+Bano N, Ahmed A, Tanveer M, Khan G M and Ansari M T. 2017 Pharmacological Evaluation of 
+Ocimum sanctum. Journal of Bioequivalence & Bioavailability 9: 387-392. DOI: 
+10.4172/jbb.1000330. 
+ 
+Batra N. G, N. Kumari and V. Sharma. 2016 Photosynthetic Performance of Ocimum sanctum 
+Morphotypes in a Semiarid Region. Journal of Herbs, Spices and Medicinal Plants. 22 (3): 
+211-224. https://doi.org/10.1080/10496475.2016.1163309. 
+ 
+Bindhani BK and Panigrahi AK. 2015 Biosynthesis and Characterization of Silver Nanoparticles 
+(SNPs) by using Leaf Extracts of Ocimum sanctum L (Tulsi) and Study of its Antibacterial 
+Activities. Journal of Nanomedicine and Nanotechnology S6: 008. doi:10.4172/2157-
+7439.S6-008. 
+ 
+Bishnu Thapa, Anjana Singh and Reshma Tuladhar. 2018 In vitro Antibacterial Effect of Medicinal 
+Plants against Multidrug Resistant Gram Negative Bacteria. Tribhuvan University Journal of 
+Microbiology 5(1): 25-31. DOI: https://doi.org/10.3126/tujm.v5i0.22298. 
+ 
+Borah R and Biswas S. P. 2018 Tulsi (Ocimum sanctum), excellent source of phytochemicals. 
+International Journal of Environment, Agriculture and Biotechnology (IJEAB) 3(5): 1732-
+1738. http://dx.doi.org/10.22161/ijeab/3.5.21 ISSN: 2456-1878. 
+ 
+Brian Krans and Ana Gotter. 2017 The Health Benefits of Holy Basil. Medically reviewed by 
+Debra Rose Wilson, PhD, MSN, RN, IBCLC, AHN-BC, CHT. Online published information. 
+ 
+Case Adams. 2019 Medicinal Benefits of Ayurvedic Holy Basil (Tulsi) Herb Online writing. 
+ 
+Charusheela Ramteke, Tapan Chakrabarti, Bijaya Ketan Sarangi, and Ram-Avatar Pandey. 2013 
+Synthesis of Silver Nanoparticles from the Aqueous Extract of Leaves of Ocimum sanctum 
+
+
+===== PAGE 21 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   125 
+ 
+for Enhanced Antibacterial Activity. Hindawi Publishing Corporation Journal of Chemistry 
+(278925): 7. http://dx.doi.org/10.1155/2013/278925. 
+ 
+Christabel Lobo. 2019 Health Benefits of Tulsi Tea. http://www.livestrong.com/article/264353-
+health benefits of tulsi tea.  
+ 
+Desi 
+Wisdom, 
+2018 
+Holy 
+Basil 
+leaves 
+of 
+Tulsi. 
+ 
+Online 
+article 
+https://www.thehealthsite.com/topics/desi-wisdom/ 
+ 
+Devendran G and U. Balasubramanian. 2011 Qualitative phytochemical screening and GC-MS 
+analysis of Ocimum sanctum L. leaves. Asian Journal of Plant Science and Research. 1 
+(4):44-48. 
+ 
+Ghoke S. S., R. Sood, N. Kumar, A. K. Pateriya, S. Bhatia, A. Mishra, R. Dixit, V. K. Singh, D. N. 
+Desai, D. D. Kulkarni, U. Dimri and V. P. Singh. 2018 Evaluation of antiviral activity of 
+Ocimum sanctum and Acacia arabica leaves extracts against H9N2 virus using embryonated 
+chicken 
+egg 
+model. 
+BMC 
+Complementary 
+and 
+Alternative 
+Medicine 
+18:174. 
+https://doi.org/10.1186/s12906-018-2238-1. 
+ 
+Hardik K. Patel, Ranbir S. Fougat, Sushil Kumar, Jigar G. Mistry and Mukesh Kumar. 2015 
+Detection of genetic variation in Ocimum species using RAPD and ISSR markers. 
+Biotechnology 5:697–707. DOI 10.1007/s13205-014-0269-y 
+ 
+Leila Mousavi, Rabeta Mohd Salleh and Vikneswaran Murugaiyah. 2018 Phytochemical and 
+bioactive compounds identification of Ocimum tenuiflorum leaves of methanol extract and its 
+fraction with an anti-diabetic potential, International Journal of Food Properties, 21(1): 2390-
+2399. DOI: 10.1080/10942912.2018.1508161. 
+ 
+Majupuria TC and Joshi DP. 1997 Religious & Useful Plants of Nepal and India Bangkok: 
+Craftsman, pp: 44-45. 
+ 
+Maurya Umashanker and Srivastava Shruti. 2011 Traditional Indian herbal medicine used as 
+antipyretic, antiulcer, anti-diabetic and anticancer: A review. International Journal of 
+Research in Pharmacy and Chemistry (IJRPC) 1(4): 1152-1159. 
+ 
+Mrutyunjay M Mirje and Sameer Uz Zaman. 2014 Evaluation of the Anti-Ulcer Activity of 
+Ocimum sanctum Linn (Tulsi) In Indomethacin-Induced Gastric Ulcers in Albino Rats. 
+International Journal of Life Sciences Biotechnology and Pharma Research, 3 (1): 274-279. 
+ 
+N. Prabhu and T. Gajendran. 2017 Green Synthesis of Noble Metal of Platinum Nanoparticles from 
+Ocimum sanctum (Tulsi) Plant Extracts. IOSR Journal of Biotechnology and Biochemistry 
+(IOSR-JBB) 3 (1): 107-112. ISSN: 2455-264X, DOI: 10.9790/264X-0301107112. 
+ 
+Palal Ravi, A Elumalai, M Chinna Eswaraiah and Raju Kasarla. 2012 A review on Krishna Tulsi, 
+Ocimum tenuiflorum Linn. International Journal of Research in Ayurveda and Pharmacy 
+(IJRAP) 3(2): 291-293. 
+ 
+Pandey BP. 1989 Sacred Plants of India: Plants for Human Kind. New Delhi: Shree publications 
+edition, pp: 34-35. 
+
+
+===== PAGE 22 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   126 
+ 
+ 
+Parmeshwar Lal Saran, Vandana Tripathy, Ram Prasnna Meena, Jitendra Kumar and Riddhi P. 
+Vasara. 2017 Chemotypic characterization and development of morphological markers in 
+Ocimum basilicum L. Germplasm. Scientia Horticulturae 215: 164–171. http://dx.doi.org/10 
+.1016/j.scienta.2016.12.007. 
+ 
+Pattanayak P, Behera P, Das D and Panda SK. 2010 Ocimum sanctum Linn. A reservoir plant for 
+therapeutic applications: An overview. Pharamcognosy Review 4(7): 95-105. 
+ 
+Prasad R. 2016 Medicinal properties of tulsi herb. On 2015 Medicinal properties of tulsi unravelled. 
+Published online.  
+ 
+Ranju Chutia, Basanta Kumar Borah, Mahendra Kumar Modi and Bidyut Kumar Sarmah. 2016 
+Population Polymorphism Study among Tulsi (Ocimum sp.) Ecotypes in Assam, India using 
+Morphological and Biochemical Parameters. International Journal of Crop Science and 
+Technology. 2(1): 32- 44. ISSN: 2458-7540. 
+ 
+Sheelu Monga, Pradeep Dhanwal, Ravinder Kumar, Anil Kumar and Vinod Chhokar. 2017 
+Pharmacological and physico-chemical properties of Tulsi (Ocimum gratissimum L.): An 
+updated review. The Pharma Innovation Journal 6(4): 181-186. 
+ 
+Shilpi Bansal, Lokesh Kumar Narnoliya, Bhawana Mishra, Muktesh Chandra, Ritesh Kumar Yadav 
+and Neelam Singh Sangwan. 2018 HMG-CoA reductase from Camphor Tulsi (Ocimum 
+kilimandscharicum) regulated MVA dependent biosynthesis of diverse terpenoids in 
+homologous and heterologous plant systems. Scientific Reports 8: 3547. DOI: 
+10.1038/s41598-017-17153-z. 
+ 
+Simoons J F. 1998 Plants of Life, Plants of Death Madison: University of Wisconsin Press; pp: 38-
+39. 
+ 
+Singh N, P Verma, B. R. Pandey and M Bhalla. 2012 Therapeutic potential of Ocimum sanctum in 
+prevention and treatment of cancer and exposure to radiation: An overview. International 
+Journal of Pharmaceuticals Sciences and Drug Research 4(2): 97-104. 
+ 
+Siyanna, October 24, 2018. Tulsi – The Indian holy power plant – Queen of herbs. Available online 
+https://healthyliving.natureloc.com 
+ 
+Sridevi M, Bright John and Yamini K, 2016. Anti-cancer effect of Ocimum sanctum methanolic 
+extract in non-small cell lung carcinoma cell line. International Journal of Pharmacy and 
+Pharmaceutical Sciences. 8(4): 242-246. 
+ 
+Subham Banik, Ranjita Mukherjee, Pranabesh Ghosh, Srabani Karmakar and Sirshendu Chatterjee. 
+2018 Estimation of plant pigments concentration from tulsi (Ocimum sanctum Linn.): a six 
+months study. Journal of Pharmacognosy and Phytochemistry; 7(4): 2681-2684.   
+ 
+Subhra Priyadarshini, 11 September 2015 Indian holy basil hot favourite of genomic scientists. 
+Published online DOI:10.1038/nindia.2015.126 
+ 
+
+
+===== PAGE 23 =====
+
+Arabian Journal of Medicinal & Aromatic Plants              
+   Tulsi (Ocimum sanctum) – a myriad medicinal plant  
+ 
+AJMAP V6 N1 2020   127 
+ 
+Tang Leon IC, Anna PK Ling, Rhun Y Koh, Soi M Chye and Kenny GL Voon. 2012 Screening of 
+anti-dengue activity in methanolic extracts of medicinal plants. BMC Complementary and 
+Alternative Medicine. 12:3. DOI: 10.1186/1472-6882-12-3. 
+ 
+Tanmay Chowdhury, Amitava Mandal, Subhas Chandra Roy and Dilip De Sarker. 2017 Diversity 
+of the genus Ocimum (Lamiaceae) through morpho-molecular (RAPD) and chemical (GC–
+MS) analysis. Journal of Genetic Engineering and Biotechnology 15: 275–286. 
+http://dx.doi.org/10.1016/j.jgeb.2016.12.004. 
+ 
+Thakur R. N, Sudhir Singh Gangwar, Ranjana Sharma and Amita Tilak. 2017 Indian Traditional 
+Shrub Tulsi (Ocimum sanctum) Use in Medicine. Imperial Journal of Interdisciplinary 
+Research (IJIR) 3(1): 1539-1543. ISSN: 2454-1362. 
+ 
+Upadhyay Atul K., Anita R. Chacko, A. Gandhimathi, Pritha Ghosh, K. Harini, Agnel P. Joseph, 
+Adwait G. Joshi, Snehal D. Karpe, Swati Kaushik, Nagesh Kuravadi,  Chandana S Lingu, J. 
+Mahita, Ramya Malarini, Sony Malhotra, Manoharan Malini, Oommen K. Mathew, Eshita 
+Mutt, Mahantesha Naika, Sathyanarayanan Nitish, Shaik Naseer Pasha, Upadhyayula S. 
+Raghavender, Anantharamanan Rajamani, S Shilpa, Prashant N. Shingate, Heikham 
+Russiachand Singh, Anshul Sukhwal, Margaret S. Sunitha, Manojkumar Sumathi, S. 
+Ramaswamy, Malali Gowda and Ramanathan Sowdhamini. 2015 Genome sequencing of herb 
+Tulsi (Ocimum tenuiflorum) unravels key genes behind its strong medicinal properties. BMC 
+Plant Biology 15:212. DOI 10.1186/s12870-015-0562-x. 
+ 
+Verma O. P, Singh Poonam and Alexander Kamin.  2019 Phytochemical Screening of Ocimum 
+sanctum (Tulsi), Azadirachta indica (Neem) and Phyllanthus emblica (Amla). International 
+Journal 
+of 
+Current 
+Microbiology 
+and 
+Applied 
+Sciences. 
+8(4): 
+682-686.  
+https://doi.org/10.20546/ijcmas.2019.804.073. 
+ 
+Vikram Singh, Gagandeep Singh, and Vikram Singh. 2019 TulsiPIN: an interologous protein 
+interactome of Ocimum tenuiflorum. (which was not peer-reviewed) is the author/funder, who 
+has granted bioRxiv a license to display the preprint in perpetuity. bioRxiv preprint first 
+posted online Jun. 24, 2019; doi: http://dx.doi.org/10.1101/680025. The copyright holder for 
+this preprint. 
+ 
+Vipul Kumar, Anurag Chakraborty, Manpreet Kaur, Sony Pandey and Manoj Kumar Jena. 2018 
+Comparative Study on Antimicrobial Activity of Tulsi (Ocimum sanctum) and Neem 
+(Azadirachta indica) Methanol Extract. Asian Journal of Pharmacology Clinical Research 
+11(12): 514-517. 
+ 
+Wasim Akram Md., Fahima Binthe Aziz, Rakibul Islam, Md. Mahmudul Hasan, Sumon Sarkar, 
+Misrat Masuma Parvez and Sharmin Akter Ripa. 2018 Effects of tulsi leaves and ginger 
+solution on growth performance and hematological profiles of broilers. Asian Australasian 
+Journal of Bioscience and Biotechnology 3 (2): 143-149. 
+ 
+ 
+Arabian Journal of Medicinal and Aromatic Plants 
+www.ajmap.info          ISSN 2458-5920 

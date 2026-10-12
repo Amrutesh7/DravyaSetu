@@ -1,0 +1,887 @@
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+HIBISCUS ROSA-SINENSIS: A BOTANICAL MARVEL WITH
+MULTIFARIOUS PHYSIOLOGICAL ACTIVITIES
+
+Dr. Yashika Sharma1* and Dr. Rajesh Sharma2
+
+1PG Scholar, Department of Dravyaguna, A & U Tibbia College and Hospital, New Delhi.
+2Associate Professor and HOD, Department of Dravyaguna, A & U Tibbia College and
+Hospital, New Delhi.
+
+ABSTRACT
+Hibiscus rosa-sinensis L., commonly known as China rose, is a
+medicinal plant with a rich history of traditional use. This
+comprehensive review explores the diverse pharmacological properties
+of Hibiscus rosa-sinensis, including its antibacterial, antifungal,
+antidiabetic, and anticancer activities. Additionally, it exhibits
+antioxidant, anti-inflammatory, and wound healing effects, making it a
+valuable botanical resource for various healthcare needs. From its
+historical significance in ancient texts to its integration into
+contemporary Ayurvedic databases, Hibiscus rosa-sinensis holds
+promising potential for modern medicine and natural remedies.
+
+KEYWORDS: Hibiscus rosa-sinensis, China rose, medicinal plant,
+pharmacological properties, modern medicine, natural remedies.
+
+INTRODUCTION
+Throughout history, medicinal plants have been extensively utilized for various purposes due
+to their remarkable ability to synthesize chemical compounds that play a vital role in
+preventing numerous diseases, including cancer and diabetes. These plants boast a diverse
+array of chemical compounds, each serving essential biological functions and acting as a
+defense mechanism against predators such as fungi, insects, and herbivorous mammals. To
+date, scientists have isolated approximately 12,000 of these compounds, although this figure
+is believed to represent less than 10% of the total number of compounds present.[1,2] The
+potential of medicinal plants and their chemical constituents continues to be a subject of great
+interest and exploration in the field of medicine and natural remedies.
+World Journal of Pharmaceutical Research
+ SJIF Impact Factor 8.084
+Volume 12, Issue 14, XXX-XXX. Review Article ISSN 2277–7105
+*Corresponding Author
+Dr. Yashika Sharma
+PG Scholar, Department of
+Dravyaguna, A & U Tibbia
+College and Hospital, New
+Delhi.
+syashika215@gmail.com
+Article Received on
+22 June 2023,
+
+Revised on 12 July 2023,
+Accepted on 01 August 2023
+
+DOI: 10.20959/wjpr202314-29269
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+Medicinal plants can be classified into three significant sectors based on their usage.
+(a) Modern medicines rely on approximately 30 to 35 medicinal plant species.
+(b) Organized and codified traditional medicines, such as Ayurveda, Siddha, Unani, Amchi,
+and Tibetan systems, draw from a broader range of about 1,200 to 2,000 medicinal plant
+species.
+(c) Local health traditions encompass practices followed by villagers, folk healers, vaidyas,
+and tribal communities, utilizing an extensive array of over 8,000 species of medicinal plants
+primarily for essential healthcare needs.[3]
+
+Each of these sectors represents a unique approach to harnessing the therapeutic potential of
+medicinal plants, contributing to a diverse and rich landscape of traditional and modern
+healthcare systems.
+
+The Hibiscus rosa sinensis L. (Malvaceae) herb is originally native to China and is well-
+known for its stunning, showy flowers. This shrub is widely cultivated in tropical regions as
+an ornamental plant, presenting various forms with flowers of different colors. Beyond its
+aesthetic appeal, Hibiscus also possesses medicinal properties, making it a key ingredient in
+numerous herbal teas.
+
+Among the different varieties, the red-flowered variety is particularly favored for its
+medicinal applications. Numerous studies have reported that different varieties of Hibiscus
+plants exhibit varying medicinal properties. However, this review primarily centers on
+exploring the therapeutic potential of the Hibiscus rosa sinensis plant and its wide-ranging
+applications in traditional and modern medicine.
+
+MATERIALS AND METHODS
+This paper includes an evidence-based overview of the pharmacological properties and
+toxicity studies of the Hibiscus rosa-sinensis, which may be helpful to establish a standard
+natural drug for further research. This article presents an in-depth review of Japa (Hibiscus)
+from different classical texts, spanning various historical periods. The present article provide
+review on Hibiscus rosa-sinensis Linn. Collecting information on the various
+pharmacological studies conducted till date.
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+Etymology Of The Word[4]
+The word "Hibiscus" has interesting origins: Dioscorides associated it with the Marshmallow
+plant. "Hibiscus" refers to a plant belonging to the mallow family, thriving in warm climate
+tes, known for its striking, large, and brightly colored flowers. It also has applications in
+producing fibers or timber.
+
+The term "rosa-sinensis" was attributed to the deep-red flowered variety, believed to have
+originated in Asia, hence the name.
+
+Chronological Observations
+Vedic Period[5]
+The Hibiscus flowers find special use in Hindu deity worship, particularly in the reverence of
+Goddess Durga/Kali. The glowing complexion of the Devi is often compared to the beauty of
+the Hibiscus flower in the Lalitopaakhyaana. The Sun God is also associated with the
+Hibiscus flower, as seen in a well-known shloka that begins with 'Japa kusumasankarsham,
+kashyapeyammaha-dyuthim'.
+
+Samhita Period
+No references to Japa are found in texts from this period.
+
+Nighantu Kala[6-8]
+Several Nighantus, including Amarakosha, Paryayaratnamala, and Raja Nighantu, mention
+Japa.
+Raja Nighantu classifies it under karavira. Bhavaprakash Nighantu includes Japa in the
+Pushpavarga. Amarakosha refers to it as java in the Vanaushadhivarga.
+
+Adhunika Kala
+Japa is identified as Hibiscus rosa-sinensis Linn. in contemporary Ayurvedic databases, such
+as the Ayurvedic Pharmacopoeia of India.
+
+Detailed information on its Morphological features, Vernacular names, Microscopic features,
+Phytochemicals, and Therapeutic uses is available. Japa is listed in the karpasadi varga of
+Nighantu Adarsha. Pushpa Ayurveda explains its therapeutic uses. Various regional books,
+including
+Paramparika
+Vaidyarachikitsa,
+Amahitidravyakosha
+in
+Karnataka,
+Sarvarogachikitsaratnam in Kerala, and Flora of Shimoga, document folklore practices
+related to Japa.
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+Taxonomical Classification:
+Kingdom
+
+: Plantae
+Subkingdom
+: Tracheobionta
+Super Division
+: Spermatophyta
+Division
+
+: Magnoliophyta
+Class
+
+: Magnoliopsida
+Subclass
+
+: Dilleniidae
+Order
+
+: Malvales
+Family
+
+: Malvaceae
+Genus
+
+: Hibiscus
+Species
+
+: Hibiscus rosa-sinensis[9]
+
+Common Names
+China rose, China rose plant, Gudhal, Gurhal, Jaba, Mandaar, Japaphool, Jasum, Jasunt,
+Jaswand, Jiapushpa.
+
+Vernacular Names
+English
+: Shoe-flower plant, Chinese Hibiscus.
+Hindi
+: Jasut, Jasum, Java, Odhul, Gurhal, Arahul.
+Marathi
+: Jasavanda, Jassvandi. Sanskrita- Japa, Java, Rudrapuspa, Aundrapuspa,
+Trisandhya.
+Bengali
+: Joba, Jiwa, Oru.
+Gujarati
+: Jasvua, Jasunt.
+Kannada
+: Dasavala.
+Malayalam
+: Himbarathi, Ayamparatti, Chebarathi.
+Punjabi
+: Jasum, Jaipushpa, Gurhal.
+Tamil
+: Sapattuu, Semparutti.[10]
+
+Rasa Panchaka
+Rasa
+
+: Kashaya, Tikta, Madhura.
+Guna
+: Laghu, Snigdha.
+Veerya
+: Sheeta.
+Vipaka
+: Katu, Madhura.
+Doshaghnata : Kaphapittashamaka.
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+Rogaghnata
+: Kshata, Indralupta, Daha, Unmada, Kasa.
+Karma
+: Keshya, Hirdya, Raktarodhaka, Stambhana[7]
+
+Economic And Botanical Significance of Hibiscus
+Shoe Flower: The dried powder of Hibiscus is utilized as shoe shine or polish, hence earning
+it the name "shoe flower." Moreover, its dry flower powder is a common component in
+various herbal tea blends.
+
+Economic Importance: The mallow family holds considerable economic significance due to
+the abundance of fiber-yielding plants. Nearly all genera within this family possess some
+form of fiber-producing capability.
+
+Dye Production: Petals of Hibiscus are used to create dyes, adding to their practical
+applications.
+
+Landscaping: Hibiscus plants are often employed for hedges and screens, enhancing their
+role in landscaping.
+
+Cosmetics: The juice extracted from Hibiscus petals is utilized in China for shoe-blacking
+and mascaras, showcasing its diverse applications.
+
+Substitutes And Adulterants
+Adulteration: The drug powder of Hibiscus may sometimes be adulterated with
+H.schizopetalus Hook.f., H. mutabilis Linn., and Malvaviscusmollis DC. To distinguish the
+genuine drug, one can observe the presence of various types of trichomes.
+
+Culinary Use: Young leaves of Hibiscus occasionally serve as a substitute for spinach in
+culinary preparations.
+
+Parts Used And Dosage
+Parts Used
+: Flowers, leaves, and roots.
+Dosage
+: Typically, the powder is administered in quantities ranging from 5 to 10
+grams.
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+Geographical distribution
+The origin and historical distribution of the red Hibiscus remain a mystery. The genus
+Hibiscus comprises around 200 species, which are naturally found across tropical and
+subtropical regions. As a popular choice, Hibiscus is often cultivated as a garden ornamental,
+thriving in elevations from sea level up to 500 meters. However, it is sensitive to frost and
+may experience freezing in mild winters. Nonetheless, it exhibits resilience by regenerating
+from the base during spring. To ensure optimal growth, it flourishes in well-drained, fertile
+soil with abundant organic matter, basking in full sunlight.
+
+Pharmacological/ Biological Activities
+1. Antibacterial Activity
+Methanol extracts from H. rosa-sinensis leaves exhibited antibacterial activity against
+Pseudomonas aeruginosa, Escherichia coli, Enterobacter aerogenes, and Streptococcus
+pyogenes. The main compounds responsible for this activity were flavonoids, tannins,
+terpenoids, saponins, and alkaloids. Both aqueous and methanol extracts showed inhibition
+zones against various bacteria, with different magnitudes of inhibition. The extracts from the
+flowers and leaves were effective against Bacillus subtilis, E. coli, and S. aureus. The
+antibacterial activity increased with higher extract concentrations. The identified compounds
+in the extracts included cardiac glycosides, anthraquinones, phlobatanins, carbohydrates,
+phytosterols, proteins, glycosides, tannins, phenols, and flavonoids. Alkaloids and saponins
+were found in both extracts.[11-15]
+
+2. Antifungal Activity
+Previous studies have confirmed the noteworthy antifungal activity of Hibiscus rosa sinensis.
+Its leaves, roots, and flowers yield extracts that exhibit inhibitory effects against several
+fungi, including Candida albicans, Aspergillus niger, and Candida parapsilosis. The
+antifungal properties are attributed to the presence of bioactive compounds like flavonoids,
+tannins, terpenoids, saponins, and alkaloids.[16]
+
+Methanol leaf extracts of H. rosa sinensis exhibited notable inhibition against Aspergillus
+niger and Candida albicans. Ethyl alcohol extracts from the plant's flowers also displayed
+high zones of inhibition against Candida parapsilosis and Aspergillus niger.[17] Additionally,
+the plant's methanol extracts inhibited the growth of other fungi, including C. glabreta, A.
+flavus, and C. albicans, while the flower extract showed activity against various fungi except
+Aspergillus flavus.[18,19]
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+3. Reproductive Effects
+(a) Male Reproductive Effects
+Benzene chloroform and alcoholic extracts decreased spermatogenic elements and sperm
+count in mice.[20] Ethanol, chloroform, and ethyl acetate extracts caused a decrease in testis
+weight and sperm parameters in mice.[21] Oral administration of aqueous and alcoholic
+extracts did not significantly affect the reproductive organs of male rats.[22]
+
+(b). Female Reproductive Effects
+Benzene extract disrupted the estrous cycle and reduced the weight of ovaries, uterus, and
+pituitary gl in rats.[23] Benzene extract caused an irregular estrous cycle, atretic follicles, and
+absence of corpora lutea in mice.[24] Ethanolic and benzene extracts reduced glycogen content
+in the uterus of rats.[25]
+
+(c) Anti-Fertility Effects
+Benzene hot extracts from flowers, leaves, and stem barks of Hibiscus rosa-sinensis
+prevented pregnancy in female rats.[26] Benzene extract administered during early pregnancy
+caused anti-implantation effects and inhibited endometrial capillaries in mice.[27] Ethanolic
+extract of the roots showed anti-implantation and uterotropic activity in rats.[28] Benzene
+extract administered during early pregnancy led to a failure of implantation and affected
+uterine composition in mice.[29]
+
+(d) Effects on Diabetic Pregnancy
+Aqueous extract of Hibiscus rosa-sinensis flowers had both deleterious and beneficial effects
+on maternal-fetal outcomes in diabetic rats.[30] Treatment with the extract improved maternal
+and fetal weights and reduced certain biochemical parameters in diabetic pregnant rats.[30]
+
+4. Antioxidant Effects
+Hibiscus rosa-sinensis flower extracts exhibit strong antioxidant activity. The ethanolic
+extract scavenged hydrogen peroxide effectively and contained alkaloids, tannins, steroids,
+glycosides, and flavonoids. Methanolic and ethanolic extracts showed DPPH radical
+scavenging activity, with the methanolic extract having higher phenolic and flavonoid
+contents. Aqueous stem extracts had higher DPPH scavenging activity. Water extracts of
+petals demonstrated significant DPPH scavenging activity due to their iron content.[31,32,33]
+Aqueous leaf extracts had slightly higher antioxidant activity than ethanol extracts. Different
+flower colors and leaf types had varying antioxidant activities. Hibiscus rosa-sinensis extract
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+exhibited higher antioxidant capacity than the standard BHT. Its antioxidant activity is
+attributed to flavonoids and natural phenolics, making it a potential natural antioxidant
+source.[34,35,36,37]
+
+5. Antidiabetic Activity
+Hibiscus rosa sinensis extracts have been found to possess significant anti-diabetic properties
+in various animal models and clinical trials. The alcoholic leaf extracts exhibited oral
+hypoglycemic effects in non-obese type I diabetic mice, leading to a significant reduction in
+blood glucose levels.[38] Additionally, root extracts demonstrated anti-diabetic effects in
+alloxan-induced type II diabetic rats.[39] Furthermore, ethanolic leaf extracts showed
+promising results in reducing blood glucose levels and providing renal and hepatic protection
+in streptozotocin-induced diabetic rats.[40,41] Even the ethanolic flower extract displayed anti-
+hyperglycemic activity in alloxan-induced hyperlipidemic rats.[42,43,44]
+
+In clinical trials involving type II diabetic patients, H. rosa sinensis flower powder proved
+beneficial by reducing fasting and postprandial blood glucose levels, as well as lowering total
+cholesterol and triglyceride levels.[45] These combined findings highlight the potential of
+Hibiscus rosa sinensis extracts as effective and multi-faceted anti-diabetic agents.
+
+6. Antihyperlipidemic Activity
+The oral administration of Hibiscus rosa-sinensis Linn flower ethanolic extract at a dosage of
+500 mg/kg b.w was evaluated in hyperlipidemic rats induced by triton and atherogenic diet.
+In the triton model, the extract significantly lowered serum lipid levels, including total
+cholesterol, triglycerides, phospholipids, LDL, and VLDL, while increasing HDL levels.
+Similarly, in the atherogenic diet model, the extract significantly reduced serum lipid levels
+and increased HDL levels compared to control groups. These findings suggest the potential of
+Hibiscus rosa-sinensis extract in managing hyperlipidemia.[46]
+
+7. Anticancer Activity
+Hibiscus rosa-sinensis extract has been found to exhibit protective effects against tumor
+promotion in cancer development. In a study using mouse skin, the extract mitigated
+hyperproliferation and oxidative damage induced by benzoyl peroxide and ultraviolet
+radiation. Pretreatment with the extract restored levels of cellular protective enzymes,
+reduced malondialdehyde formation and hydrogen peroxide content, and decreased ornithine
+decarboxylase activity and thymidine incorporation in DNA.[47]
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+Furthermore, the chemo-preventive activity of Hibiscus rosa-sinensis extract was investigated
+in mouse skin carcinogenesis induced by 7,12-dimethyl benz(a)anthracene (DMBA)/croton
+oil and 12-O-tetradecanoyl phorbol-13-acetate (TPA). Application of the extractbeforeo
+Crotonil resulted in a significant reduction in the number of tumors and the percentage of
+tumor-bearing mice. The extract also delayed the appearance of the first tumor. Additionally,
+pretreatment with the extract and the compound gentisic acid restored the levels of
+glutathione (GSH), antioxidant enzymes, and metabolizing enzymes, while reducing
+malondialdehyde formation and hydrogen peroxide content.[48]
+
+The cytotoxic activity of different extracts of Hibiscus rosa-sinensis was evaluated against
+cancer cell lines. Methanol extracts of the leaf showed the highest cytotoxic activity against
+leukaemic cancer cells, followed by petroleum ether and ethyl acetate extracts. Similarly,
+chloroform and aqueous extracts of the flower exhibited inhibition of cell viability against
+MCF-7 cell lines in a dose-dependent manner.[49] The aqueous extracts specifically inhibited
+melanoma cell growth without affecting non-transformed cells and contained low molecular
+weight growth inhibitory compounds.[50]
+
+8. Hair Growth Promoting Activity
+Hibiscus rosa sinensis extracts have shown hair growth-promoting activity in animal studies.
+The petroleum ether leaf extract increased hair length and density, while the hydrolcholic leaf
+extract improved hair length.[51,52] The extracts stimulated the anagen phase of hair follicles
+and showed potential comparable to minoxidil.[53,54] Additionally, the aqueous flower extract
+increased hair length in rats. Further research is needed to explore their mechanisms and
+potential applications for hair growth.[55]
+
+9. Antioxidant Effects
+Hibiscus rosa-sinensis extracts were evaluated for antioxidant potential. Methanol and
+ethanol extracts showed high phenolic and flavonoid contents, as well as significant DPPH
+scavenging and linoleic acid inhibition.[56] Flower extracts effectively scavenged hydrogen
+peroxide and superoxide radicals.[57] Leaves exhibited excellent antioxidant activity
+surpassing synthetic antioxidants.[58] Hibiscus rosa-sinensis displayed strong antioxidant and
+ferric-reducing abilities.[59] Petal extracts demonstrated effective antioxidant activity in
+various assays.[60]
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+10. Neuroprotective Activity
+The methanolic extract of H. rosa-sinensis roots exhibited analgesic, sedative, and anxiolytic
+effects in mice and rats. It contained phytochemicals like tannins, flavonoids, saponins, and
+glycosides.[61] Another study showed that the methanol root extract improved learning,
+memory deficits, and anxiety induced by cerebral ischemia in rats.[62] The petroleum ether
+flower extract enhanced spatial memories in rats with cognitive decline.[63] Additionally, the
+ethanolic extract of H. rosa-sinensis roots displayed significant antidepressant activity in mice
+and rats.[64]
+
+11. Immunomodulatory Activity
+Hydro-alcoholic extract of dried Hibiscus rosa-sinensis flowers showed immunological
+effects, while the extract of Euphorbia neriifolia had a stronger impact on immune
+components.[65] The aqueous extract of Hibiscus rosa-sinensis increased plaque-forming cells,
+antibody titer, and DTH response in mice while altering IL-1alpha and IL-2 levels.[66]
+
+12. Wound Healing Activity
+Hibiscus rosa-sinensis flower extract demonstrated wound healing activity, reducing
+epithelialization time and wound area.[67] The leaf extracts also showed significant tensile
+strength and improved histological features in wound healing.[68] In mice, the extract
+enhanced wound closure and strength. It was effective in promoting healing in both thermal
+and chemical burn wounds.[69]
+
+13. Gastro-protective Activity
+The aqueous-ethanolic extract of Hibiscus rosa sinensis aerial parts provided mucosal
+protection in the gastric tissues of rats. It reduced gastric secretion and acidity while
+increasing pH.[70] The extract showed a significant decrease in ulcer index and exhibited
+gastro-protective activity in various ulcer models. The presence of carbohydrates, sterols,
+flavonoids, glycosides, and tannins contributed to its effects.[71]
+
+14. Cardio-protective Activity
+The administration of H. rosa-sinensis leaf extracts lowered blood pressure in both
+hypertensive and non-hypertensive rats. The extract showed potential kidney function
+interference.[72] In vitro studies demonstrated cardio-protective effects, improving post-
+ischemic recovery and reducing ventricular premature beats and tachycardia.[73]
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+15. Anticonvulsant Activity:
+The ethanolic extracts of Hibiscus rosa-sinensis flowers showed anticonvulsant activity.
+Further fractionation indicated that the acetone-soluble part of the ethanolic extract possessed
+this activity. The fraction protected animals from various types of convulsions induced by
+different substances, such as maximum electroshock, electrical kindling, pentylenetetrazole,
+lithium-pilocarpine, and electrical kindling. It also counteracted the effects of D-
+amphetamine and enhanced pentobarbitone-induced sleep. Additionally, it increased the
+levels of gamma-aminobutyric acid (GABA) and serotonin in the brain.[77]
+
+16. Antidepressant Effects:
+The crude ethanolic extract of Hibiscus rosa-sinensis flowers exhibited an antidepressant
+effect. The study used forced-induced swimming test (FST), tail suspension test (TST), and
+open field test (OFT) as parameters. The extract showed a significant dose-dependent
+decrease in immobility time in FST and TST. However, it did not produce significant effects
+on OFT. The extract also affected the levels of monoamine oxidase A (MAOA) and
+monoamine oxidase B (MAOB), with the 250mg/kg dose significantly influencing
+MAOB.[78]
+
+17. Anti-inflammatory Activity
+Hibiscus rosa-sinensis extracts have demonstrated anti-inflammatory activity in different
+models.
+Rectal administration of H. rosa-sinensis hydroalcoholic leaf extracts reduced colon ulcer
+areas in rats with colitis.[79] Ethanol extracts of H. rosa-sinensis flowers and leaves reduced
+paw edema in rats induced by carrageenan.[80] Phytochemicals present in the extracts, such as
+steroids, polyphenols, alkaloids, and flavonoids, likely contribute to their anti-inflammatory
+effects.[79]
+
+18. Antipyretic Activity
+Hibiscus rosa-sinensis extracts showed antipyretic activity: Aqueous root extract reduced
+rectal temperature in rats with yeast-induced pyrexia. The extract exhibited analgesic effects
+in the tail-flicking test.[81] Aqueous leaf extract lowered rectal temperature in mice.[82] These
+findings indicate the potential of Hibiscus rosa-sinensis as an antipyretic agent.
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+19. Antiparasitic Activity
+Hibiscus rosa-sinensis leaf methanol extract exhibited significant antiparasitic effects against
+Hymenolepis diminuta.
+
+In vitro study: The extract paralyzed the worms within 3 hours and caused mortality within
+4 hours at a concentration of 40 mg/ml.
+
+In vivo study: The highest dose (800 mg/kg) of the extract reduced eggs per gram (EPG)
+count by 66.55% and worm count by 75.00% in infected rats.[83]
+
+20. Fibrinolytic Effects
+The aqueous extract of Hibiscus rosa-sinensis was investigated for its fibrinolytic effect, and
+the specific fraction responsible for this activity was identified. The results demonstrated that
+the extract exhibited potent fibrinolytic activity without causing haemolysis. Among the
+fractions tested, fraction 5 showed the highest and most significant fibrinolytic activity.[84]
+
+21. Anti-haemolytic Effects
+The anti-haemolytic activity of Hibiscus rosa-sinensis flowers was assessed in vitro. The
+flower extract demonstrated a significant reduction in hydrogen peroxide-induced haemolysis
+and lipid peroxidation, indicating its ability to protect erythrocytes from damage.[57]
+
+22. Urinary Effects
+The extract inhibits crystal aggregation and interferes with the early stages of stone
+formation, suggesting potential for treating urolithiasis.[85] Urinary volume and electrolyte
+extraction: In rats, the extract increases urinary volume and the excretion of sodium and
+chloride ions.[86]
+
+23. Hepato-protective Activity
+The ethanolic extract of Hibiscus rosa-sinensis leaves alleviated the liver from piroxicam-
+induced toxicity in mice. The extract was administered orally at 30 mg/kg for 15 days. The
+liver enzymes (alanine transaminase, aspartate transaminase, and alkaline phosphatase) in the
+blood were significantly lower in the extract-treated group than in the piroxicam-treated
+group. The extract also enhanced the antioxidant status of the liver by reducing lipid
+peroxidation and increasing the activities of superoxide dismutase, catalase, and glutathione
+peroxidase, which showed its potential to prevent oxidative stress-mediated hepatic
+damage.[87]
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+24. Effects On Colitis
+Hibiscus rosa-sinensis hydroalcoholic leaf extract showed ameliorative effects in acetic acid-
+induced colitis in rats. It reduced oxidative stress, colonic inflammation markers (NO and
+TNF-α), and increased antioxidant levels (SOD and GSH) at doses of 100 and 200 mg/kg.[88]
+
+25. Antitussive Effects
+The methanolic extract of Hibiscus rosa-sinensis demonstrated antitussive activity in a cough
+model induced by citric acid. It significantly reduced the number of coughing episodes,
+similar to the effect of codeine.[89]
+
+26. Antiviral Activity
+The ethanol (80%) extract of freeze-dried plant showed equivocal antiviral activity against
+coxsackie B2, measles, and poliovirus I in cell culture at varying concentrations. However, it
+was inactive against adenovirus, herpes virus type I, and semlickiforest virus in terms of
+plaque inhibition.[90]
+
+DISCUSSION
+Hibiscus rosa-sinensis, also known as Japa, is a plant with ornamental value that has been
+grown in India since ancient times. It is widely distributed across the country and has various
+pharmacological activities. The plant has been described in many classical Ayurvedic texts,
+except the Samhitas. It can act as an antibacterial and antifungal agent, thanks to the
+flavonoids, tannins, terpenoids, saponins, and alkaloids in its extracts. These compounds
+make it a potential natural remedy for infections. Moreover, the plant can affect reproductive
+health, lower blood sugar and cholesterol levels, and inhibit cancer cells, suggesting a broad
+spectrum of therapeutic uses.
+
+The antioxidant and neuroprotective activities of Hibiscus rosa-sinensis suggest its potential
+in managing oxidative stress and supporting brain health. The plant's ability to promote
+wound healing, gastro-protection, and cardio-protection further adds to its medicinal value.
+However, caution is necessary, as high doses may lead to hepatotoxicity and nephrotoxicity,
+emphasizing the need for proper dosage regulation and safety considerations.
+
+CONCLUSION
+In conclusion, Hibiscus rosa-sinensis exhibits diverse pharmacological activities that hold
+promise for natural therapeutic applications. Its extracts demonstrate potent antibacterial and
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+antifungal effects, making it a potential candidate for developing antimicrobial agents. The
+plant's impact on reproductive health, along with its antidiabetic and antihyperlipidemic
+properties, suggests possible applications in managing diabetes and related cardiovascular
+conditions.
+
+Moreover, Hibiscus rosa-sinensis shows promise as a potential anticancer agent, displaying
+chemo-preventive and cytotoxic effects against cancer cells. Its antioxidant and
+neuroprotective properties offer potential benefits in combating oxidative stress and
+supporting brain health. Furthermore, the plant's wound healing, gastro-protective, and
+cardio-protective activities indicate its potential in promoting tissue repair and maintaining
+gastrointestinal and cardiovascular health.
+
+However, the potential for hepatotoxicity and nephrotoxicity at high doses necessitates
+caution in its use and highlights the importance of further research to determine safe and
+effective therapeutic doses.
+
+In conclusion, Hibiscus rosa-sinensis holds great potential for natural therapeutic
+applications, but comprehensive research, including pre-clinical and clinical studies, is
+required to fully explore its medicinal benefits, identify active compounds, and ensure its
+safety for human use. With continued investigation, this medicinal plant may contribute
+significantly to the development of natural medicines for various health conditions.
+
+REFERENCES
+1. L. C. Tapsell, I. Hemphill, L. Cobiac, C. S. Patch, D. R. Sullivan, M. Fenech, S.
+Roodenrys, J. B. Keogh, P. M. Clifton, P. G. Williams and V. A. Fazio, Health benefits of
+herbs and spices: the past, the present, the future, Med. J. Aust, 2006; 185(4): S4-24.
+2. P. K. Lai and J. Roy, Antimicrobial and chemopreventive properties of herbs and spices,
+Current Medicinal Chemistry, 2004; 11(11): 1451-1460.
+3. S. A. Dahanukar, R. A. Kulkarni and N. N. Rege, Pharmacology of medicinal plants and
+natural products, Indian Journal of Pharmacology, 2000; 32(4): S81-S118.
+4. http://niimh.nic.in/ebooks/eNighantu/paryayaratnamala/?mod=read
+5. Bhavamishra, Bhavaprakasha Nighantu. Hindi Commentary by K.C.Chunekar, Varanasi:
+Published by Chaukhumbha Bharathi Academy, 1st Edition, 2002; 984.
+6. Shodala, Shodala Nighantu. Commentary by Pandey G, Dwivedi R R editor, Varanasi:
+Chowkambha Sanskrit series office, 1 st Edition, 2009; 538.
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+7. Lucas D S. Dravyagunavijnana- study of Dravyaguna Meteriamedica, Varanasi:
+Chaukambha Bharathi Academy, republished, 2013; 2(8): 911.
+8. Saxena and Saxena, Plant Taxonomy. Meerut- Pragati Prakashana, 4th Edition, 2004,
+628.
+9. ITIS, Hibiscus rosa-sinensis, https://www.itis.gov/ servlet/SingleRpt/ SingleRpt?
+search_topic=TSN&search_value=21616#null
+10. V. M. Jadhav, R. M. Thorat1 ,V.J. Kadam and N. S. Sathe, Hibiscus rosa sinensis Linn –
+‘‘Rudrapuspa’’ : A Review, Journal of Pharmacy Research, 2009; Vol.2(7): 1168-1173
+11. Nakatani M, Fukunaga Y, Hase T. Aliphatic compounds from Hibiscus rosa-sinensis.
+Phytochemistry, 1986; 25{2): 449-45 [79]. Aggrawal SK, Rastogi PR. Triterpenoids of
+Hibiscus rosa-sinensis Linn. Indian J Pham, 1971; 33 (2): 41-42.
+12. Hemarana K, Jeyashree KV, Babu M, Kannan M. Preliminary bioactive compounds
+screening and antibacterial activity of methanolic extract of Hibiscus rosa sinensis against
+selected skin pathogens. . Research Journal of Pharmaceutical, Biological and Chemical
+Sciences, 2014; 5(2): 1210–1218.
+13. Udo IJ, Ben MG, Etuk CU, Tiomthy AI. Phytochemical, proximate and antibacterial
+properties of Hibiscus rosa-Sinensis L. Leaf. Journal of Medicinal Plants Studies, 2016;
+4(5): 193–195.
+14. Agarwal S, Prakash R. Evaluation of antibacterial activity of Hibiscus rosa-sinensis
+flower extract against E. coli and B. subtillis. Biological Forum – An International
+Journal, 2014; 6(2): 194–196.
+15. Tiwari U, Yadav P, Nigam D. Study on phytochemical screening and antibacterial
+potential of methanolic flower and leaf extracts of Hibiscus rosa sinensis. International
+Journal of Innovative and Applied Research, 2015; 3(6): 9–14.
+16. Hemarana K, Jeyashree KV, Babu M, Kannan M. Preliminary bioactive compounds
+screening and antibacterial activity of methanolic extract of Hibiscus rosa sinensis against
+selected skin pathogens. Research Journal of Pharmaceutical, Biological and Chemical
+Sciences, 2014; 5(2): 1210–1218.
+17. Kumari OS, Rao NB, Reddy VK. Phyto-chemical analysis and antimicrobial activity of
+Hibiscus rosa-sinensis. World Journal of Pharmacy and Pharmaceutical Sciences, 2015;
+4(5): 766–771
+18. Sanjesh R, Kanu P, Vaidhun B. Isolation of herbal plants: antifungal and antibacterial
+activities. Journal of Pharmaceutical Science and Bioscientific Research, 2012; 2(1): 25–
+29.
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+19. Nilima W, Deepavali S. Antifungal activity of selected plant extracts against important
+seed borne fungi of maize. International Journal of Pharma and Bio Sciences, 2013; 4(3):
+163–170.
+20. Sharawy S, Ibrahim NA. The effects of Hibiscus rosa sinunsis flower extracts on
+spermatogenesis and sperm parameters of mice. GJBAHS, 2014; 3(2): 32-35.
+21. Tan CH. Is Hibiscus rosa-sinensis Linn. a potential source of antifertility agents for
+males? Int J Fertil, 1983; 28(4): 247-248.
+22. Mishra N, Tandon VL, Munjal A. Evaluation of medicinal properties of Hibiscus rosa-
+sinensis in male Swiss albino mice. International Journal of Pharmaceutical and Clinical
+Research, 2009; 1(3): 106-111.
+23. Kholkute SD, Chatterjee S, Udupa KN. Effect of Hibiscus rosa-sinensis Linn. on oestrous
+cycle & reproductive organs in rats. Indian J Exp Biol, 1976; 14(6): 703-704.
+24. Murthy DR, Reddy CM, Patil SB. Effect of benzene extract of Hibiscus rosa-sinensis on
+the estrous cycle and ovarian activity in albino mice. Biol Pharm Bull, 1997; 20(7): 756-
+758.
+25. Prakash AO. Glycogen contents in the rat uterus: response to Hibiscus rosa-sinensis Linn.
+extracts. Experientia, 1979; 35(8):1122-1123.
+26. Kholkute SD, Mudgal V, Udupa KN. Studies on the antifertility potentiality of Hibiscus
+rosa-sinensis. Parts of medicinal value; selection of species and seasonal variations.
+Planta Med, 1977; 31(1): 35-39.
+27. Pal AK Bhattacharya K, Kabir SN, Pakrashi A. Flowers of Hibiscus rosa-sinensis, a
+potential source of contragestative agent: II. Possible mode of action with reference to
+anti-implantation effect of the benzene extract. Contraception, 1985; 32(5): 517-529.
+28. Vasudeva N, Sharma SK. Post-coital antifertility activity of Hibiscus rosa-sinensis Linn
+roots. Evid Based Complement Alternat Med, 2008; 5(1): 91-94.
+29. Kabir SN, Bhattacharya K, Pal AK, Pakrashi A. Flowers of Hibiscus rosa-sinensis, a
+potential source of contragestative agent: I. effect of benzene extract on implantation of
+mouse. Contraception, 1984; 29(4): 385-397.
+30. Afiune LAF, Leal-Silva T, Sinzato YK, Moraes-Souza RQ, Soares TS, Campos KE, et al.
+Beneficial effects of Hibiscus rosa-sinensis L. flower aqueous extract in pregnant rats
+with diabetes. PLoS ONE, 2017; 12(6): e0179785.
+31. Ghosh A, Dutta A. GC-MS analysis and study of potential antioxidant activity of the
+crude ethanolic flower extract of Hibiscus rosa sinensis L (wild variety) by hydrogen
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+peroxide scavenging assay. International Journal of Current Trends in Science and
+Technology, 2017; 7(11): 20405–20410.
+32. Khan ZA, Naqvi SAR, Mukhta A, Hussain Z, Shahzad SA. Antioxidant and antibacterial
+activities of Hibiscus rosa-sinensis Linn flower extracts. Pakistan Journal of
+Pharmaceutical Sciences, 2014; 27(3): 469–474.
+33. Garg D, Shaikh A, Muley A, Marar T. In-vitro antioxidant activity and phytochemical
+analysis in extracts of Hibiscus rosa-sinensis stem and leaves. Free Radicals and
+Antioxidants, 2012; 2(3): 41–46.
+34. Johnson S, Abdul Razack S, Sellaperumal P, Ramakrishnan G, Jayakrishnan P.
+Antioxidant activity of iron isolated from petals of Hibiscus rosa sinensis . EC
+Microbiology, 2017; 7(1): 14–20.
+35. Prasanna R. Evaluation of antioxidant activity of phenol, Hibiscus rosa sinensis , neem
+and leaves extract at different infusion times. International Journal of Advance Research,
+Ideas and Innovations in Technology, 2017; 3(1): 281–286.
+36. Prasad MP. In vitro Phytochemical Analysis and Antioxidant Studies of Hibiscus Species.
+International Journal of Pure & Applied Bioscience, 2014; 2(3): 83–88.
+37. Abdel Ghaffar FR, El-Elaimy IA. In vitro, antioxidant and scavenging activities of
+Hibiscus rosa sinensis crude extract. Journal of Applied Pharmaceutical Science, 2012;
+2(1): 51–58.
+38. Moqbel F, Naik PR, Najma HM, Selvaraj S. Antidiabetic properties of Hibiscus rosa
+sinensis L. leaf extract fractions on nonobese diabetic (NOD) mouse. Indian journal of
+experimental biology, 2011; 49(1): 24– 29.
+39. Kumar V, Mahdi F, Khanna AK, Singh R, Chander R, Saxena JK, et al. Antidyslipidemic
+and antioxidant activities of Hibiscus rosa sinensis root extract in alloxan induced diabetic
+rats. Indian Journal of Clinical Biochemistry, 2013; 28(1): 46–50.
+40. Al Mamun, Islam S, Alam K, Abdur Rahman A, Rashid M. Effects of ethanolic extract of
+Hibiscus rosa-sinensis leaves on alloxan-induced diabetes with dyslipidemia in rats.
+Bangladesh Pharmaceutical Journal, 2013; 16(1): 27–31.
+41. Zaki LH, Mohamed SM, Bashandy SAE, Morsy FA, Tawfik KM, Shahat AA.
+Hypoglycemic and antioxidant effects of Hibiscus rosa sinensis L. leaves extract on liver
+and kidney damage in streptozotocin induced diabetic rats. African Journal of Pharmacy
+and Pharmacology, 2017; 11(13): 161–169.
+42. Ghosh A, Dutta A. Antidiabetic effects of ethanolic flower extract of Hibiscus rosa
+sinensis (L) on alloxan induced diabetes in hyperlipidaemic experimental Wister rats
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+(WNIN). International Journal of Engineering Development and Research, 2017; 5(4):
+674– 679.
+43. Afiune LAF, Leal-Silva T, Sinzato YK, Moraes-Souza RQ, Soares TS, Campos KE, et al.
+Beneficial effects of Hibiscus rosa-sinensis L. flower aqueous extract in pregnant rats
+with diabetes. PLoS One, 2017; 12(6): 1–13.
+44. Pethe M, Yelwatkar S, Gujar V, Varma S, Manchalwar S. Antidiabetic, hypolipidimic
+and antioxidant activities of Hibiscus rosa sinensis flower extract in alloxan induced
+diabetes in rabbits. International Journal of Biomedical and Advance Research, 2017;
+8(4): 138–143.
+45. Sharma K, Pareek A, Chauhan ES. Evaluation of hyperglycemic and hyperlipidemic
+mitigating impact of Hibiscus rosa sinensis (gudhal) flower in type ii diabetes mellitus
+subjects. International Journal of Applied Biology and Pharmaceutical Technology, 2016;
+7(2): 223–228.
+46. Sikarwar MS, Patil MB. Antihyperlipidemic activity of Hibiscus rosa sinensis Linn.
+ethanolic extract fractions. International Journal of Health & Allied Sciences, 2015; 4(2):
+73–78.
+47. Sharma S, Sultana S. Effect of Hibiscus rosa-sinensis extract on hyper- proliferation and
+oxidative damage caused by benzoyl peroxide and ultraviolet radiations in mouse skin.
+Basic and Clinical Pharmacology and Toxicology, 2004; 95: 115-220.
+48. Sharma S, Khan N, Sultana S. Study on prevention of two-stage skin carcinogenesis by
+Hibiscus rosasinensis extract and the role of its chemical constituent, gentisic acid, in the
+inhibition of tumour promotion response and oxidative stress in mice. Eur J Cancer Prev,
+2004; 13(1): 53-63.
+49. Arullappan S, Muhamad S, Zakaria Z. Cytotoxic activity of the leaf and stem extracts of
+Hibiscus rosasinensis (Malvaceae) against leukaemic cell line (K-562). Tropical Journal
+of Pharmaceutical Research, 2013; 12 (5): 743-746.
+50. Goldberg KH, Yin AC, Mupparapu A, Retzbach EP, Goldberg GS, Yang CF.
+Components in aqueous Hibiscus rosa-sinensis flower extract inhibit in vitro melanoma
+cell growth. J Tradit Complement Med, 2016; 7(1): 45-49.
+51. Pathan A, Pathan M, Garud A. Effect of Hibiscus rosa sinensis , calotropis gigantea and
+polyherbal formulation on stress induced alopecia. International Journal Of
+Pharmaceutical Innovations, 2012; 2(6): 20–29.
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+52. Singh N, Tailang M, Pathak AK. Evaluation of hair growth activity of Hibiscus rosa-
+sinensis and calotropis gigantea leaves on stress induced alopecia. World Journal of
+Pharmaceutical Research 2017; 6(17): 477–484.
+53. Agrawal A, Pal VK, Sharma S, Gupta A, Irchhiaya R. Phytochemical investigation and
+hair growth promoting activity of Hibiscus rosasinensis leaf extract. Journal of
+Chronotherapy and Drug Delivery, 2016; 7(1): 31–39. J Ayu Herb Med ǀ Vol 4 Issue 3 ǀ
+July- September 2018 146.
+54. Pathak SS, Gala MYN. Evaluation of hair growth potentiation activity of Hibiscus rosa
+sinensis in disturbed circadian rhythm. International journal of current research, 2018;
+10(3): 67151–67155.
+55. Agrawal KK, Singh K. Hair growth activity of aqueous extract of Hibiscus rosa-sinensis
+l. flowers. Indian Journal of Drugs, 2017; 5(4): 142–149.
+56. Khan ZA, Naqvi SA, Mukhtar A, Hussain Z, Shahzad SA, Mansha A, Ahmad M, Zahoor
+AF, Bukhari IH, Ashraf-Janjua MR, Mahmood N, Yar M. Antioxidant and antibacterial
+activities of Hibiscus rosasinensis Linn flower extracts. Pak J Pharm Sci, 2014; 27(3):
+469-474.
+57. Purushothaman A, Meenatchi P, Saravanan S, Sundaram R, Saravanan N. Quantification
+of total phenolic content, HPLC analysis of flavonoids and assessment of antioxidant and
+anti-haemolytic activities of Hibiscus rosa-sinensis L. flowers in vitro. Int J Pharma Res
+Health Sci, 2016; 4 (5): 1342- 1350.
+58. Abdel Ghaffar FR, El-Elaimy IA. In vitro, antioxidant and scavenging activities of
+Hibiscus rosasinensis crude extract. Journal of Applied Pharmaceutical Science, 2012;
+2(1): 51-58
+59. Divya MJ, Sowmia C, Dhanya KP, Joona K. Screening of antioxidant, anticancer activity
+and phytochemicals in methanolic extract of Hibiscus rosa-sinensis leaf extract. Research
+Journal of Pharmaceutical, Biological and Chemical Sciences, 2013; 4(2): 1308-1316.
+60. Sumathy R, Sankaranarayanan S. Evaluation of antioxidant and antimicrobial activity of
+flavanoid rich fraction of two Indian medicinal plants. International Journal of
+Ethnomedicine and Pharmacological Research, 2013; 1(1): 7-14.
+61. Nade VS, Kawale LA, Dwivedi S, Yadav AV. Neuropharmacological evaluation of
+Hibiscus rosa sinensis roots in experimental animals. Journal of Natural Remedies, 2009;
+9(2): 142–51.
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+62. Nade VS, Kawale LA, Dwivedi S, Yadav AV. Neuroprotective effect of Hibiscus rosa
+sinensis in an oxidative stress model of cerebral postischemic reperfusion injury in rats.
+Pharmaceutical Biology, 2010; 48(7): 822–7.
+63. Hanumakonda A, Maheshwaram V. Neuroprotective activity of Hibiscus rosa-sinesis
+flowers in scopolamine induced cognitive decline rats. International Journal of Pharmacy
+Review & Research, 2016; 6(1): 15–21.
+64. Begum Z, Younus I, Khan H, Ali SM. Ethanolic crude extract of roots of Hibiscus rosa
+sinensis ameliorates depression like behaviour in animal models. Advances in Biological
+Research, 2016; 10(3): 132– 137.
+65. Gaur K , Kori ML, Nema RK. Investigation of immunomodulatory potential of hydro-
+alcoholic extracts of Euphorbia neriifolia Linn. and Hibiscus rosa-sinensis Linn.
+International Journal of Medical Sciences, 2009; 2(1): 61-65.
+66. Mishra N, Tandon VL, Gupta R. Immunomodulation by Hibiscus rosa-sinensis: effect on
+the humoral and cellular immune response of Mus musculus. Pak J Biol Sci, 2012; 15(6):
+277-283.
+67. Nayak BS, Raju SS, Orette FA, Rao AVC. Effects of Hibiscus rosa sinensis l (malvaceae)
+on wound healing activity: a preclinical study in a sprague dawley rat. The International
+Journal of Lower Extremity Wounds, 2007; 6(2): 76–81.
+68. Ali AA, Jusoh NH, Saridin N, Wahab MSA, Zohdi RM. Evaluation of Hibiscus rosa-
+sinensis leaves extracts as wound healing promoter on rats. In IECBES 2014, Conference
+Proceedings - 2014 IEEE Conference on Biomedical Engineering and Sciences: "Miri,
+Where Engineering in Medicine and Biology and Humanity Meet". Institute of Electrical
+and Electronics Engineers Inc, 2015; p. 352-355.
+69. Mondal S, Ghosh D, Sagar N, Ganapaty S. Evaluation of antioxidant, toxicological and
+wound healing properties of Hibiscus rosa-sinensis l. (malvaceae) ethanolic leaves extract
+on different experimental animal models. Indian Journal of Pharmaceutical Education and
+Research, 2016; 50(4): 620–637.
+70. Mandade RJ, Sreenivas SA, Sakarkar DM, Choudhury A. Pharmacological effects of
+aqueous-ethanolic extract of Hibiscus rosa sinensis on volume and acidity of stimulated
+gastric secretion . Asian Pacific Journal of Tropical Medicine, 2011; 4(11): 883–888.
+71. Kumar PK, Annapurna A, Ramya G, Sheba D, Krishna G, Sudeepthi L. Gastroprotective
+effect of flower extracts of Hibiscus rosa sinensis against acute gastric lesion models in
+rodents. Journal of Pharmacognosy and Phytochemistry, 2014; 3(3): 137–145
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+72. Imafidon KE, Okunrobo LO. The effects of aqueous extracts of the leaves of Hibiscus
+rosa-sinensis Linn. on renal function in hypertensive rats . African Journal of
+Biochemistry Research, 2010; 4(2): 43–46.
+73. Khandelwa VKM, Balaraman R, Pancza D, Ravingerová T. Hemidesmus indicus and
+Hibiscus rosa-sinensis affect ischemia reperfusion injury in isolated rat hearts. Evidence-
+Based Complementary and Alternative Medicine, 2011; 2011(1): 1–8.
+74. Kasture VS, Chopde CT, Deshmukh VK. Anticonvulsive activity of Albizzia Lebbeck,
+Hibiscus
+rosasinensis
+and
+Butea
+monosperma
+in
+experimental
+animals.
+J
+Ethanopharmacol, 2000; 71(1-2): 65-75.
+75. Khalid L, Rizwani GH, Sultana V, Zahid H, Khursheed R, Shareef H. Antidepressant
+activity of ethanolic extract of Hibiscus rosa sinenesis Linn. Pak J Pharm Sci, 2014;
+27(5): 1327-1331.
+76. Kandhare AD, Raygude KS, Ghosh P, Ghule AE, Gosavi TP, Badole SL, et al. Effect of
+hydroalcoholic extract of Hibiscus rosa sinensis Linn. leaves in experimental colitis in
+rats. Asian Pacific Journal of Tropical Biomedicine, 2012; 2(5): 337–344.
+77. Raduan SZ, Abdul Aziz MWH, Roslida AH, Zakaria ZA, Zuraini A, Hakim MN. Anti-
+inflammatory effects of Hibiscus rosa-sinensis l. and Hibiscus rosa-sinensis var. Alba
+ethanol extracts. International Journal of Pharmacy and Pharmaceutical Sciences, 2013;
+5(4): 754–762
+78. Soni D, Gupta A. An evaluation of antipyretic and analgesic potentials of aqueous root
+extract of Hibiscus rosa sinesis Linn. (malvacae). International Journal of Research in
+Phytochemistry & Pharmacology, 2011; 1(3): 184–186.
+79. Daud D, Arsad NFM, Ismail A, Tawang A. Anti-pyretic action of Caulerpa lentillifera,
+Hibiscus rosa-sinensis , and Piper sarmentosum aqueous extract in mice. Asian Journal of
+Pharmaceutical and Clinical Research, 2016; 9(1): 145-147.
+80. Nath P, Yadav AK. Anticestodal properties of Hibiscus rosa-sinensis L. (Malvaceae): an
+in vitro and in vivo study against Hymenolepis diminuta (Rudolphi, 1819), a zoonotic
+tapeworm. J Parasit Dis, 2016; 40(4): 1261-1265.
+81. Aruna A, Meenakshipriya P, Parameswari SPT, Meera R, Devi P, Nagarajan K.
+Fibrinolytic activity of Hibiscus rosa-sinensis. IJPCBS, 2013; 3(3): 530-532.
+82. Nirmaladevi R, Kalpana S, Kavitha D and Padma PR. Evaluation of antilithiatic potential
+of Hibiscus rosa-sinensis Linn, in vitro. Journal of Pharmacy Research, 2012; 5(8): 4353-
+4356.
+
+www.wjpr.net │ Vol 12, Issue 14, 2023. │ ISO 9001:2015 Certified Journal │
+Sharma et al. World Journal of Pharmaceutical Research
+
+83. Jena M, Mishra S, Mishra SS. Effect of aqueous extract of Hibiscus rosa-sinensis Linn on
+urinary volume and electrolyte extraction in albino rats. Int J Pharm Bio Sci, 2013; 4(3):
+304 – 309.
+84. Sahu CR. Mechanisms involved in toxicity of liver caused by piroxicam in mice and
+protective effects of leaf extract of Hibiscus rosa-sinensis l. Clinical Medicine Insights:
+Arthritis and Musculoskeletal Disorders. 2016; 9(1): 9–13.
+85. Kandhare AD, Raygude KS, Ghosh P, Ghule AE, Gosavi TP, Badole SL, Bodhankar SL.
+Effect of hydroalcoholic extract of Hibiscus rosa-sinensis Linn. leaves in experimental
+colitis in rats. Asian Pac J Trop Biomed. 2012; 2(5): 337-344.
+86. Karna J, Parth G, Ganatra T, Tirgar P. Pre-clinical investigation of anti-tussive activity of
+Hibiscus rosa-sinensis on Guinea pig. IRJP. 2012; 3 (9): 271-273.
+87. Van Den Berghe, D. A., Leven, M., Mertens, F., Vlietinck, A. J. and Lammens, E.,
+Screening of higher plants for biological activites, II, Antiviral activity, J. Nat. Prod ; 41 :
+1978, 463-467.
+88. Raduan SZ, Abdul Aziz MWH, Roslida AH, Zakaria ZA, Zuraini A, Hakim MN. Anti-
+inflammatory effects of Hibiscus rosa-sinensis l. and Hibiscus rosa-sinensis var. Alba
+ethanol extracts. International Journal of Pharmacy and Pharmaceutical Sciences. 2013;
+5(4): 754– 762.
+89. Nath P, Yadav AK. Acute and sub-acute oral toxicity assessment of the methanolic
+extract from leaves of Hibiscus rosa-sinensis L. in mice. Journal of Intercultural
+Ethnopharmacology. 2014; 4(1): 70–73
+90. Birari RB, Jalapure SS, Changrani SR, Shid SL, Tote MV, Habade BM.
+Antiinflammatory, analgesic and antipyretic effect of Hibiscus rosa sinesis Linn flower.
+Pharmacology Online 2009; 3: 737-747.

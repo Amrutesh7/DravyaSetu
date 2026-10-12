@@ -1,0 +1,467 @@
+PLANT_ID: PLANT_013
+PLANT_IDENTIFIER: Ekka
+
+
+----- SOURCE: Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt | SECTION: Arka (St.Bk) -----
+9. Arka (St.Bk)
+ARKA (Stem Bark)
+Arka consists of dried stem bark of Calotropis procera (Ait.) R. Br. (Fam.
+Asclepiadaceae); an erect shrub exuding milky white latex from cut parts, found wild
+more or less throughout India.
+SYNONYMS -
+Sansk.
+: S£rya
+Assam.
+: Akand, Akan
+Beng.
+: Akanda, Akone
+Eng.
+: Maddar
+Guj.
+: Aakado
+Hindi.
+: Aak, Madar, Akavana
+Kan.
+: Ekka, Ekkagida
+Kash.
+: --
+Mal.
+: Errikku
+Mar.
+: Rui
+Ori.
+: Arakku
+Punj.
+: Akk
+Tam.
+: Vellerukku, Erukku
+Tel.
+: Jilledu
+Urdu.
+: Madar, Aak
+DESCRIPTION -
+a) Macroscopic:
+Drug occurs in channelled, quilled and fibrous pieces, upto 0.1 - 0.5 cm thick,
+external surface yellowish brown having longitudinal cracks, internal surface greenish,
+smooth, with an occasional wood tissue attached; fracture, fibrous; odour and taste not
+distinct.
+b) Microscopic:
+Stem bark shows exfoliated cork, consisting of 6-8 layers of tangentially
+elongated, thick-walled cells; where cork has not developed, epidermis present
+consisting of a single layered rectangular cells covered externally with striated cuticle;
+secondary cortex composed of tangentially elongated, oval, rounded or rectangular thin-
+walled, parenchymatous cells having intercellular spaces, some cells contain rosette
+crystals of calcium oxalate, a number of rounded, oval to elongated, single or groups of
+stone cells and latex cells also found scattered in this region; pericyclic fibres numerous,
+lignified; secondary phloem composed of sieve elements, phloem parenchyma, phloem
+fibres and phloem rays; phloem parenchyma rectangular to polygonal in shape having
+rosette crystals of calcium oxalate, latex cells and stone cells similar to those found in
+secondary cortex; phloem fibres aseptate with bordered pits; phloem rays mostly
+uniseriate and run straight.
+ 17
+
+Powder - Light yellowish-green; shows fibres, stone cells, rosette crystals of calcium
+oxalate and latex cells.
+IDENTITY, PURITY AND STRENGTH -
+Foreign matter
+Not more than
+2
+Per cent, Appendix 2.2.2
+Total ash
+Not more than
+12 Per cent, Appendix 2.2.3
+Acid-insoluble ash
+Not more than
+1.5 Per cent, Appendix 2.2.4
+Alcohol-soluble extractive Not less than
+7
+Per cent, Appendix 2.2.6
+Water-soluble extractive
+Not less than
+15 Per cent, Appendix 2.2.7
+T.L.C. -
+T.L.C. of the alcoholic extract on Silica gel 'G' plate using Chloroform :
+Methanol (1: 1) shows under UV (366 nm) four fluorescent zones at Rf. 0.63, 0.71, 0.81
+and 0.87 (all blue). On spraying with Dragendorff reagent followed by 5% Methanolic
+Sulphuric acid reagent one spot appears at Rf. 0.08 (orange).
+CONSTITUENTS - α - and β- Calotropeols, β-Amyrin, Giganteol, a Colourless wax,
+small amount of Tetracyclic Terpenes and Traces of Sterols.
+PROPERTIES AND ACTION -
+Rasa
+:
+Ka¶u, Tikta
+Guna
+:
+Laghu, RukÀa, Sara, ÙikÀ¸a
+Virya
+:
+UÀ¸a
+Vipaka
+:
+Ka¶u
+Karma
+:
+D¢pana, V¡tahara, áodhana, Virecan, Lekhan, Ropa¸a.
+IMPORTANT FORMULATIONS - Abhay¡ Lava¸a, Arka Lava¸a
+THERAPEUTIC USES - Udararoga, KuÀ¶ha, Ka¸·u, Vra¸a, Pl¢h¡roga, Gulma, Ar¿a,
+K¤miroga.
+DOSE - 0.5-1 g. in powder form.
+ 18
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Arka (Rt.) -----
+6. Arka (Rt.)
+ARKA (Root)
+Arka consists of dried roots of Calotropis procera (Ait.) R. Br. (Fam.
+Asclepiadaceae) found wild more or less throughout India.
+SYNONYMS
+Sanskrit
+:
+Ravi, Bh¡nu, Tapana
+Assamese
+:
+Akand, Akan
+Bengali
+:
+Akanda, Akone
+English
+:
+Madar Tree
+Gujrati
+:
+Aakado
+Hindi
+:
+Aak, Madar, Akavana
+Kannada
+:
+Ekka, Ekkadagida, Ekkegida
+Kashmiri
+:
+Acka
+Malayalam
+:
+Erikku
+Marathi
+:
+Rui
+Oriya
+:
+Arakha
+Punjabi
+:
+Ak
+Tamil
+:
+Vellerukku, Erukku
+Telugu
+:
+Jilledu
+Urdu
+:
+Madar, Aak
+DESCRIPTION
+a) Macroscopic
+Root:- rough, fissured longitudinally, corky and soft, externally yellowish-grey
+while internally white, central core cream coloured, bark easily separated from xylem,
+odour, characteristic: taste, bitter and acrid.
+
+b) Microscopic
+Transverse section of root shows outer most cork tissue consisting of 4-8 rows of
+tangentially elongated and radially arranged cells followed by 3-6 rows of moderately
+15
+
+thick-walled, irregular cells of secondary cortex devoid of calcium oxalate crystals and
+starch grains, cortex composed of large polyhedral parenchymatous cells containing
+abundant rounded starch grains, some cortical cells contain rosette crystals of calcium
+oxalate, scattered laticifer cells with brown contents, phloem consists of sieve elements
+and phloem parenchyama, sieve tubes thick-walled, cells more prominent towards inner
+region of phloem traversed by uni to tetraseriate medullary rays, phloem cells contain
+crystals of calcium oxalate, starch grains and laticifers similar to these found in cortex:
+cambium present just within the phloem consisting of 2-5 rows of thin-walled,
+tangentially elongated cells xylem forms the central part of root composed of vessels.
+tracheids, fibres and xylem parenchyma, vessels present throughout xylem region and
+arranged radially in groups of 2-7, sometime single vessels also occur, usually
+cylindrical having bordered pits on their walls, xylem fibres long, lignified with wide
+lumen, tapering on ends and have simple pits on walls, medullary rays 1-4 seriate and
+triseriate in outer region and uni or biseriate in inner region: cells of medullary rays
+radially elongated, filled with starch similar to those present in cortical cells.
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 4 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 1 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 2 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 8 per cent, Appendix 2.2.7.
+
+ASSAY
+
+T.L.C.
+
+CONSTITUENTS - Glycosides (calotropin)
+
+PROPERTIES AND ACTION
+Rasa
+:
+Ka¶u, Tikta
+16
+
+Gu¸a
+:
+Laghu
+V¢rya
+:
+UÀ¸a
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+Kaphav¡tah¤t, D¢pana, Bhedana, K¤mighna, Vra¸ahara, ViÀaghna,
+KuÀ¶haghna
+IMPORTANT FORMULATIONS - Mah¡ ViÀagarbha Taila, Dh¡nvantara Gh¤ta
+THERAPEUTIC USES - Ka¸·£, KuÀ¶ha, K¤miroga, Gulma, Udararoga, Vra¸a, áv¡sa
+DOSE - 1-3 g of the drug for decoction
+
+17
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Arka (Lf.) -----
+7. Arka (Lf.)
+ARKA (Leaf)
+Arka consists of dried leaves of Calotropis procera (Ait.) R.Br. (Fam.
+Asclepiadaceae), found wild more or less throughout India.
+SYNONYMS
+Sanskrit
+:
+Bh¡nu, Ravi, Tapana
+Assamese
+:
+Akan, Akand
+Bengali
+:
+Akanda, Akone
+English
+:
+Madar Tree
+Gujrati
+:
+Aakado
+Hindi
+:
+Aak, Akavana, Madar
+Kannada
+:
+Ekka, Ekkadagida, Ekkegida
+Kashmiri
+:
+Acka
+Malayalam
+:
+Erikku
+Marathi
+:
+Rui
+Oriya
+:
+Arakha
+Punjabi
+:
+Ak
+Tamil
+:
+Erukku, Vellerukku
+Telugu
+:
+Jilledu
+Urdu
+:
+Aak, Madar
+DESCRIPTION
+a) Macroscopic
+Sub-sessile, 6-15 cm by 4.5-8 cm, broadly ovate, ovate-oblong, elliptic or
+obovate acute, pubescent when young and glabrous on both sides on maturity.
+
+b) Microscopic
+Midrib - transverse section through midrib shows an upper and lower single
+layered epidermis externally covered with thick, striated cuticle, few epidermal cells on
+both surfaces of leaf elongated to form un i-seriate, 2-3 celled trichomes, epidermal cells
+18
+
+cubical and radially elongated, epidermis followed by 3-8 layered collenchyma on both
+lower and upper surfaces, parenchymatous cells thin-walled, isodiametric to circular
+with intercellular spaces present in ground tissue, stele crescent shaped composed of
+bicollateral and open vascular bundle, xylem consists mostly of vessels and tracheids, a
+strip of cambium present between xylem and phloem tissues, laticifers also present in the
+phloem and parenchymatous zone.
+Lamina - dorsiventral with mesophyll differentiated into a palisade and spongy tissue,
+upper and lower epidermis covered externally with a thick, striated cuticle, below upper
+epidermis three rows of elongated, closely arranged palisade parenchyma present,
+spongy parenchyma tissues almost radially elongated with intercellular spaces, central
+cells irregular in shape, laticifers and vascular bundles also present scattered in this
+region
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 21 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 5 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 5 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 24 per cent, Appendix 2.2.7.
+ CONSTITUENTS - Glycoside (Calotropin)
+
+PROPERTIES AND ACTION
+Rasa
+:
+Ka¶u, Tikta
+Gu¸a
+:
+Laghu, Sara, Snigdha
+V¢rya
+:
+UÀ¸a
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+V¡tah¤t, D¢pana, K¤mighna, áopha, Vra¸ahara, ViÀaghna, Bhedana,
+áv¡sahara
+19
+
+IMPORTANT FORMULATIONS - Arka Lava¸a
+THERAPEUTIC USES - áotha, Ka¸·£, KuÀ¶ha, Vra¸a, K¤miroga, Gulma, áleÀmodararoga,
+Pl¢h¡roga, Ar¿a, áv¡sa
+DOSE - 250-750 mg of the drug in powder form
+
+20
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Arka (St.Bk) -----
+9. Arka (St.Bk)
+ARKA (Stem Bark)
+Arka consists of dried stem bark of Calotropis procera (Ait.) R. Br. (Fam.
+Asclepiadaceae); an erect shrub exuding milky white latex from cut parts, found wild more or
+less throughout India.
+SYNONYMS
+Sanskrit
+:
+S£rya
+Assamese
+:
+Akand, Akan
+Bengali
+:
+Akanda, Akone
+English
+:
+Maddar
+Gujrati
+:
+Aakado
+Hindi
+:
+Aak, Madar, Akavana
+Kannada
+:
+Ekka, Ekkagida
+Kashmiri
+:
+--
+Malayalam
+:
+Errikku
+Marathi
+:
+Rui
+Oriya
+:
+Arakka
+Punjabi
+:
+Akk
+Tamil
+:
+Vellerukku, Erukku
+Telugu
+:
+Jilledu
+Urdu
+:
+Madar, Aak
+DESCRIPTION
+a) Macroscopic
+Drug occurs in channelled, quilled and fibrous pieces, upto 0.1 - 0.5 cm thick,
+external surface yellowish brown having longitudinal cracks, internal surface greenish,
+smooth, with an occasional wood tissue attached; fracture, fibrous; odour and taste not
+distinct.
+ 36
+
+b) Microscopic
+Stem bark shows exfoliated cork, consisting of 6-8 layers of tangentially elongated,
+thick-walled cells; where cork has not developed, epidermis present consisting of a single
+layered rectangular cells covered externally with striated cuticle; secondary cortex
+composed of tangentially elongated, oval, rounded or rectangular thin-walled,
+parenchymatous cells having intercellular spaces, some cells contain rosette crystals of
+calcium oxalate, a number of rounded, oval to elongated, single or groups of stone cells and
+latex cells also found scattered in this region; pericyclic fibres numerous, lignified;
+secondary phloem composed of sieve elements, phloem parenchyma, phloem fibres and
+phloem rays; phloem parenchyma rectangular to polygonal in shape having rosette crystals
+of calcium oxalate, latex cells and stone cells similar to those found in secondary cortex;
+phloem fibres aseptate with bordered pits; phloem rays mostly uniseriate and run straight.
+Powder - Light yellowish-green; shows fibres, stone cells, rosette crystals of calcium
+oxalate and latex cells.
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 12 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 15 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 7 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 15 per cent, Appendix 2.2.7.
+
+ASSAY
+
+T.L.C.
+T.L.C. of the alcoholic extract on Silica gel 'G' plate using Chloroform : Methanol
+(1: 1) shows under UV (366 nm) four fluorescent zones at Rf. 0.63, 0.71, 0.81 and 0.87 (all
+ 37
+
+blue). On spraying with Dragendorff reagent followed by 5% Methanolic Sulphuric acid
+reagent one spot appears at Rf. 0.08 (orange).
+
+CONSTITUENTS - α - and β- Calotropeols, β-Amyrin, Giganteol, a Colourless wax, small
+amount of Tetracyclic Terpenes and Traces of Sterols.
+
+PROPERTIES AND ACTION
+Rasa
+:
+Ka¶u, Tikta
+Gu¸a
+:
+Laghu, R£kÀa, T¢kÀ¸a, Sara
+V¢rya
+:
+UÀ¸a
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+áodhana, Virecana, V¡tahara, D¢pana, Lekhana, Ropa¸a
+IMPORTANT FORMULATIONS - Abhay¡ Lava¸a, Arka Lava¸a
+THERAPEUTIC USES - Udararoga, KuÀ¶ha, Ka¸·£, Vra¸a, Pl¢h¡roga, Gulma, Ar¿a, K
+¤miroga
+DOSE - 0.5-1 g in powder form
+
+ 38

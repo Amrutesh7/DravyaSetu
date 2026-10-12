@@ -1,0 +1,138 @@
+PLANT_ID: PLANT_023
+PLANT_IDENTIFIER: Mint
+
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Pudina (Aerialpart) -----
+66. Pudina (Aerialpart)
+PUDÌNËé (Aerial Part)
+Pud¢n¡Å consists of the aerial part of Mentha viridis Linn. Syn. M. spicata var. viridis
+Linn. (Fam. Lamiaceae) a perennial, creeping aromatic herb of 30 to 90 cm high, widely
+cultivated throughout the plains of India for culinary and medicinal purposes.
+SYNONYMS
+Sanskrit
+:
+P£tih¡, Rocan¢, Pod¢nakah
+Assamese
+:
+--
+Bengali
+:
+Pudinaa
+English
+:
+Spear-Mint, Garden Mint
+Gujrati
+:
+Phudino
+Hindi
+:
+Pudeenaa
+Kannada
+:
+--
+Kashmiri
+:
+--
+Malayalam
+:
+--
+Marathi
+:
+Pudinaa
+Oriya
+:
+--
+Punjabi
+:
+Parari pudina
+Tamil
+:
+Pudeenaa
+Telugu
+:
+Pudeenaa
+Urdu
+:
+--
+DESCRIPTION
+a) Macroscopic
+Drug consists of small chopped twigs; leaves opposite, decussate, shortly petiolate,
+petioles 2-mm long; mature leaves 2.5 to 3.5 cm long and 1.5 to 2.0 cm broad, very
+minutely hairy, ovate, apex acute, coarsely dentate, comparatively smoother and darker
+21
+
+upper surface; stem square, minutely hairy, light brown to brown; flowers in loose
+cylindrical, slender spikes; awl like, throat of calyx naked, corolla smooth; seeds small,
+mucilaginous; aromatic odour and slightly pungent taste.
+
+b) Microscopic
+Stem - T.S. shows quadrangular outline with corner ridges and thin cuticle;
+epidermal cells tabular, multicellular uniserate trichomes present, cortex 8 to 9 cells deep
+below ridges, while 2 to 3 cells deep elsewhere, variable in size; endodermis single layer;
+pericycle broken, consisting of sclerenchymatous cells; phloem 2 to 4 cells deep and made
+up of irregular shaped cells; xylem vessels 26 to 46 µ in dia; pith present.
+Leaf -
+Midrib: T.S. shows protruded mid rib towards the lower surface; compact parenchymatous
+cells enclose a crescent-shaped vascular bundle; collenchymatous cells are absent.
+Lamina: Dorsiventral, epidermal cell walls of both the surfaces in the surface view are
+wavy, stomata diacytic; covering trichomes present on the lower surface, uniseriate, 1 to 4
+cells long, 42 to 350 µ in size with pointed apex; glandular trichomes 64 to 80 µ in diam.
+with a single basal cell and a head of 8 cells, found in depression of the epidermis; a single
+row of palisade cells towards the upper side followed by spongy parenchyma 3 to 4 cells
+deep; palisade ratio 6 to 8; vein islet number 18 to 20; stomatal index for upper epidermis
+10 to 20, lower epidermis 15 to 30.
+Powder - Blackish-brown, fibrous, free flowing, characterized by the presence of uniseriate
+non-glandular hairs (112 to 350 µ), glandular trichomes 64 to 80 µ in diam, diacytic
+stomata, epidermal cell walls wavy.
+
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 14 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 4 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 2 per cent, Appendix 2.2.6.
+21
+
+Water-soluble extractive
+Not less than 7 per cent, Appendix 2.2.7.
+Essential oil
+Not less than 0.2 per cent, Appendix 2.2.10
+
+ASSAY
+
+T.L.C.
+T.L.C. of essential oil on silica gel 'G' plate using hexane : ethyl acetate (90:10)
+shows eight spots at Rf 0.28, 0.33, 0.38, 0.49, 0.55, 0.66, 0.80 and 0.88 on spraying with
+Vanillin-Sulphuric acid reagent and heating the plate for 15 minutes at 110oC.
+
+ CONSTITUENTS - Essential oil (0.2 to 0.8 percent) containing terpene such as carvone
+(60%) and limonene (10%) as major constituents.
+
+ PROPERTIES AND ACTION
+Rasa
+:
+Ka¶u
+Gu¸a
+:
+Laghu, R£kÀa, T¢kÀ¸a
+V¢rya
+:
+UÀ¸a
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+V¡tahara, Kaphahara, D¢pana, M£trala, Rocana, Balya
+IMPORTANT FORMULATIONS - Pud¢n¡rka
+THERAPEUTIC USES - Ëdhm¡na, á£la, Chardi, K¤mi, Jvara, J¢r¸a Jvara, M£trak¤cchra,
+KaÀ¶¡rtava, Pras£t¢jvara, Aruci, K¡sa, Hikk¡, áv¡sa, Mada, Agnim¡ndya, Vis£cik¡, At¢s¡ra,
+Graha¸¢, Aj¢r¸a, Vaktraj¡·ya
+DOSE - 5-10 ml patra svarasa.
+ 20-40 ml ph¡¸¶a.
+ 1-3 drops taila.
+22

@@ -1,0 +1,238 @@
+PLANT_ID: PLANT_019
+PLANT_IDENTIFIER: Jasmine
+
+
+----- SOURCE: Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt | SECTION: Jati (Lf.) -----
+33. Jati (Lf.)
+JËTÌ (Leaf)
+J¡t¢ consists of dried leaves of Jasminum officinale Linn. (Fam. Oleaceae); a
+large climbing shrub with dark green twigs and pinnate leaves, found in Kashmir at an
+altitude of 900 - 2700 m and cultivated throughout the country.
+SYNONYMS -
+Sansk
+: M¡lat¢
+Assam
+: Yasmeen
+Beng
+: Chamelee
+Eng
+: Jasmine
+Guj
+: Chamelee
+Hindi
+: Chamelee
+Kan
+: Jati Maltiga, Sanna Jati Mallige
+Kash
+: --
+Mal
+: Pichi
+Mar
+: Chamelee
+Ori
+: --
+Punj
+: Chamelee
+Tam
+: Pichi, Jatimalli
+Tel
+: Jati, Sannajati
+Urdu
+: Chameli, Yasmeen
+DESCRIPTION -
+a) Macroscopic:
+Leaf single or in groups of 2-7 leaflets, upto 7.5 cm long and upto 2.5 cm broad;
+imparipinnately compound; terminal leaflet larger; ovate or lanceolate, acuminate;
+lateral leaflets shorter, acute, sessile or shortly petiolate; brownish-green; taste, bitter
+b) Microscopic:
+Rachis - Rachis shows more or less convex outline with two lateral wings; epidermis
+single layered covered by thick cuticle; hairs mostly unicellular with pointed apex,
+glandular rarely found only on the upper surface; collenchyma 2 - 5 layered; pericycle
+represented by slightly lignified small fibre groups; vascular bundles three, median
+crescent-shaped, small accessory bundle present in each wing.
+Midrib - shows similar structure as rachis; 3 - 5 layers of collenchymatous cells towards
+lower surface; pericycle present in the form of non-lignified fibre groups; vascular
+bundle single and crescent-shaped.
+Lamina - shows dorsiventral structure, epidermis single layered on either side, covered
+by a thick striated cuticle; hairs as in rachis; palisade 1- 2 layered; spongy parenchyma
+4-6 layers; stomata anomocytic only in lower surface.
+ 71
+
+Powder - Yellowish-green; shows palisade and spongy parenchyma, unicellular hairs,
+fibres and vessels with spiral thickening, polygonal epidermal cells and anomocytic
+stomata in surface view.
+IDENTITY, PURITY AND STRENGTH -
+Foreign matter
+Not more than
+2
+Per cent, Appendix 2.2.2
+Total ash
+Not more than
+6
+Per cent, Appendix 2.2.3
+Acid-insoluble ash
+Not more than
+0.5 Per cent, Appendix 2.2.4
+Alcohol-soluble extractive Not less than
+18 Per cent, Appendix 2.2.6
+Water-soluble extractive
+Not less than
+25 Per cent, Appendix 2.2.7
+T.L.C. -
+T.L.C. of the alcoholic extract on Silica gel 'G' plate using Toluene. Ethylacetate
+(9 :1) shows under UV (366 nm) three fluorescent zones at Rf 0.44 (blue), 0.52 (light
+blue) and 0.91 (blue). On exposure to Iodine vapours ten spots appear at Rf. 0.08, 0.18,
+0.38, 0.44, 0.49, 0.53, 0.59, 0.67, 0.81 and 0.91 (all yellow). On spraying with
+Dragendorff reagent followed by 5% Methanolic-Sulphuric acid reagent four spots
+appear at Rf. 0.08, 0.18 (both orange), 0.44 and 0.91 (both light orange). On spraying
+with Vanillin-Sulphuric acid reagent and heating the plate for ten minutes at 110°C
+many spots of brown, yellow, blue and violet colour appear from the point of application
+to the solvent front.
+CONSTITUENTS - Resin, Salicylic Acid, Alkaloid (Jasminine) and Essential Oil.
+PROPERTIES AND ACTION -
+Rasa
+:
+Tikta, KaÀ¡ya
+Guna
+:
+Laghu, M¤du, Snigdha
+Virya
+:
+UÀ¸a
+Vipaka
+:
+Ka¶u
+Karma
+:
+CakÀuÀya, áirovirecana
+IMPORTANT FORMULATIONS - J¡ty¡di Taila, J¡ty¡di Gh¤ta, Vasanta
+Kusum¡kara Rasa
+THERAPEUTIC USES - áiroroga, AkÀiroga, ViÀaroga, KuÀ¶ha Vra¸a, Ar¿a,
+Mukhap¡ka, Putikar¸a, Stana áotha, Raktavik¡ra
+DOSE - 10-20 g. of powder for decoction.
+ 72
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Jati (Lf.) -----
+33. Jati (Lf.)
+JËTÌ (Leaf)
+J¡t¢ consists of dried leaves of Jasminum officinale Linn. (Fam. Oleaceae); a large
+climbing shrub with dark green twigs and pinnate leaves, found in Kashmir at an altitude of
+900 - 2700 m and cultivated throughout the country.
+SYNONYMS
+Sanskrit
+:
+M¡lat¢
+Assamese
+:
+Yasmeen
+Bengali
+:
+Chamelee
+English
+:
+Jasmine
+Gujrati
+:
+Chamelee
+Hindi
+:
+Chamelee
+Kannada
+:
+Jati Maltiga, Sanna Jati Mallige
+Kashmiri
+:
+--
+Malayalam
+:
+Pichi
+Marathi
+:
+Chamelee
+Oriya
+:
+--
+Punjabi
+:
+Chamelee
+Tamil
+:
+Pichi, Jatimalli
+Telugu
+:
+Jati, Sannajati
+Urdu
+:
+Chameli, Yasmeen
+DESCRIPTION
+a) Macroscopic
+Leaf single or in groups of 2-7 leaflets, upto 7.5 cm long and upto 2.5 cm broad;
+imparipinnately compound; terminal leaflet larger; ovate or lanceolate, acuminate; lateral
+leaflets shorter, acute, sessile or shortly petiolate; brownish-green; taste, bitter
+
+ 111
+
+b) Microscopic
+Rachis - Rachis shows more or less convex outline with two lateral wings; epidermis
+single layered covered by thick cuticle; hairs mostly unicellular with pointed apex,
+glandular rarely found only on the upper surface; collenchyma 2 - 5 layered; pericycle
+represented by slightly lignified small fibre groups; vascular bundles three, median
+crescent-shaped, small accessory bundle present in each wing.
+Midrib - shows similar structure as rachis; 3 - 5 layers of collenchymatous cells towards
+lower surface; pericycle present in the form of non-lignified fibre groups; vascular bundle
+single and crescent-shaped.
+Lamina - shows dorsiventral structure, epidermis single layered on either side, covered by a
+thick striated cuticle; hairs as in rachis; palisade 1- 2 layered; spongy parenchyma 4-6
+layers; stomata anomocytic only in lower surface.
+Powder - Yellowish-green; shows palisade and spongy parenchyma, unicellular hairs, fibres
+and vessels with spiral thickening, polygonal epidermal cells and anomocytic stomata in
+surface view.
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 6 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 0.5 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 18 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 25 per cent, Appendix 2.2.7.
+
+T.L.C.
+T.L.C. of the alcoholic extract on Silica gel 'G' plate using Toluene. Ethylacetate (9 :
+1) shows under UV (366 nm) three fluorescent zones at Rf 0.44 (blue), 0.52 (light blue) and
+0.91 (blue). On exposure to Iodine vapours ten spots appear at Rf. 0.08, 0.18, 0.38, 0.44,
+0.49, 0.53, 0.59, 0.67, 0.81 and 0.91 (all yellow). On spraying with Dragendorff reagent
+ 112
+
+followed by 5% Methanolic-Sulphuric acid reagent four spots appear at Rf. 0.08, 0.18 (both
+orange), 0.44 and 0.91 (both light orange). On spraying with Vanillin-Sulphuric acid
+reagent and heating the plate for ten minutes at 110°C many spots of brown, yellow, blue
+and violet colour appear from the point of application to the solvent front.
+
+CONSTITUENTS - Resin, Salicylic Acid, Alkaloid (Jasminine) and Essential Oil.
+
+PROPERTIES AND ACTION
+Rasa
+:
+Tikta, KaÀ¡ya
+Gu¸a
+:
+Laghu, Snigdha, M¤du
+V¢rya
+:
+UÀ¸a
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+áirovirecana, CakÀuÀya
+IMPORTANT FORMULATIONS - J¡ty¡di Taila, J¡ty¡di Gh¤ta, Vasanta Kusum¡kara Rasa
+THERAPEUTIC USES - áiroroga, AkÀiroga, ViÀaroga, KuÀ¶ha , Vra¸a, Ar¿a, Mukhap¡ka, P£t
+¢kar¸a, Stana áotha, Raktavik¡ra
+DOSE - 10-20 g of powder for decoction
+
+ 113

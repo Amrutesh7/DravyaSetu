@@ -1,0 +1,1592 @@
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+331
+ Morinda citrifolia L. (Noni) – Its Ethnobotanical
+Knowledge, Phytochemical Studies,
+Pharmacological Aspects, And Future Prospects
+
+1Pratiksha Patil, 2Heena Madkaikar, 3Dr. Nisha Shah
+1Student, 2Student, 3Assistant Professor
+Department of Life Sciences, University of Mumbai, Vidya Nagari, Kalina, Santacruz (E), Mumbai-400098, India
+
+ABSTRACT: Herbalism holds its root in ancient culture. According to WHO’s recent data estimation ~70-
+80% of the global population is dependent on herbal medicines. The review aims to highlight the importance
+of plant species Morinda citrifolia Linn. more commonly known as Noni or Indian mulberry. It is small
+tropical and subtropical fruit-bearing tree or shrub species within the coffee family of kingdom Plantae (family
+Rubiaceae). The study of the phytochemical constituent in Morinda citrifolia Linn. roots, leaves, flowers,
+fruits, fruit juice (fresh and fermented), seeds indicated the presence of alkaloids, saponins, phenols, tannins,
+coumarins, glycosides, sterols, iridoids, flavonoids, AA/proteins, terpenes, anthraquinones, lignin, sugars,
+esters, etc. Morinda citrifolia Linn. is a traditional Polynesian plant that has been used therapeutically for
+~over 2000-3000 years. The isolated phytochemical compounds from the whole Morinda citrifolia Linn. plant
+contains anticancer, antiepileptic, antidiabetic, immunostimulatory, antidementia, anti-inflammatory,
+analgesic, anti-parasitic, antioxidant activities. Leaves of Morinda citrifolia Linn. consists of vital elements
+such as potassium, calcium, iron, manganese, zinc. Morinda citrifolia Linn. holds significant importance in
+the global commercial market, a variety of beverages, herbal powder, essential oils, and other herbal products
+made from leaves, fruits, and seeds. Hence the review highlights the phytochemical constituent and
+ethnobotanical activities & pharmacological aspects and functional properties of the plant and recent advances
+in Morinda citrifolia Linn. research.
+
+Keywords: Morinda citrifolia Linn., Phytochemical constituent, Anthraquinone, Anticancer, Antioxidant
+activity.
+
+INTRODUCTION
+Herbalism holds its roots in ancient cultures. The therapeutic use of plants to cure disease and improve overall
+health and wellness. The WHO estimated the data that approximately 70–80% of the global population is
+dependent on nonconventional medicines predominantly on herbal medicinal sources in their healthcare
+(Chauhan, et al., 2015).
+Morinda citrifolia Linn (Noni or Indian mulberry) is a small tropical and subtropical fruit-bearing tree or
+shrub within the coffee family of the kingdom Plantae (family Rubiaceae). Its native range extends across
+Pacific Islands, Southeast Asia, Australasia (Australia, New Zealand, and some neighboring islands), and
+India (Pieroni, Andrea, 2005), in addition, it has become naturalized on many islands in the Caribbean,
+Bahamas, Bermuda, Florida Keys, and parts of Africa, Mexico (N. America) to Panama (C. America),
+Venezuela & Surinam (S. America) (Janick and Paull, 2008). It is a traditional Polynesian medicinal plant
+also known as ‘Noni’. This plant is a member of the Rubiaceae family and has been utilized medicinally for
+over 2000- 3000 years (Nagalingam et al., 2013). Morinda citrifolia L. is among the most popular herbal
+medicinal plants that are used to treat many health-related issues such as malignancy, common cold, diabetes
+mellitus, influenza, high blood pressure, pain, gastric ulcers, menstrual cramps, etc. it also has a large range
+of therapeutic claims, including antibiotic, anti-viral, anti-bacterial, antimycotic, anti-inflammation, anti-
+helminthic, anti-tumor, analgesic, the hypotensive, immune-enhancing effect (Carrillo-López, 2011).
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+332
+Morinda citrifolia Linn. commonly called ‘Noni’, the fruit has many names used in different cultures around
+the world in Hawaii it is called Noni, Hai ba Ji in China, Luo ling in Taiwan, and Singapore, great morinda,
+cheese fruit in Australia, Mengkudu in Malaysia, Indian mulberry, beach mulberry, Bartundi (in Hindi) in
+India The leaves, roots, bark, stems, and fruits of this tree all serve as medicinal components. There is a
+great deal of research that supports the value of noni as a nutraceutical and the fact that it contains some
+phytochemicals such as lignans, oligo- and polysaccharides, scopoletin, iridoids, fatty acids, catechin, β-
+sitosterol, (sterols), alkaloids, damnacanthal, and flavonoids. Noni is also reported to possess the antioxidant
+potential and to aid with the treatment of several disease conditions (Nagalingam, et al., 2013).
+This paper attempts to report on the scientific evidence relating to Ethnobotanical knowledge, Phytochemical
+studies, Pharmacological aspects, and functional properties attributed to this medicinal plant.
+
+Table.1. Taxonomical Classification: Morinda citrifolia L.
+Domain
+Eukaryota
+Kingdom
+Plantae
+Sub-kingdom
+Viridiplantae
+Infra-kingdom
+Streptophyta
+Division
+Embryophyta
+Super-division
+Spermatophytina
+Class
+Magnoliopsida
+Superorder
+Asteranae
+Order
+Gentianales
+Family
+Rubiaceae
+Genus
+Morinda L.
+Species
+Morinda citrifolia L.
+Common Name
+Noni, Indian mulberry
+
+DISTRIBUTION
+Morinda citrifolia L. is native species of Asia and Oceania (Australia). It can be cultivated in full or partial
+sun-light with well-drained and well-aerated soil free from nematodes, dry plants, and weeds. It can
+withstand/tolerate harsh conditions therefore it is also known as ‘starvation fruit’.
+It is cultivated in tropical–subtropical countries like;
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+333
+Table.2. Distribution of Morinda citrifolia Linn. across the world
+Continent/Country/
+Region/States
+Distribution
+Origin (Native)
+Notes
+References
+ASIA
+
+(Govaerts, 2017)
+Bangladesh
+✔
+✔
+-
+British Indian Ocean
+Territory (BIOT)
+✔
+✔
+-
+Chagos Island
+✔
+✔
+-
+Cambodia
+✔
+✔
+-
+Cocos Island / Keeling
+Island
+✔
+✔
+-
+India
+✔
+✔
+-
+●
+Andaman
+&
+Nicobar Island
+✔
+✔
+-
+●
+Assam
+✔
+✔
+-
+●
+Maharashtra
+✔
+✔
+Wild & Cultivated
+(Indian Biodiversity
+Portal, 2017)
+
+●
+Karnataka
+✔
+✔
+Wild & Cultivated
+●
+Tamil Nadu
+✔
+✔
+Wild & Cultivated
+●
+Kerala
+✔
+✔
+Wild & Cultivated
+Indonesia
+✔
+✔
+-
+(Govaerts, 2017)
+
+●
+Java
+✔
+✔
+-
+●
+Lesser Sunda
+Islands
+✔
+✔
+-
+●
+Maluku Island
+✔
+✔
+-
+●
+Sulawesi
+✔
+✔
+-
+●
+Sumatra
+✔
+✔
+-
+Japan
+✔
+✔
+-
+Malaysia
+✔
+✔
+-
+●
+Peninsular
+Malaysia
+✔
+✔
+-
+●
+Sabah
+✔
+✔
+-
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+334
+●
+Sarawak
+✔
+✔
+-
+Myanmar
+✔
+✔
+-
+Philippines
+✔
+✔
+-
+Srilanka
+✔
+✔
+-
+Taiwan
+✔
+✔
+-
+Thailand
+✔
+✔
+-
+Vietnam
+✔
+✔
+-
+Papua New Guinea
+✔
+✔
+-
+Oceania
+
+✔
+
+Solomon Islands
+✔
+✔
+-
+Australia
+✔
+✔
+-
+●
+Northern
+territory
+✔
+✔
+-
+●
+Queensland
+✔
+✔
+-
+●
+Christmas
+Island
+✔
+✔
+-
+
+Morinda citrifolia L. (Noni) has become naturalized to open shores and been cultivated in some parts of the
+USA ( Mexico⟶ Panama, Venezuela, Surinam, etc,.) and several Caribbean islands (Bahamas, Bermuda,
+Florida Keys) ((USDA-ARS, 2017 & USDA-NRCS, 2017), & is Invasive and cultivated in many parts of an
+African country (Prota, 2017).
+
+BOTANICAL DESCRIPTION
+Morinda citrifolia L is an evergreen shrub with a stem diameter of 15 centimeters or more and a height of 3–
+10 m when mature. Its sapwood is soft and yellow-brown. The bark of the plant is comparatively smooth to
+moderately rough and gray to light brown. Its four-angled, light green leaves are pinnately veined, glossy, and
+1.5–2 cm long, attached by stiff petioles. Connate or distinct stipules are 10–12 mm long, and either entire or
+2-3 lobed at the apex. Leaf-blades are glabrous and membranous, elliptic–elliptic-ovate, in sizes ranging from
+20 — 45 centimeters in length and 7 to 25 centimeters wide. The tubular flowers of Morinda citrifolia Linn.
+(Noni blossoms) are perfect, with 75-90 heads ranging from ovoid to globose. A truncated calyx encloses the
+peduncle, which is approximately 10 to 30 mm long. The corolla is white, five-lobed, and has a greenish-
+white tube measuring approximately 7–9 mm long, and oblong-deltates lobes measuring approximately 7 mm
+in length. The five stamens are barely exserted, and the style measures about 15 mm. Yellowish-white, fleshy,
+soft syncarpous measure 5-14 cm in length, 3 to 7.5 cm in diameter, and smell fetid when ripe. The brown
+seeds with a distinct air chamber vary in length between 4 and 9 mm. A deep taproot and extensive lateral
+roots make this plant similar to citrus and coffee (Rojas-Sandoval J, 2017).
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+335
+
+Fig.1. Morinda citrifolia Linn. (Noni or Indian mulberry)
+(A) Morinda citrifolia Linn. Green leaves are opposite and simple; (B) Morinda citrifolia Linn. Pinnately veined semi-glossy
+leaves; (C) Morinda citrifolia Linn. Aggregate fruit; (D) Morinda citrifolia Linn. bracteate fruit and leaves; (E) Morinda
+citrifolia Linn. conspicuous erect Unripe fruit
+MEDICINAL USES
+Morinda citrifolia L. has one of many medicinal uses and has been used for centuries for its curative properties
+to treat various diseases and infections. Various combinations of the whole Noni plant were used by the
+Polynesians as herbal remedies (Wang, et al., 2002). It does not matter how these medicinal plants are
+administered, as long as the focus is on their safe and effective use in medicine and complementary &
+alternative medicine (Souza, et al., 2021). Moreover, the diversity of these plants promotes the discovery of
+bioactive compounds, mainly from medicinal plants that can be a food source, as well as used for
+ornamentation and as herbal medicines, as they have bioactive principles (Omar, et al., 2020). It has been
+reported that the plant has approximately 200 or more phytochemicals that have been isolated and identified
+from the root, leaf, bark, and fruit, contains antioxidants, dyslipidemic, hypotensive, healing, antibacterial,
+analgesic properties, as well as it is reputed to have antituberculosis, antidiabetic, anticancer, anxiolytic,
+antifungal, antimicrobial, and immune-enhancing properties and they also contain Phytonutrients including
+phenolic compounds, organic acids, and alkaloids. Some members of this family also may have a high toxic
+potential (Souza, et al., 2021).
+Noni fruit juice, a nutraceutical dietary supplement that offers many benefits, is widely sold throughout the
+world. In addition to treating ulcerations and minor infections, the leaf of this plant is also used to treat broken
+bones, deep cuts, and wounds (Nagalingam, et al., 2013).
+
+TRADITIONAL MEDICINAL APPLICATIONS
+Ayurvedic medicinal properties of Morinda citrifolia Linn. (Noni)
+Rasapanchaka properties:
+● Rasa/taste: Madhura – sweet; Amla – sour
+● Guna / physical qualities: Guru– heavy; Snigdha–slimy
+● Vipaka / metabolic properties: Madhura– undergoes sweet taste after digestion
+● Veerya / potency: Sheeta – cold
+Morinda citrifolia L. has been reported that the plant has many medicinal uses; it has been utilized over
+centuries for its curative properties to treat various infections and diseases by complementary alternative
+medicinal applications for ADD/ADHD, addictions, allergies, arthritis, emphysematous, brain disease, burns,
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+336
+malignancy, heart disease, chemical intolerance, myalgic encephalomyelitis, diabetes mellitus,
+gastrointestinal disorder, adenomyosis, chronic fatigue syndrome, gouty arthritis, high blood pressure,
+immuno-compromisation,
+transmissible
+disease,
+inflammation,
+time
+zone
+change
+syndrome,
+encephalomyelitis disseminata, muscle and joint pain, polio, rheumatism, severed fingers, sinus, veterinary
+medicine (Nina and Heather, 2002).
+
+Table No.3. Parts of the plant and their activities or proposed effects of Morinda citrifolia Linn.
+Parts of
+Plants
+
+Activities or proposed effects
+
+Leaves
+
+Bacterial and parasitic infections, diabetes, tuberculosis, flu, Malaria, urinary
+tract infection (UTI), abdominal swelling, hernia, Vitamin A deficiency,
+rheumatism, inflammations, etc.
+Extract
+Hypertension
+Flavoring
+Wrap around meat for cooking
+
+Bark / Stem
+
+Bacterial infections, Cough, Diarrhea in Infants, Stomach ailments/ ulcers, it
+also treats badly infected cuts, etc.
+Decoction
+Jaundice
+Extract
+Hypertension
+Root
+
+Treat badly infected cuts
+Seeds
+Oil
+Treat scalp infection (Insecticidal)
+Flowers
+
+Sties
+
+Fruits
+Unripe
+Halitosis, Bacterial & Fungal infections, Menstrual cramps, Arthritis, Ulcers
+(gastric/oral), Toothache, Indigestion, etc.
+Ripe
+
+Extract:
+Sore throat, Intestinal worm, small and deep cuts or wounds/ bruises, oral
+infections, loss of appetite, Tuberculosis, sprain, rheumatism, Ulcers, promote
+lactation, purgatives, brain stimulants, etc.
+
+Hypertension
+
+PHYTOCHEMICAL CONSTITUENTS
+ Table No.4. Phytochemical constituents present in Morinda citrifolia (Noni)
+Parts of
+Plant
+ Phytochemicals present
+Leaves
+alkaloids, saponins, phenols, tannins, and steroids.
+Roots
+Phenols, coumarins, cardiac glycosides, steroids.
+
+Seeds
+flavonoids, steroids, phenols, carbohydrates, xanthoproteic, amino acids, ketose sugar, reducing
+sugar.
+Flower
+Iridoids and flavonoids.
+Fruit
+Alkaloid, anthraquinone, carbohydrate, cardiac glycosides, coumarin, emodin, flavonoid,
+glycosides, lipid, phenols, proteins/AA, reducing sugar, saponins, steroids, tannin, terpenoid
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+337
+
+Morinda citrifolia Linn. (Noni/Indian mulberry) has been reviewed of many useful phytochemical
+constituents: amino acids, fatty acids, lignin, anthraquinones, glycosides, sterols, phenols, esters, flavonoids,
+etc.
+● Leaves
+The ethanolic extracts of Morinda citrifolia L. leaves indicated the existence of alkaloids, saponins,
+phenols, tannins, and steroids, which have a significant role in pharmacological research (Meng et al.,
+2017).
+According to Mi Mi Yee (2019), Potassium, calcium, iron, manganese, zinc elements in the ash sample
+of Morinda citrifolia Linn. leaves by Atomic Absorption Spectrometry (AAS) (Perkin Elmer A
+Analyst 880) are extremely important elements in the human body, out of all the elements, Potassium
+(K= 111.80ppm) and Calcium (Ca= 103.40ppm) were more predominant than other elements.
+● Root
+Phytochemical studies showed that the Roots of Morinda citrifolia Linn. showed the presence of
+phenols, coumarins, cardiac glycosides, steroids in the ethanolic extract, which have a significant role
+in pharmacological research and is listed in the table below (Meng, et al., 2017).
+● Seed
+In the present study, phytochemical constituents were evaluated in several components, including
+sucrose, flavonoids, steroids, phenols, carbohydrates, xanthoproteic acids, amino acids, ketose sugars,
+and reducing sugars, of the extract of Morinda citrifolia Linn seeds. Recent reports or studies have
+shown that M. citrifolia phytochemicals have effective nutraceutical and pharmaceutical use (Manju
+et al., 2017). The whole Morinda citrifolia Linn plant can be used to treat a wide range of diseases and
+has a wide range of anti-infective properties (Manivasagan, et al., 2020).
+● Flower
+Morinda citrifolia Linn. (Noni blossoms) were examined for their major phytochemical content.
+Major phytochemicals in the Morinda citrifolia Linn. were quantitatively determined to be the Iridoids
+— deacetylasperulosidic acid, and asperulosidic acid, and Flavonoids— quercetin-3-O-α-L-
+rhamnopyranosyl-(1→6)-β-D-glucopyranoside
+and
+kaempferol-3-O-α-L-rhamnopyranosyl-
+(1→6)-β-D-glucopyranoside. The presence of these 4 phytochemicals may substantially contribute to
+the therapeutic properties of Morinda citrifolia Linn.— blossom. Altogether, these compounds are
+possibly used as markers for identifying and authenticating Morinda citrifolia Linn.— blossom
+substances. DPPH radicals were scavenged more effectively by Morinda citrifolia Linn.— blossoms
+than green tea, indicating strong antioxidant activity. Morinda citrifolia Linn.— blossoms did not show
+cytotoxic or genotoxic effects in toxicological studies (Shixin, et al., 2012).
+Phytochemical studies showed that the Flowers (Noni blossoms) of Morinda citrifolia Linn. showed
+the presence of iridoids, and flavonoids in the aqueous extract, which is listed in the table below.
+● Fruit
+Phytochemical Qualitative analysis of Morinda citrifolia L.– ethanolic, methanolic, and aqueous
+extract shows the presence of alkaloids, anthraquinones, carbohydrates, coumarin, emodin, flavonoids,
+glycosides, phenols, amino acids, saponin, steroids, quinone, tannins, terpenoids, diterpenoids,
+triterpenoids. Except for anthraquinone, carbohydrate, coumarin, all chemical constituents were
+present in the aqueous extract and anthraquinone & protein in methanolic extract. The presence of a
+wide range of bioactive compounds in aqueous and alcoholic extracts is following earlier studies that
+showed the presence of a broad range of chemical compounds in hydroalcoholic fruit extract of M.
+citrifolia L. The absence of anthraquinone in aqueous extract might be due to poor solubility in water.
+Phytochemical studies showed that the fruit of Morinda citrifolia L. showed the presence of the
+following phytochemicals in the ethanolic, methanolic, and aqueous extract, which is listed in the table
+below. (Ranvir, et al., 2017)
+Morinda citrifolia Linn. Fruit Juice
+A phytochemical analysis determined that both fermented and fresh fruit juice primarily contained
+groups of large chemical compounds; the most prominent groups found were glycosides, polyphenols,
+and alkaloids. Moreover, the juice's fermentation state did not influence its composition. Therefore,
+the fermented juice contained all of the chemical compounds observed in the fresh juice. To end,
+compounds such as anthocyanin, coumarins, anthraquinones, triterpenoids, steroids, cardenolides,
+cyanogenic derivatives, free anthracene, C-heterosides, mucilage. Fermented Morinda citrifolia shows
+the potential of producing probiotic enzymes by reacting with lactic acid bacteria, hence, Noni
+fermented juice can be used as a probiotic juice (Sinha, et al., 2021).
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+338
+
+Table.5. Phytochemical constituent present in Morinda citrifolia Linn. Fruit fresh & fermented juice
+Fruit juice of Morinda citrifolia
+Linn.
+Phytochemical present:
+Fresh juice: alkaloid, catechic tannin,
+gallic tannin, flavonoid, leuco-
+anthocyanin, saponosids, reducing
+compounds, O-heterosis
+Fermented juice: alkaloids,
+catechic tannins, gallic tannins,
+flavonoids, leuco-anthocyanin,
+saponosids, reducing compounds,
+O-heterosis
+
+Table.6. Phytochemical in Ethanolic extract of Morinda citrifolia Linn.
+Sr. No.
+Phytochemical constituent
+Leaves
+Root
+Fruit
+1
+Alkaloid
+✔
+-
+✔
+2
+Anthraquinone
+-
+-
+✔
+3
+Carbohydrates
+-
+-
+✔
+4
+Cardiac glycosides
+-
+✔
+-
+5
+Coumarin
+✔
+✔
+✔
+6
+Diterpenoid
+-
+-
+✔
+7
+Emodin
+-
+-
+✔
+8
+Flavonoids
+-
+-
+✔
+9
+Glycosides
+-
+-
+✔
+10
+Phenols
+✔
+✔
+✔
+11
+Proteins/ AA
+-
+-
+✔
+12
+Quinone
+-
+-
+✔
+13
+Saponins
+✔
+-
+✔
+14
+Steroids
+-
+✔
+✔
+15
+Tannins
+✔
+-
+✔
+16
+Terpenoids
+-
+-
+✔
+17
+Triterpenoid
+-
+-
+✔
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+339
+Table.7. Phytochemical in Methanolic extract of Morinda citrifolia Linn.
+Sr. No.
+Phytochemical constituent
+Fruit
+1
+Alkaloid
+✔
+2
+Anthraquinone
+-
+3
+Cardiac glycosides
+✔
+4
+Carbohydrates
+✔
+5
+Flavonoids
+✔
+6
+Lipids
+✔
+7
+Phenols
+✔
+8
+Protein/AA
+-
+9
+Reducing sugar
+✔
+10
+Saponin
+✔
+11
+Steroid
+✔
+12
+Tannin
+✔
+13
+Terpenoids
+✔
+
+Table.8. Phytochemical in Aqueous extract of Morinda citrifolia Linn.
+Sr. No.
+Phytochemical
+constituents
+ Seeds
+Flower
+Fruit
+1
+Alkaloid
+-
+-
+✔
+2
+Carbohydrates
+✔
+-
+-
+3
+Diterpenoid
+-
+-
+✔
+4
+Emodin
+-
+-
+✔
+5
+Flavonoid
+✔
+✔
+✔
+6
+Glycosides
+-
+-
+✔
+7
+ Iridoid
+-
+✔
+-
+8
+Ketose sugar
+✔
+-
+-
+9
+Phenol
+✔
+-
+✔
+10
+Protein/AA
+✔
+-
+✔
+11
+Quinone
+-
+-
+✔
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+340
+12
+Reducing sugar
+✔
+-
+-
+13
+Saponin
+-
+-
+✔
+14
+Steroid
+✔
+-
+✔
+15
+Sucrose
+✔
+-
+-
+16
+Tannin
+-
+-
+✔
+17
+Terpenoid
+✔
+-
+✔
+18
+Triterpenoid
+-
+-
+✔
+19
+Xanthoproteic
+✔
+-
+-
+
+ISOLATED COMPOUNDS
+● Leaves
+
+Table No.9. Isolated compounds from Morinda citrifolia Linn. leaves (Ali Mohammad, et al., 2016)
+Chemical classification
+Compounds
+Activities
+Glycosides
+β-D-glucopyranoside
+Antimicrobial, heart disease
+Citrofolinin-A
+Fixative
+β-D-galactopyranoside
+Antidiabetic, antioxidant,
+antihyperlipidemic
+Kaempferol
+Antioxidant
+Quercetin (Rutin)
+Anti-inflammatory,
+Lipoxygenase inhibitor
+Citrifolia side-B
+Fixative, Suppressing UVB-
+induced Activator Protein-1 (AP-
+1) activity
+Lignin
+Americanin A
+Antioxidant
+Sterols
+β-sterols
+Lower blood cholesterol & blood
+pressure and stimulate the
+immune system
+Amino Acids
+Alanine
+Antidiabetic
+Tryptophan
+Insomnia, anxiety, and depression
+Threonine
+CNS disorder
+Cysteine
+Antioxidant
+Isoleucine
+Energy production
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+341
+Leucine
+Dietary supplement
+Phenylalanine
+Skin disease use
+Arginine
+Heart disease
+Glutamic acid
+CNS disorder
+Serine
+Brain development & metabolism
+Tyrosine
+Antimalarial
+Valine
+Immune & Nervous system
+Histidine
+Antiulcer, antiallergic & arthritis
+Methionine
+Antitoxic
+Proline
+Skin infection/disorder, Muscle &
+Joint strength
+Aspartic acid
+Increase muscle size & strength
+
+● Stem/Bark
+
+Table. No.10. Isolated compounds from Morinda citrifolia Linn. Stem/Bark (Almeida, et al., 2019)
+Chemical
+classification
+Compounds
+Activities
+Anthraquinone
+Damnacanthal
+Antitumor
+1,3-dihydroxy-5-methoxy-6-
+methoxymethyl-2-methyl-9,10-
+anthraquinone
+Bactericidal and antiviral
+1,3-dihydroxy-5-methoxy-2,6-bi-methoxy
+methyl-9,10-anthraquinone
+Coumarin
+Scopoletin
+Anticancer
+
+● Root
+
+Table No.11. Isolated compounds from Morinda citrifolia Linn. roots. (Ali, et al., 2016)
+Chemical classification
+Compound
+Activities
+Anthraquinone
+Alizarin
+Textile dye, antigenotoxic
+Tri Oxy methyl anthraquinone
+monoethyl ether
+—
+Morindone
+Dyes, yellow and red colorants
+used for tapa cloth; anti-bacterial,
+anticancer.
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+342
+Damnacanthal
+Anti-carcinogenic, antibacterial,
+antiseptic
+Rubiadine monomethyl ether
+Antiviral
+Morindanidrine
+Anti Inflammatory, anti-infection
+Morinda Diol
+Morenone 1
+Anticancer
+Morenone 2
+Lucidin
+Hypovolemia
+
+● Root bark
+
+Table No.12. Isolated compounds from Morinda citrifolia Linn. root bark (Mahanthesh, et al., 2013).
+Chemical classification
+Compounds
+Activities
+Anthraquinone
+Alizarin
+Textile dye (red&yellow),
+antibacterial
+Trioxy methyl anthraquinone
+monoethyl ether
+—
+Morindone
+Natural dye, anticancer & anti-
+microbial
+Morinda Diol
+Anti Inflammatory, anti-infection
+Morindine
+Textile dye, Antibacterial
+Rubiadine monomethyl ether
+Antiviral
+Terpenes
+Sorandjidiol
+Anti Inflammatory, anti-infection,
+
+simple sugars
+Monosaccharides
+Pentose
+Hexose
+
+● Seeds
+
+Table. No.13. Isolated compounds from Morinda citrifolia Linn. seeds (Almeida et al., 2019)
+Chemical classification
+Compounds
+Activities
+Fatty acids
+Arachidic acid
+—
+Lauric acid
+Immunostimulant, cytotoxic
+Linoleic acid
+Anti-inflammatory
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+343
+Oleic acid
+Anticancer, hypotensive
+Palmitoleic acid
+Immunostimulant
+Stearic acid
+
+● Flower
+
+Table No.14. Isolated compounds from Morinda citrifolia Linn. flower (Noni blossom)
+(Arunachalam V., 2018).
+Chemical classification
+Compound
+Activities
+Irinoids
+De-acetyl Asperulosidic acid
+Antioxidant activity
+Asperulosidic acid
+Flavonoids
+quercetin-3-O-ɑ-L-
+rhamnopyranosyl- (1→6)-β-D-
+glucopyranoside
+Kaempferol-3-O-ɑ-L-
+rhamnopyranosyl-(1→6)-β-D-
+glucopyranoside
+
+● Fruit
+
+Table No.15. Isolated compounds from Morinda citrifolia Linn. Fruit (Ali Mohammad, et al., 2016).
+Chemical classification
+Compound
+Activities
+Alkaloid
+Xeronine
+Antitumor, Anticancer
+Anthraquinone
+Alizarin
+Natural dye, antigenotoxic
+Glycosides
+Asperuloside Tetraacetate
+Antiobesity
+Acids
+Caprylic acid (Octanoic acid)
+Antifungal
+Caproic acid
+Antifungal
+Hexanoic acid
+Antifungal, Antioxidant
+Sugars
+Arabinose
+—
+Galactose
+—
+Rhamnose
+Neuroprotective
+Glucuronic acid
+Antioxidant
+Esters
+Ethyl caproate
+Antihypertensive (metabolic
+disease)
+Ethyl caprylate
+Flavoring agent & scent
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+344
+Methyl octanoate
+—
+Methyl decanoate
+Wetting agent
+
+● Whole
+plant
+
+Table. No. 16. Isolated compounds Morinda citrifolia Linn. whole plant (Almeida et al., 2019).
+Chemical classification
+Compounds
+Activities
+Alkaloids
+Xeronine
+Transform molecular structure of
+the protein, hypertension,
+atherosclerosis
+Coumarin
+Scopoletin
+Analgesic, control serotonin in the
+body, treat obesity.
+
+PHARMACOLOGICAL ACTIVITY
+ Table. No.17. Pharmacological properties of Morinda citrifolia Linn.
+Leaves
+Anticancer, heart diseases, anti-tumor, anti-inflammatory, antioxidant,
+antibacterial,
+Stem
+Anticancer, antitumor
+Roots
+Anticancer, heart diseases, antidiabetic, analgesic, anti-inflammatory
+Seeds
+Antioxidant
+Flowers
+Antioxidant
+Fruit
+Anti-tumor, anti-inflammatory, anti-cancer, antigenotoxic, neuroprotective,
+antiproliferative, antiepileptic, antidiabetic, immunostimulatory, antidementia,
+antiparasitic, antioxidant
+Nanoparticles
+Antibacterial, antitoxic, antimicrobial, antibiotic
+
+● Anticancer activity
+Leaves
+The pharmacological properties of Morinda citrifolia Linn. have been studied for several years so that
+they can be used as an anticancer agent. It has been determined that the basic compounds in Morinda
+citrifolia Linn. are polyphenols and flavonoids. In studies of polyphenols, antioxidant properties have
+been observed, as well as the anticancer effects (Sharma et al., 2015).
+According to Hirazumi et al.,(1994), ethanolic extract of Morinda citrifolia Linn. Leaves also reduce
+the expression of epidermal growth factor receptor (EGFR) or a lung adenocarcinoma biomarker, in
+albino mice and act on Lewis lung carcinoma in synergetic mice (Hirazumi et al., 1994).
+Stem
+NDAM, an anthraquinone in Morinda citrifolia Linn. stems, has been found to possess remarkable
+anti-cancer properties. According to in vivo study, NDAM is not toxic to animals when tested. In
+addition, nor-damnacanthal reduces the viability of breast cancer cells, MCF-7, and MDA-MB231 in
+vitro. As a result, the tumor size of 4T1 tumors has decreased in vivo and the number of T helper,
+cytotoxic T, and NK cells has increased. The potential of NDAM for the treatment of breast cancer
+can be explored further in studies using a larger sample size and different models of antitumor studies
+(Abu, et al., 2018).
+Roots
+Morinda citrifolia Linn. is a perennial plant whose roots and leaves contain anthraquinones that are
+used medicinally to treat numerous chronic diseases such as heart conditions and cancer disease
+(Anekpankul et al., 2007).
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+345
+
+Fruit
+The methanolic extract of the Morinda citrifolia Linn. fruit has been demonstrated to inhibit the
+proliferation of a wide variety of cell lines, including human breast adenocarcinoma cells,
+neuroblastoma cells, human kidney cells, baby hamster kidney cells, and African human epithelial 2
+cells (Hep2). The ethanolic extract of Morinda citrifolia has been shown to have antiproliferative
+properties in B16-F10 melanoma cells (LAN5) (Candida et al., 2014 & Hirazumi et al., 1994).
+Leaves and Fruits
+Leaves and fruits of Morinda citrifolia Linn. have anti-tumor effects through suppression of cell
+proliferation and immune responses, indicated by subdued cyclooxygenase2 (COX2), an important
+marker of inflammation, and increased tumor suppressor genes (Lim, et al., 2016). In addition to as a
+medicinal plant and food supplement, several cancer treatments use the Morinda citrifolia Linn. plant.
+Studies carried out by Lim et al. (2016) that ethanolic extract of Morinda citrifolia fruit or leaves
+suppresses inflammation by suppressing cyclooxygenase2 (COX2), an important marker of
+inflammation, which influenced the expression of tumor favoring. suppressor genes and the levels of
+concentrated fruit. It is also possible to prevent the mutation of genes by injecting 10% TNJ® in
+laboratory animals: carcinogenic compounds form DNA structures known as diffracts that cause
+mutation if they are not repaired. Inhibition of these structures may be achieved using Morinda
+citrifolia (Wang MY and Su C., 2001).
+
+● Antiepileptic Activity
+Fruit
+Morinda citrifolia Linn. fruit extract (medicinal plant extract) was administered to animal use for many
+neuroprotective effects. Ayurvedic preparations have been evaluated for their antiseizure properties
+against rats subjected to the Maximal ElectroShock (MES) method. A daily dose of, for example, 200
+and 400 mg/kg of the fruit extract were administered to the animals for 15 days after the seizure
+induced by the MES method, and the duration of the different phases of epileptic seizures was recorded
+and compared with the control group of animals and its possible mechanisms based on inhibition of
+prostaglandin synthesis and monoamine oxidase enzyme (McClatchey, 2002).
+● Antidiabetic Activity
+Fruit
+Many studies have been conducted in response to diabetic patients who are embracing integrative or
+functional medicine. The antidiabetic effects of Morinda citrifolia have been investigated by Nerulkar
+et al., (2012) in mice on a high-fat diet (Nerulkar et al., 2012 & Torres MAO et al., 2017). The glucose
+metabolism was improved through phosphorylation of the FOXO1 transcription factor. Similarly,
+Morinda citrifolia juice was effective in reducing blood glucose levels in diabetic rats. In combination
+with insulin, Noni produces a synergistic effect (Horsfall, et al., 2008).
+Root
+A study by Kamiya et al., (2008) was performed on the hypoglycemia and hepatoprotective properties
+in diabetes-induced rats. Diabetes induced by administered Streptozotocin. In diabetic experimental
+animals, Morinda citrifolia juice was administered twice-daily (2 ml/kg) and glibenclamide, a
+reference hypoglycemic drug, orally for 20 days. Significant reductions in blood glucose levels were
+noted in both groups.
+● Immunostimulatory Activity
+Fruit
+Larger plants contain compounds that are immunomodulators or contain substances that can promote
+or suppress the body's immune responses, such as cytokine production. The immunomodulatory
+properties of Morinda citrifolia are related to both cellular and humoral responses. The co-
+administration of Morinda citrifolia Linn. Juice along with immunosuppressant drugs reduce the
+immunostimulatory result in mice if they corroborate the action of Morinda citrifolia Linn. like an
+immunomodulating agent which can interfere in the immune response under various pathological
+conditions. Two types of extract such as aqueous and hydroalcoholic extract of Morinda citrifolia fruit
+promote in vitro splenocyte proliferation and enhance B and T lymphocyte activity (Nayak S & Mengi
+S, 2010).
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+346
+● Antidementia activity
+Fruit
+Ethanol is extracted from dried fruits of Morinda citrifolia Linn. Chloroform, ethyl acetate, and
+butanol were used to fractionate the sample with a data dose of 100 mg/ml. The result inhibited that
+Morinda citrifolia extracts were able to enhance blood circulation to the rats' brains, increasing their
+memory (Pachauri, et al., 2012).
+● Anti Inflammatory Activity
+Fruit
+Morinda citrifolia Linn. possesses anti-inflammatory properties, which have been demonstrated in
+both in vivo and in vitro models, involving a wide variety of pathological actions associated with
+inflammation. Morinda citrifolia Linn. juice decreases paw edema directly by inhibiting COX 1 & 2
+and decreasing nitric oxide production in the J774.G8 cell line, which is a dose-dependent process that
+demonstrates the anti-inflammatory action of the plant (Dussossoy et al., 2011). Aqueous extract of
+Morinda citrifolia Linn. fruit possesses anti-inflammatory properties, reduces leukocyte migration.
+Leaves
+The Serafini et al., (2011) study found that the aqueous extracts of Morinda citrifolia Linn. leaves are
+effective at reducing inflammation, significantly reduced leukocyte migration, and may be used as an
+alternative to treat pain and inflammation- including those resulting from oxidation.
+Roots
+Morinda citrifolia Linn root extract with chloroform fraction exhibits anti-inflammatory properties
+that significantly reduce histamine level and enhance paw edema at a concentration of 3 g/kg.
+Damnacanthal was used alone and edema was decreased at concentrations of 10–100mg/kg. Likewise,
+other anthraquinones isolated from the methanolic fraction of the Morinda citrifolia Linn. compound
+fruit extract showed potent anti-inflammatory activity during an induced inflammation model mice
+(Okusada, et al., 2011).
+● Analgesic activity
+Roots
+Morinda citrifolia Linn. roots are used to examine the analgesic activity of the plant. Rats were used
+to test the analgesic properties of the aqueous extract using a hot plate method. The extract showed
+activity when infused into the peritoneal at a dose of 800 mg/kg. Naloxone was used as a standard
+drug in the writhing test as well (Younos, et al., 1990 & Jubilee, et al., 2020).
+● Anti-parasitic activity
+Fruit
+Using the aqueous and ethanolic extract of Morinda citrifolia fruits, analyses were carried forward to
+test their antiparasitic activity against Ascaridia galli in chickens at a dose of 50mg/ml and 25mg/ml,
+respectively. The ethanolic extract had a higher parasite death rate than the aqueous extract and
+suggested better efficacy at higher doses (Brito, et al., 2009).
+● Antioxidant Activity
+Fruit, Seeds, and Leaves
+Morinda citrifolia Linn. is also an excellent source of natural antioxidants. Cell-mediated immunity
+and antioxidant enzyme activities can be modulated in vitro by the various parts of Morinda citrifolia,
+such
+as
+fruit
+juice
+with
+or
+without
+seeds
+or
+leaves
+juice
+(Ali,
+2020).
+Leaves
+According to Calzuola et al. (2006), the hydroalcoholic plant extract of Morinda citrifolia Linn.
+displays antioxidant activity and significant reduction of oxygen superoxide in vitro. The treatment
+consisted of administering 50 mg/kg of ethanolic extract of Morinda citrifolia Linn. leaf to mice with
+lymphoma for 14 days in an attempt to stimulate the production of antioxidant enzymes such as
+catalase,
+glutathione
+peroxidase,
+and
+superoxide
+dismutase.
+Flower
+A 500 mg/mL concentration of noni blossom aqueous extract scavenges radicals (mean ± standard
+deviation) with an activity of 88.11 ± 0.01%, which is greater than green tea at 76.60 ± 0.05% (P <
+0.0001). According to the study, noni blossoms have an enhanced ability to scavenge the DPPH
+radical, when compared with green tea, suggesting they might be used as an antioxidant in commercial
+food products (Arunachalam V, 2018).
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+347
+NANOPARTICLES
+● CuONPs Antibacterial activity
+The synthesis of Copper oxide (CuO) nanoparticles from the aqueous extract of Morinda citrifolia
+Linn. leaves and study of their antibacterial activities. The high nutritional value of Morinda citrifolia
+Linn. could induce therapeutic effects together with antimicrobial & antioxidant properties. Copper
+oxide (nanoparticles) based on Morinda citrifolia Linn. leaf extract were synthesized by green methods
+and characterized by X-ray diffraction spectroscopy (XRD), Scanning electron microscopy (SEM),
+ultraviolet- differential reflectance spectroscopy (UV-DRS), Zeta potential, and Fourier transform
+infrared spectroscopy (FTIR).
+XRD: XRD analysis of CuO nanoparticles confirms the formation of an amorphous orthorhombic
+structure with an average crystalline size– of 28.2nm
+FTIR: FTIR analyzed the aspects of the functional group (aldehydes & ketones) and the chemical
+affiliation. The absorption peak of CuO is observed at 465 cm-1. Hence, the leaf extracts contain a
+chemical compound that caps CuO Nanoparticles.
+Zeta Potential: zeta potential popularly remains an accepted predictor for a bacterial surface charge.
+Its potential for CuO nanoparticles is 6.45mv. The potential for CuO nanoparticles for the synthesis
+of nano-drugs is studied by employing zeta potential.
+ SEM: SEM analysis shows and confirms the morphology of the prepared crystalline nanoparticles
+CuO of nearly similar charge and size within 28.2nm. It shows the clear surface choice, hence CuO
+nanoparticles were synthesized.
+UV-DRS: used to monitor the band-gap Eg 2.17ev higher as compared to other bulk values. The
+sample has strongly measured radiation peek below at 570 nm.
+Antibacterial activity:
+Nanomaterials, as antibacterial, enhance antibiotic activity. CuO nanoparticles were analyzed for
+antimicrobial activity by the agarose diffusion method. CuO nanoparticles discharged 253x a lot of
+ions as compared to Silver nanoparticles (Ag NPS) manufacturing higher antibacterial activity,
+presumably because of Oxidation. Prepared samples were ascertained that CuO nanoparticles
+victimized Morinda citrifolia Linn. leaf inhibiting higher to Flavobacterium psychrophilic bacteria
+compared to Enterobacter sp., E. coli, & Klebsiella sp. Hence, CuO nanoparticles can be used to
+fabricate medicine by ecofriendly modulation or formulation such as mucus, brain, spleen. Thus CuO
+nanoparticles were one of the important properties which could play an important role in the potential
+antibacterial mechanism, the effectiveness of nanomedicines (Dayana, et al., 2021).
+● AgNPs Antibacterial activity
+The green chemistry synthesis of Silver nanoparticles (AgNPs) with an extract from distinct parts of
+Morinda citrifolia Linn., such as fresh leaves (EML), fruit(EMF), and dried seed(EMD). In
+morphology, the synthesized AgNPs/EM were spherical, with a mode size of 11 nm (AgNPs/EML),
+7 nm (AgNPS/EMF), and 3 nm (AgNPs/EMDS). The results obtained from the UV-Vis spectroscopy
+analysis are consistent with the SPR values obtained at 434, 436, and 438 nm for AgNPs/EML,
+AgNPs/EMF,
+and
+AgNPs/EMDS,
+respectively.
+Morales-Lozoya et al. (2021) evaluated the effects of metallic precursor concentration (F or DS in
+EM) on the physical properties (morphology, size, and polydispersity) of NPs synthesized.
+Analysis of the FTIR spectrum of each EM and its AgNPs. Alcohols and phenols exhibit vibrations
+associated with O-H stretching at about 3400 cm-1. Aliphatic C-H stretching vibrations are represented
+by bands around 2900 cm-1, whereas aromatic C=C stretching vibrations are represented by bands
+around 1600 cm-1. Bands for C-O stretching are around 1000 cm−1. The above vibration bands are
+caused by the presence of phytochemical compounds in the EM, which reduce and stabilize AgNPs
+(Karthik, et al., 2017).
+AgNPs can be obtained through biosynthesis, thus reducing the toxic effects of the reagents used in
+conventional chemical synthesis (Liliana, et al., 2019). By considering this alternative, the
+antibacterial activity of the AgNPs/EM synthesized with EML, EMF, or EMDS was determined. The
+antimicrobial activity by agarose well diffusion test was carried out to evaluate the zone of inhibition
+formed by the bio-AgNPs, both in E. coli (gram-negative) and S. aureus (gram-positive) bacteria.
+Antibacterial activity depends on the size of the nanoparticles. Small NPs possess a higher affinity for
+the cell wall, which makes them easier to penetrate the bacterial cell wall than bigger NPs. Due to the
+smaller size, AgNPS/EMDS demonstrated higher antibacterial activity than AgNPS/EMF and
+AgNPS/EML. Antibacterial activity of AgNPs/EMDS is more effective against E. coli as compared
+to S. aureus.
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+348
+Ag reacts with the cell wall in higher amounts with a wide surface-volume ratio. The extract alone
+does not show any antibacterial activity. The difference in the bacteriostatic activity, against
+Escherichia coli and Staphylococcus aureus, is likely due to the thickness of the murein layer of the
+cell wall, present in Staphylococcus aureus, which averts the action of bio-AgNPs, on the plasma
+membrane.
+The mechanism of the antibiotic action of the AgNPs, type-Trojan horse, is based on the production
+of ROS. The type-Trojan horse mechanism involves the intracellular release of Ag-ions from the
+AgNPs, that interact with the proteins of the respiratory chain of the cell membrane. As a result of this
+interaction, the intracellular oxygen is reduced, which then increases the production of ROS, resulting
+in bacterial cell death (Mousavi-Khattat, et al., 2018).
+Compared to Staphylococcus aureus, AgNPs/EMDS had higher bacteriostatic activity against
+Escherichia coli. Comparatively to the other extracts used in this study, EMDS is more effective for
+the synthesis of AgNPs, since the NPs obtained with it are smaller and have higher bacteriostatic
+activity. The aforesaid is due to the EMDS chemical composition, in addition to the H2O solubility of
+the extracted compounds (soluble sugars & proteins), which serve as a reducing-stabilizing agent. In
+addition to their biocompatibility and lower toxicity, these bio-AgNPs have the potential to be used to
+combat problems related to environmental bacterial resistance.
+
+POTENTIAL COMMERCIAL APPLICATIONS
+Morinda citrifolia Linn exhibits a wide range of unique and versatile medicinal properties. This species is
+paramount herbal remedies and dietary or nutritional supplements traded on the global market. Beverages
+(fermented and fresh juice drinks), powders (from dried fruits), oil (from seeds), and leaf powders are the
+principal industrial products (Almeida, et al., 2019).
+Since the 1990s, products derived from Morinda citrifolia fruit have been commercialized in the United States
+and have been distributed worldwide. Morinda citrifolia Linn is claimed to have several beneficial effects. In
+2003, the European Commission approved the juice of Morinda citrifolia Linn as a novel food (EFSA, 2006).
+Based on a toxicological assessment, Noni juice was considered safe, except for people with chronic kidney
+disease, because of its high potassium level stated by EFSA experts (Youngken, et al., 1960).
+Morinda citrifolia Linn is frequently utilized as a windbreak to provide support for pepper vines (Ampelopsis
+Arborea) and as a shade tree in coffee plantations (Tan, 2001). The plants can sometimes be used as
+ornamentals, however, this practice is not very common because of the strong and offensive odor from its ripe
+fruit, which tends to attract insects and flies. The roots and bark of Morinda citrifolia Linn. were traditionally
+used in natural dyeing (red and yellow), the trunk is used as firewood, and the leaf is used in cooking
+(vegetables), wrapping, and flavoring. It has a notable ability to survive in harsh environments even in drought
+conditions therefore it is also known as “Starvation fruit”.
+Morinda citrifolia Linn likely has a relatively low carbon & water footprint compared to other foods. Since
+there is no known significant damage to air, water, land, soil, forests, etc. cultivation of Morinda citrifolia is
+relatively sustainable (Ethical consumer guide, 2022).
+
+CONCLUSION
+Morinda citrifolia is one of the most important medicinal plants that is mentioned in Ayurveda possessing
+numerous phytochemical and pharmacological properties. Different Bioactive compounds have been isolated
+from different parts of the plant and have been tested against various properties. Damnacanthal and Morenone
+1 & 2 (Roots), Alizarin (Root bark), Scopoletin (Stem), Kaempferol, and Americanin A (Leaves),
+Asperulosidic acid (Flower), Xeronine (Fruit) are some of the isolated compounds showing potential effects
+against various activities.
+The plant was also tested for its Phytochemical constituents and showed the presence of amino acids, lignins,
+saponins, flavonoids, anthraquinones, glycosides, etc. Steroids and Cardiac glycosides (Roots), Alkaloids
+(Leaves), Iridoids and Flavonoids (Flower), Tannins and Coumarins (Fruit) are some of the major
+phytochemicals that were found to be present in the ethanolic extract of M. citrifolia which has been of interest
+because of their antiviral, anti-inflammatory, antifungal properties. Besides that, Potassium and Calcium
+elements were predominantly observed in the plant sample by Atomic Absorption Spectrometry (AAS)
+method.
+The current review discussed the pharmacological activities of M. citrifolia which included antibacterial,
+antifungal, anticancer, anti-inflammatory, antidiabetic, antiepileptic, immunostimulatory, antidementia,
+antiparasitic, analgesic, antioxidant effects. The review also focused on the chemical constituents of Morinda
+citrifolia as a promising medicinal plant for therapeutic purposes in the scientific field.
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+349
+Copper oxide and Silver nanoparticles have been synthesized using the green synthesis method in the plant
+sample and showed potential antibacterial and antioxidant properties that were carried out from different parts
+of the plant like leaves, fruit, and dried seeds. The biosynthesized Mc-Ag NPs and Mc-Cu NPs possess many
+effective antimicrobial activities against two bacterial strains: Staphylococcus aureus (gram-positive) and
+Escherichia coli (gram-negative) and have paved the way in the field of nanomedicine against various effects
+and from the therapeutic point of view.
+Recent findings on M. citrifolia have proved its potential commercial applications such as in the field of
+beverages (fermented and fresh drinks), powder (dried fruit), oil (seeds). It also has an ornamental application,
+dyeing, flavoring agent, etc. It has a notable ability to survive in harsh environments even in drought
+conditions therefore it is also known as “Starvation fruit”, thus it will aid in the development of new
+applications and development of products with minimum adverse effects.
+
+REFERENCES
+1. Abu, N., Zamberi, N. R., Yeap, S. K., Nordin, N., Mohamad, N. E., Romli, M. F., Rasol, N. E.,
+Subramani, T., Ismail, N. H., & Alitheen, N. B. (2018). Subchronic toxicity, immunoregulation, and
+anti-breast tumor effect of Nordamnacantal, an anthraquinone extracted from the stems of Morinda
+citrifolia L. BMC complementary and alternative medicine, 18(1), 31. DOI: 10.1186/s12906-018-
+2102-3
+2. Ali Mohammad & kengonora, Mruthunjaya & Manjula, Santhepete. (2016). Health Benefits of
+Morinda citrifolia (Noni): A Review.: Pharmacognosy Journal. 8. 321-334. 10.5530/PJ. 2016.4.4.
+3. Ali, M., Singh, P., Singh, L., & Kumar, S. (2020). PHYTOCHEMICAL CONSTITUENTS AND
+PHARMACOLOGICAL ACTIVITIES, PROFILE OF MORINDA CITRIFOLIA: A REVIEW.
+4. Almeida, Édipo & Oliveira, Débora & Hotza, Dachamir. (2019). Properties and Applications of
+Morinda citrifolia (Noni): A Review. Comprehensive Reviews in Food Science and Food Safety. 18.
+10.1111/1541-4337.12456
+5. Anekpankul, Thitiporn & Goto, Motonobu & Sasaki, Mitsuru & Pavasant, Prasert & Shotipruk,
+Artiwan. (2007). Extraction of anti-cancer damnacanthal from roots of Morinda citrifolia by
+subcritical water. Separation and Purification Technology. 55. 343-349. 10.1016/j.seppur.2007.01.004
+6. Arunachalam, V. (2018). Morinda citrifolia L. (Rubiaceae): a multipurpose tree for coastal ecosystems
+and its variability in the Konkan region of India. Genetic Resources and Crop Evolution, 65(6), 1751–
+1765.
+7. Brito DRB, Fernandes RM, de L C M Fernandes MZ, de S Ferreira MD, Rolim FRL, da Silva Filho
+ML. (2009). Atividade anti-helmíntica dos extratos JubileeRetal., aquoso e etanólico do fruto da
+Morinda citrifolia sobre Ascaridiagalli. FapUNIFESP (Sci-ELO);. Available from: 10.4322/rbpv.
+01804006
+8. Calzuola, I., Gianfranceschi, G. L., & Marsili, V. (2006). Comparative activity of antioxidants from
+wheat sprouts, Morinda citrifolia, fermented papaya, and white tea. International journal of food
+sciences and nutrition, 57(3-4), 168–177.
+9. Candida, T., França, J. P., Chaves, A. L., Lopes, F. A., Gaiba, S., Sacramento, C. K., Ferreira, L. M.,
+& França, L. P. (2014). Evaluation of the antitumoral and antimicrobial activity of Morinda lcitrifolia
+L.
+grown
+in
+Southeast
+Brazil.
+Acta
+cirurgica
+brasileira,
+29
+Suppl
+2,
+10–14.
+https://doi.org/10.1590/S0102-86502014001400003
+10. Carrillo-López, A. (2011). Postharvest Biology and Technology of Tropical and Subtropical Fruits ||4.
+Noni (Morinda citrifolia L.). , (51-62), 63e–64e. doi:10.1533/9780857092618.51
+11. Chauhan, A., Semwal, D. K., Mishra, S. P., & Semwal, R. B. (2015). Ayurvedic research and
+methodology: Present status and future strategies. Ayu, 36(4), 364–369. https://doi.org/10.4103/0974-
+8520.190699
+12. Dayana, K. S., Mani, R. J., & Durai, S. V. (2021). Morinda citrifolia LEAF EXTRACT MEDIATED
+GREEN SYNTHESIS OF COPPER OXIDE NANOPARTICLES AND IT’S POTENTIAL AND
+ANTIBACTERIAL STUDIES. Vol. 14 | No. 2 |897-904
+13. Dussossoy, E., Brat, P., Bony, E., Boudard, F., Poucheret, P., Mertz, C., Giaimis, J., & Michel, A.
+(2011). Characterization, anti-oxidative and anti-inflammatory effects of Costa Rican noni juice
+(Morinda
+citrifolia
+L.).
+Journal
+of
+ethnopharmacology,
+133(1),
+108–115.
+https://doi.org/10.1016/j.jep.2010.08.063
+14. Ethical Consumer Guide. (2022). HEALabel. Noni Benefits And Side Effects
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+350
+15. European Food Safety Authority, EFSA (2006). Opinion on a request from the commission related to
+the safety of Noni juice (juice of the fruits of Morinda citrifolia). EFSA J. 376:1-12
+16. Govaerts R, 2017. World Checklist of Rubiaceae., Richmond, UK: Royal Botanic Gardens, Kew.
+http://apps.kew.org/wcsp/
+17. Hirazumi, A., Furusawa, E., Chou, S. C., & Hokama, Y. (1994). Anticancer activity of Morinda
+citrifolia (noni) on intraperitoneally implanted Lewis lung carcinoma in syngeneic mice. Proceedings
+of the Western Pharmacology Society, 37, 145–146.
+18. Horsfall, A. U., Olabiyi, O., Aiyegbusi, A., Noronha, C. C., & Okanlawon, A. O. (2008). Morinda
+citrifolia fruit juice augments insulin action in Sprague-Dawley rats with experimentally induced
+diabetes. Nigerian quarterly journal of hospital medicine, 18(3), 162–165.
+19. India Biodiversity Portal, 2017. Online Portal of India Biodiversity. In: Online Portal of India
+Biodiversity. http://indiabiodiversity.org/species/list
+20. Janick, J., Paull, R. E., 2008. The encyclopedia of fruit & nuts, CABI.xviii + 954 pp.
+doi:10.1079/9780851996387.0000
+21. Jubilee R, Elakkiya M, Ganapathy P, Elakiya M, Dinesh Kumar V, & Divya A. (2020). Phytochemical
+and pharmacological review on Morinda citrifolia. International Journal of Review in Life Sciences,
+10(1), 18-24. https://aqqdoi.org/10.26452/ijrls.v10i1.1192.
+22. Kamiya, K., Hamabe, W., Harada, S., Murakami, R., Tokuyama, S., & Satake, T. (2008). Chemical
+constituents of Morinda citrifolia roots exhibit hypoglycemic effects in streptozotocin-induced
+diabetic mice. Biological & pharmaceutical bulletin, 31(5), 935–938. DOI: 10.1248/bpb.31.935
+23. Karthik, R., Govindasamy, M., Chen, S. M., Cheng, Y. H., Muthukrishnan, P., Padmavathy, S., &
+Elangovan, A. (2017). Biosynthesis of silver nanoparticles by using Camellia japonica leaf extract for
+the electrocatalytic reduction of nitrobenzene and photocatalytic degradation of Eosin-Y. Journal of
+photochemistry and photobiology. B, Biology, 170, 164–172. DOI: 10.1016/j.jphotobiol.2017.03.018
+24. Liliana Hernández-Morales, Heriberto Espinoza-Gómez, Lucía Z. Flores-López, Erika Lis Sotelo-
+Barrera, Alfredo Núñez-Rivera, Rubén Darío Cadena-Nava, Gabriel Alonso-Núñez, Karla Alejandra
+Espinoza. (2019). Study of the green synthesis of silver nanoparticles using a natural extract of dark
+or white Salvia hispanica L. seeds and their antibacterial application. (2019). Applied Surface Science,
+Vol.489 pg.952–961, ISSN 0169-4332. https://doi.org/10.1016/j.apsusc.2019.06.031.
+25. Lim, S. L., Goh, Y. M., Noordin, M. M., Rahman, H. S., Othman, H. H., Abu Bakar, N. A., &
+Mohamed, S. (2016). Morinda citrifolia edible leaf extract enhanced immune response against lung
+cancer. Food & function, 7(2), 741–751. DOI: 10.1039/c5fo01475a
+26. Mahanthesh M. C, Manjapp A. S, Shindhe M. V, Jamkhandi C. M, S. S. Jalapure, S. S. Patil. (2013).
+Morinda Citrifolia Linn; A medicinal plant with Diverse Phytochemicals and its Medicinal Relevance.
+World Journal Pharmaceutical Research. Volume 3, Issue 1, 215-232
+27. Manivasagan V., Saranya K., Gowtham D., Mohankumar T., Ramesh Babu N. G. (2020) Isolation and
+characterization of value-added product from waste Morinda citrifolia. L. (Noni) seeds.
+TierȁrztlichePraxis. Vol.40.
+28. Manju Mathew., Arul Sheeba Rani M. (2017) ‘A comparative study on phytochemical and
+biochemical of the fruit and ferment juice of Morinda Citrifolia.L., (Noni)’, International Journal of
+Advanced Science and Research, Vol. 2(3), pp.01-04.
+29. McClatchey W. (2002). From Polynesian healers to health food stores: changing perspectives of
+Morinda
+citrifolia
+(Rubiaceae).
+Integrative
+cancer
+therapies,
+1(2),
+110–120.
+DOI:
+10.1177/1534735402001002002
+30. Meng C., Keo, S., Chea, S., San, M., Trylim, B., Seng, S., Srey, Chhoun, N., & Chhan, S. (2017).
+Phytochemical and thin layer chromatography analyses of Morinda citrifolia L . of Tboung Khmum
+Province, Cambodia. Asian Journal of Pharmacognosy 1(3):5-11
+31. Mi Mi Yee. 2019. Investigation of Phytochemical, Chemical Composition and Antimicrobial
+Activities of Noni Leaf (Morinda citrifolia Linn). International Journal of Current Innovations in
+Advanced Research, 2(5): 35-45.
+32. Morales-Lozoya, Violeta; Espinoza-GÃ³mez, Heriberto; Z. Flores-LÃ³pez, LucÃ-a; Sotelo-Barrera,
+Erika Lis; NÃºÃ±ez-Rivera, Alfredo; Cadena-Nava, RubÃ©n DarÃ-o; Alonso-NuÃ±ez, Gabriel;
+Rivero, Ignacio A. (2021). Study of the effect of the different parts of Morinda citrifolia L. (noni) on
+the green synthesis of silver nanoparticles and their antibacterial activity. Applied Surface Science,
+537(), 147855–. doi:10.1016/j.apsusc.2020.147855
+33. Mousavi-Khattat, M., Keyhanfar, M., & Razmjou, A. (2018). A comparative study of stability,
+antioxidant, DNA cleavage, and antibacterial activities of green and chemically synthesized silver
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+351
+nanoparticles. Artificial cells, nanomedicine, and biotechnology, 46(sup3), S1022–S1031.
+https://doi.org/10.1080/21691401.2018.1527346.
+34. Nagalingam, Sridevi & Changam, Sheela & Sasikumar, & Cherian, Kotturathu & Sasikumar,
+Changam Sheela. (2013). INTERNATIONAL JOURNAL OF UNIVERSAL PHARMACY AND
+BIOSCIENCES IMPACT FACTOR 1.89*** ICV 5.13*** Pharmaceutical Sciences REVIEW
+ARTICLE……!!! MORINDA CITRIFOLIA (NONI) – A DETAILED REVIEW.
+35. Nayak, S., & Mengi, S. (2010). Immunostimulant activity of noni (Morinda citrifolia) on T and B
+lymphocytes. Pharmaceutical biology, 48(7), 724–731. https://doi.org/10.3109/13880200903264434
+36. Nerurkar, P. V., Nishioka, A., Eck, P. O., Johns, L. M., Volper, E., & Nerurkar, V. R. (2012).
+Regulation of glucose metabolism via hepatic forkhead transcription factor 1 (FoxO1) by Morinda
+citrifolia (noni) in high-fat diet-induced obese mice. The British journal of nutrition, 108(2), 218–228.
+37. Nina. L. Etkin and Heather L. Millen. (2002) The Ethnobotany of Noni (Morinda citrifolia L.,
+Rubiaceae); Dwelling in the land Lā‘au, Lapa‘au &TestiNONIals. Proceedings of 2002 Hawai’i Noni
+conference (11-16).
+38. Okusada, K., Nakamoto, K., Nishida, M., Fujita-Hamabe, W., Kamiya, K., Mizushina, Y., Satake, T.,
+& Tokuyama, S. (2011). The antinociceptive and anti-inflammatory action of the CHCl3-soluble phase
+and its main active component, damnacanthal, isolated from the root of Morinda citrifolia. Biological
+& pharmaceutical bulletin, 34(1), 103–107. https://doi.org/10.1248/bpb.34.103
+39. Omar, G., Abdallah, L., Barakat, A. (2020).In vitro hemostatic efficacy of aqueous, methanol, and
+ethanol plant extracts of three medicinal plant species in Palestine. Brazilian Journal of Biology, 80(4),
+763–768,
+40. Pachauri, S. D., Tota, S., Khandelwal, K., Verma, P. R., Nath, C., Hanif, K., Shukla, R., Saxena, J. K.,
+& Dwivedi, A. K. (2012). Protective effect of fruits of Morinda citrifolia L. on scopolamine-induced
+memory impairment in mice: a behavioral, biochemical and cerebral blood flow study. Journal of
+ethnopharmacology, 139(1), 34–41.
+41. Pieroni, Andrea (2005). Prance, Ghillean; Nesbitt, Mark (eds.). The Cultural History of
+Plants.Routledge. p. 36. ISBN 0415927463.
+42. PROTA, 2017. PROTA4U web database. In: PROTA4U web database. Wageningen and Nairobi,
+Netherlands\Kenya: Plant Resources of Tropical Africa. https://www.prota4u.org/database/
+43. Ranvir GD, Rajkumar SR, Ballukar BV, Gangane GR. (2017). Physicochemical and phytochemical
+evaluation of Noni (Morinda citrifolia Linn.) fruit powder and extracts. Adv. Anim. Vet. Sci. 5(4):160-
+166
+44. Rojas-Sandoval J, 2017. Morinda citrifolia (Indian mulberry). Invasive Species Compendium.
+Wallingford, UK: CABI. DOI:10.1079/ISC.34854.20203483191
+45. Serafini, M. R., Santos, R. C., Guimarães, A. G., Dos Santos, J. P., da Conceicão Santos, A. D., Alves,
+I. A., Gelain, D. P., de Lima Nogueira, P. C., Quintans-Júnior, L. J., Bonjardim, L. R., & de Souza
+Araújo, A. A. (2011). Morinda citrifolia Linn leaf extract possesses antioxidant activities and reduces
+nociceptive behavior and leukocyte migration. Journal of medicinal food, 14(10), 1159–1166.
+https://doi.org/10.1089/jmf.2010.0254
+46. Sharma, K., Pachauri, S. D., Khandelwal, K., Ahmad, H., Arya, A., Biala, P., Agrawal, S., Pandey, R.
+R., Srivastava, A., Srivastav, A., Saxena, J. K., & Dwivedi, A. K. (2016). Anticancer Effects of
+Extracts from the Fruit of Morinda Citrifolia (Noni) in Breast Cancer Cell Lines. Drug research, 66(3),
+141–147. https://doi.org/10.1055/s-0035-1555804
+47. Shixin Deng, Brett J. West, 'Afa K. Palu, C. Jarakae Jensen. (2012). "Phytochemical, Antioxidant and
+Toxicological Investigation of Morinda citrifolia L. Blossoms". International Scholarly Research
+Notices, vol. 2012, Article ID 160871, 5 pages. https://doi.org/10.5402/2012/160871
+48. Sina, H., Dramane, G., Tchekounou, P., Assogba, M. F., Chabi-Sika, K., Boya, B., Socohou, A.,
+Adjanohoun, A., & Baba-Moussa, L. (2021). Phytochemical composition and in vitro biological
+activities of Morinda citrifolia fruit juice. Saudi journal of biological sciences, 28(2), 1331–1335.
+https://doi.org/10.1016/j.sjbs.2020.11.059
+49. Souza, S. K. de A. ., & Passos , M. P. S. . (2021). Ethnobotanical use of Morinda citrifolia: a literature
+review. Research, Society and Development, 10(15), e352101523280. https://doi.org/10.33448/rsd-
+v10i15.23280
+50. Tan, R. 2001. Mangrove and wetland wildlife at Sungei Buloh Nature Park: Great morinda.
+http://www.naturia.per.sg/buloh/plants/morinda. htm. 3 p.
+
+© 2022 IJNRD | Volume 7, Issue 3 March 2022 | ISSN: 2456-4184 | IJNRD.ORG
+IJNRD2203039
+International Journal of Novel Research and Development (www.ijnrd.org)
+
+352
+51. Torres MAO, Magalhaes IDFB, Oliveira RM, Sa JCD, Rocha AL, and Silva ALA. 2017; One Plant,
+Many Uses: A Review of the Pharmacological Applications of Morinda citrifolia. Phytother. Res.,
+31(7).
+52. USDA-ARS, 2017. Germplasm Resources Information Network (GRIN). Online Database. In:
+Germplasm Resources Information Network (GRIN). Online Database. Beltsville, Maryland, USA:
+National
+Germplasm
+Resources
+Laboratory.
+https://npgsweb.ars-
+grin.gov/gringlobal/taxon/taxonomysimple.aspx
+53. USDA-NRCS, 2017. The PLANTS Database. In: The PLANTS Database. Greensboro, North
+Carolina, USA: National Plant Data Team. https://plants.sc.egov.usda.gov
+54. Wang, M. Y., & Su, C. (2001). Cancer preventive effect of Morinda citrifolia (Noni). Annals of the
+New York Academy of Sciences, 952, 161–168.
+55. Wang, Mian-Ying & West, Brett & Jensen, Claude Jarakae & Nowicki, Diane & Su, Chen & Palu,
+Afa & Anderson, Gary. (2003). Morinda citrifolia (Noni): A literature review and recent advances in
+Noni research 1. Acta pharmacologica Sinica. 23. 1127-41.
+56. YOUNGKEN, H. W., Sr, JENKINS, H. J., & BUTLER, C. L. (1960). Studies on Morinda citrifolia
+L. II. Journal of the American Pharmaceutical Association. American Pharmaceutical Association,
+49, 271–273.
+57. Younos C, Rolland A, Fleurentin J, Lanhers MC, Misslin R, Mortier F. 1990. Analgesic and
+Behavioural Effects of Morinda citrifolia. Planta Medica.;56(05):430–434. Available from:
+10.1055/s-2006-961004

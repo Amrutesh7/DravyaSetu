@@ -1,0 +1,423 @@
+
+
+===== PAGE 1 =====
+
+www.ijcrt.org                                                      © 2025 IJCRT | Volume 13, Issue 3 March 2025 | ISSN: 2320-2882 
+IJCRT2503232 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+b975 
+ 
+An Ayurvedic And Modern Overview Of Carica 
+Papaya As An Anti-Ulcer Agent-A Review Article 
+ 
+Vishal Ghunawat1,  Shubhangi Hatte1,  Dr. Ashok Narute2. 
+1B Pharmacy Students of Yash Institue of Pharmacy, Chh. Sambhajinagar 
+2Department of Pharmaceutical Chemistry, Yash Institute of Pharmacy, Chh. Sambhajinagar 
+ABSTRACT: Papaya, scientifically known as Carica papaya is a member of family caricaceae.Papaya is a 
+tropical plant which is being used in various ayurvedic formulations since ancient times and also shows 
+commercial importance because of it’s high nutritive and medicnal value.Papaya plant extracts has been 
+found to show various functions like anti-inflammatory, antioxidant, diuretic antibacterial, vermifuse, 
+abortifacient, hypoglycaemic, antihelminthic, and immunomodulatory etc.                   
+                  Ulcers are basically the open sores that can develop on the lining of the stomach, small intestine 
+or oesophagus. Anti-Ulcer activity refers to the mechanism or substances that prevent or heal ulcers in the 
+GI tract. Various drugs and natural compounds exerts anti-ulcer effect by different mechanisms. Carica 
+papaya has been explored for its potential anti ulcer properties due to its rich nutritional profile & bioactive 
+compounds. Carica papaya contains various enzymes in its different parts like fruits, leaves, roots, latex etc. 
+which are pharmacologically active in nature. So, this review enlightens the various pharmacological 
+actions shown against ulcer conditions and mechanisms by which it has been found to be effective against 
+ulcers. 
+KEY WORDS : Carica papaya , gastroprotective , anti-ulcer , papain , anti-oxidant 
+1. INTRODUCTION: 
+Carica papaya, commonly known as papaya, is a tropical fruit that has been recognized for its medicinal 
+values from centuries. Both in historical practices and in Ayurvedic medicine, papaya has been widely used 
+to treat various diseases, including ulcers. Different parts of papaya , such as the seeds, leaves, and latex, 
+have been utilized for their healing properties in treating ulcers. Carica papaya has been evaluated for its  
+gastroprotective and healing effects of the methanolic extract of the seed of the papaya Carica papaya L.  in 
+rats(4) 
+The latex of the unripe papaya fruit extract has been found to contain proteolytic enzymes, such as papain, 
+which has been traditionally well known for their wound-healing properties. The presence of papain in 
+papaya latex allows effective breakdown of dietary proteins, which may improve nutrient absorption and 
+digestive efficiency.(7) 
+ 
+Historical Uses of Carica Papaya for Ulcers 
+Historically, Carica papaya has been used in traditional medicine systems across various cultures for its 
+therapeutic properties. In folk medicine, the use of papaya was not only limited to treating digestive issues 
+but also extended to treating ulcers. The unripe fruit, seeds, and leaves were commonly used in poultices 
+and herbal concoctions to treat external and internal ulcers.(6) 
+
+
+===== PAGE 2 =====
+
+www.ijcrt.org                                                      © 2025 IJCRT | Volume 13, Issue 3 March 2025 | ISSN: 2320-2882 
+IJCRT2503232 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+b976 
+ 
+Indiginious Medicines: In many indigenous cultures, mainly the in tropical regions, papaya leaves and fruits 
+have been used as herbal treatment material  for digestive issues, including ulcers. Traditional shamans 
+often suggested the consumption of ripe papaya to soothe the internal lining of stomach. 
+Ayurvedic Medicines: In Ayurveda, papaya was identified  for its potential capacity to balance digestive 
+health. The fruit was believed to posses soothing properties, helping to treat symptoms of gastric ulcers. 
+Caribbean Folk Medicine: In Caribbean countries, the leaves of the papaya plant were often used in teas was 
+thought to cure digestive disorders, including ulcers.(6) 
+Ayurvedic Perspective- 
+The anti-ulcer properties of Carica papaya in Ayurvedic medicine, are related to its rich biochemical 
+composition and antioxidant activities. Research indicates that various parts of the plant, significantly its 
+leaves and seeds, play a crucial role in preventing gastric damage and oxidative stress. Carica papaya 
+contains potent antioxidants such as flavonoids, phenols, and enzymes, which help reduce oxidative stress 
+by free radical scavenging.(8)(9) 
+Furthermore, the seeds of Carica papaya are known to possess anti-inflammatory and antimicrobial 
+properties, which help in treating infections related with ulcer and various other conditions. Ayurvedic 
+formulations sometimes include papaya seeds to cleanse the gastrointestinal tract, reduce bacterial load, and 
+promote healing of the stomach and intestinal lining.(1) 
+Modern Research and Applications- 
+The modern day studies on Carica papaya's use in ulcer treatment highlights its significant anti-ulcerogenic 
+and antioxidant activities, contrasting with traditional methods that often depends upon on pharmaceutical 
+interventions. Recent studies demonstrate that extracts from both the leaves and seeds of papaya effectively 
+reduce ulcer formation and promote healing. Research on the ethanolic extracts of leaves of Carica papaya 
+effectively reduce inflammation and ulcerogenic activity in animal.(11) 
+          Aqueous extracts of papaya leaves have shown protective effects against alcohol-induced gastric 
+damage, reducing ulcer indices and oxidative stress.(12) In Jamaica, topical use of unripe papaya fruit for 
+treatment of chronic ulcers is prevalent, with 75% of surveyed patients reporting its effectiveness in 
+promoting healing and reducing odor.(13) 
+The effects of Carica papaya Linn on exogenous ulcer and histamine-induced ulcers were studied in rats. 
+The latex of unripened fruit of Carica papaya significantly reduced the acid secretion induced by 
+intravenous infusion of histamine in chronic gastric fistulated rats thereby effectively treating exogenous 
+ulcers. Papain was also found to be effective in preventing the exogenous ulcer and in decreasing the 
+histamine-induced acid secretion in rats.(14) 
+Nutritional Composition Of Carica Papaya in Relation To ANTI-ULCER Activity:- 
+PARTS 
+COMPOSITION 
+REFERENCE 
+ 
+a)Latex 
+Papain,lipases 
+Saponins & Cardenolides 
+16) 
+ 
+b)Leaves 
+bioactive compounds, including flavonoids 
+and phenolic acids. 
+essential vitamins and minerals 
+15) 
+c)seeds 
+β-sitosterol and hexadecanoic acid 
+17) 
+ 
+ 
+d)Fruits 
+87-94% water, 2-12% carbohydrates, and 
+significant levels of sugars (sucrose, 
+glucose, fructose) and vitamins, 
+particularly vitamin C and A 
+18) 
+ 
+ 
+e)Roots 
+roots contain significant levels of saponins 
+and cardenolides 
+Essential minerals such as potassium, 
+sodium, calcium, and iron are present, with 
+19) 
+
+
+===== PAGE 3 =====
+
+www.ijcrt.org                                                      © 2025 IJCRT | Volume 13, Issue 3 March 2025 | ISSN: 2320-2882 
+IJCRT2503232 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+b977 
+ 
+potassium being notably abundant 
+ 
+ 
+ 
+1.Fruit (Ripe and Unripe Papaya) 
+The fruit of Carica papaya, both ripe and unripe, contains a variety of compounds that contribute to its 
+pharmacological activities. 
+Chemical Constituent- 
+Carotenoids: Include β-carotene, lycopene, and cryptoxanthin, which are responsible for the fruit's orange to 
+red color. Lycopene is particularly abundant in ripe papaya. 
+Vitamin C: Papaya is rich in ascorbic acid (vitamin C) and vitamin A 
+Flavonoids:  Quercetin,  possess antioxidant and anti-inflammatory properties. 
+Folic Acid: i.e vitamin B9,important for cell division and tissue formation. 
+Dietary Fiber: The fruit contains soluble and insoluble fibers, which aid in digestion and promote gut health. 
+Papain: This proteolytic enzyme is mainly concentrated in the unripe fruit and it has been found to show 
+digestive and anti-inflammatory properties. 
+Properties: 
+Antioxidant: Carotenoids and vitamin C provide protection against oxidative stress. 
+Digestive Aid: Papain helps in protein digestion, making it useful for digestive health. 
+Anti-inflammatory: Flavonoids and papain help reduce inflammation in the body. 
+Immune Support: Vitamin C and carotenoids enhance immune function. 
+2. Seeds 
+Papaya seeds are small, black, and peppery in taste, containing a wealth of bioactive compounds. 
+Chemical Constituents: 
+
+
+===== PAGE 4 =====
+
+www.ijcrt.org                                                      © 2025 IJCRT | Volume 13, Issue 3 March 2025 | ISSN: 2320-2882 
+IJCRT2503232 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+b978 
+ 
+Fatty Acids: Papaya seeds contain oleic acid, palmitic acid, and linoleic acid, which are beneficial for heart 
+health. 
+Polyphenols: These include compounds such as flavonoids, which have antioxidant properties. 
+Proteins and Amino Acids: Seeds contain essential amino acids like lysine and glycine. 
+Properties: 
+Antimicrobial: broad-spectrum antimicrobial activity. 
+Anti-inflammatory:Isothiocyanates and polyphenols reduce inflammation. 
+Digestive Health: Seeds help in digestion and are used traditionally to treat intestinal parasites. 
+ 3. Leaves 
+Papaya leaves are rich in medicinal compounds and are often used in herbal remedies. 
+Chemical Constituents: 
+Alkaloids:leaves contain alkaloids such as carpaine, which has antimalarial and cardiovascular effects. 
+Flavonoids: Includes , quercetin known for its anti oxidant activity 
+Phenolic Compounds: Antioxidant activity. 
+Saponins: possess anti-inflammatory properties. 
+Papain: Also found in the leaves, though in smaller amounts compared to the latex and fruit. 
+Properties: 
+Antioxidant: Flavonoids and phenolic compounds provide significant antioxidant activity. 
+Anti-inflammatory: Saponins and flavonoids help to reduce inflammation. 
+4. Latex 
+The milky latex of the papaya tree is a rich source of enzymes and other biologically compounds. 
+Chemical Constituents: 
+ Papain:The primary enzyme in papaya latex, known for its proteolytic (protein-digesting) properties. 
+ Chymopapain: Another proteolytic enzyme similar to papain but with distinct substrate specificities. 
+Alkaloids: Latex contains small amounts of alkaloids with pharmacological activity. 
+Properties: 
+Proteolytic Activity: Papain and chymopapain helps to breakdown proteins, making latex useful in treating 
+digestive disorders. 
+ Wound Healing:The enzymes in latex aid in promoting faster wound healing. 
+ Anti-inflammatory: enzymes reduce inflammation and swelling when applied topically or taken internally. 
+   5. Roots 
+Though less commonly used, papaya roots also contain beneficial compounds. 
+Alkaloids:Similar to the leaves, the roots also contain alkaloids like carpaine. 
+Saponins: Found in the roots, these compounds contribute to the immunity. 
+
+
+===== PAGE 5 =====
+
+www.ijcrt.org                                                      © 2025 IJCRT | Volume 13, Issue 3 March 2025 | ISSN: 2320-2882 
+IJCRT2503232 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+b979 
+ 
+Properties: 
+Anti-inflammatory:The roots also exhibit anti-inflammatory activity, helping in the treatment of  
+inflammatory conditions. 
+2.ANTI-ULCER ACTIVITY IN CARICA PAPAYA 
+Carica papaya, identified for its medicinal applications, contains various constituents which contribute to its 
+anti-ulcer activity. Constituents like enzymes, phytochemicals, and antioxidants works coactively to protect 
+gastric mucosa and reduce ulcer development in the body. 
+ 
+Papain & Chemopapain : 
+Papain is an important chemical compound which has been extracted from fruit, stem, & latex of the plant 
+carica papaya and is commonly used for brewing, wine making and in textile & tanning industries.Papain 
+has been found to be effective in reducing both the pylorus ligation induced gastric ulcer and ethanol 
+induced gastric ulcers which are the most effective and main techniques used in the evaluation and study of 
+anti ulcer activity of Carica papaya.(20)Both Papain and Chemo-papain found in the latex of unripe papaya, 
+had shown to significantly reduce the histamine induced acid secretion and protect against exogenous 
+ulcers. It drastically reduce the gatric acid secretion stimulated due to intravenous infusion of histamine in 
+chronic gastric fistulated rats.(21) 
+Papain exhibits significant anti-ulcer activity through various molecular mechanisms, mainly involving its 
+proteolytic properties and interactions with gastric mucosal constituents. 
+ Enzymatic Activity and Proteolysis: Papain, a cysteine protease, which induces the hydrolysis of peptide 
+bonds, which helps in the digestion of proteins and potentially reduce gastric acid induced irritation.(22)There 
+is presence of thiol group at the catalytic site of the enzyme papain which is crucial for its activity and its 
+interactions with substrates are found to be impacted by pH and structural conformations.(23) 
+Anti-oxidant Mechanism: The antioxidant properties of papain also contribute to its protective anti-ulcer 
+activity. By reducing oxidative stress, papain helps to maintain gastric mucosal integrity.(24) 
+Cooperative interaction: The cooperative nature of papain's substrate interactions enhances its catalytic 
+efficiency, allowing for effective proteolysis under different conditions, this further supports to healing of 
+mucosa.(25)(26) 
+Phytochemicals:  
+The leaves and seeds of the Carica papaya contain alkaloids, flavonoids, saponins, & tannins, which exhibit 
+antioxidant 
+activities 
+which 
+helps 
+to 
+attenuate 
+oxidative 
+stress 
+associated 
+with 
+ulcer 
+development.(8)Oxidative stress is a result of disturbance of  balance between antioxidants and pro-oxidants  
+which drastically affects on redox signaling, leading to cell and tissue damages. Oxidative stress may lead to 
+inflammation, impaired wound healing, chronic diseases . These conditions can be managed properly with 
+the help of antioxidants. papaya has been found to have high contents  of natural antioxidants which may be 
+found in their leaves, fruits and seeds .It contains various chemical compounds showing  significant 
+antioxidant properties including  myricetin, rutin, quercetin, α-tocopherol, papain, benzyl isothiocyanate 
+(BiTC), and kaempferol etc.These chemicals either promote the expression of antioxidant enzymes or 
+decreases ROS production.(9) 
+ These signaling pathways activate the antioxidant defense mechanisms that protect the body against both 
+intrinsic and extrinsic oxidative stress.  Carica papaya can be incorporated into medications or supplements 
+to help manage the health conditions navigated by oxidative stress and further studies are needed to 
+investigate the potential of its chemical components to manage various other chronic diseases.(9) 
+ 
+ 
+ 
+
+
+===== PAGE 6 =====
+
+www.ijcrt.org                                                      © 2025 IJCRT | Volume 13, Issue 3 March 2025 | ISSN: 2320-2882 
+IJCRT2503232 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+b980 
+ 
+3.CURRENT TRENDS  AND FUTURE DIRECTION FOR ENHANCING ANTI-ULCER 
+ACTIVITY IN PAPAYA: 
+The current focus in improving the anti-ulcer properties of Carica papaya extracts is on investigating the 
+plant's parts, such as the leaves, fruits, and seeds, which are rich in bioactive chemicals. Recent research has 
+shown that unripe papaya fruit extracts, both aqueous and methanolic, have strong anti-ulcer properties, 
+especially against ulcers caused in animal models by ethanol and indomethacin.(27) 
+Furthermore, there has been a noticeable decrease in gastric acid secretion and ulcer index with the use of 
+dried fruit extracts.(28) Additionally, the leaves have gastro-protective qualities that are on par with those of 
+common drugs like omeprazole.(29) Future directions for these phytochemicals, which include flavonoids, 
+terpenoids, and alkaloids, include refining extraction techniques and examining the unique mechanisms of 
+action of these compounds.(30) 
+Important Bioactive Compounds: Flavonoids- Known for their anti-inflammatory and antioxidant qualities, 
+which help prevent ulcers.Terpenoids- These substances have the potential to strengthen papaya extracts' 
+cytoprotective properties.Alkaloids- Found in different plant components, these compounds may help lessen 
+stomach acidity. 
+ 
+Research and Development: Ongoing investigation of extraction methods to optimise bioactive component 
+production and effectiveness.  
+clinical studies to evaluate papaya extracts' efficacy and safety in human subjects. 
+Even while research on Carica papaya's therapeutic potential is currently the main focus, it is crucial to take 
+into account the necessity of thorough safety assessments and any possible negative consequences from 
+consuming it, as several studies have shown.(30)(31) 
+ 
+ Conclusion 
+Carica papaya is a plant with a rich diversity of chemical constituents spread across its various parts. These 
+bioactive compounds, including enzymes, flavonoids, alkaloids, and isothiocyanates, contribute to the 
+plant's wide range of medicinal properties, such as anti-inflammatory, antimicrobial, antioxidant, and 
+digestive health benefits. The various parts of the plant—fruit, seeds, leaves, latex, and roots—each have 
+unique chemical profiles that make them valuable in traditional and modern medicine.Enzyme papain and 
+chemopapain are the important components for anti ulcer activity in carica papaya.(Khatun et al., 2023) 
+Refrence 
+1) Malayalam, Omakai, Panjabi, & Papita (2022). BIOLOGICAL STUDY OF CARICA PAPAYA AND 
+FORMULATION & EVALUATION OF HERBAL PAPAYA SOAP. 
+2) Saba, S. (2022). The Potential Health Benefits of Papaya Seeds. International Journal for Research in 
+Applied Science and Engineering Technology. 
+3) Oloyede HO, Adaja MC, Ajiboye TO, Salawu MO. Anti-ulcerogenic activity of aqueous extract of 
+Carica papaya seed on indomethacin-induced peptic ulcer in male albino rats. J Integr Med. 2015 
+Mar;13(2):105-14. doi: 10.1016/S2095-4964(15)60160-1. PMID: 25797641. 
+ 4) Pinto LA, Cordeiro KW, Carrasco V, Carollo CA, Cardoso CA, Argadoña EJ, Freitas Kde C. 
+Antiulcerogenic activity of Carica papaya seed in rats. Naunyn Schmiedebergs Arch Pharmacol. 2015 
+Mar;388(3):305-17. doi: 10.1007/s00210-014-1069-y. Epub 2014 Nov 25. PMID: 25418890. 
+5) Manpreet, Kaur., Naveen, Chandra, Talniya., Seema, Sahrawat., Arvind, Kumar., Elena, E., Stashenko. 
+(2019). Ethnomedicinal Uses, Phytochemistry and Pharmacology of Carica papaya Plant: A Compendious 
+Review. Mini-reviews in Organic Chemistry, 16(5):463-480. doi: 10.2174/1570193X15666180816110733 
+6) Bhadra, S. et al. (2014). "Gastroprotective Effect of Carica papaya Leaf Extract on Ethanol-Induced 
+Gastric Mucosal Injury in Rats." Journal of Ethnopharmacology 
+ 
+7) David, J., Buttle., A.A., Kembhavi., S, L, Sharp., Richard, E., Shute., D, H, Rich., Alan, J., Barrett. 
+(1989). 3. Affinity purification of the novel cysteine proteinase papaya proteinase IV, and papain from 
+papaya latex.. Biochemical Journal,  doi: 10.1042/BJ2610469 
+
+
+===== PAGE 7 =====
+
+www.ijcrt.org                                                      © 2025 IJCRT | Volume 13, Issue 3 March 2025 | ISSN: 2320-2882 
+IJCRT2503232 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+b981 
+ 
+8) Natarajan, Sudhakar. (2014). 2. Potential medicinal properties of carica papaya linn. - a mini review.  
+9) Yew, Rong, Kong., Yong, Xin, Jong., Manisha, Balakrishnan., Zhui, Ken, Bok., Janice, Kwan, Kah, 
+Weng., Kai, Ching, Tay., Bey, Hing, Goh., Bey, Hing, Goh., Yong, Sze, Ong., Kok-Gan, Chan., Kok-Gan, 
+Chan., Learn, Han, Lee., Kooi, Yeong, Khaw. (2021). 4. Beneficial Role of Carica papaya Extracts and 
+Phytochemicals on Oxidative Stress and Related Diseases: A Mini Review.. Biology,  doi: 
+10.3390/BIOLOGY10040287 
+10) Pandey S, Cabot PJ, Shaw PN, Hewavitharana AK. Anti-inflammatory and immunomodulatory 
+properties 
+of 
+Carica 
+papaya. 
+J 
+Immunotoxicol. 
+2016 
+Jul;13(4):590-602. 
+doi: 
+10.3109/1547691X.2016.1149528. Epub 2016 Jul 14. PMID: 27416522  
+11) Bamidele, Victor, Owoyele., Olubori, M., Adebukola., Adeoye, A., Funmilayo., Ayodele, Olufemi, 
+Soladoye. (2008). 1. Research Article Anti-inflammatory activities of ethanolic extract of Carica papaya 
+leaves.   
+12) M, Indran., A., A., Mahmood., Umah, Rani, Kuppusamy. (2008). 2. Protective effect of Carica papaya 
+L. leaf extract against alcohol induced acute gastric damage and blood oxidative stress in rats. West Indian 
+Medical Journal 
+13) Hermi, H., Hewitt., Sybil, Whittle., Sheryl, A, Lopez., E, Y, Bailey., Steve, Weaver. (2000). 3. Topical 
+use of papaya in chronic skin ulcer therapy in Jamaica.. West Indian Medical Journal 
+14) Chieh-Fu, Chen., Shu-Ming, Chen., Sien-Yao, Chow., Paul, Wei, Han. (1981). Protective Effects of 
+Carica Papaya Linn on the Exogenous Gastric Ulcer in Rats. The American Journal of Chinese Medicine, 
+9(3):205-212. doi: 10.1142/S0192415X81000275    
+ 
+15) Ekei, Victor, Ikpeme., U.B., Ekaluo., M.E., Kooffreh., O.U., Udensi. (2011). 4. Phytochemistry and 
+heamatological potential of ethanol seed leaf and pulp extracts of Carica papaya (Linn.).. Pakistan Journal of 
+Biological Sciences,  doi: 10.3923/PJBS.2011.408.411 
+16) R., Giordani., M., Siepaio., J., Moulin-Traffort., Patrick, Regli. (2009). 1. Antifungal action of Carica 
+papaya latex: Isolation of fungal cell wall hydrolysing enzymes. Mycoses,  doi: 10.1111/J.1439-
+0507.1991.TB00862.X 
+17) S., A., S., Muhamad., Jamilah, Bakar., Russly, Abdul, Rahman., Faridah, A.. (2017). 4. The antibacterial 
+activities and chemical composition of extracts from Carica papaya cv. Sekaki/Hong Kong seed.    
+18) Y., Selvaraj., D.K., Pal., M., D., Subramanyam., C., P., A., Iyer. (1982). 1. Changes in the Chemical 
+Composition of Four Cultivars of Papaya (Carica Papaya L.) During Growth and Development. Journal of 
+Horticultural Science,  doi: 10.1080/00221589.1982.11515033 
+19) O.I., Oloyede, .. (2005). 1. Chemical Profile of Unripe Pulp of Carica papaya. Pakistan Journal of 
+Nutrition,  doi: 10.3923/PJN.2005.379.381 
+20) Krishna, M. C., Madhan, M. E., & Suhasini, P. (2014). Evaluation of antiulcer activity of Carica papaya 
+seeds in experimental gastric ulcers in rats. International Journal of Advanced Biomedical & 
+Pharmaceutical Research, 3(1), 19-23. 
+21) Chieh-Fu, Chen., Shu-Ming, Chen., Sien-Yao, Chow., Paul, Wei, Han. (1981). Protective Effects of 
+Carica Papaya Linn on the Exogenous Gastric Ulcer in Rats. The American Journal of Chinese Medicine, 
+9(3):205-212. doi: 10.1142/S0192415X81000275 
+22) Jan, Drenth., J.N., Jansonius., R., Koekoek., L.A.A.E., Sluyterman., B.G., Wolthers. (1970). 3. IV. 
+Cysteine proteinases.   doi: 10.1098/RSTB.1970.0022 
+23) E, Salih., J, P, G, Malthouse., Devanand, Kowlessur., M, Jarvis., M, O'Driscoll., Keith, Brocklehurst. 
+(1987). 5. Differences in the chemical and catalytic characteristics of two crystallographically 'identical' 
+enzyme catalytic sites. Characterization of actinidin and papain by a combination of pH-dependent substrate 
+catalysis kinetics and reactivity probe studies targeted on the catalytic-site thiol group and its immediate 
+microenvironment.. Biochemical doi: 10.1002/QUA.560140613 
+Journal of Experimental Biology,  
+
+
+===== PAGE 8 =====
+
+www.ijcrt.org                                                      © 2025 IJCRT | Volume 13, Issue 3 March 2025 | ISSN: 2320-2882 
+IJCRT2503232 
+International Journal of Creative Research Thoughts (IJCRT) www.ijcrt.org 
+b982 
+ 
+25) Paul, J., Berti., Carlos, H., Faerman., Andrew, C., Storer. (1991). 2. Cooperativity of papain-substrate 
+interaction energies in the S2 to S2' subsites.. Biochemistry,  doi: 10.1021/BI00219A033 
+26) G., Bolis., E., Clementi., M., Ragazzi., D., Salvaderi., D., R., Ferro. (1978). 4. Preliminary attempt to 
+follow the enthalpy of an enzymatic reaction by ab initio computations: Catalytic action of papain. 
+International Journal of Quantum Chemistry,  doi: 10.1002/QUA.560140613 
+27) A., C., Ezike., Peter, A., Akah., Charles, Ogbonnaya, Okoli., N.A., Ezeuchenne., S., Ezeugwu. (2009). 
+2. Carica papaya (Paw-Paw) Unripe Fruit May Be Beneficial in Ulcer. Journal of Medicinal Food,  doi: 
+10.1089/JMF.2008.0197  
+28) Balasubramanian, Rajkapoor., Balasundaram, Jayakar., R, An., an., N., Murugesh. (2003). 3. Antiulcer 
+Effect Of Dried Fruits Of Carica Papaya Linn In Rats. Indian Journal of Pharmaceutical Sciences,   
+29) Mukhtar, Aliyu., Said,, Sani, Said., Abdullahi, Muhammad, Abdu. (2023). 4. Gastro-protective Effect of 
+Carica Papaya leaf extracts On induced Gastric ulcer in Rats.   doi: 10.56919/usci.2123.003 
+30) Benjamin, Ayodipupo, Babalola., Amos, Ifeoluwa, Akinwande., Adebisi, Ahmed, Otunba., Gboyega, 
+Ebenezer, Adebami., Oluwabukunmi, Babalola., Chekwube, Nwuofo. (2023). 5. Therapeutic Benefits of 
+Carica Papaya: A Review on its Pharmacological Activities and Characterization of Papain. Arabian Journal 
+of Chemistry,  doi: 10.1016/j.arabjc.2023.105369 
+31) Shweta, Sharma., Akshita, Tiwari. (2023). 1. Phytochemistry and medicinal uses of carica papaya 
+(linn.): a review.   doi: 10.59436/https://jsiane.com/archives3/12/70 
+32) Fernanda, Carvalho., Susanne, S., Renner. (2014). The Phylogeny of the Caricaceae.  81-92. doi: 
+10.1007/978-1-4614-8087-7_5 
+33) Khatun, M. N., Saeid, A., Mozumder, N. H. M. R., & Ahmed, M. (2023). Extraction, purification and 
+characterization of papain enzyme from papaya. Food Research, 7(2), 241–247. 
+https://doi.org/10.26656/fr.2017.7(2).723 
+ 
+34) Shreya, Chhetry, Mahatara., Bunty, Maskey. (2023). Optimization of Three Phase Partitioning 
+Purification of Papain from Carica papaya Latex by Response Surface Methodology.   doi: 
+10.3126/tujfst.v2i2.66459 
+ 

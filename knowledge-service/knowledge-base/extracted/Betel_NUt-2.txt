@@ -1,0 +1,934 @@
+
+
+===== PAGE 1 =====
+
+ 
+ 
+Original Article 
+ISSN (Online): 2582-9955 
+                                            
+                                           Journal of Ayurvedic Herbal and Integrative Medicine 
+January-June 2025 5(1), 1–16 
+ 
+How to cite this article (APA): Chowdhury, S. and Banerjee, S.N. (2025). The Pharmacological and Adverse Effects of the Betel Nut 
+on Experimental Animals. Journal of Ayurvedic Herbal and Integrative Medicine, 5(1), 1–16. doi: 10.29121/jahim.v5.i1.2025.63    
+1 
+ 
+THE PHARMACOLOGICAL AND ADVERSE EFFECTS OF THE BETEL NUT ON 
+EXPERIMENTAL ANIMALS- A REVIEW 
+ 
+Dr. Sudipta Chowdhury 1
+, Dr. Samarendra Nath Banerjee 2
+ 
+ 
+1 Assistant Professor, P.G. Institute of Medical Sciences, Chandrakona Town, Paschim Medinipore -721201, West Bengal, India 
+2 Associate Professor (Retired) Department of Zoology, Rammohan College, 102/1 Raja Rammohan Sarani, Kolkata-700009, West 
+Bengal, India 
+ 
+ 
+ABSTRACT 
+Betel nut is a well-known plant product consumed mostly by people in Asian countries. 
+Betel nut chewing seems significantly associated with susceptibility to oral, oesophageal, 
+stomach, liver and lung cancers. Moreover, betel nut extracts at different concentrations 
+induce significant genetic damage and histological abnormalities in the testis in tumour-
+bearing mice. The genotoxic and carcinogenic potentiality of betel nut extracts has been 
+studied in different animal models. Therefore, our present review will discuss the 
+mutagenic, carcinogenic and angiogenic effects of betel nut on animal model. 
+ 
+Received 02 December 2024 
+Accepted 15 February 2025 
+Published 27 February 2025 
+Corresponding Author 
+Dr. Samarendra Nath Banerjee, 
+samban2kcal@yahoo.com  
+ 
+DOI 10.29121/jahim.v5.i1.2025.63  
+Funding: This research received no 
+specific grant from any funding agency in 
+the public, commercial, or not-for-profit 
+sectors. 
+Copyright: © 2025 The Author(s). 
+This work is licensed under a Creative 
+Commons 
+Attribution 
+4.0 
+International License. 
+With the license CC-BY, authors retain 
+the copyright, allowing anyone to 
+download, reuse, re-print, modify, 
+distribute, 
+and/or 
+copy 
+their 
+contribution. The work must be 
+properly attributed to its author. 
+ 
+Keywords: Experimental Animals, Animal Models, Betel Nut, Genetic Damage 
+ 
+  
+ 
+1. INTRODUCTION 
+Different smokeless chewing products are used extensively, mainly in 
+developing countries like India, Pakistan, Bangladesh, Cambodia, Malaysia, Papua 
+New Guinea and South African countries IARC. (2004). Betel quid / pan, pan masala, 
+gutka, Kharra, etc., consumed by mixing betel nuts. Betel nut or Areca nut is the 
+endosperm of the areca fruit from the tropical palm tree Areca catechu. It grows in 
+most parts of South Asia, much of the tropical regions of the Pacific Basin, and parts 
+of East Africa. The nut can be used fresh, dried, and roasting, or sun drying 
+P3#y
+P3#y
+
+
+===== PAGE 2 =====
+
+The Pharmacological and Adverse Effects of the Betel Nut on Experimental Animals 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+2 
+ 
+Changrani et al. (2006), Petti & Warnakulasuriya (2018); Warnakulasuriya & Chen 
+(2022). In mainland China, people consume the husk with the dried nut, while the 
+people of Taiwan consume the whole unripe fruit Petti & Warnakulasuriya (2018). 
+Betel nut trees are mainly grown in tropical countries like India, Bangladesh, 
+Thailand, Singapore, Malaysia, China, Taiwan, Thailand, and some African countries 
+IARC. (2004). The average height of betel nut trees is 33 - 66 feet long, and they can 
+reach 100 feet tall. The growing temperature of 15.5 ºC — 38ºC is suitable for 
+growing a betel nut palm plant. The main product of this tree is the seed, which is 
+consumed by people as chewing materials. 
+ 
+Different smokeless chewing betel nut products are available on the market 
+Blank et al. (2008) Ahuja & Ahuja (2011). They are named as betel quid, gutka, pan 
+parag, pan masala etc. Some smokeless chewing materials are described below – 
+Paan / Betelquid—The ingredients of betel quid are betel leaf, areca nut/betel 
+nut, slaked lime, rose water, clove, cardamom, mint, etc. This product is popular in 
+many Asian countries and all Indian states. Its uses are more common in rural areas 
+than in urban areas Gupta & Warnakulasuriya (2002). 
+Khaini—Dried or fermented small-cut tobacco leaves with slaked lime are the 
+main ingredients of Khaini. The product is consumed in most states of India, 
+Bangladesh, and Nepal, and it is generally consumed by chewing for 10-15 minutes 
+placed between the gums and cheeks in the mouth. 
+Gutka—The main components of gutka are betel nuts, dried or roasted tobacco 
+finely chopped, slaked lime, and sweeteners and flavourings added. This material is 
+used by the Indian people and Indian native people now living in different countries 
+in Europe, America, etc. 
+Loose leaf / sada pata / chadha / tobacco leaf—Dried tobacco leaf is only used 
+for chewing and smoking. It can also be used as an ingredient of betel quid. This 
+process of tobacco consumption is widely used in the rural and urban areas of India, 
+Bhutan, Bangladesh, and Myanmar. 
+Kharra: It is the combination of betel nut with tobacco, lime and other 
+ingredients. 
+Figure 1  
+ 
+Figure 1  A: Betel nut tree, 1 B: Betel nut seeds are collected. 
+ 
+General uses of betel nut - The betel nut is the seed of Areca catechu L. It is 
+widely used in India, Indonesia, Maldives, Malaysia, Sri Lanka, Thailand, and many 
+Asian countries Strickland (2002). The betel nut is a popular chewing habit 
+substance for nearly 600 million people in the whole world. It is believed that the 
+
+
+===== PAGE 3 =====
+
+Sudipta Chowdhury, and Samarendra Nath Banerjee 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+3 
+ 
+species of Areca nut plant is indigenous to Sri Lanka, West Malaysia and Melanesia 
+IARC. (1985). In Hindi and Bengali its name famous as Supari. The nuts are used 
+fresh, dried, baked or roasted, which is popular in betel nut-chewing countries. 
+Consuming fermented betel nut is popular in some parts of Sri Lanka. In some parts, 
+the most common way to consume betel nuts is as a vital ingredient in betel leaf 
+(Pan), Gutka, and Pan masala Gupta & Warnakulasuriya (2002). School children 
+even consume betel nuts in some countries like the Northern Mariana Islands 
+(Micronesia) Oakley et al. (2005). 
+In India and its neighbouring countries, dry betel nuts are generally chewed 
+alone or as a mixture of tobacco and slaked lime. The betel nut mixed with other 
+products without tobacco is called 'pan masala'; the betel nut mixed with other 
+products containing tobacco is called 'gutka' Nair et al. (2004). Unprocessed betel 
+nut is processed by maltose and lime in southeastern China. Then, it is cut into small 
+pieces and mixed with some drops of cassia oil consumed by chewing Tang et al. 
+(1997). 
+Some studies reported that 30%- 40% of adults are using betel nuts as Gutka 
+and Chaalia (just like Indian Pan masala) in urban places of Karachi in Pakistan 
+Mazahir et al. (2006); Nisar et al. (2007); Tanwir et al. (2008). It is known that 40% 
+of the adults in some particular areas of Bangladesh are consuming betel nuts with 
+tobacco and slaked lime Eswar (2002). 
+The smoking and chewing study reports of Thailand were established by 
+Mougne et al. 1982. They confirmed that the main components of betel quid are 
+betel nut, slaked lime and betel vine. 
+In Cambodia, betel quid chewing is very popular Meng (1969). The betel quid 
+comprises betel leaf, slaked lime and betel nut Ikeda et al. (1995). BN is chewed by 
+the people of India and other local communities in Malaysia, Indonesia and 
+Singapore Chin & Lee (1970), Cheong (1984), Kozlakidis et al. (2022).   
+Contents of betel nut: The most psychoactive agents in the world are caffeine, 
+alcohol, and nicotine, and the fourth most commonly used psychoactive agent is 
+betel nut. BN contains compounds like carbohydrates, crude fibre, fats, alkaloids, 
+tannins, polyphenols (flavonoids and tannins), proteins, mineral matter and water, 
+etc. Aziz, S. R. (2010), Anand et al. (2014), Banerjee et al. (1961); Mathew et al. 
+(1964); Nagrajan & Seshadri (1961). Raghavan & Baruah (1958) found that 
+alkaloids like arecoline, arecaidine, guvacoline and guvacin are present in betel nut. 
+The carcinogenic property varies due to the amount of arecoline, which is the most 
+important alkaloid present in large amounts in betel nut Awang (1986), IARC 
+(2004), Lord et al. 2006). The contents of the betel nuts may vary in different 
+geographical regions and climatic conditions Sharan (1996); Sharan et al. (2012); 
+Sharan et al. (2020). The copper content of the areca nut is comparatively higher 
+than that of other nuts consumed by humans. According to Trivedy et al. (1997), the 
+nut's fibrogenic activity is due to the higher amount of copper in the betel nut. 
+Chowdhury & Banerjee (2020) reported that betel nut extract contains high 
+phenolic content. High phenolic components present in the nut may cause DNA 
+breaks and chromosomal aberrations, as Stich (1991) demonstrated.  
+ 
+2. ANALYSIS OF BN BY GCMS STUDIES 
+Gas Chromatography-Mass Spectrometry (GCMS) analysis was performed to 
+determine the phytochemicals present in betel nuts. Few carcinogens are present in 
+it. It was noted that more than fifty different compounds were present in the 
+ethanolic extract of BN, and more than thirty compounds are carcinogenic, toxic, 
+
+
+===== PAGE 4 =====
+
+The Pharmacological and Adverse Effects of the Betel Nut on Experimental Animals 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+4 
+ 
+skin irritant, eye irritant, genotoxic and organ toxic to living systems. However, 
+many compounds in the ethanolic extract have not yet been identified properly 
+Chowdhury (2023)). 
+ 
+2.1. PHYSIOLOGICAL, PHARMACOLOGICAL AND ADDICTIVE 
+PROPERTIES OF BETEL NUT  
+Betel nut has therapeutic effects such as increasing digestive function and 
+treating diarrhoea, ulcers, constipation, and dyspepsia Salehi et al. (2020).  Chewing 
+betel nuts can cause warm feelings in the body, sweating, saliva secretion, increased 
+working ability, anti-migraine, and other neurological effects, such as tolerance to 
+hunger. These effects after consuming areca nuts are mainly caused by the effects 
+on the central and autonomic nervous systems Chu (2002). Ethanolic and 
+methanolic BN extracts also have antibacterial activity against some bacterial 
+species, including E. coli, S. aureus, E. aerogenes Mubarokah et al. (2019), Liu & 
+Chang (2023). 
+According to Garg et al. (2014), areca nut has adverse effects on the endocrine 
+system. It can cause hyperthyroidism, hyperplasia of the prostate, and reproductive 
+sterility. It also adversely affects the immune system, causing T–cell suppression 
+and lower cytokine release. 
+Betel nuts affect the cardiovascular system, and they are a well-known herbal 
+medicine because they lower the antihypertensive and diuretic effects. It can also 
+increase heartbeat, body temperature, and cause heavy sweating. Some researchers 
+suggest that betel nuts have a good hypotensive function (1986). 
+ 
+ 
+ 
+3. THE CARCINOGENIC PROPERTIES OF BETEL NUT ON THE 
+HUMAN BODY  
+3.1. EFFECT OF BETEL NUT ON ORAL CAVITY  
+The colour of the teeth of those who have been chewing betel nuts for a long 
+time has turned into a blood-like reddish colour. Oral leucoplakia and submucous 
+fibrosis are the primary oral disorders caused by areca nut chewing that can initiate 
+oral cancer and squamous cell carcinoma. Ex-chewers demonstrate lower risks than 
+current chewers Mortazavi et al. (2014); Warnakulasuriya & Chen (2022). A British 
+surgeon in India first noticed an association between betel quid (BQ) chewing and 
+oral cancer Orr (1933). The areca nut is the primary ingredient in betel quid (BQ), 
+consumed by people globally. 
+Experimental animals and human epidemiological studies reported the 
+carcinogenic properties of betel nuts. According to the World Health Organization 
+(WHO) and International Agency for Research on Cancer classification, betel nuts 
+are a group 1 human carcinogen Jeng et al. (2001), Pankaj (2010).  
+ 
+
+
+===== PAGE 5 =====
+
+Sudipta Chowdhury, and Samarendra Nath Banerjee 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+5 
+ 
+ 
+3.2. DENTAL CARIES  
+Some researchers have reported that the areca nut may protect against dental 
+carries. However, some researchers have suggested that there is no difference in the 
+chances of dental carries between people who chew betel nuts and those who do not 
+Schamschula et al. (1977), Nigam & Srivastava (1990). Betel nut stains in the teeth 
+may provide a protective layer against dental carries Howden (1984). 
+ 
+3.3. THE CARCINOGENIC EXPRESSION OF BETEL NUT  
+Betel nut chewers are susceptible to affect oral and GI tract cancers. The result 
+of betel nut chewing with tobacco is related to oesophagal cancer, and a clear dose 
+response is found in Assam. The cancer risks are higher in males than females 
+because males start their chewing habit at earlier ages and chew longer times 
+throughout the day Jussawalla & Deshpande (1971). Pan Masala is the well-known 
+betel nut containing chewing mixture which has also a carcinogenic activity Bhisey 
+et al. (1999). 
+ 
+It was reported that betel nut chewers might not only cause a higher risk of 
+cancer, but their prognosis is worse than that of non–chewers Yang et al. 
+(2021). Some areca nut-derived nitrosamines may cause premalignant lesions in 
+the oral cavity Shirzaiy & Neshat (2020). 3-methyl nitrosamine propionitrile 
+(MNPN), a potent carcinogen Nair et al. (2004), has been identified in humans 
+chewing betel nut. Almost half of oral cancers are caused by betel nut chewing. 
+Cessation of betel nut chewing can reduce oral cancer cases. Travasso (2013). The 
+betel nuts extract-induced rat caused ROS-induced oxidative stress in the male 
+reproductive system Wu et al. (2010). 
+ 
+3.4. EFFECT OF BETEL NUT ON EXPERIMENTAL ANIMAL 
+MODELS AND REPRODUCTIVE TOXICITY     
+Betel nut extracts can create toxicity in normal Swiss albino mice after injecting 
+different doses of BNE on three alternative days. Different animal experiment 
+results showed that betel nut extract in Swiss albino mice caused a deleterious effect 
+on the reproductive system. Betel nut extract-treated experimental male mice 
+showed a significant decline in sperm count and sperm motility, as well as 
+abnormalities in sperm morphology Chowdhury & Banerjee (2020).   It is known 
+that BN extract may be unsafe to consume during the time of pregnancy, as shown 
+in the rat experimental model Bernstein et al. (2021). 
+
+
+===== PAGE 6 =====
+
+The Pharmacological and Adverse Effects of the Betel Nut on Experimental Animals 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+6 
+ 
+Figure 2  
+ 
+ 
+Figure 2 A- Normal Sperm Head without any Abnormalities. B, C, D- Amorphous Sperm Head of 
+Mice in Betel Nut Extract Treated Series. E- Pin Headed of Sperm of the Mice in Treatment Series (H 
+And E -Stained) 
+ 
+The cellular and biochemical seminal fluid analysis can diagnose male 
+reproductive system disorders. Different components such as fructose, citric acid, 
+glucose, potassium, zinc, flavins, etc. Owen & Katz (2005) are present in seminal 
+fluid. These components are essential to provide nutrition, motility and viability of 
+mature sperm or spermatozoa. Fructose is a vital component of seminal fluid, and it 
+is produced by seminal vesicles for the nourishment and movement of spermatozoa 
+Schoenfeld et al. (1979). So, fructose is an essential marker for knowing the 
+secretive functions of the gland of the accessory reproductive system. Seminal 
+fructose is also useful for diagnosing diseases related to the reproductive duct. 
+According to Chowdhury et al. (2019), Chowdhury & Banerjee (2021)ethanolic betel 
+nut extract can decrease seminal fructose concentration in normal and tumour-
+bearing mice. 
+A good number of sperm cells is necessary for successful fertilization. Different 
+environmental carcinogenic factors, like consuming betel nuts, can cause sperm 
+head abnormalities. Production of sperm head abnormalities and sperm DNA 
+damage can be observed from isolated mouse spermatozoa by the toluidine blue 
+staining method Talebi et al. (2012); Chowdhury & Banerjee (2020).  
+Figure 3  
+ 
+ 
+Figure 3 Toluidine Blue Stained Sperms. A & B: Normal Sperms with no DNA Damage. C & D:  DNA 
+Damaged Sperms 
+ 
+
+
+===== PAGE 7 =====
+
+Sudipta Chowdhury, and Samarendra Nath Banerjee 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+7 
+ 
+It was observed that the maximum percentage of sperm DNA damage was 
+observed in 300mg/kg BNE treated tumour-bearing mice compared with control 
+and other treated groups. Ethanolic betel nut extract also affects the histological 
+structures of mice. The high concentration of ethanolic BNE affects the testicular 
+cells of mouse. Chowdhury & Banerjee (2021).  
+Figure 4  
+ 
+Figure 4 Histological Section of Testis Of 300mg/Kg BNE Treated Mice (Stained by Haematoxylin 
+and Eosin). A. Section of Testis (10 X 10 Magnifications) Showing Abnormal Seminiferous Tubule 
+(Arrowed) B. Section of Testis (10 X 40 Magnifications, Enlarged View) Showing Abnormal 
+Seminiferous Tubules (Arrowed) 
+ 
+3.5. EFFECT OF BETEL NUT EXTRACT ON BLOOD CELLS  
+Ethanolic BNE may also induce different haematological abnormalities, such as 
+a decrease in RBC count, an increase in the percentage of WBC, and an increase in 
+the percentage of lymphocyte count in normal, ascitic, and solid tumour-bearing 
+mice Chowdhury & Banerjee (2020). 
+Figure 5  
+ 
+Figure 5 A: Blood Film Was Prepared (Without Treatment), A Straight Arrow Indicates Normal RBC. 
+B- Blood Film Prepared From BNE-Treated Mouse; Dotted Arrows Indicate Micronucleated RBC 
+ 
+4. EFFECT OF BETEL NUT EXTRACT ON VIABLE AND NON-
+VIABLE CELL FREQUENCY 
+It was reported that ethanolic betel nut extract can increase ascitic tumour 
+volume after treatments with different doses of ethanolic BNE on intraperitoneal 
+ascitic tumour-bearing mice Chowdhury & Banerjee (2020). 
+  
+
+
+===== PAGE 8 =====
+
+The Pharmacological and Adverse Effects of the Betel Nut on Experimental Animals 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+8 
+ 
+Figure 6  
+ 
+ 
+Figure 6 Viable and Non-Viable S-180 Ascitic Tumour Cells Were Evaluated by Trypan Blue 
+Exclusion Method. The Dotted Arrow Indicates Viable or Living Cells and the Straight Arrow 
+Indicates Non–Viable or Dead Cells 
+ 
+The trypan blue exclusion test is generally used to determine the viable and 
+non-viable cells of the ascitic tumour. The percentage of ascitic viable cells was 
+significantly higher in 300mg/KG BNE-treated groups than in control and other 
+lower-concentrated groups Chowdhury & Banerjee (2020). Betel nut treatment can 
+also reduce their life spans compared to normal healthy mice. After three alternative 
+days of different BNE-treated mice, life spans can significantly reduce in both 
+normal and tumour-bearing Swiss albino mice. 
+ 
+5. ANGIOGENIC POTENTIALITY OF BETEL NUT  
+Angiogenesis is the formation of new blood vessels. In malignant tumours, new 
+blood vessels are formed to supply nutrients to the tumour cells and tissues. The 
+betel nut can promote angiogenesis by activating some angiogenic factors like 
+vascular endothelial growth factor (VEGF) and tumour necrosis factor-alpha. Betel 
+contains a high amount of copper, which may stimulate different angiogenic factors 
+Gao et al. (1997).  
+It was found that BNE induces angiogenesis in solid tumour mice and also 
+significantly increases abnormal hepatocyte cells of Liver tissue. Solid tumour 
+volume growth in different BNE-treated mice is higher than in control groups 
+Chowdhury & Banerjee (2021). 
+Figure 7  
+ 
+Figure 7 Histological Sections of Tumour Tissue of Solid Tumour-Bearing Mice. A: Histological 
+Section of a Tumour Tissue (Haematoxylin & Eosin Stained). B: Output Image of Fig. 'A' Was Created 
+by Angiotool 64_0.6A Software to Identify the Blood Vessels of a Tissue or Tumour Section 
+
+
+===== PAGE 9 =====
+
+Sudipta Chowdhury, and Samarendra Nath Banerjee 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+9 
+ 
+ 
+Gene mutations and chromosome breaks can rearrange the genome in cancer 
+cells Kasparek & Humphrey (2011). Chromosomal aberrations, damage, and breaks 
+may induce carcinogenesis and micronuclei formation Bonassi et al. (2004). 
+ 
+6. CYTOLOGICAL AND CYTOGENETICAL PROPERTIES OF 
+BETEL NUT 
+The genotoxic potentiality of arecoline, the main alkaloid present in betel nut in 
+a large amount, can be reported by chromosomal aberrations and sister chromatid 
+exchanges to the ovary cells of Chinese hamsters. These experiments also showed 
+that some water-extractable components are present in betel, but they are more 
+genotoxic than arecoline. The damage to chromosomes is more significant and more 
+severe after low concentrations of betel nut exposure for a long time. Dave et al. 
+(1992).   
+It is known that betel nut consumption can cause cytological and cytogenetic 
+alteration due to the presence of different types of alkaloids. Various experimental 
+studies show that arecoline exhibits key carcinogen characteristics Gupta & 
+Warnakulasuriya (2002), Tanwir et al. (2008), Gupta et al. (2020). Areca nut–
+induced oral carcinogenesis is attributed to arecoline and nitrosamine. 
+Interestingly, arecoline can induce DNA damage in human epithelial cells Wary & 
+Sharan (1988). Arecoline plays critical role in DNA strand breaks, micronucleus 
+formation, chromosomal aberrations, and sister-chromatid exchanges in different 
+cell lines Gupta et al. (2020). Arecoline plays a significant role in the tumorigenesis 
+of betel nut–associated malignancies Tsai et al. (2008). Lin et al. (2011) proposed 
+that the mutagenic effects of arecoline may be due to one of its primary metabolites: 
+arecoline N-oxide.  
+Different types of simple and complex chromosomal aberrations are induced 
+by treatments of different doses of BN extracts (i.e. 100mg/kg, 200mg/kg and 
+300mg/kg) on tumour-bearing mice. Different types of chromosomal aberrations 
+are seen, such as chromosome breaks, fragmentation, multiple aberrations and 
+deletions (simple chromosomal aberrations: SCA), other categories like centric 
+fusion and translocations (i.e. complex chromosomal aberrations: CCA) Chowdhury, 
+& Banerjee (2020).  
+ Figure 8 
+ 
+Figure 8 A: Chromosomes Prepared from the Bone Marrow of Mice. A: Normal Metaphase 
+Chromosome is Showing no Aberrations. B:  Chromosome Prepared from Betel Nut-Treated Mouse 
+Bone Marrow Shows Chromosomal Aberrations; Arrow Indicates Metacentric Formation, a Type of 
+Complex Chromosomal Aberration 
+
+
+===== PAGE 10 =====
+
+The Pharmacological and Adverse Effects of the Betel Nut on Experimental Animals 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+10 
+ 
+ 
+7. DISCUSSION 
+Betel nut is the fruit of the plant catechu, which the people of India, Bangladesh, 
+China, Cambodia, Malaysia and other Asian countries consume. It was reported that 
+almost 600 million people are consuming betel nuts worldwide. It was also reported 
+that 10-20% of the population worldwide consumes betel nuts alone and in 
+different forms Warnakulasuriya & Chen (2022). Betel leaf can also be used as an 
+ingredient in betel quid, pan masala, gutka, etc Gupta & Warnakulasuriya (2002). Its 
+pharmacological actions include treatment as a drug against GI tract diseases, 
+including constipation, diarrhoea, ulcers, and dyspepsia Salehi et al. (2020). Betel 
+nut chewing can stimulate the nervous system, resulting in anti-migraine activity, 
+warm feeling, saliva secretion, sweating, and increased working ability Chu (2001).   
+ Some migrating to American and European countries consumes betel nuts 
+IARC. (2012). Traditionally, betel nuts have been used since ancient times as an 
+addictive agent, as they can alter the psychological situation to relieve physical and 
+psychological stress IARC. (2004). Betel nuts also have pharmacological value, so 
+they are a traditional herbal drug. Generally, ripe betel nuts are consumed after 
+boiling and then cut into small pieces for chewing. 
+Lin et al. (2009) reported that betel nut chewing and obesity are strongly 
+related. In China, it was reported that chewing betel nuts is related to kidney failure 
+Chou et al. (2009). It can act as a stimulating agent as well as a carcinogenic agent. 
+Chen (2009) The carcinogenic effect of betel nut may vary depending on the variety 
+and growing region of the plant. Arecoline is the primary alkaloid that can cause 
+addiction, and it is also liable to create cancer among people who chew betel nuts. 
+Cancer cases in areas where a significant number of people chew betel nuts have 
+been reported by many researchers.   
+GCMS analysis results proved that betel nuts contain many compounds, 
+including toxic and carcinogenic compounds. Due to the high phenolic components, 
+betel nuts' carcinogenicity may be higher Chowdhury & Banerjee (2020). 
+Previous research also reported that betel nuts can increase the rate of 
+genotoxicity in the standard and S- 180 tumour-bearing experimental mice. 
+Ethanolic BNE can also affect the male reproductive system as it results in a higher 
+percentage of abnormal sperms, creates histological abnormalities on the testes, 
+and increases the percentage of DNA-damaged sperms. Research on mice animals 
+showed that ethanolic BNE could cause an increasing percentage of angiogenic 
+activity Chowdhury et al. (2019), Chowdhury & Banerjee (2020),Chowdhury & 
+Banerjee (2021),Chowdhury (2023). 
+ 
+8. CONCLUSION 
+The genotoxic activity of different plant extracts has been demonstrated in 
+different animal bioassay systems. Betel nut chewing seems significantly associated 
+with susceptibility to oral, oesophageal, stomach, liver and lung cancers. Addition of 
+tobacco to betel nut mastication habit has also been found to increase the cancer 
+risk. Despite the excessive usage of betel nut and its link with susceptibility to 
+different types of cancer, no serious precaution seems to be taken to control this bad 
+habit. The government should take serious, preventive measures to control the 
+excessive usage of betel nuts. The carcinogenic potentiality of betel nut on normal 
+and tumour-bearing mice in the present study will make humans aware of betel nut 
+and betel-containing products like gutka, pan masala, etc. Moreover, this work will 
+
+
+===== PAGE 11 =====
+
+Sudipta Chowdhury, and Samarendra Nath Banerjee 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+11 
+ 
+be very helpful for future researchers who are focusing new light on plant product-
+related carcinogenesis.  
+  
+CONFLICT OF INTERESTS  
+None.   
+ 
+ACKNOWLEDGMENTS 
+The review work is dedicated to late Professor Samar Chakrabarti, Cancer 
+Cytogenetics Unit, Department of Zoology, Burdwan University, Burdwan, India. 
+Authors are thankful to Dr. R.N. Boral and Dr. C.K. Panda, Chittaranjan National 
+Cancer Institute, Kolkata for help. 
+The first author is grateful to Dr. Pravas Ghosh, Chairman, P.G. Institute of 
+Medical sciences, Chandrakona Town, Paschim Medinipur, WB, India for inspiration 
+and encouragement. Authors are also grateful to Principal of Rammohan College, 
+Kolkata, India. 
+ 
+REFERENCES 
+Ahuja, S. C., & Ahuja, U. (2011). Betel leaf and betel nut in India: History and uses. 
+Asian Agri-History, 15(1), 13-35. 
+Anand, R., Dhingra, C., Prasad, S., & Menon, I. (2014). Betel Nut Chewing and its 
+Deleterious Effects on oral Cavity. Journal of Cancer Research and 
+Therapeutics, 10(3), 499-505. https://doi.org/10.4103/0973-1482.137958  
+Awang, M. N. (1986). Estimation of Arecoline Contents in Commercial Areca (betel) 
+Nuts and its Relation to Oral Precancerous Lesions. Singapore Medical 
+Journal, 27(4), 317-320. 
+Aziz, S. R. (2010). Coming to America: Betel Nut and Oral Submucous Fibrosis. 
+Journal 
+of 
+the 
+American 
+Dental 
+Association, 
+141(4), 
+423-428. 
+https://doi.org/10.14219/jada.archive.2010.0194  
+Banerjee, S., Rajadurai, S., & Nayudamma, Y. (1961). Occurrence of D-Catechin and a 
+Flavan-3, 4-diol in Areca nut. Bulletin of the Central Leather Research 
+Institute, 8, 174. 
+Bernstein, N., Akram, M., Yaniv-Bachrach, Z., & Daniyal, M. (2021). Is it Safe to 
+Consume Traditional Medicinal Plants During Pregnancy? Phytotherapy 
+Research, 35(4), 1908-1924. https://doi.org/10.1002/ptr.6935  
+Bhisey, R. A., Ramchandani, A. G., D'Souza, A. V., Borges, A. M., & Notani, P. N. (1999). 
+Long-term Carcinogenicity of Pan Masala in Swiss Mice. International 
+Journal of Cancer, 83, 679-684. https://doi.org/10.1002/(SICI)1097-
+0215(19991126)83:5<679::AID-IJC19>3.0.CO;2-E  
+Blank, M., Deshpande, L., & Balster, R. L. (2008). Availability and Characteristics of 
+Betel Products in the U.S. Journal of Psychoactive Drugs, 40(3), 309-313. 
+https://doi.org/10.1080/02791072.2008.10400646  
+Bonassi, S., Znaor, A., Norppa, H., & Hagmar, L. (2004). Chromosomal Aberrations 
+and Risk of Cancer in Humans: An Epidemiologic Perspective. Cytogenetic 
+and Genome Research, 104, 376-382. https://doi.org/10.1159/000077519  
+Changrani, J., Gany, F. M., Cruz, G., Kerr, R., & Katz, R. (2006). Paan and Gutka use in 
+the United States: A Pilot Study in Bangladeshi and Indian-Gujarati 
+Immigrants in New York City. Journal of Immigrant & Refugee Studies, 4(1), 
+99-110. https://doi.org/10.1300/J500v04n01_07  
+
+
+===== PAGE 12 =====
+
+The Pharmacological and Adverse Effects of the Betel Nut on Experimental Animals 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+12 
+ 
+Chen, W. (2009). Association between Betel-Nut Chewing and Chronic Kidney 
+Disease 
+in 
+men. 
+Public 
+Health 
+Nutrition, 
+12(5), 
+723-727. 
+https://doi.org/10.1017/S1368980008003339  
+Cheong, Y. H. (1984). The fading links between tradition and oral health in 
+Singapore. International Dental Journal, 34(4), 253-256. 
+Chin, C. T., & Lee, K. W. (1970). The Effects of Betel-Nut Chewing on the Buccal 
+Mucosa of 296 Indians and Malays in West Malaysia: A clinical study. British 
+Journal of Cancer, 24(3), 427-432. https://doi.org/10.1038/bjc.1970.50  
+Chou, C.Y, Cheng, S.Y., Liu, J.H., Cheng, W.C. et al 2009: Association between betel-
+nut chewing and chronic kidney disease in men. Published online by 
+Cambridge University Press:  01 May 2009. 
+Chowdhury, S. (2023). Genotoxic and Carcinogenic Potential of Ethanolic Extract of 
+Betel Nut on Experimentally Induced Tumour in Mice. PhD Thesis, 
+University of Calcutta. 
+Chowdhury, S., & Banerjee, S. (2020). Evaluation of Genotoxic and Carcinogenic 
+Potentiality in Betel Nut Extract Treated Sarcoma-180 Tumor Bearing Mice. 
+Journal of Advanced Scientific Research, 11(Suppl 5), 32-40. 
+Chowdhury, S., & Banerjee, S. N. (2021). Genotoxic Activity of Betel nut on Germinal 
+Cell in Sarcoma 180 Ascites Tumour Bearing Male Mice. GSC Biological and 
+Pharmaceutical 
+Sciences, 
+16(3), 
+121-134. 
+https://doi.org/10.30574/gscbps.2021.16.2.0235  
+Chowdhury, S., Banerjee, A., Mallick, S., & Banerjee, S. N. (2019). Cytotoxic Effect of 
+Betel Nut on Seminal Fluid Fructose Concentration and Sperm Motility of 
+Normal Male Mice. RJLBPCS, 5(1), 378-389.   
+Chu, N. S. (2001). Effects of Betel Chewing on the Central and Autonomic Nervous 
+Systems. 
+Journal 
+of 
+Biomedical 
+Science, 
+8(3), 
+229-236. 
+https://doi.org/10.1007/BF02256596  
+Chu, N. S. (2002). Neurological Aspects of Areca and Betel Chewing. Addiction 
+Biology, 7(1), 111-114. https://doi.org/10.1080/13556210120091473  
+Dave, B. J., Trivedi, A. H., & Adhvaryu, S. G. (1992). In Vitro Genotoxic Effects of Areca 
+nut Extract and Arecoline. Journal of Cancer Research and Clinical Oncology, 
+118(4), 283-288. https://doi.org/10.1007/BF01208617  
+Eswar, N. (2002). Oral health status among the tobacco and betel nut chewers in the 
+Kishore Ganj District of Bangladesh: A statistical study. Indian Journal of 
+Dental Research, 13(3-4), 167-171. 
+Gao, Y., Ling, T., & Wu, H. (1997). [Title in Chinese]. Zhonghua Kou Qiang Yi Xue Za 
+Zhi, 32(4), 239-241. 
+Garg, A., Chaturvedi, P., & Gupta, P. C. (2014). A Review of the Systemic Adverse 
+Effects of Areca Nut or Betel nut. Indian Journal of Medical and Paediatric 
+Oncology, 35*(1), 3-9. https://doi.org/10.4103/0971-5851.133702  
+Gupta, P. C., & Warnakulasuriya, S. (2002). Global Epidemiology of Areca nut usage. 
+Addiction 
+Biology, 
+7(1), 
+77-83. 
+https://doi.org/10.1080/13556210020091437  
+Gupta, A.K., Tulsyan, S., Thakur, N., Sharma, V., Sinha, D.N., & Mehrotra, R. (2020). 
+Chemistry, Metabolism and Pharmacology of Carcinogenic Alkaloids 
+Present in Areca Nut and Factors Affecting Their Concentration. Regul 
+Toxicol Pharmacol. 110. https://doi.org/10.1016/j.yrtph.2019.104548  
+Howden, G. F. (1984). The Cariostatic Effect of Betel Nut Chewing. Papua and New 
+Guinea Medical Journal, 27(3-4), 123-131. 
+IARC Working Group on the Evaluation of Carcinogenic Risks to Humans. (2004). 
+Betel-quid 
+and areca-nut chewing and some areca-nut derived 
+
+
+===== PAGE 13 =====
+
+Sudipta Chowdhury, and Samarendra Nath Banerjee 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+13 
+ 
+nitrosamines. *IARC Monographs on the Evaluation of Carcinogenic Risks to 
+Humans, 85, 1-334. 
+IARC Working Group on the Evaluation of Carcinogenic Risks to Humans. (2012). 
+Personal habits and indoor combustions. *IARC Monographs on the 
+Evaluation of Carcinogenic Risks to Humans, 100*(Pt E), 1-538. 
+IARC. (1985). IARC Monographs on the Evaluation of the Carcinogenic Risk of 
+Chemicals to Humans, Vol. 37, Tobacco Habits Other than Smoking; Betel-
+Quid and Areca-nut Chewing; and Some Related Nitrosamines. Lyon, IARC 
+Press. 
+Ikeda, N., Handa, Y., Khim, S. P., Durward, C., Axéll, T., Mizuno, T., Fukano, H., & Kawai, 
+T. (1995). Prevalence study of oral mucosal lesions in a selected Cambodian 
+population. Community Dentistry and Oral Epidemiology, 23*(1), 49-54. 
+https://doi.org/10.1111/j.1600-0528.1995.tb00197.x  
+Inokuchi, J., Okabe, H., Yamauchi, T., Nagamatsu, A., Nonaka, G., & Nishioka, I. (1986). 
+Antihypertensive Substance in Seeds of Areca Catechu L. Life Sciences, 
+38*(15), 1375-1382. https://doi.org/10.1016/0024-3205(86)90470-4  
+Jeng, J. H., Chang, M. C., & Hahn, L. J. (2001). Role of Areca Nut in Betel Quid-
+Associated Chemical Carcinogenesis: Current Awareness and Future 
+Perspectives. 
+Oral 
+Oncology, 
+37(6), 
+477-492. 
+https://doi.org/10.1016/S1368-8375(01)00003-3  
+Ji, W. T., Chuang, Y. C., Chen, H. P., Lee, C. C., Chen, J. Y., Yang, S. R., Chen, J. H., Wang, 
+C. J., & Chen, H. R. (2014). Areca Nut Extracts Exert Different Effects in Oral 
+Cancer Cells Depending on Serum Concentration: A clue to the Various Oral 
+Alterations in betel Quid Chewers. Toxicology Reports, 1, 1087-1095. 
+https://doi.org/10.1016/j.toxrep.2014.10.018  
+Jussawalla, D. J., & Deshpande, V. A. (1971). Evaluation of Cancer Risk in Tobacco 
+Chewers and Smokers: An Epidemiologic Assessment. Cancer, 28*, 244-252. 
+https://doi.org/10.1002/1097-0142(197107)28:1<244::AID-
+CNCR2820280150>3.0.CO;2-H  
+Kasparek, T. R., & Humphrey, T. C. (2011). DNA Double-Strand Break Repair 
+Pathways, Chromosomal Rearrangements and Cancer. Seminars in Cell and 
+Developmental 
+Biology, 
+22, 
+886-897. 
+https://doi.org/10.1016/j.semcdb.2011.10.007  
+Kozlakidis, Z., Cheong, I. H., & Wang, H. (2022). Betel Nut and Arecoline: Past, 
+Present, and Future Trends. Innovations in Digital Health, Diagnostics, and 
+Biomarkers. https://doi.org/10.36401/IDDB-22-05  
+Lin, W. Y., Pi-Sunyer, F. X., Liu, C. S., Li, T. C., Li, C. I., Huang, C. Y., & Lin, C. C. (2009). 
+Betel Nut Chewing is Strongly Associated with General and Central Obesity 
+in Chinese Male Middle-Aged Adults. Obesity, 17(6), 1247-1254. 
+https://doi.org/10.1038/oby.2009.38  
+Lin, K.H., Lin, C.Y., Liu, C.C., Chou, M.Y., & Lin, J.K. (2011). Arecoline N-Oxide: Its 
+Mutagenicity and Possible Role as Ultimate Carcinogen in Areca Oral 
+Carcinogenesis. J Agric Food Chem. 59(7), 3420–3428. 
+Liu, P. F., & Chang, Y. F. (2023). The Controversial Roles of Areca Nut: Medicine or 
+toxin? International Journal of Molecular Sciences, 24(10), 8996. 
+https://doi.org/10.3390/ijms24108996  
+Lord, G. A., Lim, C. K., Warnakulasuriya, S., & Peters, T. J. (2002). Chemical and 
+Analytical Aspects of Areca nut. Addiction Biology, 7(1), 99-102. 
+https://doi.org/10.1080/13556210120091455  
+Mathew, A. G., Venkataramu, S. D., & Govindarajan, V. S. (1964). Studies on areca nut: 
+Part 1- Changes in chemical and physical characteristics of nuts with 
+maturity. Indian Journal of Technology, 2, 90-95. 
+
+
+===== PAGE 14 =====
+
+The Pharmacological and Adverse Effects of the Betel Nut on Experimental Animals 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+14 
+ 
+Mazahir, S., Malik, R., Maqsood, M., Merchant, K. A., Malik, F., Majeed, A., Fatmi, Z., 
+Khawaja, M. R., & Ghaffar, S. (2006). Socio-demographic correlates of betel, 
+areca and smokeless tobacco use as a high risk behavior for head and neck 
+cancers in a squatter settlement of Karachi, Pakistan. *Substance Abuse 
+Treatment, Prevention, and Policy, 1, 10. https://doi.org/10.1186/1747-
+597X-1-10  
+Meng, M. L. (1969). La chique de bétel [The quid of betel]. Revue de Stomatologie et 
+de Chirurgie Maxillo-Faciale, 70(6), 417-430. 
+Mortazavi, H., Baharvand, M., & Mehdipour, M. (2014). Oral Potentially Malignant 
+Disorders: An Overview of more than 20 Entities. Journal of Dental Research, 
+Dental Clinics, Dental Prospects, 8(1), 6. 
+Mougne, C., MacLennan, R., & Atsana, S. (1982). Smoking, Chewing and Drinking in 
+Ban Pong. Northern Thailand. Social Science & Medicine, 16(1), 99–106. 
+https://doi.org/10.1016/0277-9536(82)90430-0  
+Mubarokah, W. W., Nurcahyo, W., Prastowo, J., & Kurniasih, K. (2019). In Vitro and 
+in Vivo Areca Catechu Crude Aqueous Extract as an Anthelmintic Against 
+Ascaridia Galli Infection in cHickens. Veterinary World, 12(6), 877-882. 
+https://doi.org/10.14202/vetworld.2019.877-882  
+Nagrajan, G. R., & Seshadri, T. R. (1961). Leucocyanidins of areca nut and toon 
+(Cedralatoona Roxo). Journal of Scientific and Industrial Research (India), 
+20(B), 615-616. 
+Nair, U., Bartsch, H., & Nair, J. (2004). Alert for an Epidemic of Oral Cancer Due to 
+use of the Betel Quid Substitutes Gutkha and Pan Masala: A review of Agents 
+and 
+Causative 
+Mechanisms. 
+Mutagenesis, 
+19(4), 
+251-262. 
+https://doi.org/10.1093/mutage/geh036  
+Nigam, P., & Srivastava, A. B. (1990). Betel chewing and dental decay. Federation of 
+Operative Dentistry, 1(1), 36-38. 
+Nisar, N., Qadri, M. H., Fatima, K., & Perveen, S. (2007). A Community Based Study 
+about Knowledge and Practices Regarding Tobacco Consumption and 
+Passive Smoking in Gadap Town, Karachi. JPMA: Journal of the Pakistan 
+Medical Association, 57(4), 186-188. 
+Oakley, E., Demaine, L., & Warnakulasuriya, S. (2005). Areca (betel) Nut Chewing 
+Habit Among High-School Children in the Commonwealth of the Northern 
+Mariana Islands (Micronesia). Bulletin of the World Health Organization, 
+83(9), 656-660. 
+Orr, I. M. (1933). Oral Cancer in Betel Nut Chewers in Travancore: Its Aetiology, 
+Pathology, 
+and 
+Treatment. 
+Lancet, 
+2, 
+575-580. 
+https://doi.org/10.1016/S0140-6736(01)18622-8  
+Owen, D. H., & Katz, D. F. (2005). A Review of the Physical and Chemical Properties 
+of Human Semen and the Formulation of a Semen Simulant. Journal of 
+Andrology, 26(4), 459-469. https://doi.org/10.2164/jandrol.04104  
+Pankaj, C. (2010). Areca Nut or Betel Nut Control is Mandatory if India wants to 
+Reduce the Burden of Cancer, Especially Cancer of the Oral Cavity. 
+International 
+Journal 
+of 
+Head 
+and 
+Neck 
+Surgery, 
+1, 
+17-20. 
+https://doi.org/10.5005/jp-journals-10001-1003  
+Petti, S., & Warnakulasuriya, S. (2018). Betel Quid Chewing Among Adult Male 
+Immigrants from the Indian Subcontinent to Italy. Oral Diseases, 24(1-2), 
+44-48. https://doi.org/10.1111/odi.12768  
+Raghavan, V., & Baruah, H. K. (1958). Areca nut, India's Popular Masticatory History, 
+Chemistry, 
+and 
+Utilisation. 
+Economic 
+Botany, 
+12, 
+315-325. 
+https://doi.org/10.1007/BF02860022  
+
+
+===== PAGE 15 =====
+
+Sudipta Chowdhury, and Samarendra Nath Banerjee 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+15 
+ 
+Salehi, B., Konovalov, D. A., Fru, P., Kapewangolo, P., Peron, G., Ksenija, M. S., Cardoso, 
+S. M., Pereira, O. R., Nigam, M., Nicola, S., Pignata, G., Rapposelli, S., Sestito, S., 
+Anil Kumar, N. V., de la Luz Cádiz-Gurrea, M., Segura-Carretero, A., Mishra, A. 
+P., Sharifi-Rad, M., Cho, W. C., Taheri, Y., ... Sharifi-Rad, J. (2020). Areca 
+catechu: From Farm to Food and Biomedical Applications. Phytotherapy 
+Research, 34(9), 2140-2158. https://doi.org/10.1002/ptr.6665  
+Schamschula, R. G., Adkins, B. R., Barmes, D. R., & Charlton, G. (1977). Betel Chewing 
+and Caries Experience in New Guinea. Community Dentistry and Oral 
+Epidemiology, 
+5, 
+284-286. 
+https://doi.org/10.1111/j.1600-
+0528.1977.tb01015.x  
+Schoenfeld, C., Amelar, R. D., Dubin, L., & Numeroff, M. (1979). Prolactin, fructose, 
+and Zinc Levels Found in Human Seminal Plasma. Fertility and Sterility, 
+32(2), 206-208. https://doi.org/10.1016/S0015-0282(16)44182-8  
+Sharan, R. N. (1996). Association of Betel nut with Carcinogenesis: A Review. Cancer 
+Journal, 9, 13-19. 
+Sharan, R. N., Chanu, T. M., Chakrabarty, T. K., & Farsalinos, K. (2020). Patterns of 
+Tobacco and E-Cigarette use Status in India: A Cross-Sectional Survey of 
+3000 Vapers in Eight Indian Cities. Harm Reduction Journal, 17(1), 21. 
+https://doi.org/10.1186/s12954-020-00362-7  
+Sharan, R. N., Mehrotra, R., Choudhury, Y., & Asotra, K. (2012). Association of Betel 
+Nut with Carcinogenesis: Revisit with a Clinical Perspective. PLoS One, 7(8), 
+e42759. https://doi.org/10.1371/journal.pone.0042759  
+Shirzaiy, M., & Neshat, F. (2020). Effect of Areca Nut on Oral Health: A review. Journal 
+of 
+Research 
+in 
+Dental 
+and 
+Maxillofacial 
+Sciences, 
+5(3), 
+1-6. 
+https://doi.org/10.29252/jrdms.5.3.1  
+Stich, H. F. (1991). The Beneficial and Hazardous Effects of Simple Phenolic 
+Compounds. 
+Mutation 
+Research, 
+259, 
+307-324. 
+https://doi.org/10.1016/0165-1218(91)90125-6  
+Strickland, S. S. (2002). Anthropological Perspectives on use of the Areca Nut. 
+Addiction 
+Biology, 
+7(1), 
+85-97. 
+https://doi.org/10.1080/13556210120091446  
+Talebi, A. R., Vahidi, S., Aflatoonian, A., Ghasemi, N., Ghasemzadeh, J., & Firoozabadi, 
+R. D. (2012). Cytochemical Evaluation of Sperm Chromatin and DNA 
+Integrity in Couples with Unexplained Recurrent Spontaneous abortions. 
+Andrologia, 
+44(Suppl 
+1), 
+462-470. 
+https://doi.org/10.1111/j.1439-
+0272.2011.01206.x  
+Tang, J. G., Jian, X. F., Gao, M. L., Ling, T. Y., & Zhang, K. H. (1997). Epidemiological 
+Survey of Oral Submucous Fibrosis in Xiangtan City, Hunan Province, China. 
+Community 
+Dentistry 
+and 
+Oral 
+Epidemiology, 
+25(2), 
+177-180. 
+https://doi.org/10.1111/j.1600-0528.1997.tb00918.x  
+Tanwir, F., Altamash, M., & Gustafsson, A. (2008). Influence of Betel Nut Chewing, 
+Dental Care Habits, and Attitudes on Perceived Oral Health Among Adult 
+Pakistanis. Oral Health & Preventive Dentistry, 6(2), 89-94. 
+Travasso, C. (2013). Betel Quid Chewing is Responsible for Half of Oral Cancer Cases 
+in India, finds study. BMJ, 347, f7536. https://doi.org/10.1136/bmj.f7536  
+Trivedy, C., Baldwin, D., Warnakulasuriya, S., Johnson, N., & Peters, T. (1997). Copper 
+Content in Areca Catechu (betel nut) Products and Oral Submucous Fibrosis. 
+Lancet, 349(9063), 1447. https://doi.org/10.1016/S0140-6736(97)24020-
+1  
+Tsai, Y.S., Lee, K.W., Huang, J.L., Liu, Y.S., Juo, S.H., Kuo, W.R., Chang, J.G., Lin, C.S., Jong, 
+Y.J. (2008). Arecoline, A Major Alkaloid of Areca Nut, Inhibits p53, Represses 
+
+
+===== PAGE 16 =====
+
+The Pharmacological and Adverse Effects of the Betel Nut on Experimental Animals 
+ 
+Journal of Ayurvedic Herbal and Integrative Medicine 
+16 
+ 
+DNA Repair, and Triggers DNA Damage Response in Human Epithelial Cells. 
+Toxicology, 249(2–3), 230–237. 
+Warnakulasuriya, S., & Chen, T. H. H. (2022). Areca Nut and Oral Cancer: Evidence 
+from Studies Conducted in Humans. Journal of Dental Research, 101(10), 
+1139-1146. https://doi.org/10.1177/00220345221092751  
+Wary, K. K., & Sharan, R. N. (1988). Aqueous Extract of Betel-Nut of North-East India 
+Induces DNA-Strand Breaks and Enhances Rate of Cell Proliferation in Vitro. 
+Journal of Cancer Research and Clinical Oncology, 114(6), 579-582. 
+https://doi.org/10.1007/BF00398180  
+Wu, P. F., Chiang, T. A., Chen, M. T., Lee, C. P., Chen, P. H., Ko, A. M., Yang, K. J., Chang, 
+P. Y., et al. (2010). A Characterization of the Antioxidant Enzyme Activity and 
+Reproductive Toxicity in Male Rats Following sub-chronic Exposure to 
+Areca Nut Extracts. Journal of Hazardous Materials, 178(1-3), 541-546. 
+https://doi.org/10.1016/j.jhazmat.2010.01.118  
+Yang, J., Wang, Z. Y., Huang, L., Yu, T. L., Wan, S. Q., Song, J., Zhang, B. L., & Hu, M. 
+(2021). Do Betel Quid and Areca Nut Chewing Deteriorate Prognosis of Oral 
+Cancer? A Systematic Review, Meta-Analysis, and Research Agenda. Oral 
+Diseases, 27(6), 1366-1375. https://doi.org/10.1111/odi.13456      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

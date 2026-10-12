@@ -1,0 +1,116 @@
+PLANT_ID: PLANT_008
+PLANT_IDENTIFIER: Betel_Nut
+
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Puga (Sd.) -----
+59. Puga (Sd.)
+PÍGA (Seed)
+P£ga consists of dried ripe seed of Areca catechu Linn. (Fam. Palmae), a graceful,
+slender, stemmed, perennial palm, trunk reaching a height of about 25 m cultivated in the
+coastal regions of Southern India, Bengal and Assam upto an altitude of 1000 m.
+SYNONYMS
+Sanskrit
+:
+Kramuka, Gho¸¶¡
+Assamese
+:
+Tamol, Tamul
+Bengali
+:
+Supari
+English
+:
+Areca nut, Betle nut
+Gujrati
+:
+Sopari
+Hindi
+:
+Supari, Chaalia
+Kannada
+:
+Adika
+Kashmiri
+:
+Supari, Spari
+Malayalam
+:
+Adakku, Pakku
+Marathi
+:
+Supari, Pophal
+Oriya
+:
+Gua
+Punjabi
+:
+Supari, Spari
+Tamil
+:
+Kamugu, Pakku, Pakhumaram
+Telugu
+:
+Paka chekka, Vakka
+Urdu
+:
+Fufal, Choalia
+DESCRIPTION
+a) Macroscopic
+Ovoid, externally pale, reddish-brown to light yellowish-brown, marked with a
+net work of paler lines, frequently with adhering portions of silvery brittle endocarp and
+adhering fibres of mesocorp at base of seed, seed hard with ruminate endosperm of
+brownish tissue alternating with whitish tissue, odour, characteristic, taste, astringent.
+
+b) Microscopic
+160
+
+Transverse section of seed shows a seed coat consisting of several rows of cells,
+tangentially elongated, with inner walls more or less thickened, whitish cell of
+endosperm tissue with thick porous walls containing oil globules and aleuronic grains,
+brown peri sperm tissue with thick walled cells and delicate tracheae.
+Powder-Reddish brown to light brown, under microscope shows fragments of endosperm
+tissue with porous walls, irregularly thickened and small stone cells of seed coat, a few
+aleurone grains and oil globules and a few delicate tracheae, starch absent.
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 1 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 3 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 0.4 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 19 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 10 per cent, Appendix 2.2.7.
+
+ASSAY
+
+T.L.C.
+
+CONSTITUENTS - Alkaloid (arecoline) tannins and fats
+
+PROPERTIES AND ACTION
+Rasa
+:
+KaÀ¡ya
+Gu¸a
+:
+R£kÀa, Guru
+V¢rya
+:
+á¢ta
+Vip¡ka
+:
+Ka¶u
+161
+
+Karma
+:
+(Prabh¡va: Mohak¤t), D¢pana, Kaphapittajit, Kledan¡¿ana, Malabhed
+¢, Mukha¿odhana, Vik¡s¢
+IMPORTANT FORMULATIONS - P£gakha¸·a
+THERAPEUTIC USES - Mukhavik¡ra, Aruci, Yoni¿aithilya, ávetapradara
+DOSE - 1-2 g of the drug in powder form.
+
+162

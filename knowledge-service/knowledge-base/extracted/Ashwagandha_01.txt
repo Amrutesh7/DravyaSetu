@@ -1,0 +1,6280 @@
+
+
+===== PAGE 1 =====
+
+
+
+===== PAGE 2 =====
+
+
+
+===== PAGE 3 =====
+
+1
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Ashwaga
+Ashwagandha
+dha 
+(Withania somnifera) 
+Safety Dossier 2.0
+Safety Dossier 2.0
+
+
+===== PAGE 4 =====
+
+2
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Title: Ashwagandha - Safety Dossier 2.0
+Second Edition – 2024
+Authors Name: Ministry of Ayush, Government of India, New Delhi 
+Publisher: Central Council for Research in Ayuredic Sciences, Ministry of Ayush, Government of India, 
+New Delhi, J.L.N.C.A.H. Anusandhan Bhawan, 61-65, Institutional Area, Opp. D-Block, Janakpuri, New 
+Delhi -110058
+E-mail: dg-ccras@nic.in
+Website: www.ccras.nic.in
+ISBN: 978-93-92544-75-0
+All rights reserved, including the right to reproduce this book or portion thereof in any form whatsoever. 
+For information, address the publisher at:
+© Central Council for Research in Ayuredic Sciences, Ministry of Ayush, Government of India, New 
+Delhi -110058
+Disclaimer: 
+All possible efforts have been made to ensure the correctness of the contents. However, the 
+Central Council for Research in Ayuredic Sciences, Ministry of Ayush, shall not be accountable for 
+any inadvertent error in the content. Corrective measures shall be taken up once such errors are 
+brought to notice.
+The content of this book is for informational purpose only and does not substitute professional 
+medical advice or consultation with healthcare professionals.
+
+
+===== PAGE 5 =====
+
+i
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Table of Contents
+• 
+Expert Members
+ii
+• 
+Background
+iii
+• 
+Introduction
+1
+• 
+Technical Specifications
+3
+• 
+Regulatory Requirements
+4
+• 
+Safety Profile of Ashwagandha
+5
+• 
+Summary of pre-clinical studies of Ashwagandha
+6
+• 
+Effect of Ashwagandha on pregnancy, fetal  
+development, and female sexual health
+8
+• 
+Effect of Ashwagandha on male reproductive system
+10
+• 
+Effect of Ashwagandha on Thyroid Gland
+14
+• 
+Immunomodulatory effect of Ashwagandha
+18
+• 
+Effect of Ashwagandha on Acetylcholinesterase activity in CNS
+19
+• 
+Ashwagandha and Liver safety
+20
+• 
+Summary of clinical studies of Ashwagandha Root Extract
+25
+• 
+Pharmacovigilance
+29
+• 
+Conclusion
+30
+• 
+References
+31
+• 
+Annexures
+40
+• 
+Abbreviations
+58
+• 
+Glossary
+60
+i
+
+
+===== PAGE 6 =====
+
+ii
+ASHWAGANDHA SAFETY DOSSIER 2.0
+1.	
+Dr. Rajesh Khadgawat- Professor, Endocrinology, All India Institute of Medical Sciences, New Delhi 
+2.	
+Dr. J.B. Gupta- Distinguished Scientist and Pharmacologist, Delhi-NCR
+3.	
+Dr. Vyas M Shingatgeri- Dean, Apeejay Stya University, Haryana
+4.	
+Prof. Bhushan Patwardhan, National Research Professor – Ayush, Savitribai Phule Pune University, Pune
+5.	
+Dr. A. Raghu, DDG (Ayush), DGHS, Ministry of Health & Family Welfare, New Delhi
+6.	
+Dr. N Srikanth, DDG, Central Council for Research in Ayurvedic Sciences, New Delhi
+7.	
+Dr.Galib, Associate Professor, All India Institute of Ayurveda, New Delhi
+8.	
+Dr. Sumeet Goel, OSD (T), O/o Secretary, Ministry of Ayush, New Delhi
+9.	
+Dr. Abhijit Dutta, Research Officer (H), International Cooperation Section, Ministry of Ayush, New Delhi
+10.	 Dr. Shruti Khanduri, Research Officer (Ay.), Central Council for Research in Ayurvedic Sciences, New 
+Delhi
+11.	
+Dr. Ramavtar Sharma, Research Officer (Ay.), DGHS, Ministry of Health & Family Welfare, New Delhi 
+12.	 Dr. Raman Kaushik, Research Officer (Ay.), Drug Policy Section, Ministry of Ayush, New Delhi
+13.	 Dr. Azeem Ahmad, Research Officer (Ay.), Central Council for Research in Ayurvedic Sciences, New 
+Delhi
+14.	 Ms. Prasanthi Sampara – Expert & Industry Representative, Hyderabad 
+Other Contributors
+1.	
+Dr. Ake Nilsson, Professor Emeritus of Medicine and Gastroenterology, Lund University, Sweden
+2.	
+Dr. Pradeep Dua, Technical Officer, Traditional Complementary and Integrative (TCI) Medicine Unit, 
+WHO-Hq., Geneva
+3.	
+Dr. Sanjay Kumar, Assistant Director (Pharm.), Central Council for Research in Ayurvedic Sciences, New 
+Delhi
+4.	
+Dr. Lingesh Allakonda, Research Officer (Pharmacology), Regional Ayurveda Research Institute 
+(CCRAS), Gwalior.
+5.	
+Dr. Deepak Lamba, Research Officer (Pharm.), Central Council for Research in Ayurvedic Sciences, 
+New Delhi
+6.	
+Mr. Indroneel Das, Sector lead & Senior Manager, Invest India.
+7.	
+Mr. Venkata Medapati, Senior Manager, Invest India.
+8.	
+Ms. Sonam Deki, Assistant Manager, Invest India.
+Expert Members
+
+
+===== PAGE 7 =====
+
+iii
+ASHWAGANDHA SAFETY DOSSIER 2.0
+iii
+Background
+Ashwagandha (Withania somnifera) is a herb that has been used since times immemorial 
+for its health benefits. During the COVID-19 pandemic, its use surged as a herbal supplement, 
+particularly valued for its adaptogenic and immune-boosting properties.  Withania somnifera) 
+is the most widespread species in the genus and it occurs naturally in semi-arid and drier 
+regions stretching from the Mediterranean across tropical Africa, South Africa, and the Canary 
+and Cape Verde Islands, as well as Afghanistan, Baluchistan, Pakistan, Sri Lanka, China, Nepal 
+and India. It is also grown in gardens in warmer parts of Europe and has emerged as a natural 
+weed in South Australia and New South Wales (Paul et al 2021). Ashwagandha has been trusted 
+for its preventive, promotive, and therapeutic applications. In recent years, modern research 
+has further validated these traditional claims. In 2023, the Ministry of Ayush released the first 
+version of this dossier. This updated dossier embraces all relevant studies published to date, 
+focusing specifically on the safety aspect Ashwagandha.
+The primary goal of this safety dossier is to consolidate current evidence-based knowledge 
+about Ashwagandha root, making it accessible to academicians, researchers, practitioners 
+of both conventional and traditional medicine, policymakers, and the general public. Unless 
+specifically indicated, the dossier describes the Ashwagandha root alone. The need for this 
+dossier partly arises from concerns certain bodies regulatory bodies regarding the potential 
+adverse effects of Ashwagandha on human health. Herbal and natural products often face 
+scrutiny from conventional medical practitioners, driven by rigorous scientific inquiry or a 
+cautious attitude toward the unfamiliar.
+An important aspect to consider is the part of the Ashwagandha plant used. Traditionally, the 
+root is the recommended part for human use. However, other parts, such as the leaves, have 
+been used with less favorable outcomes. This dossier focuses on root preparations, excluding 
+multi-herbal or multi-part preparations of Ashwagandha that include other plant components. 
+References to poly-herbal preparations containing Ashwagandha are limited due to the 
+difficulty in ascribing the efficacy and safety of individual herbs. 
+In preparing this dossier, the expert committee has relied primarily on original research published 
+till May 2024 in indexed journals. The committee has strived to include the most reliable and 
+credible scientific information to make this document a comprehensive account of the topic, 
+without compromising its scientific integrity. 
+iii
+Ashwagandha SAFETY DOSSIER 2.0
+
+
+===== PAGE 8 =====
+
+iv
+ASHWAGANDHA SAFETY DOSSIER 2.0
+
+
+===== PAGE 9 =====
+
+1
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Ashwagandha is one of the most widely used herbs in Indian traditional systems of medicine 
+including Ayurveda, Siddha, Sowa Rigpa, Unani, and Homeopathy (ASU&H) with a variety of 
+medicinal effects attributed to its multi-dimensional uses. The plant botanically identified as 
+Withania somnifera (L.) Dunal (Family- Solanaceae) is a small perennial herb with white flowers 
+and orange-red berries commonly found in warmer regions of India. The plant is also known as 
+“Indian winter cherry” and “Indian ginseng”.  
+Ashwagandha root has been documented to be used in Indian traditional medicine since 1000-
+1500 BC and is recognized for its diverse pharmacological profile encompassing adaptogenic, 
+immunomodulatory, rejuvenative, and aphrodisiac properties. It is extensively documented in 
+Ayurvedic texts as Rasayana, which means beneficial for rejuvenation, immunomodulation, 
+and longevity, and also for treating several health conditions including but not limited to 
+musculoskeletal, neurological, dermatological, respiratory and reproductive system disorders 
+(Balasubramani et al 2011).  
+Pharmacologically, Ashwagandha is characterized by a rich content of withanolides 
+glycosides, withanolide aglycones, and alkaloids, contributing to its wide-ranging bioactivities 
+including antioxidant, adaptogenic, immunomodulatory, anti-arthritic, anti-osteoporotic, 
+hepatoprotective, nephroprotective, and antidiabetic effects (Dar et al 2015). The therapeutic 
+versatility of Ashwagandha is further evidenced by its incorporation into numerous dosage 
+forms - powders, tablets, capsules, liquids, and topical through various routes of administration. 
+Ashwagandha root is recognized for its broad spectrum of pharmacological properties 
+that are well-supported not only by traditional medicine text but also by modern scientific 
+research. Its adaptogenic qualities make it particularly effective in stress management, 
+improving mental clarity, and reducing anxiety. As a potent antioxidant, it helps combat 
+oxidative stress and mitigate cellular damage linked to aging and diseases. Significant 
+improvements in cognitive function have been observed as a result of the inhibition of 
+amyloid β-42, and a reduction in pro-inflammatory cytokines TNF-α, IL-1β, IL-6 and MCP-1, 
+nitric oxide, and lipid peroxidation (Pandey et. al. 2018). The anti-inflammatory effects of 
+Ashwagandha make it beneficial for conditions such as arthritis, while its anxiolytic and 
+antidepressant properties aid in managing anxiety and depression by modulating the 
+hypothalamic-pituitary-adrenal (HPA) axis. Furthermore, Ashwagandha favorably modulates 
+immune function by modulating immune pathways and white blood cell production. 
+Neuroprotective effects suggest its utility in combating neurodegenerative diseases by 
+promoting nerve cell growth and cognitive function. The root extract of Ashwagandha 
+led to increased VO2 max, enhanced cardiorespiratory endurance, and improved QOL in 
+healthy athletic adults.  (Choudhary et al 2015). This herb also exhibits significant potential in 
+improving cardiovascular (Choudhary et al 2015; Shenoy et al 2012), metabolic (Andallu and 
+Introduction
+
+
+===== PAGE 10 =====
+
+2
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Radhika, 2000), and endocrine health (Ambiye et al 2013; Gupta et al 2013; Mahdi et al 2009), 
+demonstrating cardioprotective (Mohanty et al 2004), anti-diabetic (Nayak et al 2015), and 
+thyroid-regulating effects (Sharma et al 2018) respectively. These diverse benefits highlight 
+Ashwagandha’s role as a valuable natural remedy, adaptable to a variety of therapeutic 
+applications.
+Clinical trials focusing on conditions such as stress and anxiety (Choudhary et al 2017b), sleep 
+disturbances (Langade et al 2019), cognitive functions (Choudhary et al 2017a), rheumatoid 
+arthritis (Khan et al 2015), osteoarthritis, hypercholesterolemia (Andallu and Radhika, 2000), 
+muscle strength (Choudhary et al 2015; Wankhede et al 2015) and menopausal symptoms 
+(Gopal et al 2021) emphasize its value in both traditional and contemporary medicinal 
+practices. During the recent pandemic of COVID-19, Ashwagandha roots were evaluated 
+for the management and prophylaxis of COVID-19, which further proposes a hypothesis 
+of adaptogenic and immunomodulatory properties of the herb (Saggam et al 2021). 
+Ashwagandha is not only effective but also considered safe for various health applications, 
+supported by its long-standing use in traditional medicine and modern scientific validation. 
+
+
+===== PAGE 11 =====
+
+3
+ASHWAGANDHA SAFETY DOSSIER 2.0
+General Information
+Scientific name: 	
+	
+Withania somnifera (L.) Dunal
+Family: 	
+	
+	
+Solanaceae
+Part used: 	
+Root of Withania somnifera (L.) Dunal plant (API, vol. III)
+Distribution and Habitat: 	
+Withania somnifera is the most widespread species in the genus 
+and it occurs naturally in semi-arid and drier regions 
+Names in AYUSH Systems of Medicine
+Ayurveda:	
+	
+            Ashwagandha 
+Unani: 	
+	
+	
+          Asgand
+Siddha: 	 	
+	
+          Amukkarā
+Homeopathy: 	
+          Withania somnifera
+Sowa-Rigpa:	 	
+          Ba-dzi-gandha
+Dose: 
+Ayurveda:  	
+3-6 g powder (API Part I, vol. VIII)
+Siddha: 	 	
+3-6 g powder (SPI Part I, vol. I)
+Unani:	
+	
+5-10 g powder (UPI Part I, vol. I)
+Homeopathy:                          Mother Tincture Ø Drug strength 1/10, Homoeopathic
+                                                  Pharmacopoeia of India. vol. x)
+Chemical Composition: 
+Various preliminary phytochemical screenings revealed the presence of several compounds 
+including steroidal lactones, alkaloids, saponins, flavonoids, tannins, starch, phenolic 
+compounds, carbohydrates, withanolides, sitoindosides, anaferine, anahygrine, ß-sitosterol, 
+chlorogenic acid, cysteine, cuscohygrine, pseudotropine, withanine, scopoletin, withananine, 
+somniferinine, somniferiene, tropanol, 14-α-hydroxywithanone, and 6,7β-Epoxywithanon 
+(Saleem et al., 2020).
+Technical Specifications
+
+
+===== PAGE 12 =====
+
+4
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Regulatory Requirements
+Ashwagandha, known for its adaptogenic and therapeutic properties, must comply with specific 
+regulatory standards for contaminants to ensure product safety and quality. Various countries 
+have established permissible limits for heavy metals, aflatoxins, and microbial contaminants. 
+These standards are designed to minimize health risks and ensure the consistency and 
+reliability of herbal supplements. The permissible limits are defined by the U.S. Pharmacopeia 
+(USP), the European Union (EU), and Indian regulations for heavy metals, aflatoxins, and microbial 
+contaminants in dietary supplements (Annexure 1). 
+
+
+===== PAGE 13 =====
+
+5
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Thousands of years of use in traditional medicine and available scientific evidence demonstrate 
+that Ashwagandha is well-tolerated, safe, and clinically effective. The data obtained from 
+various studies did not demonstrate any serious adverse events.
+Despite of its extensive usage and clinical evidence, safety concerns have been noticed in 
+recent times from a few quarters. The evidence for the safety of Ashwagandha is further 
+evaluated through the various studies published recently (more than 500 PubMed-indexed 
+citations). In the succeeding sections of this dossier, the safety concerns on the liver, thyroid, 
+sex hormones, immunomodulatory, central nervous system, and abortifacient activities have 
+been addressed based on available studies. 
+Safety Profile of Ashwagandha
+
+
+===== PAGE 14 =====
+
+6
+ASHWAGANDHA SAFETY DOSSIER 2.0
+There are numerous studies conducted to evaluate the safety of Ashwagandha root 
+extract. These studies cover various toxicological evaluations, including acute, sub-acute, 
+90-day repeated dose toxicity, mutagenicity/genotoxicity, and prenatal developmental 
+toxicity assessments. The findings consistently indicate that Ashwagandha root extracts, 
+administered in various dosages up to 2000 mg/kg, exhibited no evidence of morbidity, 
+mortality, or toxicologically relevant clinical signs in animal models. Thus, the root extract has 
+proven to be safe and well-tolerated. The table below summarizes these comprehensive pre-
+clinical studies.
+S.no
+Reference
+Experimental 
+Model 
+Ashwagandha 
+formulation
+Conclusion
+Acute Toxicity studies (Single dose studies)
+1.
+Khojah EY et 
+al., 2020
+Male albino 
+mice
+Root extract 
+No toxicity was observed even at 2000 mg/kg.
+Patel SB et 
+al., 2016
+Wistar rats
+Root extract
+No toxicologically significant changes were 
+observed. NOAEL was determined to be 2000 
+mg/kg.
+Prabu PC et 
+al., 2013
+Wistar rats
+Hydroalcoholic 
+root extract 
+No toxicity was observed even at 2000 mg/kg.
+Jain H et al., 
+2010
+Mice 
+Hydroalcoholic 
+extract of roots
+2000 mg/kg dose is considered safe. No 
+mortality or gross behavioral changes were 
+observed
+Sub-acute toxicity studies (Repeated dosing for 14 to 28 days)
+2.
+Kalaivani et 
+al., 2024
+Nulliparous and 
+non-pregnant 
+Wistar Albino 
+rats
+Standardized 
+aqueous root 
+extract
+No mortality, morbidity, or toxicity. No effects 
+on body weight, feed consumption, organ 
+weights, or gross pathology. The extract was 
+well tolerated up to 2000 mg/kg for 14 days
+Langade et 
+al., 2023
+Wistar rats
+Standardized 
+aqueous root 
+extract
+No signs of intoxication. Vital liver parameters 
+remained stable, and no abnormalities in 
+general parameters. All hematological and 
+biochemical parameters were within normal 
+range, indicating safety in 28 days study
+Khojah EY et 
+al., 2020
+Male albino 
+mice
+Root extract 
+No toxicity was observed even at 2000 mg/kg 
+in 28 days study
+Prabu PC et 
+al., 2013
+Wistar rats
+Hydroalcoholic 
+extract of roots 
+No toxic signs or mortality. No significant 
+changes in body weights, organ weights, or 
+haemato-biochemical parameters. NOAEL 
+was determined to be 2000 mg/kg in 28 days 
+study
+Summary of pre-clinical studies of 
+Ashwagandha
+
+
+===== PAGE 15 =====
+
+7
+ASHWAGANDHA SAFETY DOSSIER 2.0
+S.no
+Reference
+Experimental 
+Model 
+Ashwagandha 
+formulation
+Conclusion
+Patel SB et 
+al., 2016
+Wistar rats
+Root extract 
+No toxicologically significant changes were 
+observed. NOAEL was determined to be 2000 
+mg/kg. The extract showed no adverse effects 
+even after a 14-day recovery period following 
+28 days of administration.
+90-day Repeated Dose Toxicity studies
+3.
+Kalaivani et 
+al., 2023
+Nulliparous and 
+non-pregnant 
+Wistar Albino 
+rats
+Root extract 
+No morbidity, mortality, or clinical toxicity. 
+No adverse effects on body weight, 
+food consumption, blood indices, or liver 
+histopathology. NOAEL was determined to be 
+2000 mg/kg.
+Mutagenicity/Genotoxicity Test 
+4.
+ 
+Kalaivani et 
+al., 2023
+Swiss Albino 
+mice & 
+Various in vitro 
+genotoxicity 
+models 
+Root extract 
+The results demonstrated Ashwagandha root 
+extract failed to show any mutagenic effects 
+up to a dose of 5 mg/plate in the Bacterial 
+reverse mutation test, and did not show any 
+clastogenic activity in doses up to 2 mg/ml in 
+chromosome aberration (CA) test with and 
+without metabolic activation. Also, in the In 
+vivo micronucleus test Ashwagandha root 
+extract at doses up to 2000 mg/kg body weight 
+showed no evidence of clastogenic activity 
+or cytogenetic damage in the bone marrow 
+erythrocytes of Swiss albino mice
+Prenatal and Developmental Toxicity Study
+5.
+Prabu PC et 
+al., 2015
+Wistar rats 
+Root extract  
+No maternal or fetal toxicity was observed. The 
+extract did not affect body weight, number of 
+viable fetuses, or cause malformations. NOAEL 
+was determined to be 2000 mg/kg.
+
+
+===== PAGE 16 =====
+
+8
+ASHWAGANDHA SAFETY DOSSIER 2.0
+The safety of Ashwagandha during pregnancy and fetal development has been evaluated in 
+the following studies:
+Reference
+Description of the 
+study 
+Study type
+Nature of 
+Evidence
+Conclusions
+Kalaivani et 
+al 2023
+90-days toxicity
+Wistar Albino rats, 
+Root extract
+2000 mg/kg/day
+Controlled Pre-
+Clinical
+90-days 
+toxicity study
+Histopathology of ovaries and uterus 
+with cervix and vaginal cytology was 
+observed in female animals of all the 
+groups on day 91 and in the recovery 
+group on day 105 in the control and 
+high dose (2000 mg/kg/day) groups. 
+The microscopic examination did 
+not reveal any test item related 
+histopathological finding in any of 
+the animals when compared with 
+animals of the control group.
+Prabu et al 
+2015
+Pregnant rats
+Root extract
+Up to 2000 mg/kg/
+day
+Pre-clinical
+Maternal & 
+fetal toxicity
+No evidence of maternal or fetal 
+toxicity was observed. Root extract 
+caused no changes in the body 
+weight of parental females, number 
+of corpora lutea, implantations, 
+viable fetuses, external, skeletal, and 
+visceral malformations.
+Smith et al 
+2023
+Root extract, 400 mg/
+day, 
+Randomized, 
+double-blind, 
+placebo-
+controlled 
+Clinical trial
+Safety and 
+Efficacy 
+Reported a slight increase in serum 
+estradiol level, however, the estradiol 
+remained within the normal range.
+Gopal et al 
+2021
+300mg Root Extract 
+in perimenopausal 
+women for 8 weeks
+Randomized, 
+double-blind, 
+placebo-
+controlled 
+Clinical trial
+Safety and 
+Efficacy 
+There was a reduction in MENQoL 
+score, hot flash score, serum FSH, and 
+serum LH and an increase in serum 
+estradiol level.
+Ajgaonkar 
+et al 2022
+300mg Root Extract 
+in women with 
+Hypoactive sexual 
+desire disorder 
+(HSDD)
+Prospective, 
+Randomized, 
+Placebo-
+controlled 
+Clinical Study
+Safety and 
+Efficacy
+Reported improvement in sexual 
+functions.
+However, the World Health Organization (2009) in its monograph on Ashwagandha mentioned 
+that there is a lack of safety data and cautioned its use during pregnancy or breastfeeding 
+as cited from the American Herbal Pharmacopoeia Ashwagandha Root Monograph and 
+Therapeutic Compendium (2000). 
+Effect of Ashwagandha on pregnancy, fetal 
+development, and female sexual health
+
+
+===== PAGE 17 =====
+
+9
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Further, Roy Upton, President of American Herbal Pharmacopoeia, recently stated that 
+‘earlier cautions regarding the use of Ashwagandha in pregnancy and its claimed use as an 
+abortifacient were based on anecdotal reports from the ethnobotanical literature that provided 
+no indication that such an effect was evident. The misrepresentation of the AHP monograph has 
+been repeated uncritically resulting in the misconception that Ashwagandha root is potentially 
+unsafe.’ On the contrary, he quoted that ‘based on a critical and comprehensive review of the 
+traditional and modern literature, as well as the opinion of the majority of experts, there is no 
+evidence of an abortifacient effect of Ashwagandha root.’ Adequate caution is warranted 
+when using any substance during pregnancy, there is no experimental or clinical study that 
+has reported such an effect (Annexure 2).
+The American Herbal Products Association’s Botanical Safety Handbook (BSH) reclassified 
+its safety Class from 2d to 1 based on new studies and affirmed the reproductive safety 
+of Ashwagandha in 2022. BSH Class 1 signifies that a plant is considered safe when used 
+appropriately. 
+Published preclinical and clinical studies have reported no adverse effects on female sex 
+organs, pregnancy or fetal development in the recommended doses.
+
+
+===== PAGE 18 =====
+
+10
+ASHWAGANDHA SAFETY DOSSIER 2.0
+There are multiple reports, exploring the therapeutic potential of Ashwagandha roots for 
+reproductive system disorders e.g. infertility, problems with ejaculation, testicular failure, and 
+abnormal volume and/or quality of semen. Some of the published studies are reported below. 
+It would be pertinent to mention that the results of the recommended part of the herb i.e. roots 
+are different from other plant parts and hence one should be careful in interpreting the results 
+of other plant parts and assuming the same results for the root.
+Pre-clinical studies (on Root): 
+S.No
+Reference
+Ashwagandha 
+Formulation with Dose
+Experimental 
+Model
+Conclusions
+1
+Yadav A 
+et al 2024
+Purified root powder, 
+150 and 300 mg/kg/
+day for 30 days
+Stressed 
+and sexually 
+sluggish male 
+rats
+Improvements in sexual activities, increased 
+frequencies of erections, mounts, intromissions, 
+and ejaculations, and positive influence on 
+neurotransmitter and hormone levels linked 
+to sexual desire and stress management. A 
+dose-dependent increase in serum LH, FSH, and 
+testosterone levels.
+2
+Sahin et al 
+2016
+Root extract, 300 mg/
+kg/day for 8 weeks
+Sprague-
+Dawley male 
+rats
+No effect on the weight of testes, epididymis, 
+vas deferens, ventral prostate; Increased 
+mounting & intromission frequency, sperm 
+count & motility, serum testosterone; activated 
+Nrf2/ HO-1 pathway while inhibiting NF-κB levels. 
+No effect on testes histopathology & sperm 
+morphology
+3
+Rahmati 
+et al 2016
+Root powder mixed 
+pelleted food, 6.25% 
+w/w (equivalent to 300 
+mg/kg/day) for 21 days
+Morphine-
+addicted 
+male rats
+Morphine addiction reduces the level of 
+testosterone, LH, and estrogen without any 
+effect on FSH and progesterone. Ashwagandha 
+restored testosterone, LH, and estrogen levels to 
+normal levels 
+4
+Kumar A 
+et al 2015
+Root extract, 100 mg/
+kg body weight; for 30 
+days
+Arsenic-
+induced 
+testicular 
+toxicity in Male 
+Charles Foster 
+rats
+Significant ameliorative effects; improved 
+sperm counts, sperm motility, hormonal 
+balance, and reduced lipid peroxidation; 
+restored testicular histology.
+5
+Ganu et al 
+2010
+Root powder; up to 400 
+mg/kg/day for 4 weeks
+Male Wistar 
+rats
+Sperm cells improved; mating behavior 
+improved; Testes & prostate weight increased 
+6
+Kiasalari 
+et al2009
+Root powder Mixed 
+pelleted food, 6.25% for 
+4 weeks
+Streptozotocin 
+induced 
+diabetic male 
+Wistar rats
+WS was effective in lowering FSH serum levels 
+in both diabetic and non-diabetic groups 
+while increasing progesterone, testosterone, 
+and LH levels in non-diabetic treated animals. 
+Ashwagandha also reversed the reductive 
+effect of diabetes on progesterone.
+Effect of Ashwagandha on male  
+reproductive system
+
+
+===== PAGE 19 =====
+
+11
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Clinical Studies
+Several clinical studies have supported the per-clinical finding Regarding the safety of 
+Ashwagandha on the male reproductive system. A summary of few such studies is recapitulate 
+below.
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse events 
+Summary of 
+results
+Male Sexual 
+Function 
+and Fertility,
+Ambiye et 
+al., 2013 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+12 Weeks
+Infertile men / 
+aged between 
+22 and 40 years 
+ 
+Ashwagandha 
+(n=21, 21),  
+ 
+Placebo 
+(n=25, 25)
+225mg - 
+Standardized 
+Aqueous 
+Ashwagandha 
+Root Extract Thrice 
+daily
+Semen 
+Parameters,
+Serum 
+Testosterone, 
+Serum 
+Luteinizing 
+Hormone
+Ashwagandha (0)
+Placebo (0)
+The safety of 
+Ashwagandha 
+root extract was 
+confirmed as there 
+were no adverse 
+events reported 
+and Ashwagandha 
+root extract was 
+well tolerated by all 
+the participants.
+Ashwagandha 
+is associated 
+with significant 
+increase in sperm 
+concentration, 
+semen volume, 
+sperm motility, 
+serum testosterone, 
+and LH. 
+No changes 
+occurred in the 
+placebo group
+Male Sexual 
+Function,
+Chauhan et 
+al 2022
+(India)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled
+8 Weeks
+Males aged 
+between 21 and 
+45 years with 
+low sexual desire 
+Ashwagandha 
+(n=25, 25), 
+ 
+ Placebo 
+ (n=25, 25)
+300mg - 
+Standardized 
+Aqueous 
+Ashwagandha
+Root Extract Twice 
+daily
+DISF‐M, Serum 
+Testosterone, 
+PRL, SF-36
+ 
+Ashwagandha
+(4 - Sleepiness, Mild 
+Abdominal Pain, 
+Low-Grade Joint 
+Pain)
+Placebo
+(3 - Abdominal 
+Pain, Mild Diarrhea)
+Compared to 
+the placebo, 
+Ashwagandha 
+was associated 
+with significantly 
+greater increase 
+in Total DISF-M 
+scores and serum 
+testosterone levels.
+The reported 
+adverse events 
+were of mild 
+severity and no 
+intervention was 
+required.
+Idiopathic 
+Male 
+infertility 
+Azgomi et 
+al 2018a
+(Iran)
+Triple-blind,  
+Randomised, 
+Parallel Group, 
+Two Arm, 
+clinical trial.
+12 Weeks
+Married infertile 
+male patients 
+aged between 18 
+and 45 years
+Ashwagandha
+(n=50, 46)
+Pentoxifyline
+(n=50, 45)
+6 capsules 
+containing 5 g 
+Hydroalcoholi-
+cAshwagandha 
+root extract once 
+daily
+6 capsules con-
+taining 800 mg 
+Pentoxifylline once 
+daily
+Sperm 
+parameters
+Ashwagandha 
+(1 - nausea and 
+epigastric pain)
+Pentoxifyline 
+(3 - nausea and 
+epigastric pain)
+These events were 
+resolved without 
+any intervention 
+and participants 
+continued the 
+study treatments 
+till the end of the 
+study.
+Within group  
+Ashwagandha 
+markedly in-
+creased mean 
+sperm count, 
+progressive motil-
+ity, and improved 
+sperm morphol-
+ogy. However, the 
+impacts of the two 
+medications were 
+not significantly 
+different. 
+Seminal 
+plasma 
+metabolites 
+of infertile 
+males
+Gupta et al 
+2013
+(India)
+Clinical Study
+12 Weeks
+Infertile males 
+aged 22–45 
+years
+Ashwagandha
+(n=180)
+Control
+(n=50)
+Withania 
+somnifera root 
+powder (WSR)
+5 g/day
+Semen Profile,
+Testosterone, 
+LH, FSH, PRL, 
+IDH, LDH, ALT, 
+AST
+Ashwagandha (0) 
+Control(0)
+The safety of 
+Ashwagandha 
+was confirmed 
+as there were no 
+adverse events 
+reported and 
+Ashwagandha was 
+well tolerated by all 
+the participants.
+Compared to 
+the baseline, 
+WSR repairs 
+the disturbed 
+concentrations of 
+lactate, alanine, 
+citrate, GPC, 
+histidine, and 
+phenylalanine in 
+seminal plasma 
+and recovers 
+the quality of 
+semen. Serum 
+biochemistry was 
+also improved over 
+post therapy.
+
+
+===== PAGE 20 =====
+
+12
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse events 
+Summary of 
+results
+Psychogen-
+ic erectile 
+dysfunction 
+ 
+ 
+Mamidi et 
+al 2011
+(India)
+Randomized,
+Single-blind,
+Placebo-
+controlled,
+parallel-group 
+study.
+8 Weeks
+Patients with 
+psychogenic 
+erectile 
+dysfunction 
+aged between 
+18 - 60 years 
+ 
+Ashwagandha 
+ (n=46, 41) 
+ 
+ Placebo 
+ (n=49, 45)
+4 tablets 500mg 
+Ashwagandha 
+root powder - 
+thrice daily
+Semen 
+analysis, 
+Routine 
+Hematological 
+tests, 
+Biochemical 
+Investigations, 
+Serum 
+Testosterone
+Ashwagandha (0)
+Placebo (0)
+Ashwagandha was 
+well tolerated by all 
+the participants.
+Compared to the 
+baseline there 
+was significant 
+improvement 
+in IIEF items, but 
+the result was 
+insignificant when 
+compared to 
+placebo.
+Stress and 
+Fatigue 
+ 
+Smith et al 
+2023 
+ 
+(Australia)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+12 Weeks
+Healthy Adults 
+aged between 
+40 and 75 years 
+ 
+Ashwagandha 
+(n=60, 55),  
+ 
+Placebo 
+(n=60, 56)
+200 mg - Hy-
+droalcoholicAsh-
+wagandha root 
+extract - twice 
+daily
+PSS, CFS
+PROMIS-29, 
+Sex hormone 
+concentra-
+tions, MDA, 
+FG, HbA1c, 
+TSH, HRV, Grip 
+strength,
+Anthropomet-
+ric measures, 
+LFT, RFT, FBC
+Ashwagandha 
+(13 - Digestive 
+disturbances, 
+Mood 
+disturbances/
+changes, 
+Headaches/
+migraines, 
+Increased appetite, 
+Increased 
+tiredness)
+Placebo (15 
+- Digestive 
+disturbances, 
+Mood 
+disturbances/
+changes, 
+Headaches/
+migraines, 
+Increased 
+appetite, Itchy 
+Skin, Increased 
+tiredness)
+The safety of 
+Ashwagandha 
+root extract was 
+confirmed as there 
+were no adverse 
+events reported 
+and Ashwagandha 
+root extract was 
+well tolerated by all 
+the participants.
+In the 
+Ashwagandha 
+group, there was a 
+significant increase 
+in the blood 
+concentrations of 
+free testosterone 
+and luteinizing 
+hormone 
+compared to the 
+placebo group. 
+ 
+The reported 
+adverse events 
+were of mild 
+severity and no 
+intervention was 
+required. These 
+events were 
+resolved without 
+any intervention 
+and participants 
+continued the 
+study treatments 
+till the end of the 
+study.  
+ 
+Muscle 
+Strength 
+and 
+Recovery 
+ 
+Wankhede 
+et al 2015
+Randomized, 
+double-blind, 
+placebo-
+controlled 
+clinical study
+8-week
+Healthy males 
+aged between 18 
+and 50 years
+Ashwagandha 
+(n=29), Placebo 
+(n=28)
+Standardized 
+Aqueous 
+Ashwagandha 
+Root Extract 
+300mg twice daily 
+Serum 
+Testosterone
+Ashwagandha (0) 
+Placebo (0)
+The serum 
+testosterone level 
+was significantly 
+increased in the 
+Ashwagandha 
+group as 
+compared to 
+placebo control.
+Semen 
+Quality, and 
+Repro-
+ductive 
+hormone 
+levels 
+Ahmad et 
+al 2010
+Prospective 
+Clinical Study 
+3 Months
+infertile males 
+and matched 
+healthy controls
+aged 25–40 
+years
+Ashwagandha 
+(n=75) 
+Control (n=75)
+Withaniasomnif-
+era root powder (5 
+g/day)
+Semen profile, 
+Oxidative 
+biomarkers, 
+Reproductive 
+hormone 
+levels
+Ashwagandha (0) 
+Control (0)
+The safety of 
+Ashwagandha was 
+confirmed and 
+Ashwagandha was 
+well tolerated by all 
+the participants.
+The treatment with 
+Ashwagandha 
+significantly 
+increased serum 
+testosterone and 
+LH and reduced 
+the levels of FSH 
+and PRL 
+
+
+===== PAGE 21 =====
+
+13
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse events 
+Summary of 
+results
+Semen 
+Quality 
+in Stress-
+Related 
+Male 
+Fertility 
+Mahdi et al 
+2011
+Clinical study
+Normozoosper-
+mic but infer-
+tile individuals 
+(n=60)
+and Normozo-
+ospermic fertile 
+men (n=60) as 
+controls 
+Root powder of W. 
+somnifera
+5 g/day for 3 
+months
+Biochemical 
+and stress 
+parameters 
+including 
+Serum 
+testosterone 
+(T), LH, FSH and 
+PRL
+Not Reported
+Treatment resulted 
+in a decrease in 
+stress, improved 
+the level of anti-
+oxidants and 
+improved overall 
+semen quality in a 
+significant number 
+of individuals. The 
+treatment resulted 
+in pregnancy in the 
+partners of 14% of 
+the patients.
+The above studies convincingly conclude the clinical safety and positive effects of Ashwagandha 
+roots on male reproductive system.
+
+
+===== PAGE 22 =====
+
+14
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Ashwagandha is reported in several studies to restore thyroid hormone levels to near normal in 
+experimental models of hypothyroidism. Summary of few such studies is recapitulated below:  
+S.No
+Reference
+Ashwagandha 
+Formulation with Dose
+Experimental Model
+Conclusions
+1
+Hosny et al 
+2021
+Ashwagandha root 
+extract (AE), 500 mg/kg
+Propylthiouracil-
+induced thyroid 
+dysfunction in male 
+Wistar Albino rats
+Restored T3 and T4 levels, improved 
+oxidative stress markers, reduced 
+hippocampal TNF-α levels, 
+and reduced nervous system 
+complications.
+2
+Abdel-
+Wahhab et 
+al 2019
+Ashwagandha 
+methanolic extract 
+(AME), 500 mg/kg/day
+Male albino rats 
+with hypothyroidism 
+induced by 
+propylthiouracil
+Improved thyroid hormones to near-
+normal levels, reduced oxidative 
+stress markers, and ameliorated 
+histopathological changes in the 
+thyroid gland. 
+3
+Panda and 
+Kar, 1998
+Ashwagandha root 
+extract, 1.4g/kg/day, for 
+20 days
+20 adult healthy 
+Swiss albino male 
+mice
+Increased levels of T4 and T3 and 
+antioxidant enzymes in the liver. 
+Reduced hepatic lipid peroxidation. 
+4
+Panda and 
+Kar, 1999
+Ashwagandha root 
+extract (1.4 g/kg body 
+weight)
+28 adult healthy 
+Swiss albino female 
+mice
+Increased T4 but not T3 level. 
+Decreased lipid peroxidation and 
+increased levels of antioxidant 
+enzymes.
+In a recently published study, Kalaivani et al 2023, evaluated Ashwagandha root extract, up to 
+2000 mg/kg/day p.o.) in a 90-day toxicity study in 100 non-pregnant Wistar Albino rats. There 
+was no effect on thyroid hormones including TSH, T3, and T4. Notably, no abnormalities were 
+detected in the histopathology examination of several tissues. 
+This study thus adds important information to the studies by Abdel-Wahhab et al 2019, Panda 
+and Kar (1998 and 1999) that are listed in above Table. Ashwagandha root extract improved 
+thyroid hormone levels, but none of these studies reported levels exceeding the normal 
+physiological range.
+These studies suggest that though Ashwagandha has the potential to increase thyroid hormone 
+levels, one may, however, doubt whether the findings by Panda and Kar and the observation 
+that Ashwagandha counteracts propylthiouracil-induced thyroid dysfunction signal an 
+increased risk of inducing hyperthyroidism. All changes in thyroid hormone levels were within 
+the physiological range and there was no abnormality in thyroid gland histopathology findings. 
+Vaidya VG et al 2024, undertook a non-randomized, open-label, single-treatment clinical study 
+conducted over 4 weeks to evaluate the safety of hydroalcoholic Ashwagandha root extract 
+Effect of Ashwagandha on Thyroid Gland
+
+
+===== PAGE 23 =====
+
+15
+ASHWAGANDHA SAFETY DOSSIER 2.0
+with 18 healthy male participants. Ashwagandha was administered at a dosage of 500 mg 
+twice daily (1000mg/day). The serum thyroid hormones TSH, T3, and T4 levels after 30 days of 
+treatment remained within normal values, leading authors to conclude that Ashwagandha 
+root extract is safe and well-tolerated by healthy human subjects. 
+In another randomized, double-blind, placebo-controlled, and parallel-group clinical study 
+by Verma et al 2021, conducted on 80 healthy individuals, Ashwagandha 600 mg/day 
+supplementation for 8 weeks, showed no statistically significant change or abnormality 
+observed in serum thyroid hormones. 
+In a clinical trial of 50 subjects (Sharma et al 2018) with hypothyroidism, Ashwagandha root 
+extract 600 mg/day for 8 weeks improved the serum levels of thyroid hormones (TSH, T3, and 
+T4) near to normal levels. 
+None of the subjects in these clinical studies reported that thyroid hormones increased beyond 
+normal levels.
+Two experimental papers by Panda & Kar (1998 and 1999), showed that aqueous root extract 
+increased the T4 (in males and females) and T3 (in females) in mice fed Ashwagandha 1.4 g/kg/
+day for 20 days. In another study by Abdel-Wahhab et al 2019 where root extract normalized T3, T4, 
+and TSH values in chemically-induced hypothyroidism in rats, the concern was that in normal rats, 
+root extract increased the level of serum free T3. However, it must be noted that all the changes 
+seen in free T3/T4 levels were within normal limits and there was no sign of hyperthyroidism.
+Further, a case report by van der Hooft 2005 reported thyrotoxicosis with low TSH and increased 
+T4 level in a 32-year-old healthy female taking Ashwagandha for fatigue. In a clinical trial of 50 
+subjects (Sharma et al 2018) with hypothyroidism, where Ashwagandha root extract 600 mg 
+daily was administered for 8 weeks, improved the serum levels of thyroid hormones (TSH, T3, 
+and T4) near to normal levels. In none of the subjects, the thyroid hormones increased beyond 
+normal levels. Recently, a couple of case reports have described thyroid hormone imbalance, 
+probably linked to Ashwagandha. Hayashi et al 2024 from Japan reported that in a 47-year-old 
+bodybuilder, thyrotoxicosis developed after 2 months of Ashwagandha which was reversed 
+on discontinuation of the herb. In another case report from Kamal et al 2022, From the USA, 
+a 73-year-old female taking Ashwagandha for hyperthyroidism for 2 years, developed low 
+TSH levels but a normal range of serum T3 and T4 levels and increased Thyroid microsomal 
+antibody representing Hashimoto thyroiditis. 
+Such rare instances reported in case reports do not mention co-morbidity, concomitant 
+medications, and other confounders, hence the findings may be attributed to dosing rationale 
+and individual idiosyncrasies. 
+Can Ashwagandha be linked to hyperthyroidism as claimed in a few reports? 
+The central question is if Ashwagandha has any direct or indirect effect on the thyroid gland or 
+thyroid hormone release and can cause thyrotoxicosis as a side effect?
+
+
+===== PAGE 24 =====
+
+16
+ASHWAGANDHA SAFETY DOSSIER 2.0
+The 90-day repeated dose toxicity at a high dose level of 2000 mg/kg/day did not show any 
+changes in serum thyroid hormone levels in normal healthy rats and the histopathology findings 
+were normal (Kalaivani et al 2023). This and other safety studies exclude an intrinsic effect 
+of Ashwagandha on thyroid gland morphology or thyroid hormone release. In other studies, 
+undertaken in chemically induced hypothyroid rats, Ashwagandha improved the thyroid 
+hormone levels near to normal. None of these studies reported serum thyroid hormone levels 
+beyond the normal range. It is well-reported that high-grade inflammation and oxidative stress 
+are responsible for chemically induced hypothyroidism.
+In a case reported by van der Hooft 2005, post-partum thyroiditis is not completely ruled out 
+and the author himself reported that the relationship between the use of Ashwagandha and 
+the change in serum thyroid hormone levels can only be considered suggestive, but does not 
+prove a causal relationship.
+Kamal et al 2022, from the USA, reported a 73-year-old female taking Ashwagandha for 
+hyperthyroidism for 2 years. However, they failed to confirm the chemical analysis of the 
+content of the capsule. It is important to mention that Kang et al 2013 reported that nine out 
+of ten commercially available supplements recommended for hypothyroidism including 
+Ashwagandha, contain amounts of T3 and T4 that exceed the doses required to treat 
+hypothyroidism. 
+Thus, Ashwagandha has not been proven to influence thyroid function in healthy animals or 
+humans. In experimental hypothyroidism induced by propylthiouracil and in humans with 
+hypothyroidism, some increase in thyroid hormone levels has been observed though changes 
+are within normal limits. Placed in a context one should note that many plant antioxidants have 
+been shown to either lower or raise thyroid hormones within the normal ranges. e.g. flavonoids 
+lower thyroid hormone levels (Paunkov et al 2019 and Wu et al 2024). On the other side an 
+extract of herb Bacopa monnieri, increased the thyroid levels in propylthiouracil-induced 
+hypothyroidism in rats (Vigneshwar et al 2021). Even dietary habits as the degree of adherence 
+to a healthy Mediterranean diet have been shown to influence the levels (Juresko et al 2024). 
+The observation that Ashwagandha decreases hepatic lipid peroxidation simultaneously with 
+the increasing effect on thyroid hormone levels should be placed in this context.
+Interpreting discrete effects that do not involve lowered TSH or free T3 levels is thus complex. 
+Thyroid hormone levels are not only influenced by the crucial feedback regulation via the TRH-
+TSH axis, but T4 and T3 levels are also influenced by peripheral metabolism via deiodination- 
+and other reactions (Kelly, 2000), and expression of receptors and levels of transport proteins 
+will influence the effects. The regulation is controlled to the extent that levothyroxine, a drug 
+for hypothyroidism rarely causes thyrotoxicosis, only in cases of massive overdose and life-
+threatening symptoms. Lowering of TSH to pathologically low levels that clearly signal excess 
+thyroid hormone has not been reported in healthy animals or humans. 
+Regarding the reports of cases of thyrotoxicosis, one should consider that both hyper and 
+hypothyroidism are common diseases. Reports of single cases of thyrotoxicosis that can 
+be linked in time to Ashwagandha ingestion are therefore impossible to evaluate regarding 
+
+
+===== PAGE 25 =====
+
+17
+ASHWAGANDHA SAFETY DOSSIER 2.0
+causality. Both are autoimmune diseases that can be triggered by external factors, but which 
+could also go into spontaneous remission. Even remission after withdrawal of Ashwagandha in 
+a single case can therefore not be considered strong evidence for a causal relationship. Definite 
+evidence would require large human studies with a matching control group and measurement 
+of thyroid hormone levels, TSH, and thyroid antibodies. Such studies may also include patients 
+with borderline hypothyroid function and some increase in TSH, to further explore the question, 
+of whether Ashwagandha improves thyroid function in some individuals, thereby avoiding an 
+upcoming need for thyroid hormone substitution. 
+
+
+===== PAGE 26 =====
+
+18
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Several studies have shown that Ashwagandha has an immunomodulatory effect. Immune 
+system modulators are compounds that can increase or decrease the response of the immune 
+system to help treat a variety of diseases. These agents restore immunoregulatory pathways 
+responsible for autoreactivity and inflammation. Summary of few such studies is recapitutated 
+below:
+Experimental studies
+In a mouse model of lupus, where the body’s immune system is activated, Ashwagandha root 
+powder had a potent inhibitory effect on proteinuria, nephritis, and other inflammatory markers 
+such as cytokines including interleukin (IL)-6 and tumor necrosis factor (TNF)-α, nitric oxide 
+(NO), and ROS (Minhas U et al 2012),  In this study, however, Humoral response was found to be 
+impervious. Similar was the efficacy in complete Freund’s adjuvant-induced arthritic model 
+(Rasool M. &Varalakshmi P 2006).
+In an study using the HaCaT human keratinocyte cell line, Ashwagandha root decreased the 
+expression of pro-inflammatory cytokines, including interleukin (IL)-8, IL-6, tumour necrosis 
+factor (TNF-α), IL-1β, and IL-12, and increased the expression of anti-inflammatory cytokines, 
+overall it inhibited the NF-κB and MAPK (mitogen-activated protein kinase) pathways. Based on 
+these results, it can be concluded that the anti-inflammatory effects of Ashwagandha could 
+potentially be used in the prevention of skin inflammation (Sikandan A et al 2018). 
+However, the immuno-stimulatory effects of Ashwagandha are also reported in several studies 
+e.g. Ashwagandha root powder stimulated the immune activity in immunodeficient mice. It 
+increased the total number of white blood cells and bone marrow cells, increased the titer of 
+circulating antibodies and antibody-producing cells, and stimulated the production of immune 
+cells and the phagocytosis of macrophages (Davis & Kuttan 2000).
+It is well known that Type IV hypersensitivity is mediated by T cells and macrophages, causing 
+diseases like multiple sclerosis and rheumatoid arthritis or graft rejection. Ashwagandha is not 
+known to cause the exacerbation of autoimmune diseases. On the contrary, Ashwagandha 
+restored the immune regulatory pathways and reduced the inflammatory markers in arthritis 
+and other autoimmune disease models. 
+The moderate immuno-modulatory effects of Ashwagandha have not been linked to any 
+immunopathology. Rather they fit into the spectrum of immunomodulatory effects that have 
+been observed for antioxidative vitamins and plant antioxidants (Cururani et al., 2022).
+Immunomodulatory effect of Ashwagandha
+
+
+===== PAGE 27 =====
+
+19
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Acetylcholinesterase inhibition is usually associated with intestinal cramps, diarrhea, 
+vasodilation with reflex tachycardia, miosis, slurred speech, ataxia, loss of reflexes, etc. No such 
+effects are reported in safety studies conducted in animals and humans at very high doses of 
+Ashwagandha. Hence the possible impact of inhibition of acetylcholinesterase is unfounded. 
+On the contrary, studies have documented the cognition enhancing and memory -improving 
+effects of extracts from with  Withania somnifera in animals as well humans.  
+Effect of Ashwagandha on Acetylcholinesterase 
+activity in CNS
+
+
+===== PAGE 28 =====
+
+20
+ASHWAGANDHA SAFETY DOSSIER 2.0
+The efficacy and safety of Ashwagandha on the liver is an area of extensive investigation both 
+in experimental animals and humans. The findings are described below.  
+Hepatoprotective effect of Ashwagandha in experimental liver injury in animals
+The table below lists the efficacy of Ashwagandha in experimental liver injury models. The 
+overall conclusion is that Ashwagandha has some alleviating effect in several models.
+S.No
+Reference
+Ashwagandha 
+formulation with 
+the dose
+Liver Injury Model
+Conclusions
+1
+Khalil et al 2021
+Aqueous root 
+extract; 200 and 
+400 mg/kg
+Thioacetamide-
+induced hepatic 
+encephalopathy in 
+rats
+Ashwagandha improved locomotor 
+and cognitive deficits, decreased 
+hepatotoxicity markers, and modulated 
+oxidative stress and inflammatory 
+pathways.
+2
+Ebithal et al 
+2020
+Root powder;  
+100, 200, 300 and 
+400 mg/kg
+CCl4-induced 
+hepatotoxicity in 
+male albino rats
+Ashwagandha mitigated CCl4-
+induced hepatotoxicity, enhanced liver 
+antioxidant activity, and reduced serum 
+hepatic enzymes. 
+3
+Baxla et al 2019
+Root powder;  
+500mg/kg
+Lead (Pb) Induced 
+toxicity in Wistar 
+albino rats.
+Ashwagandha improved hematological 
+and hepatotoxic markers, and reduced 
+serum biomarkers (ALT, AST, ALP, BUN, 
+creatinine).
+4
+Dhenge et al 
+2018
+Root powder: 5 
+gm/kg with feed
+Liver function in 
+broilers.
+Ashwagandha reduced SGPT and SGOT 
+levels, enhancing growth, and immune 
+function. 
+5
+Shahraki et 
+al2016
+Powder: 
+62.5 mg/g diet
+Fructose-induced 
+liver damage in 
+Albino- Wistar rats 
+Ashwagandha decreased insulin 
+resistance, serum insulin, blood glucose, 
+triglycerides, and liver enzymes.
+6
+Nabi et al2014
+Hydro-alcoholic 
+root extract: 100 
+mg /kg
+Liver dysfunction in 
+geriatric dogs
+Ashwagandha normalized serum ALT, 
+AST, albumin, cholesterol, and protein 
+levels.
+7
+Sabina et 
+al2013
+Powder: 500 and 
+1000 mg/kg
+Paracetamol 
+hepatotoxicity (rats)
+Ashwagandha normalized serum liver 
+marker enzymes and bilirubin levels.
+8
+Malik et al 2013
+Aqueous root 
+extract: 500 mg/
+kg
+Paracetamol-
+hepatotoxicity in mice
+Ashwagandha decreased AST, ALT, ALP, 
+and bilirubin; increased total serum 
+protein level; reduced lipid peroxidation, 
+and enhanced antioxidant enzyme 
+activities. 
+9
+Sultana et 
+al2012
+Root extract: 500 
+mg/kg
+Gentamicin-
+intoxicated Wistar 
+albino rats
+Ashwagandha root extract reduced 
+elevated serum levels of AST and ALT 
+induced by gentamicin.
+10
+Sharma et 
+al2012
+Root extract: 200, 
+and 500 mg/kg
+Lead nitrate-induced 
+toxicity in male mice
+Ashwagandha root extract ameliorated 
+the alterations in hematological 
+parameters and serum enzymes 
+associated with liver function.
+Ashwagandha and Liver safety
+
+
+===== PAGE 29 =====
+
+21
+ASHWAGANDHA SAFETY DOSSIER 2.0
+S.No
+Reference
+Ashwagandha 
+formulation with 
+the dose
+Liver Injury Model
+Conclusions
+11
+Harikrishnan et 
+al2008
+Root powder: 
+500 mg/kg
+Hyperammonaemia 
+induced by 
+ammonium chloride 
+in rats
+Ashwagandha root powder reduced 
+levels of circulatory ammonia, urea, 
+lipid peroxidation products, and liver 
+marker enzymes. 
+12
+Akbarsha et al 
+2000
+Root powder: 250 
+mg/kg
+Carbendazim-
+induced liver injury in 
+male rats
+Ashwagandha root powder 
+demonstrated a complete recovery of 
+histopathological damage in the liver. 
+13
+Bhattacharya 
+et al 2000
+Aqueous extract 
+of roots: 10, 20 
+and 50 mg/kg
+Iron overload 
+hepatotoxicity in 
+male rats
+Ashwagandha roots decreased 
+hepatic lipid peroxidation and serum 
+levels of liver enzymes. 
+Animal studies of Ashwagandha on liver safety 
+Ashwagandha safety has been widely studied in healthy animals treated with Ashwagandha 
+for various durations. These studies have used various parameters like serum enzymes, 
+biochemicals as well as macroscopic examination and histopathology to assess the effect of 
+Ashwagandha on liver health. Some of these studies are listed below. The overall conclusion 
+is that no significant liver toxicity of Ashwagandha has been demonstrated in experimental 
+animal studies.
+Reference
+Experimental 
+Model 
+Ashwagandha 
+formulation
+Conclusion
+Langade et 
+al., 2023
+Wistar rats
+Standardized 
+aqueous root 
+extract
+200, 400, 800 mg/kg
+No signs of intoxication. Vital liver parameters 
+remained stable, and no abnormalities in general 
+parameters. All hematological and biochemical 
+parameters were within normal range, indicating 
+safety.
+Gross necropsy examination and histopathology 
+of the liver from some rats treated with high 
+doses of root extract showed multifocal minimal 
+hepatocellular infiltration of inflammatory cells. 
+Authors suggested that the rate of occurrence of 
+these incidences, which could be due to glycogen 
+deposition in the cytoplasm of hepatocytes, was low 
+and usually developed in the different laboratory 
+animals to a certain extent, they were considered to 
+be spontaneous / incidental in nature.
+Kalaivani et 
+al., 2023
+Nulliparous and 
+non-pregnant 
+Wistar Albino 
+rats
+Standardized 
+aqueous root 
+extract  
+500, 1000, 2000 mg/
+kg
+No morbidity, mortality, or clinical toxicity. There were 
+no changes in liver enzymes like SGOT, SGPT, alkaline 
+phosphatases or serum bilirubin. Notably, even at 
+the highest dose, liver histopathology examinations 
+indicated no abnormalities. NOAEL was determined 
+to be 2000 mg/kg.
+Patel SB et al., 
+2016
+Wistar rats
+Standardized root 
+extract 
+500, 1000, 2000 mg/
+kg
+No 
+toxicologically 
+significant 
+changes 
+were 
+observed. Similarly, in the sub-acute group, no 
+treatment-related 
+microscopic 
+changes 
+were 
+observed, suggesting Ashwagandha safety for 
+the liver. NOAEL was determined to be 2000 mg/
+kg. The extract showed no adverse effects even 
+after a 14-day recovery period following 28 days of 
+administration.
+
+
+===== PAGE 30 =====
+
+22
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Reference
+Experimental 
+Model 
+Ashwagandha 
+formulation
+Conclusion
+Prabhu PC et 
+al., 2013
+Wistar rats
+Hydroalcoholic 
+extract of roots 
+500, 1000, 2000 mg/
+kg
+No toxic signs or mortality. No significant changes 
+in body weights, organ weights, or haemato-
+biochemical parameters. NOAEL was determined to 
+be 2000 mg/kg.
+Clinical Studies on Liver Safety
+Similarly, multiple clinical studies have also been conducted to evaluate the safety of 
+Ashwagandha on various safety parameters, and no significant alterations or irregularities 
+were detected in several health indices and biochemical parameters including critical safety 
+metrics such as liver, kidney, and thyroid functions. Details of these studies are mentioned in 
+table below:
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse events 
+Summary of results
+Długołęcka 
+et al 2023
+(Poland)
+Randomized, 
+dou-
+ble-blind, 
+place-
+bo-con-
+trolled Study
+8-weeks
+Highly quali-
+fied national 
+team wres-
+tlers (26)
+Ashwa-
+gandha (12)
+Placebo (14)
+2x300 mg 
+per day (2 
+capsules a 
+day) for 8 
+weeks., 
+Hematologi-
+cal parame-
+ters, 
+serum levels 
+of biochem-
+ical param-
+eters, bone 
+mineral 
+content, etc.
+Generally, the par-
+ticipants (from both 
+PL and A group) 
+declared good tol-
+erability of capsules, 
+with no adverse 
+events.
+Only one partici-
+pant dropped out 
+of the study due 
+to intolerance of 
+Ashwagandha 
+capsules.
+The study observed 
+that the biochemical 
+variables remained 
+in the normal range 
+after the intervention 
+with Ashwagandha, 
+and it had no impact 
+on liver related 
+parameters.
+Vaidya et al 
+2023
+(India)
+A non-ran-
+domized, 
+open-label, 
+single-treat-
+ment clinical 
+study
+4 weeks
+Healthy 
+male par-
+ticipants 
+(18), aged 18 
+to 60
+500 mg of 
+the WSE 
+capsules 
+twice daily 
+for four 
+weeks
+vital signs, or-
+gan function 
+tests, urine 
+analysis, 
+X-ray and 
+ECG, cardio-
+respiratory 
+endurance, 
+body fat per-
+centage, lean 
+body weight, 
+adverse 
+events profile, 
+and tolerabil-
+ity of the WSE 
+capsules
+During the trial, 
+there were no 
+adverse ef-
+fects, i.e., none. 
+All the healthy 
+volunteers 
+participating in the 
+safety research 
+demonstrated 
+tolerability to the 
+WSE capsule at a 
+dose of 500 mg 
+twice daily for 30 
+days.
+The participant’s 
+physical, 
+hematological, 
+and biochemical 
+characteristics were 
+normal, and no 
+significant alterations 
+or irregularities were 
+observed in safety 
+metrics like liver, 
+kidney, and thyroid 
+functions.
+Smith et al 
+2023 
+ 
+(Australia)
+Randomized, 
+Dou-
+ble-Blind, 
+Placebo – 
+Controlled 
+ 
+12 Weeks
+Healthy 
+Adults aged 
+between 
+40 and 75 
+years 
+ 
+Ashwa-
+gandha (60, 
+55),  
+ 
+Placebo 
+(60, 56)
+200 mg 
+- Hydroal-
+coholic Ash-
+wagandha 
+root extract 
+- twice daily
+PSS, CFS
+PROMIS-29, 
+Sex hormone 
+concentra-
+tions, MDA, 
+FG, HbA1c, 
+TSH, HRV, Grip 
+strength,
+Ashwagandha (13 
+- Digestive distur-
+bances, Mood dis-
+turbances/changes, 
+Headaches/mi-
+graines, Increased 
+appetite, Increased 
+tiredness)
+The reported adverse 
+events were of mild 
+severity these events 
+were resolved without 
+any intervention 
+and participants 
+continued the study 
+treatments till the end 
+of the study.  
+ 
+
+
+===== PAGE 31 =====
+
+23
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse events 
+Summary of results
+Anthropo-
+metric mea-
+sures, LFT, RFT, 
+FBC
+Placebo (15 - Diges-
+tive disturbances, 
+Mood disturbances/
+changes, Head-
+aches/migraines, 
+Increased appetite, 
+Itchy Skin, Increased 
+tiredness)
+Ashwagandha root 
+extract was well 
+tolerated by all the 
+participants.
+Verma N et 
+al., 2021
+(India)
+Randomized, 
+Dou-
+ble-Blind, 
+Placebo - 
+Controlled 
+Study 8 
+Weeks
+Healthy 
+adults aged 
+between 
+18 and 45 
+years
+Ashwa-
+gandha 
+(40),  
+Placebo 
+(40)
+Standard-
+ized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+ 
+300mg 
+twice daily /  
+Total daily 
+dose of 
+600mg/day
+Hematologi-
+cal parame-
+ters,  
+ 
+Liver param-
+eters  
+ 
+Thyroid Pa-
+rameters
+Ashwagandha 
+root extract was 
+confirmed as there 
+were no adverse 
+events reported 
+and Ashwagandha 
+root extract was 
+well tolerated by all 
+the participants.
+Compared to 
+the placebo, all 
+hematological 
+parameters, liver 
+health parameters 
+and thyroid 
+parameters remained 
+within the acceptable 
+and normal reference 
+range. 
+Raut et al 
+2012
+Dose-relat-
+ed,  
+Open-la-
+bel clinical 
+study 
+ 
+30 Days
+Healthy 
+adults aged 
+18-30 years
+Ashwa-
+gandha  
+(18)
+Withania 
+somnifera 
+extract  
+ 
+750 mg/day 
+x10 days, 
+1000 mg/day 
+x 10 days,  
+1250 mg/day 
+x 10 days
+ 
+Serum Biliru-
+bin, Proteins, 
+Albumin, Ala-
+nine Trans-
+aminase, 
+Aspartate 
+Transam-
+inase, and 
+Alkaline Phos-
+phatase  
+ 
+Serum HDL, 
+LDL, and VLDL 
+cholesterol
+Ashwagandha 
+750mg  
+(1 - Increase in 
+appetite, libido, 
+and hallucinogenic 
+effects with 
+vertigo)  
+Ashwagandha 
+1000mg  
+(0)  
+Ashwagandha 
+1200mg  
+(0)
+Ashwagandha was 
+found to be safe on 
+hematological and 
+biochemical organ 
+function tests. 
+Based on these multiple studies using biochemical, macroscopic observations, organ weight 
+and histopathology as studied in various preclinical and clinical studies, it is safe to conclude 
+that Ashwagandha has no intrinsic adverse or toxic effect on the liver or its function.
+Recent reports of liver injury cases attributed to Ashwagandha
+More recently, few cases of clinically significant liver injury have been reported. Bjornsson et 
+al., 2019 reported 5 such cases from Iceland and US. A few other reports e.g. Inagaki et al., 2017 
+from Japan, Weber and Gerbes, 2021 and Toth et al 2022 from Germany, Ireland et al., 2021 
+from the USA, Bokan et al., 2023 from Bosnia and Herzegovina, Lubraska et al., 2023 from Poland, 
+and Phillips et al., 2023 from India have raised concerns on liver toxicity based on sporadic 
+case reports from their respective countries. The causal relation has been classified as possible 
+or likely based on the time of diagnosis in relation to the start of Ashwagandha intake, the 
+exclusion of other liver diseases, and the resolution of the liver pathology after withdrawal of 
+Ashwagandha. Most of the cases are presented as mixed cholestatic/hepatocellular damage. It 
+is significant to note that all these cases for which the causal relationship to Ashwagandha was 
+classified as likely, were reversed on discontinuation of herb and no case led to death or liver 
+
+
+===== PAGE 32 =====
+
+24
+ASHWAGANDHA SAFETY DOSSIER 2.0
+transplantation. A single American case has been reported, which underwent successful liver 
+transplantation due to liver failure caused by severe hepatocellular damage. Although there was 
+a time relation to Ashwagandha intake, a number of complicating factors (cancer operation 
+two years earlier, feeling unwell after that, ingestion of progesterone in unknown dose) made 
+interpretation difficult, and the authors classified the causal relation as possible, not as likely 
+ 
+In light of Ashwagandha’s liver safety, how do we explain the liver injury reports?
+Since Ashwagandha root extract is not hepatotoxic, neither in prescribed doses nor in much 
+higher doses, one must consider other explanations.  E.g. some of the patients reported to have 
+a possible Ashwagandha-induced liver injury had different underlying diseases like cancer, 
+metabolic diseases, etc and were on medicines known to cause liver toxicity or had prior 
+daily exposure to alcohol. In other cases, they used formulations containing many herbs and 
+Ashwagandha as one of the ingredients. In fact a recent report doubted Inagaki et al. (2017) 
+case report from Japan and questioned if liver damage was due to Ashwagandha. Causality 
+assessment is thus particularly difficult in some of the cases. Yet, one must admit that there 
+are cases no such complicating factors and that the classification of the causal relation to 
+Ashwagandha as likely is motivated. 
+Unpredictable liver injuries caused by a defined chemical, usually a commonly prescribed or 
+over-the-counter sold drug, are rare but well-known and are named drug-induced liver injuries 
+(DILI).  Similarly, herb-induced liver injury (HILI) arises from the harmful effects of complex extracts, 
+where one or more compounds may contribute to unpredictable hepatotoxicity. Direct toxic 
+effects of a drug or herbal preparation on any organ including the liver are dose-dependent, 
+predictable, and have a short latency period and it can be reliably reproduced in animal models. 
+In the case of Ashwagandha, we did not see any report of HILI both in clinics and animals. 
+However, in contrast to this, idiosyncratic injury is not dose-dependent, difficult to predict, and 
+varies widely in latency, often linked to immune or allergic responses to a few susceptible 
+individuals.  It is crucial to distinguish between intrinsic and idiosyncratic liver injuries. 
+Based on the biochemical, hematological, gross observations, organ weight, and 
+histopathology studied in various preclinical and clinical studies, it is safe to conclude that 
+the root of Ashwagandha has no intrinsic adverse or toxic effect on the liver.  The reports of 
+liver injury may be attributed to other underlying diseases or drugs as cited above or at the 
+most rarely, may be likely idiosyncratic reactions that need more investigation. These injuries 
+were generally reversible upon discontinuation of the herb. At the most one can be cautious, 
+and the user can be appropriately informed. In patients with comorbidities, such as cancer, 
+immunocompromised state, polypharmacy, etc. monitoring for liver function should be done 
+at regular intervals. However, there is no scientific evidence to proclaim Ashwagandha as liver 
+toxic.
+
+
+===== PAGE 33 =====
+
+25
+ASHWAGANDHA SAFETY DOSSIER 2.0
+An extensive literature search was conducted using various keywords and MeSH terms to 
+identify relevant scintific publications on Ashwagandha, (Withania somnifera). By searching the 
+keyword “Ashwagandha OR Withania somnifera (All field)” on PubMed, a total of 1793 publications 
+were identified as of 02.07.2024. After screening, 43 randomized controlled trials focusing on 
+Ashwagandha root as a standalone intervention were included in our review. These studies 
+were critically analyzed to assess the efficacy and safety of Withania somnifera across various 
+medical conditions (Annexure III). The summary of key findings from selected safety studies is 
+presented below:
+Vaidya et al 2023, conducted a non-randomized, open-label, single-treatment clinical study 
+over 4 weeks to evaluate the safety of hydroalcoholic Ashwagandha root extract with 18 healthy 
+male participants ranging from 18 to 60 years of age. Ashwagandha was administered at a 
+dosage of 500 mg twice daily (1000mg/day). Remarkably, no adverse events were reported 
+throughout the study, indicating a favorable safety profile for the Ashwagandha root extract. 
+The study revealed that all physical, hematological, and biochemical characteristics of the 
+participants remained within normal ranges, with no significant alterations or irregularities 
+detected in critical safety metrics such as liver, kidney, and thyroid functions. The authors 
+concluded that the consumption of hydroalcoholic Ashwagandha root extract is safe and 
+well-tolerated by healthy human volunteers.
+Barbara et al 2023, conducted a randomized, double-blind, placebo-controlled, and parallel-
+group study on Professional athletes—specifically, highly qualified national team wrestlers— for 8 
+weeks. The participants were administered a standardized aqueous Ashwagandha root extract 
+at a dose of 300 mg twice daily (600 mg/day). One of the prominent findings was that, compared 
+to the placebo group, serum CK activity in the Ashwagandha group did not significantly increase, 
+suggesting improved muscle recovery. Additionally, the study observed that the biochemical 
+variables remained in the normal range after the intervention with Ashwagandha, and it had 
+no impact on liver parameters. The research highlighted the supplement’s safety, endorsing 
+that it was well-tolerated by all participants, with no adverse events reported. The authors 
+concluded that Ashwagandha supplementation might be beneficial for professional wrestlers 
+in improving muscle recovery without affecting liver functions or causing adverse effects.
+Smith et al 2023, conducted a two-arm, parallel-group, single-center, randomized, double-
+blind, placebo-controlled trial on 120 participants to evaluate the safety and efficacy of 
+Ashwagandha on stress, fatigue, and sex hormones in overweight or mildly obese men and 
+women with self-reported stress and fatigue for 8 weeks. The participants were administered 
+Ashwagandha root extract at a dose of 200mg twice daily (400 mg/day). The authors found 
+Summary of clinical studies of Ashwagandha Root Extract
+
+
+===== PAGE 34 =====
+
+26
+ASHWAGANDHA SAFETY DOSSIER 2.0
+that compared to the placebo, there was a statistically significant reduction in fatigue 
+symptoms and a significant increase in heart rate variability in the Ashwagandha group. 
+However, there was a non-significant reduction in PSS scores and other self-report measures. 
+In the men taking Ashwagandha, there was a significant increase in the blood concentrations 
+of free testosterone and luteinizing hormone compared to the placebo group. The reported 
+adverse events in both groups were of mild severity and no intervention was required. There 
+were also no changes in anthropometric measures (BMI, WC, and WHR) blood pressure, and 
+safety blood makers comprising the liver function test, full blood count, and renal function with 
+Ashwagandha supplementation. 
+Verma et al 2021, conducted a randomized, double-blind, placebo-controlled, and parallel-group 
+study on 80 healthy individuals to evaluate the safety of oral administration of Ashwagandha 
+root extract at a dose of 300 mg twice daily for 8 weeks. The result of the study did not indicate 
+any untoward effect in any of the treated volunteers. There was no statistically significant 
+change or abnormality observed in the parameters considered including thyroid hormonal 
+profile in both the groups. Also, no adverse events were reported by any of the participants 
+during the study period. The authors concluded that the consumption of Ashwagandha root 
+extract for eight weeks was found to be safe in both male and female volunteers.
+Gopukumar et al 2021, in a randomized, double-blind, placebo-controlled study, evaluated the 
+effect of Ashwagandha root extract (sustained-release) capsule 300 mg for 90 consecutive 
+days, on cognitive function, stress level, sleep quality, overall well-being, and safety in stressed 
+subjects [130 healthy cognitively sound adults (20–55 years of age, body mass index: 18–29 
+kg/m2)]. A total of 125 subjects completed the study and were evaluated. The Cambridge 
+Neuropsychological Test Automated Battery (CANTAB) reported significantly improved recall 
+memory, and the total error rate in recalling patterns was significantly reduced at visit 4 in the 
+Ashwagandha group as compared to the placebo group. At visit 4, lower PSS-10 score (p < .0001), 
+serum cortisol levels (p =0.0443), and Pittsburgh Sleep Quality Index (PSQI) score (p < .0001) but 
+higher Oxford Happiness Questionnaire (OHQ) scores (p < .0001) were seen in the Ashwagandha 
+group when compared to the placebo group, which suggests significantly lower stress level and 
+significantly better psychological well-being and sleep quality in the former. No adverse events 
+were reported during the study. The authors concluded that treatment with one Ashwagandha 
+capsule (sustained release) once daily for 90 days improved memory and focus, psychological 
+well-being, and sleep quality, reduced stress level, and was safe and well-tolerated.
+Kuchewar et al 2014, investigated Ashwagandha for antioxidant potential in healthy volunteers. 
+In this randomized, double-blind, placebo-controlled study, 30 healthy volunteers aged 18-
+45 years were randomly assigned in equal numbers to the test or placebo group. The test 
+group received 500 mg Ashwagandha root extract twice daily after food with a glass of water 
+for 6 months. The same protocol was followed for the placebo group receiving hard gelatin 
+capsules filled with starch powder. All subjects completed the study and there were no adverse 
+effects reported and all the haematological parameters were within normal range before and 
+after the intervention in both groups. The result of this study indicates that intake of aqueous 
+Ashwagandha root extract at up to 1000 mg per day in divided doses is very well tolerated.
+
+
+===== PAGE 35 =====
+
+27
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Raut et al 2012, conducted an exploratory, prospective, open-labeled study to evaluate the 
+dose-related tolerability, safety, and activity of Withania somnifera formulation in 18 healthy 
+volunteers. W. Somnifera was given in the form of capsules (aqueous extract) daily in two divided 
+doses with an increase in daily dosage every 10 days for 30 days (750 mg/day x10 days, 1000 
+mg/day x 10 days, 1250 mg/day x 10 days). All but one volunteer tolerated W. Somnifera without 
+any adverse event. One volunteer was withdrawn from the study because of the symptoms 
+exhibited such as; increased appetite, libido, and hallucinogenic effects with vertigo at the 
+lowest dose. No significant change was observed in Serum Bilirubin, Proteins, Albumin, Alanine 
+Transaminase, Aspartate Transaminase, and Alkaline Phosphatase during the entire study 
+duration in all participants. All these parameter remained within the normal range. This study 
+has also demonstrated muscle strengthening, improved quality of sleep, and lipid-lowering 
+potential of Ashwagandha. Based on this result, the study concluded that Ashwagandha 
+aqueous extract is safe to use for a month duration in a progressively escalated dose up to 250 
+mg per day.
+Keche et al 2010, conducted a randomized double-blind placebo-controlled clinical trial to 
+assess the efficacy and safety of Livwin® (a polyherbal formulation) in 58 patients (in two 
+groups) with acute viral hepatitis. The formulation Livwin® comprised of Ashwagandha, Arjuna, 
+Bhumyamalaki, Daruharidra, Guduchi, Kutki, and Punarnava and was given orally, two capsules 
+two times a day for eight weeks followed by a treatment-free period of four weeks. The 
+assessment parameters included symptomatic recovery and levels of serum bilirubin, serum 
+aspartate aminotransferase (AST), serum alanine aminotransferase (ALT), alkaline phosphatase 
+at baseline, 2, 4, 8, and 12 weeks. The authors found that significantly earlier recovery of weakness 
+was observed with Livwin® as compared to placebo at 2, 4, and 8 weeks. Serum bilirubin and 
+ALT were observed in the normal range in a significantly higher number of patients with Livwin® 
+treatment as compared to placebo at 2, 4, and 8 weeks. AST was observed in the normal range 
+in a significantly higher number of patients with Livwin® treatment as compared to placebo at 2 
+and 4 weeks. Epigastric pain (n=2) and diarrhea (n=1) were reported with Livwin® treatment. The 
+authors concluded that Livwin® is effective in uncomplicated patients of acute viral hepatitis.
+Recent evidence: Safety of long-term administration of Ashwagandha in humans
+Recent evidence from a randomized, double-blind, placebo-controlled clinical trial involving 
+1,200 participants (600 in each group) has further established the safety of Ashwagandha roots 
+when co-administered with the COVID-19 vaccine (COVISHIELD). The study, conducted over 
+six months, specifically aimed to assess the safety and immunogenicity of Ashwagandha in 
+combination with the COVID-19 vaccine. Participants were monitored for any adverse effects, 
+and the data demonstrated that Ashwagandha, when administered in appropriate doses, 
+did not produce significant adverse effects even with long-term use. This finding supports 
+the traditional use of Ashwagandha as a safe supplement for enhancing overall health 
+and resilience, especially in the context of immune support. The results of this trial align with 
+previous research indicating that Ashwagandha is generally well-tolerated and safe for human 
+
+
+===== PAGE 36 =====
+
+28
+ASHWAGANDHA SAFETY DOSSIER 2.0
+consumption. Its potential to improve vaccine immunogenicity without compromising safety 
+makes it a valuable adjunct in public health strategies, especially during pandemics.  This study 
+was conducted as per the protocol registered with ICMR Clinical Trial Registry and published 
+before beginning the trial that followed Good Clinical Practices (Chopra et al 2021; Chopra et al. 
+2022). The results of this trial are in the process of final publication.
+These studies collectively highlight the potential benefits of Ashwagandha in various health 
+conditions, with a strong emphasis on its safety and tolerability in diverse populations.
+
+
+===== PAGE 37 =====
+
+29
+ASHWAGANDHA SAFETY DOSSIER 2.0
+To generate awareness about the possibility of adverse drug reactions associated with 
+traditional drugs, the Ministry of Ayush, Government of India, initiated the Pharmacovigilance 
+Program for Ayurveda, Siddha, Unani, and Homoeopathy (ASU&H) Drugs in 2017. This program 
+features a robust three-tier system (National, Intermediary, and Peripheral centers) that has 
+been operational since its inception, covering most states and union territories across the 
+country. As of date, no adverse drug reactions related to the use of Ashwagandha have been 
+reported under this program.
+Pharmacovigilance 
+
+
+===== PAGE 38 =====
+
+30
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Conclusion 
+The comprehensive documentation and analysis presented in this technical dossier affirms the 
+safety of the Ashwagandha root. Historical usage, corroborated by rigorous modern research 
+confirms its pharmacological safety and therapeutic efficacy. The instant technical dossier 
+on safety of Ashwagandha encompasses a broad spectrum of studies, including preclinical 
+safety assessments, clinical trials, and investigations into its benefits for liver and thyroid, as well 
+as its immunomodulatory effects.
+Numerous safety studies consistently demonstrate that standardized Ashwagandha (Withania 
+somnifera) root extract is safe for human consumption. The findings from various experimental 
+and clinical studies indicate that the root extract has positive effects on sex hormones, sperm 
+motility & viability, and and overall sexula fubction. 
+Furthermore, scientific data reveals that Ashwagandha root is well-tolerated across a wide 
+range of doses, with no adverse outcomes reported in diverse demographic and clinical 
+cohorts. Thus, the current evidence supporting the safety and efficacy of Ashwagandha root is 
+robust, allowing it to be safely recommended and integrated into global health practices. This 
+reinforces its standing as a significant medicinal herb in both traditional and contemporary 
+health contexts nevertheless using correctly identified species is very crucial and stringent 
+quality control should be carried out suitably as per applicable regulatory norms. 
+In view of its scientifically proven safety, the globally available and popular Indian herb 
+Ashwagandha (Withania Somnifera) can be judiciously utilized for its versatility pertaining to 
+health benifits in humans.
+
+
+===== PAGE 39 =====
+
+31
+ASHWAGANDHA SAFETY DOSSIER 2.0
+•	
+Abdel-Wahhab, K. G., Mourad, H. H., Mannaa, F. A., Morsy, F. A., Hassan, L. K., & Taher, R. F. (2019). Role of 
+Ashwagandha methanolic extract in the regulation of thyroid profile in hypothyroidism modeled rats. 
+Molecular Biology Reports, 46(4), 3637–3649. https://doi.org/10.1007/s11033-019-04721-x
+•	
+Ahmad, M.K., Mahdi, A.A., Shukla, K.K., Islam, N., Rajender, S., Madhukar, D., Shankhwar, S.N., Ahmad, S., 2010. 
+Withania somnifera improves semen quality by regulating reproductive hormone levels and oxidative 
+stress in seminal plasma of infertile males. Fertil Steril 94, 989-996.
+•	
+Akbarsha, M. A., Vijendrakumar, S., Kadalmani, B., Girija, R., &Faridha, A. (2000). Curative property of 
+WithaniasomniferaDunal root in the context of carbendazim-induced histopathological changes in 
+the liver and kidney of rat. Phytomedicine, 7(6), 499-507. https://doi.org/10.1016/S0944-7113(00)80036-7
+•	
+Ajgaonkar, A., Jain, M., & Debnath, K. (2022). Efficacy and safety of Ashwagandha (Withaniasomnifera) 
+root extract for improvement of sexual health in healthy women: A prospective, randomized, placebo-
+controlled study. Cureus, 14(10), e30787. https://doi.org/10.7759/cureus.30787Ambiye, V. R., Langade, D., 
+Dongre, S., Aptikar, P., Kulkarni, M., &Dongre, A. (2013). Clinical evaluation of the spermatogenic activity of 
+the root extract of Ashwagandha (Withaniasomnifera) in oligospermic males: A pilot study. Evidence-
+Based Complementary and Alternative Medicine, 2013, 571420. https://doi.org/10.1155/2013/571420
+•	
+Andrade, C., Aswath, A., Chaturvedi, S. K., Srinivasa, M., & Raguram, R. (2000). A double-blind, placebo-
+controlled evaluation of the anxiolytic efficacy of an ethanolic extract of Withaniasomnifera. Indian 
+Journal of Psychiatry, 42(3), 295-301.
+•	
+Anupam Yadav, Raghav Kumar Mishra,Withania somnifera ameliorates sexual arousal and impotence 
+in stressed sexually sluggish male rats by modulating neurotransmitters and NO/cGMP/PDE5α 
+pathway, Journal of Ethnopharmacology, Volume 318, Part B, 2024, 116971, ISSN 0378-8741, https://doi.
+org/10.1016/j.jep.2023.116971.
+•	
+Ambiye, V. R., Langade, D., Dongre, S., Aptikar, P., Kulkarni, M., &Dongre, A. (2013). Clinical evaluation of the 
+spermatogenic activity of the root extract of Ashwagandha (Withania somnifera) in oligospermic 
+males: A pilot study. Evidence-Based Complementary and Alternative Medicine, 2013, 571420.
+•	
+Andallu, B., Radhika, B., 2000. Hypoglycemic, diuretic and hypocholesterolemic effect of winter cherry 
+(Withania somnifera, Dunal) root. Indian J. Exp. Biol. 38 (6), 607–609.
+•	
+Atul, U., Charu, B., & Umesh, S. (2020). Efficacy of BrimhanaNasya and Ashwagandha (Withaniasomnifera 
+(L.) Dunal) root powder in primary insomnia in elderly male: A randomized open-label clinical study. 
+Ayu, 41(3), 159-165. https://doi.org/10.4103/ayu.AYU_177_19
+•	
+Azgomi, N. D., Nazemiyeh, H., Bazargani, H. S., Fazljou, S. M. B., Jazani, A. M., Ahmadi AsrBadr, Y., &Zomorrodi, 
+A. (2018a). Comparative evaluation of the effects of Withaniasomnifera with pentoxifylline on the 
+sperm parameters in idiopathic male infertility: A triple-blind randomised clinical trial. Andrologia, 
+50(4), e13041. https://doi.org/10.1111/and.13041
+•	
+Baishya, K., Sharma, R., & Kumar, V. (2020). A comparative clinical study to evaluate the efficacy of 
+AshwagandhaGhrita on growth and development of infants. Journal of Ayurveda and Integrative 
+Medicine, 1(1), 31-36. https://doi.org/10.21760/jaims.5.1.7
+•	
+Balasubramani S.P., Venkatasubramanian P., Kukkupuni S.K., Patwardhan B. Plant-based Rasayana 
+drugs from Ayurveda. Chin. J. Integr. Med. 2011;17(2):88–94. doi: 10.1007/s11655-011-0659-5.
+References 
+
+
+===== PAGE 40 =====
+
+32
+ASHWAGANDHA SAFETY DOSSIER 2.0
+•	
+Barbara, D., Ewa, J., Jadwiga, K., & Dariusz, G. (2023). Effects of Ashwagandha (Withaniasomnifera) 
+supplementation on body composition and blood health indices in professional wrestlers. Polish 
+Journal of Sport and Tourism, 30, 26-32. https://doi.org/10.2478/pjst-2023-0022
+•	
+Baxla, S. L., Gora, R. H., &Kerketta, P. (2019). Effect of Withaniasomnifera powder against lead-induced 
+toxicity in albino rats. International Journal of Engineering Research & Technology (IJERT), 8(5S), 327-
+329.
+•	
+Bhattacharya, 
+A., 
+Ramanathan, 
+M., 
+Ghosal, 
+S., 
+& 
+Bhattacharya, 
+S. 
+K. 
+(2000). 
+Effect 
+of 
+Withaniasomniferaglycowithanolides on iron‐induced hepatotoxicity in rats. Phytotherapy Research, 
+14(7), 568-570. https://doi.org/10.1002/1099-1573(200011)14:7
+•	
+Björnsson, H. K., Björnsson, E. S., Avula, B., Khan, I. A., Jonasson, J. G., Ghabril, M., Hayashi, P. H., & Navarro, V. 
+(2020). Ashwagandha-induced liver injury: A case series from Iceland and the US Drug-Induced Liver 
+Injury Network. Liver international : official journal of the International Association for the Study of the 
+Liver, 40(4), 825–829. https://doi.org/10.1111/liv.14393
+•	
+Bokan, G., Glamočanin, T., Mavija, Z., Vidović, B., Stojanović, A., Björnsson, E. S., & Vučić, V. (2023). Herb-
+Induced Liver Injury by Ayurvedic Ashwagandha as Assessed for Causality by the Updated RUCAM: 
+An Emerging Cause. Pharmaceuticals (Basel, Switzerland), 16(8), 1129. https://doi.org/10.3390/ph16081129
+•	
+Chandrasekhar, K., Kapoor, J., &Anishetty, S. (2012). A prospective, randomized double-blind, placebo-
+controlled study of safety and efficacy of a high-concentration full-spectrum extract of Ashwagandha 
+root in reducing stress and anxiety in adults. Indian Journal of Psychological Medicine, 34(3), 255-262. 
+https://doi.org/10.4103/0253-7176.106022
+•	
+Chauhan, S., Srivastava, M. K., & Pathak, A. K. (2022). Effect of standardized root extract of Ashwagandha 
+(Withaniasomnifera) on well-being and sexual performance in adult males: A randomized controlled 
+trial. Health Science Reports, 5(4), e741. https://doi.org/10.1002/hsr2.741
+•	
+Chopra, A., Srikanth, N., Patwardhan, B., & AYUSH CCRAS Research Group. (2021). Withaniasomnifera as a 
+safer option to hydroxychloroquine in the chemoprophylaxis of COVID-19: Results of interim analysis. 
+Complementary Therapies in Medicine, 62, 102768. https://doi.org/10.1016/j.ctim.2021.102768
+•	
+Chopra A, Chavan-Gautam P, Tillu G, Saluja M, Borse S, Sarmukaddam S, Chaudhuri S, Rao BC, Yadav 
+B, Srikanth N, Patwardhan B. Randomized, double blind, placebo controlled, clinical trial to study co-
+administration of Ashwagandha on safety, immunogenicity, and protection with COVID-19 vaccine–A 
+Study Protocol. medRxiv. 2021 Jul 6:2021-07.
+•	
+Chopra A, Chavan-Gautam P, Tillu G, Saluja M, Borse S, Sarmukaddam S, Chaudhuri S, Rao BC, Yadav 
+B, Srikanth N, Patwardhan B. Randomized, double blind, placebo controlled, clinical trial to study 
+Ashwagandha administration in participants vaccinated against COVID-19 on safety, immunogenicity, 
+and protection with COVID-19 vaccine–a study
+•	
+Choudhary, B., Shetty, A., &Langade, D. G. (2015). Efficacy of Ashwagandha (Withaniasomnifera [L.] 
+Dunal) in improving cardiorespiratory endurance in healthy athletic adults. Ayu, 36(1), 63-68. https://
+doi.org/10.4103/0974-8520.169005
+•	
+Choudhary, D., Bhattacharyya, S., & Bose, S. (2017a). Efficacy and safety of Ashwagandha 
+(Withaniasomnifera [L.] Dunal) root extract in improving memory and cognitive functions. Journal of 
+Dietary Supplements, 14(6), 599-612. https://doi.org/10.1080/19390211.2017.1284970
+•	
+Choudhary, D., Bhattacharyya, S., & Joshi, K. (2017b). Body weight management in adults under chronic 
+stress through treatment with Ashwagandha root extract: A double-blind, randomized, placebo-
+
+
+===== PAGE 41 =====
+
+33
+ASHWAGANDHA SAFETY DOSSIER 2.0
+controlled trial. Journal of Evidence-Based Complementary & Alternative Medicine, 22(1), 96-106. 
+https://doi.org/10.1177/2156587216658737
+•	
+Cooley, K., Szczurko, O., Perri, D., Mills, E. J., Bernhardt, B., Zhou, Q., & Seely, D. (2009). Naturopathic care for 
+anxiety: A randomized controlled trial ISRCTN78958974. PLOS One, 4(8), e6628. https://doi.org/10.1371/
+journal.pone.0006628
+•	
+Cururani et al 2022, “Immunomodulators and Human Health, Chapter “Antioxidants and 
+immunomodulation”; pp 101-121
+•	
+Dar N.J., Hamid A., Ahmad M. Pharmacologic overview of Withaniasomnifera, the Indian Ginseng. Cell. 
+Mol. Life Sci. 2015;72(23):4445–4460. doi: 10.1007/s00018-015-2012
+•	
+Dhenge, S. A., et al. (2018). Effect of dietary supplementation of Ashwagandha (Withaniasomnifera) 
+and Kalmegh (Andrographispaniculata) on growth performance and immune status in broilers. 
+International Journal of Agriculture Sciences, 10(24), 7634-7636.
+•	
+Długołęcka, Barbara, Jówko, Ewa, Kotowska, Jadwiga and Gierczuk, Dariusz. “Effects of Ashwagandha 
+(WithaniaSomnifera) Supplementation on Body Composition and Blood Health Indices in Professional 
+Wrestlers” Polish Journal of Sport and Tourism, vol.30, no.4, 2023, pp.26-32. https://doi.org/10.2478/pjst-
+2023-0022
+•	
+Dongre, S., Langade, D., & Bhattacharyya, S. (2015). Efficacy and safety of Ashwagandha 
+(Withaniasomnifera) root extract in improving sexual function in women: A pilot study. BioMed 
+Research International, 2015, 284154. https://doi.org/10.1155/2015/284154
+•	
+Ebtihal, Y. K., & Dalia, A. M. H. (2020). Evaluation of Ashwagandha (Withaniasomnifera) and its extract 
+to protect the liver from damage. International Journal of Engineering Research & Technology (IJERT), 
+9(2).
+•	
+Fuladi, S., Emami, S. A., Mohammadpour, A. H., Karimani, A., Manteghi, A. A., &Sahebkar, A. (2020). 
+Assessment of Withaniasomnifera root extract efficacy in patients with generalized anxiety disorder: 
+A randomized double-blind placebo-controlled trial. Current Clinical Pharmacology. Advance online 
+publication. https://doi.org/10.2174/1574884715666200413120413
+•	
+Gopal, S., Ajgaonkar, A., Kanchi, P., Kaundinya, A., Thakare, V., Chauhan, S., &Langade, D. (2021). Effect 
+of an Ashwagandha (Withaniasomnifera) root extract on climacteric symptoms in women during 
+perimenopause: A randomized, double-blind, placebo-controlled study. Journal of Obstetrics and 
+Gynaecology Research. Advance online publication. https://doi.org/10.1111/jog.15030
+•	
+Gopukumar, K., Thanawala, S., Somepalli, V., Rao, T., Thamatam, V. B., & Chauhan, S. (2021). Efficacy and 
+safety of Ashwagandha root extract on cognitive functions in healthy, stressed adults: A randomized, 
+double-blind, placebo-controlled study. Evidence-Based Complementary and Alternative Medicine, 
+2021, 8254344. https://doi.org/10.1155/2021/8254344
+•	
+Gupta, A., Mahdi, A. A., Shukla, K. K., Ahmad, M. K., Bansal, N., Sankhwar, P., &Sankhwar, S. N. (2013). Efficacy of 
+Withaniasomnifera on seminal plasma metabolites of infertile males: A proton NMR study at 800 MHz.
+Journal of Ethnopharmacology, 149(1), 208-214. https://doi.org/10.1016/j.jep.2013.06.026
+•	
+Harikrishnan, B., Subramanian, P., & Subash, S. (2008). Effect of Withaniasomnifera root powder on 
+the levels of circulatory lipid peroxidation and liver marker enzymes in chronic hyperammonemia. 
+E-Journal of Chemistry, 5, 2090-9063.
+•	
+Homoeopathic Pharmacopoeia of India. vol. 10, 1stedn. New Delhi, India: Government of India, Ministry 
+of Health and Family Welfare, Department of Ayurveda, Yoga & Naturopathy, Unani, Siddha and 
+Homoeopathy (Ayush); 2013; p. 224-225.
+
+
+===== PAGE 42 =====
+
+34
+ASHWAGANDHA SAFETY DOSSIER 2.0
+•	
+Hosny, E. N., El-Gizawy, M. M., Sawie, H. G., Abdel-Wahhab, K. G., &Khadrawy, Y. A. (2021). Neuroprotective 
+effect of Ashwagandha extract against the neurochemical changes induced in rat model of 
+hypothyroidism. Journal of Dietary Supplements, 18(1), 72–91. https://doi.org/10.1080/19390211.2020.17139
+59
+•	
+Hosseini, N., Moharari, F., Soltanifar, A., Poor, A. M., Hosseini, A., &Zahedian, F. (2019). Evaluation of the 
+effectiveness of Withaniasomnifera root extract on the anxiety symptoms among children with ADHD 
+in Mashhad. Journal of Medical and Health Sciences, 13(1).
+•	
+Ireland, P. J., Hardy, T., Burt, A. D., & Donnelly, M. C. (2021). Drug-induced hepatocellular injury due to 
+herbal supplement ashwagandha. The journal of the Royal College of Physicians of Edinburgh, 51(4), 
+363–365. https://doi.org/10.4997/JRCPE.2021.409
+•	
+Inagaki K, Mori N, Honda Y, Takaki S, Tsuji K, Chayama K (2017) A case of drug-induced liver injury with 
+prolonged severe intrahepatic cholestasis induced by ashwagandha. Kanzo 58: 448-454
+•	
+Indian Pharmacopoeia.  Volume III. 8th ed. Ghaziabad, India: The Indian Pharmacopoeia Commission; 
+2018; p. 3743-3745
+•	
+Jahanbakhsh, S. P., Manteghi, A. A., Emami, S. A., Mahyari, S., Gholampour, B., Mohammadpour, A. H., 
+&Sahebkar, A. (2016). Evaluation of the efficacy of Withaniasomnifera (Ashwagandha) root extract 
+in patients with obsessive-compulsive disorder: A randomized double-blind placebo-controlled trial. 
+Complementary Therapies in Medicine, 27, 25-29. https://doi.org/10.1016/j.ctim.2016.04.006
+•	
+Jain, H., Parial, S. D., Jarald, E., Daud, A. S., & Ahmad, S. Extraction of Ashwagandha by conventional 
+extraction methods and evaluation of its anti-stress activity. International Journal of Green Pharmacy, 
+4(3), 183-185.
+•	
+Kalaivani, P., Siva, R., Gayathri, V., &Langade, D. (2024). Two weeks dose range finding study of KSM-
+66 Ashwagandha root extract by oral route in Wistar rats – A toxicity study. International Journal of 
+Medical and Pharmaceutical Research, 5(1), 153-164.
+•	
+Kalaivani, P., Siva, R., Gayathri, V., &Langade, D. (2023). Ninety-day repeated dose toxicity of Ashwagandha 
+(Withaniasomnifera) root extract in Wistar rats. Toxicology Reports, 11, 189–198. https://doi.org/10.1016/j.
+toxrep.2023.09.004
+•	
+Kalaivani, P., Siva, R., Gayathri, V., &Langade, D. (2023). Mutagenicity and safety evaluation of 
+Ashwagandha (Withaniasomnifera) root aqueous extract in different models. Toxicology Reports, 12, 
+41–47. https://doi.org/10.1016/j.toxrep.2023.12.005
+•	
+Keche, Y., Badar, V., &Hardas, M. (2010). Efficacy and safety of Livwin (polyherbal formulation) in patients 
+with acute viral hepatitis: A randomized double-blind placebo-controlled clinical trial. International 
+Journal of Ayurveda Research, 1(4), 216-219. https://doi.org/10.4103/0974-7788.76784
+•	
+Kelgane, S. B., Salve, J., Sampara, P., ... &Langade, D. (2020). Efficacy and tolerability of Ashwagandha root 
+extract in the elderly for improvement of general well-being and sleep: A prospective, randomized, 
+double-blind, placebo-controlled study. Cureus, 12(2), e7083. https://doi.org/10.7759/cureus.7083
+•	
+Khalil, H., Eliwa, H. A., El-Shiekh, R. A., Al-Mokaddem, A. K., Hassan, M., Tawfek, A. M., & El-Maadawy, W. H. 
+(2021). Ashwagandha (Withaniasomnifera) root extract attenuates hepatic and cognitive deficits 
+in thioacetamide-induced rat model of hepatic encephalopathy via induction of Nrf2/HO-1 and 
+mitigation of NF-κB/MAPK signaling pathways. Journal of Ethnopharmacology, 277, 114141. https://doi.
+org/10.1016/j.jep.2021.114141
+•	
+Khan, M., Subramaneyaan, M., Arora, V., Banerjee, B. & Ahmed, R. (2015). Effect of Withania somnifera 
+(Ashwagandha) root extract on amelioration of oxidative stress and autoantibodies production in 
+
+
+===== PAGE 43 =====
+
+35
+ASHWAGANDHA SAFETY DOSSIER 2.0
+collagen-induced arthritic rats. Journal of Complementary and Integrative Medicine, 12(2), 117-125. 
+https://doi.org/10.1515/jcim-2014-0075
+•	
+Khojah, E. Y., & Hafez, D. A. M. (2020). Evaluation of Ashwagandha (Withaniasomnifera) and its extract to 
+protect the liver from damage. International Journal of Engineering Research & Technology (IJERT), 9(2).
+•	
+Kiasalari Z., Khalili M., Aghaei M. Effect of withania somnifera on levels of sex hormones in the diabetic 
+male rats. Iranian Journal of Reproductive Medicine. 2009;7(4):163–168.
+•	
+Kuchewar, V. V., Borkar, M. A., &Nisargandha, M. A. (2014). Evaluation of the antioxidant potential of 
+Rasayana drugs in healthy human volunteers. Ayu, 35(1), 46-49. https://doi.org/10.4103/0974-8520.141938
+•	
+Kumar, A., Kumar, R., Rahman, M. S., Iqubal, M. A., Anand, G., Niraj, P. K., & Ali, M. (2015). Phytoremedial effect 
+of Withania somnifera against arsenic-induced testicular toxicity in Charles Foster rats. Avicenna 
+journal of phytomedicine, 5(4), 355–364.
+•	
+Langade, D., Kanchi, S., Salve, J., Debnath, K., &Ambegaokar, D. (2019). Efficacy and safety of Ashwagandha 
+(Withaniasomnifera) root extract in insomnia and anxiety: A double-blind, randomized, placebo-
+controlled study. Cureus, 11(3), e5797. https://doi.org/10.7759/cureus.5797
+•	
+Langade, D., Thakare, V., Kanchi, S., &Kelgane, S. (2021). Clinical evaluation of the pharmacological 
+impact of Ashwagandha root extract on sleep in healthy volunteers and insomnia patients: A double-
+blind, randomized, parallel-group, placebo-controlled study. Journal of Ethnopharmacology, 251, 
+113276. https://doi.org/10.1016/j.jep.2020.113276
+•	
+Langade, D., Dawane, J., &Dhande, P. (2023). Sub-acute toxicity of Ashwagandha (Withaniasomnifera) 
+root extract in Wistar rats. Toxicology Reports, 11, 389–395. https://doi.org/10.1016/j.toxrep.2023.10.009
+•	
+Lubarska, M., Hałasiński, P., Hryhorowicz, S., Mahadea, D. S., Łykowska-Szuber, L., Eder, P., Dobrowolska, 
+A., & Krela-Kaźmierczak, I. (2023). Liver Dangers of Herbal Products: A Case Report of Ashwagandha-
+Induced Liver Injury. International journal of environmental research and public health, 20(5), 3921. 
+https://doi.org/10.3390/ijerph20053921
+•	
+Mahdi AA, Shukla KK, Ahmad MK, Rajender S, Shankhwar SN, Singh V, Dalela D. Withaniasomnifera 
+Improves Semen Quality in Stress-Related Male Fertility. Evid Based Complement Alternat Med. 2009 
+Sep 29;2011:576962. doi: 10.1093/ecam/nep138. Epub ahead of print. PMID: 19789214; PMCID: PMC3136684.
+•	
+Majeed, M., Nagabhushanam, K., &Mundkur, L. (2023). A standardized Ashwagandha root extract 
+alleviates stress, anxiety, and improves quality of life in healthy adults by modulating stress hormones: 
+Results from a randomized, double-blind, placebo-controlled study. Medicine, 102(41), e35521. https://
+doi.org/10.1097/MD.0000000000035521.
+•	
+Majeed, M., Nagabhushanam, K., Murali, A., Vishwanathan, D. T., Mamidala, R. V., &Mundkur, L. (2023). A 
+standardized Withaniasomnifera (Linn.) root extract with piperine alleviates the symptoms of anxiety 
+and depression by increasing serotonin levels: A double-blind, randomized, placebo-controlled 
+study. Journal of Integrative and Complementary Medicine. Advance online publication. https://doi.
+org/10.1089/jicm.2023.0279
+•	
+Malik, T., Pandey, D. K., & Dogra, N. (2013). Ameliorative potential of aqueous root extract of 
+Withaniasomnifera against paracetamol-induced liver damage in mice. Pharmacologia, 4, 89-94.
+•	
+Malik, A., Mehta, V., Malik, S., & Sharma, P. (2014). Effect of Ashwagandha (Withaniasomnifera) root powder 
+supplementation on the core muscle strength and stability in hockey players. International Journal of 
+Behavioural Social and Movement Sciences, 3(3), 83-91.
+
+
+===== PAGE 44 =====
+
+36
+ASHWAGANDHA SAFETY DOSSIER 2.0
+•	
+Malik, A., Mehta, V., Malik, S., & Sharma, P. (2014). Effect of Ashwagandha (Withaniasomnifera) root powder 
+supplementation on VO2 max and hemoglobin in hockey players. International Journal of Behavioural 
+Social and Movement Sciences, 2(3), 91-99
+•	
+Mamidi, P., &Thakar, A. B. (2011). Efficacy of Ashwagandha (WithaniasomniferaDunal. Linn.) in the 
+management of psychogenic erectile dysfunction. Ayu, 32(3), 322-328. https://doi.org/10.4103/0974-
+8520.93914
+•	
+Minhas U, Minz R, Das P, Bhatnagar A. Therapeutic effect of Withaniasomnifera on a pristane-induced 
+model of SLE. Inflammopharmacology. 2012;20:195–205
+•	
+Mishra, R. K., Trivedi, R., & Pandya, M. A. (2010). A clinical study of Ashwagandhaghrita and Ashwagandha 
+granules for its brumhana and balya effect. Ayu, 31(3), 355-360. https://doi.org/10.4103/0974-8520.77164
+•	
+Mohanty I, Arya DS, Dinda A, Talwar KK, Joshi S, Gupta SK. Mechanisms of cardioprotective effect of 
+Withania somnifera in experimentally induced myocardial infarction. Basic Clin Pharmacol Toxicol. 
+2004;94:184–90.
+•	
+Nabi, S. U., Wani, A. R., & Dey, S. (2014). Therapeutic effect of Ashwagandha (Withaniasomnifera L.) in liver 
+dysfunction of old dogs. Applied Biological Research, 16(2), 232-236.
+•	
+Narra, K., Naik, S. K., &Ghatge, A. S. (2023). A study of efficacy and safety of Ashwagandha 
+(Withaniasomnifera) lotion on facial skin in photoaged healthy adults. Cureus, 15(3), e36168. https://
+doi.org/10.7759/cureus.36168
+•	
+Nayak, S., Nayak, S., Panda, B.K., Das, S., 2015. A clinical study on management of stress in type-2 diabetes 
+mellitus (Madhumeha) with Ashwagandha (withinia somnifera). Ayushdhara 2 (6), 413–417.
+•	
+Pandey A, Bani S, Dutt P, Kumar Satti N, Avtar Suri K, Nabi Qazi G. Multifunctional neuroprotective effect of 
+Withanone, a compound from Withaniasomnifera roots in alleviating cognitive dysfunction. Cytokine. 
+2018 Feb;102:211-221. doi: 10.1016/j.cyto.2017.10.019. Epub 2017 Nov 3. PMID: 29108796.
+•	
+Patel, S. B., Rao, N. J., &Hingorani, L. L. (2016). Safety assessment of Withaniasomnifera extract standardized 
+for withaferin A: Acute and sub-acute toxicity study. Journal of Ayurveda and Integrative Medicine, 7(1), 
+30-37. https://doi.org/10.1016/j.jaim.2015.08.001
+•	
+Paul, S., Chakraborty, S., Anand, U., Dey, S., Nandy, S., Ghorai, M., Saha, S. C., Patil, M. T., Kandimalla, R., 
+Proćków, J., & Dey, A. (2021). Withaniasomnifera (L.) Dunal (Ashwagandha): A comprehensive review on 
+ethnopharmacology, pharmacotherapeutics, biomedicinal and toxicological aspects. Biomedicine 
+& 
+pharmacotherapy 
+= 
+Biomedecine&pharmacotherapie, 143, 
+112175. 
+https://doi.org/10.1016/j.
+biopha.2021.112175
+•	
+Prabu PC, Panchapakesan S. Prenatal developmental toxicity evaluation of Withania somnifera root 
+extract in Wistar rats. Drug Chem Toxicol. 2015 Jan;38(1):50-6. doi: 10.3109/01480545.2014.900073. Epub 
+2014 Mar 20. PMID: 24649920.
+•	
+Prabu PC, Panchapakesan S, David Raj C. (2013). Acute and sub-acute oral toxicity assessment of the 
+hydroalcoholic extract of Withania somnifera roots in Wistar rats. Phytother Res 27:1169–1178.
+•	
+Panda S, Kar A. Changes in thyroid hormone concentrations after administration of Ashwagandha 
+root extract to adult male mice. J Pharm Pharmacol. 1998 Sep;50(9):1065-8. doi: 10.1111/j.2042-7158.1998.
+tb06923.x. PMID: 9811169.
+•	
+Panda S, Kar A. Withania somnifera and Bauhinia purpurea in the regulation of circulating thyroid 
+hormone concentrations in female mice. J Ethnopharmacol. 1999 Nov 1;67(2):233-9. doi: 10.1016/s0378-
+8741(99)00018-5. PMID: 10619390.
+
+
+===== PAGE 45 =====
+
+37
+ASHWAGANDHA SAFETY DOSSIER 2.0
+•	
+Philips, C. A., Valsan, A., Theruvath, A. H., Ravindran, R., Oommen, T. T., Rajesh, S., Bishnu, S., Augustine, P., & Liver 
+Research Club India (2023). Ashwagandha-induced liver injury-A case series from India and literature 
+review. Hepatology communications, 7(10), e0270. https://doi.org/10.1097/HC9.0000000000000270
+•	
+Rahmati, B., Ghosian Moghaddam, M. H., Khalili, M., Enayati, E., Maleki, M., & Rezaeei, S. (2016). Effect of 
+Withania somnifera (L.) Dunal on Sex Hormone and Gonadotropin Levels in Addicted Male Rats. 
+International journal of fertility & sterility, 10(2), 239–244. https://doi.org/10.22074/ijfs.2016.4915
+•	
+Rasool M., Varalakshmi P. Immunomodulatory role of Withaniasomnifera root powder on experimentally 
+induced inflammation: An in vivo and in vitro study. Vascul. Pharmacol. 2006;44:406–410
+•	
+Raut, A. A., Rege, N. N., Tadvi, F. M., Solanki, P. V., Kene, K. R., Shirolkar, S. G., Pandey, S. N., Vaidya, R. A., & 
+Vaidya, A. B. (2012). Exploratory study to evaluate tolerability, safety, and activity of Ashwagandha 
+(Withaniasomnifera) in healthy volunteers. Journal of Ayurveda and Integrative Medicine, 3(3), 111-114. 
+https://doi.org/10.4103/0975-9476.100168
+•	
+Sabina, E. P., Rasool, M., Vedi, M., Navaneethan, D., Ravichander, M., Poornima, P., & Thella, S. R. (2013). 
+Hepatoprotective and antioxidant potential of Withaniasomnifera against paracetamol-induced 
+liver damage in rats. International Journal of Pharmacy and Pharmaceutical Sciences, 5(2), 648-651.
+•	
+Saggam, A., Limgaokar, K., Borse, S., Chavan-Gautam, P., Dixit, S., Tillu, G. and Patwardhan, B., 2021. 
+Withaniasomnifera (L.) Dunal: opportunity for clinical repurposing in COVID-19 management. Frontiers 
+in Pharmacology, 12, p.623795.
+•	
+Sahin K., Orhan C., Akdemir F., et al. Comparative evaluation of the sexual functions and NF-KB and Nrf2 
+pathways of some aphrodisiac herbal extracts in male rats. BMC Complementary and Alternative 
+Medicine. 2016;16(1, article no. 318) doi: 10.1186/s12906-016-1303-x.
+•	
+Saleem, S., Muhammad, G., Hussain, M. A., Altaf, M., & Bukhari, S. N. A. (2020). Withaniasomnifera L.: Insights 
+into the phytochemical profile, therapeutic potential, clinical trials, and future prospective. Iranian 
+journal of basic medical sciences, 23(12), 1501–1526. https://doi.org/10.22038/IJBMS.2020.44254.10378
+•	
+Salve, J., Pate, S., Debnath, K., & Singh, S. (2019). Adaptogenic and anxiolytic effects of Ashwagandha 
+root extract in healthy adults: A double-blind, randomized, placebo-controlled clinical study. Cureus, 
+11(12), e6466. https://doi.org/10.7759/cureus.6466
+•	
+Sandhu, J. S., Shah, B., Shenoy, S., Chauhan, S., Lavekar, G. S., &Padhi, M. M. (2010). Effects of Withaniasomnifera 
+(Ashwagandha) and Terminalia arjuna (Arjuna) on physical performance and cardiorespiratory 
+endurance in healthy young adults. International Journal of Ayurveda Research, 1(3), 144-149. https://
+doi.org/10.4103/0974-7788.76788
+•	
+Schliebs R, Liebmann A, Bhattacharya SK, Kumar A, Ghosal S, Bigl V. Systemic administration of defined 
+extracts from Withania somnifera (Indian Ginseng) and Shilajit differentially affects cholinergic but 
+not glutamatergic and GABAergic markers in rat brain. Neurochem Int. 1997 Feb;30(2):181-90. doi: 10.1016/
+s0197-0186(96)00025-3. PMID: 9017665.
+•	
+Shahraki, M. R., Dadpisheh, S., Shahraki, A. R., &Mirshekari, H. (2016). The effects of Withaniasomnifera on 
+blood sugar, serum insulin, lipid profile, and liver enzymes in fructose drinking water male rats. Journal 
+of Chemical and Pharmaceutical Research, 8(4), 1328-1334.
+•	
+Sharma, V., Sharma, S., &Pracheta. (2012). Protective effect of Withaniasomnifera roots extract on 
+hematoserological profiles against lead nitrate-induced toxicity in mice. Indian Journal of Biochemistry 
+& Biophysics, 49(6), 458-462.
+
+
+===== PAGE 46 =====
+
+38
+ASHWAGANDHA SAFETY DOSSIER 2.0
+•	
+Sharma, A. K., Basu, I., & Singh, S. (2018). Efficacy and safety of Ashwagandha root extract in subclinical 
+hypothyroid patients: A double-blind, randomized placebo-controlled trial. Journal of Alternative and 
+Complementary Medicine, 24(3), 243-248. https://doi.org/10.1089/acm.2017.0183
+•	
+Shenoy, S., Chaskar, U., Sandhu, J. S., &Paadhi, M. M. (2012). Effects of eight-week supplementation of 
+Ashwagandha on cardiorespiratory endurance in elite Indian cyclists. Journal of Ayurveda and 
+Integrative Medicine, 3(4), 209-214. https://doi.org/10.4103/0975-9476.104431
+•	
+Shukla, K. K., Mahdi, A. A., Mishra, V., Rajender, S., Sankhwar, S. N., Patel, D., & Das, M. (2011). Withania somnifera 
+improves semen quality by combating oxidative stress and cell death and improving essential metal 
+concentrations. Reproductive biomedicine online, 22(5), 421–427. doi:10.1016/j.rbmo.2011.01.010.
+•	
+Sikandan A., Shinomiya T., Nagahara Y. Ashwagandha root extract exerts anti-inflammatory effects 
+in HaCaT cells by inhibiting the MAPK/NF-κB pathways and by regulating cytokines. Int. J. Mol. Med. 
+2018;42:425–434
+•	
+Smith, S. J., Lopresti, A. L., & Fairchild, T. J. (2023). Exploring the efficacy and safety of a novel standardized 
+Ashwagandha (Withaniasomnifera) root extract (Witholytin®) in adults experiencing high stress and 
+fatigue in a randomized, double-blind, placebo-controlled trial. Journal of Psychopharmacology, 
+37(11), 1091-1104. https://doi.org/10.1177/02698811231200023
+•	
+Sultana, N., Shimmi, S. C., Parash, M. T., & Akhtar, J. (2012). Effects of Ashwagandha (Withaniasomnifera) 
+root extract on some serum liver marker enzymes (AST, ALT) in gentamicin intoxicated rats. Journal of 
+Bangladesh Society of Physiology, 7, 1-7.
+•	
+The Ayurvedic Pharmacopoeia of India. Part I, vol. VIII. 1stedn. New Delhi, India: Government of India, 
+Ministry of Health and Family Welfare, Department of Ayurveda, Yoga & Naturopathy, Unani, Siddha 
+and Homoeopathy (Ayush); 2011; p. 28-32.
+•	
+The Siddha Pharmacopoeia of India. Part I, vol. I. 1stedn. New Delhi, India: Government of India, Ministry 
+of Health and Family Welfare, Department of Ayurveda, Yoga & Naturopathy, Unani, Siddha and 
+Homoeopathy (Ayush); 2008; p. 1-4.
+•	
+The Unani Pharmacopoeia of India. Part I, vol. I, 1stedn. New Delhi, India: Government of India, Ministry 
+of Health and Family Welfare, Department of Ayurveda, Yoga & Naturopathy, Unani, Siddha and 
+Homoeopathy (Ayush); 2007; p. 7-8.
+•	
+Tiwari, S., Gupta, S. K., & Pathak, A. K. (2021). A double-blind, randomized, placebo-controlled trial on 
+the effect of Ashwagandha (WithaniasomniferaDunal.) root extract in improving cardiorespiratory 
+endurance and recovery in healthy athletic adults. Journal of Ethnopharmacology, 279, 113929. https://
+doi.org/10.1016/j.jep.2021.113929
+•	
+Tóth M, Benedek AE, Longerich T, Seitz H-K. Ashwagandha-induced acute liver injury: A case report. Clin 
+Case Rep. 2023; 11:e7078. doi:10.1002/ccr3.7078
+•	
+Wankhede, S., Langade, D., Joshi, K., Sinha, S. R., & Bhattacharyya, S. (2015). Examining the effect of 
+Withaniasomnifera supplementation on muscle strength and recovery: A randomized controlled trial. 
+Journal of the International Society of Sports Nutrition, 12, 43. https://doi.org/10.1186/s12970-015-0104-9
+•	
+Weber, S., & Gerbes, A. L. (2021). Ashwagandha-Induced Liver Injury: Self-Reports on Commercial 
+Websites as Useful Adjunct Tools for Causality Assessment. The American journal of gastroenterology, 
+116(10), 2151–2152. https://doi.org/10.14309/ajg.0000000000001369
+•	
+Vaidya, V. G., Gothwad, A., Ganu, G., Girme, A., Modi, S. J., &Hingorani, L. (2023). Clinical safety and 
+tolerability evaluation of Withaniasomnifera (L.) Dunal (Ashwagandha) root extract in healthy human 
+
+
+===== PAGE 47 =====
+
+39
+ASHWAGANDHA SAFETY DOSSIER 2.0
+volunteers. Journal of Ayurveda and Integrative Medicine, 15(1), 100859. Advance online publication. 
+https://doi.org/10.1016/j.jaim.2023.100859
+•	
+Verma, N., Gupta, S. K., Patil, S., & Mishra, A. K. (2023). Effects of Ashwagandha (Withaniasomnifera) 
+standardized root extract on physical endurance and VO2 max in healthy adults performing 
+resistance training: An eight-week, prospective, randomized, double-blind, placebo-controlled study. 
+F1000Research, 12, 335. https://doi.org/10.12688/f1000research.121534.1
+•	
+Verma, N., Gupta, S. K., Tiwari, S., Mishra, A. K., & Patil, S. (2023). Effect of Ashwagandha root extract on 
+serum testosterone and muscle recovery in strength training. International Journal of Health Sciences, 
+4(5), 371-381. https://doi.org/10.12669/pjms.39.1.6731
+•	
+Verma, N., Gupta, S. K., Tiwari, S., & Mishra, A. K. (2021). Safety of Ashwagandha root extract: A randomized, 
+placebo-controlled study in healthy volunteers. Complementary Therapies in Medicine, 57, 102642. 
+https://doi.org/10.1016/j.ctim.2020.102642
+•	
+Yerram, C., Jillela, A., & Reddy, V. (2023). Effects of Ashwagandha (Withaniasomnifera) root extract 
+serum application on hair health in healthy adults: A prospective, double-blind, randomized, parallel, 
+placebo-controlled study. Journal of Ayurveda and Integrative Medicine. Advance online publication. 
+https://doi.org/10.1016/j.jaim.2023.100859
+
+
+===== PAGE 48 =====
+
+40
+ASHWAGANDHA SAFETY DOSSIER 2.0
+U. S. Pharmacopeia and European Union permissible limits for heavy metals in dietary 
+supplements
+Element
+India Limits ppm
+USP Limits ppm
+EU Limits ppm
+Arsenic
+3
+1.5
+0.5
+Cadmium
+0.3
+0.5
+0.1
+Lead
+10
+0.5
+3
+Mercury
+1
+0.3
+0.1
+U. S. Pharmacopeia and European Union permissible limits for Aflatoxins in dietary 
+supplements
+Aflatoxins
+India Limits
+USP Limits
+EU Limits
+B1
+< 2 ppb
+NMT 5 ppb
+5ppb
+The sum of aflatoxins (B1, B2, G1, G2)
+< 5ppb
+NMT 20 ppb
+10 ppb
+Microbial Limits for ‘Finished’ Botanical Products
+Microbial Enumeration test
+USP Limits
+Microbial Enumeration test
+EU Limits
+1) Total aerobic microbial count
+<104cfu/g or ml
+1) Total aerobic microbial 
+count
+<104cfu/g or ml
+2) Total combined molds and 
+yeasts count
+<103cfu/g or ml
+2) Total combined molds 
+and yeasts count
+<102cfu/g or ml
+3) Enterobacterial count  
+(Bile-Tolerant Gram-Negative 
+Bacteria)
+<102cfu/g or ml
+3) Enterobacterial count 
+(Bile- Tolerant Gram-Nega-
+tive Bacteria)
+<102cfu/g or ml
+Test for absence of specified 
+Microorganisms
+Test for absence of speci-
+fied Microorganisms
+4) Escherichia coli (10g)
+Absent
+4) Escherichia coli (1g)
+Absent
+5) Salmonella species (10g)
+Absent
+5) Salmonella species (25g) Absent
+6) Staphylococcus aureus (10g)
+Absent
+6) Staphylococcus. aureus 
+(1g)
+Absent
+Annexure I – Permissible Limits and International 
+Regulatory Provisions 
+
+
+===== PAGE 49 =====
+
+41
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Annexure II – AHP Press Release 
+ 
+ 
+  
+ 
+ 
+Standards of Identity, Analysis, and Quality Control 
+ 
+ 
+AHP PRESS RELEASE 
+  
+ 
+  
+ 
+ 
+ 
+ 
+FOR IMMEDIATE DISTRIBUTION 
+June 25, 2024 
+ 
+AHP Responds to Claims of Ashwagandha 
+Abortifacient Effects 
+ 
+ 
+  
+In May of 2020, Danish Food Authorities issued a risk assessment of ashwagandha 
+recommending against its use due to purported abortifacient activity. Other 
+European countries followed, calling for independent risk assessments that have 
+called into question the safety of the herb when used in pregnancy. As their primary 
+reference, the Danish authorities cited an ashwagandha monograph of the World 
+Health Organization (WHO) (2009) that in turn cited the American Herbal 
+Pharmacopoeia (AHP) Ashwagandha Root Monograph and Therapeutic 
+Compendium (2000). However, the WHO monograph, in an example of what is known 
+in medical literature as citation distortion, did not fully articulate the AHP review which 
+stated the following: 
+
+
+===== PAGE 50 =====
+
+42
+ASHWAGANDHA SAFETY DOSSIER 2.0
+         “There are conflicting reports regarding the use of ashwagandha in pregnancy. 
+Large but undefined doses have been reported to possess abortifacient activity 
+(Chadha 1976; Svoboda 1992). Of several ayurvedic practitioners consulted, none 
+reported having observed an abortifacient activity clinically. Conversely, ashwagandha 
+has, traditionally and in modern ayurvedic practice, been used to prevent miscarriage 
+and stabilize the fetus (Tirtha 1998).” 
+ 
+      Misrepresentation of the AHP monograph has been repeatedly uncritically 
+resulting in the misconception that ashwagandha root is potentially unsafe. A 
+potential for an abortifacient effect was similarly reported in the first edition of 
+the Botanical Safety Handbook (BSH; McGuffin et al. 1997), which provides a safety 
+classification for ashwagandha of 2b: Not to be used in pregnancy unless otherwise 
+recommended by a qualified health care practitioner, and a “Notice” as an 
+abortifacient. The 2b classification remained in the second edition of BSH but the 
+Notice as an abortifacient was removed due to the lack of documentation that such 
+an action existed. 
+ 
+      Since the earlier publications of both AHP and BSH, a comprehensive review of the 
+traditional and scientific literature and all accessible citations that made any mention 
+of ashwagandha as an abortifacient was conducted. Additionally, the opinion of 
+experienced Ayurvedic medicine practitioners from India and North America was 
+solicited. Neither the Expert Advisory Council for the revision of BSH (third edition), 
+nor experts involved in the AHP revision, found any traditional or scientific 
+documentation that ashwagandha possesses an abortifacient activity. The earlier 
+cautions regarding the use of ashwagandha in pregnancy and its claimed use as an 
+abortifacient were based on anecdotal reports from the ethnobotanical literature that 
+provided no indication such an effect was evident. Furthermore, when such reports 
+were made, the overwhelming majority referred to above-ground parts, which in 
+Ayurveda were rarely used internally, not the root, the portion used almost 
+exclusively. Similarly, a review of the traditional and scientific data reveals no 
+pharmacological mechanisms that would indicate an abortifacient effect. 
+ 
+      The BSH safety classification was revised to the current safety classification of 1: 
+Herbs that can be safely consumed when used appropriately. An upcoming revision 
+of the AHP Monograph and Therapeutic Compendium will reflect this as well. 
+ 
+      In addition, subsequent to safety concerns raised in the European Union, the 
+Ministry of AYUSH (Government of India) released a Safety Dossier (2.0; 2024) noting 
+the lack of abortifacient activity of ashwagandha root and citing all clinical and pre-
+clinical data that have investigated the use of ashwagandha and its preparations in 
+pregnancy. One toxicity investigation in rats demonstrated a No Observed Adverse 
+Effect Level of ashwagandha root extract of 2,000 mg/kg. The available human trials 
+reported no maternal or fetal toxicity in pregnant women using ashwagandha 
+preparations. No other clinical or pre-clinical investigations revealed an abortifacient 
+activity. 
+ 
+      While adequate caution when using any substance during pregnancy is warranted, 
+based on a critical and comprehensive review of the traditional and modern 
+
+
+===== PAGE 51 =====
+
+43
+ASHWAGANDHA SAFETY DOSSIER 2.0
+literature, as well as the opinion of the majority of experts, there is no evidence of an 
+abortifacient effect of ashwagandha root. 
+For more information regarding this press release contact: 
+Roy Upton, President 
+American Herbal Pharmacopoeia 
+roy@herbal-ahp.org 
+1-831-461-6317 
+ABOUT AMERICAN HERBAL PHARMACOPOEIA 
+AHP is a non-profit 501(c)(3), non-governmental, educational organization committed 
+to advancing knowledge about the quality and understanding of herbal medicine 
+worldwide. Our work is made possible by a global network of experts, including 
+botanists, chemists, herbalists, pharmacists, pharmacologists, and physicians, as well 
+as experts in Ayurveda and traditional Chinese and Persian medicine. AHP 
+believes our medicines of the past are our medicines of the present and future. To 
+learn more about AHP, visit https://herbal-ahp.org/.  
+CONTACT US 
+ABOUT US 
+American Herbal Pharmacopoeia® 
+PO Box 66809, Scotts Valley, CA. 95067 
+ 
+Email: ahp@herbal-ahp.org 
+Website: www.herbal-ahp.org 
+Call Us: 831-461-6318 
+Fax: 831-438-2196  
+  
+ 
+The American Herbal 
+Pharmacopoeia® is a non-profit 
+501(c)(3) educational 
+organization. 
+
+
+===== PAGE 52 =====
+
+44
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Annexure III - Clinical Studies on Ashwagandha
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse 
+events (Ash-
+wagandha 
+vs Placebo/
+Control 
+group)
+Summary of results
+Stress, Sleep, and Anxiety
+ 
+Stress and 
+Anxiety /  
+Chan-
+drasekhar et 
+al2012 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+8 Weeks
+Healthy 
+adults / Aged 
+between 18 
+and 54 years 
+experiencing 
+high-stress 
+ 
+Ashwagandha 
+(32, 30),  
+ 
+Placebo 
+(32, 31) 
+ 
+ 
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+PSS, GHQ- 28, 
+DASS, Serum 
+Cortisol
+Ashwagand-
+ha (6 - Nasal 
+congestion, 
+Constipa-
+tion, Cough 
+and cold, 
+Drowsiness, 
+Decreased 
+appetite,  
+ 
+Placebo (5 
+- Dryness of 
+mouth, tired-
+ness, fever, 
+headache, 
+abdominal 
+pain, diar-
+rhea, tremor 
+in legs)
+Compared to placebo, Ashwa-
+gandha was associated with 
+significantly greater improve-
+ments in PSS, GHQ-28 total 
+and subscale scores, DASS 
+total and subscale scores, and 
+serum cortisol.  
+ 
+Mild Adverse events were seen 
+and were comparable in the 
+two groups. The reported ad-
+verse events were of mild se-
+verity and no intervention was 
+required. These events were re-
+solved without any intervention 
+and participants continued the 
+study treatments till the end of 
+the study. 
+The study concluded that the 
+Ashwagandha root extract is 
+safe, and well tolerated by all 
+the participants.
+Stress and 
+Weight Man-
+agement / 
+Choudhary 
+et al 2017b 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+8 Weeks
+Adults aged 
+between 18 
+and 60 years 
+with symptoms 
+of chronic work 
+stress 
+ 
+Ashwagandha 
+(26, 25), 
+ 
+Placebo  
+(26, 25)
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+PSS, FCQ,
+OHQ, TFEQ
+Serum Cor-
+tisol, Body 
+weight,
+BMI
+Ashwagand-
+ha (1)
+Placebo (1)
+Giddiness, 
+Heaviness of 
+head, Blurring 
+of vision, hy-
+peracidity
+Compared to placebo, Ashwa-
+gandha was associated with 
+significantly greater improve-
+ments in PSS, FCQ-T (planning, 
+positive reinforcement, nega-
+tive reinforcement, lack of con-
+trol, emotion, and environment 
+scores), OHQ, TFEQ (uncon-
+trolled eating and emotional 
+eating scores), serum cortisol, 
+body weight, and BMI 
+The reported adverse events 
+were of mild severity and no 
+intervention was required. 
+These events were resolved 
+without any intervention and 
+participants continued the 
+study treatments till the end of 
+the study. 
+The study concluded that the 
+Ashwagandha root extract is 
+safe, and well tolerated by all 
+the participants.
+Stress, Sleep 
+and Anxiety 
+/ Salve et al 
+2019 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+8 Weeks
+Adults aged 
+between 18 
+and 55 years 
+experiencing 
+high stress 
+ 
+Ashwagandha 
+250mg  
+(20, 19),
+ 
+125mg and 
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+PSS, HAM-A, 
+Serum Cor-
+tisol, Sleep 
+quality
+Ashwagand-
+ha (0)
+Placebo (0)
+Compared to placebo, Ashwa-
+gandha was associated with 
+significantly greater reductions 
+in PSS (both doses), HAM-A (600 
+mg), sleep quality rating (both 
+doses), and serum cortisol 
+(both doses). Trends suggested 
+greater efficacy with the higher 
+Ashwagandha dose
+
+
+===== PAGE 53 =====
+
+45
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse 
+events (Ash-
+wagandha 
+vs Placebo/
+Control 
+group)
+Summary of results
+Ashwagandha 
+600mg  
+(20,20), 
+ 
+Placebo  
+(20, 19)
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+ 
+ 
+Insomnia 
+and Anxiety 
+/ Langade et 
+al2019 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+10 Weeks
+Adults aged 
+between 18 
+and 60 
+years with 
+insomnia 
+ 
+Ashwagandha 
+(40, 39),  
+ 
+Placebo 
+(20, 19)
+ 
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+Sleep actig-
+raphy - SOL, 
+TST, WASO, 
+TIB, SE,
+Sleep log,
+PSQI, HAM-A,
+Sleep Quality,
+Mental alert-
+ness on rising 
+score
+Ashwagand-
+ha (0)
+Placebo  
+(0)
+Compared to placebo, Ashwa-
+gandha was associated with 
+significantly greater improve-
+ments in sleep actigraphy 
+measurements of sleep onset 
+latency and sleep efficien-
+cy, PSQI sleep quality scores, 
+HAM-A scores, and sleep qual-
+ity scores. 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+ 
+Anxiety 
+Symptoms 
+among 
+children 
+with ADHD / 
+Hosseini et al 
+2019
+ 
+(Iran)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+6 Weeks
+Children aged 
+7-12 years 
+ 
+Ashwagandha  
+(16, 14)  
+ 
+Placebo  
+(15, 14)
+Ashwagandha 
+Root Extract 
+ 
+10mg / day
+RCMAS, 
+ADHD-RS
+Ashwagand-
+ha (0)
+Placebo  
+(0)
+Ashwagandha root extract re-
+duces the symptoms of phys-
+iological anxiety, sensitivity, 
+social concerns, and an overall 
+score of RCMA among children 
+with ADHD and comorbid anxi-
+ety disorders. 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Elderly and 
+General 
+Wellbeing / 
+Kelgane et 
+al2020 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo - 
+Controlled 
+Study 
+ 
+12 Weeks
+Healthy old-
+er-age adults 
+aged between 
+65 and 80 
+years 
+ 
+Ashwagandha 
+(25, 19),  
+ 
+ 
+Placebo 
+(25, 20)
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+WHO-
+QOL-BREF,
+Sleepiness 
+scale, Mental 
+alertness on 
+rising, Sleep 
+quality scale
+Ashwagand-
+ha (0)
+Placebo (0)
+Compared to placebo, Ash-
+wagandha is associated with 
+significantly greater im-
+provements in WHOQOL-BREF 
+scores (total score and global, 
+physical, psychological, and 
+environment domain), mental 
+alertness on waking rating, and 
+sleep quality rating, but not on 
+the sleep scale scores 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Primary in-
+somnia in el-
+derly males / 
+Atulet al2020 
+ 
+(India)
+Simple 
+Randomized, 
+Two-arm 
+Open-label 
+ 
+4 Weeks
+Male patients 
+from the age 
+group of 60–70 
+years 
+Ashwagandha 
+(only) 
+(30, 27)  
+BrimhanaN-
+asya + Ashwa-
+gandha 
+(30, 28)
+Ashwagandha 
+root powder - 
+6 g orally with 
+100 ml of milk 
+/ day 
+Brimhana 
+Nasya + 6g 
+Ashwagandha 
+Root Powder 
+with 100ml of 
+milk / day
+PSQI
+ 
+Ashwagand-
+ha (only) (0)
+Brimhana 
+Nasya + 
+Ashwagand-
+ha (0)
+The result of the study indi-
+cates that Brimhana Nasya 
+and Ashwagandha root 
+powder group patients got 
+more significant results in all 
+components of PSQI compared 
+to Ashwagandha root powder 
+group patients. 
+
+
+===== PAGE 54 =====
+
+46
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse 
+events (Ash-
+wagandha 
+vs Placebo/
+Control 
+group)
+Summary of results
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Generalized 
+Anxiety Dis-
+order / Fuladi 
+et al 2020 
+ 
+(Iran)
+Randomized,  
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+6 Weeks
+Healthy Adults  
+ 
+Ashwagandha  
+(18, 18)  
+ 
+Placebo  
+(22, 22)
+Withania 
+somnifera Root 
+Extract 
+ 
+1g/day
+HAM-A, GAD 
+level
+Ashwagand-
+ha (0)
+Placebo 
+(0)
+Compared to the placebo, the 
+change in the Hamilton anxiety 
+rating scores (HAM-A) revealed 
+a significantly ameliorat-
+ed situation by decreasing 
+HAM-A score in the treatment 
+group. Moreover, there was a 
+significant difference in the 
+treatment group in the second 
+week and sixth week in the re-
+duction of Generalized Anxiety 
+Disorder.
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Sleep, In-
+somnia and 
+Anxiety / 
+Langade et 
+al2021 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+8 Weeks
+Heathy adults 
+and insomnia 
+patients aged 
+between 18 
+and 50 years 
+ 
+Healthy - 
+Ashwagandha 
+(20,20),  
+ 
+Placebo 
+(20, 20); 
+ 
+Insomnia - 
+Ashwagandha 
+(20,20),  
+ 
+Placebo 
+(20, 20)
+ 
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+Sleep ac-
+tigraphy, 
+parameters 
+- SOL, TST, 
+WASO, TIB, SE; 
+PSQI,
+HAM-A,
+Mental 
+Alertness on 
+rising, Sleep 
+quality
+Ashwagand-
+ha (0)
+Placebo 
+(0)
+Compared to the placebo, 
+Ashwagandha root extract 
+supplementation resulted in 
+a significant improvement 
+in both healthy participants 
+and insomnia patients. There 
+was a statistically significant 
+improvement in SOL, HAM-A 
+outcomes, mental alertness, 
+and sleep quality. Although 
+both healthy and insomniac 
+subjects reported significant 
+improvement in sleep param-
+eters, it was more significant in 
+the latter group. 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Stress and 
+Cognitive 
+Functions / 
+Gopukumar 
+et al2021 
+ 
+(India)
+Randomized, 
+Double-blind, 
+Paral-
+lel-group, 
+Two-arm, 
+Place-
+bo-con-
+trolled 
+ 
+12 Weeks
+Healthy Cog-
+nitively sound 
+adults aged 
+20–55 years 
+ 
+Ashwagandha  
+(65, 62)  
+ 
+Placebo  
+(65, 63)
+300mg - Hy-
+droalcoholic 
+Ashwagandha 
+root extract - 
+once daily
+CANTAB,
+OHQ, PSQI
+PSS, MoCA
+Serum Cor-
+tisol,
+BDNFlevels
+Ashwagand-
+ha (0)
+Placebo  
+(0)
+Compared to the placebo, the 
+CANTAB reported significantly 
+improved recall memory, and 
+the total error rate in recalling 
+patterns significantly de-
+creased in the Ashwagandha 
+SR group. Also, lower PSS-10 
+score, serum cortisol levels, 
+and Pittsburgh Sleep Quality 
+Index (PSQI) score but higher 
+Oxford Happiness Question-
+naire (OHQ) scores were seen 
+in Ashwagandha SR suggest-
+ing significantly lower stress 
+levels and significantly better 
+psychological well-being and 
+sleep quality in the former.
+
+
+===== PAGE 55 =====
+
+47
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse 
+events (Ash-
+wagandha 
+vs Placebo/
+Control 
+group)
+Summary of results
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Stress and 
+Anxiety / 
+Majeed et al 
+2023 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo - 
+Controlled  
+ 
+8 Weeks
+Adult partici-
+pants aged 21 
+to 54 years 
+ 
+Ashwagandha 
+(27, 25),  
+ 
+Placebo 
+(27, 25)
+500 mg - Hy-
+droalcoholic 
+Ashwagandha 
+root extract 
+with 95% pip-
+erine-5 mg - 
+once daily
+PSS, GAD-7, 
+QOL
+CANTAB,
+Salivary Cor-
+tisol,
+Serotonin,
+Dopamine,
+NO, GSH,
+MDA
+Ashwa-
+gandha 
+(8 - Nausea, 
+Headache, 
+Diarrhoea)
+Placebo (4 - 
+Headache, 
+Nausea)
+Compared to placebo, the 
+PSS, GAD-7, and QOL scores 
+improved significantly in all 
+the participants taking ARE. 
+The CANTAB analysis revealed 
+a significant improvement in 
+multitasking, concentration, 
+and decision-making time in 
+ARE compared to placebo. ARE 
+was also associated with a 
+greater reduction in the morn-
+ing salivary cortisol and an 
+increase in urinary serotonin 
+compared to placebo. Serum 
+levels of NO, GSH, and MDA 
+were not significantly different. 
+The reported adverse events 
+were of mild severity and no 
+intervention was required. 
+These events were resolved 
+without any intervention and 
+participants continued the 
+study treatments till the end of 
+the study. 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Stress and 
+Fatigue / 
+Smith et al 
+2023 
+ 
+(Australia)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+12 Weeks
+Healthy Adults 
+aged between 
+40 and 75 
+years 
+ 
+Ashwagandha 
+(60, 55),  
+ 
+Placebo 
+(60, 56)
+200 mg - Hy-
+droalcoholic 
+Ashwagandha 
+root extract - 
+twice daily
+PSS, CFS
+PROMIS-29, 
+Sex hormone 
+concentra-
+tions, MDA, 
+FG, HbA1c, 
+TSH, HRV, Grip 
+strength,
+Anthropo-
+metric mea-
+sures, LFT, RFT, 
+FBC
+Ashwa-
+gandha (13 
+- Digestive 
+disturbanc-
+es, Mood 
+disturbanc-
+es/changes, 
+Headaches/
+migraines, 
+Increased 
+appetite, 
+Increased 
+tiredness)
+Compared to the placebo, 
+there was a statistically sig-
+nificant reduction in fatigue 
+symptoms and a significant 
+increase in heart rate vari-
+ability in the Ashwagandha 
+group. However, there was 
+non- significant reduction in 
+PSS score and other self-report 
+measures. In the men taking 
+Ashwagandha, there was a 
+significant increase in the 
+blood concentrations of free 
+testosterone and luteinizing 
+hormone compared to the 
+placebo group. 
+The reported adverse events 
+were of mild severity and no 
+intervention was required. 
+These events were resolved 
+without any intervention and 
+participants continued the 
+study treatments till the end of 
+the study.  
+
+
+===== PAGE 56 =====
+
+48
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse 
+events (Ash-
+wagandha 
+vs Placebo/
+Control 
+group)
+Summary of results
+Placebo (15 
+- Digestive 
+disturbanc-
+es, Mood 
+disturbanc-
+es/changes, 
+Headaches/
+migraines, 
+Increased 
+appetite, 
+Itchy Skin, 
+Increased 
+tiredness)
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Anxiety, 
+Depression, 
+and Sero-
+tonin Levels / 
+Majeed et al 
+2023 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+12 Weeks
+Healthy adults 
+aged between 
+18 and 60 years 
+ 
+Ashwagandha 
+(34, 34),  
+ 
+Control 
+(36, 36)
+500 mg - 
+Ashwagandha 
+root extract 
+with piper-
+ine-5 mg - 
+once daily
+HDRS, HARS, 
+GSQS, WHO-
+QOL, Serum 
+serotonin
+Ashwagand-
+ha (18 - Nau-
+sea, Diarrhea, 
+Drowsiness, 
+Fever, Head-
+ache, Stom-
+ach Pain)  
+ 
+Placebo (16 
+- Nausea, 
+Diarrhea, 
+Drowsiness, 
+Fever, Head-
+ache, Stom-
+ach Pain, 
+Back Pain)
+Compared to the placebo, 
+the HARS, HDRS, GSQS, and QOL 
+scores improved significantly 
+in the Ashwagandha group. 
+Serum levels of serotonin 
+increased in ARE but showed a 
+decrease in placebo. Biochem-
+ical and hematological param-
+eters remained in the normal 
+range in all participants. 
+The reported adverse events 
+were of mild severity and no 
+intervention was required. 
+These events were resolved 
+without any intervention and 
+participants continued the 
+study treatments till the end of 
+the study.
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Anxiety in 
+Adults / 
+Cooley et 
+al2009 
+ 
+(Canada)
+Randomized,  
+Controlled,  
+Pragmatic 
+trial  
+ 
+12 Weeks
+Adults aged 18 
+- 65 years 
+ 
+Ashwagandha  
+(41, 36)  
+ 
+Placebo  
+(40, 39)
+Withania 
+somnifera 
+root (Swiss 
+Ashwagand-
+ha); 300-mg 
+supplements 
+twice daily
+BAI, SF-36,
+FQ, VAS
+Ashwa-
+gandha 
+(Gastrointes-
+tinal upset, 
+Overstimula-
+tion, Feel-
+ing warm, 
+increased 
+frequency 
+of noctur-
+nal night 
+cramps, mild 
+hair loss) 
+Placebo 
+(Gastrointes-
+tinal upset, 
+Overstimu-
+lation, Rash, 
+Feeling warm, 
+increased 
+frequency 
+of noctur-
+nal night 
+cramps, mild 
+hair loss)
+Compared to the placebo, the 
+Ashwagandha group caused a 
+significant decrease in anxiety 
+levels and an improvement in 
+quality of life measures. 
+The reported adverse events 
+were of mild severity and no 
+intervention was required. 
+These events were resolved 
+without any intervention and 
+participants continued the 
+study treatments till the end of 
+the study.  
+The safety of Ashwagandha 
+root was confirmed as there 
+were no adverse events re-
+ported and Ashwagandha root 
+was well tolerated by all the 
+participants.
+
+
+===== PAGE 57 =====
+
+49
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse 
+events (Ash-
+wagandha 
+vs Placebo/
+Control 
+group)
+Summary of results
+Anxiety in 
+Adults / 
+Andrade et 
+al 2000 
+ 
+(India)
+Double-blind,  
+Place-
+bo-con-
+trolled, 
+Dose-rang-
+ing study 
+ 
+6 Weeks
+ 
+Adults with 
+GAD, aged be-
+tween 18 - 70 
+years  
+ 
+Ashwagandha  
+(20, 17)  
+ 
+Placebo  
+(19, 16) 
+Ethanolic 
+extract of 
+Ashwagandha 
+Two 250-mg 
+tablets, twice 
+daily - Ten tab-
+lets a day.
+HAM-A, GRS
+Ashwa-
+gandha (17 
+- Drowsiness 
+(2), Heaviness 
+of head (4), 
+Increased 
+frequency of 
+migraine (1), 
+Fatigue (1), 
+Withdraw-
+al fatigue 
+(1), Itching 
+(1), Numb 
+hands (1), 
+Bitter taste (1), 
+Decreased 
+appetite (1), 
+Increased 
+appetite (1), 
+Decreased 
+sleep (2), 
+Gastritis (2), 
+Heaviness in 
+stomach (1)).  
+Placebo (16 
+- Giddiness 
+(2), Dullness 
+(1), Heaviness 
+of head (1), 
+Fatigue (1), 
+Chest pain 
+(1), Chest 
+infection (1), 
+burning eyes 
+(1), Burning 
+urine (1), Mul-
+tiple somatic 
+complaints 
+(1), Heat in 
+body (1), 
+Increased 
+appetite (1), 
+Gastritis (1), 
+Heaviness 
+in stomach 
+(1), Diarrhea 
+(1), Menstrual 
+irregularities 
+(2), Worsen-
+ing of obses-
+sive-compul-
+sive disorder 
+(1)).
+Compared to the placebo, 
+there was a trend for the 
+anxiolytic superiority of drugs 
+at week 2, and a statistically 
+significant at week 6 with Ash-
+wagandha. 
+ 
+Subclinical Hypothyroidism
+Subclinical 
+Hyperthy-
+roidism / 
+Sharma et al 
+2018 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+8 Weeks
+Adults aged 
+between 18 
+and 50 
+years with 
+elevated TSH 
+(4.5 to 
+10μIU/L)
+ 
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+TSH,
+Free T3, Free 
+T4
+Ashwagand-
+ha  
+(1)  
+ 
+Placebo  
+(3) 
+Compared to placebo, Ash-
+wagandha associated with 
+significantly greater increases 
+in T3, T4, and reduction in TSH. 
+ 
+
+
+===== PAGE 58 =====
+
+50
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse 
+events (Ash-
+wagandha 
+vs Placebo/
+Control 
+group)
+Summary of results
+Ashwagandha 
+(25, 25),  
+ 
+Placebo 
+(25, 25)
+Fever, Asthe-
+nia, cough 
+and head-
+ache
+The reported adverse events 
+were of mild severity and no 
+intervention was required. 
+These events were resolved 
+without any intervention and 
+participants continued the 
+study treatments till the end of 
+the study.  
+ 
+The study concluded that the 
+Ashwagandha root extract is 
+safe, and well tolerated by all 
+the participants.
+Sexual Health in Men / Male sexual function
+ 
+Male Sexual 
+Function 
+and Fertility 
+/ Ambiye et 
+al2013 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+12 Weeks
+Infertile men / 
+aged between 
+22 and 40 
+years 
+ 
+Ashwagandha 
+(21, 21),  
+ 
+Placebo 
+(25, 25)
+225mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Thrice daily
+Semen Pa-
+rameters,
+Serum 
+Testoster-
+one, Serum 
+Luteinizing 
+Hormone
+Ashwagand-
+ha (0)
+Placebo 
+(0)
+Ashwagandha is associated 
+with significant increases in 
+sperm concentration, se-
+men volume, sperm motility, 
+serum testosterone, and LH. 
+No changes occurred in the 
+placebo group 
+ 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Male Sexual 
+Function / 
+Chauhan et 
+al 2022  
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+8 Weeks
+Males aged 
+between 21 
+and 45 years 
+with low sexual 
+desire 
+ 
+Ashwagandha 
+(25, 25),  
+ 
+Placebo 
+(25, 25)
+ 
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+DISF‐M, Serum 
+Testosterone, 
+PRL, SF-36
+Ashwagand-
+ha  
+(4 - Sleepi-
+ness, Mild Ab-
+dominal Pain, 
+Low Grade 
+Joint Pain) 
+ 
+Placebo  
+(3 - Abdomi-
+nal Pain, Mild 
+Diarrhea)
+Compared to the placebo, 
+Ashwagandha was associated 
+with significantly greater in-
+creases in Total DISF-M scores 
+and serum testosterone levels. 
+The reported adverse events 
+were of mild severity and no 
+intervention was required. 
+These events were resolved 
+without any intervention and 
+participants continued the 
+study treatments till the end of 
+the study. 
+The study concluded that the 
+Ashwagandha root extract is 
+safe, and well tolerated by all 
+the participants.
+Idiopathic 
+Male Infertil-
+ity / Azgomi 
+et al 2018a 
+ 
+(Iran)
+Triple-blind,  
+Randomised, 
+Parallel 
+Group, Two 
+Arm, clinical 
+trial. 
+ 
+12 Weeks
+Married 
+infertile male 
+patients aged 
+between 18 
+and 45 years 
+ 
+Ashwagandha 
+(50, 46)  
+ 
+Pentoxifyline 
+(50, 45)
+6 capsules 
+containing 5 g 
+Hydroalcoholic 
+Ashwagandha 
+root extract  
+once daily  
+ 
+6 capsules 
+containing 800 
+mg Pentoxifyl-
+line once daily
+Sperm pa-
+rameters
+Ashwa-
+gandha (1 
+- nausea and 
+epigastric 
+pain)  
+ 
+Pentoxifyline 
+(3 - nausea 
+and epigas-
+tric pain)
+Compared to the baseline 
+the administration of Ashwa-
+gandha markedly increased 
+mean sperm count, progres-
+sive motility, and improved 
+sperm morphology. The results 
+showed that both WS and 
+pentoxifylline meaningfully 
+improve sperm parameters in 
+idiopathic male infertility. How-
+ever, the impacts of the two 
+medications were not signifi-
+cantly different. 
+
+
+===== PAGE 59 =====
+
+51
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse 
+events (Ash-
+wagandha 
+vs Placebo/
+Control 
+group)
+Summary of results
+The reported adverse events 
+were of mild severity and no 
+intervention was required. 
+These events were resolved 
+without any intervention and 
+participants continued the 
+study treatments till the end of 
+the study.
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Seminal 
+plasma 
+metabolites 
+of infertile 
+males / Gup-
+ta et al 2013 
+ 
+(India)
+Clinical Study 
+ 
+12 Weeks
+Infertile males 
+aged 22–45 
+years 
+ 
+Ashwagandha  
+(180)  
+ 
+Control 
+(50)
+Withania 
+somnifera root 
+powder (5 g/
+day)
+Semen Pro-
+file,
+Testosterone, 
+LH, FSH, PRL, 
+IDH, LDH, ALT, 
+AST 
+ 
+Ashwagand-
+ha (0)
+Control
+(0)
+Compared to the baseline, 
+Ashwagandha supplemen-
+tation repairs the disturbed 
+concentrations of lactate, 
+alanine, citrate, GPC,histidine, 
+and phenylalanine in seminal 
+plasma and recovers the qual-
+ity of semen. Serum biochem-
+istry was also improved over 
+post-therapy in 
+infertile men. 
+The safety of Ashwagandha 
+was confirmed as there were 
+no adverse events reported 
+and Ashwagandha was well 
+tolerated by all the partici-
+pants.
+Psychogen-
+ic erectile 
+dysfunction 
+/ Mamidi et 
+al 2011 
+ 
+(India)
+Randomized,  
+Single-blind,  
+Place-
+bo-con-
+trolled,  
+paral-
+lel-group 
+study. 
+ 
+8 Weeks
+Patients with 
+psychogenic 
+erectile dys-
+function aged 
+between 18 - 
+60 years 
+ 
+Ashwagandha  
+(46, 41)  
+ 
+Placebo  
+(49, 45)
+4 tablets 
+500mg Ashwa-
+gandha root 
+powder - thrice 
+daily
+Semen anal-
+ysis, Routine 
+Hematolog-
+ical tests, 
+Biochemical 
+Investiga-
+tions, Serum 
+Testosterone
+Ashwagand-
+ha (0)
+Placebo 
+(0)
+Compared to the baseline 
+there was significant improve-
+ment in IIEF items, but the result 
+was insignificant when com-
+pared to placebo. 
+The safety of Ashwagandha 
+was confirmed as there were 
+no adverse events reported 
+and Ashwagandha was well 
+tolerated by all the partici-
+pants.
+Sexual Health in Women / Female sexual function
+Sexual 
+Function 
+and Fertility 
+in Women / 
+Dongre et al 
+2015 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+8 Weeks
+Females aged 
+between 21 
+and 50 years 
+with female 
+sexual dys-
+function 
+ 
+Ashwagandha 
+(25, 25),  
+ 
+Placebo 
+(25, 25)
+ 
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+FSFI, FSDS, SAR Ashwagand-
+ha (0)
+Placebo 0)
+Compared to placebo, Ash-
+wagandha associated with 
+significantly greater increases 
+in FSFI scores (total, arousal, lu-
+brication, orgasm, satisfaction), 
+FSDS, but not SAR 
+ 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+
+
+===== PAGE 60 =====
+
+52
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse 
+events (Ash-
+wagandha 
+vs Placebo/
+Control 
+group)
+Summary of results
+Sexual 
+Health in 
+Women / 
+Ajgaonkar et 
+al 2022 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+8 Weeks
+Females aged 
+between 18 
+and 50 years 
+with a Female 
+Sexual Func-
+tion Index (FSFI) 
+ 
+Ashwagandha 
+(40, 37),  
+ 
+Placebo 
+(40, 35)
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+FSFI, FSDS
+SAR, GHQ-28 
+Ashwagand-
+ha  
+(3) 
+ 
+ 
+Placebo  
+(3)  
+ 
+Nausea, 
+Drowsiness
+Compared to placebo, Ash-
+wagandha associated with 
+significantly greater increases 
+in FSFI scores (total, arousal, lu-
+brication, orgasm, satisfaction), 
+FSDS, and Successful Sexual 
+encounters. 
+The reported adverse events 
+were of mild severity and no 
+intervention was required. 
+These events were resolved 
+without any intervention and 
+participants continued the 
+study treatments till the end of 
+the study.  
+The study concluded that the 
+Ashwagandha root extract is 
+safe, and well tolerated by all 
+the participants.
+Perimenopause
+Climacteric 
+symptoms 
+in Peri-
+menopausal 
+Women / 
+Gopal et 
+al2021 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo - 
+Controlled 
+Study 
+ 
+8 Weeks
+Healthy wom-
+en with peri-
+menopausal 
+symptoms 
+aged 40 - 60 
+years 
+ 
+Ashwagandha 
+(40, 40),  
+ 
+Placebo 
+(40, 40)
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+MRS, MEN-
+QoL, Hot 
+Flash score, 
+Hormonal 
+Parameters
+Ashwa-
+gandha (3 
+- Abdominal 
+Discomfort, 
+Abdominal 
+Pain, Nausea) 
+ 
+Placebo (4 - 
+Abdominal 
+Discomfort, 
+Abdominal 
+Pain, Insom-
+nia, Nausea)
+Compared to placebo, Ashwa-
+gandha administration result-
+ed in a significant reduction in 
+MENQoL score, hot flash score, 
+serum FSH, LH, and testoster-
+one. 41.7% reported treatment 
+with Ashwagandha as “excel-
+lent” compared to the placebo 
+i.e.,23.9% 
+The reported adverse events 
+were of mild severity and no 
+intervention was required. 
+These events were resolved 
+without any intervention and 
+participants continued the 
+study treatments till the end of 
+the study.  
+The study concluded that the 
+Ashwagandha root extract is 
+safe, and well tolerated by all 
+the participants.
+Personal Care / Hair and Skin Health
+Healthy Skin 
+in Adults / 
+Narra et al 
+2023 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Place-
+bo-Con-
+trolled study 
+ 
+8 Weeks
+Healthy men 
+and women 
+aged between 
+18 and 60 years 
+with Fitzpatrick 
+phototype III-VI 
+skin grade 
+ 
+Ashwagandha 
+(28, 27),  
+ 
+Placebo 
+(28, 26)
+1 mL of skin 
+lotion on the 
+face until it 
+was well ab-
+sorbed
+Physician 
+Global 
+Assessment 
+Scores (Wrin-
+kles, pores, 
+hydration & 
+pigmenta-
+tion),
+Melanin Index
+Transepider-
+mal, Water 
+Loss
+Skin Elasticity,
+Skin Hydra-
+tion
+Ashwagand-
+ha  
+(4 - Local 
+Swelling, 
+Erythema) 
+ 
+ 
+Placebo  
+(5 - Local 
+Swelling, Ery-
+thema, Local 
+Irritation)
+Compared to placebo, Ash-
+wagandha was associated 
+with significant improvement 
+in wrinkles, pores, hydration, 
+pigmentation, and elasticity. A 
+significant reduction was seen 
+in TEWL and Melanin index 
+ 
+The reported adverse events 
+were of mild severity and no 
+intervention was required. 
+These events were resolved 
+without any intervention and 
+participants continued the 
+study treatments till the end of 
+the study.  
+ 
+
+
+===== PAGE 61 =====
+
+53
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse 
+events (Ash-
+wagandha 
+vs Placebo/
+Control 
+group)
+Summary of results
+The study concluded that the 
+Ashwagandha root extract is 
+safe, and well tolerated by all 
+the participants.
+Healthy Hair 
+in Adults/ 
+Yerram et 
+al2023 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Place-
+bo-Con-
+trolled study 
+ 
+75 Days
+Healthy adults 
+between 
+18 and 45 
+years of age 
+with mild to 
+moderate hair 
+loss including 
+androgenic 
+alopecia 
+ 
+Ashwagandha 
+(34, 30),  
+ 
+Placebo 
+(34, 31)
+1-2 drops of the 
+serum were 
+taken and then 
+applied to the 
+hair once a 
+day
+Body fat per-
+centage,
+Trichoscan 
+hair analysis,
+Hair pull test,
+Hair-specific 
+skindex-29
+Ashwagand-
+ha (0)
+Placebo  
+(0)
+Compared to placebo, Ashwa-
+gandha was associated with 
+a significant reduction in hair 
+shedding, and an improve-
+ment in hair density, growth, 
+and thickness. 
+ 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Strength, Endurance and Recovery
+Muscle 
+Strength and 
+Endurance / 
+Vermaet al 
+2023 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo - 
+Controlled 
+study 
+ 
+8 Weeks
+Healthy adults 
+aged between 
+18 and 45 years 
+ 
+Ashwagandha 
+(40, 40),  
+ 
+Placebo 
+(40, 40)
+ 
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+Muscle 
+strength 
+(1- RM load 
+for bench 
+press and leg 
+extension ex-
+ercises),Mus-
+cle size (arm, 
+chest, and 
+upper thigh), 
+Body fat per-
+centage,
+VO2 Max
+Ashwagand-
+ha (0)
+Placebo
+ (0)
+Compared to the placebo 
+group Ashwagandha root 
+extract supplementation 
+demonstrated an improve-
+ment in chest press, leg press, 
+and a significant improvement 
+in endurance as compared to 
+the placebo group. Also, signif-
+icant improvements in muscle 
+girth for the arm, and chest, 
+were seen, and there was non 
+significant increase in the mus-
+cle girth for thigh. 
+ 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Health 
+Indices in 
+Professional 
+Wrestlers / 
+Barbara et al 
+2023 
+ 
+(Poland)
+Randomized, 
+Double-Blind, 
+Place-
+bo-Con-
+trolled study 
+ 
+8 Weeks
+Professional 
+athletes – 
+highly qualified 
+national team 
+wrestlers 
+ 
+Ashwagandha 
+(12, 11),  
+ 
+Placebo 
+(14, 10)
+ 
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+Hematologi-
+cal parame-
+ters,
+Biochemical 
+parameters,
+Body com-
+position,
+Creatine 
+kinase (CK) 
+activity
+Ashwagand-
+ha (0)
+Placebo 
+(0)
+Compared to the placebo, se-
+rum CK activity in the Ashwa-
+gandha group did not increase 
+significantly, thus indicating 
+improved muscle recovery. At 
+the end of the study, the values 
+of biochemical variables re-
+main in the normal range after 
+the Ashwagandha intervention. 
+It was observed that Ashwa-
+gandha did not affect the liver 
+parameters, it was well tolerat-
+ed by all the participants with 
+no reported adverse events. 
+
+
+===== PAGE 62 =====
+
+54
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse 
+events (Ash-
+wagandha 
+vs Placebo/
+Control 
+group)
+Summary of results
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Cardiore-
+spiratory 
+Endurance 
+and Recov-
+ery / Tiwari 
+et al 2021 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo - 
+Controlled 
+study 
+ 
+8 Weeks
+Healthy adults 
+aged between 
+18 and 45 years 
+with BMI range 
+18.5-24.9 kg/m2 
+ 
+Ashwagandha 
+(25, 25),  
+ 
+Placebo 
+(25, 25)
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+WHO-
+QOL-BREF,
+Sleepiness 
+scale, Mental 
+alertness on 
+rising, Sleep 
+quality scale
+Ashwagand-
+ha (1 - Mild 
+Ear pain)  
+ 
+Placebo (3 
+- Diarrhoea, 
+Low Grade 
+Fever)
+Compared to placebo, Ashwa-
+gandha is associated with sta-
+tistically significant improve-
+ments in VO2 max, TRQ, DALDA, 
+and RESTQ scores. In the Ash-
+wagandha group, a majority 
+of subjects (56%) showed good 
+improvement, and 36% showed 
+moderate improvement. 
+The reported adverse events 
+were of mild severity and no 
+intervention was required. 
+These events were resolved 
+without any intervention and 
+participants continued the 
+study treatments till the end of 
+the study.  
+ 
+The study concluded that the 
+Ashwagandha root extract is 
+safe, and well tolerated by all 
+the participants.
+Muscle 
+Strength and 
+Recovery / 
+Wankhede 
+et al 2015 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo - 
+Controlled 
+study 
+ 
+8 Weeks
+Healthy males 
+aged between 
+18 and 50 
+years with little 
+experience 
+in resistance 
+training 
+ 
+Ashwagandha 
+(29, 25),  
+ 
+Placebo 
+(28, 25)
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+Muscle 
+strength 
+(1- RM load 
+for bench 
+press and 
+leg extension 
+exercises),
+Muscle size 
+(arm, chest, 
+and upper 
+thigh), Body 
+fat percent-
+age,
+Muscle re-
+covery,
+Serum Tes-
+tosterone
+Ashwagand-
+ha (0)
+Placebo 
+(0)
+Compared to placebo, Ash-
+wagandha is associated with 
+greater increases in muscle 
+strength (bench press and leg 
+extension), muscle size (arm 
+and chest), and serum testos-
+terone; and greater reductions 
+in creatine kinase and Body fat 
+Percentage. 
+ 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Cardiore-
+spiratory 
+Endurance / 
+Choudhary 
+et al 2015 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo - 
+Controlled 
+study 
+ 
+12 Weeks
+Healthy ath-
+letic adults / 
+aged between 
+20 and 45 
+years 
+ 
+Ashwagandha 
+(25, 25),  
+ 
+Placebo 
+(25, 24)
+ 
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+VO2 max,
+WHOQOL
+Ashwagand-
+ha (0)
+Placebo 
+(0)
+The mean change in VO2max 
+and WHO-QOL subscale scores 
+(physical health, psychological, 
+social relationships, and social 
+relationships, and environmen-
+tal) was significantly greater in 
+Ashwagandha compared to 
+the placebo. 
+
+
+===== PAGE 63 =====
+
+55
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse 
+events (Ash-
+wagandha 
+vs Placebo/
+Control 
+group)
+Summary of results
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Cardiore-
+spiratory 
+endurance 
+in elite Indi-
+an cyclists / 
+Shenoy et al 
+2012 
+ 
+(India)
+Randomized,  
+Place-
+bo-con-
+trolled study 
+ 
+8 Weeks
+Adults (stated 
+level medal 
+winners) aged 
+between 18- 27 
+years 
+ 
+Ashwagandha  
+(20, 18)  
+ 
+Placebo  
+(20, 19)
+ 
+500mg - Aque-
+ous Ashwa-
+gandha root 
+extract powder 
+- Twice daily
+VO2 max, RER Ashwagand-
+ha (0)
+Placebo 
+(0)
+Compared to the baseline, 
+there was a significant im-
+provement in all parameters 
+including VO2 max and time 
+for exhaustion on the treadmill. 
+ 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Muscle 
+Strength, 
+Safety and 
+Tolerability 
+/ Raut et al 
+2012 
+ 
+(India)
+Dose-related, 
+Open-label 
+clinical study 
+ 
+4 Weeks
+Healthy adults 
+aged 18-30 
+years 
+ 
+Ashwagandha  
+(18, 18)
+Withania som-
+nifera extract  
+ 
+750 mg/day x10 
+days, 
+1000 mg/day x 
+10 days,  
+1250 mg/day x 
+10 days
+Exercise 
+tolerance (by 
+Cycle Ergom-
+eter), Muscle 
+strength, 
+Body fat per-
+centage and 
+lean body 
+weight, LFT,  
+Serum HDL, 
+LDL, and VLDL 
+cholesterol
+Ashwagand-
+ha 750mg 
+(1 - Increase 
+in appetite, 
+libido, and 
+hallucino-
+genic effects 
+with vertigo) 
+Ashwagand-
+ha 1000mg 
+(0) 
+Ashwagand-
+ha 1200mg 
+(0)
+Ashwagandha found to be 
+safe on hematological and 
+biochemical organ func-
+tion tests. This study has 
+also demonstrated muscle 
+strengthening, lipid lowering, 
+and improved quality of sleep 
+in view of its traditional use as 
+balya. 
+ 
+Physical per-
+formance 
+and cardio-
+respiratory 
+endurance /  
+Sandhu et al 
+2010 
+ 
+(India)
+Randomized,  
+Place-
+bo-con-
+trolled study 
+ 
+8 Weeks
+Healthy adults 
+aged 18 - 25 
+years  
+Ashwagandha  
+(10,10) 
+ 
+Terminalia 
+Arjuna 
+(10, 10)  
+Ashwagandha 
++ Terminalia 
+Arjuna 
+(10, 10) 
+Placebo  
+(10, 10)
+500mg - Aque-
+ous Ashwa-
+gandha root 
+extract powder 
+- Once daily
+Maximum 
+velocity,
+Average 
+absolute 
+and aver-
+age relative 
+power of the 
+lower limbs, 
+20-second 
+wobble 
+board test, 
+Maximum 
+oxygen 
+consumption, 
+Blood pres-
+sure, BMI
+Ashwagand-
+ha (0) 
+Terminalia 
+Arjuna (0) 
+Ashwagand-
+ha + Termi-
+nalia Arjuna 
+(0) 
+Placebo (0)
+Compared to the placebo and 
+Terminalia Arjuna, Ashwagand-
+ha increased velocity, power, 
+and VO2 max. 
+ 
+The safety of Ashwagandha 
+was confirmed as there were 
+no adverse events reported 
+and Ashwagandha was well 
+tolerated by all the partici-
+pants.
+Memory and Cognitive Performance
+Cognitive 
+Performance 
+/  
+Choudhary 
+et al2017a 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo - 
+Controlled 
+Study 
+ 
+8 Weeks
+Adults over the 
+age of 35 with 
+mild, subjec-
+tive symptoms 
+of memory 
+impairment 
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+Weschler 
+Memory 
+Scale III, 
+Shepard 
+Mental Ro-
+tation Task, 
+Wisconsin
+Ashwagand-
+ha (0)
+Placebo 
+(0)
+Mean scores on tests/subtests 
+associated with immediate 
+memory, general memory, ex-
+ecutive function, and attention 
+and information processing 
+speed, were significantly better 
+in the Ashwagandha group 
+compared to placebo
+
+
+===== PAGE 64 =====
+
+56
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse 
+events (Ash-
+wagandha 
+vs Placebo/
+Control 
+group)
+Summary of results
+Ashwagandha 
+(25, 25),  
+Placebo 
+(25, 25)
+Card Sort 
+Test, Eriksen 
+Flanker Task, 
+Trail Making 
+Test, Mack-
+worth Clock 
+Test
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Cognitive 
+Functions 
+and Stress 
+/ Gopuku-
+mar,et al 
+2021 
+ 
+(India)
+Randomized, 
+Double-blind, 
+Paral-
+lel-group, 
+Two-arm, 
+Place-
+bo-con-
+trolled
+12 Weeks
+Healthy Cog-
+nitively sound 
+adults aged 
+20–55 years 
+ 
+Ashwagandha  
+(65, 62)  
+ 
+Placebo  
+(65, 63)
+300mg - Hy-
+droalcoholic 
+Ashwagandha 
+root extract -  
+once daily
+CANTAB, OHQ, 
+PSQI
+PSS, MoCA
+Serum Cor-
+tisol,
+BDNF levels
+Ashwagand-
+ha (0)
+Placebo 
+(0)
+Compared to the placebo, the 
+CANTAB reported significantly 
+improved recall memory, and 
+the total error rate in recalling 
+patterns significantly de-
+creased in the Ashwagandha 
+SR group. Also, lower PSS-10 
+score,  serum cortisol levels, 
+and Pittsburgh Sleep Quality 
+Index (PSQI) score but higher 
+Oxford Happiness Question-
+naire (OHQ) scores were seen 
+in Ashwagandha SR suggest-
+ing significantly lower stress 
+levels and significantly better 
+psychological well-being and 
+sleep quality in the former. 
+ 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Elderly Health and Wellbeing
+Elderly and 
+General 
+Wellbeing / 
+Kelgane et 
+al2020 
+ 
+(India)
+Randomized, 
+Double-Blind, 
+Placebo - 
+Controlled 
+Study 
+ 
+12 Weeks
+Healthy old-
+er-age adults 
+aged between 
+65 and 80 
+years 
+ 
+Ashwagandha 
+(25, 19),  
+ 
+ 
+Placebo 
+(25, 20)
+300mg - Stan-
+dardized Aque-
+ous Ashwa-
+gandha  
+Root Extract 
+Twice daily
+WHO-
+QOL-BREF, 
+Sleepiness 
+scale, Mental 
+alertness on 
+rising, Sleep 
+quality scale
+Ashwagand-
+ha (0)
+Placebo 
+(0)
+Compared to placebo, Ash-
+wagandha is associated with 
+significantly greater im-
+provements in WHOQOL-BREF 
+scores (total score and global, 
+physical, psychological, and 
+environment domain), mental 
+alertness on waking rating, and 
+sleep quality rating, but not on 
+the sleep scale scores 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+COVID-19
+Chemopro-
+phylaxis of 
+COVID-19 / 
+Chopraet 
+al2021 
+ 
+(India)
+Randomized, 
+Prospective, 
+Open-la-
+bel, Parallel 
+efficacy, 
+Two arm, 
+Multi-centre 
+study 
+8 Weeks 
+(Interim Anal-
+ysis)
+High risk health 
+care workers 
+(HCW) 
+Ashwagandha 
+(80, 34),  
+Comparator 
+(HCQ) 
+(80, 36)
+2 tablets of 250 
+mg Withania 
+somnifera 
+dried roots 
+standard-
+ized aqueous 
+extract - twice 
+daily
+Failure of 
+prophylaxis’ 
+as confirmed 
+COVID-19 by 
+RT-PCR
+Ashwagand-
+ha (27)  
+Comparator 
+(HCQ) (40)
+The interim analysis suggests 
+that WS is not inferior to HCQ. 
+The results show non-inferi-
+ority for both symptomatic 
+COVID-19 with RT-PCR and 
+asymptomatic COVID-19 with 
+RT-PCR and also for all RT-PCR 
+positives.
+
+
+===== PAGE 65 =====
+
+57
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Condition / 
+Reference 
+ (Country)
+Design & 
+Duration
+Participants
+Intervention
+Outcome 
+Measures
+Adverse 
+events (Ash-
+wagandha 
+vs Placebo/
+Control 
+group)
+Summary of results
+The reported adverse events 
+were of mild severity and no 
+intervention was required. 
+These events were resolved 
+without any intervention and 
+participants continued the 
+study treatments till the end of 
+the study.
+Obsessive-compulsive disorder
+Obses-
+sive-com-
+pulsive 
+disorder / 
+Jahanbak-
+shet al2016 
+ 
+(Iran)
+Randomized,  
+Double-blind,  
+Place-
+bo-con-
+trolled trial  
+ 
+6 Weeks
+Adults with 
+OCD 
+ 
+Ashwagandha  
+(15, 15)  
+ 
+Placebo  
+(15, 15)
+Withania 
+somnifera Root 
+Extract 
+ 
+120mg / day
+Y-BOCS
+Ashwagand-
+ha (0)
+Placebo 
+(0)
+Compared to the placebo 
+group, there was significant re-
+duction in Yale-Brown Obses-
+sive-Compulsive Scale score in 
+Ashwagandha group. 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Children studies
+Brumhana 
+and Balya 
+effect / Mish-
+ra et al 2010 
+ 
+(India)
+Randomized,  
+Place-
+bo-con-
+trolled study 
+ 
+6 Weeks
+Children be-
+tween 3 years 
+and 12 years 
+ 
+Ashwagandha 
+Ghrita 
+(51, 41)  
+ 
+Ashwagandha 
+Granules 
+(36, 36) 
+ 
+Placebo  
+(34, 34)
+Ashwagand-
+haGhrita - 2.5 
+– 4 gm for age 
+3-7 years, and 
+6 - 8gm for 8 
+-12 years  
+ 
+Ashwagandha 
+Granules - 2.5 
+– 4 gm for age 
+3-7 years, and 
+6 - 8gm for 8 
+-12 years
+Muscular 
+strength, 
+Endurance
+Neck and 
+abdomen 
+circumfer-
+ence Skin 
+fold thickness 
+measure-
+ment
+Ashwagand-
+haGhrita 
+(0)  
+ 
+Ashwagand-
+ha Granules 
+(0) 
+ 
+Placebo  
+(0)
+Compared to placebo and 
+Ashwagandha granules, the 
+Ashwagandha ghrita group 
+demonstrated a more signif-
+icant improvement in all the 
+parameters. 
+ 
+The safety of Ashwagandha 
+was confirmed as there were 
+no adverse events reported 
+and Ashwagandha was well 
+tolerated by all the partici-
+pants.
+ 
+Anxiety 
+Symptoms 
+among 
+children 
+with ADHD / 
+Hosseini et al 
+2019 
+ 
+(Iran)
+Randomized, 
+Double-Blind, 
+Placebo – 
+Controlled 
+ 
+6 Weeks
+Children aged 
+7-12 years 
+ 
+Ashwagandha  
+(16, 14)  
+ 
+Placebo  
+(15, 14)
+Withania 
+somnifera Root 
+Extract 
+ 
+10mg / day
+RCMAS, 
+ADHD-RS
+Ashwagand-
+ha (0)
+Placebo 
+(0)
+Withania somnifera root 
+extract reduces the symp-
+toms of physiological anxiety, 
+sensitivity, social concerns, 
+and an overall score of RCMA 
+among children with ADHD and 
+comorbid anxiety disorders. 
+The safety of Ashwagandha 
+root extract was confirmed as 
+there were no adverse events 
+reported and Ashwagandha 
+root extract was well tolerated 
+by all the participants.
+Growth 
+and Devel-
+opment in 
+Infants /Kou-
+shikBaishya 
+et al 2020.
+Comparative 
+Clinical Study 
+ 
+4 weeks
+Infants upto 1 
+year 
+ 
+Ashwagandha 
+(20, 18) 
+ 
+Placebo 
+(20, 16)
+Ashwagand-
+haGrita -  
+0.5 ml/kg/day 
+with milk
+Anthropo-
+metrical 
+Parameters
+Ashwagand-
+ha (0)
+Placebo 
+(0)
+Ashwagandha Ghrita enhanc-
+es growth and development in 
+the infant.  
+ 
+The safety of Ashwagandha 
+ghrita was confirmed as there 
+were no adverse events re-
+ported and Ashwagandha root 
+extract was well tolerated by 
+all the participants.
+
+
+===== PAGE 66 =====
+
+58
+ASHWAGANDHA SAFETY DOSSIER 2.0
+ADHD-RS - Attention Deficit Hyperactivity Disorder rating scale 
+ALP - Alkaline Phosphatase
+ALT - Alanine Aminotransferase
+API - Ayurvedic Pharmacopeia of India
+AST - Aspartate Aminotransferase
+ASU&H – Ayurveda, Siddha, Unani and Homeopathy
+BAI - Beck Anxiety Inventory
+BDNF - Brain-derived Neurotrophic Factor,
+BMI - Body Mass Index
+CANTAB - Cambridge Neuropsychological Test Automated Battery
+CBC / FBC – Complete Blood Count,
+CFS - Chalder Fatigue Scale
+CNS - Central Nervous System
+DASS – Depression Anxiety Stress Scale 
+DISF‐M/ - Derogatis interview for sexual functioning (Male)
+DILI- Drug-induced Liver Injury
+EU - European Union
+FCQ - Food Craving Questionnaire
+FDA - Food and Drug Administration
+FG – Fasting Glucose
+FQ- Fatigue Questionnaire
+FSH - Follicle-Stimulating Hormone
+FSFI – Female Sexual Function Index 
+FSDS – Female Sexual Distress Scale
+GAD-7 - Generalized anxiety disorder scale
+GMP - Good Manufacturing Practices
+GHQ – 28 – General Health Questionnaire- 28
+GSH – Glutathione
+GRS - Global Rating Scale
+GSQS - Groningen Sleep Quality Scale
+HaCaT- Human Epidermal Keratinocyte line
+HAM-A/ HARS - Hamilton’s Anxiety Rating Scale
+HbA1c - Glycated Haemoglobin
+HILI - Herb-induced Liver Injury
+HPA - Hypothalamic-Pituitary-Adrenal
+HRV – Heart Rate Variability
+IDH - Isocitrate dehydrogenase
+Abbreviations
+
+
+===== PAGE 67 =====
+
+59
+ASHWAGANDHA SAFETY DOSSIER 2.0
+LDH - Lactate dehydrogenase
+LFT – Liver Function Tests
+LH - Luteinizing Hormone
+MoCA - Montreal Cognitive Assessment
+MDA – Malondialdehyde
+MENQOL - Menopause-Specific Quality of Life
+MRS – Menopause Rating Scale 
+NO - Nitric oxide
+NOAEL - No Observed Adverse Effect Level
+OHQ - Oxford Happiness Questionnaire
+PRL – Prolactin
+PROMIS-29 -  Patient-Reported Outcomes Measurement Information System Questionnaire
+PSQI – Pittsburgh Sleep Quality Index
+PSS - Perceived Stress Scale
+QC - Quality Control
+QOL - Quality of life
+RCMAS - Revised children’s manifest anxiety questionnaire
+RER - Respiratory exchange ratio.
+RFT – Renal Function Test
+RT-PCR - Reverse Transcription Polymerase Chain Reaction
+SAR - Sexual Activity Records
+SE – Sleep Efficiency
+SF-36 – Short form 36 Questionnaire
+SGOT - Serum Glutamic-Oxaloacetic Transaminase
+SGPT - Serum Glutamic-Pyruvic Transaminase
+SOL – Sleep Onset Latency
+T3 – Triiodothyronine
+T4 – Thyroxine
+TFEQ - Three Factor Eating Questionnaire
+TIB – Total Time in Bed
+TSH - Thyroid Stimulating Hormone
+TST – Total Sleep Time
+TLC - Thin Layer Chromatography
+USP - United States Pharmacopeia
+VAS – Visual Analogue Scale
+WASO – Wake After Sleep Onset
+WHO – Hq - World Health Organization – Head Quarters
+WHO-QOL – World Health Organization -quality of life Questionnaire
+WS - Withania somnifera
+Y-BOCS - Yale-Brown Obsessive-Compulsive Scale
+
+
+===== PAGE 68 =====
+
+60
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Adaptogenic - Substances that help the body adapt to stress and exert a normalizing effect upon bodily 
+processes.
+Antioxidant - A substance that inhibits oxidation, especially one used to counteract the deterioration of 
+stored food products or remove potentially damaging oxidizing agents in a living organism.
+Immunomodulatory - Capable of modifying or regulating one or more immune functions.
+Neuroprotective - Capable of protecting neurons from injury or degeneration.
+Phytochemicals - Chemical compounds produced by plants, generally to help them thrive or thwart 
+competitors, predators, or pathogens.
+Rasayana - A term in Ayurveda that refers to the science of lengthening lifespan and rejuvenation.
+Thyrotoxicosis - The condition that occurs due to excessive thyroid hormone of any cause and therefore 
+includes hyperthyroidism
+Glossary
+
+
+===== PAGE 69 =====
+
+61
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Notes
+
+
+===== PAGE 70 =====
+
+62
+ASHWAGANDHA SAFETY DOSSIER 2.0
+Notes
+
+
+===== PAGE 71 =====
+
+
+
+===== PAGE 72 =====
+

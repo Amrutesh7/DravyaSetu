@@ -1,0 +1,419 @@
+PLANT_ID: PLANT_033
+PLANT_IDENTIFIER: Tulasi
+
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Tulasi (W.P.) -----
+72. Tulasi (W.P.)
+TULASÌ (Whole Plant)
+Tulas¢ consists of dried whole plant of Ocimum sanctum Linn. (Fam. Lamiaceae); an
+erect, 30 - 60 cm high, much branched, annual herb, found throughout the country.
+SYNONYMS
+Sanskrit
+:
+Suras¡, K¤À¸atulas¢, Bana Tulas¢
+Assamese
+:
+Tulasi
+Bengali
+:
+Tulasi
+English
+:
+Holy Basil
+Gujrati
+:
+Tulasi, Tulsi
+Hindi
+:
+Tulasi
+Kannada
+:
+Tulasi, Shree Tulasi, Vishnu Tulasi
+Kashmiri
+:
+--
+Malayalam
+:
+Tulasi, Tulasa
+Marathi
+:
+Tulas
+Oriya
+:
+--
+Punjabi
+:
+Tulasi
+Tamil
+:
+Tulasi, Thulasi, Thiru Theezai
+Telugu
+:
+Tulasi
+Urdu
+:
+Raihan, Tulsi
+DESCRIPTION
+a) Macroscopic
+Root - Thin, wiry, branched, hairy, soft, blackish-brown externally and pale. violet
+internally.
+Stem - Erect, herbaceous, woody, branched; hairy, sub quadrangular, externally purplish-
+brown to black, internally cream, coloured; fracture, fibrous in bark and short in xylem;
+odour faintly aromatic.
+238
+
+Leaf - 2.5-5 cm long 1.6 - 3.2 cm wide, elliptic oblong, obtuse or acute, entire or serrate,
+pubescent on both sides; petiole thin, about 1.5-3 cm long hairy; odour, aromatic; taste,
+characteristic.
+Flower - Purplish or crimson coloured, small in close whorls; bracts about 3 mm long and
+broad, pedicels longer than calyx, slender, pubescent; calyx ovoid or campanulate 3-4 mm
+bilipped, upper lip broadly obovate or suborbicular, shortly apiculate, lower lip longer than
+upper having four mucronate teeth, lateral two short and central two largest; corolla about 4
+mm long, pubescent; odour, aromatic; taste, pungent.
+Fruit - A group of 4 nutlets, each with one seed, enclosed in an enlarged, membranous,
+veined calyx, nutlets sub-globose or broadly elliptic, slightly compressed, nearly smooth;
+pale brown or reddish with small black marking at the place of attachment to the thalamus;
+odour, aromatic; taste, pungent.
+Seed - Rounded to oval; brown, mucilaginous when soaked in water, 0.1 cm long, slightly
+notched at the base; no odour; taste, pungent, slightly mucilaginous.
+
+b) Microscopic
+Root - Shows a single layered epidermis followed by cortex, consisting of seven or
+more layers of rectangular, round to oval polygonal, thin-walled, parenchymatous cells,
+filled with brown content, inner layers of cortex devoid of contents; phloem consisting of
+sieve elements, thin-walled, rectangular parenchyma cells and scattered groups of fibres,
+found scattered in phloem; xylem consists of vessels, tracheids, fibres and parenchyma;
+vessels pitted; fibre tracheides, long, pitted with pointed ends; fibres thick walled and with
+pointed ends.
+Stem - Shows a single layered epidermis with uniseriate, multicellular covering trichomes
+having 5-6 cells, occasionally a few cells collapsed; cortex consists of 10 or more layers of
+thin-walled, rectangular, parenchymatous cells; phloem consists of sieve elements, thin-
+walled, rectangular parenchyma cells and fibres; fibres found scattered mostly throughout
+phloem, in groups and rarely in singles; xylem occupies major portion of stem consisting of
+vessels, tracheids fibres and parenchyma; vessels pitted; fibres with pointed ends; centre
+occupied by nan-ow pith consisting of round to oval, thin-walled, parenchymatous cells.
+Leaf-
+Petiole - shows somewhat cordate outline, consisting of single layered epidermis composed
+of thin-walled, oval cells having a number of covering and glandular trichomes; covering
+trichomes multicellular 1-8 celled long,rarely slightly reflexed at tip; glandular trichomes
+239
+
+short, sessile with 1-2 celled stalk and 2-8 celled balloon-shaped head, measuring 22-27 in
+dia; epidermis followed by 1 or 2 layers and 2 or 3 layers of thin-walled, elongated,
+parenchyma cells towards upper and lower surfaces respectively; three vascular bundles
+situated centrally, middle one larger than other two; xylem surrounded by phloem.
+Midrib - epidermis, trichomes and vascular bundles similar to those of petiole except
+cortical layers reduced towards apical region.
+Lamina - epidermis and trichomes similar to those of petiole; both anomocytic and diacytic
+type of stomata present on both surfaces, slightly raised above the level of epidermis;
+palisade single layered followed by 4-6 layers of closely packed spongy parenchyma with
+chloroplast and oleo-resin; stomatal index 10-12-15 on upper surface and 14 - 15 - 16 on
+lower surface; palisade ratio 3.8; vein islet number 31 - 35.
+Powder - Greenish: shows thin-walled, parenchymatous cells, a few containing reddish
+brown contents, unicellular and rnulticellular-trichomes either entire or in pieces; thin
+walled fibres, xylem vessels with pitted thickenings, fragments of epidermal cells in surface
+view having irregular shape, oil globules, rounded to oval, simple as well as compound
+starch grains having 2-5 components, measuring 3-17 µ in diameter.
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 10 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 1.5 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 4 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 8 per cent, Appendix 2.2.7.
+
+T.L.C.
+T.L.C. of Tulasi oil obtained by stem distillation is carried out on Silica gel 'G' plate
+using Toluene : Ethylacetate (93:7) Tulasi oil is diluted in chloroform-toluene (1: 10).
+Eugenol to be applied as standard also diluted in 130 ratio and 10 µl of each to be applied in
+240
+
+band form. After running distance of 10 cm the plate is air drying for 15 minutes and than
+kept in the over for 2 to 5 minutes. On cooling spray, in thoroughly vanillin - Sulphuric acid
+reagent and heat the plate at 110° C for 5 - 1- minutes Under observation. Record Rf. values
+of eugenol and caryophyllence. Eugenol (orange brown) approx. Rf. value 0.7,
+caryophyllence (reddish violet) runs to solvent front.
+
+ CONSTITUENTS - Essential Oil.
+
+PROPERTIES AND ACTION
+Rasa
+:
+Ka¶u, Tikta, KaÀ¡ya
+Gu¸a
+:
+T¢kÀ¸a, R£kÀa, Laghu
+V¢rya
+:
+UÀ¸a
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+Pittavardhin¢, V¡tahara, Kaphahara, H¤dya, D¢pana, Rucya,
+Durgandhihara
+IMPORTANT FORMULATIONS - Tribhuvanak¢rti Rasa, Mukt¡paµc¡m¤ta Rasa, Mukt¡di
+Mah¡µjana, M¡nasamitra Va¶aka
+THERAPEUTIC USES - áv¡sa, K¡sa, Hikk¡, Chardi, K¤miroga, P¡r¿va á£la, KuÀ¶ha, A¿mar
+¢, Netraroga
+DOSE - 1-3 ml of the drug in juice form.
+ 1-2 g of the drug in powder form (seed).
+
+241
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Tulasi (Lf.) -----
+73. Tulasi (Lf.)
+TULASÌ (Leaf)
+Tulas¢ consists of dried leaf of Ocimum sanctum Linn. (Fam. Lamiaceae), an erect,
+30-60 cm high, much branched annual herb, found throughout the country.
+SYNONYMS
+Sanskrit
+:
+Bana Tulas¢, K¤À¸atulas¢, Suras¡
+Assamese
+:
+Tulasi
+Bengali
+:
+Tulasi
+English
+:
+Sacred Basil, Holy Basil
+Gujrati
+:
+Tulasi, Tulsi
+Hindi
+:
+Tulasi
+Kannada
+:
+Tulasi
+Kashmiri
+:
+--
+Malayalam
+:
+Tulasi
+Marathi
+:
+Tulas
+Oriya
+:
+--
+Punjabi
+:
+Tulasi
+Tamil
+:
+Thulasi, Tulasi
+Telugu
+:
+Tulasi
+Urdu
+:
+Raihan, Tulsi
+DESCRIPTION
+a) Macroscopic
+Leaves 2.5-5 cm long, 1.6-3.2 cm wide, elliptic-oblong, obtuse or acute, entire or
+serrate, pubescent on both surfaces, petiolate, thin, petiole 1.5-3 cm long, hairy; odour,
+aromatic; taste, characteristic.
+
+242
+
+b) Microscopic
+Leaf-
+Petiole - shows cordate outline, consisting of single layered epidermis composed of thin
+walled, oval cells having a number of covering and glandular trichomes; covering trichomes
+multicellular, uniseriate 1-8 celled long, rarely slightly reflexed at tip; glandular trichomes
+short, sessile or with 1-2 celled stalk, and 2-8 celled, balloon-shaped head, enclosed in a
+cuticular bladder, measuring 22-27 µ dia., upper epidermis, followed by 3-4 layers of
+collenchymatous and 1-2 layers of parenchymatous cells; lower epidermis followed by 1-3
+layers of collenchymatous and 2-3 layers of parenchymatous cells; three vascular bundles
+situated centrally, middle one larger than the other two, consisting of xylem and phloem.
+Midrib - epidermis, trichomes and vascular bundles similar to those of petiole, except
+reduced in cortical layers towards apical region of midrib.
+Lamina - epidermis and trichomes similar to those of petiole on both surfaces; stomata
+anomocytic and diacytic present on both surfaces and slightly raised above the level of
+epidermis; palisade single layered followed by 4-6 layeres of closely packed spongy
+parenchyma with chloroplasts and oleo-resin; stomatal index 10-13-15 on upper surface and
+14-15-16 on lower surface; palisade ratio 3.8; vein islet number 31-33.
+Powder - Light-green; shows fragments of polygonal, less wavy walled epidermal cells in
+surface view, covering and glandular trichomes as a whole or in pieces, palisade and spongy
+parenchyma, anomocytic and diacytic stomata.
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 19 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 3 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 6 per cent, Appendix 2.2.6.
+Water-soluble extractive
+Not less than 13 per cent, Appendix 2.2.7.
+
+ASSAY
+243
+
+T.L.C.
+T.L.C. of alcoholic extract of the drug on Silica gel 'G' plate using Toluene:
+Ethylacetate (9: 1) shows in visible light nine spots at Rf. 0.03 (dark green), 0.04, 0.08 (both
+green), 0.12 (light green), 0.21, 0.33 (both green) 0.45 (yellowish green), 0.85 & 0.93 (both
+light green). Under U.V. (366 nm) eight fluorescent zones appear at Rf. 0.04, 0.30, 0.33,
+0.45, 0.83 (all pink) 0.85 (blue), 0.93 (pink) & 0.98 (blue). On exposure to Iodine vapour
+eleven spots appear at Rf. 0.04, 0.08, 0.12, 0.21, 0.33, 0.45, 0.54, 0.75, 0.83, 0.88 and 0.93
+(all yellow). On spraying with Vanillin-Sulphuric acid reagent and heating the plate at 1100
+Cfor ten minutes ten spots appear at Rf. 0.08 (violet), 0.12 (light violet), 0.21 (brown), 0.33
+(violet), 0.45 (violet), 0.54 (blue), 0.75 (violet), 0.83 (blue), 0.93 (violet) and 0.98 (blue).
+
+ CONSTITUENTS - Essential Oil (Carvacrol, Caryophyllene, Nerol and Camphene
+etc.,).
+
+PROPERTIES AND ACTION
+Rasa
+:
+Ka¶u, Tikta, KaÀ¡ya
+Gu¸a
+:
+Laghu, R£kÀa, T¢kÀ¸a
+V¢rya
+:
+UÀ¸a
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+V¡tahara, Kaphahara, Pittahara, D¢pan¢, H¤dya, K¤mighna
+IMPORTANT FORMULATIONS - M¡nasamitra Va¶aka, Tribhuvana K¢rti Rasa, Mukt¡
+Paµc¡m¤t Rasa, Mah¡jvar¡´ku¿a Rasa
+THERAPEUTIC USES - áv¡sa, K¡sa, Prati¿y¡ya, P¡r¿va¿£la, Aruc¢, Hikk¡, K¤miroga,
+KuÀ¶ha
+DOSE - 2-3 g of the drug in powder form.
+
+244
+
+----- SOURCE: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt | SECTION: Tulasi (Sd.) -----
+60. Tulasi (Sd.)
+TULASÌ (Seed)
+Tulasi consists of seeds of Ocimum sanctum Linn. (Fam. Lamiaceae), an erect,
+branched, annual herb, found throughout the country, and also cultivated
+SYNONYMS
+Sanskrit
+:
+Surasa, Surasa, Bahumaniri, Bh£taghn
+Assamese
+:
+Tulasi
+Bengali
+:
+Tulasi
+English
+:
+Holi Basil, Sacred Basil
+Gujrati
+:
+Tulsi, Tulasi
+Hindi
+:
+Tulasi
+Kannada
+:
+Tulasi, Sri tulasi
+Kashmiri
+:
+Tulasi
+Malayalam
+:
+Tulasi
+Marathi
+:
+Tulasi
+Oriya
+:
+--
+Punjabi
+:
+Tulasi
+Tamil
+:
+Tulasi, Thulasi, Thiruthazhai
+Telugu
+:
+Tulasi, Manchi Tulasi, Nalla Tulasi
+Urdu
+:
+Tulsi
+DESCRIPTION
+a) Macroscopic
+Seeds round to oval, about 0.1 cm long, brown with mucilaginous outer covering,
+slightly notched at the tip and broadly rounded at the base; no odour; taste, pungent, and
+slightly mucilaginous.
+Powder - Brown; shows groups of polygonal, thick-walled, epidermal cells, 28 to 55 µ in
+size; oval to polygonal, parenchymatous cells containing oil globules and starch grains
+1
+
+simple as well as compound, having 2 to 5 components, single grains measuring 3 to 17 µ
+in dia.
+Swelling Index- Not less than 5, when determinied as follows:
+Introduce the accurately weighed seeds into a 25 ml glass stoppered measuring cylinder.
+The length of the graduated portion of the cylinder should be 125 mm; the internal diameter
+16 mm subdivided in 0.2 ml and marked from 0 to 25 ml in up wards direction. Add 25 ml
+of water, and shake the mixture thoroughly at intervals of every 10 minutes for 1 hour.
+Allow to stand for 3 hours at room temperature. Measure the volume in ml occupied by the
+seeds, including any sticky mucilage. Carry out simultaneously not less than 3
+determination and calculate the mean value of the individual determinations, related to 1 g
+of seeds.
+
+b) Microscopic
+IDENTITY, PURITY AND STRENGTH
+
+Foreign matter
+Not more than 2 per cent, Appendix 2.2.2.
+Total Ash
+Not more than 8 per cent, Appendix 2.2.3.
+Acid-insoluble ash
+Not more than 2 per cent, Appendix 2.2.4.
+Alcohol-soluble extractive
+Not less than 4 per cent, Appendix 2.2.6.
+
+T.L.C.
+T.L.C. of alcoholic extract on Silica gel 'G' plate using Toluene: Ethylacetate (9:1)
+as mobile phase shows under U.V. (366 nm) three fluorescent zones at Rf. 0.36, 0.56 (both
+red) and 0.93 (blue). On spraying with Vanillin-Sulphuric acid reagent and heating the plate
+for about ten minutes at 110°C five spots appear at Rf. 0.04, 0.23, 0.36, 0.70 and 0.93 (all
+violet).
+1
+
+CONSTITUENTS - Fixed Oil and Mucilage
+
+PROPERTIES AND ACTION
+Rasa
+:
+Ka¶u, Tikta, KaÀ¡ya
+Gu¸a
+:
+Laghu, R£kÀa, T¢kÀ¸a
+V¢rya
+:
+UÀ¸a
+Vip¡ka
+:
+Ka¶u
+Karma
+:
+V¡tahara, Kaphahara, Pittahara, Rucik¤t, D¢pana, D¡hak¤t, K¤mighna,
+ViÀahara, Vra¸a¿odhaka, H¤dya
+IMPORTANT FORMULATIONS - Mukt¡di Mahaµjana
+THERAPEUTIC USES - áv¡sa, K¡sa, Hikk¡, P¡r¿va¿£la, KuÀ¶ha, M£trak¤cchra, Prati¿y¡ya,
+Aruci, P£tigandha, GaraviÀa, áotha, K¤mi, Rakta Vik¡ra, JantuviÀa, Bh£taroga
+DOSE - 1-2 gm of the seed in powder form.
+
+1

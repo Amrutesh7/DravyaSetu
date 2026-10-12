@@ -1,0 +1,342 @@
+¡  U+00A1  INVERTED EXCLAMATION MARK        7571  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (6357), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (1214)
+      e.g. ed) Ajagandh¡ consists of | : Pa¿ugandh¡ Assamese : | a : á¢ta Vip¡ka : Ka¶u Ka
+À  U+00C0  LATIN CAPITAL LETTER A WITH GR   3137  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (2603), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (534)
+      e.g. : Laghu, R£kÀa V¢rya : á¢ | S - Gulma, AÀ¶h¢l¡, K¤mir | : Laghu, R£kÀa V¢rya : UÀ
+¸  U+00B8  CEDILLA                          2761  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (2409), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (352)
+      e.g. sa : Ka¶u Gu¸a : Laghu, R | ONS - N¡r¡ya¸a C£r¸a THER | N¡r¡ya¸a C£r¸a THERAPEUTI
+¢  U+00A2  CENT SIGN                        2678  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (2394), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (284)
+      e.g. ghu, R£kÀa V¢rya : á¢ta V | Àa V¢rya : á¢ta Vip¡ka : | a : H¤dya, D¢pana, V¡taha
+¶  U+00B6  PILCROW SIGN                     1636  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (1369), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (267)
+      e.g. ON Rasa : Ka¶u Gu¸a : Lag | Vip¡ka : Ka¶u Karma : H¤ | - Gulma, AÀ¶h¢l¡, K¤miro
+£  U+00A3  POUND SIGN                       1595  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (1417), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (178)
+      e.g. a : Laghu, R£kÀa V¢rya : | , Pittala, á£laghn¢ IMPOR | - N¡r¡ya¸a C£r¸a THERAPEU
+á  U+00E1  LATIN SMALL LETTER A WITH ACUT   1544  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (1251), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (258)
+      e.g. ra, saber, sábila, sabill | am, yadam, zábila, zambil | Roxb. 12 9 AáOKA (Stem ba
+¤  U+00A4  CURRENCY SIGN                    1492  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (1242), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (250)
+      e.g. ¶u Karma : H¤dya, D¢pana, | , AÀ¶h¢l¡, K¤miroga, Ka¸· | ¢pana, Rucik¤t, K¤mijit,
+¿  U+00BF  INVERTED QUESTION MARK           1184  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (997), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (187)
+      e.g. anskrit : Pa¿ugandh¡ Assa | - Cyavanapr¡¿a 7 THERAPE | - Cyavanapr¡¿a, Dh¡tr¢ La
+µ  U+00B5  MICRO SIGN                       1055  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (831), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (125)
+      e.g. Centimetre µ Micron (0.0 | ype upto 35 µ in diameter | ing 30-62-95µ. in diamete
+ﬁ  U+FB01  LATIN SMALL LIGATURE FI           900  files: WHO General info.txt (825), Aloe_Vera_WHO_Extract.txt (28)
+      e.g. e 33 Aloe Deﬁnition Aloe | Royle, A. ofﬁcinalis Fors | juice Solidiﬁed juice ori
+Ë  U+00CB  LATIN CAPITAL LETTER E WITH DI    875  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (730), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (145)
+      e.g. ) 1 AJAGANDHË (Seed) Cleo | n 1 2 AJAMODË (Fruit) Api | x Benth 2 3 ËMALAKÌ (Fres
+​  U+200B  ZERO WIDTH SPACE                  834  files: neem.txt (834)
+      e.g. at https://​doi.​org/​10 | ttps://​doi.​org/​10.​100 | //​doi.​org/​10.​1007/​s4
+ﬂ  U+FB02  LATIN SMALL LIGATURE FL           544  files: WHO General info.txt (463), Lemon.txt (28)
+      e.g. low tubular ﬂowers 25–35c | he edges; inﬂorescence an | in height; ﬂowers with p
+·  U+00B7  MIDDLE DOT                        453  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (362), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (79)
+      e.g. ¤miroga, Ka¸·£, Kar¸aroga | C USES - Ka¸·£, KuÀ¶ha, K | - áotha, Ka¸·£, KuÀ¶ha, V
+Ì  U+00CC  LATIN CAPITAL LETTER I WITH GR    371  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (313), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (58)
+      e.g. h 2 3 ËMALAKÌ (Fresh Frui | . 4 4 ËMALAKÌ (Dried frui | . 17 12 ATASÌ (Seed) Linu
+´  U+00B4  ACUTE ACCENT                      231  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (197), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (32)
+      e.g. anskrit : Ka´keli Assames | anskrit : Ka´katik¡, ÎÀya | Taila, Lava´g¡di Va¶¢ TH
+Æ  U+00C6  LATIN CAPITAL LETTER AE           174  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (158), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (16)
+      e.g. , Var¸ya, SaÆgr¡h¢, Bhagn | ara, M£trasaÆgraha¸¢ya IM | , P¡cana, SaÆgr¡hik¡, Kap
+β  U+03B2  GREEK SMALL LETTER BETA           144  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (95), WHO General info.txt (16)
+      e.g. rther 20-OH-β-Ecd isolate | of amyloid β-42, and a r | TNF-α, IL-1β, IL-6 and M
+✔  U+2714  HEAVY CHECK MARK                  132  files: Nooni.txt (132)
+      e.g. Bangladesh ✔ ✔ - British | angladesh ✔ ✔ - British I | tory (BIOT) ✔ ✔ - Chagos
+â  U+00E2  LATIN SMALL LETTER A WITH CIRC    126  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (107), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (18)
+      e.g. 20 14 ATIVIâË (Root) Aco | xb 36 25 GOKâURA (Root) T | nn 38 26 GOKâURA (Fruit)
+्  U+094D  DEVANAGARI SIGN VIRAMA            124  files: neem.txt (124)
+      e.g. 1 शताायुुर्ववज्रदेेहााय | शताायुुर्ववज्रदेेहााय सर् | ्रदेेहााय सर्वव सम्पत्करा
+Å  U+00C5  LATIN CAPITAL LETTER A WITH RI    120  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (120)
+      e.g. hara¸a, RajaÅpravartaka, | TIONS - RajaÅpravartin¢ V | , K¡sa, áiraÅ á£la, H¤dro
+é  U+00E9  LATIN SMALL LETTER E WITH ACUT    119  files: WHO General info.txt (66), Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (41)
+      e.g. 4. Pharmacopée française. | n 3 3 A×KOLAé (Leaf) Alan | 12 7 BHÍRJAé (Stem Bark)
+Û  U+00DB  LATIN CAPITAL LETTER U WITH CI    118  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (96), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (22)
+      e.g. rz 32 23 ERAÛÚA (Root) Ri | f. 58 38 KAÛÙAKËRÌ (Whol | am 71 48 KÎâÛAJÌRAKA (Fru
+Í  U+00CD  LATIN CAPITAL LETTER I WITH AC    111  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (99), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (12)
+      e.g. e 22 15 BABBÍLA (Stem bar | 7 19 CANDRAáÍRA (Seed) Le | nn 40 27 GUÚÍCÌ (Stem) Ti
+Ù  U+00D9  LATIN CAPITAL LETTER U WITH GR    108  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (74), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (34)
+      e.g. f. 58 38 KAÛÙAKËRÌ (Whole | 64 42 KARKAÙAáÎ×GI (Gall | p. 75 50 KUâÙHA (Root) Sa
+α  U+03B1  GREEK SMALL LETTER ALPHA           99  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (40), WHO General info.txt (31)
+      e.g. 3 O H O OH α-L-rhamnopyr | or 6-deoxy-α-L-mannopyra | = H [3] R = α-L-rhamnopyr
+   U+2002  EN SPACE                           91  files: neem.txt (79), Betel_NUt-1.txt (12)
+      e.g. Distribution Widely dist | slands. Size Slender pal | ft). Habitat Tropical ev
+ा  U+093E  DEVANAGARI VOWEL SIGN AA           74  files: neem.txt (74)
+      e.g. has 1 शताायुुर्ववज्रद | has 1 शताायुुर्ववज्रदे | ुर्ववज्रदेेहााय सर्वव सम्
+│  U+2502  BOX DRAWINGS LIGHT VERTICAL        66  files: Hibiscus.txt (66)
+      e.g. ww.wjpr.net │ Vol 12, Iss | e 14, 2023. │ ISO 9001:20 | ied Journal │ Sharma et a
+×  U+00D7  MULTIPLICATION SIGN                63  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (49), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (8)
+      e.g. tz. 47 32 HI×GU (Oleo-gum | ume 56 37 KA×KOLA (Fruit) | 42 KARKAÙAáÎ×GI (Gall) Pi
+Ú  U+00DA  LATIN CAPITAL LETTER U WITH AC     62  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (50), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (12)
+      e.g. z 32 23 ERAÛÚA (Root) Ric | inn 40 27 GUÚÍCÌ (Stem) T | es 122 77 VIÚA×GA (Fruit)
+ü  U+00FC  LATIN SMALL LETTER U WITH DIAE     53  files: WHO General info.txt (50), Aloe_Vera_WHO_Extract.txt (2)
+      e.g. eitschrift für Phytothera | eitschrift für Gasteroent | r? Journal für Verbrauche
+ं  U+0902  DEVANAGARI SIGN ANUSVARA           52  files: neem.txt (52)
+      e.g. ाशाय नि�म्बकंं दल-भक्षणम् | शाय नि�म्बकंं दल-भक्षणम्् | ाहि� प्रवााळंं नि�म्बस्य
+©  U+00A9  COPYRIGHT SIGN                     51  files: Nooni.txt (23), Insulin.txt (9)
+      e.g. i Copyright © 2024 Author | . Copyright © 2019 The Au | blisher at: © Central Cou
+ु  U+0941  DEVANAGARI VOWEL SIGN U            48  files: neem.txt (48)
+      e.g. s 1 शताायुुर्ववज्रदेेह | 1 शताायुुर्ववज्रदेेहा | ्तिक्तःः कटुःः� पााकेे ल
+�  U+FFFD  REPLACEMENT CHARACTER              46  files: neem.txt (46)
+      e.g. च ।﻿ सर्वा�रि�ष्ट-वि�ना | ﻿ सर्वा�रि�ष्ट-वि�नााशा | वा�रि�ष्ट-वि�नााशाय नि�म्
+ि  U+093F  DEVANAGARI VOWEL SIGN I            46  files: neem.txt (46)
+      e.g. ।﻿ सर्वा�रि�ष्ट-वि�नााश | ्वा�रि�ष्ट-वि�नााशाय नि�म | -वि�नााशाय नि�म्बकंं दल-भ
+●  U+25CF  BLACK CIRCLE                       45  files: Nooni.txt (45)
+      e.g. India ✔ ✔ - ● Andaman & N | sland ✔ ✔ - ● Assam ✔ ✔ - | Assam ✔ ✔ - ● Maharashtra
+Î  U+00CE  LATIN CAPITAL LETTER I WITH CI     44  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (42), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (2)
+      e.g. 42 KARKAÙAáÎ×GI (Gall) P | -Ham 71 48 KÎâÛAJÌRAKA (F | Ka´katik¡, ÎÀyapr°kt¡ As
+क  U+0915  DEVANAGARI LETTER KA               44  files: neem.txt (44)
+      e.g. सर्वव सम्पत्करााय च ।﻿ | ााशाय नि�म्बकंं दल-भक्षणम | �म्बकंं दल-भक्षणम्् ॥﻿
+न  U+0928  DEVANAGARI LETTER NA               44  files: neem.txt (44)
+      e.g. ा�रि�ष्ट-वि�नााशाय नि�म्ब | ट-वि�नााशाय नि�म्बकंं दल- | : Neem 2 नि�म्बस्तिक्
+त  U+0924  DEVANAGARI LETTER TA               43  files: neem.txt (43)
+      e.g. s has 1 शताायुुर्ववज्र | य सर्वव सम्पत्करााय च ।﻿ | 2 नि�म्बस्तिक्तःः कटुः
+ä  U+00E4  LATIN SMALL LETTER A WITH DIAE     39  files: WHO General info.txt (36), Aloe_Vera_WHO_Extract.txt (3)
+      e.g. , 1993. 7. Hänsel R et al | ie zur Hyperämie von Aloe | 69–242. 5. Hänsel R et al
+  U+F0B7  ?                                  36  files: Rose2.txt (36)
+      e.g. of Rose[17]  Roots of Ro | in nature.  Leaves of R | emorrhoids.  Flowers of
+Ø  U+00D8  LATIN CAPITAL LETTER O WITH ST     34  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (31), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (2)
+      e.g. er Tincture Ø Drug streng | nd. 43 29 GUØJË (Seed) Ab | rg. 55 36 KËØCANËRA (Stem
+र  U+0930  DEVANAGARI LETTER RA               32  files: neem.txt (32)
+      e.g. 1 शताायुुर्ववज्रदेेहाा | ताायुुर्ववज्रदेेहााय सर्व | ज्रदेेहााय सर्वव सम्पत्कर
+→  U+2192  RIGHTWARDS ARROW                   32  files: WHO General info.txt (28), Nooni.txt (4)
+      e.g. pyranosyl-(1→6)-β-D-gluco | yranosyl- (1→6)-β-D-gluco | yranosyl- (1→6)-β-D- gluc
+व  U+0935  DEVANAGARI LETTER VA               31  files: neem.txt (31)
+      e.g. शताायुुर्ववज्रदेेहााय | शताायुुर्ववज्रदेेहााय स | रदेेहााय सर्वव सम्पत्कराा
+®  U+00AE  REGISTERED SIGN                    29  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (13), Ashwagandha_01.txt (10)
+      e.g. ty of Livwin® (a polyherb | ation Livwin® comprised o | with Livwin® as compared
+म  U+092E  DEVANAGARI LETTER MA               27  files: neem.txt (27)
+      e.g. हााय सर्वव सम्पत्करााय च | ि�नााशाय नि�म्बकंं दल-भक् | कंं दल-भक्षणम्् ॥﻿ śatā
+े  U+0947  DEVANAGARI VOWEL SIGN E            26  files: neem.txt (26)
+      e.g. ायुुर्ववज्रदेेहााय सर्वव | युुर्ववज्रदेेहााय सर्वव स | कटुःः� पााकेे लघुःः� शीत
+   U+2009  THIN SPACE                         23  files: neem.txt (21), Ashwagandha_01.txt (2)
+      e.g. pip- erine-5 mg - once da | piper- ine-5 mg - once da | Vaghbata (~ 500 AD) as w
+﻿  U+FEFF  ZERO WIDTH NO-BREAK SPACE          23  files: neem.txt (23)
+      e.g. ative one. 1﻿ The mention | t: Nimba or ﻿Picumaradah, | hantu [8 ], ﻿Priya Nighan
+ö  U+00F6  LATIN SMALL LETTER O WITH DIAE     22  files: WHO General info.txt (17), Ashwagandha_01.txt (3)
+      e.g. littoralis König ex Bak., | littoralis König ex Bak., | 11)14:7 • Björnsson, H. K
+è  U+00E8  LATIN SMALL LETTER E WITH GRAV     22  files: WHO General info.txt (17), Aloe_Vera_WHO_Extract.txt (5)
+      e.g. , aloes, aloès, aloès du | , aloès, aloès du Cape, a | du Cape, aloès fèroce, al
+ê  U+00EA  LATIN SMALL LETTER E WITH CIRC     22  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (14), Betel, Castor, Ekka, Jasmine, Mango, Pepper, Raktachandini and Wood_sorel..txt (6)
+      e.g. 49 33 JATËMËêSÌ (Rhizome) | (Rz.) JATËMËêSÌ (Rhizome) | Br. 58 28 HAêSAPADÌ (Whol
+य  U+092F  DEVANAGARI LETTER YA               22  files: neem.txt (22)
+      e.g. as 1 शताायुुर्ववज्रदेे | ्ववज्रदेेहााय सर्वव सम्पत | व सम्पत्करााय च ।﻿ सर्व
+±  U+00B1  PLUS-MINUS SIGN                    21  files: Nagadalli.txt (12), Nooni.txt (5)
+      e.g. perature (4 ± 1 ◦C). J. F | 13.54 S.Em ± C.D @ 5% S. | D @ 5% S.Em ± C.D @ 5% S.
+स  U+0938  DEVANAGARI LETTER SA               21  files: neem.txt (21)
+      e.g. वज्रदेेहााय सर्वव सम्पत्क | ेहााय सर्वव सम्पत्करााय च | रााय च ।﻿ सर्वा�रि�ष्ट-
+प  U+092A  DEVANAGARI LETTER PA               20  files: neem.txt (20)
+      e.g. ाय सर्वव सम्पत्करााय च ।﻿ | ्तःः कटुःः� पााकेे लघुःः� | योो जयेेत्् पि�त्तकफमेेहज
+ष  U+0937  DEVANAGARI LETTER SSA              20  files: neem.txt (20)
+      e.g. सर्वा�रि�ष्ट-वि�नााशाय | ्बकंं दल-भक्षणम्् ॥﻿ śa | न्् ।﻿ कुुष्ठकासारुचि�श
+   U+202F  NARROW NO-BREAK SPACE              20  files: neem.txt (20)
+      e.g. ively. Table 1 Taxonomi | 0196-2 Table 2 Macrosco | Review Fig. 1 Various
+   U+2003  EM SPACE                           18  files: Betel_NUt-1.txt (16), neem.txt (2)
+      e.g. Cambodia. 2 Areca catec | naltree.org) 3 bu (Yap) | E. Burson 4 Areca catec
+à  U+00E0  LATIN SMALL LETTER A WITH GRAV     18  files: WHO General info.txt (11), Brahmi.txt (6)
+      e.g. furanosyl (1à6)-O-[α-L-ar | pyranasy-1(1à5)]-O-α-D-gu | opyranosy (1à3)-{α-L-arab
+ृ  U+0943  DEVANAGARI VOWEL SIGN VOCALIC      18  files: neem.txt (18)
+      e.g. ोऽग्निवाातकृृत्् ।﻿ ग् | ऽग्निवाातकृृत्् ।﻿ ग्र | ग्रााह्यहृद्योो जयेेत्
+ó  U+00F3  LATIN SMALL LETTER O WITH ACUT     16  files: Nooni.txt (5), Pomogranate.txt (4)
+      e.g. , Barbara, Jówko, Ewa, Ko | a, R., Proćków, J., & Dey | 1.113929 • Tóth M, Benede
+श  U+0936  DEVANAGARI LETTER SHA              16  files: neem.txt (16)
+      e.g. cs has 1 शताायुुर्ववज् | ि�ष्ट-वि�नााशाय नि�म्बकंं | ाकेे लघुःः� शीतोऽग्निवाा
+।  U+0964  DEVANAGARI DANDA                   16  files: neem.txt (16)
+      e.g. ्पत्करााय च ।﻿ सर्वा�रि | atkarāya ca । sarvāriṣṭ | वाातकृृत्् ।﻿ ग्रााह्य
+ç  U+00E7  LATIN SMALL LETTER C WITH CEDI     15  files: WHO General info.txt (12), Nooni.txt (2)
+      e.g. macopée française. Paris, | da, T., França, J. P., Ch | . M., & França, L. P. (20
+γ  U+03B3  GREEK SMALL LETTER GAMMA           15  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (7), WHO General info.txt (6)
+      e.g. ellandrene, γ- toluerldeh | ntain α, β, γ, δ and ζ ca | e, alanine, γ-butyric aci
+Ɵ  U+019F  LATIN CAPITAL LETTER O WITH MI     15  files: Pomogranate.txt (15)
+      e.g. thers ProducƟon % Fig. 1 | ar health AnƟdiabeƟc prop | lth AnƟdiabeƟc properƟes
+ः  U+0903  DEVANAGARI SIGN VISARGA            13  files: neem.txt (13)
+      e.g. �म्बस्तिक्तःः कटुःः� पाा | म्बस्तिक्तःः कटुःः� पााक | तिक्तःः कटुःः� पााकेे लघ
+ो  U+094B  DEVANAGARI VOWEL SIGN O            12  files: neem.txt (12)
+      e.g. े लघुःः� शीतोऽग्निवाातकृ | ्रााह्यहृद्योो जयेेत्् पि | रााह्यहृद्योो जयेेत्् पि�
+ल  U+0932  DEVANAGARI LETTER LA               11  files: neem.txt (11)
+      e.g. नि�म्बकंं दल-भक्षणम्् ॥﻿ | ुःः� पााकेे लघुःः� शीतोऽग | ुचि�श्वाासहृल्लाासश्वयथुु
+ā  U+0101  LATIN SMALL LETTER A WITH MACR     10  files: neem.txt (6), Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (2)
+      e.g. a: Amukkarā Homeopathy: | ) and Śarkarā (Sugar) use | , Vīrya, Vipāka and Karma
+ज  U+091C  DEVANAGARI LETTER JA               10  files: neem.txt (10)
+      e.g. शताायुुर्ववज्रदेेहााय सर | ाह्यहृद्योो जयेेत्् पि�त् | पि�त्तकफमेेहज्वरकृृमीन््
+ब  U+092C  DEVANAGARI LETTER BA               10  files: neem.txt (10)
+      e.g. नााशाय नि�म्बकंं दल-भक्षण | m 2 नि�म्बस्तिक्तःः क | वााळंं नि�म्बस्य रक्तपि�
+ी  U+0940  DEVANAGARI VOWEL SIGN II           10  files: neem.txt (10)
+      e.g. केे लघुःः� शीतोऽग्निवाात | मेेहज्वरकृृमीन्् ।﻿ कुु | ि� त्तकफकृृमीन्् ।﻿ कुु
+ñ  U+00F1  LATIN SMALL LETTER N WITH TILD      9  files: Betel_NUt-1.txt (2), neem.txt (2)
+      e.g. iviana Castaño Coronado M | ali) boá, boñga, buá, buñ | ñga, buá, buñga, lúyos, t
+í  U+00ED  LATIN SMALL LETTER I WITH ACUT      9  files: Nooni.txt (3), Insulin.txt (2)
+      e.g. so, J., Martín-Rodríguez, | Martín-Rodríguez, A., Ra | lba SL, García-González C
+ण  U+0923  DEVANAGARI LETTER NNA               9  files: neem.txt (9)
+      e.g. बकंं दल-भक्षणम्् ॥﻿ śat | ासश्वयथुुव्रणान्् ।﻿ ग् | तद्वत्् पत्रणि� नि�म्बस्य
+ग  U+0917  DEVANAGARI LETTER GA                9  files: neem.txt (9)
+      e.g. लघुःः� शीतोऽग्निवाातकृृत | कृृत्् ।﻿ ग्रााह्यहृद्य | रणान्् ।﻿ ग्रााहि� प्रव
+‐  U+2010  HYPHEN                              8  files: Ashwagandha_01.txt (4), Betel.txt (3)
+      e.g. e daily DISF‐M, Serum Tes | ides on iron‐induced hepa | e daily DISF‐M, Serum Tes
+ह  U+0939  DEVANAGARI LETTER HA                8  files: neem.txt (8)
+      e.g. ुुर्ववज्रदेेहााय सर्वव सम | ् ।﻿ ग्रााह्यहृद्योो जय | ﻿ ग्रााह्यहृद्योो जयेेत
+च  U+091A  DEVANAGARI LETTER CA                8  files: neem.txt (8)
+      e.g. सम्पत्करााय च ।﻿ सर्वा� | कुुष्ठकासारुचि�श्वाासहृल् | शि�नीी ॥﻿ चक्षुुष्यंं न
+घ  U+0918  DEVANAGARI LETTER GHA               8  files: neem.txt (8)
+      e.g. ःः� पााकेे लघुःः� शीतोऽग् | ।﻿ कुुष्ठघ्नंं वाातजनन | �म्बस्य व्रणघ्नानि� वि�शे
+Ã  U+00C3  LATIN CAPITAL LETTER A WITH TI      8  files: Nooni.txt (8)
+      e.g. ; Espinoza-GÃ³mez, Heribe | Z. Flores-LÃ³pez, LucÃ-a | -LÃ³pez, LucÃ-a; Sotelo-B
+μ  U+03BC  GREEK SMALL LETTER MU               7  files: Lemon.txt (3), Ashwagandha_01.txt (1)
+      e.g. H (4.5 to 10μIU/L) 300mg | ng upto 100 μ in diameter | tive to 150 μg/ml ethanol
+ठ  U+0920  DEVANAGARI LETTER TTHA              7  files: neem.txt (7)
+      e.g. ् ।﻿ कुुष्ठकासारुचि�श्व | ् ।﻿ कुुष्ठघ्नंं वाातजन | तुु ववरि�ष्ठाा स्यात्् क
+κ  U+03BA  GREEK SMALL LETTER KAPPA            6  files: Ashwagandha_01.txt (4), Amruthballi.txt (1)
+      e.g. of MAPK/NF-κB signaling | hibiting NF-κB levels. No | ited the NF-κB and MAPK (
+ß  U+00DF  LATIN SMALL LETTER SHARP S          6  files: WHO General info.txt (3), Ashwagandha_01.txt (1)
+      e.g. anahygrine, ß-sitosterol, | STITUENTS - ß- Sitosterol | , luteolin, ß-sitosterol
+ú  U+00FA  LATIN SMALL LETTER U WITH ACUT      6  files: Nooni.txt (4), Betel_NUt-1.txt (1)
+      e.g. uá, buñga, lúyos, takobto | lpírez GM, Núñez DGLM. Ex | a, Alfredo Núñez-Rivera,
+॥  U+0965  DEVANAGARI DOUBLE DANDA             6  files: neem.txt (6)
+      e.g. दल-भक्षणम्् ॥﻿ śatāyurv | labhakṣaṇam ॥ For longe | वि�शेेषतः ।॥﻿ शलाका नि
+फ  U+092B  DEVANAGARI LETTER PHA               6  files: neem.txt (6)
+      e.g. ेत्् पि�त्तकफमेेहज्वरकृृम | रक्तपि� त्तकफकृृमीन्् ।﻿ | ाशनम्् ।﻿ फलंं ति�क्तंं
+ł  U+0142  LATIN SMALL LETTER L WITH STRO      5  files: Ashwagandha_01.txt (5)
+      e.g. of results Długołęcka et | esults Długołęcka et al 2 | 34-7636. • Długołęcka, Ba
+º  U+00BA  MASCULINE ORDINAL INDICATOR         5  files: Betel_NUt-2.txt (2), Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (1)
+      e.g. weight at 90ºC. The resid | ure of 15.5 ºC — 38ºC is | 15.5 ºC — 38ºC is suitabl
+द  U+0926  DEVANAGARI LETTER DA                5  files: neem.txt (5)
+      e.g. ाायुुर्ववज्रदेेहााय सर्वव | य नि�म्बकंं दल-भक्षणम्् ॥ | ग्रााह्यहृद्योो जयेेत््
+­  U+00AD  SOFT HYPHEN                         5  files: neem.txt (5)
+      e.g. f Neem cake ­required* Fi | ction as an ­H2 receptor | percritical ­CO2 extract
+ã  U+00E3  LATIN SMALL LETTER A WITH TILD      5  files: Nooni.txt (2), WHO General info.txt (2)
+      e.g. as J, Magalhães WV, Velas | . C., Guimarães, A. G., D | , da Conceicão Santos, A.
+ć  U+0107  LATIN SMALL LETTER C WITH ACUT      4  files: Ashwagandha_01.txt (4)
+      e.g. , Z., Vidović, B., Stojan | ., Stojanović, A., Björns | . S., & Vučić, V. (2023).
+∆  U+2206  INCREMENT                           4  files: WHO General info.txt (2), Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (1)
+      e.g. glucoside, ∆7 -stigmaste | ld of PSII (∆F/Fm’stat) a | id inhibits ∆4 -reductas
+☛  U+261B  BLACK RIGHT POINTING INDEX          4  files: Betel_NUt-1.txt (4)
+      e.g. BLIOGRAPHY (☛ indicates | (2): 67–80. ☛ Brotonegro, | ngford, UK. ☛ Duke, J.A.
+   U+200A  HAIR SPACE                          4  files: neem.txt (4)
+      e.g. pto Debnath1 · Manosi D | crops [42] * g: gram; kg | g immunity # In the abov
+‑  U+2011  NON-BREAKING HYPHEN                 4  files: neem.txt (4)
+      e.g. of Ayush, 4‑CN Block, Bi | agar, Sector‑V, Kolkata 7 | cals for bio‑activities o
+ट  U+091F  DEVANAGARI LETTER TTA               4  files: neem.txt (4)
+      e.g. सर्वा�रि�ष्ट-वि�नााशाय न | स्तिक्तःः कटुःः� पााकेे | वाातळंं कटुुपााकंं स्य
+भ  U+092D  DEVANAGARI LETTER BHA               4  files: neem.txt (4)
+      e.g. ि�म्बकंं दल-भक्षणम्् ॥﻿ | केे कटुुकंं भेेदनंं लघुु | ुुत्् ॥﻿ अभ्य‌ङ्गाान्ना
+ô  U+00F4  LATIN SMALL LETTER O WITH CIRC      4  files: WHO General info.txt (4)
+      e.g. skordo, sluôn, stinking | emaine des hôpitaux de Pa | , mao-kon, môc tac ma hoà
+δ  U+03B4  GREEK SMALL LETTER DELTA            3  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (3)
+      e.g. (α-pinene, δ-camphor),α- | in α, β, γ, δ and ζ caesa | -terpineol, δ-terpineol a
+  U+F020  ?                                   3  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (3)
+      e.g. metin-7-O-β-glucoside an | eolin -7-O-βglucoside. | þ-cymene; α and β-pinen
+ध  U+0927  DEVANAGARI LETTER DHA               3  files: neem.txt (3)
+      e.g. स्य पक्वंं मधुुरंं सति�क् | . स्निि°ग्धंं फलंं शोणि | ुु ष्ठवि�शोोधनःः ।﻿ नाा
+³  U+00B3  SUPERSCRIPT THREE                   3  files: Nooni.txt (2), neem.txt (1)
+      e.g. ुुरु पि�च्छि³लंं च ॥﻿ न | Espinoza-GÃ³mez, Heriber | Z. Flores-LÃ³pez, LucÃ-a;
+−  U+2212  MINUS SIGN                          3  files: neem.txt (2), Nooni.txt (1)
+      e.g. ocatechin, (−)-epicatechi | llic acid, (−)-epicatechi | ound 1000 cm−1. The above
+ù  U+00F9  LATIN SMALL LETTER U WITH GRAV      3  files: WHO General info.txt (3)
+      e.g. u, nha dàm tùr, raat cha | t, sàu dau rùng, xoan rùn | rùng, xoan rùng, ya tan t
+Ü  U+00DC  LATIN CAPITAL LETTER U WITH DI      3  files: WHO General info.txt (3)
+      e.g. E, Carle R. Über das Sens | T, Merz H. Über den Nach | Freytag A. Über den Einﬂ
+ì  U+00EC  LATIN SMALL LETTER I WITH GRAV      2  files: Amruthballi.txt (1), WHO General info.txt (1)
+      e.g. oli F, Giannì AB, Baserga | ou gui, róugì, Saigon cin
+ę  U+0119  LATIN SMALL LETTER E WITH OGON      2  files: Ashwagandha_01.txt (2)
+      e.g. sults Długołęcka et al 20 | 36. • Długołęcka, Barbara
+č  U+010D  LATIN SMALL LETTER C WITH CARO      2  files: Ashwagandha_01.txt (2)
+      e.g. n, G., Glamočanin, T., Ma | E. S., & Vučić, V. (2023
+Ó  U+00D3  LATIN CAPITAL LETTER O WITH AC      2  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (2)
+      e.g. inn 152 71 RÓÛUKA (Seed) | enuka (Fr) RÓÛUKA (Seed)
+ƒ  U+0192  LATIN SMALL LETTER F WITH HOOK      2  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (2)
+      e.g. ut 35 to 68 ƒÊm long and | nd 26 to 38 ƒÊm wide, hil
+Ê  U+00CA  LATIN CAPITAL LETTER E WITH CI      2  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (2)
+      e.g. t 35 to 68 ƒÊm long and 2 | d 26 to 38 ƒÊm wide, hilu
+ō  U+014D  LATIN SMALL LETTER O WITH MACR      2  files: Betel_NUt-1.txt (2)
+      e.g. ces (PAR), Hōlualoa, Hawa | O Box 428, Hōlualoa, Hawa
+ǀ  U+01C0  LATIN LETTER DENTAL CLICK           2  files: Hibiscus.txt (2)
+      e.g. yu Herb Med ǀ Vol 4 Issue | l 4 Issue 3 ǀ July- Septe
+  U+F062  ?                                   2  files: Lemon.txt (2)
+      e.g. atile oils,  and -sitos | coumarins,  and  sitos
+  U+F067  ?                                   2  files: Lemon.txt (2)
+      e.g. oils,  and -sitosterol. | rins,  and  sitosterol
+ś  U+015B  LATIN SMALL LETTER S WITH ACUT      2  files: neem.txt (2)
+      e.g. ्षणम्् ॥﻿ śatāyurvajrad | vāriṣṭa-vināśāya nimbakaṁ
+ṣ  U+1E63  LATIN SMALL LETTER S WITH DOT       2  files: neem.txt (2)
+      e.g. । sarvāriṣṭa-vināśāya | kaṁ dalabhakṣaṇam ॥ For
+ळ  U+0933  DEVANAGARI LETTER LLA               2  files: neem.txt (2)
+      e.g. ााहि� प्रवााळंं नि�म्बस्य | ्् ।﻿ वाातळंं कटुुपााकं
+अ  U+0905  DEVANAGARI LETTER A                 2  files: neem.txt (2)
+      e.g. ं लघुु ।﻿ अरूक्षमुुष्णं | णुुत्् ॥﻿ अभ्य‌ङ्गाान्न
+ै  U+0948  DEVANAGARI VOWEL SIGN AI            2  files: neem.txt (2)
+      e.g. ाापहम्् । (कैै.नि�.). E | ापहम्् । (कैै.नि�.). En
+ω  U+03C9  GREEK SMALL LETTER OMEGA            2  files: neem.txt (1), Pomogranate.txt (1)
+      e.g. essions on Nω-Nitro-l-Arg | ntration of ω-3 (linoleic
+ɑ  U+0251  LATIN SMALL LETTER ALPHA            2  files: Nooni.txt (2)
+      e.g. ercetin-3-O-ɑ-L- rhamnopy | mpferol-3-O-ɑ-L- rhamnopy
+É  U+00C9  LATIN CAPITAL LETTER E WITH AC      2  files: Nooni.txt (1), WHO General info.txt (1)
+      e.g. 4. Almeida, Édipo & Olive | hez le rat. Étude de l’ef
+ı  U+0131  LATIN SMALL LETTER DOTLESS I        2  files: Pomogranate.txt (2)
+      e.g. (Ataseven Isık & Celik, 2 | Ataseven Isık, E., & Cel
+Á  U+00C1  LATIN CAPITAL LETTER A WITH AC      2  files: Pomogranate.txt (2)
+      e.g. J., & Pérez-Álvarez, J. A | H., & Pérez-Álvarez, J. A
+Ä  U+00C4  LATIN CAPITAL LETTER A WITH DI      2  files: WHO General info.txt (2)
+      e.g. kgo biloba. Ärztliche Pra | substances. Ärztliche Pra
+  U+F02A  ?                                   1  files: Amruthballi.txt (1)
+      e.g.  Correspondi
+‒  U+2012  FIGURE DASH                         1  files: Amruthballi.txt (1)
+      e.g. 017;5(5):363‒371. DOI: 10
+◦  U+25E6  WHITE BULLET                        1  files: Amruthballi.txt (1)
+      e.g. ture (4 ± 1 ◦C). J. Food
+ń  U+0144  LATIN SMALL LETTER N WITH ACUT      1  files: Ashwagandha_01.txt (1)
+      e.g. , M., Hałasiński, P., Hry
+Ł  U+0141  LATIN CAPITAL LETTER L WITH ST      1  files: Ashwagandha_01.txt (1)
+      e.g. dea, D. S., Łykowska-Szub
+ź  U+017A  LATIN SMALL LETTER Z WITH ACUT      1  files: Ashwagandha_01.txt (1)
+      e.g. , & Krela-Kaźmierczak, I.
+˚  U+02DA  RING ABOVE                          1  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (1)
+      e.g. nutes at 110˚ C three spo
+¥  U+00A5  YEN SIGN                            1  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (1)
+      e.g. varatnar¡jam¥g¡´ka Rasa T
+½  U+00BD  VULGAR FRACTION ONE HALF            1  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (1)
+      e.g. mudra N¡rik®½a Assamese :
+ζ  U+03B6  GREEK SMALL LETTER ZETA             1  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (1)
+      e.g. β, γ, δ and ζ caesalpins.
+Ś  U+015A  LATIN CAPITAL LETTER S WITH AC      1  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (1)
+      e.g. (Honey) and Śarkarā (Suga
+ī  U+012B  LATIN SMALL LETTER I WITH MACR      1  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (1)
+      e.g. asa, Guna, Vīrya, Vipāka
+þ  U+00FE  LATIN SMALL LETTER THORN            1  files: Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt (1)
+      e.g. eriodyctol; þ-cymene; α
+В  U+0412  CYRILLIC CAPITAL LETTER VE          1  files: Brahmi.txt (1)
+      e.g. Extracts of Вacopa monnie
+Β  U+0392  GREEK CAPITAL LETTER BETA           1  files: cURRY_lEAF.txt (1)
+      e.g. 0.93mg 12mg Β-carotene 75
+ﬃ  U+FB03  LATIN SMALL LIGATURE FFI            1  files: Lemon.txt (1)
+      e.g. imicrobial Eﬃ cacy of Lem
+ē  U+0113  LATIN SMALL LETTER E WITH MACR      1  files: neem.txt (1)
+      e.g. atāyurvajradēhāya sarva s
+ṭ  U+1E6D  LATIN SMALL LETTER T WITH DOT       1  files: neem.txt (1)
+      e.g. । sarvāriṣṭa-vināśāya n
+ṁ  U+1E41  LATIN SMALL LETTER M WITH DOT       1  files: neem.txt (1)
+      e.g. śāya nimbakaṁ dalabhakṣaṇ
+ṇ  U+1E47  LATIN SMALL LETTER N WITH DOT       1  files: neem.txt (1)
+      e.g. ṁ dalabhakṣaṇam ॥ For l
+  U+008F  ?                                   1  files: neem.txt (1)
+      e.g. नि�म्बस्तिक्तःः कटुःः�
+ऽ  U+093D  DEVANAGARI SIGN AVAGRAHA            1  files: neem.txt (1)
+      e.g. लघुःः� शीतोऽग्निवाातकृृ
+  U+0086  ?                                   1  files: neem.txt (1)
+      e.g. ः� शीतोऽग्निवाातकृृत्् ।
+थ  U+0925  DEVANAGARI LETTER THA               1  files: neem.txt (1)
+      e.g. हृल्लाासश्वयथुुव्रणान्् ।
+ू  U+0942  DEVANAGARI VOWEL SIGN UU            1  files: neem.txt (1)
+      e.g. लघुु ।﻿ अरूक्षमुुष्णंं
+छ  U+091B  DEVANAGARI LETTER CHA               1  files: neem.txt (1)
+      e.g. गुुरु पि�च्छि³लंं च ॥﻿
+‌  U+200C  ZERO WIDTH NON-JOINER               1  files: neem.txt (1)
+      e.g. ्् ॥﻿ अभ्य‌ङ्गाान्नाावव
+ङ  U+0919  DEVANAGARI LETTER NGA               1  files: neem.txt (1)
+      e.g. ् ॥﻿ अभ्य‌ङ्गाान्नााववन
+Ā  U+0100  LATIN CAPITAL LETTER A WITH MA      1  files: neem.txt (1)
+      e.g. llection of Āyurvedic Lex
+⟶  U+27F6  LONG RIGHTWARDS ARROW               1  files: Nooni.txt (1)
+      e.g. USA ( Mexico⟶ Panama, Ven
+ȁ  U+0201  LATIN SMALL LETTER A WITH DOUB      1  files: Nooni.txt (1)
+      e.g. seeds. TierȁrztlichePrax
+≥  U+2265  GREATER-THAN OR EQUAL TO            1  files: WHO General info.txt (1)
+      e.g. berberine (≥1µmol/l) inh
+ò  U+00F2  LATIN SMALL LETTER O WITH GRAV      1  files: WHO General info.txt (1)
+      e.g. rhubarb, chuòng diêp dai
+Ö  U+00D6  LATIN CAPITAL LETTER O WITH DI      1  files: WHO General info.txt (1)
+      e.g. ätherisches Öl sind jedoc
