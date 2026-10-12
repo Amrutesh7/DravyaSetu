@@ -1,0 +1,291 @@
+
+from dataclasses import dataclass, field
+from typing import Any, List, Optional
+import math
+
+from app.schemas.response import (
+    AIResponse,
+    ImageQualityResponse,
+    IdentificationResponse,
+    AlternativeResponse,
+    SimilarSpeciesResponse,
+    ExplanationResponse,
+    MultiImageResponse,
+)
+
+
+@dataclass
+class InternalAlternative:
+    plant_id: str
+    common_name: str
+    scientific_name: str
+    confidence: float
+
+
+@dataclass
+class InternalSimilarSpecies:
+    plant_id: str
+    name: str
+    similarity: float
+
+
+@dataclass
+class InternalImageResult:
+    image_id: str
+    quality_acceptable: bool
+    quality_issues: List[str] = field(default_factory=list)
+    quality_messages: List[str] = field(default_factory=list)
+    status: str = "UNKNOWN"
+    plant_id: Optional[str] = None
+    confidence: float = 0.0
+    alternatives: List[InternalAlternative] = field(default_factory=list)
+    similar_species: List[InternalSimilarSpecies] = field(default_factory=list)
+    heatmap_url: Optional[str] = None
+    overlay_url: Optional[str] = None
+    original_image_url: Optional[str] = None
+    evidence_type: str = "OTHER"
+    observation_id: Optional[str] = None
+
+
+@dataclass
+class InternalFusionResult:
+    status: str = "UNKNOWN"
+    plant_id: Optional[str] = None
+    confidence: float = 0.0
+    alternatives: List[InternalAlternative] = field(default_factory=list)
+    similar_species: List[InternalSimilarSpecies] = field(default_factory=list)
+
+
+class ResponseBuilder:
+    @staticmethod
+    def _safe_confidence(value: Any) -> float:
+        try:
+            value = float(value)
+        except (TypeError, ValueError):
+            return 0.0
+
+        if not math.isfinite(value):
+            return 0.0
+
+        return max(0.0, min(1.0, value))
+
+    @staticmethod
+    def _normalise_status(status: Any) -> str:
+        return "KNOWN" if str(status).upper() == "KNOWN" else "UNKNOWN"
+
+    def _build_alternatives(
+        self,
+        alternatives: List[InternalAlternative],
+    ) -> List[AlternativeResponse]:
+        return [
+            AlternativeResponse(
+                plant_id=item.plant_id,
+                common_name=item.common_name,
+                scientific_name=item.scientific_name,
+                confidence=self._safe_confidence(item.confidence),
+            )
+            for item in alternatives
+        ]
+
+    def _build_similar_species(
+        self,
+        similar_species: List[InternalSimilarSpecies],
+    ) -> List[SimilarSpeciesResponse]:
+        return [
+            SimilarSpeciesResponse(
+                plant_id=item.plant_id,
+                name=item.name,
+                similarity=self._safe_confidence(item.similarity),
+            )
+            for item in similar_species
+        ]
+
+    def _build_quality(
+        self,
+        result: InternalImageResult,
+    ) -> ImageQualityResponse:
+        return ImageQualityResponse(
+            acceptable=bool(result.quality_acceptable),
+            issues=list(result.quality_issues),
+        )
+
+    def _build_identification(
+        self,
+        result: InternalImageResult,
+    ) -> IdentificationResponse:
+        status = self._normalise_status(result.status)
+        plant_id = result.plant_id if status == "KNOWN" else None
+        confidence = (
+            self._safe_confidence(result.confidence)
+            if status == "KNOWN"
+            else 0.0
+        )
+
+        return IdentificationResponse(
+            status=status,
+            plant_id=plant_id,
+            confidence=confidence,
+        )
+
+    
+    def _build_explanation(self, result: InternalImageResult) -> ExplanationResponse:
+        return ExplanationResponse(
+            method="GRAD_CAM",
+            heatmap_url=result.heatmap_url,
+        )
+
+    def _build_warnings(
+        results: List[InternalImageResult],
+    ) -> List[str]:
+        warnings = []
+
+        for result in results:
+            for message in result.quality_messages:
+                if message and message not in warnings:
+                    warnings.append(message)
+
+            if not result.quality_acceptable:
+                warning = (
+                    f"Image '{result.image_id}' did not pass "
+                    "the image-quality checks."
+                )
+                if warning not in warnings:
+                    warnings.append(warning)
+
+        return warnings
+
+    def build_single_image_response(
+        self,
+        request_id: str,
+        result: InternalImageResult,
+        model_version: str = "dravya-v2",
+    ) -> AIResponse:
+        return AIResponse(
+            request_id=request_id,
+            model_version=model_version,
+            image_quality=self._build_quality(result),
+            identification=self._build_identification(result),
+            alternatives=self._build_alternatives(result.alternatives),
+            similar_species=self._build_similar_species(
+                result.similar_species
+            ),
+            explanation=self._build_explanation(result),
+            multi_image=MultiImageResponse(
+                used=False,
+                image_count=1,
+            ),
+            warnings=self._build_warnings([result]),
+        )
+
+    def build_multi_image_response(
+        self,
+        request_id: str,
+        image_results: List[InternalImageResult],
+        fusion_result: Optional[Any] = None,
+        model_version: str = "dravya-v2",
+    ) -> AIResponse:
+        if not image_results:
+            raise ValueError("At least one image result is required.")
+
+        usable_results = [
+            result for result in image_results
+            if result.quality_acceptable
+        ]
+
+        status = "UNKNOWN"
+        plant_id = None
+        confidence = 0.0
+        alternatives = []
+        similar_species = []
+
+        if fusion_result is not None and usable_results:
+            fused_class = getattr(
+                fusion_result, "predicted_class", None
+            )
+
+            matching_result = next(
+                (
+                    result for result in usable_results
+                    if result.plant_id is not None
+                    and str(result.plant_id) == str(fused_class)
+                ),
+                None,
+            )
+
+            if matching_result is not None:
+                status = self._normalise_status(
+                    matching_result.status
+                )
+                plant_id = (
+                    matching_result.plant_id
+                    if status == "KNOWN"
+                    else None
+                )
+                confidence = (
+                    self._safe_confidence(
+                        getattr(fusion_result, "confidence", 0.0)
+                    )
+                    if status == "KNOWN"
+                    else 0.0
+                )
+                alternatives = list(matching_result.alternatives)
+                similar_species = list(
+                    matching_result.similar_species
+                )
+
+        elif len(usable_results) == 1:
+            single = usable_results[0]
+            status = self._normalise_status(single.status)
+            plant_id = single.plant_id if status == "KNOWN" else None
+            confidence = (
+                self._safe_confidence(single.confidence)
+                if status == "KNOWN"
+                else 0.0
+            )
+            alternatives = list(single.alternatives)
+            similar_species = list(single.similar_species)
+
+        selected_result = next(
+            (
+                result for result in usable_results
+                if result.heatmap_url
+            ),
+            image_results[0],
+        )
+
+        combined_result = InternalImageResult(
+            image_id="multi_image",
+            quality_acceptable=bool(usable_results),
+            quality_issues=[
+                issue
+                for result in image_results
+                for issue in result.quality_issues
+            ],
+            quality_messages=[],
+            status=status,
+            plant_id=plant_id,
+            confidence=confidence,
+            alternatives=alternatives,
+            similar_species=similar_species,
+            heatmap_url=selected_result.heatmap_url,
+            overlay_url=selected_result.overlay_url,
+            original_image_url=selected_result.original_image_url,
+        )
+
+        return AIResponse(
+            request_id=request_id,
+            model_version=model_version,
+            image_quality=ImageQualityResponse(
+                acceptable=bool(usable_results),
+                issues=combined_result.quality_issues,
+            ),
+            identification=self._build_identification(combined_result),
+            alternatives=self._build_alternatives(alternatives),
+            similar_species=self._build_similar_species(similar_species),
+            explanation=self._build_explanation(combined_result),
+            multi_image=MultiImageResponse(
+                used=len(image_results) > 1,
+                image_count=len(image_results),
+            ),
+            warnings=self._build_warnings(image_results),
+        )

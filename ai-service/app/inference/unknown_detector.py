@@ -1,49 +1,148 @@
-DEFAULT_UNKNOWN_THRESHOLD = 0.50
+
+from dataclasses import dataclass
+from typing import Optional
 
 
-def detect_unknown(
-    confidence: float,
-    threshold: float = DEFAULT_UNKNOWN_THRESHOLD
-) -> bool:
-    """
-    Determine whether a prediction should be treated
-    as UNKNOWN.
+@dataclass
+class UnknownDetectionResult:
+    status: str
+    classifier_confidence: float
+    embedding_similarity: Optional[float]
+    accepted: bool
+    reason: str
 
-    Args:
-        confidence: Model confidence between 0 and 1.
-        threshold: Minimum confidence required to accept
-                   a known plant.
 
-    Returns:
-        True  -> UNKNOWN
-        False -> KNOWN
-    """
+class UnknownDetector:
+    """Reject predictions that fall below configured thresholds."""
 
-    if not 0.0 <= confidence <= 1.0:
-        raise ValueError(
-            "Confidence must be between 0.0 and 1.0"
+    def __init__(
+        self,
+        confidence_threshold: float = 0.70,
+        embedding_threshold: float = 0.50,
+    ) -> None:
+        if not 0.0 <= confidence_threshold <= 1.0:
+            raise ValueError(
+                "confidence_threshold must be between 0 and 1."
+            )
+
+        if not 0.0 <= embedding_threshold <= 1.0:
+            raise ValueError(
+                "embedding_threshold must be between 0 and 1."
+            )
+
+        self.confidence_threshold = confidence_threshold
+        self.embedding_threshold = embedding_threshold
+
+    def detect(
+        self,
+        classifier_confidence: float,
+        embedding_similarity: Optional[float] = None,
+    ) -> UnknownDetectionResult:
+        if not 0.0 <= classifier_confidence <= 1.0:
+            raise ValueError(
+                "classifier_confidence must be between 0 and 1."
+            )
+
+        if embedding_similarity is not None:
+            if not 0.0 <= embedding_similarity <= 1.0:
+                raise ValueError(
+                    "embedding_similarity must be between 0 and 1."
+                )
+
+        confidence_pass = (
+            classifier_confidence >= self.confidence_threshold
         )
 
-    if not 0.0 <= threshold <= 1.0:
-        raise ValueError(
-            "Threshold must be between 0.0 and 1.0"
+        if embedding_similarity is not None:
+            similarity_pass = (
+                embedding_similarity >= self.embedding_threshold
+            )
+
+            if confidence_pass and similarity_pass:
+                return UnknownDetectionResult(
+                    status="KNOWN",
+                    classifier_confidence=classifier_confidence,
+                    embedding_similarity=embedding_similarity,
+                    accepted=True,
+                    reason="Confidence and embedding thresholds passed.",
+                )
+
+            reason = (
+                "Classifier confidence below threshold."
+                if not confidence_pass
+                else "Embedding similarity below threshold."
+            )
+
+            return UnknownDetectionResult(
+                status="UNKNOWN",
+                classifier_confidence=classifier_confidence,
+                embedding_similarity=embedding_similarity,
+                accepted=False,
+                reason=reason,
+            )
+
+        if confidence_pass:
+            return UnknownDetectionResult(
+                status="KNOWN",
+                classifier_confidence=classifier_confidence,
+                embedding_similarity=None,
+                accepted=True,
+                reason=(
+                    "Classifier confidence passed; "
+                    "embedding similarity is unavailable."
+                ),
+            )
+
+        return UnknownDetectionResult(
+            status="UNKNOWN",
+            classifier_confidence=classifier_confidence,
+            embedding_similarity=None,
+            accepted=False,
+            reason="Classifier confidence below threshold.",
         )
 
-    return confidence < threshold
+    def update_thresholds(
+        self,
+        confidence_threshold: float,
+        embedding_threshold: float,
+    ) -> None:
+        if not 0.0 <= confidence_threshold <= 1.0:
+            raise ValueError(
+                "confidence_threshold must be between 0 and 1."
+            )
+
+        if not 0.0 <= embedding_threshold <= 1.0:
+            raise ValueError(
+                "embedding_threshold must be between 0 and 1."
+            )
+
+        self.confidence_threshold = confidence_threshold
+        self.embedding_threshold = embedding_threshold
 
 
-def get_identification_status(
-    confidence: float,
-    threshold: float = DEFAULT_UNKNOWN_THRESHOLD
-) -> str:
-    """
-    Return the status expected by the shared AI contract.
+def build_unknown_detector(
+    confidence_threshold: float = 0.70,
+    embedding_threshold: float = 0.50,
+) -> UnknownDetector:
+    return UnknownDetector(
+        confidence_threshold=confidence_threshold,
+        embedding_threshold=embedding_threshold,
+    )
 
-    Returns:
-        'KNOWN' or 'UNKNOWN'
-    """
 
-    if detect_unknown(confidence, threshold):
-        return "UNKNOWN"
+if __name__ == "__main__":
+    detector = build_unknown_detector()
 
-    return "KNOWN"
+    known_result = detector.detect(
+        classifier_confidence=0.91,
+        embedding_similarity=0.82,
+    )
+
+    unknown_result = detector.detect(
+        classifier_confidence=0.42,
+        embedding_similarity=0.31,
+    )
+
+    print("Unknown detector smoke test completed.")
+    print("Example 1:", known_result)
+    print("Example 2:", unknown_result)

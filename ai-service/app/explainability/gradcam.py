@@ -1,624 +1,236 @@
+
+"""Grad-CAM visualization for the DravyaSetu plant classifier."""
+
 from pathlib import Path
+from typing import Any, Optional
 
 import numpy as np
 import torch
+import torch.nn.functional as F
 from PIL import Image
+
+from app.inference.predictor import PlantPredictor
 
 
 class GradCAM:
-    """
-    Grad-CAM explanation generator for the existing DravyaSetu
-    PlantPredictor.
+    """Generate Grad-CAM heatmaps for a PlantPredictor model."""
 
-    Important:
-    - Does NOT load another model.
-    - Uses the exact model already loaded by PlantPredictor.
-    - Uses the predictor's existing preprocessing transform.
-    - Explains the selected/predicted class.
-    """
-
-    def __init__(self, predictor):
-
+    def __init__(self, predictor: PlantPredictor):
         self.predictor = predictor
         self.model = predictor.model
         self.device = predictor.device
-        self.transform = predictor.transform
 
-        # -----------------------------------------------------
-        # EfficientNetV2-S target layer
-        # -----------------------------------------------------
-
-        self.target_layer = self._find_target_layer()
+        # EfficientNetV2-S final convolutional feature block.
+        self.target_layer = self.model.model.features[-1]
 
         self.activations = None
         self.gradients = None
 
-        self.forward_handle = None
-        self.backward_handle = None
-
-        self._register_hooks()
-
-    # =========================================================
-    # TARGET LAYER
-    # =========================================================
-
-    def _find_target_layer(self):
-
-        """
-        Find the final convolutional feature block.
-
-        Supports both:
-            PlantPredictor -> EfficientNetV2
-        and:
-            PlantPredictor -> PlantClassifier -> EfficientNetV2
-        """
-
-        model = self.model
-
-        # Case 1:
-        # predictor.model is the actual EfficientNetV2 model
-        if hasattr(model, "features"):
-
-            return model.features[-1]
-
-        # Case 2:
-        # predictor.model is our PlantClassifier wrapper
-        if hasattr(model, "model"):
-
-            inner_model = model.model
-
-            if hasattr(inner_model, "features"):
-
-                return inner_model.features[-1]
-
-        raise RuntimeError(
-            "Unable to locate EfficientNetV2 feature layer "
-            "for Grad-CAM."
+        self._forward_handle = self.target_layer.register_forward_hook(
+            self._save_activations
+        )
+        self._backward_handle = (
+            self.target_layer.register_full_backward_hook(
+                self._save_gradients
+            )
         )
 
-    # =========================================================
-    # HOOKS
-    # =========================================================
+    def _save_activations(self, module, inputs, output):
+        self.activations = output
 
-    def _register_hooks(self):
-
-        def forward_hook(
-            module,
-            inputs,
-            output
-        ):
-
-            self.activations = output
-
-        def backward_hook(
-            module,
-            grad_input,
-            grad_output
-        ):
-
+    def _save_gradients(self, module, grad_input, grad_output):
+        if grad_output and grad_output[0] is not None:
             self.gradients = grad_output[0]
 
-        self.forward_handle = (
-            self.target_layer.register_forward_hook(
-                forward_hook
-            )
-        )
+    @staticmethod
+    def _to_pil(image: Any) -> Image.Image:
+        """Convert a PIL image or image path to RGB."""
+        if isinstance(image, Image.Image):
+            return image.convert("RGB")
 
-        self.backward_handle = (
-            self.target_layer.register_full_backward_hook(
-                backward_hook
-            )
-        )
-
-    # =========================================================
-    # GENERATE GRAD-CAM
-    # =========================================================
+        with Image.open(image) as opened:
+            return opened.convert("RGB")
 
     def generate(
         self,
-        image_path,
-        target_class_index=None,
-    ):
+        image: Any,
+        target_class_index: Optional[int] = None,
+    ) -> dict:
+        """
+        Generate a heatmap and overlay.
 
-        image_path = Path(image_path)
+        If target_class_index is not supplied, the model's top predicted
+        class is used.
+        """
+        original = self._to_pil(image)
 
-        if not image_path.exists():
+        tensor = self.predictor.preprocessor.preprocess(original)
+        tensor = tensor.to(self.device)
 
-            raise FileNotFoundError(
-                f"Image not found: {image_path}"
-            )
-
-        # -----------------------------------------------------
-        # Load original image
-        # -----------------------------------------------------
-
-        original_image = Image.open(
-            image_path
-        ).convert("RGB")
-
-        # -----------------------------------------------------
-        # Reset previous Grad-CAM state
-        # -----------------------------------------------------
+        self.model.eval()
+        self.model.zero_grad(set_to_none=True)
 
         self.activations = None
         self.gradients = None
 
-        # -----------------------------------------------------
-        # Preprocess
-        # -----------------------------------------------------
+        # Gradients must be enabled for Grad-CAM.
+        with torch.enable_grad():
+            logits = self.model(tensor)
 
-        tensor = self.transform(
-            original_image
-        )
+            if logits.ndim != 2 or logits.shape[0] != 1:
+                raise ValueError(
+                    "Grad-CAM expects exactly one image per call."
+                )
 
-        tensor = tensor.unsqueeze(
-            0
-        ).to(
-            self.device
-        )
+            if target_class_index is None:
+                target_class_index = int(
+                    torch.argmax(logits, dim=1).item()
+                )
 
-        # -----------------------------------------------------
-        # IMPORTANT
-        # Do NOT use torch.no_grad()
-        # Grad-CAM requires gradients.
-        # -----------------------------------------------------
+            if not 0 <= target_class_index < logits.shape[1]:
+                raise ValueError(
+                    f"Invalid target class index: {target_class_index}"
+                )
 
-        self.model.zero_grad(
-            set_to_none=True
-        )
-
-        outputs = self.model(
-            tensor
-        )
-
-        # -----------------------------------------------------
-        # Probabilities
-        # -----------------------------------------------------
-
-        probabilities = torch.softmax(
-            outputs,
-            dim=1
-        )
-
-        # -----------------------------------------------------
-        # Select target class
-        # -----------------------------------------------------
-
-        if target_class_index is None:
-
-            target_class_index = int(
-                probabilities.argmax(
-                    dim=1
-                ).item()
+            probabilities = torch.softmax(logits, dim=1)
+            confidence = float(
+                probabilities[0, target_class_index].detach().item()
             )
 
-        # Validate class index
+            score = logits[0, target_class_index]
+            score.backward()
 
-        if (
-            target_class_index < 0
-            or
-            target_class_index >= outputs.shape[1]
-        ):
+            if self.activations is None:
+                raise RuntimeError(
+                    "Grad-CAM did not capture layer activations."
+                )
 
-            raise ValueError(
-                f"Invalid target class index: "
-                f"{target_class_index}"
+            if self.gradients is None:
+                raise RuntimeError(
+                    "Grad-CAM did not capture layer gradients."
+                )
+
+            # Average gradients spatially to obtain channel weights.
+            weights = self.gradients.mean(
+                dim=(2, 3), keepdim=True
             )
 
-        # -----------------------------------------------------
-        # Target score
-        # -----------------------------------------------------
-
-        target_score = outputs[
-            0,
-            target_class_index
-        ]
-
-        # -----------------------------------------------------
-        # Backpropagation
-        # -----------------------------------------------------
-
-        target_score.backward()
-
-        # -----------------------------------------------------
-        # Validate hooks
-        # -----------------------------------------------------
-
-        if self.activations is None:
-
-            raise RuntimeError(
-                "Grad-CAM activations were not captured."
+            # Weighted combination of feature maps.
+            cam = (weights * self.activations).sum(
+                dim=1, keepdim=True
             )
 
-        if self.gradients is None:
+            # Retain positive contributions.
+            cam = F.relu(cam)
 
-            raise RuntimeError(
-                "Grad-CAM gradients were not captured."
+            # Resize heatmap to the original image dimensions.
+            cam = F.interpolate(
+                cam,
+                size=(original.height, original.width),
+                mode="bilinear",
+                align_corners=False,
             )
 
-        # -----------------------------------------------------
-        # Remove batch dimension
-        # -----------------------------------------------------
+            cam = cam[0, 0].detach().cpu().numpy()
 
-        activations = self.activations[
-            0
-        ]
+        # Normalize heatmap to [0, 1].
+        cam_min = float(cam.min())
+        cam_max = float(cam.max())
 
-        gradients = self.gradients[
-            0
-        ]
-
-        # -----------------------------------------------------
-        # Global average pooling of gradients
-        # -----------------------------------------------------
-
-        weights = gradients.mean(
-            dim=(1, 2)
-        )
-
-        # -----------------------------------------------------
-        # Weighted feature maps
-        # -----------------------------------------------------
-
-        cam = torch.sum(
-            weights[:, None, None]
-            *
-            activations,
-            dim=0
-        )
-
-        # -----------------------------------------------------
-        # ReLU
-        #
-        # Keep only positive influence.
-        # -----------------------------------------------------
-
-        cam = torch.relu(
-            cam
-        )
-
-        # -----------------------------------------------------
-        # Normalize
-        # -----------------------------------------------------
-
-        cam_min = cam.min()
-        cam_max = cam.max()
-
-        if float(
-            cam_max - cam_min
-        ) > 1e-8:
-
-            cam = (
-                cam - cam_min
-            ) / (
-                cam_max - cam_min
-            )
-
+        if cam_max > cam_min:
+            cam = (cam - cam_min) / (cam_max - cam_min)
         else:
+            cam = np.zeros_like(cam, dtype=np.float32)
 
-            cam = torch.zeros_like(
-                cam
-            )
+        heatmap_image = self._colorize(cam)
 
-        # -----------------------------------------------------
-        # Convert to NumPy
-        # -----------------------------------------------------
-
-        heatmap = (
-            cam
-            .detach()
-            .cpu()
-            .numpy()
-        )
-
-        # -----------------------------------------------------
-        # Resize to original image
-        # -----------------------------------------------------
-
-        original_width, original_height = (
-            original_image.size
-        )
-
-        heatmap_image = Image.fromarray(
-            np.uint8(
-                heatmap * 255
-            )
-        )
-
-        heatmap_image = heatmap_image.resize(
-            (
-                original_width,
-                original_height
-            ),
-            Image.Resampling.BILINEAR
-        )
-
-        heatmap = (
-            np.asarray(
-                heatmap_image
-            ).astype(
-                np.float32
-            ) / 255.0
-        )
-
-        # -----------------------------------------------------
-        # RGB heatmap
-        # -----------------------------------------------------
-
-        heatmap_rgb = (
-            self._create_heatmap_rgb(
-                heatmap
-            )
-        )
-
-        # -----------------------------------------------------
-        # Original image → [0,1]
-        # -----------------------------------------------------
-
-        original_array = (
-            np.asarray(
-                original_image
-            ).astype(
-                np.float32
-            ) / 255.0
-        )
-
-        # -----------------------------------------------------
-        # Overlay
-        # -----------------------------------------------------
-
-        alpha = 0.45
-
-        overlay = (
-            (1.0 - alpha)
-            * original_array
-            +
-            alpha
-            * heatmap_rgb
-        )
-
-        overlay = np.clip(
-            overlay,
-            0.0,
-            1.0
-        )
-
-        overlay_image = Image.fromarray(
-            np.uint8(
-                overlay * 255
-            )
-        )
-
-        # -----------------------------------------------------
-        # Target information
-        # -----------------------------------------------------
-
-        confidence = float(
-            probabilities[
-                0,
-                target_class_index
-            ].item()
-        )
-
-        class_name = self._get_class_name(
-            target_class_index
+        # Blend the heatmap with the original image.
+        overlay_image = Image.blend(
+            original.convert("RGB"),
+            heatmap_image.convert("RGB"),
+            alpha=0.45,
         )
 
         return {
-            "original_image": original_image,
-
+            "original_image": original,
             "heatmap_image": heatmap_image,
-
             "overlay_image": overlay_image,
-
-            "target_class_index": int(
-                target_class_index
-            ),
-
-            "target_class_name": class_name,
-
+            "target_class_index": int(target_class_index),
             "confidence": confidence,
+            "method": "GRAD_CAM",
         }
 
-    # =========================================================
-    # CLASS NAME
-    # =========================================================
+    @staticmethod
+    def _colorize(cam: np.ndarray) -> Image.Image:
+        """Convert a normalized heatmap into a color image."""
+        cam = np.clip(cam, 0.0, 1.0)
 
-    def _get_class_name(
-        self,
-        class_index
-    ):
+        # Lightweight blue-to-red heatmap without another dependency.
+        red = np.clip(1.5 - np.abs(4.0 * cam - 3.0), 0.0, 1.0)
+        green = np.clip(1.5 - np.abs(4.0 * cam - 2.0), 0.0, 1.0)
+        blue = np.clip(1.5 - np.abs(4.0 * cam - 1.0), 0.0, 1.0)
 
-        # Preferred structure
-        if hasattr(
-            self.predictor,
-            "idx_to_class"
-        ):
+        colored = np.stack([red, green, blue], axis=-1)
+        colored = (colored * 255).astype(np.uint8)
 
-            return self.predictor.idx_to_class[
-                class_index
-            ]
-
-        # Alternative structure
-        if hasattr(
-            self.predictor,
-            "class_names"
-        ):
-
-            return self.predictor.class_names[
-                class_index
-            ]
-
-        # Fallback
-        return str(
-            class_index
-        )
-
-    # =========================================================
-    # HEATMAP COLORIZATION
-    # =========================================================
+        return Image.fromarray(colored, mode="RGB")
 
     @staticmethod
-    def _create_heatmap_rgb(
-        heatmap
-    ):
-
-        """
-        Convert grayscale CAM values into
-        a blue → cyan → yellow → red heatmap.
-
-        No plotting library required.
-        """
-
-        heatmap = np.clip(
-            heatmap,
-            0.0,
-            1.0
+    def _safe_prefix(prefix: str) -> str:
+        """Remove path separators and unsafe filename characters."""
+        safe = "".join(
+            character
+            if character.isalnum() or character in ("-", "_")
+            else "_"
+            for character in prefix
         )
-
-        red = np.clip(
-            2.0 * heatmap,
-            0.0,
-            1.0
-        )
-
-        green = np.clip(
-            2.0
-            * (
-                1.0
-                -
-                np.abs(
-                    heatmap - 0.5
-                )
-                * 2.0
-            ),
-            0.0,
-            1.0
-        )
-
-        blue = np.clip(
-            1.0
-            -
-            2.0 * heatmap,
-            0.0,
-            1.0
-        )
-
-        return np.stack(
-            [
-                red,
-                green,
-                blue
-            ],
-            axis=-1
-        )
-
-    # =========================================================
-    # SAVE RESULTS
-    # =========================================================
+        return safe or "gradcam"
 
     def save(
         self,
-        result,
-        output_dir,
-        prefix="gradcam"
-    ):
+        result: dict,
+        output_dir: str | Path,
+        prefix: str = "gradcam",
+    ) -> dict:
+        """Save original, heatmap, and overlay images."""
+        output_dir = Path(output_dir)
+        output_dir.mkdir(parents=True, exist_ok=True)
 
-        output_dir = Path(
-            output_dir
+        safe_prefix = self._safe_prefix(prefix)
+
+        # Define every path before saving it.
+        paths = {
+            "original": output_dir / f"{safe_prefix}_original.jpg",
+            "heatmap": output_dir / f"{safe_prefix}_heatmap.jpg",
+            "overlay": output_dir / f"{safe_prefix}_overlay.jpg",
+        }
+
+        result["original_image"].convert("RGB").save(
+            paths["original"], format="JPEG", quality=95
         )
-
-        output_dir.mkdir(
-            parents=True,
-            exist_ok=True
+        result["heatmap_image"].convert("RGB").save(
+            paths["heatmap"], format="JPEG", quality=95
         )
-
-        original_path = (
-            output_dir
-            /
-            f"{prefix}_original.jpg"
-        )
-
-        heatmap_path = (
-            output_dir
-            /
-            f"{prefix}_heatmap.jpg"
-        )
-
-        overlay_path = (
-            output_dir
-            /
-            f"{prefix}_overlay.jpg"
-        )
-
-        result[
-            "original_image"
-        ].save(
-            original_path,
-            quality=95
-        )
-
-        result[
-            "heatmap_image"
-        ].save(
-            heatmap_path,
-            quality=95
-        )
-
-        result[
-            "overlay_image"
-        ].save(
-            overlay_path,
-            quality=95
+        result["overlay_image"].convert("RGB").save(
+            paths["overlay"], format="JPEG", quality=95
         )
 
         return {
-
-            "original_path": str(
-                original_path
-            ),
-
-            "heatmap_path": str(
-                heatmap_path
-            ),
-
-            "overlay_path": str(
-                overlay_path
-            ),
-
-            "method": "GRAD_CAM",
-
-            "target_class_index": result[
-                "target_class_index"
-            ],
-
-            "target_class_name": result[
-                "target_class_name"
-            ],
-
-            "confidence": result[
-                "confidence"
-            ]
+            key: str(path.resolve())
+            for key, path in paths.items()
         }
 
-    # =========================================================
-    # CLEANUP
-    # =========================================================
-
     def close(self):
+        """Remove registered hooks when Grad-CAM is no longer needed."""
+        if self._forward_handle is not None:
+            self._forward_handle.remove()
+            self._forward_handle = None
 
-        """
-        Remove hooks when Grad-CAM is no longer needed.
-        """
+        if self._backward_handle is not None:
+            self._backward_handle.remove()
+            self._backward_handle = None
 
-        if self.forward_handle is not None:
 
-            self.forward_handle.remove()
-
-            self.forward_handle = None
-
-        if self.backward_handle is not None:
-
-            self.backward_handle.remove()
-
-            self.backward_handle = None
+def build_gradcam(predictor: PlantPredictor) -> GradCAM:
+    """Construct a Grad-CAM helper for an existing predictor."""
+    return GradCAM(predictor)

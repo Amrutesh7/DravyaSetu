@@ -1,0 +1,11 @@
+﻿image_path,true_label,predicted_label,correct,confidence
+D:\DravyaSetu\datasets\final_split\test\Ashwagandha\Ashwagandha_inat_528779143.jpg,Ashwagandha,Rose,False,0.7450765371322632
+D:\DravyaSetu\datasets\final_split\test\Curry_Leaf\Curry_Leaf_inat_221487378.jpg,Curry_Leaf,Pepper,False,0.8565976023674011
+D:\DravyaSetu\datasets\final_split\test\Curry_Leaf\Curry_Leaf_inat_272236895.jpg,Curry_Leaf,Brahmi,False,0.5170371532440186
+D:\DravyaSetu\datasets\final_split\test\Curry_Leaf\Curry_Leaf_inat_363610026.jpg,Curry_Leaf,Tulasi,False,0.5833908915519714
+D:\DravyaSetu\datasets\final_split\test\Ganike\arya_shah_01a7b797f6bf.jpg,Ganike,Pappaya,False,0.7819244265556335
+D:\DravyaSetu\datasets\final_split\test\Pappaya\Pappaya_inat_521109355.jpg,Pappaya,Castor,False,0.9969062209129333
+D:\DravyaSetu\datasets\final_split\test\Tulasi\arya_shah_89c00098cba7.jpg,Tulasi,Mint,False,0.8215981721878052
+D:\DravyaSetu\datasets\final_split\test\Wood_sorel\Wood_sorel_inat_100397768.jpg,Wood_sorel,Ganike,False,0.922690749168396
+D:\DravyaSetu\datasets\final_split\test\Wood_sorel\Wood_sorel_inat_649299971.jpg,Wood_sorel,Curry_Leaf,False,0.6982252597808838
+D:\DravyaSetu\datasets\final_split\test\Wood_sorel\Wood_sorel_inat_657573699.jpg,Wood_sorel,Raktachandini,False,0.8274487257003784

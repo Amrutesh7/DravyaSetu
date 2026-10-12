@@ -1,89 +1,170 @@
-import torch
-import torch.nn.functional as F
 
-from app.models.classifier import create_model
-from app.models.plant_registry import load_plant_registry
+"""DravyaSetu trained plant prediction pipeline."""
+
+from __future__ import annotations
+
+import json
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Union
+
+import torch
+from PIL import Image
+
+from app.models.classifier import DravyaSetuClassifier
+from app.preprocessing.image_preprocessor import ImagePreprocessor
+from app.inference.confidence import ConfidenceCalculator
+
+
+ImageInput = Union[str, Path, Image.Image]
+
+# Project paths
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+MODEL_DIR = PROJECT_ROOT / "artifacts" / "models"
+WEIGHTS_PATH = MODEL_DIR / "efficientnet_v2_s.pth"
+MAPPING_PATH = MODEL_DIR / "class_mapping.json"
+
+
+@dataclass
+class NamedPrediction:
+    """Prediction for one plant class."""
+
+    class_index: int
+    class_name: str
+    confidence: float
+
+
+@dataclass
+class PredictionResult:
+    """Top prediction and alternative predictions."""
+
+    top_prediction: NamedPrediction
+    alternatives: list[NamedPrediction]
 
 
 class PlantPredictor:
-    """
-    Runs EfficientNetV2-S inference and converts
-    model output into DravyaSetu plant predictions.
-    """
+    """Predict plant classes using the trained DravyaSetu model."""
 
-    def __init__(self, model=None):
-        self.model = model if model is not None else create_model()
+    def __init__(
+        self,
+        model: DravyaSetuClassifier,
+        preprocessor: ImagePreprocessor,
+        confidence_calculator: ConfidenceCalculator,
+        class_names: list[str],
+        device: str | torch.device = "cpu",
+    ) -> None:
+        if len(class_names) != model.num_classes:
+            raise ValueError(
+                "Class mapping count does not match model output count."
+            )
 
+        self.model = model
+        self.preprocessor = preprocessor
+        self.confidence_calculator = confidence_calculator
+        self.class_names = class_names
+        self.device = torch.device(device)
+
+        self.model.to(self.device)
         self.model.eval()
 
-        # Load the authoritative 34-class registry
-        self.registry = load_plant_registry()
-
-        # Keep class order exactly consistent with plant-classes.json
-        self.class_names = list(self.registry.keys())
-
+    @torch.no_grad()
     def predict(
         self,
-        image_tensor: torch.Tensor,
-        top_k: int = 3
-    ) -> list:
-        """
-        Predict the top-k plants.
+        image: ImageInput,
+        top_k: int = 5,
+    ) -> PredictionResult:
+        """Predict the most likely plant classes for an image."""
 
-        Args:
-            image_tensor:
-                Tensor of shape [1, 3, 224, 224]
+        if top_k <= 0:
+            raise ValueError("top_k must be greater than 0.")
 
-            top_k:
-                Number of predictions to return.
+        # Convert the input image into a normalized model tensor.
+        tensor = self.preprocessor.preprocess(image).to(self.device)
 
-        Returns:
-            List of prediction dictionaries.
-        """
+        # Run the trained classifier.
+        logits = self.model(tensor)
 
-        if image_tensor.ndim != 4:
-            raise ValueError(
-                "Expected image tensor with shape "
-                "[batch, channels, height, width]"
+        # Calculate the top-k class predictions.
+        predictions = self.confidence_calculator.top_k(
+            logits,
+            k=min(top_k, len(self.class_names)),
+        )[0]
+
+        named_predictions = [
+            NamedPrediction(
+                class_index=prediction.class_index,
+                class_name=self.class_names[prediction.class_index],
+                confidence=prediction.confidence,
             )
+            for prediction in predictions
+        ]
 
-        if image_tensor.shape[1:] != (3, 224, 224):
-            raise ValueError(
-                "Expected image tensor shape "
-                "[batch, 3, 224, 224]"
-            )
-
-        # Run model inference
-        with torch.no_grad():
-            logits = self.model(image_tensor)
-
-        # Convert logits → probabilities
-        probabilities = F.softmax(logits, dim=1)
-
-        # Get top predictions
-        k = min(top_k, len(self.class_names))
-
-        scores, indices = torch.topk(
-            probabilities,
-            k=k,
-            dim=1
+        return PredictionResult(
+            top_prediction=named_predictions[0],
+            alternatives=named_predictions,
         )
 
-        predictions = []
 
-        for score, index in zip(
-            scores[0],
-            indices[0]
-        ):
-            class_name = self.class_names[index.item()]
-            plant = self.registry[class_name]
+def build_predictor(
+    num_classes: int = 34,
+    pretrained: bool = False,
+    device: str = "cpu",
+) -> PlantPredictor:
+    """Load the trained checkpoint and construct a plant predictor."""
 
-            predictions.append({
-                "plant_id": plant["plant_id"],
-                "plant_identifier": class_name,
-                "common_name": plant["common_name"],
-                "scientific_name": plant["scientific_name"],
-                "confidence": float(score.item())
-            })
+    if not WEIGHTS_PATH.is_file():
+        raise FileNotFoundError(
+            f"Trained model checkpoint not found: {WEIGHTS_PATH}"
+        )
 
-        return predictions
+    if not MAPPING_PATH.is_file():
+        raise FileNotFoundError(
+            f"Class mapping file not found: {MAPPING_PATH}"
+        )
+
+    # Load class mapping.
+    with MAPPING_PATH.open("r", encoding="utf-8") as file:
+        mapping = json.load(file)
+
+    try:
+        class_names = [mapping[str(index)] for index in range(num_classes)]
+    except KeyError as exc:
+        raise ValueError(
+            f"Class mapping is missing index {exc}."
+        ) from exc
+
+    # Build the same model architecture used for training.
+    model = DravyaSetuClassifier(
+        num_classes=num_classes,
+        pretrained=pretrained,
+    )
+
+    # Load the trained weights.
+    state_dict = torch.load(
+        WEIGHTS_PATH,
+        map_location="cpu",
+        weights_only=True,
+    )
+
+    model.model.load_state_dict(state_dict, strict=True)
+
+    # Create preprocessing and confidence components.
+    preprocessor = ImagePreprocessor(image_size=300)
+    confidence_calculator = ConfidenceCalculator(temperature=1.0)
+
+    return PlantPredictor(
+        model=model,
+        preprocessor=preprocessor,
+        confidence_calculator=confidence_calculator,
+        class_names=class_names,
+        device=device,
+    )
+
+
+if __name__ == "__main__":
+    predictor = build_predictor()
+
+    print("DravyaSetu predictor loaded successfully.")
+    print("Number of classes:", len(predictor.class_names))
+    print("Device:", predictor.device)
+    print("Model checkpoint:", WEIGHTS_PATH)

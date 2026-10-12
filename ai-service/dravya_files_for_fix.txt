@@ -1,0 +1,1468 @@
+﻿===== FILE: .\app\pipeline.py =====
+
+from dataclasses import dataclass, field
+from typing import Any, List, Optional
+
+from app.schemas.response import (
+    AIResponse,
+    ImageQualityResponse,
+    IdentificationResponse,
+    AlternativeResponse,
+    SimilarSpeciesResponse,
+    ExplanationResponse,
+    MultiImageResponse,
+)
+
+
+@dataclass
+class InternalAlternative:
+    plant_id: str
+    common_name: str
+    scientific_name: str
+    confidence: float
+
+
+@dataclass
+class InternalSimilarSpecies:
+    plant_id: str
+    name: str
+    similarity: float
+
+
+@dataclass
+class InternalImageResult:
+    image_id: str
+    quality_acceptable: bool
+    quality_issues: List[str] = field(default_factory=list)
+    quality_messages: List[str] = field(default_factory=list)
+
+    status: str = "UNKNOWN"
+    plant_id: Optional[str] = None
+    confidence: float = 0.0
+
+    alternatives: List[InternalAlternative] = field(
+        default_factory=list
+    )
+    similar_species: List[InternalSimilarSpecies] = field(
+        default_factory=list
+    )
+
+    heatmap_url: Optional[str] = None
+    evidence_type: str = "OTHER"
+    observation_id: Optional[str] = None
+
+
+@dataclass
+class InternalFusionResult:
+    status: str = "UNKNOWN"
+    plant_id: Optional[str] = None
+    confidence: float = 0.0
+    alternatives: List[InternalAlternative] = field(
+        default_factory=list
+    )
+    similar_species: List[InternalSimilarSpecies] = field(
+        default_factory=list
+    )
+
+
+class ResponseBuilder:
+    @staticmethod
+    def _safe_confidence(value: Any) -> float:
+        try:
+            value = float(value)
+        except (TypeError, ValueError):
+            return 0.0
+
+        if value != value:
+            return 0.0
+
+        return max(0.0, min(1.0, value))
+
+    @staticmethod
+    def _normalise_status(status: str) -> str:
+        return (
+            "KNOWN"
+            if str(status).upper() == "KNOWN"
+            else "UNKNOWN"
+        )
+
+    def _build_alternatives(
+        self,
+        alternatives: List[InternalAlternative],
+    ) -> List[AlternativeResponse]:
+        return [
+            AlternativeResponse(
+                plant_id=item.plant_id,
+                common_name=item.common_name,
+                scientific_name=item.scientific_name,
+                confidence=self._safe_confidence(
+                    item.confidence
+                ),
+            )
+            for item in alternatives
+        ]
+
+    def _build_similar_species(
+        self,
+        similar_species: List[InternalSimilarSpecies],
+    ) -> List[SimilarSpeciesResponse]:
+        return [
+            SimilarSpeciesResponse(
+                plant_id=item.plant_id,
+                name=item.name,
+                similarity=self._safe_confidence(
+                    item.similarity
+                ),
+            )
+            for item in similar_species
+        ]
+
+    def _build_quality(
+        self,
+        result: InternalImageResult,
+    ) -> ImageQualityResponse:
+        return ImageQualityResponse(
+            acceptable=bool(result.quality_acceptable),
+            issues=list(result.quality_issues),
+        )
+
+    def _build_identification(
+        self,
+        result: InternalImageResult,
+    ) -> IdentificationResponse:
+        status = self._normalise_status(result.status)
+
+        plant_id = (
+            result.plant_id if status == "KNOWN" else None
+        )
+        confidence = self._safe_confidence(result.confidence)
+
+        if status == "UNKNOWN":
+            confidence = 0.0
+
+        return IdentificationResponse(
+            status=status,
+            plant_id=plant_id,
+            confidence=confidence,
+        )
+
+    def _build_explanation(
+        self,
+        result: InternalImageResult,
+    ) -> ExplanationResponse:
+        return ExplanationResponse(
+            method="GRAD_CAM",
+            heatmap_url=result.heatmap_url,
+        )
+
+    @staticmethod
+    def _build_warnings(
+        results: List[InternalImageResult],
+    ) -> List[str]:
+        warnings = []
+
+        for result in results:
+            for message in result.quality_messages:
+                if message and message not in warnings:
+                    warnings.append(message)
+
+            if not result.quality_acceptable:
+                warning = (
+                    f"Image '{result.image_id}' did not pass "
+                    "the image-quality checks."
+                )
+                if warning not in warnings:
+                    warnings.append(warning)
+
+        return warnings
+
+    def build_single_image_response(
+        self,
+        request_id: str,
+        result: InternalImageResult,
+        model_version: str = "dravya-v2",
+    ) -> AIResponse:
+        return AIResponse(
+            request_id=request_id,
+            model_version=model_version,
+            image_quality=self._build_quality(result),
+            identification=self._build_identification(result),
+            alternatives=self._build_alternatives(
+                result.alternatives
+            ),
+            similar_species=self._build_similar_species(
+                result.similar_species
+            ),
+            explanation=self._build_explanation(result),
+            multi_image=MultiImageResponse(
+                used=False,
+                image_count=1,
+            ),
+            warnings=self._build_warnings([result]),
+        )
+
+    def build_multi_image_response(
+        self,
+        request_id: str,
+        image_results: List[InternalImageResult],
+        fusion_result: Optional[Any] = None,
+        model_version: str = "dravya-v2",
+    ) -> AIResponse:
+        if not image_results:
+            raise ValueError(
+                "At least one image result is required."
+            )
+
+        usable_results = [
+            result
+            for result in image_results
+            if result.quality_acceptable
+        ]
+
+        if fusion_result is not None:
+            status = self._normalise_status(
+                getattr(fusion_result, "status", "UNKNOWN")
+            )
+            plant_id = getattr(
+                fusion_result, "plant_id", None
+            )
+            confidence = self._safe_confidence(
+                getattr(fusion_result, "confidence", 0.0)
+            )
+            alternatives = list(
+                getattr(fusion_result, "alternatives", []) or []
+            )
+            similar_species = list(
+                getattr(
+                    fusion_result, "similar_species", []
+                ) or []
+            )
+
+            if status != "KNOWN":
+                plant_id = None
+                confidence = 0.0
+        else:
+            status = "UNKNOWN"
+            plant_id = None
+            confidence = 0.0
+            alternatives = []
+            similar_species = []
+
+            if len(usable_results) == 1:
+                single = usable_results[0]
+                status = self._normalise_status(single.status)
+                plant_id = (
+                    single.plant_id
+                    if status == "KNOWN"
+                    else None
+                )
+                confidence = (
+                    self._safe_confidence(single.confidence)
+                    if status == "KNOWN"
+                    else 0.0
+                )
+                alternatives = list(single.alternatives)
+                similar_species = list(single.similar_species)
+
+        selected_result = next(
+            (
+                result
+                for result in usable_results
+                if result.heatmap_url
+            ),
+            image_results[0],
+        )
+
+        combined_result = InternalImageResult(
+            image_id="multi_image",
+            quality_acceptable=bool(usable_results),
+            quality_issues=[
+                issue
+                for result in image_results
+                for issue in result.quality_issues
+            ],
+            quality_messages=[],
+            status=status,
+            plant_id=plant_id,
+            confidence=confidence,
+            alternatives=alternatives,
+            similar_species=similar_species,
+            heatmap_url=selected_result.heatmap_url,
+        )
+
+        return AIResponse(
+            request_id=request_id,
+            model_version=model_version,
+            image_quality=ImageQualityResponse(
+                acceptable=bool(usable_results),
+                issues=combined_result.quality_issues,
+            ),
+            identification=self._build_identification(
+                combined_result
+            ),
+            alternatives=self._build_alternatives(alternatives),
+            similar_species=self._build_similar_species(
+                similar_species
+            ),
+            explanation=self._build_explanation(
+                combined_result
+            ),
+            multi_image=MultiImageResponse(
+                used=len(usable_results) > 1,
+                image_count=len(image_results),
+            ),
+            warnings=self._build_warnings(image_results),
+        )
+
+
+===== FILE: .\app\schemas\response_builder.py =====
+
+from dataclasses import dataclass, field
+from typing import List, Optional, Any
+
+from app.schemas.response import (
+    AIResponse,
+    ImageQualityResponse,
+    IdentificationResponse,
+    AlternativeResponse,
+    SimilarSpeciesResponse,
+    ExplanationResponse,
+    MultiImageResponse,
+)
+
+
+@dataclass
+class InternalAlternative:
+    plant_id: str
+    common_name: str
+    scientific_name: str
+    confidence: float
+
+
+@dataclass
+class InternalSimilarSpecies:
+    plant_id: str
+    name: str
+    similarity: float
+
+
+@dataclass
+class InternalImageResult:
+    image_id: str
+    quality_acceptable: bool
+    quality_issues: List[str] = field(default_factory=list)
+    quality_messages: List[str] = field(default_factory=list)
+
+    status: str = "UNKNOWN"
+    plant_id: Optional[str] = None
+    confidence: float = 0.0
+
+    alternatives: List[InternalAlternative] = field(
+        default_factory=list
+    )
+    similar_species: List[InternalSimilarSpecies] = field(
+        default_factory=list
+    )
+
+    heatmap_url: Optional[str] = None
+    evidence_type: str = "OTHER"
+    observation_id: Optional[str] = None
+
+
+@dataclass
+class InternalFusionResult:
+    status: str = "UNKNOWN"
+    plant_id: Optional[str] = None
+    confidence: float = 0.0
+    alternatives: List[InternalAlternative] = field(
+        default_factory=list
+    )
+    similar_species: List[InternalSimilarSpecies] = field(
+        default_factory=list
+    )
+
+
+class ResponseBuilder:
+    def __init__(self):
+        pass
+
+    @staticmethod
+    def _safe_confidence(value: Any) -> float:
+        try:
+            value = float(value)
+        except (TypeError, ValueError):
+            return 0.0
+
+        if value != value:  # NaN
+            return 0.0
+
+        return max(0.0, min(1.0, value))
+
+    @staticmethod
+    def _normalise_status(status: str) -> str:
+        return "KNOWN" if str(status).upper() == "KNOWN" else "UNKNOWN"
+
+    def _build_alternatives(
+        self,
+        alternatives: List[InternalAlternative],
+    ) -> List[AlternativeResponse]:
+        output = []
+
+        for item in alternatives:
+            output.append(
+                AlternativeResponse(
+                    plant_id=item.plant_id,
+                    common_name=item.common_name,
+                    scientific_name=item.scientific_name,
+                    confidence=self._safe_confidence(
+                        item.confidence
+                    ),
+                )
+            )
+
+        return output
+
+    def _build_similar_species(
+        self,
+        similar_species: List[InternalSimilarSpecies],
+    ) -> List[SimilarSpeciesResponse]:
+        output = []
+
+        for item in similar_species:
+            output.append(
+                SimilarSpeciesResponse(
+                    plant_id=item.plant_id,
+                    name=item.name,
+                    similarity=self._safe_confidence(
+                        item.similarity
+                    ),
+                )
+            )
+
+        return output
+
+    def _build_quality(
+        self,
+        result: InternalImageResult,
+    ) -> ImageQualityResponse:
+        return ImageQualityResponse(
+            acceptable=bool(result.quality_acceptable),
+            issues=list(result.quality_issues),
+        )
+
+    def _build_identification(
+        self,
+        result: InternalImageResult,
+    ) -> IdentificationResponse:
+        status = self._normalise_status(result.status)
+
+        plant_id = result.plant_id if status == "KNOWN" else None
+        confidence = self._safe_confidence(result.confidence)
+
+        if status == "UNKNOWN":
+            confidence = 0.0
+
+        return IdentificationResponse(
+            status=status,
+            plant_id=plant_id,
+            confidence=confidence,
+        )
+
+    def _build_explanation(
+        self,
+        result: InternalImageResult,
+    ) -> ExplanationResponse:
+        return ExplanationResponse(
+            method="GRAD_CAM",
+            heatmap_url=result.heatmap_url,
+        )
+
+    @staticmethod
+    def _build_warnings(
+        results: List[InternalImageResult],
+    ) -> List[str]:
+        warnings = []
+
+        for result in results:
+            for message in result.quality_messages:
+                if message and message not in warnings:
+                    warnings.append(message)
+
+            if not result.quality_acceptable:
+                warning = (
+                    f"Image '{result.image_id}' did not pass "
+                    "the image-quality checks."
+                )
+                if warning not in warnings:
+                    warnings.append(warning)
+
+        return warnings
+
+    def build_single_image_response(
+        self,
+        request_id: str,
+        result: InternalImageResult,
+        model_version: str = "dravya-v2",
+    ) -> AIResponse:
+        return AIResponse(
+            request_id=request_id,
+            model_version=model_version,
+            image_quality=self._build_quality(result),
+            identification=self._build_identification(result),
+            alternatives=self._build_alternatives(
+                result.alternatives
+            ),
+            similar_species=self._build_similar_species(
+                result.similar_species
+            ),
+            explanation=self._build_explanation(result),
+            multi_image=None,
+            warnings=self._build_warnings([result]),
+        )
+
+    def build_multi_image_response(
+        self,
+        request_id: str,
+        image_results: List[InternalImageResult],
+        fusion_result: Optional[Any] = None,
+        model_version: str = "dravya-v2",
+    ) -> AIResponse:
+        if not image_results:
+            raise ValueError(
+                "At least one image result is required."
+            )
+
+        usable_results = [
+            result
+            for result in image_results
+            if result.quality_acceptable
+        ]
+
+        if fusion_result is not None:
+            status = self._normalise_status(
+                getattr(fusion_result, "status", "UNKNOWN")
+            )
+            plant_id = getattr(fusion_result, "plant_id", None)
+            confidence = self._safe_confidence(
+                getattr(fusion_result, "confidence", 0.0)
+            )
+
+            if status != "KNOWN":
+                plant_id = None
+                confidence = 0.0
+
+            alternatives = list(
+                getattr(fusion_result, "alternatives", []) or []
+            )
+            similar_species = list(
+                getattr(fusion_result, "similar_species", []) or []
+            )
+        else:
+            status = "UNKNOWN"
+            plant_id = None
+            confidence = 0.0
+            alternatives = []
+            similar_species = []
+
+            # If only one image passed quality checks, retain its
+            # result. Do not guess a fused result for multiple images.
+            if len(usable_results) == 1:
+                single = usable_results[0]
+                status = self._normalise_status(single.status)
+                plant_id = (
+                    single.plant_id if status == "KNOWN" else None
+                )
+                confidence = (
+                    self._safe_confidence(single.confidence)
+                    if status == "KNOWN"
+                    else 0.0
+                )
+                alternatives = list(single.alternatives)
+                similar_species = list(single.similar_species)
+
+        selected_result = next(
+            (
+                result
+                for result in usable_results
+                if result.heatmap_url
+            ),
+            image_results[0],
+        )
+
+        combined_result = InternalImageResult(
+            image_id="multi_image",
+            quality_acceptable=bool(usable_results),
+            quality_issues=[
+                issue
+                for result in image_results
+                for issue in result.quality_issues
+            ],
+            quality_messages=[],
+            status=status,
+            plant_id=plant_id,
+            confidence=confidence,
+            alternatives=alternatives,
+            similar_species=similar_species,
+            heatmap_url=selected_result.heatmap_url,
+        )
+
+        return AIResponse(
+            request_id=request_id,
+            model_version=model_version,
+            image_quality=ImageQualityResponse(
+                acceptable=bool(usable_results),
+                issues=combined_result.quality_issues,
+            ),
+            identification=self._build_identification(
+                combined_result
+            ),
+            alternatives=self._build_alternatives(alternatives),
+            similar_species=self._build_similar_species(
+                similar_species
+            ),
+            explanation=self._build_explanation(
+                combined_result
+            ),
+            multi_image=MultiImageResponse(
+                used=len(usable_results) > 1,
+                image_count=len(image_results),
+            ),
+            warnings=self._build_warnings(image_results),
+        )
+
+
+===== FILE: .\app\inference\unknown_detector.py =====
+
+from dataclasses import dataclass
+from typing import Optional
+
+
+@dataclass
+class UnknownDetectionResult:
+    status: str
+    classifier_confidence: float
+    embedding_similarity: Optional[float]
+    accepted: bool
+    reason: str
+
+
+class UnknownDetector:
+    """Reject predictions that fall below configured thresholds."""
+
+    def __init__(
+        self,
+        confidence_threshold: float = 0.70,
+        embedding_threshold: float = 0.50,
+    ) -> None:
+        if not 0.0 <= confidence_threshold <= 1.0:
+            raise ValueError(
+                "confidence_threshold must be between 0 and 1."
+            )
+
+        if not 0.0 <= embedding_threshold <= 1.0:
+            raise ValueError(
+                "embedding_threshold must be between 0 and 1."
+            )
+
+        self.confidence_threshold = confidence_threshold
+        self.embedding_threshold = embedding_threshold
+
+    def detect(
+        self,
+        classifier_confidence: float,
+        embedding_similarity: Optional[float] = None,
+    ) -> UnknownDetectionResult:
+        if not 0.0 <= classifier_confidence <= 1.0:
+            raise ValueError(
+                "classifier_confidence must be between 0 and 1."
+            )
+
+        if embedding_similarity is not None:
+            if not 0.0 <= embedding_similarity <= 1.0:
+                raise ValueError(
+                    "embedding_similarity must be between 0 and 1."
+                )
+
+        confidence_pass = (
+            classifier_confidence >= self.confidence_threshold
+        )
+
+        if embedding_similarity is not None:
+            similarity_pass = (
+                embedding_similarity >= self.embedding_threshold
+            )
+
+            if confidence_pass and similarity_pass:
+                return UnknownDetectionResult(
+                    status="KNOWN",
+                    classifier_confidence=classifier_confidence,
+                    embedding_similarity=embedding_similarity,
+                    accepted=True,
+                    reason="Confidence and embedding thresholds passed.",
+                )
+
+            reason = (
+                "Classifier confidence below threshold."
+                if not confidence_pass
+                else "Embedding similarity below threshold."
+            )
+
+            return UnknownDetectionResult(
+                status="UNKNOWN",
+                classifier_confidence=classifier_confidence,
+                embedding_similarity=embedding_similarity,
+                accepted=False,
+                reason=reason,
+            )
+
+        if confidence_pass:
+            return UnknownDetectionResult(
+                status="KNOWN",
+                classifier_confidence=classifier_confidence,
+                embedding_similarity=None,
+                accepted=True,
+                reason=(
+                    "Classifier confidence passed; "
+                    "embedding similarity is unavailable."
+                ),
+            )
+
+        return UnknownDetectionResult(
+            status="UNKNOWN",
+            classifier_confidence=classifier_confidence,
+            embedding_similarity=None,
+            accepted=False,
+            reason="Classifier confidence below threshold.",
+        )
+
+    def update_thresholds(
+        self,
+        confidence_threshold: float,
+        embedding_threshold: float,
+    ) -> None:
+        if not 0.0 <= confidence_threshold <= 1.0:
+            raise ValueError(
+                "confidence_threshold must be between 0 and 1."
+            )
+
+        if not 0.0 <= embedding_threshold <= 1.0:
+            raise ValueError(
+                "embedding_threshold must be between 0 and 1."
+            )
+
+        self.confidence_threshold = confidence_threshold
+        self.embedding_threshold = embedding_threshold
+
+
+def build_unknown_detector(
+    confidence_threshold: float = 0.70,
+    embedding_threshold: float = 0.50,
+) -> UnknownDetector:
+    return UnknownDetector(
+        confidence_threshold=confidence_threshold,
+        embedding_threshold=embedding_threshold,
+    )
+
+
+if __name__ == "__main__":
+    detector = build_unknown_detector()
+
+    known_result = detector.detect(
+        classifier_confidence=0.91,
+        embedding_similarity=0.82,
+    )
+
+    unknown_result = detector.detect(
+        classifier_confidence=0.42,
+        embedding_similarity=0.31,
+    )
+
+    print("Unknown detector smoke test completed.")
+    print("Example 1:", known_result)
+    print("Example 2:", unknown_result)
+
+
+===== FILE: .\app\multi_image\evidence_fusion.py =====
+"""
+DravyaSetu AI Service
+Multi-image evidence fusion.
+
+Combines predictions from multiple images belonging to the
+same plant/observation.
+
+The system preserves:
+- per-image prediction
+- per-image confidence
+- evidence type
+- observation ID
+
+This module does NOT perform classification.
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+from typing import Optional
+
+
+@dataclass
+class ImageEvidence:
+    """
+    Prediction information for one image.
+    """
+
+    image_id: str
+    predicted_class: int
+    confidence: float
+    evidence_type: str
+    observation_id: Optional[str] = None
+
+
+@dataclass
+class FusedPrediction:
+    """
+    Final result after combining multiple images.
+    """
+
+    predicted_class: int
+    confidence: float
+    image_count: int
+    supporting_images: list[str]
+
+
+class EvidenceFusion:
+    """
+    Combines multiple image predictions.
+
+    Evidence-type weights are deliberately conservative.
+    They are configuration values and can later be tuned using
+    validation data.
+
+    The fusion strategy:
+        1. Group evidence by predicted class.
+        2. Weight each prediction by evidence reliability.
+        3. Combine supporting evidence.
+        4. Normalize the resulting scores.
+    """
+
+    DEFAULT_WEIGHTS = {
+        "WHOLE_PLANT": 1.00,
+        "LEAF": 1.00,
+        "FLOWER": 0.95,
+        "FRUIT": 0.95,
+        "STEM_BARK": 0.85,
+        "ROOT": 0.80,
+        "SEED": 0.75,
+        "OTHER": 0.70,
+    }
+
+    def __init__(
+        self,
+        evidence_weights: Optional[
+            dict[str, float]
+        ] = None,
+    ) -> None:
+
+        self.evidence_weights = (
+            evidence_weights.copy()
+            if evidence_weights is not None
+            else self.DEFAULT_WEIGHTS.copy()
+        )
+
+        for evidence_type, weight in (
+            self.evidence_weights.items()
+        ):
+            if weight < 0:
+                raise ValueError(
+                    f"Weight for {evidence_type} "
+                    "cannot be negative."
+                )
+
+    def get_weight(
+        self,
+        evidence_type: str,
+    ) -> float:
+        """
+        Return the reliability weight for an evidence type.
+        """
+
+        return self.evidence_weights.get(
+            evidence_type.upper(),
+            self.evidence_weights["OTHER"],
+        )
+
+    def fuse(
+        self,
+        evidence: list[ImageEvidence],
+    ) -> FusedPrediction:
+        """
+        Fuse predictions from multiple images.
+
+        Args:
+            evidence:
+                List of image-level predictions.
+
+        Returns:
+            FusedPrediction.
+        """
+
+        if not evidence:
+            raise ValueError(
+                "At least one image evidence item is required."
+            )
+
+        class_scores: dict[int, float] = {}
+
+        image_support: dict[int, list[str]] = {}
+
+        total_weight = 0.0
+
+        for item in evidence:
+
+            if not 0.0 <= item.confidence <= 1.0:
+                raise ValueError(
+                    f"Invalid confidence for "
+                    f"{item.image_id}."
+                )
+
+            weight = self.get_weight(
+                item.evidence_type
+            )
+
+            weighted_score = (
+                item.confidence * weight
+            )
+
+            class_scores[item.predicted_class] = (
+                class_scores.get(
+                    item.predicted_class,
+                    0.0,
+                )
+                + weighted_score
+            )
+
+            image_support.setdefault(
+                item.predicted_class,
+                [],
+            ).append(item.image_id)
+
+            total_weight += weight
+
+        if total_weight <= 0:
+            raise ValueError(
+                "Total evidence weight must be positive."
+            )
+
+        # Select the class with the strongest
+        # accumulated evidence.
+        predicted_class = max(
+            class_scores,
+            key=class_scores.get,
+        )
+
+        raw_score = class_scores[
+            predicted_class
+        ]
+
+        # Normalize the winning score.
+        fused_confidence = (
+            raw_score / total_weight
+        )
+
+        fused_confidence = max(
+            0.0,
+            min(
+                1.0,
+                fused_confidence,
+            ),
+        )
+
+        return FusedPrediction(
+            predicted_class=predicted_class,
+            confidence=fused_confidence,
+            image_count=len(evidence),
+            supporting_images=image_support[
+                predicted_class
+            ],
+        )
+
+
+def build_evidence_fusion() -> EvidenceFusion:
+    """
+    Factory function.
+    """
+
+    return EvidenceFusion()
+
+
+if __name__ == "__main__":
+    # CPU-only smoke test.
+    #
+    # These predictions are illustrative values.
+    # They are NOT produced by a trained model.
+
+    fusion = build_evidence_fusion()
+
+    evidence = [
+        ImageEvidence(
+            image_id="image_001",
+            predicted_class=7,
+            confidence=0.82,
+            evidence_type="LEAF",
+            observation_id="obs_001",
+        ),
+        ImageEvidence(
+            image_id="image_002",
+            predicted_class=7,
+            confidence=0.91,
+            evidence_type="FLOWER",
+            observation_id="obs_001",
+        ),
+        ImageEvidence(
+            image_id="image_003",
+            predicted_class=7,
+            confidence=0.78,
+            evidence_type="WHOLE_PLANT",
+            observation_id="obs_001",
+        ),
+        ImageEvidence(
+            image_id="image_004",
+            predicted_class=12,
+            confidence=0.60,
+            evidence_type="LEAF",
+            observation_id="obs_001",
+        ),
+    ]
+
+    result = fusion.fuse(evidence)
+
+    print("Evidence fusion test passed.")
+    print(
+        f"Predicted class: "
+        f"{result.predicted_class}"
+    )
+    print(
+        f"Fused confidence: "
+        f"{result.confidence:.4f}"
+    )
+    print(
+        f"Images used: "
+        f"{result.image_count}"
+    )
+    print(
+        f"Supporting images: "
+        f"{result.supporting_images}"
+    )
+
+
+===== FILE: .\app\inference\predictor.py =====
+
+"""DravyaSetu trained plant prediction pipeline."""
+
+from __future__ import annotations
+
+import json
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Union
+
+import torch
+from PIL import Image
+
+from app.models.classifier import DravyaSetuClassifier
+from app.preprocessing.image_preprocessor import ImagePreprocessor
+from app.inference.confidence import ConfidenceCalculator
+
+
+ImageInput = Union[str, Path, Image.Image]
+
+# Project paths
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+MODEL_DIR = PROJECT_ROOT / "artifacts" / "models"
+WEIGHTS_PATH = MODEL_DIR / "efficientnet_v2_s.pth"
+MAPPING_PATH = MODEL_DIR / "class_mapping.json"
+
+
+@dataclass
+class NamedPrediction:
+    """Prediction for one plant class."""
+
+    class_index: int
+    class_name: str
+    confidence: float
+
+
+@dataclass
+class PredictionResult:
+    """Top prediction and alternative predictions."""
+
+    top_prediction: NamedPrediction
+    alternatives: list[NamedPrediction]
+
+
+class PlantPredictor:
+    """Predict plant classes using the trained DravyaSetu model."""
+
+    def __init__(
+        self,
+        model: DravyaSetuClassifier,
+        preprocessor: ImagePreprocessor,
+        confidence_calculator: ConfidenceCalculator,
+        class_names: list[str],
+        device: str | torch.device = "cpu",
+    ) -> None:
+        if len(class_names) != model.num_classes:
+            raise ValueError(
+                "Class mapping count does not match model output count."
+            )
+
+        self.model = model
+        self.preprocessor = preprocessor
+        self.confidence_calculator = confidence_calculator
+        self.class_names = class_names
+        self.device = torch.device(device)
+
+        self.model.to(self.device)
+        self.model.eval()
+
+    @torch.no_grad()
+    def predict(
+        self,
+        image: ImageInput,
+        top_k: int = 5,
+    ) -> PredictionResult:
+        """Predict the most likely plant classes for an image."""
+
+        if top_k <= 0:
+            raise ValueError("top_k must be greater than 0.")
+
+        # Convert the input image into a normalized model tensor.
+        tensor = self.preprocessor.preprocess(image).to(self.device)
+
+        # Run the trained classifier.
+        logits = self.model(tensor)
+
+        # Calculate the top-k class predictions.
+        predictions = self.confidence_calculator.top_k(
+            logits,
+            k=min(top_k, len(self.class_names)),
+        )[0]
+
+        named_predictions = [
+            NamedPrediction(
+                class_index=prediction.class_index,
+                class_name=self.class_names[prediction.class_index],
+                confidence=prediction.confidence,
+            )
+            for prediction in predictions
+        ]
+
+        return PredictionResult(
+            top_prediction=named_predictions[0],
+            alternatives=named_predictions,
+        )
+
+
+def build_predictor(
+    num_classes: int = 34,
+    pretrained: bool = False,
+    device: str = "cpu",
+) -> PlantPredictor:
+    """Load the trained checkpoint and construct a plant predictor."""
+
+    if not WEIGHTS_PATH.is_file():
+        raise FileNotFoundError(
+            f"Trained model checkpoint not found: {WEIGHTS_PATH}"
+        )
+
+    if not MAPPING_PATH.is_file():
+        raise FileNotFoundError(
+            f"Class mapping file not found: {MAPPING_PATH}"
+        )
+
+    # Load class mapping.
+    with MAPPING_PATH.open("r", encoding="utf-8") as file:
+        mapping = json.load(file)
+
+    try:
+        class_names = [mapping[str(index)] for index in range(num_classes)]
+    except KeyError as exc:
+        raise ValueError(
+            f"Class mapping is missing index {exc}."
+        ) from exc
+
+    # Build the same model architecture used for training.
+    model = DravyaSetuClassifier(
+        num_classes=num_classes,
+        pretrained=pretrained,
+    )
+
+    # Load the trained weights.
+    state_dict = torch.load(
+        WEIGHTS_PATH,
+        map_location="cpu",
+        weights_only=True,
+    )
+
+    model.model.load_state_dict(state_dict, strict=True)
+
+    # Create preprocessing and confidence components.
+    preprocessor = ImagePreprocessor(image_size=300)
+    confidence_calculator = ConfidenceCalculator(temperature=1.0)
+
+    return PlantPredictor(
+        model=model,
+        preprocessor=preprocessor,
+        confidence_calculator=confidence_calculator,
+        class_names=class_names,
+        device=device,
+    )
+
+
+if __name__ == "__main__":
+    predictor = build_predictor()
+
+    print("DravyaSetu predictor loaded successfully.")
+    print("Number of classes:", len(predictor.class_names))
+    print("Device:", predictor.device)
+    print("Model checkpoint:", WEIGHTS_PATH)
+
+
+===== FILE: .\app\schemas\response.py =====
+"""
+DravyaSetu AI Service
+Canonical response models.
+
+These models represent the EXACT external contract defined by:
+
+shared/contracts/ai-response.schema.json
+
+Internal AI modules may contain much more information.
+Only these fields are exposed to Person 2 / Spring Boot.
+"""
+
+from typing import List, Optional, Literal
+
+from pydantic import BaseModel, ConfigDict, Field
+
+
+# ----------------------------------------------------------------------
+# Image Quality
+# ----------------------------------------------------------------------
+
+class ImageQualityResponse(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    acceptable: bool
+    issues: List[str]
+
+
+# ----------------------------------------------------------------------
+# Identification
+# ----------------------------------------------------------------------
+
+class IdentificationResponse(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    status: Literal["KNOWN", "UNKNOWN"]
+    plant_id: Optional[str] = None
+    confidence: float = Field(
+        ge=0.0,
+        le=1.0,
+    )
+
+
+# ----------------------------------------------------------------------
+# Alternative prediction
+# ----------------------------------------------------------------------
+
+class AlternativeResponse(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    plant_id: str = Field(min_length=1)
+    common_name: str = Field(min_length=1)
+    scientific_name: str = Field(min_length=1)
+    confidence: float = Field(
+        ge=0.0,
+        le=1.0,
+    )
+
+
+# ----------------------------------------------------------------------
+# Similar species
+# ----------------------------------------------------------------------
+
+class SimilarSpeciesResponse(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    plant_id: str = Field(min_length=1)
+    name: str = Field(min_length=1)
+    similarity: float = Field(
+        ge=0.0,
+        le=1.0,
+    )
+
+
+# ----------------------------------------------------------------------
+# Explanation
+# ----------------------------------------------------------------------
+
+class ExplanationResponse(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    method: Literal["GRAD_CAM"]
+    heatmap_url: Optional[str] = None
+
+
+# ----------------------------------------------------------------------
+# Multi-image
+# ----------------------------------------------------------------------
+
+class MultiImageResponse(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    used: bool
+    image_count: int = Field(
+        ge=1,
+    )
+
+
+# ----------------------------------------------------------------------
+# Complete AI Response
+# ----------------------------------------------------------------------
+
+class AIResponse(BaseModel):
+    """
+    Canonical response returned by:
+
+        POST /ai/analyze
+
+    This model intentionally contains ONLY fields allowed by
+    ai-response.schema.json.
+    """
+
+    model_config = ConfigDict(extra="forbid")
+
+    request_id: str = Field(min_length=1)
+    model_version: str = Field(min_length=1)
+
+    image_quality: ImageQualityResponse
+
+    identification: IdentificationResponse
+
+    alternatives: List[AlternativeResponse]
+
+    similar_species: List[SimilarSpeciesResponse]
+
+    explanation: ExplanationResponse
+
+    multi_image: MultiImageResponse
+
+    warnings: List[str]
+
+
+# ----------------------------------------------------------------------
+# Convenience validation helper
+# ----------------------------------------------------------------------
+
+def validate_ai_response(response: AIResponse) -> AIResponse:
+    """
+    Validate an AIResponse before it crosses the API boundary.
+
+    Pydantic performs:
+        - required-field validation
+        - type validation
+        - enum validation
+        - range validation
+        - extra-field rejection
+    """
+
+    return AIResponse.model_validate(response)
+
+
+# ----------------------------------------------------------------------
+# JSON helper
+# ----------------------------------------------------------------------
+
+def ai_response_to_dict(response: AIResponse) -> dict:
+    """
+    Convert the validated response into a JSON-compatible dictionary.
+    """
+
+    validated = validate_ai_response(response)
+
+    return validated.model_dump(
+        mode="json",
+    )
+
+
+# ----------------------------------------------------------------------
+# Smoke test
+# ----------------------------------------------------------------------
+
+if __name__ == "__main__":
+
+    print("Running AI response schema smoke test...")
+
+    response = AIResponse(
+        request_id="test-request-001",
+        model_version="dravya-v2-test",
+
+        image_quality=ImageQualityResponse(
+            acceptable=True,
+            issues=[],
+        ),
+
+        identification=IdentificationResponse(
+            status="KNOWN",
+            plant_id="Tulasi",
+            confidence=0.94,
+        ),
+
+        alternatives=[
+            AlternativeResponse(
+                plant_id="Tulasi",
+                common_name="Holy Basil",
+                scientific_name="Ocimum tenuiflorum",
+                confidence=0.94,
+            ),
+            AlternativeResponse(
+                plant_id="Mint",
+                common_name="Mint",
+                scientific_name="Mentha",
+                confidence=0.03,
+            ),
+        ],
+
+        similar_species=[
+            SimilarSpeciesResponse(
+                plant_id="Mint",
+                name="Mint",
+                similarity=0.87,
+            ),
+        ],
+
+        explanation=ExplanationResponse(
+            method="GRAD_CAM",
+            heatmap_url=None,
+        ),
+
+        multi_image=MultiImageResponse(
+            used=False,
+            image_count=1,
+        ),
+
+        warnings=[],
+    )
+
+    validated = validate_ai_response(response)
+
+    print("Schema validation: PASSED")
+    print()
+    print("Generated response:")
+    print(validated.model_dump_json(indent=2))
+
+    print()
+    print("AI response schema smoke test completed.")
+
+

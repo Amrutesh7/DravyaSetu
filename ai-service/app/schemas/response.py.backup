@@ -1,0 +1,427 @@
+"""
+DravyaSetu V2 - Image Quality Checker
+
+Hard inference gate:
+    PASS -> image may proceed to the classifier
+    FAIL -> classifier must NOT run
+
+The quality checker is an internal component.
+It does NOT construct the final ai-response.schema.json response.
+"""
+
+from dataclasses import dataclass, field
+from pathlib import Path
+from typing import List, Union
+
+import cv2
+import numpy as np
+from PIL import Image
+
+
+@dataclass
+class QualityResult:
+    """Internal result produced by the image quality gate."""
+
+    acceptable: bool
+    score: float
+
+    width: int
+    height: int
+    aspect_ratio: float
+
+    brightness: float
+    blur_score: float
+
+    issues: List[str] = field(default_factory=list)
+    user_messages: List[str] = field(default_factory=list)
+
+    @property
+    def passed(self) -> bool:
+        """Alias used by the inference pipeline."""
+        return self.acceptable
+
+
+class ImageQualityChecker:
+    """
+    Checks whether an uploaded image is suitable for plant identification.
+
+    The classifier MUST NOT be called when acceptable=False.
+    """
+
+    def __init__(
+        self,
+        min_width: int = 384,
+        min_height: int = 384,
+        min_blur_score: float = 35.0,
+        min_brightness: float = 25.0,
+        max_brightness: float = 235.0,
+        min_quality_score: float = 0.45,
+        min_aspect_ratio: float = 0.25,
+        max_aspect_ratio: float = 4.0,
+    ):
+        self.min_width = min_width
+        self.min_height = min_height
+
+        self.min_blur_score = min_blur_score
+
+        self.min_brightness = min_brightness
+        self.max_brightness = max_brightness
+
+        self.min_quality_score = min_quality_score
+
+        self.min_aspect_ratio = min_aspect_ratio
+        self.max_aspect_ratio = max_aspect_ratio
+
+    # ------------------------------------------------------------------
+    # Image loading
+    # ------------------------------------------------------------------
+
+    def _load_image(self, image: Union[str, Path, Image.Image]) -> Image.Image:
+        """Load and validate an image."""
+
+        if isinstance(image, Image.Image):
+            return image.convert("RGB")
+
+        image_path = Path(image)
+
+        if not image_path.exists():
+            raise FileNotFoundError(f"Image does not exist: {image_path}")
+
+        with Image.open(image_path) as img:
+            img.verify()
+
+        with Image.open(image_path) as img:
+            return img.convert("RGB")
+
+    # ------------------------------------------------------------------
+    # Individual quality measurements
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def _brightness(image: np.ndarray) -> float:
+        """Return average grayscale brightness in range 0-255."""
+
+        gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
+        return float(np.mean(gray))
+
+    @staticmethod
+    def _blur_score(image: np.ndarray) -> float:
+        """
+        Estimate sharpness using variance of the Laplacian.
+
+        Higher values generally indicate a sharper image.
+        """
+
+        gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
+
+        return float(cv2.Laplacian(gray, cv2.CV_64F).var())
+
+    @staticmethod
+    def _aspect_ratio(width: int, height: int) -> float:
+        if height == 0:
+            return 0.0
+
+        return float(width / height)
+
+    # ------------------------------------------------------------------
+    # User-facing messages
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def _message_for_issue(issue: str) -> str:
+        messages = {
+            "IMAGE_NOT_FOUND":
+                "We couldn't find the uploaded image. Please upload the image again.",
+
+            "CORRUPTED_IMAGE":
+                "We couldn't read this image. Please upload the image again.",
+
+            "LOW_RESOLUTION":
+                "The image resolution is too low. Please upload a higher-quality photo.",
+
+            "BLURRY":
+                "The image is too blurry to identify the plant. Please upload a sharper photo.",
+
+            "TOO_DARK":
+                "The image is too dark to analyze clearly. Please upload a brighter photo.",
+
+            "OVEREXPOSED":
+                "The image is overexposed. Please upload a photo with better lighting.",
+
+            "INVALID_ASPECT_RATIO":
+                "The image shape is unsuitable for analysis. Please upload a clearer plant photo.",
+
+            "INSUFFICIENT_EVIDENCE":
+                "The plant isn't clearly visible. Please upload a photo showing the leaf or whole plant.",
+
+            "QUALITY_SCORE_LOW":
+                "The image quality is insufficient for reliable identification. Please upload a clearer photo.",
+        }
+
+        return messages.get(
+            issue,
+            "The image quality is insufficient. Please upload a clearer photo."
+        )
+
+    # ------------------------------------------------------------------
+    # Quality score
+    # ------------------------------------------------------------------
+
+    def _calculate_quality_score(
+        self,
+        blur_score: float,
+        brightness: float,
+        width: int,
+        height: int,
+    ) -> float:
+        """
+        Calculate an internal quality score in [0, 1].
+
+        This score is NOT exposed directly through the current API schema.
+        """
+
+        # Sharpness component.
+        # 35 = minimum acceptable sharpness.
+        # 300 = comfortably sharp reference point.
+        sharpness_score = np.clip(
+            (blur_score - self.min_blur_score)
+            / (300.0 - self.min_blur_score),
+            0.0,
+            1.0,
+        )
+
+        # Brightness component.
+        if brightness < self.min_brightness:
+            brightness_score = brightness / self.min_brightness
+        elif brightness > self.max_brightness:
+            brightness_score = (
+                255.0 - brightness
+            ) / (255.0 - self.max_brightness)
+        else:
+            brightness_score = 1.0
+
+        brightness_score = float(
+            np.clip(brightness_score, 0.0, 1.0)
+        )
+
+        # Resolution component.
+        width_score = np.clip(
+            width / self.min_width,
+            0.0,
+            1.0,
+        )
+
+        height_score = np.clip(
+            height / self.min_height,
+            0.0,
+            1.0,
+        )
+
+        resolution_score = float(
+            min(width_score, height_score)
+        )
+
+        # Weighted internal score.
+        score = (
+            0.45 * sharpness_score
+            + 0.30 * brightness_score
+            + 0.25 * resolution_score
+        )
+
+        return float(np.clip(score, 0.0, 1.0))
+
+    # ------------------------------------------------------------------
+    # Main check
+    # ------------------------------------------------------------------
+
+    def check(
+        self,
+        image: Union[str, Path, Image.Image],
+    ) -> QualityResult:
+        """
+        Run the quality gate.
+
+        If the image fails, the caller MUST NOT send it to the classifier.
+        """
+
+        issues: List[str] = []
+        user_messages: List[str] = []
+
+        # --------------------------------------------------------------
+        # Load / decode
+        # --------------------------------------------------------------
+
+        try:
+            pil_image = self._load_image(image)
+
+        except FileNotFoundError:
+            return QualityResult(
+                acceptable=False,
+                score=0.0,
+                width=0,
+                height=0,
+                aspect_ratio=0.0,
+                brightness=0.0,
+                blur_score=0.0,
+                issues=["IMAGE_NOT_FOUND"],
+                user_messages=[
+                    self._message_for_issue("IMAGE_NOT_FOUND")
+                ],
+            )
+
+        except Exception:
+            return QualityResult(
+                acceptable=False,
+                score=0.0,
+                width=0,
+                height=0,
+                aspect_ratio=0.0,
+                brightness=0.0,
+                blur_score=0.0,
+                issues=["CORRUPTED_IMAGE"],
+                user_messages=[
+                    self._message_for_issue("CORRUPTED_IMAGE")
+                ],
+            )
+
+        # --------------------------------------------------------------
+        # Convert to NumPy
+        # --------------------------------------------------------------
+
+        image_array = np.asarray(pil_image)
+
+        height, width = image_array.shape[:2]
+
+        aspect_ratio = self._aspect_ratio(width, height)
+
+        brightness = self._brightness(image_array)
+
+        blur_score = self._blur_score(image_array)
+
+        # --------------------------------------------------------------
+        # Resolution
+        # --------------------------------------------------------------
+
+        if width < self.min_width or height < self.min_height:
+            issues.append("LOW_RESOLUTION")
+
+        # --------------------------------------------------------------
+        # Aspect ratio
+        # --------------------------------------------------------------
+
+        if (
+            aspect_ratio < self.min_aspect_ratio
+            or aspect_ratio > self.max_aspect_ratio
+        ):
+            issues.append("INVALID_ASPECT_RATIO")
+
+        # --------------------------------------------------------------
+        # Brightness
+        # --------------------------------------------------------------
+
+        if brightness < self.min_brightness:
+            issues.append("TOO_DARK")
+
+        elif brightness > self.max_brightness:
+            issues.append("OVEREXPOSED")
+
+        # --------------------------------------------------------------
+        # Blur
+        # --------------------------------------------------------------
+
+        if blur_score < self.min_blur_score:
+            issues.append("BLURRY")
+
+        # --------------------------------------------------------------
+        # Internal quality score
+        # --------------------------------------------------------------
+
+        score = self._calculate_quality_score(
+            blur_score=blur_score,
+            brightness=brightness,
+            width=width,
+            height=height,
+        )
+
+        if score < self.min_quality_score:
+            issues.append("QUALITY_SCORE_LOW")
+
+        # Remove duplicates while preserving order.
+        issues = list(dict.fromkeys(issues))
+
+        # --------------------------------------------------------------
+        # User messages
+        # --------------------------------------------------------------
+
+        for issue in issues:
+            message = self._message_for_issue(issue)
+
+            if message not in user_messages:
+                user_messages.append(message)
+
+        # --------------------------------------------------------------
+        # Final gate
+        # --------------------------------------------------------------
+
+        acceptable = len(issues) == 0
+
+        return QualityResult(
+            acceptable=acceptable,
+            score=score,
+            width=width,
+            height=height,
+            aspect_ratio=aspect_ratio,
+            brightness=brightness,
+            blur_score=blur_score,
+            issues=issues,
+            user_messages=user_messages,
+        )
+
+
+def build_quality_checker(**kwargs) -> ImageQualityChecker:
+    """Factory function."""
+
+    return ImageQualityChecker(**kwargs)
+
+
+# ----------------------------------------------------------------------
+# CPU smoke test
+# ----------------------------------------------------------------------
+
+if __name__ == "__main__":
+    import tempfile
+
+    print("Running ImageQualityChecker smoke test...")
+
+    checker = build_quality_checker()
+
+    # Create a synthetic test image.
+    test_image = Image.fromarray(
+        np.full(
+            (512, 512, 3),
+            128,
+            dtype=np.uint8,
+        )
+    )
+
+    with tempfile.NamedTemporaryFile(
+        suffix=".jpg",
+        delete=False,
+    ) as tmp:
+
+        test_path = tmp.name
+        test_image.save(test_path)
+
+    result = checker.check(test_path)
+
+    print("Acceptable:", result.acceptable)
+    print("Score:", round(result.score, 4))
+    print("Resolution:", result.width, "x", result.height)
+    print("Brightness:", round(result.brightness, 2))
+    print("Blur score:", round(result.blur_score, 2))
+    print("Issues:", result.issues)
+    print("User messages:", result.user_messages)
+
+    Path(test_path).unlink(missing_ok=True)
+
+    print("Quality checker smoke test completed.")

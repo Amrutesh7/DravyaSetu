@@ -1,0 +1,12 @@
+{
+  "images_found": 612,
+  "images_processed": 612,
+  "processing_errors": 0,
+  "correct": 602,
+  "incorrect": 10,
+  "accuracy": 0.9836601307189542,
+  "macro_precision": 0.9839718782249742,
+  "macro_recall": 0.9836601307189544,
+  "macro_f1": 0.9833542233196212,
+  "weighted_f1": 0.9833542233196213
+}
