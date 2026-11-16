@@ -4,7 +4,7 @@
 fastapi
 uvicorn[standard]
 qdrant-client
-sentence-transformers
+fastembed
 httpx
 google-genai
 python-dotenv

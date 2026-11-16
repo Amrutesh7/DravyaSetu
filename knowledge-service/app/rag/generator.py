@@ -6,7 +6,7 @@ answer ONLY from those chunks -> return answer + sources.
 Environment variables:
   GEMINI_API_KEY   your Google AI Studio key (required)
   LLM_MODELS       optional, comma separated, in preference order.
-                   default: gemini-3.8-flash,gemini-3.6-flash,gemini-3.1-flash-lite
+                   default: gemini-3.8-flash,gemini-3.6-flash,gemini-3.1-flash-lite,gemini-2.5-flash
   RAG_MIN_SCORE    minimum similarity to use a chunk (default 0.25, tune it)
 
 Quick tests (from knowledge-service/):
@@ -15,8 +15,8 @@ Quick tests (from knowledge-service/):
 """
 import argparse
 import json
+import logging
 import os
-import sys
 import time
 from functools import lru_cache
 
@@ -27,13 +27,15 @@ from google.genai import errors, types
 from app.knowledge.sources import build_cited_sources
 from app.rag.retriever import get_client, search
 
+logger = logging.getLogger("dravyasetu.generator")
+
 MIN_SCORE = float(os.getenv("RAG_MIN_SCORE", "0.25"))
 REQUEST_TIMEOUT_MS = 30_000
 MODEL_CHAIN = [
     m.strip()
     for m in os.getenv(
         "LLM_MODELS",
-        "gemini-3.8-flash,gemini-3.6-flash,gemini-3.1-flash-lite",
+        "gemini-3.8-flash,gemini-3.6-flash,gemini-3.1-flash-lite,gemini-2.5-flash",
     ).split(",")
     if m.strip()
 ]
@@ -120,7 +122,7 @@ def _call_llm(system: str, user: str, retries: int = 2) -> str:
         delay = 2
         for attempt in range(1, retries + 1):
             try:
-                print(f"[llm] {model} (attempt {attempt}/{retries})...", file=sys.stderr, flush=True)
+                logger.info("Calling Gemini model=%s (attempt %d/%d)", model, attempt, retries)
                 r = client.models.generate_content(
                     model=model,
                     contents=user,
@@ -128,27 +130,27 @@ def _call_llm(system: str, user: str, retries: int = 2) -> str:
                 )
                 if r.text:
                     return r.text
-                print(f"[llm] {model} returned empty text, next model", file=sys.stderr, flush=True)
+                logger.warning("Gemini model=%s returned empty text; trying next model", model)
                 last_err = RuntimeError(f"{model} returned empty text")
                 break
             except errors.ServerError as e:  # 500/503 overloaded
-                print(f"[llm] {model} server busy, waiting {delay}s", file=sys.stderr, flush=True)
+                logger.warning("Gemini model=%s server busy, waiting %ds", model, delay)
                 last_err = e
                 time.sleep(delay)
                 delay *= 2
             except (httpx.TimeoutException, httpx.TransportError) as e:
-                print(f"[llm] {model} timed out / network error, next model", file=sys.stderr, flush=True)
+                logger.warning("Gemini model=%s timed out / network error; trying next model", model)
                 last_err = e
                 break
             except errors.ClientError as e:
                 code = getattr(e, "code", None)
                 if code == 429:
-                    print(f"[llm] {model} rate-limited, waiting {delay}s", file=sys.stderr, flush=True)
+                    logger.warning("Gemini model=%s rate-limited, waiting %ds", model, delay)
                     last_err = e
                     time.sleep(delay)
                     delay *= 2
                 elif code == 404:
-                    print(f"[llm] model '{model}' not found, next model", file=sys.stderr, flush=True)
+                    logger.warning("Gemini model='%s' not found (404); trying next model", model)
                     last_err = e
                     break
                 else:
@@ -159,14 +161,15 @@ def _call_llm(system: str, user: str, retries: int = 2) -> str:
 def answer(query: str, plant_id: str | None = None, top_k: int = 5, debug: bool = False) -> dict:
     """plant_id: PLANT_xxx to restrict to one plant, 'GENERAL' for WHO general
     info, or None to search all plants (GENERAL excluded)."""
-    print("[1/2] retrieving...", file=sys.stderr, flush=True)
     hits = [h for h in search(query, plant_id, top_k) if h["score"] >= MIN_SCORE]
     if plant_id != "GENERAL":  # never mix general WHO text into plant answers
         hits = [h for h in hits if h.get("plant_id") not in ("GENERAL", None)]
     if not hits:
+        logger.info("No chunks passed MIN_SCORE=%.2f for plant_id=%s", MIN_SCORE, plant_id)
         return {"answer": NO_INFO, "sources": []}
 
-    print(f"[2/2] asking Gemini with {len(hits)} chunks...", file=sys.stderr, flush=True)
+    t0 = time.perf_counter()
+    logger.info("Gemini generation started (chunks=%d)", len(hits))
     user = f"Context passages:\n\n{build_context(hits)}\n\nQuestion: {query}"
 
     try:
@@ -174,11 +177,13 @@ def answer(query: str, plant_id: str | None = None, top_k: int = 5, debug: bool 
     except RuntimeError as exc:
         if str(exc) == "Set GEMINI_API_KEY in your environment.":
             raise
-        print(f"[llm] Gemini request failed: {exc}", file=sys.stderr, flush=True)
+        logger.exception("Gemini request failed: %s", exc)
         return {
             "answer": "The answer service is busy. Please try again shortly.",
             "sources": [],
         }
+
+    logger.info("Gemini generation completed in %.2fs", time.perf_counter() - t0)
 
     if text.strip().startswith("NOT_COVERED"):
         return {"answer": text.replace("NOT_COVERED:", "").strip(), "sources": []}
@@ -186,12 +191,20 @@ def answer(query: str, plant_id: str | None = None, top_k: int = 5, debug: bool 
     text, sources = build_cited_sources(text, hits)
     result = {"answer": text, "sources": sources}
     if debug:  # internal only, never send to the frontend
-        result["debug"] = [{"plant_id": h["plant_id"], "file": h["source_file"],
-                            "section": h["section"], "score": h["score"]} for h in hits]
+        result["debug"] = [
+            {
+                "plant_id": h["plant_id"],
+                "file": h["source_file"],
+                "section": h["section"],
+                "score": h["score"],
+            }
+            for h in hits
+        ]
     return result
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
     ap = argparse.ArgumentParser()
     ap.add_argument("query", nargs="?")
     ap.add_argument("--plant", default=None)
@@ -209,12 +222,10 @@ if __name__ == "__main__":
         if not (os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")):
             ap.error("GEMINI_API_KEY is not set. Set it before running the generator.")
         result = answer(args.query, args.plant, args.k, args.debug)
-        # The command-line response is always the same JSON shape as the API.
-        # Keep retrieval diagnostics on stderr and internal debug out of JSON.
         print(json.dumps({"answer": result["answer"], "sources": result["sources"]},
                          indent=2, ensure_ascii=False))
 
     if _get_llm_client.cache_info().currsize:
         _get_llm_client().close()
     if get_client.cache_info().currsize:
-        get_client().close()  # avoids the 'sys.meta_path is None' message at exit
+        get_client().close()

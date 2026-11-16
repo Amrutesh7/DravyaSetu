@@ -1,7 +1,7 @@
 """Qdrant retriever for the DravyaSetu RAG layer.
 
 Qdrant location:
-  - env QDRANT_URL set (e.g. http://localhost:6333)  -> Qdrant server (Docker)
+  - env QDRANT_URL set (e.g. http://localhost:6333)  -> Qdrant server (Docker / Cloud)
   - otherwise                                        -> local folder
     knowledge-base/qdrant_data (no server needed)
 
@@ -14,7 +14,9 @@ Quick test (from knowledge-service/):
   python -m app.rag.retriever "uses of pudina" --plant PLANT_023
 """
 import argparse
+import logging
 import os
+import time
 from functools import lru_cache
 from pathlib import Path
 
@@ -22,6 +24,8 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import FieldCondition, Filter, MatchValue
 
 from app.rag.embeddings import embed_query
+
+logger = logging.getLogger("dravyasetu.retriever")
 
 BASE = Path(__file__).resolve().parents[2]
 COLLECTION = "dravyasetu_plants"
@@ -34,11 +38,14 @@ def get_client() -> QdrantClient:
     api_key = os.getenv("QDRANT_API_KEY")
 
     if url:
+        logger.info("Initializing Qdrant Cloud client")
         return QdrantClient(
             url=url,
-            api_key=api_key
+            api_key=api_key,
+            timeout=15.0,
         )
 
+    logger.info("Initializing local Qdrant client at %s", LOCAL_PATH)
     return QdrantClient(path=str(LOCAL_PATH))
 
 
@@ -46,17 +53,29 @@ def search(query: str, plant_id: str | None = None, top_k: int = 5) -> list[dict
     cond = FieldCondition(key="plant_id", match=MatchValue(value=plant_id or "GENERAL"))
     flt = Filter(must=[cond]) if plant_id else Filter(must_not=[cond])
 
+    query_vec = embed_query(query)
+
+    t0 = time.perf_counter()
+    logger.info(
+        "Qdrant retrieval started (collection=%s, plant_id=%s, top_k=%d)",
+        COLLECTION,
+        plant_id,
+        top_k,
+    )
     res = get_client().query_points(
         collection_name=COLLECTION,
-        query=embed_query(query),
+        query=query_vec,
         query_filter=flt,
         limit=top_k,
         with_payload=True,
     )
-    return [{"score": round(p.score, 4), **p.payload} for p in res.points]
+    hits = [{"score": round(p.score, 4), **p.payload} for p in res.points]
+    logger.info("Qdrant retrieval completed in %.2fs (hits=%d)", time.perf_counter() - t0, len(hits))
+    return hits
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
     ap = argparse.ArgumentParser()
     ap.add_argument("query")
     ap.add_argument("--plant", default=None, help="PLANT_xxx or GENERAL")
