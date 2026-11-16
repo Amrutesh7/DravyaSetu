@@ -17,6 +17,7 @@ BASE = Path(__file__).resolve().parents[2]          # knowledge-service/
 REGISTRY_PATH = BASE / "knowledge-base" / "sources_registry.json"
 
 _CITE_RE = re.compile(r"\[(\d+(?:\s*,\s*\d+)*)\]")
+_CITE_RUN_RE = re.compile(r"\[(\d+)\](?:\s*,\s*\[(\d+)\])+")
 
 
 def stem_of(source_file: str) -> str:
@@ -74,8 +75,23 @@ def build_cited_sources(text: str, hits: list[dict]) -> tuple[str, list[dict]]:
         return "[" + ", ".join(map(str, shown)) + "]" if shown else ""
 
     new_text = _CITE_RE.sub(repl, text)
+
+    # Several passage citations can resolve to the same source number. When
+    # those citations are grouped together, show each source only once.
+    def dedupe_cite_run(match: re.Match) -> str:
+        refs = re.findall(r"\d+", match.group(0))
+        unique = list(dict.fromkeys(refs))
+        return ", ".join(f"[{ref}]" for ref in unique)
+
+    new_text = _CITE_RUN_RE.sub(dedupe_cite_run, new_text)
+    # Keep source metadata in the response, while presenting clean prose in
+    # the answer text shown by clients that do not render citation markers.
+    new_text = _CITE_RE.sub("", new_text)
+    new_text = re.sub(r"[ \t]+([,.;:!?])", r"\1", new_text)
     if not order:                       # nothing valid cited -> list all retrieved sources
         for h in hits:
             register(h)
-    sources = [{"ref": n, **meta[sid]} for sid, n in sorted(order.items(), key=lambda x: x[1])]
+    # Keep the public source records to the documented shape. Citation numbers
+    # remain in the answer text; they do not need to be duplicated in metadata.
+    sources = [meta[sid] for sid, _ in sorted(order.items(), key=lambda x: x[1])]
     return new_text, sources

@@ -5,8 +5,8 @@ fastapi
 uvicorn[standard]
 qdrant-client
 sentence-transformers
-google-genai
 httpx
+google-genai
 python-dotenv
 pydantic
 python-multipart

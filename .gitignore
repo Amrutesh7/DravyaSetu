@@ -1,1 +1,19 @@
+# Environment variables
+.env
+.env.*
+!.env.example
 knowledge-service/.env
+
+# Python environments
+.venv/
+venv/
+knowledge-service/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local Qdrant database
+knowledge-service/knowledge-base/qdrant_data/
+# Node
+node_modules/

@@ -31,8 +31,14 @@ LOCAL_PATH = BASE / "knowledge-base" / "qdrant_data"
 @lru_cache(maxsize=1)
 def get_client() -> QdrantClient:
     url = os.getenv("QDRANT_URL")
+    api_key = os.getenv("QDRANT_API_KEY")
+
     if url:
-        return QdrantClient(url=url)
+        return QdrantClient(
+            url=url,
+            api_key=api_key
+        )
+
     return QdrantClient(path=str(LOCAL_PATH))
 
 
