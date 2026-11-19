@@ -1,0 +1,12 @@
+{
+  "architecture": "EfficientNet_V2_S",
+  "num_classes": 34,
+  "image_size": 300,
+  "best_epoch": 8,
+  "best_validation_accuracy": 0.9803921568627451,
+  "test_accuracy": 0.9836601307189542,
+  "framework": "PyTorch",
+  "pretrained_weights": "ImageNet",
+  "class_mapping_file": "class_mapping.json",
+  "weights_file": "efficientnet_v2_s.pth"
+}

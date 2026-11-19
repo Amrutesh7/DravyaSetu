@@ -1,3 +1,4 @@
+
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/Amrutesh7/DravyaSetu/blob/main/shared/contracts/ai-response.schema.json",
@@ -147,10 +148,11 @@
           ]
         },
         "heatmap_url": {
-          "type": [
-            "string",
-            "null"
-          ]
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
         }
       }
     },
