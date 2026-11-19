@@ -10,10 +10,15 @@
 Purpose: analyze one or more plant images and return the canonical AI response.
 
 ## Request
-The request is sent by Person 2 and contains:
-- `request_id`
-- one or more plant images
-- plant-part metadata when available
+The request is sent by Person 2 as `POST /ai/analyze` with
+`Content-Type: application/json`. `X-Request-Id` carries the same value as
+`request_id`.
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| `request_id` | string (UUID) | yes | Identification-level id; also sent as the `X-Request-Id` header |
+| `image` | array of strings | yes | One or more image URLs. Images live in cloud storage; each element is the URL of one image |
+| `plant_part` | string | no | Plant-part metadata when the client supplied it; omit when unknown |
 
 Documented plant-part values:
 - `LEAF`
@@ -22,7 +27,23 @@ Documented plant-part values:
 - `ROOT`
 - `BARK`
 
-The exact multipart field names are an implementation detail and MUST be identical between Person 1 and Person 2.
+```json
+{
+  "request_id": "3f1c9a52-8a4e-4f6b-9d0e-1a2b3c4d5e6f",
+  "image": [
+    "https://storage.example/plants/3f1c/leaf-1.jpg?X-Amz-Expires=600&X-Amz-Signature=...",
+    "https://storage.example/plants/3f1c/leaf-2.jpg?X-Amz-Expires=600&X-Amz-Signature=..."
+  ],
+  "plant_part": "LEAF"
+}
+```
+
+`plant_part` is optional; omit the key entirely when the part is unknown. URLs are
+short-lived signed URLs, so Person 1 must fetch each image within the URL lifetime.
+
+> Implementation status: the running backend still sends the previous
+> multipart binary form until the cloud-storage upload path is implemented. This
+> document is the agreed target contract for Person 1.
 
 ## Response
 The response MUST conform to `shared/contracts/ai-response.schema.json`.
