@@ -1,4 +1,3 @@
-
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/Amrutesh7/DravyaSetu/blob/main/shared/contracts/ai-response.schema.json",
@@ -138,7 +137,7 @@
       "additionalProperties": false,
       "required": [
         "method",
-        "heatmap_url"
+        "heatmaps"
       ],
       "properties": {
         "method": {
@@ -147,11 +146,32 @@
             "GRAD_CAM"
           ]
         },
-        "heatmap_url": {
+        "heatmaps": {
           "type": "array",
           "items": {
-            "type": "string",
-            "format": "uri"
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "image_index",
+              "image_data",
+              "media_type"
+            ],
+            "properties": {
+              "image_index": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "image_data": {
+                "type": "string",
+                "contentEncoding": "base64"
+              },
+              "media_type": {
+                "type": "string",
+                "enum": [
+                  "image/jpeg"
+                ]
+              }
+            }
           }
         }
       }

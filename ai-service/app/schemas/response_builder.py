@@ -1,4 +1,5 @@
-﻿
+﻿"""Build DravyaSetu API responses."""
+
 from dataclasses import dataclass, field
 from typing import Any, List, Optional
 import math
@@ -9,6 +10,7 @@ from app.schemas.response import (
     IdentificationResponse,
     AlternativeResponse,
     SimilarSpeciesResponse,
+    HeatmapPayloadResponse,
     ExplanationResponse,
     MultiImageResponse,
 )
@@ -35,14 +37,30 @@ class InternalImageResult:
     quality_acceptable: bool
     quality_issues: List[str] = field(default_factory=list)
     quality_messages: List[str] = field(default_factory=list)
+
     status: str = "UNKNOWN"
     plant_id: Optional[str] = None
+
+    # Internal model prediction details.
+    # These fields do not appear in the public API response.
+    class_index: Optional[int] = None
+    predicted_class_name: Optional[str] = None
+
     confidence: float = 0.0
     alternatives: List[InternalAlternative] = field(default_factory=list)
-    similar_species: List[InternalSimilarSpecies] = field(default_factory=list)
+    similar_species: List[InternalSimilarSpecies] = field(
+        default_factory=list
+    )
+
+    # Grad-CAM image payload.
+    heatmap_data: Optional[str] = None
+    heatmap_media_type: str = "image/jpeg"
+
+    # Internal/debug artifact paths.
     heatmap_url: Optional[str] = None
     overlay_url: Optional[str] = None
     original_image_url: Optional[str] = None
+
     evidence_type: str = "OTHER"
     observation_id: Optional[str] = None
 
@@ -53,10 +71,13 @@ class InternalFusionResult:
     plant_id: Optional[str] = None
     confidence: float = 0.0
     alternatives: List[InternalAlternative] = field(default_factory=list)
-    similar_species: List[InternalSimilarSpecies] = field(default_factory=list)
+    similar_species: List[InternalSimilarSpecies] = field(
+        default_factory=list
+    )
 
 
 class ResponseBuilder:
+
     @staticmethod
     def _safe_confidence(value: Any) -> float:
         try:
@@ -76,7 +97,22 @@ class ResponseBuilder:
     def _build_alternatives(
         self,
         alternatives: List[InternalAlternative],
+        primary_plant_id: Optional[str] = None,
     ) -> List[AlternativeResponse]:
+        # Remove the identified plant from the alternatives.
+        filtered = [
+            item
+            for item in alternatives
+            if item.plant_id != primary_plant_id
+        ]
+
+        # Sort by the original classifier confidence.
+        # Confidence values are NOT renormalised.
+        filtered.sort(
+            key=lambda item: self._safe_confidence(item.confidence),
+            reverse=True,
+        )
+
         return [
             AlternativeResponse(
                 plant_id=item.plant_id,
@@ -84,7 +120,7 @@ class ResponseBuilder:
                 scientific_name=item.scientific_name,
                 confidence=self._safe_confidence(item.confidence),
             )
-            for item in alternatives
+            for item in filtered
         ]
 
     def _build_similar_species(
@@ -114,27 +150,50 @@ class ResponseBuilder:
         result: InternalImageResult,
     ) -> IdentificationResponse:
         status = self._normalise_status(result.status)
-        plant_id = result.plant_id if status == "KNOWN" else None
-        confidence = (
-            self._safe_confidence(result.confidence)
-            if status == "KNOWN"
-            else 0.0
-        )
+
+        # Unacceptable-quality or UNKNOWN results must not expose
+        # classifier confidence as identification confidence.
+        if not result.quality_acceptable or status != "KNOWN":
+            return IdentificationResponse(
+                status="UNKNOWN",
+                plant_id=None,
+                confidence=0.0,
+            )
 
         return IdentificationResponse(
-            status=status,
-            plant_id=plant_id,
-            confidence=confidence,
+            status="KNOWN",
+            plant_id=result.plant_id,
+            confidence=self._safe_confidence(result.confidence),
         )
 
-    
-    def _build_explanation(self, result: InternalImageResult) -> ExplanationResponse:
+    def _build_explanation(
+        self,
+        results: List[InternalImageResult],
+    ) -> ExplanationResponse:
+        heatmaps = []
+
+        # Preserve the original upload order.
+        # image_index is 1-based and refers to the original uploaded image.
+        for image_index, result in enumerate(results, start=1):
+            if not result.heatmap_data:
+                continue
+
+            heatmaps.append(
+                HeatmapPayloadResponse(
+                    image_index=image_index,
+                    image_data=result.heatmap_data,
+                    media_type=result.heatmap_media_type,
+                )
+            )
+
         return ExplanationResponse(
             method="GRAD_CAM",
-            heatmap_url=result.heatmap_url,
+            heatmaps=heatmaps,
         )
 
-    def _build_warnings(self, results: List[InternalImageResult],
+    def _build_warnings(
+        self,
+        results: List[InternalImageResult],
     ) -> List[str]:
         warnings = []
 
@@ -164,11 +223,18 @@ class ResponseBuilder:
             model_version=model_version,
             image_quality=self._build_quality(result),
             identification=self._build_identification(result),
-            alternatives=self._build_alternatives(result.alternatives),
+            alternatives=self._build_alternatives(
+                result.alternatives,
+                primary_plant_id=(
+                    result.plant_id
+                    if result.status == "KNOWN"
+                    else None
+                ),
+            ),
             similar_species=self._build_similar_species(
                 result.similar_species
             ),
-            explanation=self._build_explanation(result),
+            explanation=self._build_explanation([result]),
             multi_image=MultiImageResponse(
                 used=False,
                 image_count=1,
@@ -187,7 +253,8 @@ class ResponseBuilder:
             raise ValueError("At least one image result is required.")
 
         usable_results = [
-            result for result in image_results
+            result
+            for result in image_results
             if result.quality_acceptable
         ]
 
@@ -199,27 +266,37 @@ class ResponseBuilder:
 
         if fusion_result is not None and usable_results:
             fused_class = getattr(
-                fusion_result, "predicted_class", None
+                fusion_result,
+                "predicted_class",
+                None,
             )
 
             matching_result = next(
                 (
                     result for result in usable_results
-                    if result.plant_id is not None
-                    and str(result.plant_id) == str(fused_class)
+                    if result.class_index == fused_class
                 ),
                 None,
             )
 
             if matching_result is not None:
-                status = self._normalise_status(
-                    matching_result.status
+                # A fusion result must explicitly be accepted.
+                fusion_accepted = bool(
+                    getattr(fusion_result, "accepted", False)
                 )
+
+                if fusion_accepted:
+                    status = self._normalise_status(
+                        matching_result.status
+                    )
+
                 plant_id = (
                     matching_result.plant_id
                     if status == "KNOWN"
                     else None
                 )
+
+                # Only accepted KNOWN identifications expose confidence.
                 confidence = (
                     self._safe_confidence(
                         getattr(fusion_result, "confidence", 0.0)
@@ -227,6 +304,7 @@ class ResponseBuilder:
                     if status == "KNOWN"
                     else 0.0
                 )
+
                 alternatives = list(matching_result.alternatives)
                 similar_species = list(
                     matching_result.similar_species
@@ -235,23 +313,24 @@ class ResponseBuilder:
         elif len(usable_results) == 1:
             single = usable_results[0]
             status = self._normalise_status(single.status)
-            plant_id = single.plant_id if status == "KNOWN" else None
+
+            plant_id = (
+                single.plant_id
+                if status == "KNOWN"
+                else None
+            )
+
             confidence = (
                 self._safe_confidence(single.confidence)
                 if status == "KNOWN"
                 else 0.0
             )
+
             alternatives = list(single.alternatives)
             similar_species = list(single.similar_species)
 
-        selected_result = next(
-            (
-                result for result in usable_results
-                if result.heatmap_url
-            ),
-            image_results[0],
-        )
-
+        # Keep identification and explanation independent.
+        # Heatmaps are collected from EVERY uploaded image result.
         combined_result = InternalImageResult(
             image_id="multi_image",
             quality_acceptable=bool(usable_results),
@@ -266,9 +345,6 @@ class ResponseBuilder:
             confidence=confidence,
             alternatives=alternatives,
             similar_species=similar_species,
-            heatmap_url=selected_result.heatmap_url,
-            overlay_url=selected_result.overlay_url,
-            original_image_url=selected_result.original_image_url,
         )
 
         return AIResponse(
@@ -278,14 +354,22 @@ class ResponseBuilder:
                 acceptable=bool(usable_results),
                 issues=combined_result.quality_issues,
             ),
-            identification=self._build_identification(combined_result),
-            alternatives=self._build_alternatives(alternatives),
-            similar_species=self._build_similar_species(similar_species),
-            explanation=self._build_explanation(combined_result),
+            identification=self._build_identification(
+                combined_result
+            ),
+            alternatives=self._build_alternatives(
+                alternatives,
+                primary_plant_id=(
+                    plant_id if status == "KNOWN" else None
+                ),
+            ),
+            similar_species=self._build_similar_species(
+                similar_species
+            ),
+            explanation=self._build_explanation(image_results),
             multi_image=MultiImageResponse(
                 used=len(image_results) > 1,
                 image_count=len(image_results),
             ),
             warnings=self._build_warnings(image_results),
         )
-

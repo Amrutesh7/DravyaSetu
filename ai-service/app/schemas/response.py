@@ -32,9 +32,15 @@ class SimilarSpeciesResponse(StrictResponseModel):
     similarity: float = Field(ge=0.0, le=1.0)
 
 
+class HeatmapPayloadResponse(StrictResponseModel):
+    image_index: int = Field(ge=1)
+    image_data: str
+    media_type: Literal["image/jpeg"] = "image/jpeg"
+
+
 class ExplanationResponse(StrictResponseModel):
     method: Literal["GRAD_CAM"]
-    heatmap_url: Optional[str]
+    heatmaps: List[HeatmapPayloadResponse]
 
 
 class MultiImageResponse(StrictResponseModel):
