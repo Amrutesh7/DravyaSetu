@@ -123,6 +123,22 @@ exactly to `shared/contracts/plant.schema.json`:
 `GET /api/v1/plants?search=Kumari` uses the same array shape. Internal database IDs,
 timestamps, and application content fields are not part of this identity contract.
 
+Search covers shared plant codes, plant identifiers, common/scientific names and
+regional names. Matching is case-insensitive, with surrounding/repeated whitespace
+normalized. Exact names rank before prefixes, then other substring matches;
+ties have a stable name/plant-code order. `%` and `_` are literal search characters.
+
+When there are no direct matches, queries of at least four characters use a
+conservative typo fallback across plant names. It handles missing/extra/replaced
+letters and adjacent transpositions, returning up to five close matches ordered
+by similarity. For example, `search=tulsi` or `search=tualsi` finds `PLANT_033`
+(Tulasi), and `search=ashwgandha` finds Ashwagandha. Short queries stay strict,
+and numeric shared plant IDs are never typo-corrected. Unrelated queries still
+return `[]`; fuzzy matching does not guarantee a result for every spelling.
+
+The fallback scans the current 34-plant catalogue only after a direct search
+misses. It needs no additional service, PostgreSQL extension or migration.
+
 Plant master/application data is stored by Person 2. Plant knowledge/RAG content remains owned by Person 3.
 
 ## Chat

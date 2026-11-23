@@ -12,11 +12,18 @@ public interface PlantRepository extends JpaRepository<Plant, Long> {
 
     Optional<Plant> findByPlantCode(String plantCode);
 
-    @Query(value = "SELECT * FROM plants " +
-            "WHERE common_name ILIKE %:term% " +
-            "   OR scientific_name ILIKE %:term% " +
-            "   OR EXISTS (SELECT 1 FROM unnest(ayurvedic_regional_names) AS regional(name) " +
-            "              WHERE regional.name ILIKE %:term%)",
-            nativeQuery = true)
+    @Query(value = """
+            SELECT p.* FROM plants p
+            JOIN LATERAL (
+                SELECT min(CASE
+                    WHEN lower(name) = lower(:term) THEN 0
+                    WHEN strpos(lower(name), lower(:term)) = 1 THEN 1
+                    ELSE 2 END) AS priority
+                FROM unnest(ARRAY[p.plant_code, p.plant_identifier, p.common_name,
+                                  p.scientific_name] || p.ayurvedic_regional_names) AS names(name)
+                WHERE strpos(lower(name), lower(:term)) > 0
+            ) matched ON matched.priority IS NOT NULL
+            ORDER BY matched.priority, lower(p.common_name), p.plant_code
+            """, nativeQuery = true)
     List<Plant> searchByTerm(@Param("term") String term);
 }

@@ -142,6 +142,30 @@ class PlantServiceTest {
     }
 
     @Test
+    void successfulStrictSearchDoesNotLoadCatalogueForFuzzyMatching() {
+        Plant tulasi = new Plant(); tulasi.setPlantCode("PLANT_033");
+        when(plantRepository.searchByTerm("Tulasi")).thenReturn(List.of(tulasi));
+        assertEquals(List.of(tulasi), plantService.searchPlants("  Tulasi  "));
+        verify(plantRepository, never()).findAll();
+    }
+
+    @Test
+    void fallsBackToSimilarNamesAfterStrictSearchMisses() {
+        Plant tulasi = new Plant(); tulasi.setPlantCode("PLANT_033");
+        tulasi.setPlantIdentifier("Tulasi"); tulasi.setCommonName("Holy Basil");
+        when(plantRepository.searchByTerm("tulsi")).thenReturn(List.of());
+        when(plantRepository.findAll()).thenReturn(List.of(tulasi));
+        assertEquals(List.of(tulasi), plantService.searchPlants("tulsi"));
+    }
+
+    @Test
+    void shortMissesDoNotTriggerCatalogueScan() {
+        when(plantRepository.searchByTerm("tli")).thenReturn(List.of());
+        assertTrue(plantService.searchPlants("tli").isEmpty());
+        verify(plantRepository, never()).findAll();
+    }
+
+    @Test
     void getPlantById_shouldReturnPlant_whenPlantExists() {
 
         Plant plant = new Plant();

@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.server.ResponseStatusException;
 import java.util.List;
+import java.text.Normalizer;
 
 @Service
 public class PlantService {
@@ -44,9 +45,17 @@ public class PlantService {
         if (search == null || search.isBlank()) {
             return plantRepository.findAll();
         }
-        if (search.trim().length() > 100) {
+        String term = Normalizer.normalize(search, Normalizer.Form.NFKC)
+                .replaceAll("[\\s\\p{Z}]+", " ").strip();
+        if (term.isBlank()) return plantRepository.findAll();
+        if (term.length() > 100) {
             throw new IllegalArgumentException("search must be at most 100 characters");
         }
-        return plantRepository.searchByTerm(search.trim());
+        List<Plant> directMatches = plantRepository.searchByTerm(term);
+        if (!directMatches.isEmpty() || !PlantSearch.isFuzzyQuery(term)) {
+            return directMatches;
+        }
+        // The current catalogue has 34 plants; load it only after a strict search misses.
+        return PlantSearch.similarPlants(plantRepository.findAll(), term);
     }
 }

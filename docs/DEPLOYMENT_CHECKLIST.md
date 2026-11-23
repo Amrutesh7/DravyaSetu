@@ -42,9 +42,19 @@ written configuration as a successful deployment. Never put credentials here.
   of the HTTPS service origin. The local fix uses a relative OpenAPI server and
   the exact `RENDER_EXTERNAL_URL` CORS origin. Keep hosted Swagger registration
   and inbox verification open until the fix is deployed and the user retries.
+  Typo-tolerant plant search is implemented and tested locally; verify `tulsi`
+  finds `PLANT_033` on the hosted service after deploying that change.
 
 ## Verified
 
+- [x] Local plant search improvement (2026-11-23): added ranked literal matching
+  across plant codes, identifiers and common/scientific/regional names. Queries
+  with no direct matches use a conservative, five-result typo fallback for the
+  current 34-plant catalogue. Short queries and shared-ID corrections are excluded
+  from fuzzy matching; canonical identities, API response shapes and migrations
+  are unchanged. All 192 tests passed, including PostgreSQL, spelling/ranking,
+  literal wildcard, authentication and response-contract checks. Hosted verification
+  remains part of D13; no Neon data was changed by these tests.
 - [x] Local Swagger HTTPS fix (2026-11-23): live read-only/invalid-body diagnostics
   confirmed an HTTP-generated OpenAPI server and a 403 for the HTTPS service
   Origin; empty requests without Origin correctly reached validation with 400.
