@@ -33,6 +33,16 @@ written configuration as a successful deployment. Never put credentials here.
 - [ ] D12 Verify the real AI and Knowledge request/response paths in staging. AI is
   currently reported unavailable; readiness remains open until real responses work.
   Voice input stays deferred by agreement.
+  Knowledge diagnostics: direct HTTP requests for PLANT_003/PLANT_033 returned 200
+  and passed the shared schema; the actual standalone Java client succeeded in
+  23.7 seconds. A deployed backend request reproduced 503 after 90.6 seconds,
+  consistent with its configured read deadline. Exact runtime cause is awaiting
+  Render logs; do not claim a contract mismatch or confirmed cold start. The
+  diagnostic request ID is chat-diagnostic-2799260998a94a09b613126ec24f2af4.
+  The user is on the correct runtime Logs page but sees startup output only.
+  Added call-start/completion, status/timing, network-category and response-error
+  logs plus a handler-level request-ID warning. These diagnostics still need
+  deployment; do not mark the actual Knowledge integration fixed by logging alone.
 - [ ] D13 Run final deployed smoke tests: health, registration, email verification,
   login, plant browse/detail, identification, B2 URLs, chat, ownership/history,
   reset, logout. Share HTTPS API URL, Swagger and API documentation with teammate.

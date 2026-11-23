@@ -27,10 +27,10 @@ public class RealKnowledgeClient implements KnowledgeClient {
     private static final Logger log =
             LoggerFactory.getLogger(RealKnowledgeClient.class);
 
-    private static final int MAX_LOGGED_BODY = 500;
-
     private final RestClient restClient;
     private final String askPath;
+    private final int readTimeoutMs;
+    private final String upstreamHost;
 
     public RealKnowledgeClient(
             @Value("${app.knowledge.base-url}") String baseUrl,
@@ -50,11 +50,15 @@ public class RealKnowledgeClient implements KnowledgeClient {
                 .build();
 
         this.askPath = askPath;
+        this.readTimeoutMs = readTimeoutMs;
+        this.upstreamHost = java.net.URI.create(baseUrl).getHost();
     }
 
     @Override
     public KnowledgeResponse ask(KnowledgeRequest request) {
-
+        long started = System.nanoTime();
+        log.info("Knowledge call started: request_id={} host={} read_timeout_ms={}",
+                request.getRequestId(), upstreamHost, readTimeoutMs);
         try {
 
             KnowledgeResponse response =
@@ -73,15 +77,17 @@ public class RealKnowledgeClient implements KnowledgeClient {
                 );
             }
 
+            log.info("Knowledge call completed: request_id={} duration_ms={}",
+                    request.getRequestId(), elapsedMillis(started));
             return response;
 
         } catch (RestClientResponseException e) {
 
             log.warn(
-                    "Knowledge service returned HTTP {} for request_id={}: {}",
+                    "Knowledge service returned HTTP {} for request_id={} duration_ms={}",
                     e.getStatusCode().value(),
                     request.getRequestId(),
-                    abbreviate(e.getResponseBodyAsString())
+                    elapsedMillis(started)
             );
 
             throw new KnowledgeServiceException(
@@ -93,9 +99,11 @@ public class RealKnowledgeClient implements KnowledgeClient {
         } catch (ResourceAccessException e) {
 
             log.warn(
-                    "Knowledge service unreachable or timed out for request_id={}: {}",
+                    "Knowledge service connection failed: request_id={} duration_ms={} reason={} cause={}",
                     request.getRequestId(),
-                    e.getMessage()
+                    elapsedMillis(started),
+                    networkFailure(e.getMostSpecificCause()),
+                    e.getMostSpecificCause().getClass().getSimpleName()
             );
 
             throw new KnowledgeServiceException(
@@ -104,7 +112,8 @@ public class RealKnowledgeClient implements KnowledgeClient {
             );
 
         } catch (RestClientException e) {
-
+            log.warn("Knowledge response could not be read: request_id={} duration_ms={} cause={}",
+                    request.getRequestId(), elapsedMillis(started), e.getMostSpecificCause().getClass().getSimpleName());
             throw new KnowledgeServiceException(
                     "Knowledge service request failed",
                     e
@@ -112,13 +121,18 @@ public class RealKnowledgeClient implements KnowledgeClient {
         }
     }
 
-    private static String abbreviate(String body) {
-        if (body == null) {
-            return "";
+    private static long elapsedMillis(long started) {
+        return java.util.concurrent.TimeUnit.NANOSECONDS.toMillis(System.nanoTime() - started);
+    }
+
+    private static String networkFailure(Throwable cause) {
+        if (cause instanceof java.net.SocketTimeoutException) {
+            String message = cause.getMessage();
+            return message != null && message.toLowerCase(java.util.Locale.ROOT).contains("connect")
+                    ? "CONNECT_TIMEOUT" : "READ_TIMEOUT";
         }
-        String trimmed = body.strip();
-        return trimmed.length() <= MAX_LOGGED_BODY
-                ? trimmed
-                : trimmed.substring(0, MAX_LOGGED_BODY) + "...";
+        if (cause instanceof java.net.UnknownHostException) return "DNS_ERROR";
+        if (cause instanceof javax.net.ssl.SSLException) return "TLS_ERROR";
+        return "NETWORK_ERROR";
     }
 }

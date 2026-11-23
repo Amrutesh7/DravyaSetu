@@ -144,6 +144,8 @@ public class GlobalExceptionHandler {
             KnowledgeServiceException ex,
             HttpServletRequest request) {
 
+        log.warn("Knowledge request failed: request_id={} reason={}",
+                request.getAttribute(RequestIdFilter.REQUEST_ID_HEADER), ex.getMessage());
         return buildResponse(
                 HttpStatus.SERVICE_UNAVAILABLE,
                 "KNOWLEDGE_SERVICE_UNAVAILABLE",

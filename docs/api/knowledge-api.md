@@ -88,7 +88,11 @@ adopt server-side memory later without a wire change.
 ## Error handling
 Knowledge-service failures must be controlled responses, not Python stack traces. The backend
 maps any transport failure, timeout, or non-2xx response to
-`503 KNOWLEDGE_SERVICE_UNAVAILABLE` and logs the upstream status and a truncated response body.
+`503 KNOWLEDGE_SERVICE_UNAVAILABLE`. Runtime logs include the request ID, duration,
+upstream HTTP status or a DNS/TLS/connect/read failure category. Request/response
+bodies are not included in these diagnostic messages. Response validation failures
+also log their request ID and reason. A public 503 alone does not distinguish
+transport failure from an invalid upstream response; inspect the correlated log.
 
 Documented knowledge-domain error codes include:
 - `KNOWLEDGE_NOT_FOUND`
