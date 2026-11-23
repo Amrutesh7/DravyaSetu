@@ -55,9 +55,9 @@ class DatabaseIntegrationTest {
 
         assertNotNull(migrationCount);
         assertEquals(
-                19,
+                26,
                 migrationCount,
-                "Expected V1 to V19 Flyway migrations to be applied"
+                "Expected V1 to V26 Flyway migrations to be applied"
         );
     }
 
@@ -72,7 +72,15 @@ class DatabaseIntegrationTest {
                       'users',
                       'plants',
                       'identifications',
-                      'identification_images'
+                      'identification_images',
+                      'identification_heatmaps',
+                      'pending_registrations',
+                      'password_reset_tokens',
+                      'chat_sessions',
+                      'chat_messages',
+                      'email_otps',
+                      'revoked_tokens',
+                      'auth_audit_log'
                   )
                 """,
                 Integer.class
@@ -80,9 +88,9 @@ class DatabaseIntegrationTest {
 
         assertNotNull(tableCount);
         assertEquals(
-                4,
+                12,
                 tableCount,
-                "Expected all four application tables to exist"
+                "Expected all twelve application tables to exist"
         );
     }
 
@@ -135,6 +143,7 @@ class DatabaseIntegrationTest {
         plant.setPlantIdentifier("RELATIONSHIP-TEST-IDENTIFIER");
         plant.setAyurvedicRegionalNames(new String[]{"Relationship Test Name"});
         plant.setCommonName("Relationship Test Plant");
+        plant.setScientificName("Testus relationshipus");
         Plant savedPlant = plantRepository.saveAndFlush(plant);
         assertNotNull(savedPlant.getId());
 

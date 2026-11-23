@@ -1,81 +1,32 @@
-# DravyaSetu Infrastructure
+# Optional self-hosted infrastructure
 
-This directory contains infrastructure-as-code for deploying DravyaSetu.
+Render deployment uses the root [Blueprint](../render.yaml), managed HTTPS,
+Neon and Brevo. Follow the [deployment guide](../docs/DEPLOYMENT_SETUP.md) and
+[open checklist](../docs/DEPLOYMENT_CHECKLIST.md); the Nginx stack is optional.
 
-## Structure
+For a self-hosted Docker setup, `docker/docker-compose.yml` runs Nginx,
+the Spring Boot backend and PostgreSQL. Supply private environment values from
+your ignored root `.env`; required settings are described in the
+[environment template](../.env.example).
 
-```
-infrastructure/
-├── docker/
-│   └── docker-compose.yml    # Full stack: nginx + backend + postgres
-└── nginx/
-    └── nginx.conf            # Reverse proxy configuration
-```
-
-## Quick Start
-
-### Prerequisites
-- Docker 20.10+
-- Docker Compose 2.0+
-
-### Environment Variables
-Create a `.env` file in `infrastructure/docker/`:
-```bash
-DB_PASSWORD=your-secure-password
-JWT_SECRET=your-32-char-min-secret
-AI_BASE_URL=http://ai-service:8001
-KNOWLEDGE_BASE_URL=http://knowledge-service:8002
+```sh
+docker compose --env-file .env -f infrastructure/docker/docker-compose.yml up --build -d
+docker compose --env-file .env -f infrastructure/docker/docker-compose.yml logs -f backend
+docker compose --env-file .env -f infrastructure/docker/docker-compose.yml down
 ```
 
-### Start Full Stack
-```bash
-cd infrastructure/docker
-docker-compose up --build -d
-```
+Run these commands from the repository root. The public API is
+`http://localhost/api/v1`; `/health` proxies the backend's basic health route.
+PostgreSQL and the backend stay on the Compose network. The bundled Nginx
+configuration listens on HTTP; HTTPS certificates/listeners need separate setup
+for self-hosting. Publishing port 443 alone does not configure TLS.
 
-### Services
-| Service | Port | Description |
-|---------|------|-------------|
-| nginx | 80, 443 | Reverse proxy / SSL termination |
-| backend | 8080 | Spring Boot API (proxied via nginx) |
-| postgres | 5432 | PostgreSQL database |
+Nginx allows a 50 MiB total request and a 360-second upstream wait. It discards
+incoming forwarding claims and sets the client's socket address. Compose fixes
+Nginx at `172.30.77.2`, and the backend trusts only that `/32` for forwarded IPs.
+The network uses `172.30.77.0/24`, with dynamic allocations in `172.30.77.128/25`.
+Change these together if the subnet conflicts with another local network.
 
-### Health Checks
-```bash
-# Via nginx
-curl http://localhost/health
-
-# Direct backend (if exposed)
-curl http://localhost:8080/api/v1/health
-```
-
-### Logs
-```bash
-docker-compose logs -f backend
-docker-compose logs -f nginx
-```
-
-### Stop
-```bash
-docker-compose down
-```
-
-### Clean Volumes (⚠️ deletes DB data)
-```bash
-docker-compose down -v
-```
-
-## Development
-
-For local development without nginx:
-```bash
-cd ../../backend
-./mvnw spring-boot:run
-```
-
-## Production Notes
-
-1. **SSL/TLS**: Add certificates to nginx for HTTPS
-2. **Secrets**: Use Docker secrets or external secret manager
-3. **Scaling**: Backend can be scaled behind nginx
-4. **Backup**: Configure pg_dump cron for postgres volume
+For development without Nginx, use the root Compose file or
+[run Maven directly](../backend/README.md). Preserve database volumes and recovery
+dumps when stopping containers.

@@ -15,7 +15,8 @@ public interface PlantRepository extends JpaRepository<Plant, Long> {
     @Query(value = "SELECT * FROM plants " +
             "WHERE common_name ILIKE %:term% " +
             "   OR scientific_name ILIKE %:term% " +
-            "   OR :term = ANY(ayurvedic_regional_names)",
+            "   OR EXISTS (SELECT 1 FROM unnest(ayurvedic_regional_names) AS regional(name) " +
+            "              WHERE regional.name ILIKE %:term%)",
             nativeQuery = true)
     List<Plant> searchByTerm(@Param("term") String term);
 }

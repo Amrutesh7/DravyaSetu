@@ -35,7 +35,7 @@ public class Plant {
     @Column(name = "common_name", nullable = false, length = 255)
     private String commonName;
 
-    @Column(name = "scientific_name", length = 255)
+    @Column(name = "scientific_name", nullable = false, length = 255)
     private String scientificName;
 
     @Column(name = "family", length = 255)

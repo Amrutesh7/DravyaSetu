@@ -1,0 +1,13 @@
+# Render terminates TLS at its edge and forwards to the private HTTP service port.
+# Keep Hibernate validation and Flyway enabled; use a direct Neon JDBC URL with TLS.
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 5
+      minimum-idle: 0
+      connection-timeout: 30000
+      initialization-fail-timeout: 60000
+
+app:
+  cors:
+    allowed-origin-patterns: ${CORS_ALLOWED_ORIGIN_PATTERNS:http://localhost:5173,http://localhost:3000}

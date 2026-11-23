@@ -1,0 +1,17 @@
+{
+  "request_id": "CHAT-12345",
+  "session_id": "550e8400-e29b-41d4-a716-446655440000",
+  "detected_language": "en",
+  "transcript": null,
+  "answer": "Aloe vera is traditionally used for soothing minor skin irritation. Consult a qualified clinician before using it medicinally.",
+  "language": "en",
+  "sources": [
+    {
+      "source_id": "SRC-ALOE-001",
+      "title": "Aloe Vera",
+      "reference": "AloeVera.pdf"
+    }
+  ],
+  "voice_output": null,
+  "warnings": []
+}

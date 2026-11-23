@@ -18,7 +18,7 @@ public class IdentificationImage {
     @Column(name = "identification_id", nullable = false)
     private Long identificationId;
 
-    @Column(name = "image_reference", nullable = false, columnDefinition = "TEXT")
+    @Column(name = "image_reference", columnDefinition = "TEXT")
     private String imageReference;
 
     @Column(name = "plant_part", length = 50)

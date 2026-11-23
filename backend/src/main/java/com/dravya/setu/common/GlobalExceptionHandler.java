@@ -3,6 +3,9 @@ package com.dravya.setu.common;
 import com.dravya.setu.ai.AiServiceException;
 import com.dravya.setu.common.ClientErrorException;
 import com.dravya.setu.knowledge.KnowledgeServiceException;
+import com.dravya.setu.knowledge.VoiceNotSupportedException;
+import com.dravya.setu.mail.EmailDeliveryException;
+import com.dravya.setu.storage.StorageException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -39,6 +42,30 @@ public class GlobalExceptionHandler {
         );
     }
 
+    @ExceptionHandler(EmailNotVerifiedException.class)
+    public ResponseEntity<ErrorResponse> handleEmailNotVerified(
+            EmailNotVerifiedException ex,
+            HttpServletRequest request) {
+
+        return buildResponse(
+                HttpStatus.FORBIDDEN,
+                "EMAIL_NOT_VERIFIED",
+                ex.getMessage(),
+                request);
+    }
+
+    @ExceptionHandler(EmailDeliveryException.class)
+    public ResponseEntity<ErrorResponse> handleEmailDeliveryFailure(
+            EmailDeliveryException ex,
+            HttpServletRequest request) {
+
+        return buildResponse(
+                HttpStatus.SERVICE_UNAVAILABLE,
+                "EMAIL_DELIVERY_FAILED",
+                "The email could not be sent. Please try again shortly.",
+                request);
+    }
+
     @ExceptionHandler(ClientErrorException.class)
     public ResponseEntity<ErrorResponse> handleClientError(
             ClientErrorException ex,
@@ -47,6 +74,7 @@ public class GlobalExceptionHandler {
         HttpStatus status = switch (ex.getErrorCode()) {
             case "NOT_FOUND" -> HttpStatus.NOT_FOUND;
             case "CONFLICT" -> HttpStatus.CONFLICT;
+            case "RATE_LIMITED" -> HttpStatus.TOO_MANY_REQUESTS;
             default -> HttpStatus.BAD_REQUEST;
         };
 
@@ -97,6 +125,20 @@ public class GlobalExceptionHandler {
         );
     }
 
+    @ExceptionHandler(StorageException.class)
+    public ResponseEntity<ErrorResponse> handleStorageError(
+            StorageException ex,
+            HttpServletRequest request) {
+
+        log.error("Storage operation failed", ex);
+        return buildResponse(
+                HttpStatus.SERVICE_UNAVAILABLE,
+                "STORAGE_UNAVAILABLE",
+                "Image storage is temporarily unavailable",
+                request
+        );
+    }
+
     @ExceptionHandler(KnowledgeServiceException.class)
     public ResponseEntity<ErrorResponse> handleKnowledgeServiceError(
             KnowledgeServiceException ex,
@@ -110,6 +152,19 @@ public class GlobalExceptionHandler {
         );
     }
 
+    @ExceptionHandler(VoiceNotSupportedException.class)
+    public ResponseEntity<ErrorResponse> handleVoiceNotSupported(
+            VoiceNotSupportedException ex,
+            HttpServletRequest request) {
+
+        return buildResponse(
+                HttpStatus.NOT_IMPLEMENTED,
+                "VOICE_INPUT_UNSUPPORTED",
+                ex.getMessage(),
+                request
+        );
+    }
+
     @ExceptionHandler(ResponseStatusException.class)
     public ResponseEntity<ErrorResponse> handleResponseStatus(
             ResponseStatusException ex,
@@ -119,7 +174,18 @@ public class GlobalExceptionHandler {
         if (status == null){
             status = HttpStatus.INTERNAL_SERVER_ERROR;
         }
-        return buildResponse(status, status.name(), ex.getReason(), request);
+        String code = switch (status) {
+            case NOT_FOUND -> "NOT_FOUND";
+            case CONFLICT -> "CONFLICT";
+            case UNAUTHORIZED -> "AUTH_REQUIRED";
+            case FORBIDDEN -> "AUTH_FORBIDDEN";
+            case PAYLOAD_TOO_LARGE, CONTENT_TOO_LARGE -> "UPLOAD_TOO_LARGE";
+            case TOO_MANY_REQUESTS -> "RATE_LIMITED";
+            default -> status.is4xxClientError() ? "INVALID_REQUEST" : "INTERNAL_ERROR";
+        };
+        return buildResponse(status, code,
+                status.is5xxServerError() ? "An unexpected error occurred"
+                        : ex.getReason() == null ? status.getReasonPhrase() : ex.getReason(), request);
     }
 
     @ExceptionHandler({
@@ -165,6 +231,21 @@ public class GlobalExceptionHandler {
                 "The request conflicts with existing data",
                 request
         );
+    }
+
+    @ExceptionHandler({
+            org.springframework.web.servlet.resource.NoResourceFoundException.class,
+            org.springframework.web.servlet.NoHandlerFoundException.class,
+            org.springframework.web.HttpRequestMethodNotSupportedException.class,
+            org.springframework.web.HttpMediaTypeNotAcceptableException.class,
+            org.springframework.web.bind.ServletRequestBindingException.class
+    })
+    public ResponseEntity<ErrorResponse> handleWebError(Exception ex, HttpServletRequest request) {
+        var error = (org.springframework.web.ErrorResponse) ex;
+        HttpStatus status = HttpStatus.valueOf(error.getStatusCode().value());
+        var response = buildResponse(status, status == HttpStatus.NOT_FOUND ? "NOT_FOUND" : "INVALID_REQUEST",
+                status.getReasonPhrase(), request);
+        return ResponseEntity.status(status).headers(error.getHeaders()).body(response.getBody());
     }
 
     @ExceptionHandler(Exception.class)

@@ -6,7 +6,14 @@
     "identification": {"status": "KNOWN", "plant_id": "PLANT_001", "confidence": 0.947},
     "alternatives": [],
     "similar_species": [],
-    "explanation": {"method": "GRAD_CAM", "heatmap_url": "..."},
+    "explanation": {
+      "method": "GRAD_CAM",
+      "heatmaps": [
+        {"image_index": 1, "image_data": "<base64-jpeg>", "media_type": "image/jpeg"},
+        {"image_index": 2, "image_data": "<base64-jpeg>", "media_type": "image/jpeg"},
+        {"image_index": 3, "image_data": "<base64-jpeg>", "media_type": "image/jpeg"}
+      ]
+    },
     "multi_image": {"used": true, "image_count": 3},
     "warnings": []
   },
@@ -17,7 +24,7 @@
     "identification": {"status": "UNKNOWN", "plant_id": null, "confidence": 0.21},
     "alternatives": [],
     "similar_species": [],
-    "explanation": {"method": "GRAD_CAM", "heatmap_url": null},
+    "explanation": {"method": "GRAD_CAM", "heatmaps": []},
     "multi_image": {"used": false, "image_count": 1},
     "warnings": ["Input does not sufficiently match known plant classes"]
   }

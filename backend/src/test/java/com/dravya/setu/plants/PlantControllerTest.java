@@ -17,6 +17,9 @@ import java.util.List;
 import static org.springframework.http.HttpStatus.NOT_FOUND;
 
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import com.dravya.setu.common.GlobalExceptionHandler;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 
 class PlantControllerTest {
 
@@ -25,18 +28,16 @@ class PlantControllerTest {
     @Mock
     private PlantService plantService;
 
-    @Mock
-    private PlantRepository plantRepository;
-
     @BeforeEach
     void setUp() {
         MockitoAnnotations.openMocks(this);
 
         PlantController plantController =
-                new PlantController(plantService, plantRepository);
+                new PlantController(plantService);
 
         mockMvc = MockMvcBuilders
                 .standaloneSetup(plantController)
+                .setControllerAdvice(new GlobalExceptionHandler())
                 .build();
     }
 
@@ -73,7 +74,7 @@ class PlantControllerTest {
     void getPlantById_shouldReturn404WhenPlantDoesNotExist()
             throws Exception {
 
-        when(plantService.getPlantById(999L))
+        when(plantService.getPlantByCode("PLANT_999"))
                 .thenThrow(
                         new ResponseStatusException(
                                 NOT_FOUND,
@@ -82,10 +83,32 @@ class PlantControllerTest {
                 );
 
         mockMvc.perform(
-                        get("/plants/999")
+                        get("/plants/PLANT_999")
                 )
-                .andExpect(status().isNotFound());
+                .andExpect(status().isNotFound())
+                .andExpect(jsonPath("$.error.code").value("NOT_FOUND"));
 
-        verify(plantService).getPlantById(999L);
+        verify(plantService).getPlantByCode("PLANT_999");
+    }
+
+    @Test
+    void plantRoutesReturnExactlyTheSharedIdentityShape() throws Exception {
+        Plant plant = new Plant();
+        plant.setPlantCode("PLANT_001");
+        plant.setPlantIdentifier("Aloevera");
+        plant.setCommonName("Aloe Vera");
+        plant.setAyurvedicRegionalNames(new String[]{"Kumari", "Ghritakumari"});
+        plant.setScientificName("Aloe vera (L.) Burm.f.");
+        plant.setDescription("Internal application content");
+        when(plantService.getPlantByCode("PLANT_001")).thenReturn(plant);
+        when(plantService.searchPlants(null)).thenReturn(List.of(plant));
+        String expected = java.nio.file.Files.readString(
+                java.nio.file.Path.of("../shared/sample-data/sample-plant.json"));
+        for (String route : List.of("/plants/PLANT_001", "/plants/code/PLANT_001")) {
+            mockMvc.perform(get(route)).andExpect(status().isOk())
+                    .andExpect(content().json(expected, org.springframework.test.json.JsonCompareMode.STRICT));
+        }
+        mockMvc.perform(get("/plants")).andExpect(status().isOk())
+                .andExpect(content().json("[" + expected + "]", org.springframework.test.json.JsonCompareMode.STRICT));
     }
 }

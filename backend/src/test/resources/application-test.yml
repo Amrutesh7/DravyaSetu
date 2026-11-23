@@ -14,11 +14,30 @@ app:
     secret: this-is-a-test-jwt-secret-key-that-is-long-enough-for-hs256
     expiration-ms: 3600000
 
+  otp:
+    hash-secret: this-is-a-test-otp-pepper-key-that-is-long-enough
+    length: 6
+    ttl-minutes: 5
+    max-attempts: 5
+    resend-cooldown-seconds: 60
+    max-per-hour: 5
+
+  mail:
+    enabled: false
+    host: ""
+    from: no-reply@dravyasetu.test
+
+  password-reset:
+    ticket-ttl-minutes: 10
+
+  rate-limit:
+    enabled: false
+
   storage:
-    r2:
-      account-id: test-account
-      access-key: test-access-key
-      secret-key: test-secret-key
-      bucket: test-bucket
-      public-url: http://localhost:9000
-      region: auto
+    enabled: false
+
+  identification:
+    max-images: 5
+
+  ai:
+    image-transport: multipart

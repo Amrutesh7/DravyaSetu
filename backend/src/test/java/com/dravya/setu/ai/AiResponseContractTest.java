@@ -1,123 +1,43 @@
 package com.dravya.setu.ai;
 
-import tools.jackson.databind.json.JsonMapper;
 import org.junit.jupiter.api.Test;
+import tools.jackson.databind.ObjectMapper;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class AiResponseContractTest {
 
-    private final JsonMapper objectMapper =
-            JsonMapper.builder().build();
-
     @Test
-    void shouldDeserializeCanonicalAiResponse() throws Exception {
-
+    void deserializesDeployedBase64HeatmapContract() {
         String json = """
                 {
-                  "request_id": "req-001",
-                  "model_version": "efficientnet-v2",
-                  "image_quality": {
-                    "acceptable": true,
-                    "issues": []
-                  },
-                  "identification": {
-                    "status": "KNOWN",
-                    "plant_id": "PLANT_001",
-                    "confidence": 0.92
-                  },
-                  "alternatives": [
-                    {
-                      "plant_id": "PLANT_002",
-                      "common_name": "Alternative Plant",
-                      "scientific_name": "Testus alternativus",
-                      "confidence": 0.05
-                    }
-                  ],
-                  "similar_species": [
-                    {
-                      "plant_id": "PLANT_002",
-                      "name": "Alternative Plant",
-                      "similarity": 0.87
-                    }
-                  ],
+                  "request_id": "ai-request-1",
+                  "model_version": "efficientnetv2-s-dravyasetu-v2",
+                  "image_quality": {"acceptable": true, "issues": []},
+                  "identification": {"status": "KNOWN", "plant_id": "PLANT_001", "confidence": 0.94},
+                  "alternatives": [],
+                  "similar_species": [],
                   "explanation": {
                     "method": "GRAD_CAM",
-                    "heatmap_url": "https://example.com/heatmap.jpg"
+                    "heatmaps": [
+                      {"image_index": 1, "image_data": "aGVsbG8=", "media_type": "image/jpeg"}
+                    ]
                   },
-                  "multi_image": {
-                    "used": false,
-                    "image_count": 1
-                  },
+                  "multi_image": {"used": true, "image_count": 1},
                   "warnings": []
                 }
                 """;
 
-        AiResponse response =
-                objectMapper.readValue(
-                        json,
-                        AiResponse.class
-                );
+        AiResponse response = new ObjectMapper().readValue(json, AiResponse.class);
 
-        assertEquals(
-                "req-001",
-                response.getRequestId()
-        );
-
-        assertEquals(
-                "efficientnet-v2",
-                response.getModelVersion()
-        );
-
-        assertNotNull(
-                response.getImageQuality()
-        );
-
-        assertTrue(
-                response.getImageQuality().isAcceptable()
-        );
-
-        assertNotNull(
-                response.getIdentification()
-        );
-
-        assertEquals(
-                "KNOWN",
-                response.getIdentification().getStatus()
-        );
-
-        assertEquals(
-                "PLANT_001",
-                response.getIdentification().getPlantId()
-        );
-
-        assertEquals(
-                0.92,
-                response.getIdentification().getConfidence()
-        );
-
-        assertEquals(
-                1,
-                response.getAlternatives().size()
-        );
-
-        assertEquals(
-                1,
-                response.getSimilarSpecies().size()
-        );
-
-        assertEquals(
-                "GRAD_CAM",
-                response.getExplanation().getMethod()
-        );
-
-        assertEquals(
-                1,
-                response.getMultiImage().getImageCount()
-        );
-
-        assertTrue(
-                response.getWarnings().isEmpty()
-        );
+        assertEquals("ai-request-1", response.getRequestId());
+        assertEquals("KNOWN", response.getIdentification().getStatus());
+        assertEquals(1, response.getExplanation().getHeatmaps().size());
+        AiResponse.Heatmap heatmap = response.getExplanation().getHeatmaps().get(0);
+        assertEquals(1, heatmap.getImageIndex());
+        assertEquals("aGVsbG8=", heatmap.getImageData());
+        assertEquals("image/jpeg", heatmap.getMediaType());
+        assertTrue(response.getMultiImage().isUsed());
     }
 }

@@ -33,9 +33,19 @@ public class PlantService {
     }
 
     @Transactional(readOnly = true)
+    public Plant getPlantByCode(String plantCode) {
+        return plantRepository.findByPlantCode(plantCode)
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND,
+                        "Plant not found with code: " + plantCode));
+    }
+
+    @Transactional(readOnly = true)
     public List<Plant> searchPlants(String search) {
         if (search == null || search.isBlank()) {
             return plantRepository.findAll();
+        }
+        if (search.trim().length() > 100) {
+            throw new IllegalArgumentException("search must be at most 100 characters");
         }
         return plantRepository.searchByTerm(search.trim());
     }

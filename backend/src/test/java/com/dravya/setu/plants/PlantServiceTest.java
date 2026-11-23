@@ -135,6 +135,13 @@ class PlantServiceTest {
     }
 
     @Test
+    void searchPlants_shouldRejectOverlongSearch() {
+        assertThrows(IllegalArgumentException.class,
+                () -> plantService.searchPlants("x".repeat(101)));
+        verify(plantRepository, never()).searchByTerm(anyString());
+    }
+
+    @Test
     void getPlantById_shouldReturnPlant_whenPlantExists() {
 
         Plant plant = new Plant();

@@ -137,7 +137,7 @@
       "additionalProperties": false,
       "required": [
         "method",
-        "heatmap_url"
+        "heatmaps"
       ],
       "properties": {
         "method": {
@@ -146,11 +146,47 @@
             "GRAD_CAM"
           ]
         },
+        "heatmaps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "image_index",
+              "image_data"
+            ],
+            "properties": {
+              "image_index": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "image_data": {
+                "type": "string",
+                "minLength": 1
+              },
+              "media_type": {
+                "type": "string",
+                "default": "image/jpeg"
+              }
+            }
+          }
+        },
         "heatmap_url": {
+          "description": "Legacy URL-based heatmap, supported for older AI deployments.",
           "type": [
             "string",
             "null"
           ]
+        },
+        "heatmap_urls": {
+          "description": "Legacy multi-image URL extension.",
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
         }
       }
     },

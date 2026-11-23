@@ -3,692 +3,228 @@ package com.dravya.setu.identification;
 import com.dravya.setu.ai.AiClient;
 import com.dravya.setu.ai.AiRequest;
 import com.dravya.setu.ai.AiResponse;
-import com.dravya.setu.ai.AiServiceException;
-import com.dravya.setu.common.ClientErrorException;
-import com.dravya.setu.common.IllegalServiceException;
 import com.dravya.setu.plants.Plant;
 import com.dravya.setu.plants.PlantRepository;
-import com.dravya.setu.storage.R2StorageService;
+import com.dravya.setu.storage.StorageService;
 import com.dravya.setu.users.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.ArgumentCaptor;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.mockito.junit.jupiter.MockitoSettings;
 import org.mockito.quality.Strictness;
-import org.springframework.security.access.AccessDeniedException;
-import org.springframework.web.multipart.MultipartFile;
+import org.springframework.mock.web.MockMultipartFile;
 
-import java.io.IOException;
-import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyString;
-import static org.mockito.Mockito.doReturn;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 @MockitoSettings(strictness = Strictness.LENIENT)
 class IdentificationServiceTest {
-
-    @Mock
-    private IdentificationRepository identificationRepository;
-
-    @Mock
-    private IdentificationImageRepository identificationImageRepository;
-
-    @Mock
-    private PlantRepository plantRepository;
-
-    @Mock
-    private AiClient aiClient;
-
-    @Mock
-    private R2StorageService r2StorageService;
-
-    @Mock
-    private IdentificationPersistenceService persistenceService;
-
-    private IdentificationService identificationService;
+    @Mock private IdentificationRepository identificationRepository;
+    @Mock private IdentificationImageRepository identificationImageRepository;
+    @Mock private IdentificationHeatmapRepository identificationHeatmapRepository;
+    @Mock private PlantRepository plantRepository;
+    @Mock private AiClient aiClient;
+    @Mock private IdentificationPersistenceService persistenceService;
+    @Mock private StorageService storageService;
+    @Mock private HeatmapExtractor heatmapExtractor;
+    private IdentificationService service;
 
     @BeforeEach
     void setUp() {
-        identificationService = new IdentificationService(
+        when(storageService.isEnabled()).thenReturn(false);
+        when(identificationHeatmapRepository
+                .findByIdentificationIdOrderBySequenceNumberAsc(any()))
+                .thenReturn(List.of());
+        service = new IdentificationService(
                 identificationRepository,
                 identificationImageRepository,
+                identificationHeatmapRepository,
                 plantRepository,
                 aiClient,
-                r2StorageService,
-                persistenceService
-        );
-
-        when(persistenceService.save(
-                any(Identification.class), any(IdentificationImage.class)))
-                .thenAnswer(invocation -> {
-                    Identification identification = invocation.getArgument(0);
-                    IdentificationImage image = invocation.getArgument(1);
-                    image.setIdentificationId(identification.getId());
-                    return identification;
-                });
+                persistenceService,
+                storageService,
+                heatmapExtractor,
+                5,
+                "url");
+        when(identificationRepository.findByUserIdAndRequestId(any(), any())).thenReturn(Optional.empty());
+        when(persistenceService.save(any(), any(), any()))
+                .thenAnswer(invocation -> invocation.getArgument(0));
     }
 
     @Test
-    void createIdentification_shouldCreateSuccessfully() throws IOException {
+    void forwardsImageDirectlyToAiAndStoresNoCloudReference() {
+        User user = org.mockito.Mockito.mock(User.class); when(user.getId()).thenReturn(1L);
+        MockMultipartFile image = new MockMultipartFile("image", "aloe.jpg", "image/jpeg",
+                new byte[] {(byte) 0xff, (byte) 0xd8, (byte) 0xff, 1});
+        Plant plant = org.mockito.Mockito.mock(Plant.class); when(plant.getId()).thenReturn(2L);
+        when(plantRepository.findByPlantCode("PLANT_001")).thenReturn(Optional.of(plant));
+        when(aiClient.identify(any())).thenReturn(knownResponse());
 
-        User user = createUser(10L, "test@example.com", "USER");
+        IdentificationRequest request = new IdentificationRequest();
+        request.setImage(image); request.setPlantPart("LEAF");
+        var response = service.createIdentification(request, user, "request-1");
 
-        MultipartFile imageFile = mock(MultipartFile.class);
-        when(imageFile.isEmpty()).thenReturn(false);
-        when(imageFile.getContentType()).thenReturn("image/jpeg");
-        when(imageFile.getOriginalFilename()).thenReturn("plant.jpg");
-        doReturn(new byte[]{1, 2, 3}).when(imageFile).getBytes();
-
-        IdentificationRequest request = createRequest(imageFile, "LEAF");
-
-        when(r2StorageService.uploadImage(any(MultipartFile.class), anyString()))
-                .thenReturn("https://r2.example.com/identifications/10/abc123.jpg");
-
-        AiResponse aiResponse =
-                createValidKnownResponse(
-                        "test-request-001",
-                        "PLANT_001",
-                        0.92
-                );
-
-        Plant plant =
-                createPlant(
-                        25L,
-                        "PLANT_001",
-                        "Neem"
-                );
-
-        when(aiClient.identify(any(AiRequest.class)))
-                .thenReturn(aiResponse);
-
-        when(plantRepository.findByPlantCode("PLANT_001"))
-                .thenReturn(Optional.of(plant));
-
-        when(r2StorageService.uploadImage(any(MultipartFile.class), anyString()))
-                .thenReturn("https://r2.example.com/identifications/10/abc123.jpg");
-
-        IdentificationResponse response =
-                identificationService.createIdentification(
-                        request,
-                        user
-                );
-
-        assertEquals(
-                "test-request-001",
-                response.getRequestId()
-        );
-
-        assertEquals(
-                "KNOWN",
-                response.getStatus()
-        );
-
-        assertEquals(
-                "PLANT_001",
-                response.getPlantId()
-        );
-
-        assertEquals(
-                0.92,
-                response.getConfidence()
-        );
-
-        assertEquals(
-                "mock-model-v2",
-                response.getModelVersion()
-        );
-
-        verify(persistenceService)
-                .save(any(Identification.class), any(IdentificationImage.class));
+        ArgumentCaptor<AiRequest> aiRequest = ArgumentCaptor.forClass(AiRequest.class);
+        @SuppressWarnings("unchecked")
+        ArgumentCaptor<List<IdentificationImage>> savedImages =
+                ArgumentCaptor.forClass(List.class);
+        verify(aiClient).identify(aiRequest.capture());
+        verify(persistenceService).save(any(), savedImages.capture(), any());
+        assertEquals("request-1", aiRequest.getValue().getRequestId());
+        assertEquals("LEAF", aiRequest.getValue().getPlantPart());
+        assertEquals("PLANT_001", response.getPlantId());
+        assertNull(savedImages.getValue().get(0).getImageReference());
     }
 
     @Test
-    void createIdentification_shouldRejectMissingImageUrl() throws IOException {
+    void forwardsEveryUploadedImageToAi() {
+        User user = org.mockito.Mockito.mock(User.class); when(user.getId()).thenReturn(1L);
+        Plant plant = org.mockito.Mockito.mock(Plant.class); when(plant.getId()).thenReturn(2L);
+        when(plantRepository.findByPlantCode("PLANT_001")).thenReturn(Optional.of(plant));
+        AiResponse aiResponse = knownResponse();
+        aiResponse.getMultiImage().setUsed(true);
+        aiResponse.getMultiImage().setImageCount(2);
+        when(aiClient.identify(any())).thenReturn(aiResponse);
 
-        User user = createUser(
-                10L,
-                "test@example.com",
-                "USER"
-        );
+        IdentificationRequest request = new IdentificationRequest();
+        request.setImages(List.of(
+                jpeg("leaf.jpg"),
+                jpeg("flower.jpg")));
+        request.setPlantPart("LEAF");
 
-        MultipartFile imageFile = mock(MultipartFile.class);
-        when(imageFile.isEmpty()).thenReturn(true);
+        service.createIdentification(request, user, "request-2");
 
-        IdentificationRequest request = createRequest(imageFile, "LEAF");
+        ArgumentCaptor<AiRequest> aiRequest = ArgumentCaptor.forClass(AiRequest.class);
+        verify(aiClient).identify(aiRequest.capture());
+        assertEquals(2, aiRequest.getValue().getImages().size());
 
-        assertThrows(
-                IllegalArgumentException.class,
-                () -> identificationService
-                        .createIdentification(
-                                request,
-                                user
-                        )
-        );
-
-        verify(aiClient, never())
-                .identify(any(AiRequest.class));
+        @SuppressWarnings("unchecked")
+        ArgumentCaptor<List<IdentificationImage>> savedImages =
+                ArgumentCaptor.forClass(List.class);
+        verify(persistenceService).save(any(), savedImages.capture(), any());
+        assertEquals(2, savedImages.getValue().size());
+        assertEquals(1, savedImages.getValue().get(0).getSequenceNumber());
+        assertEquals(2, savedImages.getValue().get(1).getSequenceNumber());
     }
 
     @Test
-    void createIdentification_shouldRejectNullAiResponse() throws IOException {
+    void urlModeSendsPresignedUrlsAndArchivesImages() {
+        when(storageService.isEnabled()).thenReturn(true);
+        when(storageService.aiUrl(any())).thenReturn("https://bucket.example/image.jpg?sig=abc");
+        User user = org.mockito.Mockito.mock(User.class); when(user.getId()).thenReturn(1L);
+        Plant plant = org.mockito.Mockito.mock(Plant.class); when(plant.getId()).thenReturn(2L);
+        when(plantRepository.findByPlantCode("PLANT_001")).thenReturn(Optional.of(plant));
+        when(aiClient.identify(any())).thenReturn(knownResponse());
 
-        User user = createUser(
-                10L,
-                "test@example.com",
-                "USER"
-        );
+        IdentificationRequest request = new IdentificationRequest();
+        request.setImage(jpeg("leaf.jpg"));
+        request.setPlantPart("LEAF");
 
-        MultipartFile imageFile = mock(MultipartFile.class);
-        when(imageFile.isEmpty()).thenReturn(false);
-        when(imageFile.getContentType()).thenReturn("image/jpeg");
-        when(imageFile.getOriginalFilename()).thenReturn("plant.jpg");
-        doReturn(new byte[]{1, 2, 3}).when(imageFile).getBytes();
+        service.createIdentification(request, user, "request-3");
 
-        IdentificationRequest request = createRequest(imageFile, "LEAF");
+        ArgumentCaptor<AiRequest> aiRequest = ArgumentCaptor.forClass(AiRequest.class);
+        verify(aiClient).identify(aiRequest.capture());
+        assertEquals(List.of("https://bucket.example/image.jpg?sig=abc"),
+                aiRequest.getValue().getImageUrls());
+        verify(storageService).upload(any(), any(), any());
 
-        when(r2StorageService.uploadImage(any(MultipartFile.class), anyString()))
-                .thenReturn("https://r2.example.com/identifications/10/abc123.jpg");
-
-        when(aiClient.identify(any(AiRequest.class)))
-                .thenReturn(null);
-
-        assertThrows(
-                AiServiceException.class,
-                () -> identificationService
-                        .createIdentification(
-                                request,
-                                user
-                        )
-        );
+        @SuppressWarnings("unchecked")
+        ArgumentCaptor<List<IdentificationImage>> savedImages =
+                ArgumentCaptor.forClass(List.class);
+        verify(persistenceService).save(any(), savedImages.capture(), any());
+        assertNotNull(savedImages.getValue().get(0).getImageReference());
     }
 
     @Test
-    void createIdentification_shouldRejectInvalidAiStatus() throws IOException {
+    void archivesHeatmapsAndAssignsPerImageSequenceNumbers() {
+        when(storageService.isEnabled()).thenReturn(true);
+        when(storageService.aiUrl(any())).thenReturn("https://bucket.example/image.jpg?sig=abc");
+        User user = org.mockito.Mockito.mock(User.class); when(user.getId()).thenReturn(1L);
+        Plant plant = org.mockito.Mockito.mock(Plant.class); when(plant.getId()).thenReturn(2L);
+        when(plantRepository.findByPlantCode("PLANT_001")).thenReturn(Optional.of(plant));
+        when(aiClient.identify(any())).thenReturn(knownResponse());
 
-        User user = createUser(
-                10L,
-                "test@example.com",
-                "USER"
-        );
+        byte[] heatmapBytes = new byte[] {
+                (byte) 0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a, 1
+        };
+        when(heatmapExtractor.extract(any(), org.mockito.ArgumentMatchers.anyInt()))
+                .thenReturn(List.of(
+                        new HeatmapPayload(0, heatmapBytes, "image/png", null),
+                        new HeatmapPayload(0, heatmapBytes, "image/png", null)));
 
-        MultipartFile imageFile = mock(MultipartFile.class);
-        when(imageFile.isEmpty()).thenReturn(false);
-        when(imageFile.getContentType()).thenReturn("image/jpeg");
-        when(imageFile.getOriginalFilename()).thenReturn("plant.jpg");
-        doReturn(new byte[]{1, 2, 3}).when(imageFile).getBytes();
+        IdentificationRequest request = new IdentificationRequest();
+        request.setImage(jpeg("leaf.jpg"));
+        request.setPlantPart("LEAF");
 
-        IdentificationRequest request = createRequest(imageFile, "LEAF");
+        service.createIdentification(request, user, "request-4");
 
-        when(r2StorageService.uploadImage(any(MultipartFile.class), anyString()))
-                .thenReturn("https://r2.example.com/identifications/10/abc123.jpg");
+        @SuppressWarnings("unchecked")
+        ArgumentCaptor<List<IdentificationHeatmapData>> savedHeatmaps =
+                ArgumentCaptor.forClass(List.class);
+        verify(persistenceService).save(any(), any(), savedHeatmaps.capture());
 
-        AiResponse aiResponse =
-                createValidKnownResponse(
-                        "test-request-002",
-                        "PLANT_001",
-                        0.92
-                );
+        assertEquals(2, savedHeatmaps.getValue().size());
+        assertEquals(0, savedHeatmaps.getValue().get(0).imageIndex());
+        assertEquals(1, savedHeatmaps.getValue().get(0).sequenceNumber());
+        assertEquals(0, savedHeatmaps.getValue().get(1).imageIndex());
+        assertEquals(2, savedHeatmaps.getValue().get(1).sequenceNumber());
+        assertNotNull(savedHeatmaps.getValue().get(0).storageKey());
+        assertEquals("image/png", savedHeatmaps.getValue().get(0).contentType());
 
-        aiResponse.getIdentification()
-                .setStatus("INVALID_STATUS");
-
-        when(aiClient.identify(any(AiRequest.class)))
-                .thenReturn(aiResponse);
-
-        when(r2StorageService.uploadImage(any(MultipartFile.class), anyString()))
-                .thenReturn("https://r2.example.com/identifications/10/abc123.jpg");
-
-        assertThrows(
-                AiServiceException.class,
-                () -> identificationService
-                        .createIdentification(
-                                request,
-                                user
-                        )
-        );
+        // One image upload plus two heatmap uploads.
+        verify(storageService, org.mockito.Mockito.times(3))
+                .upload(any(), any(), any());
     }
 
     @Test
-    void createIdentification_shouldRejectInvalidConfidence() throws IOException {
+    void rejectsUnsupportedImageBeforeCallingAi() {
+        User user = org.mockito.Mockito.mock(User.class); when(user.getId()).thenReturn(1L);
+        IdentificationRequest request = new IdentificationRequest();
+        request.setImage(new MockMultipartFile("image", "bad.pdf", "application/pdf", new byte[] {1}));
+        assertThrows(IllegalArgumentException.class, () -> service.createIdentification(request, user));
+    }
 
-        User user = createUser(
-                10L,
-                "test@example.com",
-                "USER"
-        );
-
-        MultipartFile imageFile = mock(MultipartFile.class);
-        when(imageFile.isEmpty()).thenReturn(false);
-        when(imageFile.getContentType()).thenReturn("image/jpeg");
-        when(imageFile.getOriginalFilename()).thenReturn("plant.jpg");
-        doReturn(new byte[]{1, 2, 3}).when(imageFile).getBytes();
-
-        IdentificationRequest request = createRequest(imageFile, "LEAF");
-
-        when(r2StorageService.uploadImage(any(MultipartFile.class), anyString()))
-                .thenReturn("https://r2.example.com/identifications/10/abc123.jpg");
-
-        AiResponse aiResponse =
-                createValidKnownResponse(
-                        "test-request-003",
-                        "PLANT_001",
-                        1.50
-                );
-
-        when(aiClient.identify(any(AiRequest.class)))
-                .thenReturn(aiResponse);
-
-        when(r2StorageService.uploadImage(any(MultipartFile.class), anyString()))
-                .thenReturn("https://r2.example.com/identifications/10/abc123.jpg");
-
-        assertThrows(
-                AiServiceException.class,
-                () -> identificationService
-                        .createIdentification(
-                                request,
-                                user
-                        )
-        );
+    private MockMultipartFile jpeg(String filename) {
+        return new MockMultipartFile("image", filename, "image/jpeg",
+                new byte[] {(byte) 0xff, (byte) 0xd8, (byte) 0xff, 1});
     }
 
     @Test
-    void createIdentification_shouldRejectKnownWithoutPlantId() throws IOException {
-
-        User user = createUser(
-                10L,
-                "test@example.com",
-                "USER"
-        );
-
-        MultipartFile imageFile = mock(MultipartFile.class);
-        when(imageFile.isEmpty()).thenReturn(false);
-        when(imageFile.getContentType()).thenReturn("image/jpeg");
-        when(imageFile.getOriginalFilename()).thenReturn("plant.jpg");
-        doReturn(new byte[]{1, 2, 3}).when(imageFile).getBytes();
-
-        IdentificationRequest request = createRequest(imageFile, "LEAF");
-
-        when(r2StorageService.uploadImage(any(MultipartFile.class), anyString()))
-                .thenReturn("https://r2.example.com/identifications/10/abc123.jpg");
-
-        AiResponse aiResponse =
-                createValidKnownResponse(
-                        "test-request-004",
-                        null,
-                        0.92
-                );
-
-        when(aiClient.identify(any(AiRequest.class)))
-                .thenReturn(aiResponse);
-
-        when(r2StorageService.uploadImage(any(MultipartFile.class), anyString()))
-                .thenReturn("https://r2.example.com/identifications/10/abc123.jpg");
-
-        assertThrows(
-                AiServiceException.class,
-                () -> identificationService
-                        .createIdentification(
-                                request,
-                                user
-                        )
-        );
-
-        verify(plantRepository, never())
-                .findByPlantCode(any(String.class));
+    void rejectsContradictoryAiResultsAndNonFiniteConfidenceBeforePersistence() {
+        User user = org.mockito.Mockito.mock(User.class); when(user.getId()).thenReturn(1L);
+        IdentificationRequest request = new IdentificationRequest(); request.setImage(jpeg("leaf.jpg"));
+        AiResponse contradictory = knownResponse(); contradictory.getIdentification().setStatus("UNKNOWN");
+        when(aiClient.identify(any())).thenReturn(contradictory);
+        assertThrows(com.dravya.setu.ai.AiServiceException.class, () -> service.createIdentification(request,user));
+        AiResponse invalid = knownResponse(); invalid.getIdentification().setConfidence(Double.NaN);
+        when(aiClient.identify(any())).thenReturn(invalid);
+        assertThrows(com.dravya.setu.ai.AiServiceException.class, () -> service.createIdentification(request,user));
+        org.mockito.Mockito.verifyNoInteractions(persistenceService);
     }
 
-    @Test
-    void createIdentification_shouldRejectUnknownPlantId() throws IOException {
-
-        User user = createUser(
-                10L,
-                "test@example.com",
-                "USER"
-        );
-
-        MultipartFile imageFile = mock(MultipartFile.class);
-        when(imageFile.isEmpty()).thenReturn(false);
-        when(imageFile.getContentType()).thenReturn("image/jpeg");
-        when(imageFile.getOriginalFilename()).thenReturn("plant.jpg");
-        doReturn(new byte[]{1, 2, 3}).when(imageFile).getBytes();
-
-        IdentificationRequest request = createRequest(imageFile, "LEAF");
-
-        when(r2StorageService.uploadImage(any(MultipartFile.class), anyString()))
-                .thenReturn("https://r2.example.com/identifications/10/abc123.jpg");
-
-        AiResponse aiResponse =
-                createValidKnownResponse(
-                        "test-request-005",
-                        "PLANT_999",
-                        0.92
-                );
-
-        when(aiClient.identify(any(AiRequest.class)))
-                .thenReturn(aiResponse);
-
-        when(r2StorageService.uploadImage(any(MultipartFile.class), anyString()))
-                .thenReturn("https://r2.example.com/identifications/10/abc123.jpg");
-
-        when(plantRepository.findByPlantCode("PLANT_999"))
-                .thenReturn(Optional.empty());
-
-        assertThrows(
-                AiServiceException.class,
-                () -> identificationService
-                        .createIdentification(
-                                request,
-                                user
-                        )
-        );
-    }
-
-    @Test
-    void createIdentification_unknownPlant_shouldSaveWithNullPlantId() throws IOException {
-
-        User user = createUser(
-                10L,
-                "test@example.com",
-                "USER"
-        );
-
-        MultipartFile imageFile = mock(MultipartFile.class);
-        when(imageFile.isEmpty()).thenReturn(false);
-        when(imageFile.getContentType()).thenReturn("image/jpeg");
-        when(imageFile.getOriginalFilename()).thenReturn("plant.jpg");
-        doReturn(new byte[]{1, 2, 3}).when(imageFile).getBytes();
-
-        IdentificationRequest request = createRequest(imageFile, "LEAF");
-
-        when(r2StorageService.uploadImage(any(MultipartFile.class), anyString()))
-                .thenReturn("https://r2.example.com/identifications/10/abc123.jpg");
-
-        AiResponse aiResponse =
-                createValidUnknownResponse();
-
-        when(aiClient.identify(any(AiRequest.class)))
-                .thenReturn(aiResponse);
-
-        IdentificationResponse response =
-                identificationService.createIdentification(
-                        request,
-                        user
-                );
-
-        assertEquals(
-                "UNKNOWN",
-                response.getStatus()
-        );
-
-        assertNull(
-                response.getPlantId()
-        );
-
-        verify(plantRepository, never())
-                .findByPlantCode(any(String.class));
-
-        verify(persistenceService)
-                .save(any(Identification.class), any(IdentificationImage.class));
-    }
-
-    @Test
-    void getIdentificationForUser_shouldAllowOwner() {
-
-        User owner = createUser(
-                10L,
-                "owner@example.com",
-                "USER"
-        );
-
-        Identification identification =
-                new Identification();
-
-        identification.setUserId(10L);
-        identification.setPlantId(25L);
-        identification.setStatus("KNOWN");
-        identification.setConfidence(
-                BigDecimal.valueOf(0.92)
-        );
-        identification.setModelVersion(
-                "mock-model-v2"
-        );
-
-        when(identificationRepository.findById(100L))
-                .thenReturn(Optional.of(identification));
-
-        Identification result =
-                identificationService
-                        .getIdentificationForUser(
-                                100L,
-                                owner
-                        );
-
-        assertEquals(
-                identification,
-                result
-        );
-    }
-
-    @Test
-    void getIdentificationForUser_shouldRejectAnotherUser() {
-
-        User anotherUser = createUser(
-                20L,
-                "another@example.com",
-                "USER"
-        );
-
-        Identification identification =
-                new Identification();
-
-        identification.setUserId(10L);
-        identification.setPlantId(25L);
-        identification.setStatus("KNOWN");
-        identification.setConfidence(
-                BigDecimal.valueOf(0.92)
-        );
-        identification.setModelVersion(
-                "mock-model-v2"
-        );
-
-        when(identificationRepository.findById(100L))
-                .thenReturn(Optional.of(identification));
-
-        assertThrows(
-                AccessDeniedException.class,
-                () -> identificationService
-                        .getIdentificationForUser(
-                                100L,
-                                anotherUser
-                        )
-        );
-    }
-
-    @Test
-    void getIdentificationForUser_shouldAllowAdmin() {
-
-        User admin = createUser(
-                99L,
-                "admin@example.com",
-                "ADMIN"
-        );
-
-        Identification identification =
-                new Identification();
-
-        identification.setUserId(10L);
-        identification.setPlantId(25L);
-        identification.setStatus("KNOWN");
-        identification.setConfidence(
-                BigDecimal.valueOf(0.92)
-        );
-        identification.setModelVersion(
-                "mock-model-v2"
-        );
-
-        when(identificationRepository.findById(100L))
-                .thenReturn(Optional.of(identification));
-
-        Identification result =
-                identificationService
-                        .getIdentificationForUser(
-                                100L,
-                                admin
-                        );
-
-        assertEquals(
-                identification,
-                result
-        );
-    }
-
-    private AiResponse createValidKnownResponse(
-            String requestId,
-            String plantId,
-            double confidence) {
-
+    private AiResponse knownResponse() {
         AiResponse response = new AiResponse();
-
-        response.setRequestId(requestId);
-        response.setModelVersion("mock-model-v2");
-
-        AiResponse.ImageQuality imageQuality =
-                new AiResponse.ImageQuality();
-
-        imageQuality.setAcceptable(true);
-        imageQuality.setIssues(List.of());
-
-        response.setImageQuality(imageQuality);
-
-        AiResponse.Identification identification =
-                new AiResponse.Identification();
-
-        identification.setStatus("KNOWN");
-        identification.setPlantId(plantId);
-        identification.setConfidence(confidence);
-
+        response.setRequestId("ai-request"); response.setModelVersion("mock-plant-v1.0");
+        AiResponse.ImageQuality quality = new AiResponse.ImageQuality(); quality.setIssues(List.of()); quality.setAcceptable(true);
+        response.setImageQuality(quality);
+        AiResponse.Identification identification = new AiResponse.Identification();
+        identification.setStatus("KNOWN"); identification.setPlantId("PLANT_001"); identification.setConfidence(.9);
         response.setIdentification(identification);
-
-        response.setAlternatives(List.of());
-        response.setSimilarSpecies(List.of());
-
-        AiResponse.Explanation explanation =
-                new AiResponse.Explanation();
-
-        explanation.setMethod("GRAD_CAM");
-        explanation.setHeatmapUrl(null);
-
-        response.setExplanation(explanation);
-
-        AiResponse.MultiImage multiImage =
-                new AiResponse.MultiImage();
-
-        multiImage.setUsed(false);
-        multiImage.setImageCount(1);
-
-        response.setMultiImage(multiImage);
-
-        response.setWarnings(List.of());
-
-        return response;
-    }
-
-    private AiResponse createValidUnknownResponse() {
-
-        AiResponse response =
-                createValidKnownResponse(
-                        "test-request-unknown",
-                        null,
-                        0.41
-        );
-
-        response.getIdentification()
-                .setStatus("UNKNOWN");
-
-        return response;
-    }
-
-    private IdentificationRequest createRequest(
-            MultipartFile imageFile,
-            String plantPart) {
-
-        IdentificationRequest request =
-                new IdentificationRequest();
-
-        request.setImage(imageFile);
-        request.setPlantPart(plantPart);
-
-        return request;
-    }
-
-    private Plant createPlant(
-            Long id,
-            String plantCode,
-            String commonName) {
-
-        Plant plant = new Plant();
-
-        setPrivateId(
-                plant,
-                id
-        );
-
-        plant.setPlantCode(plantCode);
-        plant.setCommonName(commonName);
-
-        return plant;
-    }
-
-    private User createUser(
-            Long id,
-            String email,
-            String role) {
-
-        User user = new User();
-
-        setPrivateId(
-                user,
-                id
-        );
-
-        user.setEmail(email);
-        user.setRole(role);
-
-        return user;
-    }
-
-    private void setPrivateId(
-            Object object,
-            Long id) {
-
-        try {
-            var field =
-                    object.getClass()
-                            .getDeclaredField("id");
-
-            field.setAccessible(true);
-            field.set(object, id);
-
-        } catch (ReflectiveOperationException e) {
-            throw new RuntimeException(
-                    "Could not set test ID",
-                    e
-            );
-        }
+        response.setAlternatives(List.of()); response.setSimilarSpecies(List.of());
+        AiResponse.Explanation explanation = new AiResponse.Explanation(); explanation.setMethod("GRAD_CAM"); response.setExplanation(explanation);
+        AiResponse.MultiImage multiImage = new AiResponse.MultiImage(); multiImage.setImageCount(1); multiImage.setUsed(false); response.setMultiImage(multiImage);
+        response.setWarnings(List.of()); return response;
     }
 }

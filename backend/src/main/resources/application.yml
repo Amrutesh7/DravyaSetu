@@ -2,6 +2,11 @@ spring:
   application:
     name: dravya-setu-backend
 
+  # Load a gitignored local .env for developers. Production (Render, Docker)
+  # supplies real environment variables instead.
+  config:
+    import: optional:file:.env[.properties],optional:file:backend/.env[.properties]
+
   datasource:
     url: ${DB_URL:jdbc:postgresql://localhost:5432/dravya_setu}
     username: ${DB_USERNAME:dravya_app}
@@ -20,34 +25,117 @@ spring:
   servlet:
     multipart:
       max-file-size: 10MB
-      max-request-size: 12MB
+      # Room for the maximum number of images in one identification.
+      max-request-size: 50MB
 
 app:
   jwt:
     secret: ${JWT_SECRET}
-    expiration-ms: 3600000
+    expiration-ms: ${JWT_EXPIRATION_MS:3600000}
+
+  otp:
+    length: ${OTP_LENGTH:6}
+    ttl-minutes: ${OTP_TTL_MINUTES:5}
+    max-attempts: ${OTP_MAX_ATTEMPTS:5}
+    resend-cooldown-seconds: ${OTP_RESEND_COOLDOWN_SECONDS:60}
+    max-per-hour: ${OTP_MAX_PER_HOUR:5}
+    # HMAC pepper for stored OTP digests. Defaults to the JWT secret so only one secret is
+    # mandatory; production should set a separate OTP_HASH_SECRET.
+    hash-secret: ${OTP_HASH_SECRET:${JWT_SECRET}}
+
+  mail:
+    provider: ${MAIL_PROVIDER:smtp}
+    brevo-api-key: ${BREVO_API_KEY:}
+    # SMTP delivery. The application starts without a host, but any send then fails with
+    # 503 EMAIL_DELIVERY_FAILED instead of silently pretending an email was sent.
+    enabled: ${MAIL_ENABLED:true}
+    host: ${MAIL_HOST:}
+    port: ${MAIL_PORT:587}
+    username: ${MAIL_USERNAME:}
+    password: ${MAIL_PASSWORD:}
+    from: ${MAIL_FROM:no-reply@dravyasetu.local}
+    from-name: ${MAIL_FROM_NAME:DravyaSetu}
+    starttls: ${MAIL_STARTTLS:true}
+    ssl: ${MAIL_SSL:false}
+    app-base-url: ${APP_BASE_URL:http://localhost:8080}
+    connect-timeout-ms: ${MAIL_CONNECT_TIMEOUT_MS:10000}
+    write-timeout-ms: ${MAIL_WRITE_TIMEOUT_MS:10000}
+
+  password-reset:
+    # Lifetime of the single-use ticket returned after a reset code is verified.
+    ticket-ttl-minutes: ${PASSWORD_RESET_TICKET_TTL_MINUTES:10}
 
   ai:
     base-url: ${AI_BASE_URL:http://localhost:8001}
-    identify-path: ${AI_IDENTIFY_PATH:/identify}
-    connect-timeout-ms: ${AI_CONNECT_TIMEOUT_MS:5000}
-    read-timeout-ms: ${AI_READ_TIMEOUT_MS:30000}
+    identify-path: ${AI_IDENTIFY_PATH:/ai/analyze}
+    connect-timeout-ms: ${AI_CONNECT_TIMEOUT_MS:10000}
+    # The deployed Render service sleeps when idle, so allow a long read.
+    read-timeout-ms: ${AI_READ_TIMEOUT_MS:90000}
+    # The deployed AI service accepts multipart binary uploads only.
+    # "url" is available for AI deployments that accept signed image URLs;
+    # it is used only when cloud storage is enabled, otherwise the service
+    # automatically falls back to multipart.
+    image-transport: ${AI_IMAGE_TRANSPORT:multipart}
 
-  knowledge:
-    base-url: ${KNOWLEDGE_BASE_URL:http://localhost:8002}
-    ask-path: ${KNOWLEDGE_ASK_PATH:/ask}
-    connect-timeout-ms: ${KNOWLEDGE_CONNECT_TIMEOUT_MS:5000}
-    read-timeout-ms: ${KNOWLEDGE_READ_TIMEOUT_MS:30000}
+  identification:
+    max-images: ${IDENTIFICATION_MAX_IMAGES:5}
 
   storage:
-    r2:
-      account-id: ${R2_ACCOUNT_ID:local}
-      access-key: ${R2_ACCESS_KEY}
-      secret-key: ${R2_SECRET_KEY}
-      bucket: ${R2_BUCKET:dravya-setu}
-      public-url: ${R2_PUBLIC_URL:http://localhost:9000}
-      region: ${R2_REGION:auto}
+    # Private Backblaze B2 bucket. Keep disabled for local/test runs that do
+    # not need cloud storage; enabling it requires every credential below.
+    enabled: ${B2_STORAGE_ENABLED:false}
+    endpoint: ${B2_ENDPOINT:}
+    region: ${B2_REGION:}
+    bucket: ${B2_BUCKET:}
+    access-key-id: ${B2_APPLICATION_KEY_ID:}
+    secret-access-key: ${B2_APPLICATION_KEY:}
+    path-style: ${B2_PATH_STYLE:true}
+    presign-ttl: ${B2_PRESIGN_TTL:60m}
+    ai-presign-ttl: ${B2_AI_PRESIGN_TTL:15m}
+    max-heatmap-bytes: ${B2_MAX_HEATMAP_BYTES:5242880}
+    heatmap-timeout: ${B2_HEATMAP_TIMEOUT:10s}
+    heatmap-allowed-hosts: ${B2_HEATMAP_ALLOWED_HOSTS:}
+
+  knowledge:
+    # Person 3's deployed RAG service. Override to point at a local container
+    # (for example http://localhost:8002) during offline development.
+    base-url: ${KNOWLEDGE_BASE_URL:https://dravyasetu-knowledge-service.onrender.com}
+    ask-path: ${KNOWLEDGE_ASK_PATH:/knowledge/chat}
+    # The deployed instance sleeps when idle, so cold-start requests can take tens of
+    # seconds. The read timeout is deliberately generous; the mock client is the default.
+    connect-timeout-ms: ${KNOWLEDGE_CONNECT_TIMEOUT_MS:10000}
+    read-timeout-ms: ${KNOWLEDGE_READ_TIMEOUT_MS:90000}
+
+  chat:
+    # The deployed knowledge service keeps no session memory, so earlier turns are rebuilt
+    # from chat_messages and prepended to the outbound message.
+    history-enabled: ${CHAT_HISTORY_ENABLED:true}
+    history-message-limit: ${CHAT_HISTORY_MESSAGE_LIMIT:6}
+    history-char-limit: ${CHAT_HISTORY_CHAR_LIMIT:2000}
+
+
+  cors:
+    allowed-origin-patterns: ${CORS_ALLOWED_ORIGIN_PATTERNS:http://localhost:*,http://127.0.0.1:*}
+
+  rate-limit:
+    enabled: ${RATE_LIMIT_ENABLED:true}
+    # Empty trusts no forwarding headers. Set only the addresses of your own proxies.
+    trusted-proxy-cidrs: ${TRUSTED_PROXY_CIDRS:}
 
 server:
+  port: ${PORT:8080}
+  forward-headers-strategy: NONE
   servlet:
     context-path: /api/v1
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: never
+  info:
+    env:
+      enabled: false

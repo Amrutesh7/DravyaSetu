@@ -1,5 +1,6 @@
 # IntelliJ IDEA
 .idea/
+.freebuff/
 
 # Maven build output
 target/
@@ -10,3 +11,13 @@ target/
 
 # Local environment files
 .env
+.env.*
+!.env.example
+
+# Local database exports and migration backups
+backups/
+*.dump
+
+# Python helper caches
+__pycache__/
+*.py[cod]

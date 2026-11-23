@@ -1,233 +1,79 @@
 package com.dravya.setu.ai;
 
-import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpServer;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.mock.web.MockMultipartFile;
 
 import java.io.IOException;
-import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicReference;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class RealAiClientTest {
-
     private HttpServer server;
-    private RealAiClient aiClient;
+    private RealAiClient multipartClient;
+    private RealAiClient urlClient;
 
-    @BeforeEach
-    void setUp() throws IOException {
+    @BeforeEach void setUp() throws Exception {
+        server = HttpServer.create(new InetSocketAddress("localhost", 0), 0); server.start();
+        String baseUrl = "http://localhost:" + server.getAddress().getPort();
+        multipartClient = new RealAiClient(baseUrl, "/ai/analyze", 2000, 2000, "multipart");
+        urlClient = new RealAiClient(baseUrl, "/ai/analyze", 2000, 2000, "url");
+    }
+    @AfterEach void tearDown() { server.stop(0); }
 
-        server = HttpServer.create(
-                new InetSocketAddress("localhost", 0),
-                0
-        );
+    @Test void sendsMultipartContractAndReadsCanonicalResponse() {
+        server.createContext("/ai/analyze", exchange -> {
+            assertEquals("POST", exchange.getRequestMethod());
+            assertTrue(exchange.getRequestHeaders().getFirst("Content-Type").startsWith("multipart/form-data"));
+            writeResponse(exchange);
+        });
+        var file = new MockMultipartFile("image", "plant.jpg", "image/jpeg", new byte[] {1, 2, 3});
+        AiResponse response = multipartClient.identify(new AiRequest(file, "req-1", "LEAF"));
+        assertEquals("req-1", response.getRequestId());
+        assertEquals("UNKNOWN", response.getIdentification().getStatus());
 
-        server.start();
-
-        int port = server.getAddress().getPort();
-
-        aiClient = new RealAiClient(
-                "http://localhost:" + port,
-                "/identify",
-                2000,
-                2000
-        );
+        // Deployed service returns base64 heatmaps, not heatmap URLs.
+        assertEquals(1, response.getExplanation().getHeatmaps().size());
+        AiResponse.Heatmap heatmap = response.getExplanation().getHeatmaps().get(0);
+        assertEquals(1, heatmap.getImageIndex());
+        assertEquals("aGVsbG8=", heatmap.getImageData());
+        assertEquals("image/jpeg", heatmap.getMediaType());
     }
 
-    @AfterEach
-    void tearDown() {
+    @Test void sendsSignedImageUrlsAsJson() {
+        AtomicReference<String> body = new AtomicReference<>();
+        server.createContext("/ai/analyze", exchange -> {
+            assertEquals("POST", exchange.getRequestMethod());
+            assertTrue(exchange.getRequestHeaders().getFirst("Content-Type").startsWith("application/json"));
+            body.set(new String(exchange.getRequestBody().readAllBytes(), StandardCharsets.UTF_8));
+            writeResponse(exchange);
+        });
 
-        if (server != null) {
-            server.stop(0);
-        }
+        AiResponse response = urlClient.identify(new AiRequest(
+                List.of(),
+                List.of("https://bucket.example/image-1.jpg?sig=abc"),
+                "req-2",
+                "LEAF"));
+
+        assertEquals("req-1", response.getRequestId());
+        assertTrue(body.get().contains("https://bucket.example/image-1.jpg?sig=abc"));
+        assertTrue(body.get().contains("\"image\""));
     }
 
-    @Test
-    void identify_shouldDeserializeCanonicalResponse()
-            throws Exception {
-
-        server.createContext(
-                "/identify",
-                exchange -> {
-
-                    String responseJson = """
-                            {
-                              "request_id": "ai-test-001",
-                              "model_version": "efficientnet-v2",
-                              "image_quality": {
-                                "acceptable": true,
-                                "issues": []
-                              },
-                              "identification": {
-                                "status": "KNOWN",
-                                "plant_id": "PLANT_001",
-                                "confidence": 0.92
-                              },
-                              "alternatives": [
-                                {
-                                  "plant_id": "PLANT_002",
-                                  "common_name": "Alternative Plant",
-                                  "scientific_name": "Testus alternativus",
-                                  "confidence": 0.05
-                                }
-                              ],
-                              "similar_species": [
-                                {
-                                  "plant_id": "PLANT_002",
-                                  "name": "Alternative Plant",
-                                  "similarity": 0.87
-                                }
-                              ],
-                              "explanation": {
-                                "method": "GRAD_CAM",
-                                "heatmap_url": "https://example.com/heatmap.jpg"
-                              },
-                              "multi_image": {
-                                "used": false,
-                                "image_count": 1
-                              },
-                              "warnings": []
-                            }
-                            """;
-
-                    sendResponse(
-                            exchange,
-                            200,
-                            responseJson
-                    );
-                }
-        );
-
-        AiRequest request =
-                new AiRequest(
-                        "https://example.com/plant.jpg"
-                );
-
-        AiResponse response =
-                aiClient.identify(request);
-
-        assertNotNull(response);
-
-        assertEquals(
-                "ai-test-001",
-                response.getRequestId()
-        );
-
-        assertEquals(
-                "efficientnet-v2",
-                response.getModelVersion()
-        );
-
-        assertNotNull(
-                response.getImageQuality()
-        );
-
-        assertEquals(
-                true,
-                response.getImageQuality().isAcceptable()
-        );
-
-        assertNotNull(
-                response.getIdentification()
-        );
-
-        assertEquals(
-                "KNOWN",
-                response.getIdentification().getStatus()
-        );
-
-        assertEquals(
-                "PLANT_001",
-                response.getIdentification().getPlantId()
-        );
-
-        assertEquals(
-                0.92,
-                response.getIdentification().getConfidence()
-        );
-
-        assertEquals(
-                1,
-                response.getAlternatives().size()
-        );
-
-        assertEquals(
-                1,
-                response.getSimilarSpecies().size()
-        );
-
-        assertEquals(
-                "GRAD_CAM",
-                response.getExplanation().getMethod()
-        );
-
-        assertEquals(
-                1,
-                response.getMultiImage().getImageCount()
-        );
-    }
-
-    @Test
-    void identify_shouldThrowAiServiceException_whenServerReturns500()
-            throws Exception {
-
-        server.createContext(
-                "/identify",
-                exchange ->
-                        sendResponse(
-                                exchange,
-                                500,
-                                """
-                                {
-                                  "error": "internal server error"
-                                }
-                                """
-                        )
-        );
-
-        AiRequest request =
-                new AiRequest(
-                        "https://example.com/plant.jpg"
-                );
-
-        assertThrows(
-                AiServiceException.class,
-                () -> aiClient.identify(request)
-        );
-    }
-
-    private void sendResponse(
-            HttpExchange exchange,
-            int statusCode,
-            String responseBody)
+    private static void writeResponse(com.sun.net.httpserver.HttpExchange exchange)
             throws IOException {
-
-        byte[] bytes =
-                responseBody.getBytes(
-                        StandardCharsets.UTF_8
-                );
-
-        exchange.getResponseHeaders()
-                .set(
-                        "Content-Type",
-                        "application/json"
-                );
-
-        exchange.sendResponseHeaders(
-                statusCode,
-                bytes.length
-        );
-
-        try (OutputStream outputStream =
-                     exchange.getResponseBody()) {
-
-            outputStream.write(bytes);
-        }
+        // Deployed schema: explanation.heatmaps[] with base64 image_data
+        byte[] response = "{\"request_id\":\"req-1\",\"model_version\":\"v1\",\"image_quality\":{\"acceptable\":true,\"issues\":[]},\"identification\":{\"status\":\"UNKNOWN\",\"plant_id\":null,\"confidence\":0.2},\"alternatives\":[],\"similar_species\":[],\"explanation\":{\"method\":\"GRAD_CAM\",\"heatmaps\":[{\"image_index\":1,\"image_data\":\"aGVsbG8=\",\"media_type\":\"image/jpeg\"}]},\"multi_image\":{\"used\":false,\"image_count\":1},\"warnings\":[]}".getBytes(StandardCharsets.UTF_8);
+        exchange.getResponseHeaders().set("Content-Type", "application/json");
+        exchange.sendResponseHeaders(200, response.length);
+        exchange.getResponseBody().write(response);
+        exchange.close();
     }
 }

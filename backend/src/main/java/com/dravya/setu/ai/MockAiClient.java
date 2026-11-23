@@ -4,7 +4,6 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
-import java.util.UUID;
 
 @Component
 @Profile("!real-ai")
@@ -15,16 +14,9 @@ public class MockAiClient implements AiClient {
 
         AiResponse response = new AiResponse();
 
-        /*
-         * The mock generates a request ID because the current temporary
-         * AiRequest contract does not yet define a request_id field.
-         *
-         * Once Person 1's final AI request contract is frozen, this can
-         * be changed to pass through the request ID from AiRequest.
-         */
-        response.setRequestId(UUID.randomUUID().toString());
+        response.setRequestId(request.getRequestId());
 
-        response.setModelVersion("mock-model-v2");
+        response.setModelVersion("mock-plant-v1.0");
 
         /*
          * Image quality
@@ -93,15 +85,18 @@ public class MockAiClient implements AiClient {
 
         /*
          * Multi-image
-         *
-         * The current backend endpoint accepts one image, so the mock
-         * represents the current request as a single-image prediction.
          */
+        int imageCount = Math.max(
+                1,
+                Math.max(
+                        request.getImages() == null ? 0 : request.getImages().size(),
+                        request.getImageUrls() == null ? 0 : request.getImageUrls().size()));
+
         AiResponse.MultiImage multiImage =
                 new AiResponse.MultiImage();
 
-        multiImage.setUsed(false);
-        multiImage.setImageCount(1);
+        multiImage.setUsed(imageCount > 1);
+        multiImage.setImageCount(imageCount);
 
         response.setMultiImage(multiImage);
 

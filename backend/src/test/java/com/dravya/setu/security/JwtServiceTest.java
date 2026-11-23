@@ -1,150 +1,90 @@
 package com.dravya.setu.security;
 
 import com.dravya.setu.users.User;
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.security.Keys;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.test.util.ReflectionTestUtils;
 
-import javax.crypto.SecretKey;
-import java.nio.charset.StandardCharsets;
-import java.time.Instant;
-import java.util.Date;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class JwtServiceTest {
 
     private static final String SECRET =
-            "this-is-a-test-secret-key-that-is-long-enough-for-hs256";
+            "unit-test-secret-that-is-at-least-32-characters-long";
 
-    private JwtService jwtService;
+    @Test
+    void roundTripsIdentityRoleVersionAndTokenId() {
 
-    @BeforeEach
-    void setUp() {
-        jwtService = new JwtService(
-                SECRET,
-                3600000
-        );
+        JwtService service = new JwtService(SECRET, 60_000);
+        User user = user(9L, "user@example.com", "ADMIN", 3);
+
+        String token = service.generateToken(user);
+        JwtService.JwtClaims claims = service.parse(token).orElseThrow();
+
+        assertEquals("user@example.com", claims.email());
+        assertEquals(9L, claims.userId());
+        assertEquals("ADMIN", claims.role());
+        assertEquals(3, claims.tokenVersion());
+        assertNotNull(claims.jti());
+        assertTrue(claims.expiresAt().isAfter(java.time.Instant.now()));
+        assertEquals(60L, service.getExpirationSeconds());
     }
 
     @Test
-    void generateToken_shouldCreateToken() {
+    void rejectsAnExpiredToken() {
 
+        JwtService service = new JwtService(SECRET, -1_000);
+
+        String token = service.generateToken(user(1L, "user@example.com", "USER", 0));
+
+        assertTrue(service.parse(token).isEmpty());
+        assertFalse(service.isTokenValid(token));
+    }
+
+    @Test
+    void rejectsATamperedToken() {
+
+        JwtService service = new JwtService(SECRET, 60_000);
+        String token = service.generateToken(user(1L, "user@example.com", "USER", 0));
+
+        String tampered = token.substring(0, token.length() - 2) + "xy";
+
+        assertTrue(service.parse(tampered).isEmpty());
+    }
+
+    @Test
+    void rejectsATokenSignedWithAnotherSecret() {
+
+        JwtService issuer = new JwtService(SECRET, 60_000);
+        JwtService verifier = new JwtService(
+                "another-secret-that-is-also-at-least-32-characters", 60_000);
+
+        String token = issuer.generateToken(user(1L, "user@example.com", "USER", 0));
+
+        assertTrue(verifier.parse(token).isEmpty());
+    }
+
+    @Test
+    void issuesADifferentTokenIdEachTime() {
+
+        JwtService service = new JwtService(SECRET, 60_000);
+        User user = user(1L, "user@example.com", "USER", 0);
+
+        Optional<JwtService.JwtClaims> first = service.parse(service.generateToken(user));
+        Optional<JwtService.JwtClaims> second = service.parse(service.generateToken(user));
+
+        assertNotEquals(first.orElseThrow().jti(), second.orElseThrow().jti());
+    }
+
+    private static User user(Long id, String email, String role, int tokenVersion) {
         User user = new User();
-        user.setEmail("test@example.com");
-        user.setRole("USER");
-
-        User generatedUser = user;
-
-        // JwtService includes userId, so provide one for the test.
-        // Reflection is unnecessary because generateToken only requires
-        // getId(), getEmail(), and getRole().
-        try {
-            var idField = User.class.getDeclaredField("id");
-            idField.setAccessible(true);
-            idField.set(generatedUser, 1L);
-        } catch (ReflectiveOperationException e) {
-            fail("Could not set test user ID", e);
-        }
-
-        String token = jwtService.generateToken(generatedUser);
-
-        assertNotNull(token);
-        assertFalse(token.isBlank());
-    }
-
-    @Test
-    void extractEmail_shouldReturnUserEmail() {
-
-        User user = createUser(1L, "test@example.com", "USER");
-
-        String token = jwtService.generateToken(user);
-
-        String email = jwtService.extractEmail(token);
-
-        assertEquals("test@example.com", email);
-    }
-
-    @Test
-    void isTokenValid_shouldReturnTrue_forValidToken() {
-
-        User user = createUser(1L, "test@example.com", "USER");
-
-        String token = jwtService.generateToken(user);
-
-        assertTrue(jwtService.isTokenValid(token));
-    }
-
-    @Test
-    void isTokenValid_shouldReturnFalse_forTamperedToken() {
-
-        User user = createUser(1L, "test@example.com", "USER");
-
-        String token = jwtService.generateToken(user);
-
-        String[] parts = token.split("\\.");
-
-        String signature = parts[2];
-
-        char firstCharacter = signature.charAt(0);
-
-        char replacement =
-                firstCharacter == 'A' ? 'B' : 'A';
-
-        String tamperedSignature =
-                replacement + signature.substring(1);
-
-        String tamperedToken =
-                parts[0] + "." +
-                        parts[1] + "." +
-                        tamperedSignature;
-
-        assertFalse(jwtService.isTokenValid(tamperedToken));
-    }
-
-    @Test
-    void isTokenValid_shouldReturnFalse_forExpiredToken() {
-
-        SecretKey key = Keys.hmacShaKeyFor(
-                SECRET.getBytes(StandardCharsets.UTF_8)
-        );
-
-        Instant now = Instant.now();
-
-        String expiredToken = Jwts.builder()
-                .subject("test@example.com")
-                .claim("userId", 1L)
-                .claim("role", "USER")
-                .issuedAt(Date.from(now.minusSeconds(10)))
-                .expiration(Date.from(now.minusSeconds(5)))
-                .signWith(key)
-                .compact();
-
-        assertFalse(jwtService.isTokenValid(expiredToken));
-    }
-
-    private User createUser(
-            Long id,
-            String email,
-            String role) {
-
-        User user = new User();
-
+        ReflectionTestUtils.setField(user, "id", id);
         user.setEmail(email);
+        user.setPasswordHash("hash");
         user.setRole(role);
-
-        try {
-            var idField = User.class.getDeclaredField("id");
-            idField.setAccessible(true);
-            idField.set(user, id);
-        } catch (ReflectiveOperationException e) {
-            throw new RuntimeException(
-                    "Could not set test user ID",
-                    e
-            );
-        }
-
+        user.setTokenVersion(tokenVersion);
+        user.setEmailVerified(true);
         return user;
     }
 }

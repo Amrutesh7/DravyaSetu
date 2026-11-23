@@ -121,6 +121,47 @@
         }
       }
     },
+    "images": {
+      "description": "Ordered per-image results. Present when cloud storage is enabled.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "sequence_number",
+          "plant_part",
+          "image_url",
+          "heatmap_urls"
+        ],
+        "properties": {
+          "sequence_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "plant_part": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "image_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "heatmap_urls": {
+            "type": "array",
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        }
+      }
+    },
     "multi_image": {
       "type": "object",
       "additionalProperties": false,

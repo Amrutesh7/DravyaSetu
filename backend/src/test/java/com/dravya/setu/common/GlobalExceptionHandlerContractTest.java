@@ -11,6 +11,27 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GlobalExceptionHandlerContractTest {
 
+    @Test
+    void responseStatusesAlwaysUseDeclaredPublicCodes() throws Exception {
+        var mapper = new tools.jackson.databind.ObjectMapper();
+        var declared = mapper.readTree(java.nio.file.Files.readString(
+                java.nio.file.Path.of("../shared/constants/error-codes.json"))).get("public_backend");
+        var allowed = new java.util.HashSet<String>();
+        declared.forEach(code -> allowed.add(code.asText()));
+        for (HttpStatus status : HttpStatus.values()) {
+            if (!status.isError()) continue;
+            var response = handler.handleResponseStatus(
+                    new org.springframework.web.server.ResponseStatusException(status), requestWithId("req"));
+            assertEquals(status.value(), response.getStatusCode().value());
+            assertTrue(allowed.contains(response.getBody().getError().getCode()), status.toString());
+            assertNotNull(response.getBody().getError().getMessage());
+        }
+        assertTrue(allowed.contains(handler.handleUploadTooLarge(
+                new org.springframework.web.multipart.MaxUploadSizeExceededException(1), requestWithId("req"))
+                .getBody().getError().getCode()));
+        assertTrue(allowed.contains("INTERNAL_ERROR"));
+    }
+
     private final GlobalExceptionHandler handler =
             new GlobalExceptionHandler();
 

@@ -11,25 +11,25 @@ class KnowledgeResponseContractTest {
             JsonMapper.builder().build();
 
     @Test
-    void shouldDeserializeCanonicalKnowledgeResponse()
-            throws Exception {
+    void shouldDeserializeTheDeployedKnowledgeResponse() {
 
         String json = """
                 {
-                  "request_id": "knowledge-001",
-                  "answer": "Neem is a medicinal plant.",
+                  "request_id": "REQ_001",
+                  "session_id": "SESSION_001",
+                  "detected_language": "en",
+                  "transcript": null,
+                  "answer": "Tulasi is traditionally used for various purposes.",
                   "language": "en",
                   "sources": [
                     {
-                      "title": "Test Source",
-                      "url": "https://example.com/source"
+                      "source_id": "SRC_001",
+                      "title": "Tulasi",
+                      "reference": "Tulasi.pdf"
                     }
                   ],
-                  "voice_output": {
-                    "available": true
-                  },
-                  "warnings": [],
-                  "errors": []
+                  "voice_output": null,
+                  "warnings": []
                 }
                 """;
 
@@ -39,40 +39,52 @@ class KnowledgeResponseContractTest {
                         KnowledgeResponse.class
                 );
 
-        assertEquals(
-                "knowledge-001",
-                response.getRequestId()
-        );
+        assertEquals("REQ_001", response.getRequestId());
+        assertEquals("SESSION_001", response.getSessionId());
+        assertEquals("en", response.getDetectedLanguage());
+        assertNull(response.getTranscript());
+        assertEquals("Tulasi is traditionally used for various purposes.", response.getAnswer());
+        assertEquals("en", response.getLanguage());
 
-        assertEquals(
-                "Neem is a medicinal plant.",
-                response.getAnswer()
-        );
+        assertNotNull(response.getSources());
+        assertEquals(1, response.getSources().size());
+        assertEquals("SRC_001", response.getSources().get(0).getSourceId());
 
-        assertEquals(
-                "en",
-                response.getLanguage()
-        );
+        assertNull(response.getVoiceOutput());
+        assertTrue(response.getWarnings().isEmpty());
+    }
 
-        assertNotNull(
-                response.getSources()
-        );
+    @Test
+    void shouldDeserializeVoiceOutputAndIgnoreUnknownFields() {
 
-        assertEquals(
-                1,
-                response.getSources().size()
-        );
+        String json = """
+                {
+                  "request_id": "REQ_002",
+                  "session_id": "SESSION_002",
+                  "detected_language": "hi",
+                  "transcript": " Tulasi ke fayde kya hain? ",
+                  "answer": "Tulasi ke kai parmparkik upyog hain.",
+                  "language": "hi",
+                  "sources": [],
+                  "voice_output": {
+                    "available": true,
+                    "audio_url": "https://example.com/answer.mp3"
+                  },
+                  "warnings": ["Answer is a translation"],
+                  "future_field": "ignored"
+                }
+                """;
 
-        assertNotNull(
-                response.getVoiceOutput()
-        );
+        KnowledgeResponse response =
+                objectMapper.readValue(
+                        json,
+                        KnowledgeResponse.class
+                );
 
-        assertTrue(
-                response.getWarnings().isEmpty()
-        );
-
-        assertTrue(
-                response.getErrors().isEmpty()
-        );
+        assertEquals("hi", response.getDetectedLanguage());
+        assertEquals(" Tulasi ke fayde kya hain? ", response.getTranscript());
+        assertNotNull(response.getVoiceOutput());
+        assertEquals(true, response.getVoiceOutput().get("available"));
+        assertEquals(1, response.getWarnings().size());
     }
 }

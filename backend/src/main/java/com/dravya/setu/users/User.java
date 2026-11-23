@@ -29,6 +29,16 @@ public class User {
     @Column(nullable = false, length = 50)
     private String role;
 
+    @Column(name = "email_verified", nullable = false)
+    private boolean emailVerified;
+
+    @Column(name = "email_verified_at")
+    private OffsetDateTime emailVerifiedAt;
+
+    /** Incremented whenever every outstanding JWT for this user must stop working. */
+    @Column(name = "token_version", nullable = false)
+    private int tokenVersion;
+
     @Column(name = "created_at", nullable = false)
     private OffsetDateTime createdAt;
 
@@ -67,6 +77,18 @@ public class User {
         return role;
     }
 
+    public boolean isEmailVerified() {
+        return emailVerified;
+    }
+
+    public OffsetDateTime getEmailVerifiedAt() {
+        return emailVerifiedAt;
+    }
+
+    public int getTokenVersion() {
+        return tokenVersion;
+    }
+
     public OffsetDateTime getCreatedAt() {
         return createdAt;
     }
@@ -85,6 +107,18 @@ public class User {
 
     public void setRole(String role) {
         this.role = role;
+    }
+
+    public void setEmailVerified(boolean emailVerified) {
+        this.emailVerified = emailVerified;
+    }
+
+    public void setEmailVerifiedAt(OffsetDateTime emailVerifiedAt) {
+        this.emailVerifiedAt = emailVerifiedAt;
+    }
+
+    public void setTokenVersion(int tokenVersion) {
+        this.tokenVersion = tokenVersion;
     }
 
     public void setCreatedAt(OffsetDateTime createdAt) {

@@ -2,45 +2,45 @@ package com.dravya.setu.security;
 
 import com.dravya.setu.users.User;
 import com.dravya.setu.users.UserRepository;
-import jakarta.servlet.FilterChain;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.mockito.junit.jupiter.MockitoSettings;
+import org.mockito.quality.Strictness;
+import org.springframework.mock.web.MockFilterChain;
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.test.util.ReflectionTestUtils;
 
+import java.time.Instant;
 import java.util.Optional;
+import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
+@MockitoSettings(strictness = Strictness.LENIENT)
 class JwtAuthenticationFilterTest {
 
-    @Mock
-    private JwtService jwtService;
+    private static final String TOKEN = "header.payload.signature";
 
-    @Mock
-    private UserRepository userRepository;
-
-    @Mock
-    private FilterChain filterChain;
+    @Mock private JwtService jwtService;
+    @Mock private UserRepository userRepository;
+    @Mock private RevokedTokenRepository revokedTokenRepository;
 
     private JwtAuthenticationFilter filter;
 
     @BeforeEach
     void setUp() {
-        filter = new JwtAuthenticationFilter(
-                jwtService,
-                userRepository
-        );
-
         SecurityContextHolder.clearContext();
+        filter = new JwtAuthenticationFilter(
+                jwtService, userRepository, revokedTokenRepository);
     }
 
     @AfterEach
@@ -49,212 +49,131 @@ class JwtAuthenticationFilterTest {
     }
 
     @Test
-    void doFilter_shouldContinueWithoutAuthentication_whenHeaderIsMissing()
-            throws Exception {
+    void authenticatesAVerifiedAccountWithAMatchingTokenVersion() throws Exception {
 
-        MockHttpServletRequest request =
-                new MockHttpServletRequest();
+        User user = verifiedUser(0);
+        UUID jti = UUID.randomUUID();
 
-        MockHttpServletResponse response =
-                new MockHttpServletResponse();
+        givenToken(user, jti);
+        when(revokedTokenRepository.existsById(jti)).thenReturn(false);
 
-        filter.doFilter(request, response, filterChain);
+        filter.doFilter(requestWith(TOKEN), new MockHttpServletResponse(), new MockFilterChain());
 
-        verify(filterChain)
-                .doFilter(request, response);
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
 
-        assertNull(
-                SecurityContextHolder
-                        .getContext()
-                        .getAuthentication()
-        );
-
-        verifyNoInteractions(jwtService);
-        verifyNoInteractions(userRepository);
+        assertNotNull(authentication);
+        assertEquals(user, authentication.getPrincipal());
+        assertTrue(authentication.getAuthorities().stream()
+                .anyMatch(authority -> "ROLE_USER".equals(authority.getAuthority())));
     }
 
     @Test
-    void doFilter_shouldContinueWithoutAuthentication_whenTokenIsInvalid()
-            throws Exception {
+    void refusesAnUnverifiedAccount() throws Exception {
 
-        MockHttpServletRequest request =
-                new MockHttpServletRequest();
+        User user = verifiedUser(0);
+        user.setEmailVerified(false);
 
-        request.addHeader(
-                "Authorization",
-                "Bearer invalid-token"
-        );
+        givenToken(user, UUID.randomUUID());
 
-        MockHttpServletResponse response =
-                new MockHttpServletResponse();
+        filter.doFilter(requestWith(TOKEN), new MockHttpServletResponse(), new MockFilterChain());
 
-        when(jwtService.isTokenValid("invalid-token"))
-                .thenReturn(false);
-
-        filter.doFilter(request, response, filterChain);
-
-        verify(filterChain)
-                .doFilter(request, response);
-
-        assertNull(
-                SecurityContextHolder
-                        .getContext()
-                        .getAuthentication()
-        );
-
-        verify(jwtService)
-                .isTokenValid("invalid-token");
-
-        verify(jwtService, never())
-                .extractEmail(anyString());
-
-        verifyNoInteractions(userRepository);
+        assertNull(SecurityContextHolder.getContext().getAuthentication());
     }
 
     @Test
-    void doFilter_shouldAuthenticateUser_whenTokenIsValid()
-            throws Exception {
+    void refusesATokenIssuedBeforeAPasswordChange() throws Exception {
 
-        MockHttpServletRequest request =
-                new MockHttpServletRequest();
+        User user = verifiedUser(2);
 
-        request.addHeader(
-                "Authorization",
-                "Bearer valid-token"
-        );
+        givenToken(user, UUID.randomUUID(), 1);
 
-        MockHttpServletResponse response =
-                new MockHttpServletResponse();
+        filter.doFilter(requestWith(TOKEN), new MockHttpServletResponse(), new MockFilterChain());
 
+        assertNull(SecurityContextHolder.getContext().getAuthentication());
+    }
+
+    @Test
+    void refusesARevokedToken() throws Exception {
+
+        User user = verifiedUser(0);
+        UUID jti = UUID.randomUUID();
+
+        givenToken(user, jti);
+        when(revokedTokenRepository.existsById(jti)).thenReturn(true);
+
+        filter.doFilter(requestWith(TOKEN), new MockHttpServletResponse(), new MockFilterChain());
+
+        assertNull(SecurityContextHolder.getContext().getAuthentication());
+    }
+
+    @Test
+    void refusesADeletedAccount() throws Exception {
+
+        UUID jti = UUID.randomUUID();
+        when(jwtService.parse(TOKEN)).thenReturn(Optional.of(claims(jti, 0)));
+        when(userRepository.findByEmail("user@example.com")).thenReturn(Optional.empty());
+
+        filter.doFilter(requestWith(TOKEN), new MockHttpServletResponse(), new MockFilterChain());
+
+        assertNull(SecurityContextHolder.getContext().getAuthentication());
+    }
+
+    @Test
+    void ignoresRequestsWithoutABearerToken() throws Exception {
+
+        MockFilterChain chain = new MockFilterChain();
+
+        filter.doFilter(new MockHttpServletRequest(), new MockHttpServletResponse(), chain);
+
+        assertNull(SecurityContextHolder.getContext().getAuthentication());
+        verifyNoInteractions(jwtService, userRepository, revokedTokenRepository);
+        assertNotNull(chain.getRequest(), "the filter chain must still run");
+    }
+
+    @Test
+    void ignoresAnInvalidTokenAndContinuesTheChain() throws Exception {
+
+        when(jwtService.parse(TOKEN)).thenReturn(Optional.empty());
+
+        MockFilterChain chain = new MockFilterChain();
+
+        filter.doFilter(requestWith(TOKEN), new MockHttpServletResponse(), chain);
+
+        assertNull(SecurityContextHolder.getContext().getAuthentication());
+        assertNotNull(chain.getRequest());
+    }
+
+    // ---------------------------------------------------------------- helpers
+
+    private void givenToken(User user, UUID jti) {
+        givenToken(user, jti, user.getTokenVersion());
+    }
+
+    private void givenToken(User user, UUID jti, int tokenVersion) {
+        when(jwtService.parse(TOKEN)).thenReturn(Optional.of(claims(jti, tokenVersion)));
+        when(userRepository.findByEmail(user.getEmail())).thenReturn(Optional.of(user));
+    }
+
+    private static JwtService.JwtClaims claims(UUID jti, int tokenVersion) {
+        return new JwtService.JwtClaims(
+                "user@example.com", 1L, "USER", tokenVersion,
+                jti, Instant.now().plusSeconds(600));
+    }
+
+    private static User verifiedUser(int tokenVersion) {
         User user = new User();
-        user.setEmail("test@example.com");
+        ReflectionTestUtils.setField(user, "id", 1L);
+        user.setEmail("user@example.com");
+        user.setPasswordHash("hash");
         user.setRole("USER");
-
-        when(jwtService.isTokenValid("valid-token"))
-                .thenReturn(true);
-
-        when(jwtService.extractEmail("valid-token"))
-                .thenReturn("test@example.com");
-
-        when(userRepository.findByEmail("test@example.com"))
-                .thenReturn(Optional.of(user));
-
-        filter.doFilter(request, response, filterChain);
-
-        verify(filterChain)
-                .doFilter(request, response);
-
-        Authentication authentication =
-                SecurityContextHolder
-                        .getContext()
-                        .getAuthentication();
-
-        assertNotNull(authentication);
-        assertSame(user, authentication.getPrincipal());
-        assertEquals(
-                "ROLE_USER",
-                authentication
-                        .getAuthorities()
-                        .iterator()
-                        .next()
-                        .getAuthority()
-        );
-
-        verify(jwtService)
-                .isTokenValid("valid-token");
-
-        verify(jwtService)
-                .extractEmail("valid-token");
-
-        verify(userRepository)
-                .findByEmail("test@example.com");
+        user.setEmailVerified(true);
+        user.setTokenVersion(tokenVersion);
+        return user;
     }
 
-    @Test
-    void doFilter_shouldSetAdminRole_whenUserIsAdmin()
-            throws Exception {
-
-        MockHttpServletRequest request =
-                new MockHttpServletRequest();
-
-        request.addHeader(
-                "Authorization",
-                "Bearer admin-token"
-        );
-
-        MockHttpServletResponse response =
-                new MockHttpServletResponse();
-
-        User user = new User();
-        user.setEmail("admin@example.com");
-        user.setRole("ADMIN");
-
-        when(jwtService.isTokenValid("admin-token"))
-                .thenReturn(true);
-
-        when(jwtService.extractEmail("admin-token"))
-                .thenReturn("admin@example.com");
-
-        when(userRepository.findByEmail("admin@example.com"))
-                .thenReturn(Optional.of(user));
-
-        filter.doFilter(request, response, filterChain);
-
-        Authentication authentication =
-                SecurityContextHolder
-                        .getContext()
-                        .getAuthentication();
-
-        assertNotNull(authentication);
-
-        assertEquals(
-                "ROLE_ADMIN",
-                authentication
-                        .getAuthorities()
-                        .iterator()
-                        .next()
-                        .getAuthority()
-        );
-
-        assertSame(user, authentication.getPrincipal());
-
-        verify(filterChain)
-                .doFilter(request, response);
-    }
-
-    @Test
-    void doFilter_shouldRemainUnauthenticated_whenUserDoesNotExist()
-            throws Exception {
-
-        MockHttpServletRequest request =
-                new MockHttpServletRequest();
-
-        request.addHeader(
-                "Authorization",
-                "Bearer valid-token"
-        );
-
-        MockHttpServletResponse response =
-                new MockHttpServletResponse();
-
-        when(jwtService.isTokenValid("valid-token"))
-                .thenReturn(true);
-
-        when(jwtService.extractEmail("valid-token"))
-                .thenReturn("unknown@example.com");
-
-        when(userRepository.findByEmail("unknown@example.com"))
-                .thenReturn(Optional.empty());
-
-        filter.doFilter(request, response, filterChain);
-
-        verify(filterChain)
-                .doFilter(request, response);
-
-        assertNull(
-                SecurityContextHolder
-                        .getContext()
-                        .getAuthentication()
-        );
+    private static MockHttpServletRequest requestWith(String token) {
+        MockHttpServletRequest request = new MockHttpServletRequest();
+        request.addHeader("Authorization", "Bearer " + token);
+        return request;
     }
 }

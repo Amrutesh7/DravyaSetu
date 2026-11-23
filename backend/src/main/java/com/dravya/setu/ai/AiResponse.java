@@ -122,8 +122,8 @@ public class AiResponse {
     @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
     public static class Identification {
 
-        private String status;
-        private String plantId;
+        private String status;      //Known/Unknown
+        private String plantId;     //Shared Plant ID
         private Double confidence;
 
         public Identification() {
@@ -237,7 +237,16 @@ public class AiResponse {
     public static class Explanation {
 
         private String method;
+        /**
+         * Base64 heatmaps returned by the deployed AI service. Each entry's
+         * {@code imageIndex} is 1-based and refers to the uploaded image order.
+         */
+        private List<Heatmap> heatmaps;
+        /**
+         * Legacy URL-based heatmap fields, kept for older AI deployments.
+         */
         private String heatmapUrl;
+        private List<String> heatmapUrls;
 
         public Explanation() {
         }
@@ -246,16 +255,67 @@ public class AiResponse {
             return method;
         }
 
+        public List<Heatmap> getHeatmaps() {
+            return heatmaps;
+        }
+
         public String getHeatmapUrl() {
             return heatmapUrl;
+        }
+
+        public List<String> getHeatmapUrls() {
+            return heatmapUrls;
         }
 
         public void setMethod(String method) {
             this.method = method;
         }
 
+        public void setHeatmaps(List<Heatmap> heatmaps) {
+            this.heatmaps = heatmaps;
+        }
+
         public void setHeatmapUrl(String heatmapUrl) {
             this.heatmapUrl = heatmapUrl;
+        }
+
+        public void setHeatmapUrls(List<String> heatmapUrls) {
+            this.heatmapUrls = heatmapUrls;
+        }
+    }
+
+    @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
+    public static class Heatmap {
+
+        private Integer imageIndex;
+        private String imageData;
+        private String mediaType;
+
+        public Heatmap() {
+        }
+
+        public Integer getImageIndex() {
+            return imageIndex;
+        }
+
+        public String getImageData() {
+            return imageData;
+        }
+
+        public String getMediaType() {
+            return mediaType;
+        }
+
+        public void setImageIndex(Integer imageIndex) {
+            this.imageIndex = imageIndex;
+        }
+
+        public void setImageData(String imageData) {
+            this.imageData = imageData;
+        }
+
+        public void setMediaType(String mediaType) {
+            this.mediaType = mediaType;
         }
     }
 

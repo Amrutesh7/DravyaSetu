@@ -30,10 +30,10 @@ public class Identification {
     @Column(nullable = false, length = 50)
     private String status;
 
-    @Column(precision = 5, scale = 4)
+    @Column(nullable = false, columnDefinition = "numeric")
     private BigDecimal confidence;
 
-    @Column(name = "model_version", length = 100)
+    @Column(name = "model_version", nullable = false, length = 100)
     private String modelVersion;
 
     @CreationTimestamp

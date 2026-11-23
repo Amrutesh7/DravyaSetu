@@ -2,33 +2,54 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/Amrutesh7/DravyaSetu/blob/main/shared/contracts/knowledge-response.schema.json",
   "title": "DravyaSetu Knowledge Response",
-  "description": "Canonical response returned by Person 3 Knowledge Service to Person 2 Spring Boot.",
+  "description": "Canonical response returned by Person 3 Knowledge Service to Person 2 Spring Boot. Verified against the deployed service (POST /knowledge/chat) OpenAPI schema, version 1.0.0.",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "request_id",
+    "session_id",
+    "detected_language",
+    "transcript",
     "answer",
     "language",
     "sources",
+    "voice_output",
     "warnings"
   ],
   "properties": {
     "request_id": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "description": "Echo of the request_id supplied by Spring Boot."
+    },
+    "session_id": {
+      "type": "string",
+      "description": "Conversation session identifier supplied by Spring Boot and echoed back."
+    },
+    "detected_language": {
+      "type": "string",
+      "description": "Language the service detected in the input."
+    },
+    "transcript": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Speech transcript. Always null for text input."
     },
     "answer": {
       "type": "string"
     },
     "language": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "description": "Language of the returned answer."
     },
     "sources": {
       "type": "array",
+      "description": "Grounded knowledge sources used to build the answer.",
       "items": {
-        "type": "object",
-        "additionalProperties": true
+        "$ref": "#/$defs/source"
       }
     },
     "voice_output": {
@@ -36,6 +57,7 @@
         "object",
         "null"
       ],
+      "description": "Synthesised audio metadata. Null unless generate_audio was requested.",
       "additionalProperties": true
     },
     "warnings": {
@@ -43,11 +65,27 @@
       "items": {
         "type": "string"
       }
-    },
-    "errors": {
-      "type": "array",
-      "items": {
-        "type": "string"
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "title",
+        "reference"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "reference": {
+          "type": "string"
+        }
       }
     }
   }

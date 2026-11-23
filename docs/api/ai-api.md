@@ -7,43 +7,42 @@
 
 ## Endpoint
 ### POST /ai/analyze
-Purpose: analyze one or more plant images and return the canonical AI response.
+Deployed base URL: `https://dravyasetu-ai.onrender.com`
+Purpose: analyze one or more uploaded plant images and return the canonical AI response.
 
-## Request
-The request is sent by Person 2 as `POST /ai/analyze` with
-`Content-Type: application/json`. `X-Request-Id` carries the same value as
-`request_id`.
+## Request contract
+Spring Boot sends `multipart/form-data`, repeating `image` for multiple uploads
+(default maximum 5). The AI owner has confirmed multi-image and request-ID support;
+live deployment verification remains open in the deployment checklist.
+`X-Request-Id` is also sent for tracing.
 
 | Field | Type | Required | Description |
 |---|---|---|---|
-| `request_id` | string (UUID) | yes | Identification-level id; also sent as the `X-Request-Id` header |
-| `image` | array of strings | yes | One or more image URLs. Images live in cloud storage; each element is the URL of one image |
-| `plant_part` | string | no | Plant-part metadata when the client supplied it; omit when unknown |
+| `image` | repeated binary file | yes | One or more JPEG, PNG, or WebP plant images in upload order |
+| `request_id` | string | yes | Backend request identifier |
+| `plant_part` | string | no | Optional caller-supplied plant-part hint |
 
-Documented plant-part values:
-- `LEAF`
-- `FLOWER`
-- `STEM`
-- `ROOT`
-- `BARK`
+Preserve `request_id` in the response for tracing. Spring Boot uses its own
+request identifier for persistence and the frontend response; its current validator
+requires the upstream response ID to be present but does not enforce equality.
 
-```json
-{
-  "request_id": "3f1c9a52-8a4e-4f6b-9d0e-1a2b3c4d5e6f",
-  "image": [
-    "https://storage.example/plants/3f1c/leaf-1.jpg?X-Amz-Expires=600&X-Amz-Signature=...",
-    "https://storage.example/plants/3f1c/leaf-2.jpg?X-Amz-Expires=600&X-Amz-Signature=..."
-  ],
-  "plant_part": "LEAF"
-}
+```bash
+curl -X POST "https://dravyasetu-ai.onrender.com/ai/analyze" \
+  -F "image=@leaf.jpg;type=image/jpeg" \
+  -F "image=@flower.png;type=image/png" \
+  -F "request_id=REQ_001"
 ```
 
-`plant_part` is optional; omit the key entirely when the part is unknown. URLs are
-short-lived signed URLs, so Person 1 must fetch each image within the URL lifetime.
+`multi_image.image_count` describes the images analyzed. Heatmap `image_index`
+values are 1-based positions in the incoming image sequence. A configured service
+URL does not establish that its current deployment is healthy or contract-compatible.
 
-> Implementation status: the running backend still sends the previous
-> multipart binary form until the cloud-storage upload path is implemented. This
-> document is the agreed target contract for Person 1.
+## Optional URL transport
+For an AI deployment that accepts signed image URLs, set
+`AI_IMAGE_TRANSPORT=url` (requires Backblaze B2 storage). The backend then sends
+`application/json` with `request_id`, `image` as an array of short-lived
+presigned URLs, and optional `plant_part`. The default is `multipart` because
+that is what the deployed service accepts.
 
 ## Response
 The response MUST conform to `shared/contracts/ai-response.schema.json`.
@@ -64,6 +63,35 @@ Identification status is `KNOWN` or `UNKNOWN`. `plant_id` is null when status is
 For a known identification, `plant_id` MUST refer to an entry in `shared/constants/plant-classes.json`.
 
 Person 1 owns unknown-aware detection, confidence analysis, image-quality screening, multi-image evidence fusion, Grad-CAM generation, and visual similarity logic. Person 2 consumes the result and does not recalculate the AI result.
+
+### Heatmaps in the response
+
+The JSON contract carries JPEG/PNG heatmap bytes as base64 image data:
+
+```json
+"explanation": {
+  "method": "GRAD_CAM",
+  "heatmaps": [
+    {
+      "image_index": 1,
+      "image_data": "<base64 JPEG>",
+      "media_type": "image/jpeg"
+    }
+  ]
+}
+```
+
+| Field | Description |
+|---|---|
+| `image_index` | 1-based index of the uploaded image this heatmap explains |
+| `image_data` | Base64-encoded image bytes; a `data:` URI prefix is also tolerated |
+| `media_type` | Declared media type (`image/jpeg`) |
+
+The backend decodes `image_data`, validates the image signature and size, uploads
+it to B2, and exposes it to clients as a presigned URL. `image_data` is never
+persisted in the database or returned to Web/Mobile. Legacy deployments that
+return `explanation.heatmap_url` or `explanation.heatmap_urls` remain supported:
+the backend downloads and archives those URLs instead.
 
 ## Error behavior
 Controlled service errors use `shared/contracts/error.schema.json`.

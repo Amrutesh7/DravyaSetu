@@ -7,6 +7,19 @@ Web/Mobile → Spring Boot Public API → internal services
 
 Spring Boot is the application gateway. Web and Mobile do not call the AI Service or Knowledge Service directly.
 
+| Owner | Responsibility |
+| --- | --- |
+| Person 1 | AI/CV, image quality, confidence, unknown detection, multi-image fusion, Grad-CAM and similarity |
+| Person 2 | Spring Boot public API, authentication, PostgreSQL, B2 references, application history and integration clients |
+| Person 3 | Knowledge content, retrieval/RAG, LLM, translation and voice intelligence |
+| Person 4 | React/Flutter apps and user-facing flows |
+
+Identification: client uploads images → backend validates → AI analyzes → backend
+validates the result, archives images/heatmaps in B2 and persists history → client.
+Knowledge: client sends text → backend loads caller-owned context → Knowledge
+service answers → backend persists the turn → client. Voice input is deferred;
+spoken output can be requested through text chat with `generate_audio: true`.
+
 ## 2. Plant identity
 `shared/constants/plant-classes.json` is the authoritative shared mapping for supported plant classes.
 

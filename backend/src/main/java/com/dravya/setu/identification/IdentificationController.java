@@ -8,6 +8,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.data.domain.Page;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/identifications")
@@ -22,17 +25,20 @@ public class IdentificationController {
 
     @PostMapping(consumes = "multipart/form-data")
     public ResponseEntity<IdentificationResponse> createIdentification(
-            @RequestPart("image") MultipartFile image,
+            @RequestPart("image") List<MultipartFile> images,
             @RequestPart(value = "plantPart", required = false) String plantPart,
             @AuthenticationPrincipal User user,
             HttpServletRequest httpRequest) {
 
         IdentificationRequest request = new IdentificationRequest();
-        request.setImage(image);
+        request.setImages(images);
         request.setPlantPart(plantPart);
 
         String idempotencyKey = (String) httpRequest.getAttribute(
                 RequestIdFilter.IDEMPOTENCY_KEY_ATTRIBUTE);
+        if (idempotencyKey == null || idempotencyKey.isBlank()) {
+            idempotencyKey = (String) httpRequest.getAttribute(RequestIdFilter.REQUEST_ID_HEADER);
+        }
 
         IdentificationResponse response =
                 identificationService.createIdentification(
@@ -44,5 +50,20 @@ public class IdentificationController {
         return ResponseEntity
                 .status(HttpStatus.CREATED)
                 .body(response);
+    }
+
+    @GetMapping("/{id}")
+    public IdentificationHistoryResponse getIdentification(@PathVariable Long id,
+            @AuthenticationPrincipal User user) {
+        return identificationService.getHistoryItem(id, user);
+    }
+
+    @GetMapping
+    public Page<IdentificationHistoryResponse> history(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "20") int size,
+            @RequestParam(defaultValue = "newest") String sort,
+            @AuthenticationPrincipal User user) {
+        return identificationService.getHistory(user, page, size, sort);
     }
 }

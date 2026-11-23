@@ -15,6 +15,15 @@ services:
       timeout: 5s
       retries: 5
 
+  mailpit:
+    image: axllent/mailpit:v1.34
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+    environment:
+      MP_SMTP_AUTH_ACCEPT_ANY: 1
+      MP_SMTP_AUTH_ALLOW_INSECURE: 1
+
   backend:
     build:
       context: ./backend
@@ -26,17 +35,55 @@ services:
       DB_USERNAME: dravya_app
       DB_PASSWORD: ${DB_PASSWORD:-changeme}
       JWT_SECRET: ${JWT_SECRET:-dev-secret-min-32-chars-long-enough}
+      JWT_EXPIRATION_MS: ${JWT_EXPIRATION_MS:-3600000}
       AI_BASE_URL: ${AI_BASE_URL:-http://host.docker.internal:8001}
-      KNOWLEDGE_BASE_URL: ${KNOWLEDGE_BASE_URL:-http://host.docker.internal:8002}
-      R2_ACCOUNT_ID: ${R2_ACCOUNT_ID:-local}
-      R2_ACCESS_KEY: ${R2_ACCESS_KEY:-local-access-key}
-      R2_SECRET_KEY: ${R2_SECRET_KEY:-local-secret-key}
-      R2_BUCKET: ${R2_BUCKET:-dravya-setu}
-      R2_PUBLIC_URL: ${R2_PUBLIC_URL:-http://localhost:9000}
-      R2_REGION: ${R2_REGION:-auto}
+      KNOWLEDGE_BASE_URL: ${KNOWLEDGE_BASE_URL:-https://dravyasetu-knowledge-service.onrender.com}
+      AI_IDENTIFY_PATH: ${AI_IDENTIFY_PATH:-/ai/analyze}
+      AI_CONNECT_TIMEOUT_MS: ${AI_CONNECT_TIMEOUT_MS:-10000}
+      AI_READ_TIMEOUT_MS: ${AI_READ_TIMEOUT_MS:-90000}
+      AI_IMAGE_TRANSPORT: ${AI_IMAGE_TRANSPORT:-multipart}
+      IDENTIFICATION_MAX_IMAGES: ${IDENTIFICATION_MAX_IMAGES:-5}
+      KNOWLEDGE_ASK_PATH: ${KNOWLEDGE_ASK_PATH:-/knowledge/chat}
+      B2_STORAGE_ENABLED: ${B2_STORAGE_ENABLED:-false}
+      B2_BUCKET: ${B2_BUCKET:-}
+      B2_ENDPOINT: ${B2_ENDPOINT:-}
+      B2_REGION: ${B2_REGION:-}
+      B2_APPLICATION_KEY_ID: ${B2_APPLICATION_KEY_ID:-}
+      B2_APPLICATION_KEY: ${B2_APPLICATION_KEY:-}
+      B2_PATH_STYLE: ${B2_PATH_STYLE:-true}
+      B2_PRESIGN_TTL: ${B2_PRESIGN_TTL:-60m}
+      B2_AI_PRESIGN_TTL: ${B2_AI_PRESIGN_TTL:-15m}
+      B2_MAX_HEATMAP_BYTES: ${B2_MAX_HEATMAP_BYTES:-5242880}
+      B2_HEATMAP_TIMEOUT: ${B2_HEATMAP_TIMEOUT:-10s}
+      B2_HEATMAP_ALLOWED_HOSTS: ${B2_HEATMAP_ALLOWED_HOSTS:-}
+      CORS_ALLOWED_ORIGIN_PATTERNS: ${CORS_ALLOWED_ORIGIN_PATTERNS:-http://localhost:*,http://127.0.0.1:*}
+      RATE_LIMIT_ENABLED: ${RATE_LIMIT_ENABLED:-true}
+      TRUSTED_PROXY_CIDRS: ${TRUSTED_PROXY_CIDRS:-}
+      SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE:-real-ai,real-knowledge}
+      # Local SMTP sink; read delivered mail at http://localhost:8025.
+      MAIL_ENABLED: ${MAIL_ENABLED:-true}
+      MAIL_PROVIDER: ${MAIL_PROVIDER:-smtp}
+      BREVO_API_KEY: ${BREVO_API_KEY:-}
+      MAIL_HOST: ${MAIL_HOST:-mailpit}
+      MAIL_PORT: ${MAIL_PORT:-1025}
+      MAIL_FROM: ${MAIL_FROM:-no-reply@dravyasetu.local}
+      MAIL_FROM_NAME: ${MAIL_FROM_NAME:-DravyaSetu}
+      MAIL_STARTTLS: ${MAIL_STARTTLS:-false}
+      MAIL_SSL: ${MAIL_SSL:-false}
+      MAIL_USERNAME: ${MAIL_USERNAME:-}
+      MAIL_PASSWORD: ${MAIL_PASSWORD:-}
+      OTP_HASH_SECRET: ${OTP_HASH_SECRET:-}
+      OTP_LENGTH: ${OTP_LENGTH:-6}
+      OTP_TTL_MINUTES: ${OTP_TTL_MINUTES:-5}
+      OTP_MAX_ATTEMPTS: ${OTP_MAX_ATTEMPTS:-5}
+      OTP_RESEND_COOLDOWN_SECONDS: ${OTP_RESEND_COOLDOWN_SECONDS:-60}
+      OTP_MAX_PER_HOUR: ${OTP_MAX_PER_HOUR:-5}
+      PASSWORD_RESET_TICKET_TTL_MINUTES: ${PASSWORD_RESET_TICKET_TTL_MINUTES:-10}
     depends_on:
       postgres:
         condition: service_healthy
+      mailpit:
+        condition: service_started
 
   postgres-test:
     image: postgres:16

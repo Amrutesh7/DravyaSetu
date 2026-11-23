@@ -19,6 +19,7 @@ public class IdentificationResponse {
     private List<SimilarSpecies> similarSpecies;
     private Explanation explanation;
     private MultiImage multiImage;
+    private List<ImageResult> images;
 
     public IdentificationResponse() {
     }
@@ -110,6 +111,10 @@ public class IdentificationResponse {
         return multiImage;
     }
 
+    public List<ImageResult> getImages() {
+        return images;
+    }
+
     public void setRequestId(String requestId) {
         this.requestId = requestId;
     }
@@ -148,6 +153,65 @@ public class IdentificationResponse {
 
     public void setMultiImage(MultiImage multiImage) {
         this.multiImage = multiImage;
+    }
+
+    public void setImages(List<ImageResult> images) {
+        this.images = images;
+    }
+
+    @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
+    public static class ImageResult {
+
+        private Integer sequenceNumber;
+        private String plantPart;
+        private String imageUrl;
+        private List<String> heatmapUrls;
+
+        public ImageResult() {
+        }
+
+        public ImageResult(
+                Integer sequenceNumber,
+                String plantPart,
+                String imageUrl,
+                List<String> heatmapUrls) {
+            this.sequenceNumber = sequenceNumber;
+            this.plantPart = plantPart;
+            this.imageUrl = imageUrl;
+            this.heatmapUrls = heatmapUrls == null ? List.of() : List.copyOf(heatmapUrls);
+        }
+
+        public Integer getSequenceNumber() {
+            return sequenceNumber;
+        }
+
+        public String getPlantPart() {
+            return plantPart;
+        }
+
+        public String getImageUrl() {
+            return imageUrl;
+        }
+
+        public List<String> getHeatmapUrls() {
+            return heatmapUrls;
+        }
+
+        public void setSequenceNumber(Integer sequenceNumber) {
+            this.sequenceNumber = sequenceNumber;
+        }
+
+        public void setPlantPart(String plantPart) {
+            this.plantPart = plantPart;
+        }
+
+        public void setImageUrl(String imageUrl) {
+            this.imageUrl = imageUrl;
+        }
+
+        public void setHeatmapUrls(List<String> heatmapUrls) {
+            this.heatmapUrls = heatmapUrls;
+        }
     }
 
     @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
