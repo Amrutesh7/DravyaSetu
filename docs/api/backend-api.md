@@ -7,6 +7,9 @@ Use `http://localhost:8080/api/v1` locally and the Render HTTPS host after deplo
 Swagger is `/api/v1/swagger-ui/index.html`. Authentication payloads and flows are
 defined in [the authentication guide](../AUTH_API_DOCUMENTATION.md); AI and Knowledge
 service details belong in [their](ai-api.md) [contracts](knowledge-api.md).
+Swagger's server is the relative `/api/v1`, which preserves the page's host and
+scheme. On Render, open Swagger through HTTPS. The backend permits its configured
+Render service origin in addition to the frontend origins.
 
 ## Public endpoints
 | Method | Endpoint | Purpose |

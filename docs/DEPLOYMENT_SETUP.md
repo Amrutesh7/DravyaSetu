@@ -134,6 +134,11 @@ deferred; do not build fake speech processing into the backend.
    stack inside a Render web service.
 5. API base: `https://SERVICE.onrender.com/api/v1`; Swagger:
    `https://SERVICE.onrender.com/api/v1/swagger-ui/index.html`.
+   Swagger declares the relative server `/api/v1`, so browser requests keep the
+   documentation page's HTTPS origin. Render's automatically supplied
+   `RENDER_EXTERNAL_URL` is also allowed as an exact CORS origin for Swagger's
+   requests through the TLS-terminating proxy; no additional environment setting
+   is needed. Custom backend domains must be listed in the CORS setting too.
 6. The blueprint currently permits exactly `http://localhost:5173` and
    `http://localhost:3000`. Confirm the teammate's actual ports; add the eventual
    React/Flutter Web HTTPS origin to `CORS_ALLOWED_ORIGIN_PATTERNS`, with no path

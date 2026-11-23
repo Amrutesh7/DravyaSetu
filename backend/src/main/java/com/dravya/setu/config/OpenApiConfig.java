@@ -5,6 +5,8 @@ import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
 import io.swagger.v3.oas.models.security.SecurityRequirement;
 import io.swagger.v3.oas.models.security.SecurityScheme;
+import io.swagger.v3.oas.models.servers.Server;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -12,9 +14,14 @@ import org.springframework.context.annotation.Configuration;
 public class OpenApiConfig {
 
     @Bean
-    public OpenAPI dravyaSetuOpenAPI() {
+    public OpenAPI dravyaSetuOpenAPI(
+            @Value("${server.servlet.context-path:}") String contextPath) {
 
         return new OpenAPI()
+                // Resolve against the documentation's origin, including its HTTPS scheme.
+                .addServersItem(new Server()
+                        .url(contextPath.isBlank() ? "/" : contextPath)
+                        .description("This service"))
                 .info(new Info()
                         .title("DravyaSetu Backend API")
                         .version("1.0")

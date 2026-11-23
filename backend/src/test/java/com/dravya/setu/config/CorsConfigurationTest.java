@@ -11,6 +11,19 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class CorsConfigurationTest {
     @Test
+    void allowsRenderOriginWithoutTrustingArbitraryWebsites() {
+        SecurityConfig config = new SecurityConfig(null,
+                List.of("http://localhost:5173"), "https://backend-test.onrender.com/");
+        CorsConfiguration cors = config.corsConfigurationSource()
+                .getCorsConfiguration(new MockHttpServletRequest("POST", "/auth/register"));
+        assertEquals("https://backend-test.onrender.com", cors.checkOrigin("https://backend-test.onrender.com"));
+        assertEquals("http://localhost:5173", cors.checkOrigin("http://localhost:5173"));
+        assertEquals(null, cors.checkOrigin("http://backend-test.onrender.com"));
+        assertEquals(null, cors.checkOrigin("https://backend-test.onrender.com.evil.example"));
+        assertEquals(null, cors.checkOrigin("https://untrusted.example"));
+    }
+
+    @Test
     void allowsOnlyConfiguredDevelopmentOriginsWithCredentials() {
         SecurityConfig config = new SecurityConfig(null,
                 List.of("http://localhost:*", "http://127.0.0.1:*"));

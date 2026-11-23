@@ -12,19 +12,12 @@ written configuration as a successful deployment. Never put credentials here.
 
 ## Open work
 
-- [ ] D05 Configure Render's `DB_URL`, `DB_USERNAME`, `DB_PASSWORD`; confirm TLS,
-  successful Flyway migration through V26 and application health using Neon.
-  Local configuration and the packaged backend against Neon are verified; Render
-  Environment and hosted health checks remain pending.
 - [ ] D07 Create Brevo account, verify sender address, obtain API key, configure
   `MAIL_PROVIDER=brevo`, `BREVO_API_KEY`, `MAIL_FROM`, `MAIL_ENABLED=true` on Render.
   Verify actual delivery and register/verify/reset flows in a real inbox.
   Account/API authentication, active sender, one HTTP-accepted test email and inbox
   arrival confirmed by the user are complete. Render settings and hosted auth
   flows remain pending; do not send more emails without authorization.
-- [ ] D08 Create a Render Docker web service from the prepared Blueprint with the
-  production profile and Render-generated secrets; configure health check and verify its
-  HTTPS onrender.com URL. No custom domain or certificate key is needed for that URL.
 - [ ] D09 Configure exact React browser origins when supplied; verify preflight,
   login and uploads from a browser. Native Flutter clients are not subject to browser
   CORS; Flutter Web is. Confirm proxy trust without trusting all forwarding headers.
@@ -43,9 +36,31 @@ written configuration as a successful deployment. Never put credentials here.
 - [ ] D13 Run final deployed smoke tests: health, registration, email verification,
   login, plant browse/detail, identification, B2 URLs, chat, ownership/history,
   reset, logout. Share HTTPS API URL, Swagger and API documentation with teammate.
+  Hosted health, languages and Swagger now return 200; authenticated/provider
+  workflows remain pending.
+  Registration testing exposed an HTTP-generated Swagger server URL and rejection
+  of the HTTPS service origin. The local fix uses a relative OpenAPI server and
+  the exact `RENDER_EXTERNAL_URL` CORS origin. Keep hosted Swagger registration
+  and inbox verification open until the fix is deployed and the user retries.
 
 ## Verified
 
+- [x] Local Swagger HTTPS fix (2026-11-23): live read-only/invalid-body diagnostics
+  confirmed an HTTP-generated OpenAPI server and a 403 for the HTTPS service
+  Origin; empty requests without Origin correctly reached validation with 400.
+  OpenAPI now declares relative `/api/v1`, and CORS additionally allows the exact
+  host-supplied `RENDER_EXTERNAL_URL`. Eight targeted real-HTTP/CORS tests passed,
+  including rejection of unrelated and lookalike origins. No registration email
+  was sent by these diagnostics. Deployment and inbox acceptance remain D13/D07.
+- [x] D05 (2026-11-23): Render logs show successful Neon connection using the
+  TLS-required JDBC URL, validation of all 26 Flyway migrations and schema V26
+  already up to date. Hosted `/api/v1/actuator/health` returns 200 with status UP.
+- [x] D08 (2026-11-23): manual Docker Web Service deployed at
+  `https://dravyasetu-backend.onrender.com`, using port 10000, context `/api/v1`
+  and profiles `real-ai,real-knowledge,production`. The imported 22 settings
+  matched the ignored `.env.render` file with existing generated secrets.
+  HTTPS checks returned 200 for health, languages and Swagger HTML. Root `/`
+  returns 404 because the backend has no root website; this is expected.
 - [x] Repository cleanup (2026-11-23): removed empty frontend/Python scaffolds,
   redundant placeholders, obsolete status documentation, a completed one-off
   environment-copy helper, generated build/cache output and old startup logs.
@@ -110,8 +125,9 @@ written configuration as a successful deployment. Never put credentials here.
 
 ## Inputs still needed
 
-- Render service URL once created; React dev port(s) and eventual web-app origin.
-- Copy saved Neon and Brevo settings into Render's secure Environment form; don't
+- React dev port(s) and eventual web-app origin.
+- Render URL is `https://dravyasetu-backend.onrender.com`; Neon and Brevo settings
+  were entered in its Environment form. Hosted email flows remain D07; don't
   paste secret values into tracked files or documentation.
 - Confirmation of existing B2 bucket/key settings and eventual browser origins.
 

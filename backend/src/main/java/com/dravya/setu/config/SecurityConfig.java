@@ -16,6 +16,7 @@ import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 
 @Configuration
@@ -24,12 +25,22 @@ public class SecurityConfig {
 
     private final JwtAuthenticationFilter jwtAuthenticationFilter;
     private final List<String> allowedOriginPatterns;
+    private final String serviceOrigin;
 
     public SecurityConfig(
             JwtAuthenticationFilter jwtAuthenticationFilter,
-            @Value("${app.cors.allowed-origin-patterns}") List<String> allowedOriginPatterns) {
+            List<String> allowedOriginPatterns) {
+        this(jwtAuthenticationFilter, allowedOriginPatterns, "");
+    }
+
+    @Autowired
+    public SecurityConfig(
+            JwtAuthenticationFilter jwtAuthenticationFilter,
+            @Value("${app.cors.allowed-origin-patterns}") List<String> allowedOriginPatterns,
+            @Value("${RENDER_EXTERNAL_URL:}") String serviceOrigin) {
         this.jwtAuthenticationFilter = jwtAuthenticationFilter;
         this.allowedOriginPatterns = allowedOriginPatterns;
+        this.serviceOrigin = serviceOrigin.strip().replaceAll("/+$", "");
     }
 
     @Bean
@@ -86,6 +97,9 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOriginPatterns(allowedOriginPatterns);
+        // Render terminates TLS before the app. Allow its configured public origin
+        // for Swagger requests without trusting caller-supplied forwarding headers.
+        if (!serviceOrigin.isEmpty()) configuration.addAllowedOrigin(serviceOrigin);
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("*"));
         configuration.setExposedHeaders(List.of("X-Request-Id", "Retry-After"));

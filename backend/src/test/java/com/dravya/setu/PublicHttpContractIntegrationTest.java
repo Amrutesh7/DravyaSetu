@@ -24,7 +24,8 @@ import java.util.UUID;
 import static org.junit.jupiter.api.Assertions.*;
 
 /** Real HTTP checks include the servlet filters, unlike standalone controller tests. */
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT,
+        properties = "RENDER_EXTERNAL_URL=https://backend-contract-test.onrender.com")
 @ActiveProfiles({"test", "production"})
 @Import(TestFlywayConfig.class)
 class PublicHttpContractIntegrationTest {
@@ -83,6 +84,32 @@ class PublicHttpContractIntegrationTest {
         assertEquals(200, response.statusCode(), response.body());
         assertEquals("http://localhost:5173", response.headers().firstValue("Access-Control-Allow-Origin").orElseThrow());
         assertTrue(response.headers().firstValue("Access-Control-Expose-Headers").orElseThrow().contains("X-Request-Id"));
+    }
+
+    @Test
+    void swaggerUsesSameOriginAndHttpsRegistrationReachesValidation() throws Exception {
+        var schema = mapper.readTree(send("/v3/api-docs", "GET", null).body());
+        assertEquals(1, schema.path("servers").size());
+        assertEquals("/api/v1", schema.path("servers").get(0).path("url").asText());
+
+        // An HTTPS browser origin reaches an HTTP app behind Render's TLS proxy.
+        // Empty JSON must reach validation, without invoking mail or creating a user.
+        var request = HttpRequest.newBuilder(URI.create("http://127.0.0.1:" + port + "/api/v1/auth/register"))
+                .header("Origin", "https://backend-contract-test.onrender.com")
+                .header("Content-Type", "application/json")
+                .POST(HttpRequest.BodyPublishers.ofString("{}")).build();
+        var response = client.send(request, HttpResponse.BodyHandlers.ofString());
+        assertEquals(400, response.statusCode(), response.body());
+        assertEquals("INVALID_REQUEST", mapper.readTree(response.body()).path("error").path("code").asText());
+        assertEquals("https://backend-contract-test.onrender.com",
+                response.headers().firstValue("Access-Control-Allow-Origin").orElseThrow());
+
+        var preflight = HttpRequest.newBuilder(request.uri())
+                .header("Origin", "https://backend-contract-test.onrender.com")
+                .header("Access-Control-Request-Method", "POST")
+                .header("Access-Control-Request-Headers", "content-type")
+                .method("OPTIONS", HttpRequest.BodyPublishers.noBody()).build();
+        assertEquals(200, client.send(preflight, HttpResponse.BodyHandlers.ofString()).statusCode());
     }
 
     @Test
