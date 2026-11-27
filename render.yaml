@@ -5,7 +5,7 @@ services:
     dockerfilePath: ./ai-service/Dockerfile
     dockerContext: .
     branch: feature/person1-ai
-    plan: standard
+    plan: free
     healthCheckPath: /health
     envVars:
       - key: PORT
