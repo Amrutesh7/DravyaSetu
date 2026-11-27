@@ -1,0 +1,77 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Amrutesh7/DravyaSetu/blob/main/shared/contracts/knowledge-chat-request.schema.json",
+  "title": "DravyaSetu Knowledge Chat Request",
+  "description": "Chat request sent by the Spring Boot backend to the Python Knowledge Service.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "session_id",
+    "message"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "session_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "message": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Current user message."
+    },
+    "input_type": {
+      "type": "string",
+      "description": "Input modality, such as text."
+    },
+    "input_language": {
+      "type": ["string", "null"],
+      "description": "Optional language of the incoming message."
+    },
+    "response_language": {
+      "type": ["string", "null"],
+      "description": "Language requested for the generated answer."
+    },
+    "plant_id": {
+      "type": ["string", "null"],
+      "description": "Selected plant identifier from the fixed plant directory."
+    },
+    "conversation_context": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "summary": {
+          "type": ["string", "null"],
+          "description": "Previously stored conversation summary."
+        },
+        "recent_messages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["role", "content"],
+            "properties": {
+              "role": {
+                "type": "string",
+                "enum": ["user", "assistant"]
+              },
+              "content": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "generate_audio": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether audio output is requested."
+    }
+  }
+}
