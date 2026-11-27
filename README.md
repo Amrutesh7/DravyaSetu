@@ -1,13 +1,3 @@
----
-title: DravyaSetu AI Service
-emoji: 🌿
-colorFrom: green
-colorTo: emerald
-sdk: docker
-app_port: 8000
-pinned: false
----
-
 # 🌿 DravyaSetu AI Service
 
 > **Ayurvedic Medicinal Plant Identification API** — Upload leaf images, get instant plant identification with Grad-CAM visual explanations.
