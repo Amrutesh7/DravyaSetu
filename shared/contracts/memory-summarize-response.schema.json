@@ -1,0 +1,46 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Amrutesh7/DravyaSetu/blob/main/shared/contracts/memory-summarize-response.schema.json",
+  "title": "DravyaSetu Memory Summarization Response",
+  "description": "Updated conversation summary returned by the Python Knowledge Service.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "session_id",
+    "summary",
+    "summarized_message_count",
+    "summarized_through_message_id",
+    "summary_token_count",
+    "warnings"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "summarized_message_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "summarized_through_message_id": {
+      "type": ["string", "null"]
+    },
+    "summary_token_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
