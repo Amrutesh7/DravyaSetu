@@ -7,29 +7,35 @@
 
 ## Endpoint
 ### POST /ai/analyze
-Deployed base URL: `https://dravyasetu-ai.onrender.com`
+Deployed base URL: `https://a760-st--dravyasetu-ai-fastapi-app.us-east.modal.run`
 Purpose: analyze one or more uploaded plant images and return the canonical AI response.
+Interactive docs: [Modal Swagger UI](https://a760-st--dravyasetu-ai-fastapi-app.us-east.modal.run/docs).
+Use the base host above in `AI_BASE_URL`, without the `/docs` suffix.
 
 ## Request contract
-Spring Boot sends `multipart/form-data`, repeating `image` for multiple uploads
-(default maximum 5). The AI owner has confirmed multi-image and request-ID support;
-live deployment verification remains open in the deployment checklist.
+Spring Boot sends `multipart/form-data`, repeating `images` for multiple uploads
+(default maximum 5). Modal's `/openapi.json` declares a required `images` file array
+and an optional `request_id` form field. Spring Boot always supplies its request ID.
 `X-Request-Id` is also sent for tracing.
 
 | Field | Type | Required | Description |
 |---|---|---|---|
-| `image` | repeated binary file | yes | One or more JPEG, PNG, or WebP plant images in upload order |
-| `request_id` | string | yes | Backend request identifier |
-| `plant_part` | string | no | Optional caller-supplied plant-part hint |
+| `images` | repeated binary file | yes | One or more JPEG, PNG, or WebP plant images in upload order |
+| `request_id` | string | optional to Modal; always sent by Spring Boot | Backend request identifier |
+
+The public frontend upload remains repeated `image` parts at
+`POST /api/v1/identifications`; Spring Boot translates them to internal `images`
+parts and preserves each filename, MIME type and order. The frontend's optional
+`plantPart` is stored as application metadata; Modal declares no `plant_part` input.
 
 Preserve `request_id` in the response for tracing. Spring Boot uses its own
 request identifier for persistence and the frontend response; its current validator
 requires the upstream response ID to be present but does not enforce equality.
 
 ```bash
-curl -X POST "https://dravyasetu-ai.onrender.com/ai/analyze" \
-  -F "image=@leaf.jpg;type=image/jpeg" \
-  -F "image=@flower.png;type=image/png" \
+curl -X POST "https://a760-st--dravyasetu-ai-fastapi-app.us-east.modal.run/ai/analyze" \
+  -F "images=@leaf.jpg;type=image/jpeg" \
+  -F "images=@flower.png;type=image/png" \
   -F "request_id=REQ_001"
 ```
 
@@ -38,7 +44,8 @@ values are 1-based positions in the incoming image sequence. A configured servic
 URL does not establish that its current deployment is healthy or contract-compatible.
 
 ## Optional URL transport
-For an AI deployment that accepts signed image URLs, set
+The current Modal endpoint accepts multipart uploads, so keep
+`AI_IMAGE_TRANSPORT=multipart`. For a different AI deployment that accepts signed image URLs, set
 `AI_IMAGE_TRANSPORT=url` (requires Backblaze B2 storage). The backend then sends
 `application/json` with `request_id`, `image` as an array of short-lived
 presigned URLs, and optional `plant_part`. The default is `multipart` because

@@ -33,7 +33,7 @@ services:
       - key: MAIL_FROM_NAME
         value: DravyaSetu
       - key: AI_BASE_URL
-        value: https://dravyasetu-ai.onrender.com
+        value: https://a760-st--dravyasetu-ai-fastapi-app.us-east.modal.run
       - key: AI_IMAGE_TRANSPORT
         value: multipart
       - key: KNOWLEDGE_BASE_URL

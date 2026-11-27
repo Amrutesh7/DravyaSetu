@@ -8,6 +8,7 @@ the Spring Boot client and shared integration contracts, not the model implement
 - [Example response](../shared/sample-data/sample-ai-response.json)
 - [Authoritative plant IDs](../shared/constants/plant-classes.json)
 
-Spring Boot calls `POST /ai/analyze` with repeated `image` parts and a `request_id`.
+Spring Boot calls Modal's `POST /ai/analyze` with repeated `images` parts and a `request_id`.
+Its public `/api/v1/identifications` endpoint still accepts frontend `image` parts.
 The backend archives uploaded images and returned heatmaps in B2. Frontend clients
 call Spring Boot only. Coordinate contract changes before changing fields or plant IDs.

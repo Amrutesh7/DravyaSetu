@@ -68,7 +68,7 @@ public class IdentificationService {
             StorageService storageService,
             HeatmapExtractor heatmapExtractor,
             @Value("${app.identification.max-images:5}") int maxImages,
-            @Value("${app.ai.image-transport:url}") String imageTransport) {
+            @Value("${app.ai.image-transport:multipart}") String imageTransport) {
 
         this.identificationRepository = identificationRepository;
         this.identificationImageRepository = identificationImageRepository;

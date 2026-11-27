@@ -101,12 +101,20 @@ Both ignored local files and the deployment configurations use real clients:
 
 ```properties
 SPRING_PROFILES_ACTIVE=real-ai,real-knowledge,production
-AI_BASE_URL=https://dravyasetu-ai.onrender.com
+AI_BASE_URL=https://a760-st--dravyasetu-ai-fastapi-app.us-east.modal.run
 AI_IDENTIFY_PATH=/ai/analyze
 AI_IMAGE_TRANSPORT=multipart
 KNOWLEDGE_BASE_URL=https://dravyasetu-knowledge-service.onrender.com
 KNOWLEDGE_ASK_PATH=/knowledge/chat
 ```
+
+The AI service now runs on Modal. On the existing Render **backend** service,
+replace its saved `AI_BASE_URL` with the Modal base host above (without `/docs`),
+keep `AI_IDENTIFY_PATH=/ai/analyze` and `AI_IMAGE_TRANSPORT=multipart`, and deploy
+the updated backend code. Existing Render environment values override repository
+defaults; changing `render.yaml` alone does not update a manually created service.
+The Modal endpoint expects internal `images` file parts; the backend continues
+accepting frontend `image` parts. No AI credential is declared by the public schema.
 
 `production` adds deployment settings; the two real-client profiles select the
 actual integrations. They don't silently fall back to mocks during an outage.

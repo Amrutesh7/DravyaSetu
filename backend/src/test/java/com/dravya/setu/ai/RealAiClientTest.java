@@ -67,6 +67,30 @@ class RealAiClientTest {
         assertTrue(body.get().contains("\"image\""));
     }
 
+    @Test void sendsModalImagesFieldWithOrderedFilesTypesAndRequestId() {
+        AtomicReference<String> body = new AtomicReference<>();
+        AtomicReference<String> requestIdHeader = new AtomicReference<>();
+        server.createContext("/ai/analyze", exchange -> {
+            body.set(new String(exchange.getRequestBody().readAllBytes(), StandardCharsets.ISO_8859_1));
+            requestIdHeader.set(exchange.getRequestHeaders().getFirst("X-Request-Id"));
+            writeResponse(exchange);
+        });
+        var jpeg = new MockMultipartFile("image", "leaf.jpg", "image/jpeg", new byte[]{1, 2, 3});
+        var png = new MockMultipartFile("image", "flower.png", "image/png", new byte[]{4, 5, 6});
+        multipartClient.identify(new AiRequest(List.of(jpeg, png), List.of(), "modal-request", "LEAF"));
+
+        String sent = body.get();
+        assertEquals(2, java.util.regex.Pattern.compile("name=\"images\"; filename=").matcher(sent).results().count());
+        assertTrue(sent.indexOf("filename=\"leaf.jpg\"") < sent.indexOf("filename=\"flower.png\""));
+        assertTrue(sent.contains("Content-Type: image/jpeg"));
+        assertTrue(sent.contains("Content-Type: image/png"));
+        assertTrue(sent.contains("name=\"request_id\""));
+        assertTrue(sent.contains("modal-request"));
+        assertEquals("modal-request", requestIdHeader.get());
+        org.junit.jupiter.api.Assertions.assertFalse(sent.contains("name=\"image\""));
+        org.junit.jupiter.api.Assertions.assertFalse(sent.contains("name=\"plant_part\""));
+    }
+
     private static void writeResponse(com.sun.net.httpserver.HttpExchange exchange)
             throws IOException {
         // Deployed schema: explanation.heatmaps[] with base64 image_data

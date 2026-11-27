@@ -66,10 +66,10 @@ app:
     ticket-ttl-minutes: ${PASSWORD_RESET_TICKET_TTL_MINUTES:10}
 
   ai:
-    base-url: ${AI_BASE_URL:http://localhost:8001}
+    base-url: ${AI_BASE_URL:https://a760-st--dravyasetu-ai-fastapi-app.us-east.modal.run}
     identify-path: ${AI_IDENTIFY_PATH:/ai/analyze}
     connect-timeout-ms: ${AI_CONNECT_TIMEOUT_MS:10000}
-    # The deployed Render service sleeps when idle, so allow a long read.
+    # Allow time for the Modal AI container/model to cold-start.
     read-timeout-ms: ${AI_READ_TIMEOUT_MS:90000}
     # The deployed AI service accepts multipart binary uploads only.
     # "url" is available for AI deployments that accept signed image URLs;

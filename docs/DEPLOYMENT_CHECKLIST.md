@@ -1,7 +1,7 @@
 # DravyaSetu deployment checklist
 
-Last updated: 2026-11-23. Target: Render backend, Neon Free PostgreSQL,
-private Backblaze B2 storage, real AI and Knowledge services. No custom domain yet.
+Last updated: 2026-11-27. Target: Render backend, Neon Free PostgreSQL,
+private Backblaze B2 storage, Modal AI and real Knowledge service. No custom domain yet.
 
 ## Rules for continuing this work
 
@@ -30,8 +30,13 @@ written configuration as a successful deployment. Never put credentials here.
   with a disposable test object. Verify frontend image/heatmap display.
 - [ ] D11 Configure B2 CORS for exact browser origins if fetch/canvas access is used;
   allow GET/HEAD only for the current backend-upload workflow. Keep the bucket private.
-- [ ] D12 Verify the real AI and Knowledge request/response paths in staging. AI is
-  currently reported unavailable; readiness remains open until real responses work.
+- [ ] D12 Verify the real AI and Knowledge request/response paths in staging.
+  AI moved to `https://a760-st--dravyasetu-ai-fastapi-app.us-east.modal.run`;
+  set that exact base host in the existing Render backend's `AI_BASE_URL`, keep
+  `AI_IDENTIFY_PATH=/ai/analyze` and `AI_IMAGE_TRANSPORT=multipart`, and deploy
+  the updated code. Modal expects internal `images` parts, while the public
+  backend continues accepting `image` parts. Local/live-client verification is
+  recorded below; hosted identification with B2 remains pending.
   Voice input stays deferred by agreement.
   Knowledge diagnostics: direct HTTP requests for PLANT_003/PLANT_033 returned 200
   and passed the shared schema; the actual standalone Java client succeeded in
@@ -57,6 +62,19 @@ written configuration as a successful deployment. Never put credentials here.
 
 ## Verified
 
+- [x] Modal AI integration (2026-11-27): replaced the old AI deployment URL in
+  active application/Compose/Blueprint/example/private environment settings and
+  integration documentation. Verified Modal's public OpenAPI and healthy response.
+  Changed internal multipart uploads to repeated `images`, with file order,
+  filenames, MIME types and request IDs preserved. `plantPart` remains frontend
+  metadata; it is not sent as an undeclared Modal input. All 193 tests passed.
+  A live two-image request through the actual Java client completed in 5.9 seconds,
+  reported image_count=2 and returned two valid JPEG heatmaps. A live single-image
+  request returned 200 and raw JSON passed the shared AI response schema. Synthetic
+  test images returned the valid UNKNOWN result; this verifies integration, not
+  classification accuracy. No Neon or B2 data was changed by these smoke checks.
+  The ignored `.env`, `backend/.env` and `.env.render` are updated with private
+  permissions retained. Existing Render environment values still need updating.
 - [x] Local plant search improvement (2026-11-23): added ranked literal matching
   across plant codes, identifiers and common/scientific/regional names. Queries
   with no direct matches use a conservative, five-result typo fallback for the

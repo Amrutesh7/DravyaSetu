@@ -22,7 +22,7 @@ services:
       - DB_PASSWORD=${DB_PASSWORD:-changeme}
       - JWT_SECRET=${JWT_SECRET:-dev-secret-min-32-chars-long-enough}
       - SPRING_PROFILES_ACTIVE=${SPRING_PROFILES_ACTIVE:-real-ai,real-knowledge}
-      - AI_BASE_URL=${AI_BASE_URL:-http://host.docker.internal:8001}
+      - AI_BASE_URL=${AI_BASE_URL:-https://a760-st--dravyasetu-ai-fastapi-app.us-east.modal.run}
       - KNOWLEDGE_BASE_URL=${KNOWLEDGE_BASE_URL:-https://dravyasetu-knowledge-service.onrender.com}
       - AI_IDENTIFY_PATH=${AI_IDENTIFY_PATH:-/ai/analyze}
       - AI_CONNECT_TIMEOUT_MS=${AI_CONNECT_TIMEOUT_MS:-10000}

@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Profile;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.http.MediaType;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.client.SimpleClientHttpRequestFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.util.LinkedMultiValueMap;
@@ -33,7 +35,7 @@ public class RealAiClient implements AiClient {
             @Value("${app.ai.identify-path}") String identifyPath,
             @Value("${app.ai.connect-timeout-ms}") int connectTimeoutMs,
             @Value("${app.ai.read-timeout-ms}") int readTimeoutMs,
-            @Value("${app.ai.image-transport:url}") String imageTransport) {
+            @Value("${app.ai.image-transport:multipart}") String imageTransport) {
 
         SimpleClientHttpRequestFactory requestFactory =
                 new SimpleClientHttpRequestFactory();
@@ -120,12 +122,13 @@ public class RealAiClient implements AiClient {
                             ? "plant-image" : file.getOriginalFilename();
                 }
             };
-            body.add("image", image);
+            HttpHeaders headers = new HttpHeaders();
+            headers.setContentType(file.getContentType() == null
+                    ? MediaType.APPLICATION_OCTET_STREAM
+                    : MediaType.parseMediaType(file.getContentType()));
+            body.add("images", new HttpEntity<>(image, headers));
         }
         body.add("request_id", request.getRequestId());
-        if (request.getPlantPart() != null && !request.getPlantPart().isBlank()) {
-            body.add("plant_part", request.getPlantPart());
-        }
 
         return restClient.post()
                 .uri(identifyPath)

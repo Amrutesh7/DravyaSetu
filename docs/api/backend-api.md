@@ -55,6 +55,10 @@ multipart overhead. Use the upload limit to validate file selection in the clien
 
 Uploaded images are archived in the private bucket whenever storage is enabled. The deployed AI service accepts multipart binary files, so `AI_IMAGE_TRANSPORT=multipart` is the default and the files are forwarded directly. For an AI deployment that accepts signed URLs, set `AI_IMAGE_TRANSPORT=url`; the service then receives short-lived presigned URLs (15 minutes by default).
 
+The current AI provider is Modal. Spring Boot translates the frontend's repeated
+`image` parts into the AI service's required repeated `images` parts. Frontend URLs
+and response schemas do not change when the AI hosting platform changes.
+
 The public identification response MUST conform to `shared/contracts/identification-response.schema.json`.
 
 At minimum it carries `request_id`, `status`, `plant_id`, `confidence`, `model_version`, and `warnings`.
