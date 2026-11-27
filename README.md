@@ -17,7 +17,7 @@ DravyaSetu AI is a deep learning–powered REST API that identifies **34 Ayurved
 
 ## ✨ Features
 
-- 🔍 **34 Medicinal Plant Classification** — trained on 1,492 curated images from iNaturalist
+- 🔍 **34 Medicinal Plant Classification** — trained on curated images from Kaggle, DIMPSAR, and iNaturalist datasets
 - 📸 **Multi-Image Fusion** — upload up to 8 images for consensus-based identification
 - 🎯 **Confidence Scoring** — calibrated softmax probabilities with 0.60 acceptance threshold
 - 🔥 **Grad-CAM Heatmaps** — base64 JPEG visual explanations for every uploaded image
@@ -412,7 +412,7 @@ modal deploy modal_app.py
 | Architecture | EfficientNetV2-S |
 | Input Size | 300 × 300 px |
 | Classes | 34 |
-| Training Data | 1,492 curated iNaturalist images |
+| Training Data | Curated images from Kaggle, DIMPSAR, and iNaturalist |
 | Confidence Threshold | 0.60 |
 | Fusion Agreement | ≥ 80% weighted consensus |
 | Quality Min Resolution | 224 × 224 px |
