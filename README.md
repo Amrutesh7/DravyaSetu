@@ -403,10 +403,6 @@ modal setup
 modal deploy modal_app.py
 ```
 
-### Render (render.yaml included)
-
-> ⚠️ Requires **Standard plan** (2 GB RAM). Free tier (512 MB) causes OOM with PyTorch.
-
 ---
 
 ## 📊 Model Details
