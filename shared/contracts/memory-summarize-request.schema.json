@@ -1,0 +1,72 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Amrutesh7/DravyaSetu/blob/main/shared/contracts/memory-summarize-request.schema.json",
+  "title": "DravyaSetu Memory Summarization Request",
+  "description": "Request sent to the Knowledge Service to incrementally summarize conversation history.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "session_id",
+    "messages_to_summarize"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "session_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "existing_summary": {
+      "type": ["string", "null"]
+    },
+    "messages_to_summarize": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "message_id",
+          "role",
+          "content",
+          "created_at"
+        ],
+        "properties": {
+          "message_id": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string",
+            "enum": ["user", "assistant"]
+          },
+          "content": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "summary_max_tokens": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "language": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "plant_id": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  }
+}
