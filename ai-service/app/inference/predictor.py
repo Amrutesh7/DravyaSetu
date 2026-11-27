@@ -4,8 +4,10 @@
 from __future__ import annotations
 
 import json
+import os
 from dataclasses import dataclass
 from pathlib import Path
+from threading import RLock
 from typing import Union
 
 import torch
@@ -21,8 +23,23 @@ ImageInput = Union[str, Path, Image.Image]
 # Project paths
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 MODEL_DIR = PROJECT_ROOT / "artifacts" / "models"
-WEIGHTS_PATH = MODEL_DIR / "efficientnet_v2_s.pth"
-MAPPING_PATH = MODEL_DIR / "class_mapping.json"
+
+# Model variants. Production remains the default.
+MODEL_VARIANTS = {
+    "production": {
+        "weights": MODEL_DIR / "efficientnet_v2_s.pth",
+        "mapping": MODEL_DIR / "class_mapping.json",
+        "image_size": 300,
+    },
+    "candidate_v1": {
+        "weights": MODEL_DIR / "candidate_v1" / "dravya_efficientnetv2s_weights.pth",
+        "mapping": MODEL_DIR / "candidate_v1" / "class_mapping.json",
+        "image_size": 384,
+    },
+}
+
+WEIGHTS_PATH = MODEL_VARIANTS["production"]["weights"]
+MAPPING_PATH = MODEL_VARIANTS["production"]["mapping"]
 
 
 @dataclass
@@ -63,6 +80,7 @@ class PlantPredictor:
         self.confidence_calculator = confidence_calculator
         self.class_names = class_names
         self.device = torch.device(device)
+        self.inference_lock = RLock()
 
         self.model.to(self.device)
         self.model.eval()
@@ -82,7 +100,8 @@ class PlantPredictor:
         tensor = self.preprocessor.preprocess(image).to(self.device)
 
         # Run the trained classifier.
-        logits = self.model(tensor)
+        with self.inference_lock:
+            logits = self.model(tensor)
 
         # Calculate the top-k class predictions.
         predictions = self.confidence_calculator.top_k(
@@ -112,18 +131,31 @@ def build_predictor(
 ) -> PlantPredictor:
     """Load the trained checkpoint and construct a plant predictor."""
 
-    if not WEIGHTS_PATH.is_file():
-        raise FileNotFoundError(
-            f"Trained model checkpoint not found: {WEIGHTS_PATH}"
+    variant = os.getenv("DRAVYASETU_MODEL_VARIANT", "production").strip().lower()
+
+    if variant not in MODEL_VARIANTS:
+        raise ValueError(
+            f"Unknown model variant '{variant}'. "
+            f"Available variants: {list(MODEL_VARIANTS)}"
         )
 
-    if not MAPPING_PATH.is_file():
+    model_config = MODEL_VARIANTS[variant]
+    weights_path = model_config["weights"]
+    mapping_path = model_config["mapping"]
+    image_size = model_config["image_size"]
+
+    if not weights_path.is_file():
         raise FileNotFoundError(
-            f"Class mapping file not found: {MAPPING_PATH}"
+            f"Trained model checkpoint not found: {weights_path}"
         )
 
-    # Load class mapping.
-    with MAPPING_PATH.open("r", encoding="utf-8") as file:
+    if not mapping_path.is_file():
+        raise FileNotFoundError(
+            f"Class mapping file not found: {mapping_path}"
+        )
+
+    # Load class mapping for the selected model variant.
+    with mapping_path.open("r", encoding="utf-8") as file:
         mapping = json.load(file)
 
     try:
@@ -141,7 +173,7 @@ def build_predictor(
 
     # Load the trained weights.
     state_dict = torch.load(
-        WEIGHTS_PATH,
+        weights_path,
         map_location="cpu",
         weights_only=True,
     )
@@ -149,7 +181,7 @@ def build_predictor(
     model.model.load_state_dict(state_dict, strict=True)
 
     # Create preprocessing and confidence components.
-    preprocessor = ImagePreprocessor(image_size=300)
+    preprocessor = ImagePreprocessor(image_size=image_size)
     confidence_calculator = ConfidenceCalculator(temperature=1.0)
 
     return PlantPredictor(

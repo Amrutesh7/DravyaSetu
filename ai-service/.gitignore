@@ -48,10 +48,10 @@ credentials.json
 # ==============================
 
 # ML model weights and checkpoints
-
 # ==============================
 
 *.pth
+!artifacts/models/efficientnet_v2_s.pth
 *.pt
 *.ckpt
 *.onnx
@@ -60,13 +60,15 @@ credentials.json
 *.safetensors
 
 # ==============================
-
 # Generated ML artifacts
-
 # ==============================
 
 artifacts/models/*
 !artifacts/models/.gitkeep
+!artifacts/models/efficientnet_v2_s.pth
+!artifacts/models/class_mapping.json
+!artifacts/models/model_metadata.json
+
 artifacts/embeddings/*
 !artifacts/embeddings/.gitkeep
 artifacts/indexes/*

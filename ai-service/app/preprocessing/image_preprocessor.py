@@ -71,7 +71,7 @@ class ImagePreprocessor:
         """
 
         if isinstance(image, Image.Image):
-            return image.convert("RGB")
+            return image if image.mode == "RGB" else image.convert("RGB")
 
         image_path = Path(image)
 

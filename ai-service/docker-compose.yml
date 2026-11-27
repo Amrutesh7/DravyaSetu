@@ -1,0 +1,19 @@
+﻿services:
+  dravyasetu-ai:
+    build:
+      context: ..
+      dockerfile: ai-service/Dockerfile
+    container_name: dravyasetu-ai
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 120s

@@ -1,0 +1,220 @@
+from __future__ import annotations
+
+import io
+import uuid
+
+from fastapi import APIRouter, File, Form, HTTPException, UploadFile
+from PIL import Image
+
+from app.inference.predictor import build_predictor
+from app.models.embeddings import EmbeddingExtractor
+from app.multi_image.evidence_fusion import EvidenceFusion
+from app.pipeline import DravyaSetuPipeline, PipelineConfig
+from app.preprocessing.quality_checker import ImageQualityChecker
+from app.schemas.response import AIResponse
+from app.schemas.response_builder import ResponseBuilder
+from app.inference.unknown_detector import UnknownDetector
+
+
+router = APIRouter(prefix="/ai", tags=["AI"])
+
+MAX_IMAGES = 8
+
+ALLOWED_EVIDENCE_TYPES = {
+    "WHOLE_PLANT",
+    "LEAF",
+    "FLOWER",
+    "FRUIT",
+    "STEM_BARK",
+    "ROOT",
+    "SEED",
+    "OTHER",
+}
+
+
+def build_ai_pipeline() -> DravyaSetuPipeline:
+    """Build the AI pipeline using the trained DravyaSetu model."""
+
+    predictor = build_predictor(
+        num_classes=34,
+        pretrained=False,
+        device="cpu",
+    )
+
+    quality_checker = ImageQualityChecker()
+    unknown_detector = UnknownDetector()
+    embedding_extractor = EmbeddingExtractor(predictor.model)
+    evidence_fusion = EvidenceFusion()
+    response_builder = ResponseBuilder()
+
+    config = PipelineConfig(top_k=5)
+
+    return DravyaSetuPipeline(
+        predictor=predictor,
+        quality_checker=quality_checker,
+        confidence_calculator=predictor.confidence_calculator,
+        unknown_detector=unknown_detector,
+        embedding_extractor=embedding_extractor,
+        evidence_fusion=evidence_fusion,
+        response_builder=response_builder,
+        config=config,
+    )
+
+
+pipeline = build_ai_pipeline()
+
+
+async def read_uploaded_image(upload: UploadFile) -> Image.Image:
+    """Read and validate an uploaded image."""
+
+    if not upload.content_type:
+        raise HTTPException(
+            status_code=400,
+            detail="Image content type is missing.",
+        )
+
+    if not upload.content_type.startswith("image/"):
+        raise HTTPException(
+            status_code=400,
+            detail="Uploaded file must be an image.",
+        )
+
+    try:
+        image_bytes = await upload.read()
+
+        if not image_bytes:
+            raise HTTPException(
+                status_code=400,
+                detail="Uploaded image is empty.",
+            )
+
+        image = Image.open(io.BytesIO(image_bytes))
+        image.load()
+
+        return image.convert("RGB")
+
+    except HTTPException:
+        raise
+
+    except Exception as exc:
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid image file. Please upload a valid image.",
+        ) from exc
+
+
+@router.post("/analyze", response_model=AIResponse)
+async def analyze_image(
+    images: list[UploadFile] = File(...),
+    request_id: str | None = Form(default=None),
+    evidence_types: list[str] | None = Form(default=None),
+):
+    """
+    Analyze one or multiple images of the same plant observation.
+
+    One image:
+        Uses single-image inference.
+
+    Multiple images:
+        Uses multi-image evidence fusion.
+
+    Request ID:
+        Uses the client ID if provided, otherwise generates one.
+
+    Evidence types:
+        Must align with the uploaded images.
+        Defaults to OTHER when omitted.
+    """
+
+    if not images:
+        raise HTTPException(
+            status_code=400,
+            detail="Upload at least one image using 'images'.",
+        )
+
+    if len(images) > MAX_IMAGES:
+        raise HTTPException(
+            status_code=400,
+            detail=f"A maximum of {MAX_IMAGES} images is allowed.",
+        )
+
+    # Use the client request ID if provided; otherwise generate one.
+    request_id = (
+        request_id.strip()
+        if request_id and request_id.strip()
+        else str(uuid.uuid4())
+    )
+
+    # Default evidence types when the client doesn't provide them.
+    if evidence_types is None:
+        normalized_types = ["OTHER"] * len(images)
+    else:
+        normalized_types = [
+            evidence_type.strip().upper()
+            for evidence_type in evidence_types
+        ]
+
+        if len(normalized_types) != len(images):
+            raise HTTPException(
+                status_code=400,
+                detail="The number of evidence_types must match the number of images.",
+            )
+
+        invalid_types = [
+            evidence_type
+            for evidence_type in normalized_types
+            if evidence_type not in ALLOWED_EVIDENCE_TYPES
+        ]
+
+        if invalid_types:
+            raise HTTPException(
+                status_code=400,
+                detail=f"Invalid evidence_types: {invalid_types}",
+            )
+
+    plant_images = []
+
+    try:
+        for upload in images:
+            plant_images.append(
+                await read_uploaded_image(upload)
+            )
+
+        if len(plant_images) == 1:
+            response = pipeline.analyze_image(
+                image=plant_images[0],
+                image_id=images[0].filename or "image_0",
+                request_id=request_id,
+                model_version="efficientnetv2-s-dravyasetu-v2",
+            )
+
+        else:
+            response = pipeline.analyze_images(
+                images=plant_images,
+                image_ids=[
+                    upload.filename or f"image_{index}"
+                    for index, upload in enumerate(images)
+                ],
+                evidence_types=normalized_types,
+                request_id=request_id,
+                model_version="efficientnetv2-s-dravyasetu-v2",
+            )
+
+        return AIResponse.model_validate(response)
+
+    except HTTPException:
+        raise
+
+    except Exception as exc:
+        # Avoid exposing internal exception details to API clients.
+        raise HTTPException(
+            status_code=500,
+            detail="AI pipeline execution failed.",
+        ) from exc
+
+    finally:
+        for image in plant_images:
+            image.close()
+
+        for upload in images:
+            await upload.close()

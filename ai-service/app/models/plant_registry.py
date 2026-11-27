@@ -1,3 +1,4 @@
+
 from pathlib import Path
 import json
 
@@ -20,10 +21,11 @@ def load_plant_registry():
     Returns:
         dict:
             {
-                "Aloe_Vera": {
+                "Aloevera": {
                     "plant_id": "PLANT_001",
                     "common_name": "Aloe Vera",
-                    "scientific_name": "Aloe vera (L.) Burm.f."
+                    "scientific_name": "Aloe vera (L.) Burm.f.",
+                    "ayurvedic_regional_names": [...]
                 },
                 ...
             }
@@ -52,11 +54,10 @@ def load_plant_registry():
             "plant_id": plant_id,
             "common_name": plant_data["common_name"],
             "scientific_name": plant_data["scientific_name"],
-            "ayurvedic_regional_names":
-                plant_data.get(
-                    "ayurvedic_regional_names",
-                    []
-                )
+            "ayurvedic_regional_names": plant_data.get(
+                "ayurvedic_regional_names",
+                []
+            )
         }
 
     return registry
@@ -65,16 +66,26 @@ def load_plant_registry():
 def get_plant_by_name(plant_name: str):
     """
     Get plant information using the dataset folder/class name.
+
+    Supports aliases for differences between model class names
+    and official shared plant identifiers.
     """
 
     registry = load_plant_registry()
 
-    if plant_name not in registry:
+    # Map model class names to official shared identifiers.
+    aliases = {
+        "Aloe_Vera": "Aloevera"
+    }
+
+    registry_name = aliases.get(plant_name, plant_name)
+
+    if registry_name not in registry:
         raise KeyError(
             f"Unknown plant class: {plant_name}"
         )
 
-    return registry[plant_name]
+    return registry[registry_name]
 
 
 def get_plant_by_id(plant_id: str):

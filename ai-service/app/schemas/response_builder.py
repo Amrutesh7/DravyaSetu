@@ -1,4 +1,5 @@
-﻿"""Build DravyaSetu API responses."""
+﻿
+"""Build DravyaSetu API responses."""
 
 from dataclasses import dataclass, field
 from typing import Any, List, Optional
@@ -41,8 +42,6 @@ class InternalImageResult:
     status: str = "UNKNOWN"
     plant_id: Optional[str] = None
 
-    # Internal model prediction details.
-    # These fields do not appear in the public API response.
     class_index: Optional[int] = None
     predicted_class_name: Optional[str] = None
 
@@ -52,9 +51,12 @@ class InternalImageResult:
         default_factory=list
     )
 
-    # Grad-CAM image payload.
-    heatmap_data: Optional[str] = None
+    # Base64-encoded Grad-CAM JPEG payload.
+    heatmap_image_data: Optional[str] = None
     heatmap_media_type: str = "image/jpeg"
+
+    # Alias / backward compatibility for internal tests
+    heatmap_data: Optional[str] = None
 
     # Internal/debug artifact paths.
     heatmap_url: Optional[str] = None
@@ -99,15 +101,12 @@ class ResponseBuilder:
         alternatives: List[InternalAlternative],
         primary_plant_id: Optional[str] = None,
     ) -> List[AlternativeResponse]:
-        # Remove the identified plant from the alternatives.
         filtered = [
             item
             for item in alternatives
             if item.plant_id != primary_plant_id
         ]
 
-        # Sort by the original classifier confidence.
-        # Confidence values are NOT renormalised.
         filtered.sort(
             key=lambda item: self._safe_confidence(item.confidence),
             reverse=True,
@@ -151,13 +150,18 @@ class ResponseBuilder:
     ) -> IdentificationResponse:
         status = self._normalise_status(result.status)
 
-        # Unacceptable-quality or UNKNOWN results must not expose
-        # classifier confidence as identification confidence.
-        if not result.quality_acceptable or status != "KNOWN":
+        if not result.quality_acceptable:
             return IdentificationResponse(
                 status="UNKNOWN",
                 plant_id=None,
                 confidence=0.0,
+            )
+
+        if status != "KNOWN":
+            return IdentificationResponse(
+                status="UNKNOWN",
+                plant_id=None,
+                confidence=self._safe_confidence(result.confidence),
             )
 
         return IdentificationResponse(
@@ -172,16 +176,15 @@ class ResponseBuilder:
     ) -> ExplanationResponse:
         heatmaps = []
 
-        # Preserve the original upload order.
-        # image_index is 1-based and refers to the original uploaded image.
         for image_index, result in enumerate(results, start=1):
-            if not result.heatmap_data:
+            image_data = result.heatmap_image_data or result.heatmap_data
+            if not image_data:
                 continue
 
             heatmaps.append(
                 HeatmapPayloadResponse(
                     image_index=image_index,
-                    image_data=result.heatmap_data,
+                    image_data=image_data,
                     media_type=result.heatmap_media_type,
                 )
             )
@@ -218,6 +221,11 @@ class ResponseBuilder:
         result: InternalImageResult,
         model_version: str = "dravya-v2",
     ) -> AIResponse:
+        is_known = (
+            result.quality_acceptable
+            and self._normalise_status(result.status) == "KNOWN"
+        )
+
         return AIResponse(
             request_id=request_id,
             model_version=model_version,
@@ -226,13 +234,13 @@ class ResponseBuilder:
             alternatives=self._build_alternatives(
                 result.alternatives,
                 primary_plant_id=(
-                    result.plant_id
-                    if result.status == "KNOWN"
-                    else None
+                    result.plant_id if is_known else None
                 ),
-            ),
-            similar_species=self._build_similar_species(
-                result.similar_species
+            ) if is_known else [],
+            similar_species=(
+                self._build_similar_species(result.similar_species)
+                if is_known
+                else []
             ),
             explanation=self._build_explanation([result]),
             multi_image=MultiImageResponse(
@@ -280,7 +288,6 @@ class ResponseBuilder:
             )
 
             if matching_result is not None:
-                # A fusion result must explicitly be accepted.
                 fusion_accepted = bool(
                     getattr(fusion_result, "accepted", False)
                 )
@@ -296,7 +303,6 @@ class ResponseBuilder:
                     else None
                 )
 
-                # Only accepted KNOWN identifications expose confidence.
                 confidence = (
                     self._safe_confidence(
                         getattr(fusion_result, "confidence", 0.0)
@@ -329,8 +335,10 @@ class ResponseBuilder:
             alternatives = list(single.alternatives)
             similar_species = list(single.similar_species)
 
-        # Keep identification and explanation independent.
-        # Heatmaps are collected from EVERY uploaded image result.
+        if status != "KNOWN":
+            alternatives = []
+            similar_species = []
+
         combined_result = InternalImageResult(
             image_id="multi_image",
             quality_acceptable=bool(usable_results),

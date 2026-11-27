@@ -63,8 +63,8 @@ class ImageQualityChecker:
 
     def __init__(
         self,
-        min_width: int = 384,
-        min_height: int = 250,
+        min_width: int = 224,
+        min_height: int = 224,
         min_blur_score: float = 35.0,
         min_brightness: float = 25.0,
         max_brightness: float = 235.0,
@@ -111,7 +111,16 @@ class ImageQualityChecker:
     def _load_image(image: ImageInput) -> Image.Image:
         """Load a PIL image or file path and return an RGB image."""
         if isinstance(image, Image.Image):
-            return ImageOps.exif_transpose(image).convert("RGB")
+            oriented = (
+                ImageOps.exif_transpose(image)
+                if image.getexif().get(274) is not None
+                else image
+            )
+            return (
+                oriented
+                if oriented.mode == "RGB"
+                else oriented.convert("RGB")
+            )
 
         path = Path(image)
 
@@ -292,8 +301,8 @@ class ImageQualityChecker:
 
         issues = []
 
-        # 1. Resolution check.
-        if width < self.min_width or height < self.min_height:
+        # 1. Resolution check — shorter side must meet the minimum.
+        if min(width, height) < self.min_width or max(width, height) < self.min_height:
             issues.append("LOW_RESOLUTION")
 
         # 2. Aspect-ratio check.

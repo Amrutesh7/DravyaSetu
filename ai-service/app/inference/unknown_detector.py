@@ -1,4 +1,6 @@
 
+"""DravyaSetu unknown-plant detection."""
+
 from dataclasses import dataclass
 from typing import Optional
 
@@ -13,11 +15,11 @@ class UnknownDetectionResult:
 
 
 class UnknownDetector:
-    """Reject predictions that fall below configured thresholds."""
+    """Decide whether a prediction meets configured acceptance thresholds."""
 
     def __init__(
         self,
-        confidence_threshold: float = 0.70,
+        confidence_threshold: float = 0.95,
         embedding_threshold: float = 0.50,
     ) -> None:
         if not 0.0 <= confidence_threshold <= 1.0:
@@ -44,61 +46,53 @@ class UnknownDetector:
             )
 
         if embedding_similarity is not None:
-            if not 0.0 <= embedding_similarity <= 1.0:
+            if not -1.0 <= embedding_similarity <= 1.0:
                 raise ValueError(
-                    "embedding_similarity must be between 0 and 1."
+                    "embedding_similarity must be between -1 and 1."
                 )
 
         confidence_pass = (
             classifier_confidence >= self.confidence_threshold
         )
 
+        # If a real embedding similarity is supplied, require both checks.
         if embedding_similarity is not None:
             similarity_pass = (
                 embedding_similarity >= self.embedding_threshold
             )
 
-            if confidence_pass and similarity_pass:
-                return UnknownDetectionResult(
-                    status="KNOWN",
-                    classifier_confidence=classifier_confidence,
-                    embedding_similarity=embedding_similarity,
-                    accepted=True,
-                    reason="Confidence and embedding thresholds passed.",
-                )
+            accepted = confidence_pass and similarity_pass
 
-            reason = (
-                "Classifier confidence below threshold."
-                if not confidence_pass
-                else "Embedding similarity below threshold."
-            )
+            if accepted:
+                reason = "Confidence and embedding thresholds passed."
+            elif not confidence_pass:
+                reason = "Classifier confidence below threshold."
+            else:
+                reason = "Embedding similarity below threshold."
 
             return UnknownDetectionResult(
-                status="UNKNOWN",
+                status="KNOWN" if accepted else "UNKNOWN",
                 classifier_confidence=classifier_confidence,
                 embedding_similarity=embedding_similarity,
-                accepted=False,
+                accepted=accepted,
                 reason=reason,
             )
 
-        if confidence_pass:
-            return UnknownDetectionResult(
-                status="KNOWN",
-                classifier_confidence=classifier_confidence,
-                embedding_similarity=None,
-                accepted=True,
-                reason=(
-                    "Classifier confidence passed; "
-                    "embedding similarity is unavailable."
-                ),
-            )
+        # Without an embedding score, use the confidence threshold only.
+        accepted = confidence_pass
 
         return UnknownDetectionResult(
-            status="UNKNOWN",
+            status="KNOWN" if accepted else "UNKNOWN",
             classifier_confidence=classifier_confidence,
             embedding_similarity=None,
-            accepted=False,
-            reason="Classifier confidence below threshold.",
+            accepted=accepted,
+            reason=(
+                "Classifier confidence passed; embedding similarity "
+                "is unavailable."
+                if accepted
+                else "Classifier confidence below threshold; "
+                     "embedding similarity is unavailable."
+            ),
         )
 
     def update_thresholds(
@@ -121,7 +115,7 @@ class UnknownDetector:
 
 
 def build_unknown_detector(
-    confidence_threshold: float = 0.70,
+    confidence_threshold: float = 0.95,
     embedding_threshold: float = 0.50,
 ) -> UnknownDetector:
     return UnknownDetector(
@@ -133,16 +127,8 @@ def build_unknown_detector(
 if __name__ == "__main__":
     detector = build_unknown_detector()
 
-    known_result = detector.detect(
-        classifier_confidence=0.91,
-        embedding_similarity=0.82,
-    )
-
-    unknown_result = detector.detect(
-        classifier_confidence=0.42,
-        embedding_similarity=0.31,
-    )
-
-    print("Unknown detector smoke test completed.")
-    print("Example 1:", known_result)
-    print("Example 2:", unknown_result)
+    for confidence in (0.9992, 0.9185, 0.3832):
+        result = detector.detect(
+            classifier_confidence=confidence,
+        )
+        print(f"Confidence: {confidence:.4f} -> {result}")

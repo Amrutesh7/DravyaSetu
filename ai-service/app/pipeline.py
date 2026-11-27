@@ -1,10 +1,10 @@
+﻿
 """DravyaSetu single-image and multi-image inference pipeline."""
 
-from dataclasses import dataclass
 import base64
+from dataclasses import dataclass
 import logging
 from pathlib import Path
-import tempfile
 from uuid import uuid4
 
 from PIL import Image
@@ -59,10 +59,11 @@ class DravyaSetuPipeline:
     def _safe_filename(value: str) -> str:
         safe = "".join(
             character
-            if character.isalnum() or character in ("-", "_")
+            if character.isascii()
+            and (character.isalnum() or character in ("-", "_"))
             else "_"
             for character in str(value)
-        )
+        )[:48]
         return safe or uuid4().hex
 
     def _generate_gradcam_payload(
@@ -71,34 +72,38 @@ class DravyaSetuPipeline:
         request_id: str,
         image_id: str,
     ) -> dict:
-        """Generate, save, and encode one Grad-CAM heatmap."""
+        """Generate a JPEG heatmap and encode it for JSON transport."""
 
         prefix = (
             f"{self._safe_filename(request_id)}_"
             f"{self._safe_filename(image_id)}"
         )
 
-        # Generate Grad-CAM.
         gradcam_result = self.gradcam.generate(image)
 
-        # Continue saving existing artifacts locally for debugging.
+        # Preserve the local artifact for debugging and inspection.
         saved_paths = self.gradcam.save(
             gradcam_result,
             output_dir=self.gradcam_dir,
             prefix=prefix,
         )
 
-        # Read the saved heatmap JPEG.
         heatmap_path = Path(saved_paths["heatmap"])
         heatmap_bytes = heatmap_path.read_bytes()
 
-        # Convert the image bytes into a Base64 string.
-        encoded_heatmap = base64.b64encode(
+        if not heatmap_bytes:
+            raise ValueError("Generated Grad-CAM JPEG is empty.")
+
+        image_data = base64.b64encode(
             heatmap_bytes
         ).decode("ascii")
 
         return {
-            "heatmap_data": encoded_heatmap,
+            "image_data": image_data,
+            "heatmap_data": image_data,
+            "heatmap_url": f"/artifacts/gradcam/{Path(saved_paths['heatmap']).name}",
+            "overlay_url": f"/artifacts/gradcam/{Path(saved_paths['overlay']).name}",
+            "original_image_url": f"/artifacts/gradcam/{Path(saved_paths['original']).name}",
             "media_type": "image/jpeg",
         }
 
@@ -111,7 +116,6 @@ class DravyaSetuPipeline:
     ) -> InternalImageResult:
         """Run quality checks and model inference for one image."""
 
-        # STEP 1: Quality check must happen before model inference.
         quality = self.quality_checker.check(image)
 
         acceptable = bool(quality.acceptable)
@@ -134,29 +138,7 @@ class DravyaSetuPipeline:
                 observation_id=observation_id,
             )
 
-        # STEP 2: Save a temporary JPEG for the existing predictor.
-        temporary_path = None
-
-        try:
-            with tempfile.NamedTemporaryFile(
-                suffix=".jpg",
-                delete=False,
-            ) as temporary:
-                temporary_path = Path(temporary.name)
-
-            image.convert("RGB").save(
-                temporary_path,
-                format="JPEG",
-                quality=95,
-            )
-
-            prediction = self.predictor.predict(
-                str(temporary_path)
-            )
-
-        finally:
-            if temporary_path is not None:
-                temporary_path.unlink(missing_ok=True)
+        prediction = self.predictor.predict(image)
 
         top = prediction.top_prediction
         predicted_name = str(top.class_name)
@@ -169,23 +151,29 @@ class DravyaSetuPipeline:
             else None
         )
 
-        # STEP 3: Preserve the existing top-k alternatives behavior.
         alternatives = []
 
         for item in prediction.alternatives[: self.config.top_k]:
             class_name = str(item.class_name)
 
+            try:
+                registry_entry = get_plant_by_name(class_name)
+            except KeyError:
+                logger.warning(
+                    "Alternative class '%s' missing from plant registry.",
+                    class_name,
+                )
+                continue
+
             alternatives.append(
                 InternalAlternative(
                     plant_id=class_name,
-                    common_name=class_name.replace("_", " "),
-                    scientific_name=class_name.replace("_", " "),
+                    common_name=registry_entry["common_name"],
+                    scientific_name=registry_entry["scientific_name"],
                     confidence=float(item.confidence),
                 )
             )
 
-        # STEP 4: Preserve the existing unknown-detection threshold.
-        # Do not invent an embedding similarity value.
         detection = self.unknown_detector.detect(
             classifier_confidence=confidence,
             embedding_similarity=None,
@@ -199,8 +187,6 @@ class DravyaSetuPipeline:
             quality_issues=issues,
             quality_messages=messages,
             status="UNKNOWN" if is_unknown else "KNOWN",
-            # Keep the legacy class-name ID internally for single-image
-            # response compatibility. Multi-image IDs are registry-mapped.
             plant_id=None if is_unknown else predicted_name,
             class_index=class_index,
             predicted_class_name=predicted_name,
@@ -216,7 +202,7 @@ class DravyaSetuPipeline:
         image: Image.Image,
         request_id: str,
     ) -> None:
-        """Attach Base64 Grad-CAM without affecting classification."""
+        """Attach Base64 JPEG data without affecting classification."""
 
         try:
             payload = self._generate_gradcam_payload(
@@ -225,7 +211,11 @@ class DravyaSetuPipeline:
                 image_id=result.image_id,
             )
 
-            result.heatmap_data = payload["heatmap_data"]
+            result.heatmap_image_data = payload["image_data"]
+            result.heatmap_data = payload["image_data"]
+            result.heatmap_url = payload.get("heatmap_url")
+            result.overlay_url = payload.get("overlay_url")
+            result.original_image_url = payload.get("original_image_url")
             result.heatmap_media_type = payload["media_type"]
 
         except Exception:
@@ -248,9 +238,9 @@ class DravyaSetuPipeline:
             result.plant_id = None
             return
 
-        registry_entry = get_plant_by_name(class_name)
-
-        if not registry_entry:
+        try:
+            registry_entry = get_plant_by_name(class_name)
+        except KeyError:
             logger.warning(
                 "Plant class '%s' is missing from the official registry.",
                 class_name,
@@ -261,21 +251,23 @@ class DravyaSetuPipeline:
 
         result.plant_id = registry_entry["plant_id"]
 
-        # Replace alternative class-name IDs with official registry IDs
-        # wherever the corresponding registry record is available.
         for alternative in result.alternatives:
-            alternative_entry = get_plant_by_name(
-                alternative.plant_id
-            )
+            try:
+                alternative_entry = get_plant_by_name(
+                    alternative.plant_id
+                )
+            except KeyError:
+                logger.warning(
+                    "Alternative class '%s' missing from plant registry.",
+                    alternative.plant_id,
+                )
+                continue
 
-            if alternative_entry:
-                alternative.plant_id = alternative_entry["plant_id"]
-                alternative.common_name = (
-                    alternative_entry["common_name"]
-                )
-                alternative.scientific_name = (
-                    alternative_entry["scientific_name"]
-                )
+            alternative.plant_id = alternative_entry["plant_id"]
+            alternative.common_name = alternative_entry["common_name"]
+            alternative.scientific_name = (
+                alternative_entry["scientific_name"]
+            )
 
     def analyze_image(
         self,
@@ -283,18 +275,19 @@ class DravyaSetuPipeline:
         image_id: str,
         request_id: str,
         model_version: str = "dravya-v2",
+        evidence_type: str = "OTHER",
     ):
-        """Preserve the existing single-image API behavior."""
+        """Preserve existing single-image API behavior."""
 
         result = self._analyze_one(
             image=image,
             image_id=image_id,
-            evidence_type="OTHER",
+            evidence_type=evidence_type,
             observation_id=request_id,
         )
 
-        # Grad-CAM remains best-effort and is not a classification gate.
         if result.quality_acceptable:
+            self._apply_registry_metadata(result)
             self._add_gradcam(
                 result=result,
                 image=image,
@@ -333,12 +326,10 @@ class DravyaSetuPipeline:
                 "The number of evidence types must match the number of images."
             )
 
-        # All images in this request belong to the same observation.
         observation_id = request_id
-
         image_results = []
 
-        # STEP 1: Independently process every submitted image.
+        # Independently process every submitted image.
         for image, image_id, evidence_type in zip(
             images,
             image_ids,
@@ -351,8 +342,6 @@ class DravyaSetuPipeline:
                 observation_id=observation_id,
             )
 
-            # Generate a separate heatmap for every image
-            # that passes the quality checks.
             if result.quality_acceptable:
                 self._add_gradcam(
                     result=result,
@@ -362,7 +351,7 @@ class DravyaSetuPipeline:
 
             image_results.append(result)
 
-        # STEP 2: Exclude poor-quality images from evidence fusion.
+        # Exclude poor-quality images from evidence fusion.
         usable_results = [
             result
             for result in image_results
@@ -390,7 +379,11 @@ class DravyaSetuPipeline:
                 )
             )
 
-        # STEP 3: Fuse numeric class predictions.
+        # Fuse numeric class predictions.
+        # In multi-image mode, individual images may each be uncertain (< threshold)
+        # but together they can form a confident consensus. The fusion result's
+        # own agreement_ratio and confidence determine acceptance — not whether
+        # every individual image cleared the single-image unknown threshold.
         fusion_result = None
 
         if evidence_items:
@@ -398,44 +391,33 @@ class DravyaSetuPipeline:
                 evidence_items
             )
 
-            # Require every usable image to have a numeric class index
-            # and to pass the existing individual KNOWN decision.
-            #
-            # This prevents a low-confidence or unrecognized image from
-            # being hidden by otherwise agreeing images.
+            # Only mark unaccepted if fewer evidence items than usable images
+            # (i.e. some image had no class index — truly unclassifiable).
             every_usable_image_has_evidence = (
                 len(evidence_items) == len(usable_results)
             )
 
-            every_usable_image_is_known = all(
-                result.status == "KNOWN"
-                for result in usable_results
-            )
-
-            if not (
-                every_usable_image_has_evidence
-                and every_usable_image_is_known
-            ):
+            if not every_usable_image_has_evidence:
                 fusion_result.accepted = False
 
-        # STEP 4: Map predictions to official plant registry IDs.
+        # Map predictions to official plant registry IDs.
         for result in usable_results:
             self._apply_registry_metadata(result)
 
-        # If a class is missing from the official registry, do not allow
-        # a KNOWN multi-image identification for that image.
-        if fusion_result is not None:
-            if not all(
-                result.status == "KNOWN"
-                for result in usable_results
-            ):
+        # After registry lookup, if the winning class is not in the registry,
+        # the matching result's status will be "UNKNOWN" — in that case reject.
+        if fusion_result is not None and fusion_result.accepted:
+            matching_result = next(
+                (
+                    r for r in usable_results
+                    if r.class_index == fusion_result.predicted_class
+                ),
+                None,
+            )
+            if matching_result is None or matching_result.plant_id is None:
                 fusion_result.accepted = False
 
-        # STEP 5: All per-image Grad-CAM payloads were generated
-        # independently during STEP 1. No representative image selection
-        # is required anymore.
-
-        # STEP 6: Build the response with all image results.
+        # Build response with all image results.
         return self.response_builder.build_multi_image_response(
             request_id=request_id,
             image_results=image_results,

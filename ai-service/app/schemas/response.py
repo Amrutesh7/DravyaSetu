@@ -1,6 +1,8 @@
-﻿"""Canonical response models for DravyaSetu."""
+﻿
+"""Canonical response models for DravyaSetu."""
 
 from typing import List, Literal, Optional
+
 from pydantic import BaseModel, ConfigDict, Field
 
 
@@ -34,7 +36,7 @@ class SimilarSpeciesResponse(StrictResponseModel):
 
 class HeatmapPayloadResponse(StrictResponseModel):
     image_index: int = Field(ge=1)
-    image_data: str
+    image_data: str = Field(min_length=1)
     media_type: Literal["image/jpeg"] = "image/jpeg"
 
 

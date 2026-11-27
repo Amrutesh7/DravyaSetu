@@ -1,30 +1,19 @@
+
 """
 DravyaSetu AI Service
-Multi-image evidence fusion.
-
-Combines predictions from multiple images belonging to the
-same plant/observation.
-
-The system preserves:
-- per-image prediction
-- per-image confidence
-- evidence type
-- observation ID
-
-This module does NOT perform classification.
+Conservative multi-image evidence fusion.
 """
 
 from __future__ import annotations
 
 from dataclasses import dataclass
+import math
 from typing import Optional
 
 
 @dataclass
 class ImageEvidence:
-    """
-    Prediction information for one image.
-    """
+    """Prediction information for one quality-accepted image."""
 
     image_id: str
     predicted_class: int
@@ -35,30 +24,18 @@ class ImageEvidence:
 
 @dataclass
 class FusedPrediction:
-    """
-    Final result after combining multiple images.
-    """
+    """Result of combining image-level evidence."""
 
     predicted_class: int
     confidence: float
     image_count: int
     supporting_images: list[str]
+    agreement_ratio: float
+    accepted: bool
 
 
 class EvidenceFusion:
-    """
-    Combines multiple image predictions.
-
-    Evidence-type weights are deliberately conservative.
-    They are configuration values and can later be tuned using
-    validation data.
-
-    The fusion strategy:
-        1. Group evidence by predicted class.
-        2. Weight each prediction by evidence reliability.
-        3. Combine supporting evidence.
-        4. Normalize the resulting scores.
-    """
+    """Weighted voting with conservative disagreement handling."""
 
     DEFAULT_WEIGHTS = {
         "WHOLE_PLANT": 1.00,
@@ -71,35 +48,39 @@ class EvidenceFusion:
         "OTHER": 0.70,
     }
 
+    MIN_AGREEMENT_RATIO = 0.80
+
     def __init__(
         self,
-        evidence_weights: Optional[
-            dict[str, float]
-        ] = None,
+        evidence_weights: Optional[dict[str, float]] = None,
+        min_agreement_ratio: float = MIN_AGREEMENT_RATIO,
     ) -> None:
-
         self.evidence_weights = (
             evidence_weights.copy()
             if evidence_weights is not None
             else self.DEFAULT_WEIGHTS.copy()
         )
 
-        for evidence_type, weight in (
-            self.evidence_weights.items()
-        ):
-            if weight < 0:
+        if not 0.0 < min_agreement_ratio <= 1.0:
+            raise ValueError(
+                "min_agreement_ratio must be greater than 0 and at most 1."
+            )
+
+        self.min_agreement_ratio = min_agreement_ratio
+
+        for evidence_type, weight in self.evidence_weights.items():
+            if not math.isfinite(weight) or weight < 0:
                 raise ValueError(
-                    f"Weight for {evidence_type} "
-                    "cannot be negative."
+                    f"Invalid weight for {evidence_type}."
                 )
 
-    def get_weight(
-        self,
-        evidence_type: str,
-    ) -> float:
-        """
-        Return the reliability weight for an evidence type.
-        """
+        if "OTHER" not in self.evidence_weights:
+            raise ValueError(
+                "Evidence weights must contain an OTHER fallback."
+            )
+
+    def get_weight(self, evidence_type: str) -> float:
+        """Return the configured weight for an evidence type."""
 
         return self.evidence_weights.get(
             evidence_type.upper(),
@@ -110,56 +91,70 @@ class EvidenceFusion:
         self,
         evidence: list[ImageEvidence],
     ) -> FusedPrediction:
-        """
-        Fuse predictions from multiple images.
-
-        Args:
-            evidence:
-                List of image-level predictions.
-
-        Returns:
-            FusedPrediction.
-        """
+        """Combine predictions without hiding strong disagreement."""
 
         if not evidence:
             raise ValueError(
                 "At least one image evidence item is required."
             )
 
-        class_scores: dict[int, float] = {}
+        observation_ids = {
+            item.observation_id
+            for item in evidence
+            if item.observation_id is not None
+        }
 
+        if len(observation_ids) > 1:
+            raise ValueError(
+                "Evidence belongs to different observations."
+            )
+
+        class_scores: dict[int, float] = {}
+        class_weights: dict[int, float] = {}
         image_support: dict[int, list[str]] = {}
+        supporting_confidences: dict[int, list[float]] = {}
 
         total_weight = 0.0
 
         for item in evidence:
-
-            if not 0.0 <= item.confidence <= 1.0:
+            if not isinstance(item.predicted_class, int):
                 raise ValueError(
-                    f"Invalid confidence for "
-                    f"{item.image_id}."
+                    f"Invalid class index for {item.image_id}."
                 )
 
-            weight = self.get_weight(
-                item.evidence_type
-            )
+            if (
+                not math.isfinite(item.confidence)
+                or not 0.0 <= item.confidence <= 1.0
+            ):
+                raise ValueError(
+                    f"Invalid confidence for {item.image_id}."
+                )
 
-            weighted_score = (
-                item.confidence * weight
-            )
+            weight = self.get_weight(item.evidence_type)
+
+            if weight <= 0:
+                raise ValueError(
+                    f"Evidence weight for {item.evidence_type} "
+                    "must be positive."
+                )
 
             class_scores[item.predicted_class] = (
-                class_scores.get(
-                    item.predicted_class,
-                    0.0,
-                )
-                + weighted_score
+                class_scores.get(item.predicted_class, 0.0)
+                + item.confidence * weight
+            )
+
+            class_weights[item.predicted_class] = (
+                class_weights.get(item.predicted_class, 0.0)
+                + weight
             )
 
             image_support.setdefault(
-                item.predicted_class,
-                [],
+                item.predicted_class, []
             ).append(item.image_id)
+
+            supporting_confidences.setdefault(
+                item.predicted_class, []
+            ).append(item.confidence)
 
             total_weight += weight
 
@@ -168,103 +163,57 @@ class EvidenceFusion:
                 "Total evidence weight must be positive."
             )
 
-        # Select the class with the strongest
-        # accumulated evidence.
         predicted_class = max(
             class_scores,
             key=class_scores.get,
         )
 
-        raw_score = class_scores[
-            predicted_class
-        ]
-
-        # Normalize the winning score.
-        fused_confidence = (
-            raw_score / total_weight
+        agreement_ratio = (
+            class_weights[predicted_class] / total_weight
         )
 
-        fused_confidence = max(
-            0.0,
-            min(
-                1.0,
-                fused_confidence,
-            ),
+        # This is the lowest individual model confidence among
+        # supporting images, not a calibrated fused probability.
+        conservative_confidence = min(
+            supporting_confidences[predicted_class]
+        )
+
+        accepted = (
+            agreement_ratio >= self.min_agreement_ratio
         )
 
         return FusedPrediction(
             predicted_class=predicted_class,
-            confidence=fused_confidence,
+            confidence=conservative_confidence,
             image_count=len(evidence),
-            supporting_images=image_support[
-                predicted_class
-            ],
+            supporting_images=image_support[predicted_class],
+            agreement_ratio=agreement_ratio,
+            accepted=accepted,
         )
 
 
 def build_evidence_fusion() -> EvidenceFusion:
-    """
-    Factory function.
-    """
+    """Create the default evidence fusion component."""
 
     return EvidenceFusion()
 
 
 if __name__ == "__main__":
-    # CPU-only smoke test.
-    #
-    # These predictions are illustrative values.
-    # They are NOT produced by a trained model.
-
     fusion = build_evidence_fusion()
 
     evidence = [
-        ImageEvidence(
-            image_id="image_001",
-            predicted_class=7,
-            confidence=0.82,
-            evidence_type="LEAF",
-            observation_id="obs_001",
-        ),
-        ImageEvidence(
-            image_id="image_002",
-            predicted_class=7,
-            confidence=0.91,
-            evidence_type="FLOWER",
-            observation_id="obs_001",
-        ),
-        ImageEvidence(
-            image_id="image_003",
-            predicted_class=7,
-            confidence=0.78,
-            evidence_type="WHOLE_PLANT",
-            observation_id="obs_001",
-        ),
-        ImageEvidence(
-            image_id="image_004",
-            predicted_class=12,
-            confidence=0.60,
-            evidence_type="LEAF",
-            observation_id="obs_001",
-        ),
+        ImageEvidence("image_001", 7, 0.98, "LEAF", "obs_001"),
+        ImageEvidence("image_002", 7, 0.97, "FLOWER", "obs_001"),
+        ImageEvidence("image_003", 7, 0.96, "WHOLE_PLANT", "obs_001"),
+        ImageEvidence("image_004", 7, 0.98, "FRUIT", "obs_001"),
+        ImageEvidence("image_005", 12, 0.97, "LEAF", "obs_001"),
     ]
 
     result = fusion.fuse(evidence)
 
-    print("Evidence fusion test passed.")
-    print(
-        f"Predicted class: "
-        f"{result.predicted_class}"
-    )
-    print(
-        f"Fused confidence: "
-        f"{result.confidence:.4f}"
-    )
-    print(
-        f"Images used: "
-        f"{result.image_count}"
-    )
-    print(
-        f"Supporting images: "
-        f"{result.supporting_images}"
-    )
+    print("Evidence fusion smoke test")
+    print("Predicted class:", result.predicted_class)
+    print("Conservative confidence:", result.confidence)
+    print("Agreement ratio:", result.agreement_ratio)
+    print("Accepted:", result.accepted)
+    print("Supporting images:", result.supporting_images)
