@@ -10,4 +10,6 @@ google-genai
 python-dotenv
 pydantic
 python-multipart
-
+edge-tts
+groq
+python-multipart

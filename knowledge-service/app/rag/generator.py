@@ -39,13 +39,13 @@ logger = logging.getLogger("dravyasetu.generator")
 
 MIN_SCORE = float(os.getenv("RAG_MIN_SCORE", "0.25"))
 
-REQUEST_TIMEOUT_MS = 120_000
+REQUEST_TIMEOUT_MS = int(os.getenv("LLM_REQUEST_TIMEOUT_MS", "30000"))
 
 MODEL_CHAIN = [
     model.strip()
     for model in os.getenv(
         "LLM_MODELS",
-        "gemini-3.8-flash",
+        "gemini-3.5-flash-lite,gemini-3.5-flash,gemini-3.8-flash",
     ).split(",")
     if model.strip()
 ]
@@ -246,33 +246,32 @@ def _call_llm(
     retries: int = 1,
     max_output_tokens: int | None = None,
 ) -> str:
+    """Try configured Gemini models in order without long retry delays.
 
+    Each model is attempted once by default. Temporary server, rate-limit,
+    timeout and network failures move to the next configured model. Invalid
+    credentials and other non-retryable client errors are raised immediately.
     """
-    Try each model in MODEL_CHAIN.
-
-    Retry overloaded models and rate limits.
-    Try another model on timeout, 404 or empty reply.
-
-    Raises LLM_UNAVAILABLE if every model fails.
-    """
+    if not MODEL_CHAIN:
+        raise RuntimeError(
+            "LLM_MODELS is empty. Configure at least one Gemini model in .env."
+        )
 
     client = _get_llm_client()
+    last_err: Exception | None = None
 
-    last_err = None
+    # `retries` is retained for backwards compatibility with existing callers.
+    # The default is one attempt per model to avoid stacking long waits.
+    attempts_per_model = max(1, retries)
 
     for model in MODEL_CHAIN:
-
-        delay = 2
-
-        for attempt in range(1, retries + 1):
-
+        for attempt in range(1, attempts_per_model + 1):
             try:
-
                 logger.info(
                     "Calling Gemini model=%s (attempt %d/%d)",
                     model,
                     attempt,
-                    retries,
+                    attempts_per_model,
                 )
 
                 response = client.models.generate_content(
@@ -288,87 +287,72 @@ def _call_llm(
                     ),
                 )
 
-                if response.text:
-
+                if response.text and response.text.strip():
+                    logger.info("Gemini generation succeeded with model=%s", model)
                     return response.text
 
                 finish_reason = None
                 if response.candidates:
                     finish_reason = response.candidates[0].finish_reason
 
-                logger.warning(
-                    "Gemini model=%s returned empty text (finish_reason=%s)",
-                    model,
-                    finish_reason,
-                )
-
                 last_err = RuntimeError(
-                    f"{model} returned empty text; finish_reason={finish_reason}"
+                    f"{model} returned an empty response; finish_reason={finish_reason}"
                 )
-
+                logger.warning("%s", last_err)
+                # An empty response is unlikely to improve by repeating the same prompt.
                 break
 
             except errors.ServerError as exc:
-
-                logger.warning(
-                    "Gemini model=%s server busy, waiting %ds",
-                    model,
-                    delay,
-                )
-
                 last_err = exc
-
-                time.sleep(delay)
-
-                delay *= 2
-
-            except (
-                httpx.TimeoutException,
-                httpx.TransportError,
-            ) as exc:
-
                 logger.warning(
-                    "Gemini model=%s timeout/network error",
+                    "Gemini model=%s returned server error (code=%s); trying next model. %s",
                     model,
+                    getattr(exc, "code", "unknown"),
+                    exc,
                 )
-
-                last_err = exc
-
+                # Includes temporary 5xx errors such as 503 UNAVAILABLE.
                 break
 
             except errors.ClientError as exc:
-
                 code = getattr(exc, "code", None)
+                last_err = exc
 
                 if code == 429:
-
                     logger.warning(
-                        "Gemini model=%s rate-limited, waiting %ds",
-                        model,
-                        delay,
-                    )
-
-                    last_err = exc
-
-                    time.sleep(delay)
-
-                    delay *= 2
-
-                elif code == 404:
-
-                    logger.warning(
-                        "Gemini model=%s not found",
+                        "Gemini model=%s rate limited (429); trying next model.",
                         model,
                     )
-
-                    last_err = exc
-
                     break
 
-                else:
+                if code == 404:
+                    logger.error(
+                        "Gemini model=%s was not found (404); check LLM_MODELS.",
+                        model,
+                    )
+                    break
 
-                    raise
+                # 400, 401, 403 and other client errors usually indicate
+                # invalid request/configuration/credentials. Do not hide them.
+                logger.exception(
+                    "Non-retryable Gemini client error for model=%s (code=%s)",
+                    model,
+                    code,
+                )
+                raise
 
+            except (httpx.TimeoutException, httpx.TransportError) as exc:
+                last_err = exc
+                logger.warning(
+                    "Gemini model=%s timed out or had a network error; trying next model: %s",
+                    model,
+                    exc,
+                )
+                break
+
+    logger.error(
+        "All configured Gemini models failed. Models tried: %s",
+        ", ".join(MODEL_CHAIN),
+    )
     raise RuntimeError("LLM_UNAVAILABLE") from last_err
 
 

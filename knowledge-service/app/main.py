@@ -1,21 +1,32 @@
+import base64
+import json
 import logging
 import math
+import os
+import tempfile
 import time
+from pathlib import Path
 from typing import Any, Literal
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from pydantic import BaseModel, Field
+from starlette.concurrency import run_in_threadpool
 
+from app.language.config import normalize_language_code
+from app.language.service import (
+    translate_from_english,
+    translate_to_english,
+)
 from app.rag.generator import (
     answer as generate_answer,
     summarize_conversation,
 )
-from app.language.config import normalize_language_code
-from app.language.service import (
-    translate_to_english,
-    translate_from_english,
-)
+from app.voice.speech_to_text import transcribe_audio
+from app.voice.text_to_speech import generate_speech
 
+# --------------------------------------------------
+# LOGGING
+# --------------------------------------------------
 
 logging.basicConfig(
     level=logging.INFO,
@@ -24,6 +35,10 @@ logging.basicConfig(
 
 logger = logging.getLogger("dravyasetu.api")
 
+
+# --------------------------------------------------
+# FASTAPI APPLICATION
+# --------------------------------------------------
 
 app = FastAPI(
     title="DravyaSetu Knowledge Service",
@@ -137,7 +152,8 @@ def health():
 
 @app.post("/knowledge/chat", response_model=ChatResponse)
 @app.post("/api/v1/chat", response_model=ChatResponse)
-def chat(request: ChatRequest):
+async def chat(request: ChatRequest):
+
     t0 = time.perf_counter()
 
     logger.info(
@@ -147,9 +163,19 @@ def chat(request: ChatRequest):
         request.plant_id,
     )
 
+    # ----------------------------------------------
+    # LANGUAGE VALIDATION
+    # ----------------------------------------------
+
     try:
-        input_language = normalize_language_code(request.input_language)
-        response_language = normalize_language_code(request.response_language)
+        input_language = normalize_language_code(
+            request.input_language
+        )
+
+        response_language = normalize_language_code(
+            request.response_language
+        )
+
     except ValueError as exc:
         raise HTTPException(
             status_code=422,
@@ -159,22 +185,22 @@ def chat(request: ChatRequest):
             },
         ) from exc
 
-    if request.generate_audio:
-        raise HTTPException(
-            status_code=422,
-            detail={
-                "code": "VOICE_NOT_IMPLEMENTED",
-                "message": "Audio generation is not available yet.",
-            },
-        )
+    # ----------------------------------------------
+    # CHAT PROCESSING
+    # ----------------------------------------------
 
     try:
+
+        # Step 1: Translate user question into English.
         english_query = translate_to_english(
             text=request.message,
             input_language=input_language,
         )
 
-        conversation_context = request.conversation_context.model_dump()
+        # Step 2: Prepare conversation context.
+        conversation_context = (
+            request.conversation_context.model_dump()
+        )
 
         logger.info(
             "Conversation context: summary=%s recent_messages=%d",
@@ -182,16 +208,53 @@ def chat(request: ChatRequest):
             len(conversation_context.get("recent_messages", [])),
         )
 
+        # Step 3: Generate answer using existing RAG.
         result = generate_answer(
             query=english_query,
             plant_id=request.plant_id,
             conversation_context=conversation_context,
         )
 
+        # Step 4: Translate answer into requested language.
         final_answer = translate_from_english(
             text=result["answer"],
             response_language=response_language,
         )
+
+        # ------------------------------------------
+        # OPTIONAL TEXT-TO-SPEECH
+        # ------------------------------------------
+
+        voice_output = None
+        warnings = []
+
+        if request.generate_audio:
+
+            try:
+                audio_bytes = await generate_speech(
+                    text=final_answer,
+                    language=response_language,
+                )
+
+                voice_output = {
+                    "audio_base64": base64.b64encode(
+                        audio_bytes
+                    ).decode("utf-8"),
+                    "format": "mp3",
+                    "language": response_language,
+                }
+
+            except RuntimeError:
+                logger.exception(
+                    "Voice generation failed: request_id=%s",
+                    request.request_id,
+                )
+
+                warnings.append("VOICE_GENERATION_FAILED")
+
+        # ------------------------------------------
+        # BUILD CHAT RESPONSE
+        # ------------------------------------------
 
         response = ChatResponse(
             request_id=request.request_id,
@@ -201,8 +264,8 @@ def chat(request: ChatRequest):
             answer=final_answer,
             language=response_language,
             sources=result.get("sources", []),
-            voice_output=None,
-            warnings=[],
+            voice_output=voice_output,
+            warnings=warnings,
         )
 
         logger.info(
@@ -215,7 +278,12 @@ def chat(request: ChatRequest):
 
         return response
 
+    # ----------------------------------------------
+    # ERROR HANDLING
+    # ----------------------------------------------
+
     except RuntimeError as exc:
+
         logger.exception(
             "RuntimeError in chat (request_id=%s)",
             request.request_id,
@@ -248,10 +316,12 @@ def chat(request: ChatRequest):
         ) from exc
 
     except Exception as exc:
+
         logger.exception(
             "Unhandled exception in chat (request_id=%s)",
             request.request_id,
         )
+
         raise HTTPException(
             status_code=500,
             detail={
@@ -259,6 +329,219 @@ def chat(request: ChatRequest):
                 "message": "An internal knowledge service error occurred.",
             },
         ) from exc
+
+
+# --------------------------------------------------
+# AUDIO CHAT API
+# --------------------------------------------------
+
+SUPPORTED_AUDIO_EXTENSIONS = {
+    ".wav",
+    ".mp3",
+    ".m4a",
+    ".mp4",
+    ".mpeg",
+    ".mpga",
+    ".ogg",
+    ".webm",
+    ".flac",
+}
+
+MAX_AUDIO_SIZE = 25 * 1024 * 1024  # 25 MB
+
+# Groq Whisper may return either a language name or a language code.
+LANGUAGE_NAME_TO_CODE = {
+    "english": "en",
+    "kannada": "kn",
+    "hindi": "hi",
+    "telugu": "te",
+    "tamil": "ta",
+    "en": "en",
+    "kn": "kn",
+    "hi": "hi",
+    "te": "te",
+    "ta": "ta",
+}
+
+
+@app.post("/api/v1/chat/audio", response_model=ChatResponse)
+async def chat_with_audio(
+    audio: UploadFile = File(...),
+    request_id: str = Form(...),
+    session_id: str = Form(...),
+    input_language: str | None = Form(default=None),
+    response_language: str = Form(default="en"),
+    plant_id: str | None = Form(default=None),
+    conversation_context: str = Form(default="{}"),
+    generate_audio: bool = Form(default=True),
+):
+    """Transcribe uploaded speech and process it through the existing chat flow."""
+
+    temp_path = None
+
+    try:
+        # 1. Validate the uploaded file extension.
+        extension = Path(audio.filename or "").suffix.lower()
+
+        if extension not in SUPPORTED_AUDIO_EXTENSIONS:
+            raise HTTPException(
+                status_code=415,
+                detail={
+                    "code": "UNSUPPORTED_AUDIO_FORMAT",
+                    "message": "Unsupported audio format.",
+                },
+            )
+
+        # 2. Read at most 25 MB + 1 byte to enforce the size limit.
+        audio_data = await audio.read(MAX_AUDIO_SIZE + 1)
+
+        if not audio_data:
+            raise HTTPException(
+                status_code=400,
+                detail={
+                    "code": "EMPTY_AUDIO",
+                    "message": "The uploaded audio file is empty.",
+                },
+            )
+
+        if len(audio_data) > MAX_AUDIO_SIZE:
+            raise HTTPException(
+                status_code=413,
+                detail={
+                    "code": "AUDIO_TOO_LARGE",
+                    "message": "Audio file must not exceed 25 MB.",
+                },
+            )
+
+        # 3. Validate the selected input language, if supplied.
+        try:
+            selected_language = (
+                normalize_language_code(input_language)
+                if input_language and input_language.strip()
+                else None
+            )
+        except ValueError as exc:
+            raise HTTPException(
+                status_code=422,
+                detail={
+                    "code": "UNSUPPORTED_LANGUAGE",
+                    "message": str(exc),
+                },
+            ) from exc
+
+        # 4. Parse and validate conversation context JSON.
+        try:
+            context_data = json.loads(conversation_context)
+            context = ConversationContext.model_validate(context_data)
+        except (json.JSONDecodeError, ValueError, TypeError) as exc:
+            raise HTTPException(
+                status_code=422,
+                detail={
+                    "code": "INVALID_CONVERSATION_CONTEXT",
+                    "message": "Conversation context must be a valid JSON object.",
+                },
+            ) from exc
+
+        # 5. Save audio to a temporary file for the existing Whisper service.
+        with tempfile.NamedTemporaryFile(
+            suffix=extension,
+            delete=False,
+        ) as temp_file:
+            temp_file.write(audio_data)
+            temp_path = temp_file.name
+
+        # 6. Run synchronous Groq transcription outside the event loop.
+        try:
+            transcription = await run_in_threadpool(
+                transcribe_audio,
+                temp_path,
+                selected_language,
+            )
+        except RuntimeError as exc:
+            if str(exc) == "ASR_UNAVAILABLE":
+                raise HTTPException(
+                    status_code=503,
+                    detail={
+                        "code": "ASR_UNAVAILABLE",
+                        "message": "Speech recognition is temporarily unavailable.",
+                    },
+                ) from exc
+            raise
+
+        transcript = (transcription.get("text") or "").strip()
+
+        if not transcript:
+            raise HTTPException(
+                status_code=422,
+                detail={
+                    "code": "EMPTY_TRANSCRIPTION",
+                    "message": "No speech could be detected in the audio.",
+                },
+            )
+
+        # 7. Resolve the language detected by Whisper.
+        detected_raw = (
+            selected_language
+            or transcription.get("language")
+            or ""
+        )
+        detected_raw = detected_raw.strip().lower()
+        detected_language = LANGUAGE_NAME_TO_CODE.get(detected_raw)
+
+        if not detected_language:
+            raise HTTPException(
+                status_code=422,
+                detail={
+                    "code": "UNSUPPORTED_DETECTED_LANGUAGE",
+                    "message": (
+                        "The detected language is not supported. "
+                        "Please select the spoken language and try again."
+                    ),
+                },
+            )
+
+        logger.info(
+            "Audio transcribed: request_id=%s session_id=%s language=%s",
+            request_id,
+            session_id,
+            detected_language,
+        )
+
+        # 8. Reuse the existing text-chat pipeline without changing its schema.
+        chat_request = ChatRequest(
+            request_id=request_id,
+            session_id=session_id,
+            message=transcript,
+            input_language=detected_language,
+            response_language=response_language,
+            plant_id=plant_id,
+            conversation_context=context,
+            generate_audio=generate_audio,
+        )
+
+        response = await chat(chat_request)
+
+        # 9. Return the same ChatResponse, now including the speech transcript.
+        return response.model_copy(
+            update={
+                "transcript": transcript,
+                "detected_language": detected_language,
+            }
+        )
+
+    finally:
+        # Always remove the temporary audio file, including on errors.
+        if temp_path and os.path.exists(temp_path):
+            try:
+                os.remove(temp_path)
+            except OSError:
+                logger.warning(
+                    "Could not delete temporary audio file: %s",
+                    temp_path,
+                    exc_info=True,
+                )
+
+        await audio.close()
 
 
 # --------------------------------------------------
@@ -270,6 +553,7 @@ def chat(request: ChatRequest):
     response_model=SummarizeResponse,
 )
 def summarize_chat(request: SummarizeRequest):
+
     logger.info(
         "Summarization request received: request_id=%s session_id=%s messages=%d",
         request.request_id,
@@ -277,8 +561,13 @@ def summarize_chat(request: SummarizeRequest):
         len(request.messages_to_summarize),
     )
 
+    # ----------------------------------------------
+    # LANGUAGE VALIDATION
+    # ----------------------------------------------
+
     try:
         language = normalize_language_code(request.language)
+
     except ValueError as exc:
         raise HTTPException(
             status_code=422,
@@ -288,9 +577,20 @@ def summarize_chat(request: SummarizeRequest):
             },
         ) from exc
 
-    messages = [message.model_dump() for message in request.messages_to_summarize]
+    # ----------------------------------------------
+    # MESSAGE VALIDATION
+    # ----------------------------------------------
 
-    message_ids = [message["message_id"] for message in messages]
+    messages = [
+        message.model_dump()
+        for message in request.messages_to_summarize
+    ]
+
+    message_ids = [
+        message["message_id"]
+        for message in messages
+    ]
+
     if len(message_ids) != len(set(message_ids)):
         raise HTTPException(
             status_code=422,
@@ -300,7 +600,12 @@ def summarize_chat(request: SummarizeRequest):
             },
         )
 
+    # ----------------------------------------------
+    # GENERATE SUMMARY
+    # ----------------------------------------------
+
     try:
+
         updated_summary = summarize_conversation(
             existing_summary=request.existing_summary,
             messages_to_summarize=messages,
@@ -310,7 +615,11 @@ def summarize_chat(request: SummarizeRequest):
         )
 
         # This is an estimate, not an exact Gemini token count.
-        estimated_token_count = max(1, math.ceil(len(updated_summary) / 4))
+        estimated_token_count = max(
+            1,
+            math.ceil(len(updated_summary) / 4),
+        )
+
         last_processed_message_id = messages[-1]["message_id"]
 
         response = SummarizeResponse(
@@ -320,7 +629,9 @@ def summarize_chat(request: SummarizeRequest):
             summarized_message_count=len(messages),
             summarized_through_message_id=last_processed_message_id,
             summary_token_count=estimated_token_count,
-            warnings=["summary_token_count is an approximate character-based estimate."],
+            warnings=[
+                "summary_token_count is an approximate character-based estimate."
+            ],
         )
 
         logger.info(
@@ -333,7 +644,12 @@ def summarize_chat(request: SummarizeRequest):
 
         return response
 
+    # ----------------------------------------------
+    # SUMMARIZATION ERROR HANDLING
+    # ----------------------------------------------
+
     except RuntimeError as exc:
+
         logger.exception(
             "Summarization failed: request_id=%s",
             request.request_id,
@@ -366,10 +682,12 @@ def summarize_chat(request: SummarizeRequest):
         ) from exc
 
     except Exception as exc:
+
         logger.exception(
             "Unexpected summarization error: request_id=%s",
             request.request_id,
         )
+
         raise HTTPException(
             status_code=500,
             detail={
