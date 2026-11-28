@@ -124,5 +124,11 @@
     "title": "Catharanthus roseus (L.) G. Don: A Review of Its Ethnobotany, Phytochemistry, Ethnopharmacology and Toxicities",
     "reference": "Kumar S, et al. Journal of Ethnopharmacology. 2022. PMID: 34562562. DOI: 10.1016/j.jep.2021.114647. Confirm the complete author list and final volume/article details from the bibliographic record.",
     "verified": true
-  }
+  },
+  "Amla": {
+  "source_id": "SRC-026",
+  "title": "The Ayurvedic Pharmacopoeia of India – Amalaki (Fresh and Dried Fruit)",
+  "reference": "The Ayurvedic Pharmacopoeia of India. Amalaki (Fresh Fruit Pulp), pp. 6–8; Amalaki (Dried Fruit), pp. 9–11. Source extracted from Ayurvedic Pharmacopoeia of India All Volume-Remaining Plants.txt. ",
+  "verified": true
+}
 }
